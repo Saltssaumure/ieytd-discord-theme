@@ -1,0 +1,15 @@
+/**
+ * @name Portion of IETYD
+ * @author Saltssaumure#7557
+ * @description Portion of I Expect You To Die inspired Discord theme. Please the autoupdater from GitHub instead!
+ * @version 0.1
+ * @source https://github.com/Saltssaumure/ieytd-discord-theme
+ * @website https://discord.gg/ieytd
+*/
+
+/* Title font */
+@import url("https://static.tumblr.com/6nmlfta/mCDr629mj/groteskia.regular.otf");
+@import url("https://static.tumblr.com/6nmlfta/sLFr629n1/groteskia.oblique.otf");
+
+/* Body font - similar to Adrianna */
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
