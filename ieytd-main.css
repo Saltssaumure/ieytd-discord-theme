@@ -1,15 +1,359 @@
 /**
  * @name Portion of IETYD
  * @author Saltssaumure#7557
- * @description Portion of I Expect You To Die inspired Discord theme. Please the autoupdater from GitHub instead!
+ * @description Portion of I Expect You To Die inspired Discord theme. Please download the autoupdater from GitHub instead!
  * @version 0.1
  * @source https://github.com/Saltssaumure/ieytd-discord-theme
  * @website https://discord.gg/ieytd
 */
 
-/* Title font */
-@import url("https://static.tumblr.com/6nmlfta/mCDr629mj/groteskia.regular.otf");
-@import url("https://static.tumblr.com/6nmlfta/sLFr629n1/groteskia.oblique.otf");
-
 /* Body font - similar to Adrianna */
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Mukta&display=swap');
+
+@font-face {
+    font-family: "Groteskia";
+    src: url("https://static.tumblr.com/6nmlfta/mCDr629mj/groteskia.regular.otf") font-weight-normal;
+    src: url("https://static.tumblr.com/6nmlfta/sLFr629n1/groteskia.oblique.otf") font-weight-normal font-italic;
+/*
+    font-weight: normal;
+    font-style: normal;
+*/
+}
+/*
+@font-face {
+    font-family: "Groteskia";
+    
+    font-weight: normal;
+    font-style: italic, oblique;
+}
+*/
+
+body {
+    --font-primary: Mukta, Helvetica, Arial, sans-serif;
+    --font-display: Groteskia, Impact, sans-serif;
+    --font-code: "PT Mono", Consolas, monospace;
+    
+}
+
+code,
+.markup-eYLPri code.inline,
+.codeBlockText-311wOq,
+.codeLine-3a3dbd {
+    font-family: var(--font-code);
+}
+
+.theme-dark {
+    --mutedRed: #c34938;
+    --mutedWhite: #e1cc9a;
+    
+    --text-normal: var(--mutedWhite);
+    --text-muted: var(--mutedWhite);
+    
+    /* These control too much, check again later*/
+    --header-primary: black;
+    --header-secondary: var(--mutedRed);
+    
+    --background-primary: black;
+    --background-secondary: var(--mutedRed);
+    --background-secondary-alt: var(--mutedWhite);
+    --background-tertiary: var(--mutedWhite);
+    --channeltextarea-background: var(--mutedRed);
+    
+    /* Channel names, channel groups, user groups */
+    --channels-default: var(--mutedWhite);
+    
+    /* New unreads bubble */
+    --background-accent: var(--mutedWhite);
+    --background-floating: var(--mutedRed);
+    --background-nested-floating: green;
+    
+    --background-modifier-hover: transparent;
+    --background-modifier-active: transparent;
+    --background-modifier-selected: transparent;
+    /* dividing line between attachments and text */
+    --background-modifier-accent: var(--mutedWhite);
+    
+    /* New messages bar */
+    --brand-experiment: var(--mutedWhite);
+        
+    --interactive-normal: var(--mutedWhite);
+    --interactive-hover: var(--interactive-normal);
+    --interactive-muted: var(--interactive-normal);
+    --interactive-active: black;
+    
+    --scrollbar-thin-thumb: var(--mutedWhite);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--mutedWhite);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-thumb: blue;
+    --scrollbar-auto-scrollbar-color-track: blue;
+    
+    /* Scrollbar */
+/*    --scrollbar-thin-track: var(--mutedWhite);*/
+    
+}
+
+
+/* Banners */
+/* Top banner */
+.wordmarkWindows-2dq6rw {
+    color: black;
+}
+.winButton-3UMjdg {
+    color: var(--mutedWhite);
+    background: black;
+    border-left: 3px solid var(--mutedRed);
+} .winButtonMinMax-3RsPUg:hover,
+.winButtonClose-3Q8ZH5:hover{
+    color: black;
+    background: var(--mutedRed);
+}
+
+/* Chat banner */
+.container-ZMc96U.themed-Hp1KC_{
+    background: var(--background-secondary);
+}
+    .base-21yXnu,
+    .name-3Uvkvr {
+        color: var(--mutedWhite);
+        font-size: 18px;
+        font-style: italic;
+    }
+    .icon-2xnN2Y {
+        color: var(--mutedWhite);
+    }
+    .topic-11NuQZ {
+        color: var(--mutedWhite);
+        font-family: var(--font-display);
+    }
+.theme-dark .children-3xh0VB:after {
+    background: linear-gradient(90deg,transparent 0,var(--background-secondary));
+}
+
+
+/* Member list users*/
+.container-1oeRFJ {
+    background: black;
+    border-radius: 1000px;
+    padding: 0;
+    margin-top: 4px;
+}
+    .layout-1qmrhw {
+        border: 3px solid var(--mutedWhite);
+        border-radius: 1000px;
+    } .selected-1-Z6gm .layout-1qmrhw {
+        background: var(--mutedWhite);
+        border: 3px solid black;
+    }
+        .name-3Vmqxm span {
+            font-family: var(--font-display);
+            line-height: 21px;
+            height: 27px;
+        }
+/* Member list user groups */
+.membersGroup-2eiWxl.container-q97qHp {
+    font-size: 20px;
+    line-height: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* Chat panel */
+/* box around the main section */
+.chatContent-3KubbW
+{
+	border: solid var(--mutedWhite);
+	border-width: 0 10px;
+}
+    .newMessagesBar-1hF-9G {
+        border: 3px solid black;
+        border-top: 0;
+        border-radius: 0 0 15px 15px;
+    }
+        .barButtonBase-Sk2mdB {
+            color: black;
+        }
+    .jumpToPresentBar-1cEnH0 {
+        bottom: -20px;
+        padding-bottom: 28px;
+        border: 3px solid black;
+        border-bottom: 0;
+        border-radius: 15px 15px 0 0;
+    }
+    .theme-dark .form-3gdLxP:before {
+        background: transparent;
+    }
+    /* new messages divider */
+    .divider-2rZFJK{
+        --divider-color: var(--mutedRed);
+    }
+    .unreadPill-3nEWYM {
+        font-family: var(--font-display);
+        font-size: 14px;
+        font-style: italic;
+        color: var(--mutedWhite);
+        height: 20px;
+        width: 40px;
+        border-radius: 10px;
+        right: 50%;
+        margin-right: -20px;
+        top: -10px;
+        padding: 0 2px 5px 0;
+    }
+        .unreadPillCap-2-iI4h {
+            display: none;
+        }
+    /* reply */
+    .repliedMessage-3Z6XBG {
+        color: var(--text-normal);
+    }
+        /* reply jump to message */
+        .repliedTextPreview-1bvxun.clickable-31pE3P,
+        .repliedTextContentIcon-1LQXRB{
+            position: relative;
+            top: 3px;
+            opacity: .64;
+        } .repliedTextPreview-1bvxun.clickable-31pE3P:hover {
+            color: var(--text-normal);
+            opacity: 1;
+        }
+
+    /* Chat text box */
+    .channelTextArea-1VQBuV,
+    .scrollableContainer-15eg7h {
+        border-radius: 25px;
+    }
+    .scrollableContainer-15eg7h {
+        border: 2px solid var(--mutedWhite);
+    }
+        .placeholder-1_mJY1 {
+            font-family: var(--font-display);
+            line-height: 1.2rem;
+        }
+    .cooldownWrapper-2k1jHK {
+        color: var(--mutedRed)!important;
+    }
+
+
+    /* Chat names */
+    .username-h_Y3Us {
+        color: var(--text-normal);
+        font-family: var(--font-display);
+        font-style: normal;
+    }
+
+    /* Chat code boxes */
+    .markup-eYLPri code {
+        background: var(--background-primary);
+    }
+
+    /* Chat new member */
+    .content-vSHmMD a {
+        color: var(--text-normal);
+        font-family: var(--font-display);
+        padding-bottom: 4px;
+    }
+    /* Wave button */
+    .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+    .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:active,
+    .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+        background: var(--mutedRed);
+        color: var(--mutedWhite);
+        border-radius: 20px;
+        border: 3px solid var(--mutedWhite);
+    }
+
+
+/* Channel list */
+/* Channel */
+.containerDefault-YUSmu3 {
+    background: black;
+    border-radius: 0 20px 20px 0;
+    margin-top: 4px;
+    border: 3px solid var(--mutedWhite);
+    border-left: 0;
+}
+    .unreadRelevant-2f-VSK {
+        background: var(--mutedWhite);
+    }
+    .modeUnread-3Cxepe .name-28HaxV,
+    .modeUnread-3Cxepe:hover .name-28HaxV
+    {
+        color: var(--interactive-normal);
+    }
+    /* New unreads bubble */
+    .bar-2eAyLE {
+        border: 3px solid black;
+        border-radius: 15px;
+    }
+        .text-2GsXbW {
+            color: black;
+        }
+    /* Thread spine */
+    .spine-29OFwR {
+        z-index: 1;
+    }
+/* Current channel */
+.selected-2TbFuo.containerDefault-YUSmu3 {
+    background: var(--mutedWhite);
+    border: 3px solid black;
+    border-left: 0;
+}
+/* Muted channel */
+.modeMuted-2T4MDZ .channelName-3KPsGw{
+    text-decoration: var(--mutedRed) underline line-through;
+    text-underline-offset: -.4rem;
+    text-decoration-skip-ink: none;
+}
+/* Channel group */
+.name-3BUDLf.container-q97qHp .overflow-1wOqNV{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-style: italic;
+}
+/* Self info */
+/* Control buttons */
+.button-12Fmur,
+.button-12Fmur:hover {
+    color: black;
+}
+    .strikethrough-2Kl6HF {
+        color: var(--mutedRed);
+    }
+/* Name */
+.title-338goq{
+    line-height: 20px;
+    font-family: var(--font-display);
+}
+/* Icon */
+.wrapper-1VLyxH {
+    border: 3px solid black;
+}
+
+
+/* Server list */
+/* Server groups */
+.expandedFolderBackground-1kSAf6 {
+    border: 3px solid black;
+    left: 10px;
+    top: -2px;
+    bottom: 6px;
+    width: 45px;
+    border-radius: 45px;
+} .expandedFolderBackground-1kSAf6.collapsed-uGXEbi{
+    border: none;
+}
+.wrapper-28eC3z, .svg-2zuE5p {
+    overflow: hidden;   
+}
+    .folder-241Joy {
+        background: transparent;
+    }
+
+.closedFolderIconWrapper-3tRb2d {
+    border: 3px solid black;
+    border-radius: 45px;
+}
+
