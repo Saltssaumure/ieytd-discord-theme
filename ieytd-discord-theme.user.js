@@ -7,6 +7,7 @@
 // @grant        GM_addStyle
 // @run-at       document-start
 // @include      https://discord.com/channels*
+// @license      GNU General Public License v3.0, https://github.com/Saltssaumure/ieytd-discord-theme/blob/main/LICENSE
 // ==/UserScript==
 
 (function() {
