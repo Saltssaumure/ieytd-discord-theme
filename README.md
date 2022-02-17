@@ -1,4 +1,7 @@
 # IEYTD Discord Theme
+[![GitHub downloads](https://img.shields.io/github/downloads/saltssaumure/ieytd-discord-theme/total?color=purple&label=GitHub%20downloads&style=flat-square)](https://github.com/Saltssaumure/ieytd-discord-theme/releases/latest "Latest release")
+![Total size](https://img.shields.io/github/repo-size/saltssaumure/ieytd-discord-theme?style=flat-square "Total size")
+
 A Discord theme inspired by the ["I Expect You To Die" intro sequence](https://www.youtube.com/watch?v=ht1ZChKF4Ek). Theme made by [Saltssaumure](https://github.com/Saltssaumure/).
 
 ![image](https://user-images.githubusercontent.com/29710355/150716493-d073d3f6-4bcc-4003-ae01-1a1eb820bb71.png)
