@@ -13,8 +13,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Mukta&display=swap');
 @font-face {
     font-family: "Groteskia";
-    src: url("https://static.tumblr.com/6nmlfta/mCDr629mj/groteskia.regular.otf") font-weight-normal;
-    src: url("https://static.tumblr.com/6nmlfta/sLFr629n1/groteskia.oblique.otf") font-weight-normal font-italic;
+    src: url("https://saltssaumure.github.io/ieytd-discord-theme/fonts/groteskia.regular.otf") font-weight-normal;
+    src: url("https://saltssaumure.github.io/ieytd-discord-theme/fonts/groteskia.oblique.otf") font-weight-normal font-italic;
 }
 body {
     --font-primary: Mukta, Helvetica, Arial, sans-serif;
