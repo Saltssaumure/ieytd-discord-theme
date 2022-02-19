@@ -1,0 +1,78 @@
+/**
+ * @name IEYTD - Gamma
+ * @author Saltssaumure#7557
+ * @description Gamma portion of I Expect You To Die inspired Discord theme. Please download the autoupdater from GitHub instead!
+ * @version 0.1
+ * @source https://github.com/Saltssaumure/ieytd-discord-theme
+ * @website https://saltssaumure.github.io/ieytd-discord-theme
+ * @donate https://ko-fi.com/saltssaumure
+ * @invite ieytd
+*/
+
+/* FILE CONTENTS
+Targeting BD-specific elements
+    Settings panel
+    Custom CSS editor
+*/
+
+
+/* Settings panel */
+.bd-settings-title,
+.bd-setting-header label,
+.bd-addon-list .bd-description{
+    color: var(--mutedWhite);
+}
+.bd-search,
+.bd-title * {
+    color: black;
+}
+.bd-description-wrap,
+.bd-footer,
+.floating-window-buttons{
+    background: black;
+}
+.bd-addon-card {
+    border: 2px solid var(--mutedWhite);
+    box-shadow: inset 0 0 0 2px var(--mutedWhite);
+}
+.defaultColor-2cKwKo,
+.title-2dsDLn{
+    color: var(--mutedWhite);
+}
+.contentColumn-1C7as6 .button-f2h6uQ{
+    color: black;
+}
+.contentColumn-1C7as6 .button-f2h6uQ:hover {
+    background: var(--mutedRed);
+}
+.contentColumn-1C7as6 .button-f2h6uQ.colorRed-rQXKgM {
+    color: var(--mutedRed);
+}
+.contentColumn-1C7as6 .button-f2h6uQ.colorRed-rQXKgM:hover {
+    color: black;
+}
+.popoutInfo-16MuYF {
+    background: black;
+}
+.accountList-305sx3 .h5-2RwDNl{
+    color: black;
+}
+
+
+/* Custom CSS editor
+    Keep Custom CSS editor and code related parts untouched.
+    Avoids issues when working with the Custom CSS editor.
+*/
+#bd-customcss-detach-container.hljs,
+#bd-customcss-detach-container.inline,
+#bd-customcss-detach-container.hljs :-webkit-any(ol, li, span),
+.editor-wrapper :-webkit-any(textarea, div, span) {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    text-transform: none;
+    text-shadow: none;
+}
+#bd-editor-controls,
+#bd-editor-controls button,
+#bd-editor-controls button:hover{
+    color: black;
+}

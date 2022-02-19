@@ -1,0 +1,223 @@
+/**
+ * @name IEYTD - Beta
+ * @author Saltssaumure#7557
+ * @description Beta portion of I Expect You To Die inspired Discord theme. Please download the autoupdater from GitHub instead!
+ * @version 0.1
+ * @source https://github.com/Saltssaumure/ieytd-discord-theme
+ * @website https://saltssaumure.github.io/ieytd-discord-theme
+ * @donate https://ko-fi.com/saltssaumure
+ * @invite ieytd
+*/
+
+/* FILE CONTENTS
+Views which are not the main server view
+    Friends panel
+    DM list
+    Now playing / active now list
+*/
+
+
+/* Friends panel */
+.theme-dark .container-2cd8Mz {
+    background: var(--mutedRed);
+}
+    /* Friends banner */
+    .searchBar-3TnChZ {
+        border-bottom: 3px solid var(--mutedWhite);
+        height: 45px;
+    }
+    .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+        background: black;
+        border: 2px solid var(--mutedWhite);
+        border-radius: 14px;
+    }
+        /* Friends buttons */
+        .item-3XjbnG[aria-controls="add_friend-tab"]{
+            background: var(--mutedWhite)!important;
+            color: black!important;
+            border: 2px solid var(--mutedWhite);
+            padding: 0 8px;
+            border-radius: 14px;
+        }
+        .item-3XjbnG {
+            line-height: 24px;
+        }
+        /* Divider */
+        .divider-q3P9HC {
+            width: 2px;
+        }
+        /* New friend request bubble */
+        .container-2cd8Mz .numberBadge-37OJ3S {
+            background: black!important;
+        }
+    /* Friends list */
+    .tabBody-2dgbAs {
+        border-left: 10px solid var(--mutedWhite);
+    }
+        /* Friends list search */
+        .container-2oNtJn {
+            background: black;
+            border: 3px solid var(--mutedWhite);
+            border-radius: 19px;
+        }
+        /* Friends list title */
+        .title-x4dI75 {
+            color: black;
+            font-size: 18px;
+            line-height: 24px;
+            margin: 0px 20px 8px 30px;
+        }
+        /* Add friends description */
+        .description-30xx7u {
+            color: var(--mutedWhite);
+        }
+        /* Add friend name box */
+        .addFriendInputWrapper-kkoSV9 {
+            background: black;
+            border: 3px solid var(--mutedWhite);
+            border-radius: 27px;
+        }
+            .addFriendInputWrapper-kkoSV9 .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+                border-radius: 16px;
+                background: var(--mutedWhite);
+                color: black;
+            }
+            .addFriendInputWrapper-kkoSV9 .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ:active,
+            .addFriendInputWrapper-kkoSV9 .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+                background: var(--mutedRed);
+            }
+        /* Empty list wumpus */
+        .theme-dark .text-27cdrj,
+        .theme-dark .title-2CL_z0 {
+            color: var(--mutedWhite);
+        }
+        /* Friends in list */
+        .peopleListItem-u6dGxF,
+        .peopleListItem-u6dGxF.active-2UF8Zh,
+        .peopleListItem-u6dGxF:hover,
+        .peopleListItem-u6dGxF.active-2UF8Zh+.peopleListItem-u6dGxF,
+        .peopleListItem-u6dGxF:hover+.peopleListItem-u6dGxF {
+            border: 2px solid var(--mutedWhite);
+            background: black;
+            margin: 5px 10px 0 20px;
+            padding: 16px 10px;
+            border-radius: 36px;
+        }
+            /* Friend name */
+            .discordTag-3HiQI9 {
+                overflow: visible;
+            }
+                .username-Qpc78p {
+                    color: var(--mutedWhite);
+                    font-family: var(--font-display);
+                    font-size: 18px;
+                    overflow: visible;
+                }
+                .discriminator-WV5K5s {
+                    line-height: 10px;
+                }
+            /* Friend list buttons */
+            .actionButton-3-B2x-:active {
+                background: var(--mutedWhite);
+            }
+                .icon-1WVg4I {
+                    color: var(--mutedRed);
+                }
+                .actionButton-3-B2x-:not(.highlight-3DSi7b) .icon-1WVg4I{
+                    color: var(--mutedWhite);
+                }
+
+
+/* DM list */
+/* New message/friend bubble */
+.privateChannels-oVe7HL .numberBadge-37OJ3S {
+    background: var(--mutedRed)!important;
+}
+/* Direct Messages title */
+.container-q97qHp {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+} .privateChannelsHeaderContainer-1UWASm {
+    padding: 0;
+    padding-top: 12px;
+    align-items: baseline;
+} .privateChannelsHeaderContainer-1UWASm:hover {
+    color: black;
+}
+/* DM channel */
+.channel-1Shao0 {
+    margin-top: 4px;
+    margin-left: 0;
+    max-width: 232px;
+}
+    .interactive-iyXY_x,
+    .interactive-1vLZ_I:focus-within,
+    .interactive-1vLZ_I:hover,
+    .interactive-1vLZ_I:active {
+        background: black;
+        color: var(--mutedWhite);
+        border-radius: 0 40px 40px 0;
+        border: 3px solid var(--mutedWhite);
+        border-left: 0;
+    }    
+    .interactiveSelected-29CP8y,
+    .interactiveSelected-29CP8y:focus-within,
+    .interactiveSelected-29CP8y:hover,
+    .interactiveSelected-29CP8y:active {
+        background: var(--mutedWhite);
+        color: black;
+        border: 3px solid black;
+        border-left: 0;
+    }
+
+/* List name */
+.name-3Vmqxm {
+    font-family: var(--font-display);
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: -5px;
+}
+/* DM name */
+.header-1dhDWV {
+    color: var(--mutedWhite);
+    font-size: 48px;
+}
+    /* Buttons */
+    .chatContent-3KubbW .lookFilled-yCfaCM{
+        border-radius: 20px;
+        color: black;
+    }
+    .chatContent-3KubbW .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
+    .chatContent-3KubbW .lookFilled-yCfaCM.colorBrand-I6CyqQ:active {
+        background: var(--mutedRed);
+        color: black;
+    }
+
+
+/* Now playing / active now list */
+.container-1oAagU {
+    border-left: 10px solid var(--mutedWhite);
+}
+.scroller-hE2gWq {
+    border: 0;
+}
+    /* Title */
+    .scroller-hE2gWq .base-21yXnu {
+        color: var(--mutedWhite);
+    }
+    /* Activity window */
+    .itemCard-3Etziu {
+        border: 2px solid var(--mutedWhite);
+        border-radius: 20px;
+    }
+    .theme-dark .outer-2JOHae.active-1W_Gl9,
+    .theme-dark .outer-2JOHae.interactive-2zD88a:hover {
+        background: var(--mutedRed);
+    }
+        /* Name */
+        .sectionTitle-2AR_TY {
+            font-family: var(--font-display);
+        }
