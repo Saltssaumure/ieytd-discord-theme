@@ -399,6 +399,11 @@ code,
     .metadata-1E7Z4i {
         color: var(--mutedWhite);
     }
+    /* Chat timestamps */
+    .timestamp-6-ptG3 {
+        display: inline-block;
+        color: black;
+    }
     /* Chat mentions */
     .wrapper-1ZcZW- {
         border-radius: 20px;
