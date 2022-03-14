@@ -12,6 +12,23 @@ A Discord theme inspired by the ["I Expect You To Die" intro sequence](https://w
 * Drop the theme file into the `Themes` folder.
 * Enjoy!
 
+### Custom colours
+After installation, desktop app users can define their own colour scheme.
+
+* Open `ieytd.theme.css` using Notepad++ or any other text editor.
+* Get the hex values for your desired colours by using a [colour picker](https://casesandberg.github.io/react-color/).
+* Replace the values after `--color-one`, `--color-two`, `--color-three` with your new hex values.
+* Save, and BD should automatically reload the theme with your new colours.
+
+#### Example
+``` css
+--color-one: #600;
+--color-two: #AAA;
+--color-three: #000;
+```
+![image](https://user-images.githubusercontent.com/29710355/158090723-f7b872b6-8532-41ce-9476-21d1aa7a89a3.png)
+
+
 ## Installation (browser)
 * Install the [TamperMonkey extension/plugin](https://openuserjs.org/about/Userscript-Beginners-HOWTO) for your browser.
 * Click `Install` on the [OpenUserJS](https://openuserjs.org/scripts/Saltssaumure/IEYTD_Discord_Theme) page.
