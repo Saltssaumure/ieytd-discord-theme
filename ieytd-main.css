@@ -46,68 +46,69 @@ code,
 
 .theme-dark,
 .theme-light {
-    --mutedRed: #c34938;
-    --mutedWhite: #e1cc9a;
+    --color-one: #c34938;
+    --color-two: #e1cc9a;
+    --color-three: #000;
     
-    --text-normal: var(--mutedWhite);
-    --text-muted: var(--mutedWhite);
-    --text-link: var(--mutedRed);
-    --textbox-markdown-syntax: var(--mutedWhite);
+    --text-normal: var(--color-two);
+    --text-muted: var(--color-two);
+    --text-link: var(--color-one);
+    --textbox-markdown-syntax: var(--color-two);
     
     /* These control too much, check again later*/
-    --header-primary: black;
-    --header-secondary: var(--mutedRed);
+    --header-primary: var(--color-three);
+    --header-secondary: var(--color-one);
     
-    --background-primary: black;
-    --background-secondary: var(--mutedRed);
-    --background-secondary-alt: var(--mutedWhite);
-    --background-tertiary: var(--mutedWhite);
-    --channeltextarea-background: var(--mutedRed);
+    --background-primary: var(--color-three);
+    --background-secondary: var(--color-one);
+    --background-secondary-alt: var(--color-two);
+    --background-tertiary: var(--color-two);
+    --channeltextarea-background: var(--color-one);
     
     /* Channel names, channel groups, user groups */
     /* removed channel and user groups from this var */
-    --channels-default: var(--mutedWhite);
+    --channels-default: var(--color-two);
     
     /* New unreads bubble */
-    --background-accent: var(--mutedWhite);
-    --background-floating: var(--mutedRed);
+    --background-accent: var(--color-two);
+    --background-floating: var(--color-one);
     --background-nested-floating: green;
     
     --background-modifier-hover: transparent;
     --background-modifier-active: transparent;
     --background-modifier-selected: transparent;
     /* dividing line between attachments and text */
-    --background-modifier-accent: var(--mutedWhite);
+    --background-modifier-accent: var(--color-two);
     
     /* New messages bar */
-    --brand-experiment: var(--mutedWhite);
+    --brand-experiment: var(--color-two);
     /* Chat mentions / channel mentions */
-    --brand-experiment-30a: var(--mutedWhite);
-    --brand-experiment-200: black;
+    --brand-experiment-30a: var(--color-two);
+    --brand-experiment-200: var(--color-three);
     /* Invite people button */
-    --brand-experiment-360: black;
+    --brand-experiment-360: var(--color-three);
     /* Hovered calendar hint button */
-    --brand-experiment-430: var(--mutedRed);
+    --brand-experiment-430: var(--color-one);
     /* Hovered tutorial button */
-    --brand-experiment-560: black;
+    --brand-experiment-560: var(--color-three);
     /* Check boxes */
-    --control-brand-foreground: black;
+    --control-brand-foreground: var(--color-three);
     /* Active button */
-    --brand-experiment-600: black;
+    --brand-experiment-600: var(--color-three);
     
     /* Calendar date grid */
-    --deprecated-text-input-border-disabled: var(--mutedRed);
+    --deprecated-text-input-border-disabled: var(--color-one);
         
-    --interactive-normal: var(--mutedWhite);
+    --interactive-normal: var(--color-two);
     --interactive-hover: var(--interactive-normal);
     --interactive-muted: var(--interactive-normal);
-    --interactive-active: black;
+    --interactive-active: var(--color-three);
     
-    --scrollbar-thin-thumb: var(--mutedWhite);
+    --scrollbar-thin-thumb: var(--color-two);
     --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: var(--mutedWhite);
+    --scrollbar-auto-thumb: var(--color-two);
     --scrollbar-auto-track: transparent;
-    --scrollbar-auto-scrollbar-color-thumb: var(--mutedWhite);
+    --scrollbar-auto-scrollbar-color-thumb: var(--color-two);
     --scrollbar-auto-scrollbar-color-track: transparent;
 }
 
@@ -115,21 +116,21 @@ code,
 /* Banners */
 /* Top banner */
 .wordmarkWindows-2dq6rw {
-    color: black;
+    color: var(--color-three);
 }
 .winButton-3UMjdg {
-    color: var(--mutedWhite);
-    background: black;
-    border-left: 3px solid var(--mutedRed);
+    color: var(--color-two);
+    background: var(--color-three);
+    border-left: 3px solid var(--color-one);
 } .winButtonMinMax-3RsPUg:hover,
 .winButtonClose-3Q8ZH5:hover{
-    color: black;
-    background: var(--mutedRed);
+    color: var(--color-three);
+    background: var(--color-one);
 }
 /* Chat banner */
 .container-ZMc96U.themed-Hp1KC_{
     background: var(--background-secondary);
-    border-bottom: 3px solid var(--mutedWhite);
+    border-bottom: 3px solid var(--color-two);
 }
     /* Titles */
     .base-21yXnu,
@@ -149,7 +150,7 @@ code,
         overflow-y: visible;
     }
     .parentChannelName-R4UlaT {
-        color: black;
+        color: var(--color-three);
     }
     /* Chat banner icons */
     .clickable-ZD7xvu:hover.selected-29KTGM .icon-2xnN2Y {
@@ -157,57 +158,57 @@ code,
     }
         /* new pin bubble */
         .iconBadge-3Mmg92{
-            background: black;
+            background: var(--color-three);
         }
         /* strikethrough notification bell */
         path[d="M21.178 1.70703L22.592 3.12103L4.12103 21.593L2.70703 20.178L21.178 1.70703Z"] {
-            color: black;
+            color: var(--color-three);
         }
     /* Channel description */
     .topic-11NuQZ {
-        color: var(--mutedWhite);
+        color: var(--color-two);
         font-family: var(--font-display);
     }
         .topic-11NuQZ a {
-            color: black;
+            color: var(--color-three);
         }
     .theme-dark .children-3xh0VB:after {
         background: linear-gradient(90deg,transparent 0,var(--background-secondary));
     }
     /* search box */
     .searchBar-jGtisZ {
-        border: 2px solid var(--mutedWhite);
-        background: black;
+        border: 2px solid var(--color-two);
+        background: var(--color-three);
         border-radius: 14px;
         height: 28px;
     }
 /* Channel banner */
 .header-3OsQeK {
-    border-bottom: 3px solid var(--mutedWhite);
+    border-bottom: 3px solid var(--color-two);
 }
 .bannerVisible-Vkyg1I .header-3OsQeK {
-    color: var(--mutedWhite);
+    color: var(--color-two);
     border-bottom-color: transparent;
 }
 
 
 /* Member list panel */
 .container-2o3qEW {
-    border-left: 10px solid var(--mutedWhite);
+    border-left: 10px solid var(--color-two);
 }
 .container-1oeRFJ {
-    background: black;
+    background: var(--color-three);
     border-radius: 1000px;
     padding: 0;
     margin-top: 4px;
 }
     /* Each member */
     .layout-1qmrhw {
-        border: 3px solid var(--mutedWhite);
+        border: 3px solid var(--color-two);
         border-radius: 1000px;
     } .selected-1-Z6gm .layout-1qmrhw {
-        background: var(--mutedWhite);
-        border: 3px solid black;
+        background: var(--color-two);
+        border: 3px solid var(--color-three);
     }
         /* Username */
         .name-3Vmqxm span {
@@ -216,11 +217,11 @@ code,
             height: 27px;
         }
         .clickable-28SzVr.container-1oeRFJ:active {
-            color: var(--mutedWhite);
+            color: var(--color-two);
         }
         /* Status */
         .selected-1-Z6gm .layout-1qmrhw .activity-2EQDZv {
-            color: black;
+            color: var(--color-three);
         }
         /* Bot tag label */
         .px-MnE_OR.botTag-7aX5WZ {
@@ -237,38 +238,38 @@ code,
     line-height: 0;
     text-align: center;
     font-style: italic;
-    color: black;
+    color: var(--color-three);
 }
 
 /* Thread in split mode */
 .chatHeaderBar-2fUORh .colorHeaderSecondary-g5teka{
-    color: black;
+    color: var(--color-three);
 }
 .chat-1-OBC7 .chatContent-3KubbW{
     border-left: 0;
 }
     .threadCreatorName-1NFrTx,
     .autoArchiveDuration-DHnSxx {
-        color: var(--mutedRed);
+        color: var(--color-one);
     }
 
 /* Chat panel */
 /* box around the main section */
 .chatContent-3KubbW {
-	border-left: 10px solid var(--mutedWhite);
+	border-left: 10px solid var(--color-two);
 }
     .newMessagesBar-1hF-9G {
-        border: 3px solid black;
+        border: 3px solid var(--color-three);
         border-top: 0;
         border-radius: 0 0 15px 15px;
     }
         .barButtonBase-Sk2mdB {
-            color: black;
+            color: var(--color-three);
         }
     .jumpToPresentBar-1cEnH0 {
         bottom: -20px;
         padding-bottom: 28px;
-        border: 3px solid black;
+        border: 3px solid var(--color-three);
         border-bottom: 0;
         border-radius: 15px 15px 0 0;
     }
@@ -277,7 +278,7 @@ code,
         height: 55px;
         margin-bottom: -21px;
         border-radius: 15px 15px 0 0;
-        border: 2px solid black;
+        border: 2px solid var(--color-three);
         border-bottom: 0;
     }
     .replyBar-1oi75v {
@@ -291,13 +292,13 @@ code,
     }
     /* new messages divider */
     .divider-2rZFJK{
-        --divider-color: var(--mutedRed);
+        --divider-color: var(--color-one);
     }
     .unreadPill-3nEWYM {
         font-family: var(--font-display);
         font-size: 14px;
         font-style: italic;
-        color: black;
+        color: var(--color-three);
         height: 20px;
         width: 40px;
         border-radius: 10px;
@@ -311,10 +312,10 @@ code,
         }
     /* reply to message button */
     .wrapper-2vIMkT {
-        box-shadow: 0 0 0 2px var(--mutedWhite) inset;
+        box-shadow: 0 0 0 2px var(--color-two) inset;
     }
         .button-3bklZh:not(:last-child) {
-            border-right: 2px solid var(--mutedWhite);
+            border-right: 2px solid var(--color-two);
         }
     /* reply content */
     .repliedMessage-3Z6XBG {
@@ -336,23 +337,23 @@ code,
         border-radius: 25px;
     }
     .scrollableContainer-15eg7h {
-        border: 2px solid var(--mutedWhite);
+        border: 2px solid var(--color-two);
     }
         .placeholder-1_mJY1 {
             font-family: var(--font-display);
             line-height: 1.2rem;
         }
         .fakeLink-2FvUR7 {
-            color: black;
+            color: var(--color-three);
         }
         /* Chat text box code */
         .scrollableContainer-15eg7h .codeBlockText-311wOq,
         .scrollableContainer-15eg7h .codeLine-3a3dbd {
-            background: black;
-            color: var(--mutedWhite);
+            background: var(--color-three);
+            color: var(--color-two);
         }
     .cooldownWrapper-2k1jHK {
-        color: var(--mutedRed)!important;
+        color: var(--color-one)!important;
     }
     /* Chat names */
     .username-h_Y3Us {
@@ -363,8 +364,8 @@ code,
     /* Chat bot tags */
     .botTagRegular-kpctgU {
         border-radius: 8px;
-        background: var(--mutedRed);
-        color: var(--mutedWhite);
+        background: var(--color-one);
+        color: var(--color-two);
     } .rem-3kT9wc.botTag-7aX5WZ {
         border-radius: 8px;
         margin-top: 2px;
@@ -375,34 +376,34 @@ code,
     }
     /* Chat embed link */
     .embed-hKpSrO {
-        border: 1px solid var(--mutedWhite)!important;
+        border: 1px solid var(--color-two)!important;
         border-radius: 15px;
         overflow: hidden;
         /* quick fix for image leaving slight gap before border */
-        box-shadow: 0 0 0 1px var(--mutedWhite) inset;
+        box-shadow: 0 0 0 1px var(--color-two) inset;
     }
         .markup-eYLPri .embedMargin-2PsaQ4 a {
-            color: black;
+            color: var(--color-three);
         }
     /* Chat images */
     .messageAttachment-CZp8Iv>.imageWrapper-oMkQl4{
         border-radius: 15px;
-        border: 2px solid var(--mutedRed);
+        border: 2px solid var(--color-one);
         /* quick fix for image leaving slight gap before border */
-        box-shadow: 0 0 0 2px var(--mutedRed) inset;
+        box-shadow: 0 0 0 2px var(--color-one) inset;
     }
     /* Chat file embeds */
     .filenameLinkWrapper-3Rc6sk .anchor-1MIwyf,
     .metadataContent-lalfZ3 .anchor-1MIwyf {
-        color: black;
+        color: var(--color-three);
     }
     .metadata-1E7Z4i {
-        color: var(--mutedWhite);
+        color: var(--color-two);
     }
     /* Chat timestamps */
     .timestamp-6-ptG3 {
         display: inline-block;
-        color: black;
+        color: var(--color-three);
     }
     /* Chat mentions */
     .wrapper-1ZcZW- {
@@ -411,7 +412,7 @@ code,
         padding: 0 5px;
     }
     .interactive:hover {
-        color: var(--mutedRed);
+        color: var(--color-one);
     }
     /* Chat new member */
     .content-vSHmMD a {
@@ -423,24 +424,24 @@ code,
     .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo,
     .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:active,
     .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
-        background: var(--mutedRed);
-        color: var(--mutedWhite);
+        background: var(--color-one);
+        color: var(--color-two);
         border-radius: 40px;
-        border: 3px solid var(--mutedWhite);
+        border: 3px solid var(--color-two);
     }
 
 
 /* Channel list */
 /* Channel */
 .containerDefault-YUSmu3 {
-    background: black;
+    background: var(--color-three);
     border-radius: 0 20px 20px 0;
     margin-top: 4px;
-    border: 3px solid var(--mutedWhite);
+    border: 3px solid var(--color-two);
     border-left: 0;
 }
     .unreadRelevant-2f-VSK {
-        background: var(--mutedWhite);
+        background: var(--color-two);
     }
     .modeUnread-3Cxepe .name-28HaxV,
     .modeUnread-3Cxepe:hover .name-28HaxV
@@ -449,15 +450,15 @@ code,
     }
     /* New unreads bubble */
     .bar-2eAyLE {
-        border: 3px solid black;
+        border: 3px solid var(--color-three);
         border-radius: 15px;
     }
         .text-2GsXbW {
-            color: black;
+            color: var(--color-three);
         }
     /* New mention channel bubble */
     .sidebar-1tnWFu .numberBadge-37OJ3S {
-        background-color: var(--mutedRed)!important;
+        background-color: var(--color-one)!important;
     }
     /* Thread spine */
     .spine-29OFwR {
@@ -465,17 +466,17 @@ code,
     }
 /* Current channel */
 .selected-2TbFuo.containerDefault-YUSmu3 {
-    background: var(--mutedWhite);
-    border: 3px solid black;
+    background: var(--color-two);
+    border: 3px solid var(--color-three);
     border-left: 0;
 }
     .selected-2TbFuo.containerDefault-YUSmu3 .icon-2W8DHg,
     .selected-2TbFuo.containerDefault-YUSmu3 .actionIcon-2sw4Sl{
-        color: black;
+        color: var(--color-three);
     }
 /* Muted channel */
 .modeMuted-2T4MDZ .channelName-3KPsGw{
-    text-decoration: var(--mutedRed) underline line-through;
+    text-decoration: var(--color-one) underline line-through;
     text-underline-offset: -.4rem;
     text-decoration-skip-ink: none;
 }
@@ -485,16 +486,16 @@ code,
     line-height: 30px;
     text-align: center;
     font-style: italic;
-    color: black;
+    color: var(--color-three);
 }
 /* Self info */
 .panels-3wFtMD {
-    box-shadow: 0 0 6px 6px var(--mutedRed);
-    background: var(--mutedRed);
+    box-shadow: 0 0 6px 6px var(--color-one);
+    background: var(--color-one);
 }
 .panels-3wFtMD>div {
-    background: var(--mutedWhite);
-    border: solid var(--mutedRed);
+    background: var(--color-two);
+    border: solid var(--color-one);
     border-width: 0 4px;
 }
 .panels-3wFtMD>div:first-child {
@@ -504,10 +505,10 @@ code,
 .button-12Fmur,
 .button-12Fmur:hover,
 .button-12Fmur.enabled-9OeuTA:hover {
-    color: black;
+    color: var(--color-three);
 }
     .strikethrough-2Kl6HF {
-        color: var(--mutedRed);
+        color: var(--color-one);
     }
 /* Name */
 .title-338goq{
@@ -516,28 +517,28 @@ code,
 }
 /* Icon */
 .panels-3wFtMD .wrapper-1VLyxH {
-    border: 3px solid black;
+    border: 3px solid var(--color-three);
 }
 /* Stream options */
 .button-1EGGcP.buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX {
-    background: var(--mutedRed);
+    background: var(--color-one);
     border-radius: 20px;
-    border: 2px solid black;
+    border: 2px solid var(--color-three);
 }
 /* connection info */
 .inner-llGtyq {
-    background: black;
+    background: var(--color-three);
     border-radius: 30px;
     padding: 3px 8px 3px 8px;
-    border: 2px solid var(--mutedRed);
+    border: 2px solid var(--color-one);
 }
 
 
 /* Server list */
 /* Server groups */
 .expandedFolderBackground-1kSAf6 {
-    border: 3px solid black;
+    border: 3px solid var(--color-three);
     left: 10px;
     top: -2px;
     bottom: 6px;
@@ -553,40 +554,40 @@ code,
         background: transparent;
     }
 .closedFolderIconWrapper-3tRb2d {
-    border: 3px solid black;
-    background: var(--mutedRed);
+    border: 3px solid var(--color-three);
+    background: var(--color-one);
     border-radius: 45px;
 }
 .icon-3AqZ2e {
-    background: var(--mutedRed);
+    background: var(--color-one);
 }
 /* New mention hover bubble */
 .mention-3XBnnZ {
-    background-color: var(--mutedWhite);
+    background-color: var(--color-two);
 }
 /* New mention server bubble */
 .guilds-2JjMmN .numberBadge-37OJ3S,
 .iconBadge-32fMme {
-    background-color: black!important;
+    background-color: var(--color-three)!important;
 }
 .base-3IDx3L {
-    color: var(--mutedWhite);
+    color: var(--color-two);
 }
 /* Add server and explore buttons */
 .circleIconButton-1VxDrg {
-    color: var(--mutedRed);
-    border: 3px solid var(--mutedRed);
+    color: var(--color-one);
+    border: 3px solid var(--color-one);
     border-radius: 50%;
 }
 .circleIconButton-1VxDrg.selected-2r1Hvo {
-    color: black;
-    border: 3px solid black;
-    background: var(--mutedRed);
+    color: var(--color-three);
+    border: 3px solid var(--color-three);
+    background: var(--color-one);
 }
 /* Discord logo */
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub{
-    background: var(--mutedRed);
-    color: var(--mutedWhite);
+    background: var(--color-one);
+    color: var(--color-two);
 }
 
 
@@ -603,11 +604,11 @@ code,
 }
     /* Search header */
     .searchHeaderTabList-3CZMQB .themed-2-lozF.item-3XjbnG:not(.selected-g-kMVV) {
-        color: var(--mutedRed);
+        color: var(--color-one);
     }
     .searchHeaderTabList-3CZMQB .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
     .searchHeaderTabList-3CZMQB .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover {
-        background: var(--mutedRed);
+        background: var(--color-one);
         border-radius: 12px;
         padding: 0 10px;
     }
@@ -616,5 +617,5 @@ code,
     .button-cfOvv-:hover {
         border-radius: 20px;
         padding: 4px 8px;
-        color: black; 
+        color: var(--color-three); 
     }

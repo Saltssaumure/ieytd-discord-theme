@@ -24,3 +24,13 @@
 @import url("https://saltssaumure.github.io/ieytd-discord-theme/ieytd-alpha.css");
 @import url("https://saltssaumure.github.io/ieytd-discord-theme/ieytd-beta.css");
 @import url("https://saltssaumure.github.io/ieytd-discord-theme/ieytd-gamma.css");
+
+/* User editable colours below. 
+Use this or your favourite colour picker to get a hex code: https://casesandberg.github.io/react-color/ */
+
+.theme-dark,
+.theme-light {
+    --color-one: #c34938;
+    --color-two: #e1cc9a;
+    --color-three: #000;
+}

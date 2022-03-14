@@ -20,42 +20,42 @@ Targeting BD-specific elements
 .bd-settings-title,
 .bd-setting-header label,
 .bd-addon-list .bd-description{
-    color: var(--mutedWhite);
+    color: var(--color-two);
 }
 .bd-search,
 .bd-title * {
-    color: black;
+    color: var(--color-three);
 }
 .bd-description-wrap,
 .bd-footer,
 .floating-window-buttons{
-    background: black;
+    background: var(--color-three);
 }
 .bd-addon-card {
-    border: 2px solid var(--mutedWhite);
-    box-shadow: inset 0 0 0 2px var(--mutedWhite);
+    border: 2px solid var(--color-two);
+    box-shadow: inset 0 0 0 2px var(--color-two);
 }
 .defaultColor-2cKwKo,
 .title-2dsDLn{
-    color: var(--mutedWhite);
+    color: var(--color-two);
 }
 .contentColumn-1C7as6 .button-f2h6uQ{
-    color: black;
+    color: var(--color-three);
 }
 .contentColumn-1C7as6 .button-f2h6uQ:hover {
-    background: var(--mutedRed);
+    background: var(--color-one);
 }
 .contentColumn-1C7as6 .button-f2h6uQ.colorRed-rQXKgM {
-    color: var(--mutedRed);
+    color: var(--color-one);
 }
 .contentColumn-1C7as6 .button-f2h6uQ.colorRed-rQXKgM:hover {
-    color: black;
+    color: var(--color-three);
 }
 .popoutInfo-16MuYF {
-    background: black;
+    background: var(--color-three);
 }
 .accountList-305sx3 .h5-2RwDNl{
-    color: black;
+    color: var(--color-three);
 }
 
 
@@ -74,5 +74,5 @@ Targeting BD-specific elements
 #bd-editor-controls,
 #bd-editor-controls button,
 #bd-editor-controls button:hover{
-    color: black;
+    color: var(--color-three);
 }
