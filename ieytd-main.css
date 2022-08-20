@@ -440,6 +440,14 @@ code,
     border: 3px solid var(--color-two);
     border-left: 0;
 }
+    /* Unread pip */
+    .unread-36eUEm {
+        --unreadSize: 6px;
+        height: calc(var(--unreadSize)*2);
+        width: var(--unreadSize);
+        border-radius: 0 var(--unreadSize) var(--unreadSize) 0;
+        margin-top: calc(0px - var(--unreadSize));
+    }
     .unreadRelevant-2f-VSK {
         background: var(--color-two);
     }
