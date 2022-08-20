@@ -13,6 +13,7 @@
 Targeting BD-specific elements
     Settings panel
     Custom CSS editor
+    Plugins
 */
 
 
@@ -76,3 +77,41 @@ Targeting BD-specific elements
 #bd-editor-controls button:hover{
     color: var(--color-three);
 }
+
+
+/* ChannelTabs plugin */
+#channelTabs-container {
+    background: var(--color-three)!important;
+}
+    .channelTabs-favContainer,
+    .channelTabs-tabContainer {
+        gap: 4px;
+    }
+        .channelTabs-fav {
+            background: var(--color-one)!important;
+            border-radius: 11px 11px 0 0 !important;
+        }
+        .channelTabs-unreadBadge {
+            background: var(--color-two)!important;
+            color: var(--color-three)!important;
+        }
+        #channelTabs-settingsMenu {
+            background: var(--color-one)!important;
+            border-radius: 11px 0 0 11px !important;
+        }
+
+    #channelTabs-container>:not(#channelTabs-settingsMenu)+div {
+        padding-top: 2px !important;
+        border-top: none!important;
+    }
+        .channelTabs-tab {
+            background: var(--color-one)!important;
+            border-radius: 0 0 11px 11px !important;
+        }
+        .channelTabs-newTab {
+            color: var(--color-two)!important;
+        }
+        .channelTabs-closeTab:hover {
+            background: transparent!important;
+            color: var(--color-two)!important;
+        }
