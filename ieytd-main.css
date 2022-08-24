@@ -597,6 +597,23 @@ code,
     background: var(--color-one);
     color: var(--color-two);
 }
+/* Public server bubble */
+.communityInfoPill-2Mll66 {
+    color: var(--color-three);
+}
+/* Boost progress bar */
+.progressBarContainer-1efroK {
+    border: 3px solid var(--color-two);
+    border-radius: 8px;
+}
+    .progressBar-2yl2pi,
+    .container-2giAcK:hover .progressBar-2yl2pi {
+        background: linear-gradient(
+            90deg,
+            var(--color-one),
+            var(--color-two)
+        );
+    }
 
 
 /* Search result list */
