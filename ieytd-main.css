@@ -68,17 +68,22 @@ code,
     /* Channel names, channel groups, user groups */
     /* removed channel and user groups from this var */
     --channels-default: var(--color-two);
+    --channel-icon: var(--color-two);
+    --channel-text-area-placeholder: var(--color-two);
     
     /* New unreads bubble */
     --background-accent: var(--color-two);
     --background-floating: var(--color-one);
     --background-nested-floating: green;
-    
+
     --background-modifier-hover: transparent;
     --background-modifier-active: transparent;
     --background-modifier-selected: transparent;
     /* dividing line between attachments and text */
     --background-modifier-accent: var(--color-two);
+
+    --input-background: var(--color-one);
+    --modal-background: var(--color-one);
     
     /* New messages bar */
     --brand-experiment: var(--color-two);
@@ -110,6 +115,8 @@ code,
     --scrollbar-auto-track: transparent;
     --scrollbar-auto-scrollbar-color-thumb: var(--color-two);
     --scrollbar-auto-scrollbar-color-track: transparent;
+
+    --status-danger: var(--color-one);
 }
 
 
@@ -183,14 +190,33 @@ code,
         height: 28px;
     }
 /* Channel banner */
-.header-3OsQeK {
-    border-bottom: 3px solid var(--color-two);
+/* Chat/channel banner fixes */
+.header-3OsQeK,
+.communityInfoVisible-3zc5_s .header-3OsQeK,
+.communityInfoVisible-3zc5_s .header-3OsQeK:hover,
+.hasBanner-2IrYih .header-3OsQeK,
+.hasBanner-2IrYih .header-3OsQeK:hover {
+    border: none;
+    box-shadow: 0 -2.5px 0 0 var(--color-two) inset;
 }
+.header-3OsQeK .flowerStar-2tNFCR path {
+    fill: var(--color-three);
+}
+.content-1jQy2l::before {
+    display: none;
+}
+.communityInfoVisible-3zc5_s .communityInfoContainer-1dMVpU {
+    margin-top: 1px;
+    margin-left: -20px;
+}
+    .communityInfoPill-2Mll66 {
+        border-radius: 0 10px 10px 0;
+    }
+
 .bannerVisible-Vkyg1I .header-3OsQeK {
     color: var(--color-two);
     border-bottom-color: transparent;
 }
-
 
 /* Member list panel */
 .container-2o3qEW {
@@ -287,6 +313,12 @@ code,
         .name-3DDHNY {
             font-family: var(--font-display);
         }
+        .replyBar-1oi75v .replyLabel-WWnhHi {
+            color: var(--color-two)!important;
+        }
+        .replyBar-1oi75v .mentionButton-3C5YMI {
+            color: var(--color-two);
+        }
     .theme-dark .form-3gdLxP:before {
         background: transparent;
     }
@@ -355,6 +387,50 @@ code,
     .cooldownWrapper-2k1jHK {
         color: var(--color-one)!important;
     }
+    /* Emoji/command autocomplete */
+    .theme-dark .autocomplete-3NRXG8 {
+        background-color: var(--color-three);
+        border-radius: 20px;
+        border: 2px solid var(--color-two);
+    }
+        .autocomplete-3NRXG8 .contentTitle-3CylD3 {
+            font-size: 20px;
+            margin-left: 10px;
+            color: var(--color-one);
+        }
+            .theme-dark .contentTitle-3CylD3 strong {
+                color: var(--color-two);
+            }
+        .autocompleteRowContentPrimary-1kUW9H .text-md-normal-304U3g {
+            color: var(--color-two)!important;
+        }
+        .autocompleteRowContentSecondary-Oobh2b {
+            color: var(--color-one)!important;
+        }
+        .usageWrapper-2eaALZ .title-158kHv{
+            color: var(--color-two)!important;
+        }
+            .theme-dark .option-Tt7anD {
+                background-color: var(--color-one);
+            }
+            .optionals-2w-NPQ {
+                border-left-color: var(--color-one);
+            }
+                .optionalCount-1BzEgg {
+                    color: var(--color-one);
+                }
+        .selected-3B2w1z,
+        .selected-3B2w1z:hover {
+            background-color: var(--color-one);
+        }
+            .icon-1kx1ir,
+            .selectable-fgiA2c:hover .icon-1kx1ir {
+                color: var(--color-one);
+            }
+            .selected-3B2w1z .icon-1kx1ir,
+            .selected-3B2w1z:hover .icon-1kx1ir {
+                color: var(--color-three);
+            }
     /* Chat names */
     .username-h_Y3Us {
         color: var(--text-normal);
@@ -429,9 +505,13 @@ code,
         border-radius: 40px;
         border: 3px solid var(--color-two);
     }
+    /* Message action hover */
+    .full-motion .wrapper-2vIMkT:hover {
+        box-shadow: 0 0 0 2px var(--color-two) inset;
+    }
 
 
-/* Channel list */
+/* Server channel list */
 /* Channel */
 .containerDefault-YUSmu3 {
     background: var(--color-three);
@@ -540,6 +620,10 @@ code,
     border-radius: 30px;
     padding: 3px 8px 3px 8px;
     border: 2px solid var(--color-one);
+}
+/* Voice channel user limit */
+.total-1c5KCN {
+    color: var(--color-three);
 }
 
 

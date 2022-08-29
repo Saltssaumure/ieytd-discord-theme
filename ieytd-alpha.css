@@ -14,6 +14,8 @@ Popouts
     SMALL POPOUTS
         Pinned messages, mini user profiles, inbox
         Select friends to create new group chat 
+        Emoji picker
+        Account switcher
     FOCUS LOCK POPOUTS
         Channel description popout DONE
         Member profile popout DONE
@@ -21,6 +23,7 @@ Popouts
         Add new server DONE
         Folder settings DONE
         Link warning DONE
+        Nitro popout DONE
     Search popout
     Tooltips
 */
@@ -138,6 +141,15 @@ Popouts
         .jumpButton-1V_1FA:hover .text-2ifC_x {
             color: var(--color-one);  
         }
+    /* Inbox setting checkboxes */
+    .colorDefault-CDqZdO .checkbox-hADx5o,
+    .colorDefault-CDqZdO .radioSelection-1UHp0b {
+        color: var(--color-three);
+    }
+    /* Channel in inbox */
+    .guildName-y1svcU {
+        color: var(--color-two);
+    }
     /* Popout right click options menu */
     .menu-1QACrS {
         border: 3px solid var(--color-three);
@@ -329,6 +341,137 @@ Popouts
             color: var(--color-two);
         }
 
+/* Emoji picker */
+.contentWrapper-3vHNP2 {
+    border: 3px solid var(--color-two);
+}
+    /* Emoji picker header */
+    .header-11eigE,
+    .header-uVCAlo {
+        box-shadow: none;
+    }
+        .searchBar-2M9mRP,
+        .container-1SX9VC,
+        .diversitySelectorOptions-3DhNYs {
+            background-color: var(--color-three);
+            border: 2px solid var(--color-two);
+            border-radius: 26px;
+        }
+        /* Gifs stickers emoji buttons */
+        .navButton-1XuvI- {
+            border-radius: 14px;
+        }
+        .navButtonActive-1EqC5l,
+        .navButtonActive-1EqC5l:hover {
+            color: var(--color-three);
+        }
+    /* Emoji panel */
+    .bodyWrapper-1eSOtW,
+    .wrapper-1NNaWG,
+    .wrapper-i1awk3,
+    .content-A8TzKf,
+    .wrapper-3z7DuG {
+        background-color: var(--color-three);
+    }
+        /* Server group header */
+        .wrapper-1NNaWG {
+            border-bottom: 1px solid var(--color-two);
+            margin-right: 4px;
+        }
+            .header-1XpmZs,
+            .header-1XpmZs.interactive-MpGq2z:hover:hover {
+                color: var(--color-two);
+            }
+        /* Selected emoji */
+        .emojiItem-277VFM.emojiItemSelected-2Lg50V {
+            background-color: var(--color-one);
+        }
+        /* Loading emoji */
+        .theme-dark .imageLoading-2uloYN {
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACPElEQVRoge3av08TYRzH8ReXiL/RxRhHgy4OaFxoDDcYFopuxEH/Cxdlk1Fc5K8QB0flJuLQRG8ypIsDEEdDWBQElC4OdyUtUGhpw9MmfY/X55r3J89z9zy573dAk5SKhUt4hIe4h5u4grPN/kcD/uE3fmAJn/EpTtI/zdw8cNyAUrFwCy/xFBdP7tkSW5jHbJykK0cNbBigVCycwwyeY7CTdi2wizm8ipP072EDDg1QKhaG8UG2VLqBJTw5bDYOBCgVC/exgOunINYKa5iMk/Rb7cW6APl6/4JrpyjWCut4UDsTewFKxcJ5fMXdAGKtUEYhTtIdiGp+mNH98jAic0U+A/lD+x1nwji1TAV34iRdqc7AtN6RJ3OdhoFSsXAZP53eJtUptnAjwqTekydznowwHtqkDcYj2VPdq4xEGA5t0QbDEYZCW7TBUCTcSbMTDEbHj+lu+gFC0w8Qmn6A0PQDhKYfIDT9AKHpBwhNJPsC3KvsRtgIbdEGGxFWQ1u0wWok+1jaq5QjLIa2aIPFSFbM2AptcgK2sRDFSbqJ96FtTsB8nKSb1X3gteyTda9QwSz5RpaXbN6GNGqRuThJlzlYoemFN1JZTYVmL0Bec5qSFdK6lXVMxUm6Xb1QdxbKl9KErKTZbaxhYn+t+MBhLq/Djumu5VTG2P4aMQ1Oo3nKUbwR9u1UyR1GG/VMNNPscRsv8AwXOqrXmB28kzV7LB818NgAVfJ2m8fq222uar+6WcEv9e02H5ttt/kPJ8OM8JSfpsEAAAAASUVORK5CYII=");
+        }
+    /* Emoji server sidebar */
+    .emojiPickerInExpressionPicker-2nOwH8 .categoryList-2qRrlj,
+    #sticker-picker-tab-panel .categoryList-2GgCrD {
+        top: 54px;
+    }
+            .categoryIcon-2cYeku,
+            .categoryItemDefaultCategory-3haEDq:hover .categoryIcon-2cYeku {
+                color: var(--color-one);
+            }
+        .categoryItemDefaultCategorySelected-2YeRUu,
+        .categoryItemDefaultCategorySelected-2YeRUu:hover {
+            background-color: var(--color-one);
+            border-radius: 50%;
+        }
+            .categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku,
+            .categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku {
+                color: var(--color-three);
+            }
+        .inspector-DFKXwB,
+        .unicodeShortcut-3N8oDe,
+        .standardStickerShortcut-ObSns3 {
+            background-color: var(--color-one);
+        }
+        .premiumCategorySelected-2KWLhN,
+        .premiumCategorySelected-2KWLhN:hover,
+        .stickerCategoryGenericSelected-DnO2K8,
+        .stickerCategoryGenericSelected-DnO2K8:hover {
+            background-color: var(--color-two);
+        }
+            .stickerCategory-2f6iSo,
+            .stickerCategoryGenericSelected-DnO2K8 .stickerCategoryGenericIcon-3wumVD {
+                color: var(--color-one);
+            }
+    /* Gif selector favourites */
+    .theme-dark .categoryFadeBlurple-1l49_Q,
+    .theme-light .categoryFadeBlurple-1l49_Q,
+    .theme-dark .categoryFadeBlurple-1l49_Q:hover,
+    .theme-light .categoryFadeBlurple-1l49_Q:hover {
+        background-color: transparent;
+    }
+    /* Gif selector category text */
+    .theme-dark .categoryText-3B1jLN,
+    .theme-light .categoryText-3B1jLN {
+        color: var(--color-two);
+        text-shadow: none;
+    }
+
+/* Emoji info popout */
+.popoutContainer-2wbmiM {
+    border: 2px solid var(--color-two);
+}
+    /* Emoji info loading */
+    .popoutLoadingForeground-3xnRkg {
+        background: var(--color-two);
+    }
+    /* Get nitro button */
+    .popoutContainer-2wbmiM .shinyButton-2Q9MDB,
+    .popoutContainer-2wbmiM .shinyButton-2Q9MDB:hover,
+    .popoutContainer-2wbmiM .shinyButton-2Q9MDB:active {
+        background: var(--color-three);
+    }
+
+/* Account switcher */
+#account {
+    background: var(--color-three);
+}
+    .username-Iwoq2j div:last-child {
+        color: var(--color-three)!important;
+    }
+    .hintText-1gwhJG {
+        color: var(--color-two)!important;
+    }
+    .focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
+    .focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry {
+        color: var(--color-two);
+    }
+    .activeIcon-1ykRnF circle {
+        fill: var(--color-two);
+    }
+    .activeIcon-1ykRnF path {
+        fill: var(--color-three);
+    }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------
@@ -483,6 +626,54 @@ Popouts
             border-radius: 27px;
             margin-bottom: 3px;
         }
+    /* Member profile modal fixes */
+    .userInfoText-2MFCmH div {
+        color: var(--color-one);
+    }
+    .theme-dark .activityProfile-1712BN .activityName-3YXl6e,
+    .theme-dark .activityProfile-1712BN .content-tXPNDw,
+    .theme-dark .activityProfile-1712BN .details-2-ciHo,
+    .theme-dark .activityProfile-1712BN .name-1-Q7l2,
+    .theme-dark .activityProfile-1712BN .nameNormal-2fPMD2,
+    .theme-dark .activityProfile-1712BN .nameWrap-3TyM52,
+    .theme-dark .activityUserPopout-2MzGCj .activityName-3YXl6e,
+    .theme-dark .activityUserPopout-2MzGCj .content-tXPNDw,
+    .theme-dark .activityUserPopout-2MzGCj .details-2-ciHo,
+    .theme-dark .activityUserPopout-2MzGCj .name-1-Q7l2,
+    .theme-dark .activityUserPopout-2MzGCj .nameNormal-2fPMD2,
+    .theme-dark .activityUserPopout-2MzGCj .nameWrap-3TyM52,
+    .theme-dark .activityUserPopoutV2-3eKqzY .activityName-3YXl6e,
+    .theme-dark .activityUserPopoutV2-3eKqzY .content-tXPNDw,
+    .theme-dark .activityUserPopoutV2-3eKqzY .details-2-ciHo,
+    .theme-dark .activityUserPopoutV2-3eKqzY .name-1-Q7l2,
+    .theme-dark .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2,
+    .theme-dark .activityUserPopoutV2-3eKqzY .nameWrap-3TyM52,
+    .theme-light .activityProfile-1712BN .activityName-3YXl6e,
+    .theme-light .activityProfile-1712BN .content-tXPNDw,
+    .theme-light .activityProfile-1712BN .details-2-ciHo,
+    .theme-light .activityProfile-1712BN .name-1-Q7l2,
+    .theme-light .activityProfile-1712BN .nameNormal-2fPMD2,
+    .theme-light .activityProfile-1712BN .nameWrap-3TyM52,
+    .theme-light .activityUserPopout-2MzGCj .activityName-3YXl6e,
+    .theme-light .activityUserPopout-2MzGCj .content-tXPNDw,
+    .theme-light .activityUserPopout-2MzGCj .details-2-ciHo,
+    .theme-light .activityUserPopout-2MzGCj .name-1-Q7l2,
+    .theme-light .activityUserPopout-2MzGCj .nameNormal-2fPMD2,
+    .theme-light .activityUserPopout-2MzGCj .nameWrap-3TyM52,
+    .theme-light .activityUserPopoutV2-3eKqzY .activityName-3YXl6e,
+    .theme-light .activityUserPopoutV2-3eKqzY .content-tXPNDw,
+    .theme-light .activityUserPopoutV2-3eKqzY .details-2-ciHo,
+    .theme-light .activityUserPopoutV2-3eKqzY .name-1-Q7l2,
+    .theme-light .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2,
+    .theme-light .activityUserPopoutV2-3eKqzY .nameWrap-3TyM52 {
+        color: var(--color-one);
+    }
+    .barInner-3dHef4 {
+        background-color: var(--color-one);
+    }
+    .text-31kWmP {
+        color: var(--color-one);
+    }
     
 /* Ctrl+T quickswitcher focus lock popout */
 .quickswitcher-pKcM9U {
@@ -592,6 +783,30 @@ Popouts
     }
     .minorAction-194-_3 {
         color: var(--color-three);
+    }
+
+/* "Wanna upload your own banner?" Nitro popout */
+.theme-dark .root-g14mjS {
+    box-shadow: none;
+}
+    .artContainer-1yaXct {
+        box-shadow: none;
+    }
+    .theme-dark .root-g14mjS .content-2hZxGK {
+        border: none;
+    }
+    /* Links in nitro popout */
+    .root-g14mjS .anchor-1MIwyf {
+        color: var(--color-three);
+    }
+    /* Footer in nitro popout */
+    /* Minor buttons in nitro popout footer */
+    .theme-dark .footer-31IekZ .lookLink-15mFoz.colorPrimary-2AuQVo {
+        color: var(--color-three);
+    }
+    /* Subscribe button in nitro popout footer */
+    .theme-dark .footer-31IekZ .lookFilled-yCfaCM.colorGreen-3y-Z79 {
+        background: var(--color-three);
     }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------
@@ -738,3 +953,8 @@ Popouts
     .icon-3BYlXK {
         color: var(--color-three);
     }
+
+/* Emoji tooltip Click to learn more */
+.clickCTA-1bk0UN {
+    color: var(--color-one);
+}
