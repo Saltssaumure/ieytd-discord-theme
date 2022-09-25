@@ -1,0 +1,8 @@
+{
+    "name": "IEYTD",
+    "description": "I Expect You To Die inspired Discord theme.",
+    "version": "Autoupdate v2",
+    "author": "Saltssaumure",
+    "theme": "ieytd.theme.css",
+    "license": "GPL-3.0"
+}
