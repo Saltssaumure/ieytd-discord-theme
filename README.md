@@ -2,23 +2,25 @@
 [![GitHub downloads](https://img.shields.io/github/downloads/saltssaumure/ieytd-discord-theme/total?color=purple&label=GitHub%20downloads&style=flat-square)](https://github.com/Saltssaumure/ieytd-discord-theme/releases/latest "Latest release")
 ![Total size](https://img.shields.io/github/repo-size/saltssaumure/ieytd-discord-theme?style=flat-square "Total size")
 
-A Discord theme inspired by the ["I Expect You To Die" intro sequence](https://www.youtube.com/watch?v=ht1ZChKF4Ek). Theme made by [Saltssaumure](https://github.com/Saltssaumure/).
+***A tri-tone Discord theme inspired by the ["I Expect You To Die" intro sequence](https://www.youtube.com/watch?v=ht1ZChKF4Ek).***
 
 ![image](https://user-images.githubusercontent.com/29710355/150716493-d073d3f6-4bcc-4003-ae01-1a1eb820bb71.png)
 
-## Installation (desktop app)
-* Install [BetterDiscord](https://github.com/BetterDiscord/Installer) or other another Discord client with theme support.
-* Download the [ieytd.theme.css](https://github.com/Saltssaumure/ieytd-discord-theme/releases/latest) file.
-* Drop the theme file into the `Themes` folder.
-* Enjoy!
+## Installation
+1. Install [BetterDiscord](https://betterdiscord.app/).
+2. Download the theme file:
+    - [GitHub](https://github.com/Saltssaumure/ieytd-discord-theme/releases/latest)
+    - [BD Store](https://betterdiscord.app/theme/IEYTD)
+3. Place theme file in BetterDiscord's theme folder:
+    - Windows: `%appdata%/betterdiscord/themes`
+    - Mac: `~/Library/Application Support/betterdiscord/themes`
+    - Linux: `~/.config/BetterDiscord/themes`
+
+## Customisation
 
 ### Custom colours
-After installation, desktop app users can define their own colour scheme.
-
-* Open `ieytd.theme.css` using Notepad++ or any other text editor.
-* Get the hex values for your desired colours by using a [colour picker](https://casesandberg.github.io/react-color/).
-* Replace the values after `--color-one`, `--color-two`, `--color-three` with your new hex values.
-* Save, and BD should automatically reload the theme with your new colours.
+* Theme settings: change the values of `--color-one`, `--color-two`, `--color-three` to a CSS-recognised colour.
+* Default values: `#c34938`, `#e1cc9a`, `#000` respectively.
 
 #### Example
 ``` css
@@ -28,14 +30,12 @@ After installation, desktop app users can define their own colour scheme.
 ```
 ![image](https://user-images.githubusercontent.com/29710355/158090723-f7b872b6-8532-41ce-9476-21d1aa7a89a3.png)
 
+## License
+- [GNU General Public License v3.0](https://github.com/Saltssaumure/ieytd-discord-theme/blob/main/LICENSE)  
+<span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with this theme, as long as you allow others to do the same with your version.
 
-## Installation (browser)
-* Install the [TamperMonkey extension/plugin](https://openuserjs.org/about/Userscript-Beginners-HOWTO) for your browser.
-* Click `Install` on the [OpenUserJS](https://openuserjs.org/scripts/Saltssaumure/IEYTD_Discord_Theme) page.
-* Enjoy!
-
-## Got feedback?
-* Send me a ping on Discord: Saltssaumure#7557
-* Or post an issue on GitHub.
+## Questions or suggestions?
+- Post [an issue](https://github.com/Saltssaumure/ieytd-discord-theme/issues) on GitHub.
+- Post in `#theme-support` on [my support server](https://discord.gg/uy8nKQVatp).
 
 

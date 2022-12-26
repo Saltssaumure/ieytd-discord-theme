@@ -1,7 +1,7 @@
 {
     "name": "IEYTD",
-    "description": "I Expect You To Die inspired Discord theme.",
-    "version": "Autoupdate v2",
+    "description": "A tri-tone theme inspired by IEYTD",
+    "version": "Autoupdate v3",
     "author": "Saltssaumure",
     "theme": "ieytd.theme.css",
     "license": "GPL-3.0"
