@@ -1,0 +1,220 @@
+// Channel sidebar
+.sidebar-1tnWFu {
+    --background-modifier-hover: transparent;
+    --background-modifier-selected: transparent;
+    --background-modifier-active: transparent;
+
+    --interactive-normal: var(--color-two);
+    --interactive-hover: var(--color-two);
+    --interactive-active: var(--color-two);
+    --interactive-muted: var(--color-one);
+    --status-danger: var(--color-one);
+    --channel-icon: var(--color-two);
+    --text-normal: var(--color-two);
+
+    // All except self panel
+    .container-1NXEtd {
+        background: var(--color-one);
+
+        // Server banner
+        .container-1-ERn5 {
+            box-shadow: 0 (-$thin) 0 0 var(--color-two) inset;
+            
+            .headerContent-2SNbie {
+                --header-primary: var(--color-two);
+
+                // Server status star
+                .flowerStar-2tNFCR path {
+                    fill: var(--color-three);
+                }
+                .boostedGuildIconGem-u5aHBL,
+                .icon-3BYlXK {
+                    color: var(--color-two);
+                }
+
+                // Server name
+                .name-3Uvkvr {
+                    font-family: var(--font-display);
+                    position: relative;
+                    font-style: oblique;
+                    bottom: 4px;
+                    font-size: 22px;
+                    line-height: 32px;
+                    color: var(--color-three);
+                }
+            }
+            // Public server bubble
+            .communityInfoContainer-1dMVpU {
+                margin-top: 1px;
+                margin-left: -20px;
+                --background-accent: var(--color-two);
+
+                .communityInfoPill-2Mll66 {
+                    border-radius: 0 $max $max 0;
+                    color: var(--color-three);
+                }
+            }
+        }
+
+        // Channel list
+        $channel-height: 16px;
+
+        @mixin channel() {
+            background: var(--color-three);
+            border: $x-thin solid var(--color-two);
+            border-radius: 0 $channel-height $channel-height 0;
+            margin-top: 4px;
+            border-left: 0;
+            .mainContent-20q_Hp,
+            .iconItem-1EjiK0 {
+                padding: 2px 0;
+            }
+        }
+
+        // Divider
+        .sectionDivider-189lqb,
+        .divider-3qUeLQ {
+            // width: auto;
+            // height: $thin;
+            // border-radius: $max;
+            // background-color: var(--color-two);
+            display: none;
+        }
+        
+        // Server home
+        .content-2a4AW9>.wrapper-NhbLHG {
+            @include channel;
+        }
+
+        // Show all voice channels button
+        .voiceChannelsButton-SRmgo8 {
+            border: $x-thin solid var(--color-two);
+            background: var(--color-three);
+            border-radius: $max;
+        }
+
+        // Channel category
+        .container-q97qHp {
+            text-transform: none;
+            text-align: center;
+            --interactive-hover: var(--color-three);
+        }
+
+        // Channel
+        .containerDefault-YUSmu3 {
+            @include channel;
+
+            // Selected channel
+            &.selected-2TbFuo {
+                background: var(--color-two);
+                border-color: var(--color-three);
+                --channel-icon: var(--color-three);
+                --interactive-normal: var(--color-three);
+                --interactive-active: var(--color-three);
+                --interactive-hover: var(--color-three);
+            }
+
+            // Muted channel
+            .modeMuted-2T4MDZ:hover {
+                .actionIcon-2sw4Sl {
+                    --interactive-normal: var(--color-one);
+                    --interactive-hover: var(--color-one);
+                }
+                .name-28HaxV {
+                    --interactive-hover: var(--color-one);
+                }
+            }
+
+            // VC user limit
+            .wrapper-2fEmwW {
+                margin-right: -5px;
+                .users-2JoyGL {
+                    --background-primary: var(--color-one);
+                }
+                .total-1c5KCN {
+                    --background-tertiary: var(--color-two);
+                    color: var(--color-three);
+                }
+            }
+        }
+
+        // Active threads
+        .container-1Bj0eq {
+            border-bottom-right-radius: $channel-height;
+            border: solid var(--color-two);
+            border-width: 0 $x-thin $x-thin 0;
+            overflow: hidden;
+            width: 210px;
+
+            // Thread
+            .containerDefault-YUSmu3 {
+                border: none;
+                margin-top: 0;
+                border-radius: 0;
+            }
+
+            // Spine
+            .spineBorder-1-F4s1 {
+                z-index: 1;
+            }
+        }
+
+        // Unread pip
+        .unread-36eUEm {
+            $unread-size: 6px;
+            height: $unread-size * 2;
+            width: $unread-size;
+            border-radius: 0 $unread-size $unread-size 0;
+            margin-top: -$unread-size;
+        }
+
+        // Mention in channel
+        .numberBadge-37OJ3S {
+            --status-danger: var(--color-two);
+            border: 2px solid var(--color-two);
+            color: var(--color-three);
+            padding-left: 2px;
+            padding-bottom: 5px;
+        }
+    }
+
+    // Self panel
+    .panels-3wFtMD {
+        background: var(--color-one);
+        --interactive-normal: var(--color-two);
+        --interactive-hover: var(--color-two);
+        --header-primary: var(--color-three);
+        --header-secondary: var(--color-two);
+        --status-danger: var(--color-two);
+        border-top: $thin solid var(--color-two);
+
+        // Username
+        .title-338goq {
+            font-family: var(--font-display);
+            margin-top: -10px;
+            line-height: 28px;
+        }
+
+        // User icon
+        .wrapper-1VLyxH {
+            border: $x-thin solid var(--color-two);
+            background: var(--color-three);
+        }
+
+        // Stream options
+        .button-1EGGcP.buttonColor-3bP3fX,
+        .button-1EGGcP .buttonColor-3bP3fX {
+            background: var(--color-three);
+            border-radius: $max;
+            border: $x-thin solid var(--color-two);
+        }
+
+        // Connection info
+        .inner-llGtyq {
+            --text-positive: var(--color-three);
+            --text-warning: var(--color-three);
+            --text-danger: var(--color-three);
+            --text-muted: var(--color-three);
+        }
+    }
+}

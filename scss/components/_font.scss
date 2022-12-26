@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Mukta&display=swap'); // Body font - similar to Adrianna
+
+@font-face {
+    font-family: "Groteskia";
+    src: url("https://saltssaumure.github.io/ieytd-discord-theme/fonts/groteskia.regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Groteskia";
+    src: url("https://saltssaumure.github.io/ieytd-discord-theme/fonts/groteskia.oblique.otf");
+    font-weight: normal;
+    font-style: oblique;
+}
+
+:root {
+    --font-primary: "Mukta", Helvetica, Arial, sans-serif;
+    --font-display: "Groteskia", "Impact", sans-serif;
+    --font-headline: "Groteskia", "Impact", sans-serif;
+    --font-code: "PT Mono", "Consolas", monospace;
+}
+
+code,
+.markup-eYLPri code.inline,
+.codeBlockText-311wOq,
+.codeLine-3a3dbd {
+    font-family: var(--font-code);
+}
+
+.heading-md-bold-qvVVvk,
+.heading-md-semibold-3sznX7 {
+    font-size: 22px;
+    line-height: 32px;
+}

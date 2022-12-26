@@ -1,0 +1,84 @@
+/**
+ * @name IEYTD - Main
+ * @author Saltssaumure#7557
+ * @description Main section of the IEYTD theme. Please download the autoupdater from https://github.com/Saltssaumure/ieytd-discord-theme/releases/tag/latest.
+ * @version 1.2.0
+*/
+
+@use "components/vars" as *;
+
+@import "components/popovers";
+@import "components/font";
+
+@import "components/window-topbar"; //DONE
+
+@import "components/server-sidebar";
+@import "components/channel-sidebar";
+@import "components/channel-header"; //DONE
+
+:root {
+    --color-one: #c34938;
+    --color-two: #e1cc9a;
+    --color-three: #000;
+
+    --guild-header-text-shadow: none;
+    --elevation-stroke: none;
+    --elevation-low: none;
+    --elevation-medium: none;
+    --elevation-high: none;
+    --dark-elevation-low: none;
+    --dark-elevation-high: none;
+    --dark-elevation-border: none;
+    --light-elevation-low: none;
+    --light-elevation-high: none;
+    --light-elevation-border: none;
+}
+
+.theme-dark {
+    --channeltextarea-background: var(--color-one);
+    --channels-default: var(--color-two);
+}
+
+// Window is beige as default
+.bg-1QIAus {
+    background: var(--color-two);
+}
+
+// Panel minus server sidebar
+.base-2jDfDU {
+
+    // Channel group and member group title
+    .container-q97qHp {
+        font-style: oblique;
+        font-size: 20px;
+        line-height: 32px;
+        --channels-default: var(--color-three);
+    }
+
+    // Current channel
+    .chat-2ZfjoI {
+        background: var(--color-three);
+    
+
+
+        // Chat and members list
+        .content-1jQy2l {
+
+            // Chat
+            .chatContent-3KubbW {
+
+            }
+
+            // Members list
+            .members-3WRCEx {
+                background: var(--color-one);
+
+                // Member
+                .member-48YF_l {
+                    background: var(--color-three);
+                }
+            }
+        }
+    }
+}
+
