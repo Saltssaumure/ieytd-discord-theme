@@ -9,12 +9,17 @@
 
 @import "components/popovers";
 @import "components/font";
+@import "components/button";
 
 @import "components/window-topbar"; //DONE
 
-@import "components/server-sidebar";
-@import "components/channel-sidebar";
-@import "components/channel-header"; //DONE
+@import "components/server-sidebar"; //DONE
+@import "components/channel-sidebar"; //DONE
+@import "components/channel-header"; // Fix searchbar from: etc. options
+@import "components/member-sidebar"; //DONE
+
+@import "components/chat"; //DONE
+@import "components/search"; //DONE
 
 :root {
     --color-one: #c34938;
@@ -32,10 +37,20 @@
     --light-elevation-low: none;
     --light-elevation-high: none;
     --light-elevation-border: none;
+
+    --background-modifier-hover: transparent;
+    --background-modifier-selected: transparent;
+    --background-modifier-active: transparent;
+
+    --scrollbar-thin-thumb: var(--color-two);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--color-two);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-thumb: var(--color-two);
+    --scrollbar-auto-scrollbar-color-track: transparent;
 }
 
 .theme-dark {
-    --channeltextarea-background: var(--color-one);
     --channels-default: var(--color-two);
 }
 
@@ -54,31 +69,4 @@
         line-height: 32px;
         --channels-default: var(--color-three);
     }
-
-    // Current channel
-    .chat-2ZfjoI {
-        background: var(--color-three);
-    
-
-
-        // Chat and members list
-        .content-1jQy2l {
-
-            // Chat
-            .chatContent-3KubbW {
-
-            }
-
-            // Members list
-            .members-3WRCEx {
-                background: var(--color-one);
-
-                // Member
-                .member-48YF_l {
-                    background: var(--color-three);
-                }
-            }
-        }
-    }
 }
-

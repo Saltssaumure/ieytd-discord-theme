@@ -1,0 +1,34 @@
+@mixin button($background, $color, $border-color:$color) {
+    background: $background;
+    color: $color;
+    border-color: $border-color;
+    &:hover {
+        background: $background;
+    }
+}
+
+.lookFilled-yCfaCM {
+    border-radius: $max;
+    border: $x-thin solid;
+
+    // I'm keeping track of where I styled these buttons
+    // In case they cause conflicts in other places.
+
+    // Follow announcement channel
+    &.colorPrimary-2AuQVo {
+        @include button(var(--color-three), var(--color-two));
+        &[aria-disabled=true], &:disabled {
+            --button-secondary-background-disabled: var(--color-three);
+        }
+    }
+
+    // Join server in invite embed
+    &.colorGreen-3y-Z79 {
+        @include button(var(--color-three), var(--color-two), var(--color-one));
+    }
+
+    // Gift inventory in gift embed
+    &.colorBrand-I6CyqQ {
+        @include button(var(--color-three), var(--color-two), var(--color-one));
+    }
+}

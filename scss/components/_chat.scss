@@ -1,0 +1,150 @@
+// Chat panel
+
+// Current channel
+.chat-2ZfjoI {
+    background: var(--color-three);
+}
+
+.chatContent-3KubbW {
+	border-left: $thick solid var(--color-two);
+
+    --text-normal: var(--color-two);
+    --text-muted: var(--color-one);
+    --header-primary: var(--color-two);
+    --header-secondary: var(--color-two);
+    --interactive-muted: var(--color-one);
+
+    $textarea-outer: 25px;
+
+    // Messages loading
+    .wrapper-3HVHpV {
+        background: transparent;
+        // Fake message block
+        .wrapper-15CKyy {
+            background: transparent;
+            .avatar-l9Txm5,
+            .attachment-16cAbS,
+            .blob-1uHjdp {
+                background: var(--color-two);
+            }
+        }
+    }
+
+    // Bars
+    .jumpToPresentBar-1cEnH0,
+    .newMessagesBar-1hF-9G {
+        border: $thin solid var(--color-three);
+        background: var(--color-two);
+        opacity: 1;
+        .barButtonBase-Sk2mdB {
+            color: var(--color-three);
+        }
+    }
+    // New messages bar
+    .newMessagesBar-1hF-9G {
+        border-top: none;
+        border-radius: 0 0 $textarea-outer $textarea-outer;
+        .barButtonBase-Sk2mdB {
+            padding: 0 20px;
+        }
+    }
+    // Jump to present bar
+    .jumpToPresentBar-1cEnH0 {
+        border-bottom: none;
+        border-radius: $textarea-outer $textarea-outer 0 0;
+        bottom: -20px;
+        padding: 0 10px;
+        padding-bottom: 28px;
+    }
+
+    // Chat message
+    .messageListItem-ZZ7v6g {
+
+        @import "chat/msgessentials";
+
+        /* Code */
+        .markup-eYLPri code {
+            background: var(--color-three);
+            &.inline {
+                border-radius: 0;
+            }
+            &.hljs {
+                border: $x-thin solid var(--color-one);
+                border-radius: 15px;
+            }
+        }
+
+        // New member welcome
+            // Username
+            .content-vSHmMD a {
+                font-family: var(--font-display);
+                --interactive-active: var(--color-two);
+                font-size: 1.2rem;
+                margin-top: -0.6rem;
+            }
+
+        // Automod action
+        .embedCard-bDyD5S {
+            border: $x-thin solid var(--color-one);
+            border-radius: 15px;
+            background: var(--color-three);
+            .dot-KVehus {
+                background: var(--color-one);
+            }
+        }
+
+        // Message action buttons
+        .wrapper-2vIMkT {
+            box-shadow: 0 0 0 $x-thin var(--color-two) inset;
+            background: var(--color-three);
+            border-radius: $max;
+            .button-3bklZh {
+                color: var(--color-two);
+            }
+        }
+    }
+
+    // Typing textarea in separate file
+    @import "chat/textarea";
+
+    // New messages divider
+    #---new-messages-bar {
+        --divider-color: var(--color-one);
+        .unreadPill-3nEWYM {
+            font-family: var(--font-display);
+            font-size: 16px;
+            font-style: oblique;
+            color: var(--color-three);
+            height: 18px;
+            width: 40px;
+            top: -9px;
+            border-radius: $max;
+            padding: 0 0 5px 0;
+            .unreadPillCap-2-iI4h {
+                display: none;
+            }
+        }
+    }   
+}
+
+// Thread spine
+.cozy-VmLDNB.hasThread-3h-KJV::after {
+    .font-size-12 &,
+    .font-size-14 &,
+    .font-size-15 &,
+    .font-size-16 & {
+        left: 2.4rem;
+    }
+    .font-size-18 & {
+        left: 2.1rem;
+        width: 1.8rem;
+    }
+    .font-size-20 & {
+        left: 1.9rem;
+    }
+    .font-size-24 & {
+        left: 1.6rem;
+        width: 1.4rem;
+    }
+}
+

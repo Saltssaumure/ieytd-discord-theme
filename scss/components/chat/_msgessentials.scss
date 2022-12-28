@@ -1,0 +1,59 @@
+// User avatar
+.avatar-2e8lTP,
+.avatarContainer-209emZ {
+    border: $thin solid var(--color-one);
+}
+.avatarDecoration-34OC0G {
+    left: 12px + $thin;
+}
+
+// Username
+.username-h_Y3Us {
+    font-family: var(--font-display);
+}
+// Username in main message
+.headerText-2z4IhQ .username-h_Y3Us {
+    font-size: 20px;
+}
+// Bot tag
+.botTag-7aX5WZ {
+    border-radius: 8px;
+    background: var(--color-one);
+    color: var(--color-three);
+    margin-top: 4px;
+    .botText-1fD6Qk {
+        display: inline-block;
+        padding-top: 2px;
+    }
+}
+
+// Mention
+.mention {
+    --mention-foreground: var(--color-three);
+    --mention-background: var(--color-two);
+    border-radius: 2px;
+    padding: .15rem 4px 0 4px;
+    border-radius: $max;
+    display: inline-block;
+    &.interactive:hover {
+        color: var(--mention-foreground);
+        background: var(--mention-background);
+    }
+    // Channel mention
+    &.iconMention-3WxjBe {
+        padding-left: 1.2rem;
+        // Channel type icon
+        .channelIcon-3I2O7O {
+            height: 1rem;
+            top: .25rem;
+        }
+    }
+}
+
+// Link
+.anchor-1MIwyf {
+    --text-link: var(--color-one);
+}
+
+// Message accessories in separate file
+@import "msgaccessories";

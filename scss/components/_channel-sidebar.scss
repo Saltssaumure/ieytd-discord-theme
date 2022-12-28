@@ -1,9 +1,5 @@
 // Channel sidebar
 .sidebar-1tnWFu {
-    --background-modifier-hover: transparent;
-    --background-modifier-selected: transparent;
-    --background-modifier-active: transparent;
-
     --interactive-normal: var(--color-two);
     --interactive-hover: var(--color-two);
     --interactive-active: var(--color-two);
@@ -19,7 +15,7 @@
         // Server banner
         .container-1-ERn5 {
             box-shadow: 0 (-$thin) 0 0 var(--color-two) inset;
-            
+
             .headerContent-2SNbie {
                 --header-primary: var(--color-two);
 
@@ -56,6 +52,20 @@
             }
         }
 
+        /* Boost progress bar */
+        .progressBarContainer-1efroK {
+            border: $x-thin solid var(--color-two);
+            border-radius: 8px;
+            .progressBar-2yl2pi,
+            .container-2giAcK:hover .progressBar-2yl2pi {
+                background: linear-gradient(
+                    90deg,
+                    var(--color-one),
+                    var(--color-two)
+                );
+            }
+        }
+
         // Channel list
         $channel-height: 16px;
 
@@ -80,7 +90,14 @@
             // background-color: var(--color-two);
             display: none;
         }
-        
+
+        // New unreads bubble
+        .bar-wDIGjg {
+            border: $thin solid var(--color-three);
+            --background-floating: var(--color-two);
+            --interactive-normal: var(--color-three);
+        }
+
         // Server home
         .content-2a4AW9>.wrapper-NhbLHG {
             @include channel;
@@ -125,15 +142,49 @@
                 }
             }
 
-            // VC user limit
-            .wrapper-2fEmwW {
-                margin-right: -5px;
-                .users-2JoyGL {
-                    --background-primary: var(--color-one);
+            // Channel info
+            .channelInfo-3jN1ay {
+                // Forum active/new threads
+                &>.text-xs-semibold-3E_l31 {
+                    --text-muted: var(--color-two);
+                    --text-brand: var(--color-two);
                 }
-                .total-1c5KCN {
-                    --background-tertiary: var(--color-two);
-                    color: var(--color-three);
+
+                // VC user limit
+                .wrapper-2fEmwW {
+                    margin-right: -5px;
+                    .users-2JoyGL {
+                        --background-primary: var(--color-one);
+                    }
+                    .total-1c5KCN {
+                        --background-tertiary: var(--color-two);
+                        color: var(--color-three);
+                    }
+                }
+            }
+
+            // VC user list
+            .list-2x9Cl9 {
+                padding-left: 26px;
+                padding-bottom: 2px;
+
+                // User
+                .draggable-S2aEx4 {
+                    height: auto;
+                }
+                .userSmall-1Raexx {
+                    height: auto;
+
+                    // User icon
+                    .avatar-3FKimL {
+                        margin: 2px 8px 0 0;
+                    }
+                    // Live in VC bubble
+                    .live-1V2D-f {
+                        --status-red-500: var(--color-one);
+                        color: var(--color-two);
+                        line-height: 12px;
+                    }
                 }
             }
         }
