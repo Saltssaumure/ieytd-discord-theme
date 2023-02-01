@@ -17,6 +17,7 @@
             box-shadow: 0 (-$thin) 0 0 var(--color-two) inset;
 
             .headerContent-2SNbie {
+                filter: none;
                 --header-primary: var(--color-two);
 
                 // Server status star
@@ -92,10 +93,38 @@
         }
 
         // New unreads bubble
-        .bar-wDIGjg {
+        .bar-2eAyLE {
             border: $thin solid var(--color-three);
-            --background-floating: var(--color-two);
-            --interactive-normal: var(--color-three);
+            background: var(--color-two);
+            color: var(--color-three);
+            height: 24px - $thin;
+            font-size: 16px;
+            border-radius: $max;
+            .text-2GsXbW {
+                margin-top: -4px;
+            }
+        }
+
+        // Current event info
+        .container-2Y4CWj {
+            border-bottom: $thin solid var(--color-two);
+            .channelNotice-K4UfZY {
+                border-bottom: 0;
+                --header-primary: var(--color-three);
+                --header-secondary: var(--color-three);
+
+                // Happening now indicator
+                --text-positive: var(--color-two); 
+                .liveIndicator-TJKS7N {
+                    background: var(--text-positive);
+                }
+
+                // Event Details button
+                .joinButton-1HdI2a {
+                    border-color: var(--color-two);
+                    background: var(--color-three);
+                }
+            }
         }
 
         // Server home
@@ -204,9 +233,13 @@
                 border-radius: 0;
             }
 
-            // Spine
+            // Spine vertical
             .spineBorder-1-F4s1 {
                 z-index: 1;
+            }
+            // Spine curves
+            .spine-29OFwR {
+                top: 2px;
             }
         }
 
@@ -227,10 +260,15 @@
             padding-left: 2px;
             padding-bottom: 5px;
         }
+
+        // Event "mention"
+        .numberBadge-3uSQY0 {
+            background: var(--color-two);
+        }
     }
 
     // Self panel
-    .panels-3wFtMD {
+    .container-YkUktl {
         background: var(--color-one);
         --interactive-normal: var(--color-two);
         --interactive-hover: var(--color-two);

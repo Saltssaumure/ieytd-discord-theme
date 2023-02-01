@@ -32,3 +32,14 @@
         @include button(var(--color-three), var(--color-two), var(--color-one));
     }
 }
+
+.lookBlank-21BCro {
+    border-radius: $max;
+
+    // Edit channel button at start of text channel
+    .buttonContainer-2zLp7E & {
+        color: var(--color-one);
+        padding: 6px 12px;
+        border: $x-thin solid;
+    }
+}

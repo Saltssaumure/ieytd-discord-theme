@@ -1,0 +1,51 @@
+/* Server settings */
+/* Roles */
+.roleNameContainer-3vlnQs div {
+    color: var(--color-two)!important;
+}
+.roleRow-230vCm:hover+.roleRow-230vCm:before,
+.roleRow-230vCm:hover:after,
+.roleRow-230vCm:hover:before,
+.roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) .circleButton-2Yr5A1 {
+    background-color: var(--color-one);
+}
+/* Role detailed view */
+.sidebar-3K3Z4C,
+.titleContainer-3fPic2 {
+    background: var(--color-one);
+}
+    .titleContainer-3fPic2 .title-JU0E7C {
+        color: var(--color-two);
+    }
+    .sidebar-3K3Z4C .item-3XjbnG {
+        background-color: var(--color-three);
+        border-radius: 25px;
+        border: 2px solid var(--color-three);
+        color: var(--color-one);
+    }
+    .sidebar-3K3Z4C .item-3XjbnG .roleName-3910zV {
+        color: var(--color-two);
+        height: 16px;
+        line-height: 18px;
+    }
+    .sidebar-3K3Z4C .item-3XjbnG .lock-4DarK4,
+    .sidebar-3K3Z4C .item-3XjbnG .lock-4DarK4+.roleName-3910zV {
+        color: var(--color-one);
+        height: 16px;
+        line-height: 18px;
+    }
+    .sidebar-3K3Z4C .themed-2-lozF.selected-g-kMVV.item-3XjbnG .roleName-3910zV,
+    .sidebar-3K3Z4C .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) .roleName-3910zV {
+        color: var(--color-three);
+    }
+.titleContainer-16mFj2 .titleText-35PD5k {
+    color: var(--color-two)!important;
+}
+.memberDetails-3TbgsK .name-3Ksb9- {
+    color: var(--color-two)!important;
+}
+
+/* Misc fixes */
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+    color: var(--color-one);
+}

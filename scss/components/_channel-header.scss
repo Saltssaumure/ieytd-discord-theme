@@ -1,8 +1,12 @@
-// Channel header
-.chat-2ZfjoI .title-31SJ6t {
+// Channel (and thread) header
+.container-ZMc96U.themed-Hp1KC_ {
     background: var(--color-one);
     border-bottom: $thin solid var(--color-two);
 
+    // Thread title wrapper
+    .children-3xh0VB {
+        overflow: visible;
+    }
     // Channel name
     .titleWrapper-24Kyzc .title-17SveM {
         position: relative;
@@ -10,6 +14,7 @@
         bottom: 2px;
         overflow: visible;
         color: var(--color-three);
+        font-size: 1.2em;
     }
 
     // Channel description

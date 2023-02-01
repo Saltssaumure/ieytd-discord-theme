@@ -7,30 +7,11 @@
 
 @use "components/vars" as *;
 
-@import "components/popovers";
-@import "components/font";
-@import "components/button";
-
-@import "components/window-topbar"; //DONE
-
-@import "components/server-sidebar"; //DONE
-@import "components/channel-sidebar"; //DONE
-@import "components/channel-header"; // Fix searchbar from: etc. options
-@import "components/member-sidebar"; //DONE
-
-@import "components/chat"; //DONE
-@import "components/search"; //DONE
-
 :root {
     --color-one: #c34938;
     --color-two: #e1cc9a;
     --color-three: #000;
 
-    --guild-header-text-shadow: none;
-    --elevation-stroke: none;
-    --elevation-low: none;
-    --elevation-medium: none;
-    --elevation-high: none;
     --dark-elevation-low: none;
     --dark-elevation-high: none;
     --dark-elevation-border: none;
@@ -48,6 +29,13 @@
     --scrollbar-auto-track: transparent;
     --scrollbar-auto-scrollbar-color-thumb: var(--color-two);
     --scrollbar-auto-scrollbar-color-track: transparent;
+}
+.theme-dark, .theme-light {
+    --guild-header-text-shadow: none;
+    --elevation-stroke: none;
+    --elevation-low: none;
+    --elevation-medium: none;
+    --elevation-high: none;
 }
 
 .theme-dark {
@@ -70,3 +58,22 @@
         --channels-default: var(--color-three);
     }
 }
+
+// High level import
+@import "components/font";
+@import "components/button";
+
+// Single import
+@import "components/window-topbar"; //DONE
+@import "components/server-sidebar"; //DONE
+@import "components/channel-sidebar"; //DONE
+@import "components/channel-header"; // Fix searchbar from: etc. options
+@import "components/member-sidebar"; //DONE
+@import "components/search"; //DONE
+@import "components/splitthread"; //DONE...?
+@import "components/forum";
+
+// Multi-import
+@import "components/chat"; //DONE
+@import "components/popover";
+@import "components/settings";

@@ -40,13 +40,37 @@
         .icon-3AqZ2e {
             background: var(--color-one);
         }
+        // No indent in icons for mention bubbles
+        .wrapper-28eC3z foreignObject {
+            mask: none;
+        }
 
-        /* Add server and explore buttons */
-        .circleIconButton-1VxDrg {
+        // Reordering servers
+        // Background behind dragged icon
+        .placeholderMask-2FHNZU {
+            border-radius: $max;
+            .dragInner-1CUBf_ {
+                background: var(--color-one);
+            }
+        }
+        // Bar to drop icon between two others
+        .target-1eRTCg.dragOver-1OKbo2::before,
+        // Circle to combine icon with others
+        .centerTarget-S6BLFQ.dragOver-1OKbo2::before {
+            background: var(--color-one);
+            box-shadow: none;
+        }    
+
+        // Add server and explore buttons
+        // DMs view button
+        .circleIconButton-1VxDrg,
+        .childWrapper-1j_1ub {
             color: var(--color-three);
             background: var(--color-two);
         }
-        .circleIconButton-1VxDrg.selected-2r1Hvo {
+        .circleIconButton-1VxDrg.selected-2r1Hvo,
+        .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+        .wrapper-3kah-n:hover .childWrapper-1j_1ub {
             background: var(--color-one);
         }
 
@@ -77,6 +101,11 @@
         .base-3IDx3L {
             color: var(--color-two);
             padding: 0 0 4px 2px;
+            background: var(--color-three);
+            // Live/event indicator
+            .icon-2Ug6UV {
+                padding: 3px 2px 0 0;
+            }
         }
     }
 
