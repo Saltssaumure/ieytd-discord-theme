@@ -10,9 +10,9 @@
 1. Install [BetterDiscord](https://betterdiscord.app/).
 2. Download the theme file:
     - [GitHub](https://github.com/Saltssaumure/ieytd-discord-theme/releases/latest)
-    - [BD Store](https://betterdiscord.app/theme/IEYTD)
+    - [BD Store](https://betterdiscord.app/theme/?id=626)
 3. Place theme file in BetterDiscord's theme folder:
-    - Windows: `%appdata%/betterdiscord/themes`
+    - Windows: `%AppData%/BetterDiscord/themes`
     - Mac: `~/Library/Application Support/betterdiscord/themes`
     - Linux: `~/.config/BetterDiscord/themes`
 
@@ -37,5 +37,3 @@
 ## Questions or suggestions?
 - Post [an issue](https://github.com/Saltssaumure/ieytd-discord-theme/issues) on GitHub.
 - Post in `#theme-support` on [my support server](https://discord.gg/uy8nKQVatp).
-
-
