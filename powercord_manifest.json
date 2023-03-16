@@ -1,8 +1,8 @@
 {
     "name": "IEYTD",
-    "description": "A tri-tone theme inspired by IEYTD",
+    "description": "A tri-tone theme inspired by IEYTD.",
     "version": "Autoupdate v3",
     "author": "Saltssaumure",
-    "theme": "ieytd.theme.css",
+    "theme": "main.min.css",
     "license": "GPL-3.0"
 }
