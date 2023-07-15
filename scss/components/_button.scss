@@ -1,7 +1,8 @@
-@mixin button($background, $color, $border-color:$color) {
+@mixin button($background, $color, $border-color: $color) {
     background: $background;
     color: $color;
     border-color: $border-color;
+
     &:hover {
         background: $background;
     }
@@ -17,7 +18,9 @@
     // Follow announcement channel
     &.colorPrimary-2AuQVo {
         @include button(var(--color-three), var(--color-two));
-        &[aria-disabled=true], &:disabled {
+
+        &[aria-disabled=true],
+        &:disabled {
             --button-secondary-background-disabled: var(--color-three);
         }
     }

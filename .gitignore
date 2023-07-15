@@ -1,4 +1,7 @@
-backup
+.parcel-cache
 
 node_modules
-package-lock.json
+
+dist
+bundle
+src

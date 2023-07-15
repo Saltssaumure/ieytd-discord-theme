@@ -10,13 +10,16 @@
     }
 
     $embed-outer: 15px;
-    $embed-inner: ($embed-outer - $thin);
+    $embed-inner: (
+        $embed-outer - $thin
+    );
 
     // Thread preview
     .container-3i3IzO {
         background: var(--color-three);
         border: $x-thin solid var(--color-one);
         border-radius: $embed-outer;
+
         // Thread title
         .name-13vPlv {
             font-family: var(--font-display);
@@ -25,6 +28,7 @@
             margin-top: -4px;
             color: var(--color-one);
         }
+
         // Recent poster username
         .username-h_Y3Us {
             margin-top: -4px;
@@ -42,12 +46,15 @@
         --interactive-normal: var(--color-one);
         --interactive-hover: var(--color-one);
         --interactive-active: var(--color-one);
+
         &:hover {
             background: var(--color-three);
             border: $x-thin solid var(--color-one);
         }
+
         &.reactionMe-1PwQAc {
             border-color: var(--color-two);
+
             .reactionCount-26U4As {
                 color: var(--color-two);
             }

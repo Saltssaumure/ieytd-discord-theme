@@ -1,0 +1,22 @@
+{
+    "id": "net.saltssaumure.IEYTD",
+    "name": "Tritone",
+    "description": "A tri-tone theme inspired by IEYTD.",
+    "author": {
+        "name": "Saltssaumure",
+        "discordID": "134142022092062720",
+        "github": "Saltssaumure"
+    },
+    "version": "1.2.0",
+    "updater": {
+        "type": "store",
+        "id": "net.saltssaumure.IEYTD"
+    },
+    "license": "GPL-3.0",
+    "type": "replugged-theme",
+    "main": "scss/ieytd.scss",
+    "image": [
+        "",
+        ""
+    ]
+}

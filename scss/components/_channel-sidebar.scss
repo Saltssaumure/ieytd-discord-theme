@@ -24,6 +24,7 @@
                 .flowerStar-2tNFCR path {
                     fill: var(--color-three);
                 }
+
                 .boostedGuildIconGem-u5aHBL,
                 .icon-3BYlXK {
                     color: var(--color-two);
@@ -40,6 +41,7 @@
                     color: var(--color-three);
                 }
             }
+
             // Public server bubble
             .communityInfoContainer-1dMVpU {
                 margin-top: 1px;
@@ -57,13 +59,12 @@
         .progressBarContainer-1efroK {
             border: $x-thin solid var(--color-two);
             border-radius: 8px;
+
             .progressBar-2yl2pi,
             .container-2giAcK:hover .progressBar-2yl2pi {
-                background: linear-gradient(
-                    90deg,
-                    var(--color-one),
-                    var(--color-two)
-                );
+                background: linear-gradient(90deg,
+                        var(--color-one),
+                        var(--color-two));
             }
         }
 
@@ -76,6 +77,7 @@
             border-radius: 0 $channel-height $channel-height 0;
             margin-top: 4px;
             border-left: 0;
+
             .mainContent-20q_Hp,
             .iconItem-1EjiK0 {
                 padding: 2px 0;
@@ -100,6 +102,7 @@
             height: 24px - $thin;
             font-size: 16px;
             border-radius: $max;
+
             .text-2GsXbW {
                 margin-top: -4px;
             }
@@ -108,13 +111,15 @@
         // Current event info
         .container-2Y4CWj {
             border-bottom: $thin solid var(--color-two);
+
             .channelNotice-K4UfZY {
                 border-bottom: 0;
                 --header-primary: var(--color-three);
                 --header-secondary: var(--color-three);
 
                 // Happening now indicator
-                --text-positive: var(--color-two); 
+                --text-positive: var(--color-two);
+
                 .liveIndicator-TJKS7N {
                     background: var(--text-positive);
                 }
@@ -166,6 +171,7 @@
                     --interactive-normal: var(--color-one);
                     --interactive-hover: var(--color-one);
                 }
+
                 .name-28HaxV {
                     --interactive-hover: var(--color-one);
                 }
@@ -173,6 +179,7 @@
 
             // Channel info
             .channelInfo-3jN1ay {
+
                 // Forum active/new threads
                 &>.text-xs-semibold-3E_l31 {
                     --text-muted: var(--color-two);
@@ -182,9 +189,11 @@
                 // VC user limit
                 .wrapper-2fEmwW {
                     margin-right: -5px;
+
                     .users-2JoyGL {
                         --background-primary: var(--color-one);
                     }
+
                     .total-1c5KCN {
                         --background-tertiary: var(--color-two);
                         color: var(--color-three);
@@ -201,6 +210,7 @@
                 .draggable-S2aEx4 {
                     height: auto;
                 }
+
                 .userSmall-1Raexx {
                     height: auto;
 
@@ -208,6 +218,7 @@
                     .avatar-3FKimL {
                         margin: 2px 8px 0 0;
                     }
+
                     // Live in VC bubble
                     .live-1V2D-f {
                         --status-red-500: var(--color-one);
@@ -237,6 +248,7 @@
             .spineBorder-1-F4s1 {
                 z-index: 1;
             }
+
             // Spine curves
             .spine-29OFwR {
                 top: 2px;

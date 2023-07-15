@@ -1,6 +1,9 @@
 .github
+.parcel-cache
 
 node_modules
+dist
+bundle
 src
 
 LICENSE

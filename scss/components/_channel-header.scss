@@ -7,6 +7,7 @@
     .children-3xh0VB {
         overflow: visible;
     }
+
     // Channel name
     .titleWrapper-24Kyzc .title-17SveM {
         position: relative;
@@ -19,9 +20,11 @@
 
     // Channel description
     --header-secondary: var(--color-two);
+
     .topic-11NuQZ a {
         color: var(--color-three);
     }
+
     .children-3xh0VB::after {
         background: linear-gradient(90deg, transparent, var(--color-one));
     }
@@ -38,8 +41,9 @@
     path[d="M21.178 1.70703L22.592 3.12103L4.12103 21.593L2.70703 20.178L21.178 1.70703Z"] {
         color: var(--color-three);
     }
+
     // New pin bubble
-    .iconBadge-3Mmg92{
+    .iconBadge-3Mmg92 {
         background: var(--color-three);
     }
 

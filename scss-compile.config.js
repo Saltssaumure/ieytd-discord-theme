@@ -4,7 +4,7 @@ export default {
         /** The official name of your theme. */
         name: "IEYTD",
         /** The name of your base scss file. */
-        scss: "main",
+        scss: "ieytd",
         /** The name of your theme repository. */
         repo: "ieytd-discord-theme",
         /** The version of your theme. */

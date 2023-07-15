@@ -1,42 +1,52 @@
 /* Settings panel */
 .bd-settings-title,
 .bd-setting-header label,
-.bd-addon-list .bd-description{
+.bd-addon-list .bd-description {
     color: var(--color-two);
 }
+
 .bd-search,
 .bd-title * {
     color: var(--color-three);
 }
+
 .bd-description-wrap,
 .bd-footer,
-.floating-window-buttons{
+.floating-window-buttons {
     background: var(--color-three);
 }
+
 .bd-addon-card {
     border: 2px solid var(--color-two);
     box-shadow: inset 0 0 0 2px var(--color-two);
 }
+
 .defaultColor-2cKwKo,
-.title-2dsDLn{
+.title-2dsDLn {
     color: var(--color-two);
 }
-.contentColumn-1C7as6 .button-f2h6uQ{
+
+.contentColumn-1C7as6 .button-f2h6uQ {
     color: var(--color-three);
 }
+
 .contentColumn-1C7as6 .button-f2h6uQ:hover {
     background: var(--color-one);
 }
+
 .contentColumn-1C7as6 .button-f2h6uQ.colorRed-rQXKgM {
     color: var(--color-one);
 }
+
 .contentColumn-1C7as6 .button-f2h6uQ.colorRed-rQXKgM:hover {
     color: var(--color-three);
 }
+
 .popoutInfo-16MuYF {
     background: var(--color-three);
 }
-.accountList-305sx3 .h5-2RwDNl{
+
+.accountList-305sx3 .h5-2RwDNl {
     color: var(--color-three);
 }
 
@@ -47,21 +57,26 @@
     background-color: var(--color-one);
     color: var(--color-two);
 }
+
 .bd-reload,
 .bd-reload:hover,
 .bd-addon-views .bd-view-button.selected svg {
     fill: var(--color-two);
 }
+
 .bd-addon-button svg {
-    fill: var(--color-two)!important;
+    fill: var(--color-two) !important;
 }
+
 .bd-button.bd-button-danger {
     background-color: var(--color-three);
     border: 2px solid var(--color-one);
 }
+
 .bd-button.bd-button-danger:hover {
     background-color: var(--color-one);
 }
+
 .bd-addon-header .bd-switch-body {
     border: 2px solid var(--color-one);
     height: 28px;
@@ -72,24 +87,29 @@
 .bd-error-modal-header h4 {
     color: var(--color-three);
 }
+
 .bd-tab-bar {
     position: relative;
     top: 10px;
 }
-    .bd-tab-item {
-        color: var(--color-one);
-    }
+
+.bd-tab-item {
+    color: var(--color-one);
+}
+
 .bd-addon-error {
     background-color: var(--color-three);
 }
-    .bd-addon-error-file {
-        color: var(--color-two);
-    }
+
+.bd-addon-error-file {
+    color: var(--color-two);
+}
 
 /* Toasts */
 .bd-toasts {
     align-items: flex-end;
 }
+
 .bd-toast {
     color: var(--color-two);
     border: 2px solid var(--color-two);
@@ -110,60 +130,70 @@
     text-transform: none;
     text-shadow: none;
 }
+
 #bd-editor-controls,
 #bd-editor-controls button,
-#bd-editor-controls button:hover{
+#bd-editor-controls button:hover {
     color: var(--color-three);
 }
 
 
 /* ChannelTabs plugin */
 #channelTabs-container {
-    background: var(--color-three)!important;
+    background: var(--color-three) !important;
 }
-    .channelTabs-favContainer,
-    .channelTabs-tabContainer {
-        gap: 4px;
-    }
-        .channelTabs-fav {
-            background: var(--color-one)!important;
-            border-radius: 11px 11px 0 0 !important;
-        }
-        .channelTabs-unreadBadge {
-            background: var(--color-two)!important;
-            color: var(--color-three)!important;
-        }
-        #channelTabs-settingsMenu {
-            background: var(--color-one)!important;
-            border-radius: 11px 0 0 11px !important;
-        }
 
-    #channelTabs-container>:not(#channelTabs-settingsMenu)+div {
-        padding-top: 2px !important;
-        border-top: none!important;
-    }
-        .channelTabs-tab {
-            background: var(--color-one)!important;
-            border-radius: 0 0 11px 11px !important;
-        }
-        .channelTabs-newTab {
-            color: var(--color-two)!important;
-        }
-        .channelTabs-closeTab:hover {
-            background: transparent!important;
-            color: var(--color-two)!important;
-        }
+.channelTabs-favContainer,
+.channelTabs-tabContainer {
+    gap: 4px;
+}
+
+.channelTabs-fav {
+    background: var(--color-one) !important;
+    border-radius: 11px 11px 0 0 !important;
+}
+
+.channelTabs-unreadBadge {
+    background: var(--color-two) !important;
+    color: var(--color-three) !important;
+}
+
+#channelTabs-settingsMenu {
+    background: var(--color-one) !important;
+    border-radius: 11px 0 0 11px !important;
+}
+
+#channelTabs-container>:not(#channelTabs-settingsMenu)+div {
+    padding-top: 2px !important;
+    border-top: none !important;
+}
+
+.channelTabs-tab {
+    background: var(--color-one) !important;
+    border-radius: 0 0 11px 11px !important;
+}
+
+.channelTabs-newTab {
+    color: var(--color-two) !important;
+}
+
+.channelTabs-closeTab:hover {
+    background: transparent !important;
+    color: var(--color-two) !important;
+}
 
 
 /* Spotify controls plugin */
 .song-tIdBpF {
     color: var(--color-three);
 }
+
 .barFill-Dhkah7,
 .timeline-UWmgAx:hover .barFill-Dhkah7,
 .grabber-7sd5f5 {
     background: var(--color-one);
 }
+
 .barText-lmqc5O .colorStandard-1Xxp1s {
     color: var(--color-one);
 }

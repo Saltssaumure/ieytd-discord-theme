@@ -32,6 +32,7 @@
                 font-size: 22px;
                 margin-top: -18px;
             }
+
             .spinnerWrapper-6lH0US {
                 margin-top: -10px;
             }
@@ -42,7 +43,7 @@
             --background-modifier-hover: var(--color-three);
             background: var(--color-one);
             border-radius: 16px 16px 0 0;
-            padding: 6px 15px; 
+            padding: 6px 15px;
 
             &.selected-g-kMVV {
                 background: var(--color-three);
@@ -65,6 +66,6 @@
     .button-cfOvv-:hover {
         border-radius: 20px;
         padding: 4px 8px;
-        color: var(--color-three); 
+        color: var(--color-three);
     }
 }

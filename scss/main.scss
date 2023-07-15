@@ -30,7 +30,9 @@
     --scrollbar-auto-scrollbar-color-thumb: var(--color-two);
     --scrollbar-auto-scrollbar-color-track: transparent;
 }
-.theme-dark, .theme-light {
+
+.theme-dark,
+.theme-light {
     --guild-header-text-shadow: none;
     --elevation-stroke: none;
     --elevation-low: none;
