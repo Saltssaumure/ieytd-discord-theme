@@ -7,20 +7,20 @@
 
 // Area including bars
 .channelTextArea-1VQBuV {
-    background: var(--color-one);
+    background: var(--ieytd-color-1);
     border-radius: $textarea-outer;
-    --channeltextarea-background: var(--color-three);
-    --channel-text-area-placeholder: var(--color-one);
-    --textbox-markdown-syntax: var(--color-two);
+    --channeltextarea-background: var(--ieytd-color-3);
+    --channel-text-area-placeholder: var(--ieytd-color-1);
+    --textbox-markdown-syntax: var(--ieytd-color-2);
 
     // Bars
     .attachedBars-2BCP3l {
-        background: var(--color-three);
+        background: var(--ieytd-color-3);
         border-radius: $textarea-outer $textarea-outer 0 0;
 
         // Reply bar
         .replyBar-1oi75v {
-            background: var(--color-one);
+            background: var(--ieytd-color-1);
             border-radius: $textarea-outer $textarea-outer 0 0;
 
             // Replying to username
@@ -31,8 +31,8 @@
 
             // Mention on/off button
             .mentionButton-3C5YMI {
-                --text-link: var(--color-two);
-                --text-muted: var(--color-three);
+                --text-link: var(--ieytd-color-2);
+                --text-muted: var(--ieytd-color-3);
             }
 
             // Divider
@@ -42,15 +42,15 @@
 
             // Cancel reply
             .closeButton-3IEry2 {
-                --interactive-normal: var(--color-two);
-                --interactive-hover: var(--color-two);
+                --interactive-normal: var(--ieytd-color-2);
+                --interactive-hover: var(--ieytd-color-2);
             }
         }
     }
 
     // Actual typing area
     .scrollableContainer-15eg7h {
-        border: $thin solid var(--color-one);
+        border: $thin solid var(--ieytd-color-1);
         border-radius: $textarea-outer;
 
         // "Message #channel-name" placeholder
@@ -61,14 +61,14 @@
 
         // Typed links
         .fakeLink-1wGafz {
-            color: var(--color-one);
+            color: var(--ieytd-color-1);
         }
 
         // Inline code
         .after_inlineCode-2_JXPm,
         .before_inlineCode-1zngJj,
         .inlineCode-ERyvy_ {
-            background: var(--color-three);
+            background: var(--ieytd-color-3);
         }
 
         // Block code
@@ -79,15 +79,15 @@
 
     // Autocomplete
     .autocomplete-3NRXG8 {
-        background: var(--color-three);
+        background: var(--ieytd-color-3);
         border-radius: $textarea-outer;
-        border: $thin solid var(--color-one);
+        border: $thin solid var(--ieytd-color-1);
 
         // Emoji/username autocomplete
 
         // Title
         .contentTitle-3CylD3 {
-            color: var(--color-one);
+            color: var(--ieytd-color-1);
             font-size: 20px;
             font-family: var(--font-display);
             padding: 0 8px;
@@ -95,14 +95,14 @@
             strong {
                 font-family: var(--font-primary);
                 font-size: 16px;
-                color: var(--color-two);
+                color: var(--ieytd-color-2);
             }
         }
 
         // Suggestion
         .autocompleteRowContent-1cjfD2 {
-            --interactive-active: var(--color-two);
-            --interactive-normal: var(--color-one);
+            --interactive-active: var(--ieytd-color-2);
+            --interactive-normal: var(--ieytd-color-1);
         }
 
         // @ suggestion
@@ -117,11 +117,11 @@
         // Category list
         .wrapper-3z7DuG,
         .wrapper-22rqw6 {
-            background: var(--color-one);
-            --background-primary: var(--color-three);
-            --interactive-active: var(--color-one);
-            --interactive-normal: var(--color-three);
-            --interactive-hover: var(--color-three);
+            background: var(--ieytd-color-1);
+            --background-primary: var(--ieytd-color-3);
+            --interactive-active: var(--ieytd-color-1);
+            --interactive-normal: var(--ieytd-color-3);
+            --interactive-hover: var(--ieytd-color-3);
 
             // Category
             .wrapper-1wwiGV {
@@ -131,19 +131,19 @@
 
         // Suggestion list
         .categorySection-3hl0bM {
-            --interactive-active: var(--color-two);
-            --interactive-normal: var(--color-one);
+            --interactive-active: var(--ieytd-color-2);
+            --interactive-normal: var(--ieytd-color-1);
 
             // Suggestion category name
             .categoryHeader-OpJ1Ly {
                 .header-1XpmZs {
-                    --interactive-normal: var(--color-three);
-                    --header-secondary: var(--color-three);
+                    --interactive-normal: var(--ieytd-color-3);
+                    --header-secondary: var(--ieytd-color-3);
                 }
 
-                background: var(--color-one);
+                background: var(--ieytd-color-1);
                 border-radius: $max;
-                border: $thin solid var(--color-three);
+                border: $thin solid var(--ieytd-color-3);
                 height: 32px+ ($thin * 2);
 
                 &::after {
@@ -161,7 +161,7 @@
                 // Mandatory params
                 .option-Tt7anD {
                     background: transparent;
-                    color: var(--color-one);
+                    color: var(--ieytd-color-1);
                 }
             }
         }
@@ -172,11 +172,11 @@
 .typing-2J1mQU {
     // Users who are typing
     .typingDots-1Y8dki {
-        color: var(--color-one);
+        color: var(--ieytd-color-1);
 
         // ...
         .dots-1BwzZQ.themed-3T-OPr {
-            color: var(--color-one);
+            color: var(--ieytd-color-1);
         }
 
         // Usernames
@@ -187,6 +187,6 @@
 
     // Cooldown
     .cooldownWrapper-2k1jHK {
-        color: var(--color-one) !important;
+        color: var(--ieytd-color-1) !important;
     }
 }

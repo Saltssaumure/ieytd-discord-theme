@@ -4,14 +4,14 @@
 .messageListItem-ZZ7v6g {
     // Code
     .markup-eYLPri code {
-        background: var(--color-three);
+        background: var(--ieytd-color-3);
 
         &.inline {
             border-radius: 0;
         }
 
         &.hljs {
-            border: $x-thin solid var(--color-one);
+            border: $x-thin solid var(--ieytd-color-1);
             border-radius: 15px;
         }
     }
@@ -20,30 +20,30 @@
     // Username
     .content-vSHmMD a {
         font-family: var(--font-display);
-        --interactive-active: var(--color-two);
+        --interactive-active: var(--ieytd-color-2);
         font-size: 1.2rem;
         margin-top: -0.6rem;
     }
 
     // Automod action
     .embedCard-bDyD5S {
-        border: $x-thin solid var(--color-one);
+        border: $x-thin solid var(--ieytd-color-1);
         border-radius: 15px;
-        background: var(--color-three);
+        background: var(--ieytd-color-3);
 
         .dot-KVehus {
-            background: var(--color-one);
+            background: var(--ieytd-color-1);
         }
     }
 
     // Message action buttons
     .wrapper-2vIMkT {
-        box-shadow: 0 0 0 $x-thin var(--color-two) inset;
-        background: var(--color-three);
+        box-shadow: 0 0 0 $x-thin var(--ieytd-color-2) inset;
+        background: var(--ieytd-color-3);
         border-radius: $max;
 
         .button-3bklZh {
-            color: var(--color-two);
+            color: var(--ieytd-color-2);
         }
     }
 }
@@ -51,7 +51,7 @@
 // User avatar
 .avatar-2e8lTP,
 .avatarContainer-209emZ {
-    border: $thin solid var(--color-one);
+    border: $thin solid var(--ieytd-color-1);
 }
 
 .avatarDecoration-34OC0G {
@@ -71,8 +71,8 @@
 // Bot tag
 .botTag-7aX5WZ {
     border-radius: 8px;
-    background: var(--color-one);
-    color: var(--color-three);
+    background: var(--ieytd-color-1);
+    color: var(--ieytd-color-3);
     margin-top: 4px;
 
     .botText-1fD6Qk {
@@ -83,8 +83,8 @@
 
 // Mention
 .mention {
-    --mention-foreground: var(--color-three);
-    --mention-background: var(--color-two);
+    --mention-foreground: var(--ieytd-color-3);
+    --mention-background: var(--ieytd-color-2);
     border-radius: 2px;
     padding: 0.15rem 4px 0 4px;
     border-radius: $max;
@@ -109,5 +109,5 @@
 
 // Link
 .anchor-1MIwyf {
-    --text-link: var(--color-one);
+    --text-link: var(--ieytd-color-1);
 }

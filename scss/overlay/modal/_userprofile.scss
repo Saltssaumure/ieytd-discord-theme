@@ -1,8 +1,8 @@
 /* Member profile focus lock popout */
 /* Top section */
 .topSection-13QKHs {
-    border: 3px solid var(--color-two);
-    box-shadow: 0 0 0 1px var(--color-two) inset;
+    border: 3px solid var(--ieytd-color-2);
+    box-shadow: 0 0 0 1px var(--ieytd-color-2) inset;
 }
 /* Colour / image banner */
 .profileBanner-1owKI5,
@@ -11,8 +11,8 @@
 }
 /* Avatar */
 .avatar-3QF_VA {
-    border: 6px solid var(--color-two);
-    box-shadow: 0 0 0 2px var(--color-two) inset;
+    border: 6px solid var(--ieytd-color-2);
+    box-shadow: 0 0 0 2px var(--ieytd-color-2) inset;
 }
 /* Tabs in full */
 .tabBarContainer-sCZC4w {
@@ -22,7 +22,7 @@
     height: 30px;
 }
 .top-K_jibn .item-3XjbnG {
-    border: 2px solid var(--color-two);
+    border: 2px solid var(--ieytd-color-2);
     border-bottom: 0;
     margin-right: 5px;
     padding: 0 10px;
@@ -30,17 +30,17 @@
 }
 .top-K_jibn .selected-g-kMVV.item-3XjbnG,
 .top-K_jibn .themed-2-lozF.item-3XjbnG:active {
-    background: var(--color-two);
+    background: var(--ieytd-color-2);
 }
 /* Body in full */
 .body-1Ukv50 {
-    background: var(--color-two);
-    border-top: 3px solid var(--color-two);
+    background: var(--ieytd-color-2);
+    border-top: 3px solid var(--ieytd-color-2);
 }
 /* About me etc. */
 .body-1Ukv50 .userInfoSectionHeader-2mYYun,
 .body-1Ukv50 .overflow-1wOqNV {
-    color: var(--color-three);
+    color: var(--ieytd-color-3);
     overflow: visible;
 }
 /* Note and about me text */
@@ -52,19 +52,19 @@
 .theme-dark .newProfileActivityStyles .content-tXPNDw,
 .theme-dark .newProfileActivityStyles .nameNormal-2fPMD2,
 .theme-dark .newProfileActivityStyles .activityName-3YXl6e {
-    background: var(--color-two);
-    color: var(--color-one);
+    background: var(--ieytd-color-2);
+    color: var(--ieytd-color-1);
 }
 /* Connected accounts, Mutual servers */
 .listScroller-entkMk .listRow-2nO1T6,
 .connectedAccount-1xKpli {
-    background: var(--color-three);
+    background: var(--ieytd-color-3);
     border-radius: 27px;
     margin-bottom: 3px;
 }
 /* Member profile modal fixes */
 .userInfoText-2MFCmH div {
-    color: var(--color-one);
+    color: var(--ieytd-color-1);
 }
 .theme-dark .activityProfile-1712BN .activityName-3YXl6e,
 .theme-dark .activityProfile-1712BN .content-tXPNDw,
@@ -102,11 +102,11 @@
 .theme-light .activityUserPopoutV2-3eKqzY .name-1-Q7l2,
 .theme-light .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2,
 .theme-light .activityUserPopoutV2-3eKqzY .nameWrap-3TyM52 {
-    color: var(--color-one);
+    color: var(--ieytd-color-1);
 }
 .barInner-3dHef4 {
-    background-color: var(--color-one);
+    background-color: var(--ieytd-color-1);
 }
 .text-31kWmP {
-    color: var(--color-one);
+    color: var(--ieytd-color-1);
 }

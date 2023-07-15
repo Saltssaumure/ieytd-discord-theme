@@ -7,8 +7,8 @@
 .container-2ebMPP,
 /* chat */
 .container-18GwIk {
-    border: 2px solid var(--color-two);
-    box-shadow: 0 0 0 1px var(--color-two) inset;
+    border: 2px solid var(--ieytd-color-2);
+    box-shadow: 0 0 0 1px var(--ieytd-color-2) inset;
 }
 /* Header */
 /* Header icons */
@@ -17,7 +17,7 @@
 .closeIcon-11tHJX:hover,
 .searchIcon-zpxirk,
 .searchIcon-zpxirk:hover {
-    color: var(--color-one);
+    color: var(--ieytd-color-1);
 }
 /* Header buttons in popouts */
 .header-3_zmOb .topPill-3DJJNV .item-3XjbnG {
@@ -25,14 +25,14 @@
 } /* Unselected */
 .header-3_zmOb .themed-2-lozF.item-3XjbnG:not(.selected-g-kMVV),
 .header-145e10 .themed-2-lozF.item-3XjbnG:not(.selected-g-kMVV) {
-    color: var(--color-one);
+    color: var(--ieytd-color-1);
 } /* Selected */
 .theme-dark .header-3_zmOb .tabBar-2WhZ9G .tab-2Jo-cu.active-346HgG,
 .theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {
-    background: var(--color-one);
+    background: var(--ieytd-color-1);
 }
 /* divider */
 .divider-2xk5N2 {
-    background: var(--color-one);
+    background: var(--ieytd-color-1);
     width: 2px;
 }

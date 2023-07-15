@@ -2,30 +2,30 @@
 
 // Search results panel
 .searchResultsWrap-5RVOkx {
-    background: var(--color-three);
-    border: solid var(--color-two);
+    background: var(--ieytd-color-3);
+    border: solid var(--ieytd-color-2);
     border-width: 0 $thin;
 
-    --background-primary: var(--color-three);
-    --background-tertiary: var(--color-one);
-    --header-primary: var(--color-two);
-    --header-secondary: var(--color-two);
-    --text-muted: var(--color-one);
-    --text-normal: var(--color-two);
-    --interactive-muted: var(--color-one);
-    --interactive-normal: var(--color-two);
-    --interactive-active: var(--color-two);
-    --interactive-hover: var(--color-one);
+    --background-primary: var(--ieytd-color-3);
+    --background-tertiary: var(--ieytd-color-1);
+    --header-primary: var(--ieytd-color-2);
+    --header-secondary: var(--ieytd-color-2);
+    --text-muted: var(--ieytd-color-1);
+    --text-normal: var(--ieytd-color-2);
+    --interactive-muted: var(--ieytd-color-1);
+    --interactive-normal: var(--ieytd-color-2);
+    --interactive-active: var(--ieytd-color-2);
+    --interactive-hover: var(--ieytd-color-1);
 
     // Header
     .searchHeader-1r_ZSh {
-        background: var(--color-two);
+        background: var(--ieytd-color-2);
         height: 40px;
         padding-bottom: 0;
         overflow: hidden;
-        border-bottom: $thin solid var(--color-three);
+        border-bottom: $thin solid var(--ieytd-color-3);
 
-        --header-primary: var(--color-three);
+        --header-primary: var(--ieytd-color-3);
 
         // Result count
         .totalResults-2On644 {
@@ -42,13 +42,13 @@
 
         // Button
         .item-3XjbnG {
-            --background-modifier-hover: var(--color-three);
-            background: var(--color-one);
+            --background-modifier-hover: var(--ieytd-color-3);
+            background: var(--ieytd-color-1);
             border-radius: 16px 16px 0 0;
             padding: 6px 15px;
 
             &.selected-g-kMVV {
-                background: var(--color-three);
+                background: var(--ieytd-color-3);
             }
         }
     }
@@ -68,6 +68,6 @@
     .button-cfOvv-:hover {
         border-radius: 20px;
         padding: 4px 8px;
-        color: var(--color-three);
+        color: var(--ieytd-color-3);
     }
 }

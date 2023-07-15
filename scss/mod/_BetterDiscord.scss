@@ -2,90 +2,90 @@
 .bd-settings-title,
 .bd-setting-header label,
 .bd-addon-list .bd-description {
-    color: var(--color-two);
+    color: var(--ieytd-color-2);
 }
 
 .bd-search,
 .bd-title * {
-    color: var(--color-three);
+    color: var(--ieytd-color-3);
 }
 
 .bd-description-wrap,
 .bd-footer,
 .floating-window-buttons {
-    background: var(--color-three);
+    background: var(--ieytd-color-3);
 }
 
 .bd-addon-card {
-    border: 2px solid var(--color-two);
-    box-shadow: inset 0 0 0 2px var(--color-two);
+    border: 2px solid var(--ieytd-color-2);
+    box-shadow: inset 0 0 0 2px var(--ieytd-color-2);
 }
 
 .defaultColor-2cKwKo,
 .title-2dsDLn {
-    color: var(--color-two);
+    color: var(--ieytd-color-2);
 }
 
 .contentColumn-1C7as6 .button-f2h6uQ {
-    color: var(--color-three);
+    color: var(--ieytd-color-3);
 }
 
 .contentColumn-1C7as6 .button-f2h6uQ:hover {
-    background: var(--color-one);
+    background: var(--ieytd-color-1);
 }
 
 .contentColumn-1C7as6 .button-f2h6uQ.colorRed-rQXKgM {
-    color: var(--color-one);
+    color: var(--ieytd-color-1);
 }
 
 .contentColumn-1C7as6 .button-f2h6uQ.colorRed-rQXKgM:hover {
-    color: var(--color-three);
+    color: var(--ieytd-color-3);
 }
 
 .popoutInfo-16MuYF {
-    background: var(--color-three);
+    background: var(--ieytd-color-3);
 }
 
 .accountList-305sx3 .h5-2RwDNl {
-    color: var(--color-three);
+    color: var(--ieytd-color-3);
 }
 
 /* ??? */
 .bd-button,
 .bd-button:hover,
 .bd-addon-views .bd-view-button.selected {
-    background-color: var(--color-one);
-    color: var(--color-two);
+    background-color: var(--ieytd-color-1);
+    color: var(--ieytd-color-2);
 }
 
 .bd-reload,
 .bd-reload:hover,
 .bd-addon-views .bd-view-button.selected svg {
-    fill: var(--color-two);
+    fill: var(--ieytd-color-2);
 }
 
 .bd-addon-button svg {
-    fill: var(--color-two) !important;
+    fill: var(--ieytd-color-2) !important;
 }
 
 .bd-button.bd-button-danger {
-    background-color: var(--color-three);
-    border: 2px solid var(--color-one);
+    background-color: var(--ieytd-color-3);
+    border: 2px solid var(--ieytd-color-1);
 }
 
 .bd-button.bd-button-danger:hover {
-    background-color: var(--color-one);
+    background-color: var(--ieytd-color-1);
 }
 
 .bd-addon-header .bd-switch-body {
-    border: 2px solid var(--color-one);
+    border: 2px solid var(--ieytd-color-1);
     height: 28px;
     width: 44px;
 }
 
 /* Plugin error */
 .bd-error-modal-header h4 {
-    color: var(--color-three);
+    color: var(--ieytd-color-3);
 }
 
 .bd-tab-bar {
@@ -94,15 +94,15 @@
 }
 
 .bd-tab-item {
-    color: var(--color-one);
+    color: var(--ieytd-color-1);
 }
 
 .bd-addon-error {
-    background-color: var(--color-three);
+    background-color: var(--ieytd-color-3);
 }
 
 .bd-addon-error-file {
-    color: var(--color-two);
+    color: var(--ieytd-color-2);
 }
 
 /* Toasts */
@@ -111,8 +111,8 @@
 }
 
 .bd-toast {
-    color: var(--color-two);
-    border: 2px solid var(--color-two);
+    color: var(--ieytd-color-2);
+    border: 2px solid var(--ieytd-color-2);
     border-radius: 20px;
     padding-right: 35px;
 }
@@ -133,5 +133,5 @@
 #bd-editor-controls,
 #bd-editor-controls button,
 #bd-editor-controls button:hover {
-    color: var(--color-three);
+    color: var(--ieytd-color-3);
 }
