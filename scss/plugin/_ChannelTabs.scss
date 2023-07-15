@@ -1,6 +1,6 @@
 /* ChannelTabs plugin */
 #channelTabs-container {
-    background: var(--color-three) !important;
+    background: var(--ieytd-color-3) !important;
 }
 
 .channelTabs-favContainer,
@@ -9,17 +9,17 @@
 }
 
 .channelTabs-fav {
-    background: var(--color-one) !important;
+    background: var(--ieytd-color-1) !important;
     border-radius: 11px 11px 0 0 !important;
 }
 
 .channelTabs-unreadBadge {
-    background: var(--color-two) !important;
-    color: var(--color-three) !important;
+    background: var(--ieytd-color-2) !important;
+    color: var(--ieytd-color-3) !important;
 }
 
 #channelTabs-settingsMenu {
-    background: var(--color-one) !important;
+    background: var(--ieytd-color-1) !important;
     border-radius: 11px 0 0 11px !important;
 }
 
@@ -29,15 +29,15 @@
 }
 
 .channelTabs-tab {
-    background: var(--color-one) !important;
+    background: var(--ieytd-color-1) !important;
     border-radius: 0 0 11px 11px !important;
 }
 
 .channelTabs-newTab {
-    color: var(--color-two) !important;
+    color: var(--ieytd-color-2) !important;
 }
 
 .channelTabs-closeTab:hover {
     background: transparent !important;
-    color: var(--color-two) !important;
+    color: var(--ieytd-color-2) !important;
 }

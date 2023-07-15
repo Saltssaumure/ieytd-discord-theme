@@ -2,14 +2,14 @@
 
 // Member sidebar
 .container-2o3qEW {
-    background: var(--color-one);
-    border-left: 10px solid var(--color-two);
+    background: var(--ieytd-color-1);
+    border-left: 10px solid var(--ieytd-color-2);
 
-    --interactive-hover: var(--color-two);
-    --interactive-active: var(--color-two);
+    --interactive-hover: var(--ieytd-color-2);
+    --interactive-active: var(--ieytd-color-2);
 
     .members-3WRCEx {
-        background: var(--color-one);
+        background: var(--ieytd-color-1);
     }
 
     // Member list
@@ -24,8 +24,8 @@
 
         // Member
         .member-48YF_l {
-            background: var(--color-three);
-            border: $x-thin solid var(--color-two);
+            background: var(--ieytd-color-3);
+            border: $x-thin solid var(--ieytd-color-2);
             border-radius: $max;
 
             // Shifting contents around
@@ -47,8 +47,8 @@
             // Bot tag
             .botTag-7aX5WZ {
                 border-radius: 8px;
-                background: var(--color-one);
-                color: var(--color-three);
+                background: var(--ieytd-color-1);
+                color: var(--ieytd-color-3);
 
                 .botText-1fD6Qk {
                     display: inline-block;
@@ -58,16 +58,16 @@
 
             // Member with profile open
             &.selected-1-Z6gm {
-                background: var(--color-two);
-                border-color: var(--color-three);
+                background: var(--ieytd-color-2);
+                border-color: var(--ieytd-color-3);
 
                 .name-3Vmqxm,
                 .activity-2EQDZv {
-                    color: var(--color-three);
+                    color: var(--ieytd-color-3);
                 }
 
                 .botTag-7aX5WZ {
-                    color: var(--color-two);
+                    color: var(--ieytd-color-2);
                 }
             }
         }

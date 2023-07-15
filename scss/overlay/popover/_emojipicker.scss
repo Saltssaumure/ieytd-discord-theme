@@ -1,6 +1,6 @@
 /* Emoji picker */
 .contentWrapper-3vHNP2 {
-    border: 3px solid var(--color-two);
+    border: 3px solid var(--ieytd-color-2);
 }
 /* Emoji picker header */
 .header-11eigE,
@@ -10,8 +10,8 @@
 .searchBar-2M9mRP,
 .container-1SX9VC,
 .diversitySelectorOptions-3DhNYs {
-    background-color: var(--color-three);
-    border: 2px solid var(--color-two);
+    background-color: var(--ieytd-color-3);
+    border: 2px solid var(--ieytd-color-2);
     border-radius: 26px;
 }
 /* Gifs stickers emoji buttons */
@@ -20,7 +20,7 @@
 }
 .navButtonActive-1EqC5l,
 .navButtonActive-1EqC5l:hover {
-    color: var(--color-three);
+    color: var(--ieytd-color-3);
 }
 /* Emoji panel */
 .bodyWrapper-1eSOtW,
@@ -28,20 +28,20 @@
 .wrapper-i1awk3,
 .content-A8TzKf,
 .wrapper-3z7DuG {
-    background-color: var(--color-three);
+    background-color: var(--ieytd-color-3);
 }
 /* Server group header */
 .wrapper-1NNaWG {
-    border-bottom: 1px solid var(--color-two);
+    border-bottom: 1px solid var(--ieytd-color-2);
     margin-right: 4px;
 }
 .header-1XpmZs,
 .header-1XpmZs.interactive-MpGq2z:hover:hover {
-    color: var(--color-two);
+    color: var(--ieytd-color-2);
 }
 /* Selected emoji */
 .emojiItem-277VFM.emojiItemSelected-2Lg50V {
-    background-color: var(--color-one);
+    background-color: var(--ieytd-color-1);
 }
 /* Loading emoji */
 .theme-dark .imageLoading-2uloYN {
@@ -54,31 +54,31 @@
 }
 .categoryIcon-2cYeku,
 .categoryItemDefaultCategory-3haEDq:hover .categoryIcon-2cYeku {
-    color: var(--color-one);
+    color: var(--ieytd-color-1);
 }
 .categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategorySelected-2YeRUu:hover {
-    background-color: var(--color-one);
+    background-color: var(--ieytd-color-1);
     border-radius: 50%;
 }
 .categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku,
 .categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku {
-    color: var(--color-three);
+    color: var(--ieytd-color-3);
 }
 .inspector-DFKXwB,
 .unicodeShortcut-3N8oDe,
 .standardStickerShortcut-ObSns3 {
-    background-color: var(--color-one);
+    background-color: var(--ieytd-color-1);
 }
 .premiumCategorySelected-2KWLhN,
 .premiumCategorySelected-2KWLhN:hover,
 .stickerCategoryGenericSelected-DnO2K8,
 .stickerCategoryGenericSelected-DnO2K8:hover {
-    background-color: var(--color-two);
+    background-color: var(--ieytd-color-2);
 }
 .stickerCategory-2f6iSo,
 .stickerCategoryGenericSelected-DnO2K8 .stickerCategoryGenericIcon-3wumVD {
-    color: var(--color-one);
+    color: var(--ieytd-color-1);
 }
 /* Gif selector favourites */
 .theme-dark .categoryFadeBlurple-1l49_Q,
@@ -90,6 +90,6 @@
 /* Gif selector category text */
 .theme-dark .categoryText-3B1jLN,
 .theme-light .categoryText-3B1jLN {
-    color: var(--color-two);
+    color: var(--ieytd-color-2);
     text-shadow: none;
 }
