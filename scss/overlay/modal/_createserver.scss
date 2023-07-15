@@ -1,3 +1,5 @@
+@use "../../top/vars" as *;
+
 /* Create a new server / Add a server focus lock popout */
 .theme-light .root-g14mjS {
     background: transparent;
@@ -12,7 +14,7 @@
 .header-1c1AhF .colorHeaderSecondary-g5teka,
 .header-12n7su .colorHeaderSecondary-g5teka,
 .header-1AP5SJ .colorHeaderSecondary-g5teka {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 /* Content */
 .templatesList-uohY49,
@@ -27,17 +29,17 @@
 /* Links */
 .optionsList-dmHy1l .anchor-1MIwyf,
 .createGuild-2m1V10 .anchor-1MIwyf {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 /* Footer */
 .footer-31IekZ {
-    background: var(--ieytd-color-2);
+    background: $cream;
 }
 /* Button */
 .theme-light .lookFilled-yCfaCM.colorGrey-2iAG-B {
-    color: var(--ieytd-color-2);
-    background: var(--ieytd-color-1);
+    color: $cream;
+    background: $red;
 }
 .theme-light .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
-    background: var(--ieytd-color-3);
+    background: $black;
 }

@@ -1,6 +1,8 @@
+@use "../../top/vars" as *;
+
 /* Emoji picker */
 .contentWrapper-3vHNP2 {
-    border: 3px solid var(--ieytd-color-2);
+    border: 3px solid $cream;
 }
 /* Emoji picker header */
 .header-11eigE,
@@ -10,8 +12,8 @@
 .searchBar-2M9mRP,
 .container-1SX9VC,
 .diversitySelectorOptions-3DhNYs {
-    background-color: var(--ieytd-color-3);
-    border: 2px solid var(--ieytd-color-2);
+    background-color: $black;
+    border: 2px solid $cream;
     border-radius: 26px;
 }
 /* Gifs stickers emoji buttons */
@@ -20,7 +22,7 @@
 }
 .navButtonActive-1EqC5l,
 .navButtonActive-1EqC5l:hover {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 /* Emoji panel */
 .bodyWrapper-1eSOtW,
@@ -28,20 +30,20 @@
 .wrapper-i1awk3,
 .content-A8TzKf,
 .wrapper-3z7DuG {
-    background-color: var(--ieytd-color-3);
+    background-color: $black;
 }
 /* Server group header */
 .wrapper-1NNaWG {
-    border-bottom: 1px solid var(--ieytd-color-2);
+    border-bottom: 1px solid $cream;
     margin-right: 4px;
 }
 .header-1XpmZs,
 .header-1XpmZs.interactive-MpGq2z:hover:hover {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 /* Selected emoji */
 .emojiItem-277VFM.emojiItemSelected-2Lg50V {
-    background-color: var(--ieytd-color-1);
+    background-color: $red;
 }
 /* Loading emoji */
 .theme-dark .imageLoading-2uloYN {
@@ -54,31 +56,31 @@
 }
 .categoryIcon-2cYeku,
 .categoryItemDefaultCategory-3haEDq:hover .categoryIcon-2cYeku {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 .categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategorySelected-2YeRUu:hover {
-    background-color: var(--ieytd-color-1);
+    background-color: $red;
     border-radius: 50%;
 }
 .categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku,
 .categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 .inspector-DFKXwB,
 .unicodeShortcut-3N8oDe,
 .standardStickerShortcut-ObSns3 {
-    background-color: var(--ieytd-color-1);
+    background-color: $red;
 }
 .premiumCategorySelected-2KWLhN,
 .premiumCategorySelected-2KWLhN:hover,
 .stickerCategoryGenericSelected-DnO2K8,
 .stickerCategoryGenericSelected-DnO2K8:hover {
-    background-color: var(--ieytd-color-2);
+    background-color: $cream;
 }
 .stickerCategory-2f6iSo,
 .stickerCategoryGenericSelected-DnO2K8 .stickerCategoryGenericIcon-3wumVD {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 /* Gif selector favourites */
 .theme-dark .categoryFadeBlurple-1l49_Q,
@@ -90,6 +92,6 @@
 /* Gif selector category text */
 .theme-dark .categoryText-3B1jLN,
 .theme-light .categoryText-3B1jLN {
-    color: var(--ieytd-color-2);
+    color: $cream;
     text-shadow: none;
 }

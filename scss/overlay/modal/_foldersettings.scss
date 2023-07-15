@@ -1,3 +1,5 @@
+@use "../../top/vars" as *;
+
 /* Folder settings focus lock popout */
 /* Content */
 .content-2hZxGK {
@@ -5,12 +7,12 @@
 }
 /* colour picker */
 .theme-dark .colorPickerCustom-1swUKF {
-    background: var(--ieytd-color-3);
-    border: 2px solid var(--ieytd-color-2);
+    background: $black;
+    border: 2px solid $cream;
     border-radius: 15px;
 }
 /* hue drag handle */
 .hue-2nWTuO > div > div > div > div,
 .alpha-VcPGeR > div > div > div > div {
-    background: var(--ieytd-color-2) !important;
+    background: $cream !important;
 }

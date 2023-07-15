@@ -4,7 +4,7 @@
 
 // Chat split bar
 .resizeHandle-PBRzPC {
-    background: var(--ieytd-color-2);
+    background: $cream;
     width: 10px;
 }
 
@@ -20,7 +20,7 @@
     border-left: 0;
 
     .container-ZMc96U {
-        border-left: 10px solid var(--ieytd-color-2);
+        border-left: 10px solid $cream;
     }
 }
 
@@ -28,23 +28,23 @@
 
 // Thread type icon
 .iconWrapper-3FqQ75 {
-    background: var(--ieytd-color-1);
+    background: $red;
 }
 
 // Forum post controls
 .container-3YcgdM {
     background: transparent;
     border-top: 0;
-    --interactive-normal: var(--ieytd-color-1);
-    --interactive-hover: var(--ieytd-color-1);
-    --interactive-active: var(--ieytd-color-1);
+    --interactive-normal: $red;
+    --interactive-hover: $red;
+    --interactive-active: $red;
 
     // Buttons
     .reaction-102jx9,
     .addReactButton-3bSQb6,
     .buttonInner-3aRbcx {
         background: transparent;
-        border: $x-thin solid var(--ieytd-color-1);
+        border: $x-thin solid $red;
         border-radius: $max;
     }
 
@@ -55,19 +55,19 @@
 
     // Reaction added
     .reactionMe-2zhiyZ {
-        border-color: var(--ieytd-color-2);
+        border-color: $cream;
         margin-bottom: 4px;
 
         .reactionCount-SWXh9W {
-            color: var(--ieytd-color-2);
+            color: $cream;
         }
     }
 
     // Followed post
     .active-OdlCV-,
     .active-OdlCV-:hover {
-        border-color: var(--ieytd-color-2);
-        color: var(--ieytd-color-2);
+        border-color: $cream;
+        color: $cream;
     }
 }
 

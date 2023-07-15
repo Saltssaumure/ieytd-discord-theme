@@ -1,8 +1,10 @@
+@use "../top/vars" as *;
+
 // Post tags
 .pill-3pRQlO {
-    background: var(--ieytd-color-1);
+    background: $red;
 
     .defaultColor-1EVLSt {
-        color: var(--ieytd-color-2);
+        color: $cream;
     }
 }

@@ -10,22 +10,22 @@
 
     // Follow announcement channel
     &.colorPrimary-2AuQVo {
-        @include button.button(var(--ieytd-color-3), var(--ieytd-color-2));
+        @include button.button($black, $cream);
 
         &[aria-disabled="true"],
         &:disabled {
-            --button-secondary-background-disabled: var(--ieytd-color-3);
+            --button-secondary-background-disabled: $black;
         }
     }
 
     // Join server in invite embed
     &.colorGreen-3y-Z79 {
-        @include button.button(var(--ieytd-color-3), var(--ieytd-color-2), var(--ieytd-color-1));
+        @include button.button($black, $cream, $red);
     }
 
     // Gift inventory in gift embed
     &.colorBrand-I6CyqQ {
-        @include button.button(var(--ieytd-color-3), var(--ieytd-color-2), var(--ieytd-color-1));
+        @include button.button($black, $cream, $red);
     }
 }
 
@@ -34,7 +34,7 @@
 
     // Edit channel button at start of text channel
     .buttonContainer-2zLp7E & {
-        color: var(--ieytd-color-1);
+        color: $red;
         padding: 6px 12px;
         border: $x-thin solid;
     }

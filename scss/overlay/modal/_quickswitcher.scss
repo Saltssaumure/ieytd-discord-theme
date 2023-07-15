@@ -1,19 +1,21 @@
+@use "../../top/vars" as *;
+
 /* Ctrl+T quickswitcher focus lock popout */
 .quickswitcher-pKcM9U {
-    background: var(--ieytd-color-1);
-    border: 2px solid var(--ieytd-color-2);
+    background: $red;
+    border: 2px solid $cream;
 }
 .input-3r5zZY {
-    background: var(--ieytd-color-3);
+    background: $black;
     border-radius: 50px;
-    border: 3px solid var(--ieytd-color-2);
+    border: 3px solid $cream;
 }
 .scroller-2qwVWY::-webkit-scrollbar-track {
     background: transparent !important;
 }
 .header-1ZpMzy {
     font-family: var(--font-display);
-    color: var(--ieytd-color-3);
+    color: $black;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
@@ -21,12 +23,12 @@
 }
 /* ping bubble */
 .wrapper-2olG5t {
-    background: var(--ieytd-color-3);
-    color: var(--ieytd-color-2);
+    background: $black;
+    color: $cream;
     border-radius: 50%;
     width: 18px;
 }
 /* autocomplete */
 .autocompleteQuerySymbol-1iAOG7 {
-    color: var(--ieytd-color-3);
+    color: $black;
 }

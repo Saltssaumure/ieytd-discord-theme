@@ -1,91 +1,93 @@
+@use "../top/vars" as *;
+
 /* Settings panel */
 .bd-settings-title,
 .bd-setting-header label,
 .bd-addon-list .bd-description {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 
 .bd-search,
 .bd-title * {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 
 .bd-description-wrap,
 .bd-footer,
 .floating-window-buttons {
-    background: var(--ieytd-color-3);
+    background: $black;
 }
 
 .bd-addon-card {
-    border: 2px solid var(--ieytd-color-2);
-    box-shadow: inset 0 0 0 2px var(--ieytd-color-2);
+    border: 2px solid $cream;
+    box-shadow: inset 0 0 0 2px $cream;
 }
 
 .defaultColor-2cKwKo,
 .title-2dsDLn {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 
 .contentColumn-1C7as6 .button-f2h6uQ {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 
 .contentColumn-1C7as6 .button-f2h6uQ:hover {
-    background: var(--ieytd-color-1);
+    background: $red;
 }
 
 .contentColumn-1C7as6 .button-f2h6uQ.colorRed-rQXKgM {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 
 .contentColumn-1C7as6 .button-f2h6uQ.colorRed-rQXKgM:hover {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 
 .popoutInfo-16MuYF {
-    background: var(--ieytd-color-3);
+    background: $black;
 }
 
 .accountList-305sx3 .h5-2RwDNl {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 
 /* ??? */
 .bd-button,
 .bd-button:hover,
 .bd-addon-views .bd-view-button.selected {
-    background-color: var(--ieytd-color-1);
-    color: var(--ieytd-color-2);
+    background-color: $red;
+    color: $cream;
 }
 
 .bd-reload,
 .bd-reload:hover,
 .bd-addon-views .bd-view-button.selected svg {
-    fill: var(--ieytd-color-2);
+    fill: $cream;
 }
 
 .bd-addon-button svg {
-    fill: var(--ieytd-color-2) !important;
+    fill: $cream !important;
 }
 
 .bd-button.bd-button-danger {
-    background-color: var(--ieytd-color-3);
-    border: 2px solid var(--ieytd-color-1);
+    background-color: $black;
+    border: 2px solid $red;
 }
 
 .bd-button.bd-button-danger:hover {
-    background-color: var(--ieytd-color-1);
+    background-color: $red;
 }
 
 .bd-addon-header .bd-switch-body {
-    border: 2px solid var(--ieytd-color-1);
+    border: 2px solid $red;
     height: 28px;
     width: 44px;
 }
 
 /* Plugin error */
 .bd-error-modal-header h4 {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 
 .bd-tab-bar {
@@ -94,15 +96,15 @@
 }
 
 .bd-tab-item {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 
 .bd-addon-error {
-    background-color: var(--ieytd-color-3);
+    background-color: $black;
 }
 
 .bd-addon-error-file {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 
 /* Toasts */
@@ -111,8 +113,8 @@
 }
 
 .bd-toast {
-    color: var(--ieytd-color-2);
-    border: 2px solid var(--ieytd-color-2);
+    color: $cream;
+    border: 2px solid $cream;
     border-radius: 20px;
     padding-right: 35px;
 }
@@ -133,5 +135,5 @@
 #bd-editor-controls,
 #bd-editor-controls button,
 #bd-editor-controls button:hover {
-    color: var(--ieytd-color-3);
+    color: $black;
 }

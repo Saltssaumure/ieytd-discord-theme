@@ -1,18 +1,20 @@
+@use "../top/vars" as *;
+
 /* Tooltips */
 .theme-dark .tooltipPrimary-3qLMbS,
 .aboutMeGuildIconTooltip-1hnrui {
-    background: var(--ieytd-color-3);
-    border: 2px solid var(--ieytd-color-2);
+    background: $black;
+    border: 2px solid $cream;
 }
 .theme-dark .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
-    border-top-color: var(--ieytd-color-2);
+    border-top-color: $cream;
 }
 /* Verified server */
 .icon-3BYlXK {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 
 /* Emoji tooltip Click to learn more */
 .clickCTA-1bk0UN {
-    color: var(--ieytd-color-1);
+    color: $red;
 }

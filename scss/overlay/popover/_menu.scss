@@ -1,6 +1,8 @@
+@use "../../top/vars" as *;
+
 /* Popout right click options menu */
 .menu-1QACrS {
-    border: 3px solid var(--ieytd-color-3);
+    border: 3px solid $black;
 }
 .colorDefault-CDqZdO.focused-3qFvc8,
 .colorDefault-CDqZdO.focused-3qFvc8 .checkbox-hADx5o,
@@ -8,5 +10,5 @@
 .colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE,
 .colorDefault-CDqZdO .check-3HZJs4,
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }

@@ -1,6 +1,8 @@
+@use "../../top/vars" as *;
+
 /* Header */
 .header-1zd7se {
-    background: var(--ieytd-color-2);
+    background: $cream;
     overflow: hidden;
 }
 /* x to close */
@@ -8,12 +10,12 @@
     opacity: 1;
 }
 .closeIcon-11LhXr {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 /* Content */
 .content-2hZxGK {
-    background: var(--ieytd-color-1);
-    border: solid var(--ieytd-color-2);
+    background: $red;
+    border: solid $cream;
     border-width: 4px;
     border-radius: 5px;
 }
@@ -29,33 +31,33 @@
 }
 /* Mini titles */
 .h5-2RwDNl {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 /* Footer */
 .theme-dark .footer-31IekZ {
-    background-color: var(--ieytd-color-2);
+    background-color: $cream;
     box-shadow: none;
 }
 /* Major button */
 .lookFilled-yCfaCM.colorRed-rQXKgM {
-    color: var(--ieytd-color-1);
-    background-color: var(--ieytd-color-2);
+    color: $red;
+    background-color: $cream;
 }
 .lookFilled-yCfaCM.colorRed-rQXKgM:hover,
 .lookFilled-yCfaCM.colorRed-rQXKgM:active {
-    background-color: var(--ieytd-color-3);
+    background-color: $black;
 }
 /* Minor button */
 .theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 .theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo:hover .contents-3ca1mk {
-    background-image: linear-gradient(0deg, transparent, transparent 1px, var(--ieytd-color-2) 0, var(--ieytd-color-2) 2px, transparent 0);
+    background-image: linear-gradient(0deg, transparent, transparent 1px, $cream 0, $cream 2px, transparent 0);
 }
 /* Buttons */
 .theme-dark .footer-31IekZ .lookFilled-yCfaCM.colorPrimary-2AuQVo,
 .theme-dark .footer-31IekZ .lookFilled-yCfaCM.colorPrimary-2AuQVo:active,
 .theme-dark .footer-31IekZ .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
-    color: var(--ieytd-color-2);
-    background: var(--ieytd-color-1);
+    color: $cream;
+    background: $red;
 }

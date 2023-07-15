@@ -1,6 +1,8 @@
+@use "../top/vars" as *;
+
 /* ChannelTabs plugin */
 #channelTabs-container {
-    background: var(--ieytd-color-3) !important;
+    background: $black !important;
 }
 
 .channelTabs-favContainer,
@@ -9,17 +11,17 @@
 }
 
 .channelTabs-fav {
-    background: var(--ieytd-color-1) !important;
+    background: $red !important;
     border-radius: 11px 11px 0 0 !important;
 }
 
 .channelTabs-unreadBadge {
-    background: var(--ieytd-color-2) !important;
-    color: var(--ieytd-color-3) !important;
+    background: $cream !important;
+    color: $black !important;
 }
 
 #channelTabs-settingsMenu {
-    background: var(--ieytd-color-1) !important;
+    background: $red !important;
     border-radius: 11px 0 0 11px !important;
 }
 
@@ -29,15 +31,15 @@
 }
 
 .channelTabs-tab {
-    background: var(--ieytd-color-1) !important;
+    background: $red !important;
     border-radius: 0 0 11px 11px !important;
 }
 
 .channelTabs-newTab {
-    color: var(--ieytd-color-2) !important;
+    color: $cream !important;
 }
 
 .channelTabs-closeTab:hover {
     background: transparent !important;
-    color: var(--ieytd-color-2) !important;
+    color: $cream !important;
 }

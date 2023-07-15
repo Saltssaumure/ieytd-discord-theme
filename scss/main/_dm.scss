@@ -1,30 +1,32 @@
+@use "../top/vars" as *;
+
 /* Friends panel */
 .theme-dark .container-2cd8Mz {
-    background: var(--ieytd-color-1);
+    background: $red;
 }
 /* Friends banner */
 .searchBar-3TnChZ {
-    border-bottom: 3px solid var(--ieytd-color-2);
+    border-bottom: 3px solid $cream;
     height: 45px;
 }
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
-    background: var(--ieytd-color-3);
-    border: 2px solid var(--ieytd-color-2);
+    background: $black;
+    border: 2px solid $cream;
     border-radius: 14px;
 }
 /* Friends buttons */
 .item-3XjbnG[aria-controls="add_friend-tab"] {
-    background: var(--ieytd-color-2) !important;
-    color: var(--ieytd-color-3) !important;
-    border: 2px solid var(--ieytd-color-2);
+    background: $cream !important;
+    color: $black !important;
+    border: 2px solid $cream;
     padding: 0 8px;
     border-radius: 14px;
 }
 /* Add friend button in friends tab */
 .tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1,
 .tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1:hover {
-    color: var(--ieytd-color-3);
-    background-color: var(--ieytd-color-2);
+    color: $black;
+    background-color: $cream;
     border-radius: 20px;
 }
 .item-3XjbnG {
@@ -36,48 +38,48 @@
 }
 /* New friend request bubble */
 .container-2cd8Mz .numberBadge-37OJ3S {
-    background: var(--ieytd-color-3) !important;
+    background: $black !important;
 }
 /* Friends list */
 .tabBody-2dgbAs {
-    border-left: 10px solid var(--ieytd-color-2);
+    border-left: 10px solid $cream;
 }
 /* Friends list search */
 .container-2oNtJn {
-    background: var(--ieytd-color-3);
-    border: 3px solid var(--ieytd-color-2);
+    background: $black;
+    border: 3px solid $cream;
     border-radius: 19px;
 }
 /* Friends list title */
 .title-x4dI75 {
-    color: var(--ieytd-color-3);
+    color: $black;
     font-size: 18px;
     line-height: 24px;
     margin: 0px 20px 8px 30px;
 }
 /* Add friends description */
 .description-30xx7u {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 /* Add friend name box */
 .addFriendInputWrapper-kkoSV9 {
-    background: var(--ieytd-color-3);
-    border: 3px solid var(--ieytd-color-2);
+    background: $black;
+    border: 3px solid $cream;
     border-radius: 27px;
 }
 .addFriendInputWrapper-kkoSV9 .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ {
     border-radius: 16px;
-    background: var(--ieytd-color-2);
-    color: var(--ieytd-color-3);
+    background: $cream;
+    color: $black;
 }
 .addFriendInputWrapper-kkoSV9 .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ:active,
 .addFriendInputWrapper-kkoSV9 .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-    background: var(--ieytd-color-1);
+    background: $red;
 }
 /* Empty list wumpus */
 .theme-dark .text-27cdrj,
 .theme-dark .title-2CL_z0 {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 /* Friends in list */
 .peopleListItem-u6dGxF,
@@ -85,8 +87,8 @@
 .peopleListItem-u6dGxF:hover,
 .peopleListItem-u6dGxF.active-2UF8Zh + .peopleListItem-u6dGxF,
 .peopleListItem-u6dGxF:hover + .peopleListItem-u6dGxF {
-    border: 2px solid var(--ieytd-color-2);
-    background: var(--ieytd-color-3);
+    border: 2px solid $cream;
+    background: $black;
     margin: 5px 10px 0 20px;
     padding: 16px 10px;
     border-radius: 36px;
@@ -96,7 +98,7 @@
     overflow: visible;
 }
 .username-Qpc78p {
-    color: var(--ieytd-color-2);
+    color: $cream;
     font-family: var(--font-display);
     font-size: 18px;
     overflow: visible;
@@ -106,19 +108,19 @@
 }
 /* Friend list buttons */
 .actionButton-3-B2x-:active {
-    background: var(--ieytd-color-2);
+    background: $cream;
 }
 .icon-1WVg4I {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 .actionButton-3-B2x-:not(.highlight-3DSi7b) .icon-1WVg4I {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 
 /* DM list */
 /* New message/friend bubble */
 .privateChannels-oVe7HL .numberBadge-37OJ3S {
-    background: var(--ieytd-color-1) !important;
+    background: $red !important;
 }
 /* Direct Messages title */
 .container-q97qHp {
@@ -126,7 +128,7 @@
     line-height: 30px;
     text-align: center;
     font-style: italic;
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 .privateChannelsHeaderContainer-1UWASm {
     padding: 0;
@@ -134,7 +136,7 @@
     align-items: baseline;
 }
 .privateChannelsHeaderContainer-1UWASm:hover {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 /* DM channel */
 .channel-1Shao0 {
@@ -146,19 +148,19 @@
 .interactive-1vLZ_I:focus-within,
 .interactive-1vLZ_I:hover,
 .interactive-1vLZ_I:active {
-    background: var(--ieytd-color-3);
-    color: var(--ieytd-color-2);
+    background: $black;
+    color: $cream;
     border-radius: 0 40px 40px 0;
-    border: 3px solid var(--ieytd-color-2);
+    border: 3px solid $cream;
     border-left: 0;
 }
 .interactiveSelected-29CP8y,
 .interactiveSelected-29CP8y:focus-within,
 .interactiveSelected-29CP8y:hover,
 .interactiveSelected-29CP8y:active {
-    background: var(--ieytd-color-2);
-    color: var(--ieytd-color-3);
-    border: 3px solid var(--ieytd-color-3);
+    background: $cream;
+    color: $black;
+    border: 3px solid $black;
     border-left: 0;
 }
 
@@ -171,39 +173,39 @@
 }
 /* DM name */
 .header-1dhDWV {
-    color: var(--ieytd-color-2);
+    color: $cream;
     font-size: 48px;
 }
 /* Buttons */
 .chatContent-3KubbW .lookFilled-yCfaCM {
     border-radius: 20px;
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 .chatContent-3KubbW .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
 .chatContent-3KubbW .lookFilled-yCfaCM.colorBrand-I6CyqQ:active {
-    background: var(--ieytd-color-1);
-    color: var(--ieytd-color-3);
+    background: $red;
+    color: $black;
 }
 
 /* Now playing / active now list */
 .container-1oAagU {
-    border-left: 10px solid var(--ieytd-color-2);
+    border-left: 10px solid $cream;
 }
 .scroller-hE2gWq {
     border: 0;
 }
 /* Title */
 .scroller-hE2gWq .base-21yXnu {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 /* Activity window */
 .itemCard-3Etziu {
-    border: 2px solid var(--ieytd-color-2);
+    border: 2px solid $cream;
     border-radius: 20px;
 }
 .theme-dark .outer-2JOHae.active-1W_Gl9,
 .theme-dark .outer-2JOHae.interactive-2zD88a:hover {
-    background: var(--ieytd-color-1);
+    background: $red;
 }
 /* Name */
 .sectionTitle-2AR_TY {

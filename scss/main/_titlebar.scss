@@ -2,17 +2,17 @@
 
 /* Window bar */
 .wordmarkWindows-2dq6rw {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 
 .winButton-3UMjdg {
-    color: var(--ieytd-color-2);
-    background: var(--ieytd-color-3);
-    border-left: $thin solid var(--ieytd-color-1);
+    color: $cream;
+    background: $black;
+    border-left: $thin solid $red;
 }
 
 .winButtonMinMax-3RsPUg:hover,
 .winButtonClose-3Q8ZH5:hover {
-    color: var(--ieytd-color-3);
-    background: var(--ieytd-color-1);
+    color: $black;
+    background: $red;
 }

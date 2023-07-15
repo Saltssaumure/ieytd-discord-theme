@@ -7,20 +7,20 @@
 
 // Area including bars
 .channelTextArea-1VQBuV {
-    background: var(--ieytd-color-1);
+    background: $red;
     border-radius: $textarea-outer;
-    --channeltextarea-background: var(--ieytd-color-3);
-    --channel-text-area-placeholder: var(--ieytd-color-1);
-    --textbox-markdown-syntax: var(--ieytd-color-2);
+    --channeltextarea-background: $black;
+    --channel-text-area-placeholder: $red;
+    --textbox-markdown-syntax: $cream;
 
     // Bars
     .attachedBars-2BCP3l {
-        background: var(--ieytd-color-3);
+        background: $black;
         border-radius: $textarea-outer $textarea-outer 0 0;
 
         // Reply bar
         .replyBar-1oi75v {
-            background: var(--ieytd-color-1);
+            background: $red;
             border-radius: $textarea-outer $textarea-outer 0 0;
 
             // Replying to username
@@ -31,8 +31,8 @@
 
             // Mention on/off button
             .mentionButton-3C5YMI {
-                --text-link: var(--ieytd-color-2);
-                --text-muted: var(--ieytd-color-3);
+                --text-link: $cream;
+                --text-muted: $black;
             }
 
             // Divider
@@ -42,15 +42,15 @@
 
             // Cancel reply
             .closeButton-3IEry2 {
-                --interactive-normal: var(--ieytd-color-2);
-                --interactive-hover: var(--ieytd-color-2);
+                --interactive-normal: $cream;
+                --interactive-hover: $cream;
             }
         }
     }
 
     // Actual typing area
     .scrollableContainer-15eg7h {
-        border: $thin solid var(--ieytd-color-1);
+        border: $thin solid $red;
         border-radius: $textarea-outer;
 
         // "Message #channel-name" placeholder
@@ -61,14 +61,14 @@
 
         // Typed links
         .fakeLink-1wGafz {
-            color: var(--ieytd-color-1);
+            color: $red;
         }
 
         // Inline code
         .after_inlineCode-2_JXPm,
         .before_inlineCode-1zngJj,
         .inlineCode-ERyvy_ {
-            background: var(--ieytd-color-3);
+            background: $black;
         }
 
         // Block code
@@ -79,15 +79,15 @@
 
     // Autocomplete
     .autocomplete-3NRXG8 {
-        background: var(--ieytd-color-3);
+        background: $black;
         border-radius: $textarea-outer;
-        border: $thin solid var(--ieytd-color-1);
+        border: $thin solid $red;
 
         // Emoji/username autocomplete
 
         // Title
         .contentTitle-3CylD3 {
-            color: var(--ieytd-color-1);
+            color: $red;
             font-size: 20px;
             font-family: var(--font-display);
             padding: 0 8px;
@@ -95,14 +95,14 @@
             strong {
                 font-family: var(--font-primary);
                 font-size: 16px;
-                color: var(--ieytd-color-2);
+                color: $cream;
             }
         }
 
         // Suggestion
         .autocompleteRowContent-1cjfD2 {
-            --interactive-active: var(--ieytd-color-2);
-            --interactive-normal: var(--ieytd-color-1);
+            --interactive-active: $cream;
+            --interactive-normal: $red;
         }
 
         // @ suggestion
@@ -117,11 +117,11 @@
         // Category list
         .wrapper-3z7DuG,
         .wrapper-22rqw6 {
-            background: var(--ieytd-color-1);
-            --background-primary: var(--ieytd-color-3);
-            --interactive-active: var(--ieytd-color-1);
-            --interactive-normal: var(--ieytd-color-3);
-            --interactive-hover: var(--ieytd-color-3);
+            background: $red;
+            --background-primary: $black;
+            --interactive-active: $red;
+            --interactive-normal: $black;
+            --interactive-hover: $black;
 
             // Category
             .wrapper-1wwiGV {
@@ -131,19 +131,19 @@
 
         // Suggestion list
         .categorySection-3hl0bM {
-            --interactive-active: var(--ieytd-color-2);
-            --interactive-normal: var(--ieytd-color-1);
+            --interactive-active: $cream;
+            --interactive-normal: $red;
 
             // Suggestion category name
             .categoryHeader-OpJ1Ly {
                 .header-1XpmZs {
-                    --interactive-normal: var(--ieytd-color-3);
-                    --header-secondary: var(--ieytd-color-3);
+                    --interactive-normal: $black;
+                    --header-secondary: $black;
                 }
 
-                background: var(--ieytd-color-1);
+                background: $red;
                 border-radius: $max;
-                border: $thin solid var(--ieytd-color-3);
+                border: $thin solid $black;
                 height: 32px+ ($thin * 2);
 
                 &::after {
@@ -161,7 +161,7 @@
                 // Mandatory params
                 .option-Tt7anD {
                     background: transparent;
-                    color: var(--ieytd-color-1);
+                    color: $red;
                 }
             }
         }
@@ -172,11 +172,11 @@
 .typing-2J1mQU {
     // Users who are typing
     .typingDots-1Y8dki {
-        color: var(--ieytd-color-1);
+        color: $red;
 
         // ...
         .dots-1BwzZQ.themed-3T-OPr {
-            color: var(--ieytd-color-1);
+            color: $red;
         }
 
         // Usernames
@@ -187,6 +187,6 @@
 
     // Cooldown
     .cooldownWrapper-2k1jHK {
-        color: var(--ieytd-color-1) !important;
+        color: $red !important;
     }
 }
