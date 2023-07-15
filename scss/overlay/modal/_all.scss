@@ -1,0 +1,61 @@
+/* Header */
+.header-1zd7se {
+    background: var(--color-two);
+    overflow: hidden;
+}
+/* x to close */
+.close-1mLglB {
+    opacity: 1;
+}
+.closeIcon-11LhXr {
+    color: var(--color-one);
+}
+/* Content */
+.content-2hZxGK {
+    background: var(--color-one);
+    border: solid var(--color-two);
+    border-width: 4px;
+    border-radius: 5px;
+}
+.content-2hZxGK:not(:first-of-type) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-width: 0;
+}
+.content-2hZxGK:not(:last-of-type) {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-width: 0;
+}
+/* Mini titles */
+.h5-2RwDNl {
+    color: var(--color-three);
+}
+/* Footer */
+.theme-dark .footer-31IekZ {
+    background-color: var(--color-two);
+    box-shadow: none;
+}
+/* Major button */
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+    color: var(--color-one);
+    background-color: var(--color-two);
+}
+.lookFilled-yCfaCM.colorRed-rQXKgM:hover,
+.lookFilled-yCfaCM.colorRed-rQXKgM:active {
+    background-color: var(--color-three);
+}
+/* Minor button */
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
+    color: var(--color-two);
+}
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo:hover .contents-3ca1mk {
+    background-image: linear-gradient(0deg, transparent, transparent 1px, var(--color-two) 0, var(--color-two) 2px, transparent 0);
+}
+/* Buttons */
+.theme-dark .footer-31IekZ .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+.theme-dark .footer-31IekZ .lookFilled-yCfaCM.colorPrimary-2AuQVo:active,
+.theme-dark .footer-31IekZ .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+    color: var(--color-two);
+    background: var(--color-one);
+}

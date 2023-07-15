@@ -1,0 +1,75 @@
+@use "../top/vars" as *;
+
+// Member sidebar
+.container-2o3qEW {
+    background: var(--color-one);
+    border-left: 10px solid var(--color-two);
+
+    --interactive-hover: var(--color-two);
+    --interactive-active: var(--color-two);
+
+    .members-3WRCEx {
+        background: var(--color-one);
+    }
+
+    // Member list
+    .members-3WRCEx {
+        // Member group
+        .membersGroup-2eiWxl {
+            text-align: center;
+            text-transform: none;
+            height: auto;
+            padding-top: 24px - 12px;
+        }
+
+        // Member
+        .member-48YF_l {
+            background: var(--color-three);
+            border: $x-thin solid var(--color-two);
+            border-radius: $max;
+
+            // Shifting contents around
+            &:not(.membersGroup-2eiWxl + .member-48YF_l) {
+                margin-top: 4px;
+            }
+
+            .layout-1qmrhw {
+                height: 42px - 8px;
+                padding-left: 3px;
+            }
+
+            // Username
+            .name-3Vmqxm {
+                font-family: var(--font-display);
+                margin: -3px 0 2px 0;
+            }
+
+            // Bot tag
+            .botTag-7aX5WZ {
+                border-radius: 8px;
+                background: var(--color-one);
+                color: var(--color-three);
+
+                .botText-1fD6Qk {
+                    display: inline-block;
+                    padding-top: 2px;
+                }
+            }
+
+            // Member with profile open
+            &.selected-1-Z6gm {
+                background: var(--color-two);
+                border-color: var(--color-three);
+
+                .name-3Vmqxm,
+                .activity-2EQDZv {
+                    color: var(--color-three);
+                }
+
+                .botTag-7aX5WZ {
+                    color: var(--color-two);
+                }
+            }
+        }
+    }
+}

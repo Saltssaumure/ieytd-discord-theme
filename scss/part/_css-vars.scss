@@ -1,0 +1,32 @@
+:root {
+    --dark-elevation-low: none;
+    --dark-elevation-high: none;
+    --dark-elevation-border: none;
+    --light-elevation-low: none;
+    --light-elevation-high: none;
+    --light-elevation-border: none;
+
+    --background-modifier-hover: transparent;
+    --background-modifier-selected: transparent;
+    --background-modifier-active: transparent;
+
+    --scrollbar-thin-thumb: var(--color-two);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--color-two);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-thumb: var(--color-two);
+    --scrollbar-auto-scrollbar-color-track: transparent;
+}
+
+.theme-dark,
+.theme-light {
+    --guild-header-text-shadow: none;
+    --elevation-stroke: none;
+    --elevation-low: none;
+    --elevation-medium: none;
+    --elevation-high: none;
+}
+
+.theme-dark {
+    --channels-default: var(--color-two);
+}

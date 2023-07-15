@@ -1,0 +1,42 @@
+@use "top/vars" as *;
+
+@use "main";
+@use "overlay";
+@use "mod";
+@use "part";
+@use "plugin";
+
+// Window is beige as default
+.bg-1QIAus {
+    background: var(--color-two);
+}
+
+// Panel minus server sidebar
+.base-2jDfDU {
+    // Channel group and member group title
+    .container-q97qHp {
+        font-style: oblique;
+        font-size: 20px;
+        line-height: 32px;
+        --channels-default: var(--color-three);
+    }
+}
+
+// // High level import
+// @import "components/font";
+// @import "components/button";
+
+// // Single import
+// @import "components/window-topbar"; //DONE
+// @import "components/server-sidebar"; //DONE
+// @import "components/channel-sidebar"; //DONE
+// @import "components/channel-header"; // Fix searchbar from: etc. options
+// @import "components/member-sidebar"; //DONE
+// @import "components/search"; //DONE
+// @import "components/splitthread"; //DONE...?
+// @import "components/forum";
+
+// // Multi-import
+// @import "components/chat"; //DONE
+// @import "components/popover";
+// @import "components/settings";

@@ -1,0 +1,129 @@
+@use "../top/vars" as *;
+
+// Server sidebar
+.guilds-2JjMmN {
+    --status-danger: var(--color-three);
+
+    // Server list
+    .scroller-3X7KbA {
+        background: var(--color-two);
+
+        // Folder icon open or closed
+        .folder-241Joy {
+            background: var(--color-one);
+        }
+
+        // Closed folder
+        .closedFolderIconWrapper-3tRb2d {
+            border: $thin solid var(--color-three);
+            border-radius: $max;
+        }
+
+        // Open folder
+        .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi) {
+            background: var(--color-one);
+            border-radius: $max;
+            border: $thin solid var(--color-three);
+            left: 9px;
+            top: -2px;
+            bottom: 5px;
+        }
+
+        // Icons have border
+        .svg-2zuE5p:not(.wrapper-38slSD > .listItem-3SmSlK .svg-2zuE5p) {
+            border: $thin solid var(--color-three);
+        }
+
+        // Icons always round
+        .svg-2zuE5p {
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        // Transparent icons have background
+        .icon-3AqZ2e {
+            background: var(--color-one);
+        }
+
+        // No indent in icons for mention bubbles
+        .wrapper-28eC3z foreignObject {
+            mask: none;
+        }
+
+        // Reordering servers
+        // Background behind dragged icon
+        .placeholderMask-2FHNZU {
+            border-radius: $max;
+
+            .dragInner-1CUBf_ {
+                background: var(--color-one);
+            }
+        }
+
+        // Bar to drop icon between two others
+        .target-1eRTCg.dragOver-1OKbo2::before,
+        // Circle to combine icon with others
+        .centerTarget-S6BLFQ.dragOver-1OKbo2::before {
+            background: var(--color-one);
+            box-shadow: none;
+        }
+
+        // Add server and explore buttons
+        // DMs view button
+        .circleIconButton-1VxDrg,
+        .childWrapper-1j_1ub {
+            color: var(--color-three);
+            background: var(--color-two);
+        }
+
+        .circleIconButton-1VxDrg.selected-2r1Hvo,
+        .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+        .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+            background: var(--color-one);
+        }
+
+        // Divider
+        .guildSeparator-a4uisj {
+            background: var(--color-one);
+        }
+
+        // Unread pip
+        .item-2LIpTv {
+            background: var(--color-three);
+            $unread-size: 6px;
+            height: $unread-size * 2 !important;
+            width: $unread-size;
+            margin-left: 0;
+            border-radius: 0 $unread-size $unread-size 0;
+
+            &[style="opacity: 1; height: 20px; transform: none;"] {
+                height: 20px !important;
+            }
+
+            &[style="opacity: 1; height: 40px; transform: none;"] {
+                height: 40px !important;
+            }
+        }
+
+        // Mentions
+        .base-3IDx3L {
+            color: var(--color-two);
+            padding: 0 0 4px 2px;
+            background: var(--color-three);
+
+            // Live/event indicator
+            .icon-2Ug6UV {
+                padding: 3px 2px 0 0;
+            }
+        }
+    }
+
+    /* New unreads bubble */
+    .unreadMentionsBar-ZXXoOH {
+        .text-2GsXbW {
+            color: var(--color-two);
+            font-size: 16px;
+            margin: 0 0 6px 2px;
+        }
+    }
+}

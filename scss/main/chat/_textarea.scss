@@ -1,0 +1,192 @@
+@use "../../top/vars" as *;
+
+// Typing extarea
+.form-3gdLxP::before {
+    display: none;
+}
+
+// Area including bars
+.channelTextArea-1VQBuV {
+    background: var(--color-one);
+    border-radius: $textarea-outer;
+    --channeltextarea-background: var(--color-three);
+    --channel-text-area-placeholder: var(--color-one);
+    --textbox-markdown-syntax: var(--color-two);
+
+    // Bars
+    .attachedBars-2BCP3l {
+        background: var(--color-three);
+        border-radius: $textarea-outer $textarea-outer 0 0;
+
+        // Reply bar
+        .replyBar-1oi75v {
+            background: var(--color-one);
+            border-radius: $textarea-outer $textarea-outer 0 0;
+
+            // Replying to username
+            .username-u-ebrn {
+                font-family: var(--font-display);
+                font-size: 16px;
+            }
+
+            // Mention on/off button
+            .mentionButton-3C5YMI {
+                --text-link: var(--color-two);
+                --text-muted: var(--color-three);
+            }
+
+            // Divider
+            .separator-8ngZ3p {
+                display: none;
+            }
+
+            // Cancel reply
+            .closeButton-3IEry2 {
+                --interactive-normal: var(--color-two);
+                --interactive-hover: var(--color-two);
+            }
+        }
+    }
+
+    // Actual typing area
+    .scrollableContainer-15eg7h {
+        border: $thin solid var(--color-one);
+        border-radius: $textarea-outer;
+
+        // "Message #channel-name" placeholder
+        .placeholder-1rCBhr {
+            font-family: var(--font-display);
+            line-height: 1.2rem;
+        }
+
+        // Typed links
+        .fakeLink-1wGafz {
+            color: var(--color-one);
+        }
+
+        // Inline code
+        .after_inlineCode-2_JXPm,
+        .before_inlineCode-1zngJj,
+        .inlineCode-ERyvy_ {
+            background: var(--color-three);
+        }
+
+        // Block code
+        .codeBlockSyntax-3mFGiA {
+            font-family: var(--font-code);
+        }
+    }
+
+    // Autocomplete
+    .autocomplete-3NRXG8 {
+        background: var(--color-three);
+        border-radius: $textarea-outer;
+        border: $thin solid var(--color-one);
+
+        // Emoji/username autocomplete
+
+        // Title
+        .contentTitle-3CylD3 {
+            color: var(--color-one);
+            font-size: 20px;
+            font-family: var(--font-display);
+            padding: 0 8px;
+
+            strong {
+                font-family: var(--font-primary);
+                font-size: 16px;
+                color: var(--color-two);
+            }
+        }
+
+        // Suggestion
+        .autocompleteRowContent-1cjfD2 {
+            --interactive-active: var(--color-two);
+            --interactive-normal: var(--color-one);
+        }
+
+        // @ suggestion
+        .autocompleteRowContentPrimary-1kUW9H:not(:last-child) .text-md-normal-304U3g {
+            font-family: var(--font-display);
+            font-size: 20px;
+            margin-top: -4px;
+        }
+
+        // Command autocomplete
+
+        // Category list
+        .wrapper-3z7DuG,
+        .wrapper-22rqw6 {
+            background: var(--color-one);
+            --background-primary: var(--color-three);
+            --interactive-active: var(--color-one);
+            --interactive-normal: var(--color-three);
+            --interactive-hover: var(--color-three);
+
+            // Category
+            .wrapper-1wwiGV {
+                border-radius: 50%;
+            }
+        }
+
+        // Suggestion list
+        .categorySection-3hl0bM {
+            --interactive-active: var(--color-two);
+            --interactive-normal: var(--color-one);
+
+            // Suggestion category name
+            .categoryHeader-OpJ1Ly {
+                .header-1XpmZs {
+                    --interactive-normal: var(--color-three);
+                    --header-secondary: var(--color-three);
+                }
+
+                background: var(--color-one);
+                border-radius: $max;
+                border: $thin solid var(--color-three);
+                height: 32px+ ($thin * 2);
+
+                &::after {
+                    display: none;
+                }
+            }
+
+            // Suggestion
+            .itemWrapper-CeTtIp {
+                // Optional params
+                .optionals-2w-NPQ {
+                    border-left: none;
+                }
+
+                // Mandatory params
+                .option-Tt7anD {
+                    background: transparent;
+                    color: var(--color-one);
+                }
+            }
+        }
+    }
+}
+
+// Typing info
+.typing-2J1mQU {
+    // Users who are typing
+    .typingDots-1Y8dki {
+        color: var(--color-one);
+
+        // ...
+        .dots-1BwzZQ.themed-3T-OPr {
+            color: var(--color-one);
+        }
+
+        // Usernames
+        strong {
+            font-family: var(--font-display);
+        }
+    }
+
+    // Cooldown
+    .cooldownWrapper-2k1jHK {
+        color: var(--color-one) !important;
+    }
+}
