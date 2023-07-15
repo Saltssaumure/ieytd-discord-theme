@@ -1,0 +1,113 @@
+@use "../../top/vars" as *;
+
+// Chat message
+.messageListItem-ZZ7v6g {
+    // Code
+    .markup-eYLPri code {
+        background: var(--color-three);
+
+        &.inline {
+            border-radius: 0;
+        }
+
+        &.hljs {
+            border: $x-thin solid var(--color-one);
+            border-radius: 15px;
+        }
+    }
+
+    // New member welcome
+    // Username
+    .content-vSHmMD a {
+        font-family: var(--font-display);
+        --interactive-active: var(--color-two);
+        font-size: 1.2rem;
+        margin-top: -0.6rem;
+    }
+
+    // Automod action
+    .embedCard-bDyD5S {
+        border: $x-thin solid var(--color-one);
+        border-radius: 15px;
+        background: var(--color-three);
+
+        .dot-KVehus {
+            background: var(--color-one);
+        }
+    }
+
+    // Message action buttons
+    .wrapper-2vIMkT {
+        box-shadow: 0 0 0 $x-thin var(--color-two) inset;
+        background: var(--color-three);
+        border-radius: $max;
+
+        .button-3bklZh {
+            color: var(--color-two);
+        }
+    }
+}
+
+// User avatar
+.avatar-2e8lTP,
+.avatarContainer-209emZ {
+    border: $thin solid var(--color-one);
+}
+
+.avatarDecoration-34OC0G {
+    left: 12px + $thin;
+}
+
+// Username
+.username-h_Y3Us {
+    font-family: var(--font-display);
+}
+
+// Username in main message
+.headerText-2z4IhQ .username-h_Y3Us {
+    font-size: 20px;
+}
+
+// Bot tag
+.botTag-7aX5WZ {
+    border-radius: 8px;
+    background: var(--color-one);
+    color: var(--color-three);
+    margin-top: 4px;
+
+    .botText-1fD6Qk {
+        display: inline-block;
+        padding-top: 2px;
+    }
+}
+
+// Mention
+.mention {
+    --mention-foreground: var(--color-three);
+    --mention-background: var(--color-two);
+    border-radius: 2px;
+    padding: 0.15rem 4px 0 4px;
+    border-radius: $max;
+    display: inline-block;
+
+    &.interactive:hover {
+        color: var(--mention-foreground);
+        background: var(--mention-background);
+    }
+
+    // Channel mention
+    &.iconMention-3WxjBe {
+        padding-left: 1.2rem;
+
+        // Channel type icon
+        .channelIcon-3I2O7O {
+            height: 1rem;
+            top: 0.25rem;
+        }
+    }
+}
+
+// Link
+.anchor-1MIwyf {
+    --text-link: var(--color-one);
+}

@@ -1,0 +1,128 @@
+@use "../../top/vars" as *;
+
+// Chat panel
+
+.chatContent-3KubbW:not(.resizeHandle-PBRzPC + .container-3XgAHv .chatContent-3KubbW) {
+    border-left: $thick solid var(--color-two);
+}
+
+.chatContent-3KubbW {
+    background: var(--color-three);
+    --text-normal: var(--color-two);
+    --text-muted: var(--color-one);
+    --header-primary: var(--color-two);
+    --header-secondary: var(--color-two);
+    --interactive-muted: var(--color-one);
+
+    // Channel icon #
+    .emptyChannelIcon-1YdEz2 {
+        background-color: var(--color-one);
+        background-image: url("data:image/svg+xml,%3Csvg fill='none' height='44' viewBox='0 0 44 44' width='44' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath clip-rule='evenodd' d='m10.295 38.5c-.31112 0-.54669-.2811-.49232-.5874l1.19742-6.7459h-6.73825c-.31061 0-.54605-.2803-.49251-.5862l.46666-2.6667c.04187-.2392.24963-.4138.49252-.4138h6.91328l1.9433-11h-6.73825c-.31061 0-.54605-.2802-.49251-.5862l.46666-2.6667c.04187-.2392.24963-.4138.49252-.4138h6.91328l1.2284-6.92068c.0424-.23871.2499-.41262.4923-.41262h2.651c.3111 0 .5467.28107.4923.58738l-1.1974 6.74592h11l1.2284-6.92068c.0424-.23871.2499-.41262.4924-.41262h2.651c.3111 0 .5467.28107.4923.58738l-1.1974 6.74592h6.7382c.3106 0 .5461.2803.4925.5862l-.4666 2.6667c-.0419.2392-.2497.4138-.4925.4138h-6.9133l-1.9433 11h6.7382c.3106 0 .5461.2802.4925.5862l-.4666 2.6667c-.0419.2392-.2497.4138-.4925.4138h-6.9133l-1.2284 6.9207c-.0424.2387-.2499.4126-.4923.4126h-2.651c-.3111 0-.5467-.2811-.4924-.5874l1.1975-6.7459h-11l-1.2285 6.9207c-.0423.2387-.2498.4126-.4923.4126zm6.9576-22-1.9434 11h11l1.9434-11z' fill='%23e1cc9a' fill-rule='evenodd'/%3E%3C/svg%3E");
+    }
+
+    // Messages loading
+    .wrapper-3HVHpV {
+        background: transparent;
+
+        // Fake message block
+        .wrapper-15CKyy {
+            background: transparent;
+
+            .avatar-l9Txm5,
+            .attachment-16cAbS,
+            .blob-1uHjdp {
+                background: var(--color-two);
+            }
+        }
+    }
+
+    // Bars
+    .jumpToPresentBar-1cEnH0,
+    .newMessagesBar-1hF-9G {
+        border: $thin solid var(--color-three);
+        background: var(--color-two);
+        opacity: 1;
+
+        .barButtonBase-Sk2mdB {
+            color: var(--color-three);
+        }
+    }
+
+    // New messages bar
+    .newMessagesBar-1hF-9G {
+        border-top: none;
+        border-radius: 0 0 $textarea-outer $textarea-outer;
+
+        .barButtonBase-Sk2mdB {
+            padding: 0 20px;
+        }
+    }
+
+    // Jump to present bar
+    .jumpToPresentBar-1cEnH0 {
+        border-bottom: none;
+        border-radius: $textarea-outer $textarea-outer 0 0;
+        bottom: -20px;
+        padding: 0 10px;
+        padding-bottom: 28px;
+    }
+
+    // Day/mention divider
+    .divider-2rZFJK {
+        --divider-color: var(--color-two);
+        border-top: $x-thin solid var(--divider-color);
+        justify-content: flex-start;
+        gap: 8px;
+
+        span {
+            background: var(--divider-color);
+            font-family: var(--font-display);
+            font-size: 16px;
+            font-style: oblique;
+            color: var(--color-three);
+            height: 18px;
+            top: -9px;
+            border-radius: $max;
+        }
+    }
+
+    // New messages divider
+    #---new-messages-bar {
+        --divider-color: var(--color-one);
+
+        .unreadPill-3nEWYM {
+            position: relative;
+            width: 40px;
+            top: -1px;
+            padding: 0 0 5px 0;
+
+            .unreadPillCap-2-iI4h {
+                display: none;
+            }
+        }
+    }
+}
+
+// Thread spine
+.cozy-VmLDNB.hasThread-3h-KJV::after {
+    .font-size-12 &,
+    .font-size-14 &,
+    .font-size-15 &,
+    .font-size-16 & {
+        left: 2.4rem;
+    }
+
+    .font-size-18 & {
+        left: 2.1rem;
+        width: 1.8rem;
+    }
+
+    .font-size-20 & {
+        left: 1.9rem;
+    }
+
+    .font-size-24 & {
+        left: 1.6rem;
+        width: 1.4rem;
+    }
+}

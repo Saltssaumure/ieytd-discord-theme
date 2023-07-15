@@ -1,0 +1,95 @@
+/* Emoji picker */
+.contentWrapper-3vHNP2 {
+    border: 3px solid var(--color-two);
+}
+/* Emoji picker header */
+.header-11eigE,
+.header-uVCAlo {
+    box-shadow: none;
+}
+.searchBar-2M9mRP,
+.container-1SX9VC,
+.diversitySelectorOptions-3DhNYs {
+    background-color: var(--color-three);
+    border: 2px solid var(--color-two);
+    border-radius: 26px;
+}
+/* Gifs stickers emoji buttons */
+.navButton-1XuvI- {
+    border-radius: 14px;
+}
+.navButtonActive-1EqC5l,
+.navButtonActive-1EqC5l:hover {
+    color: var(--color-three);
+}
+/* Emoji panel */
+.bodyWrapper-1eSOtW,
+.wrapper-1NNaWG,
+.wrapper-i1awk3,
+.content-A8TzKf,
+.wrapper-3z7DuG {
+    background-color: var(--color-three);
+}
+/* Server group header */
+.wrapper-1NNaWG {
+    border-bottom: 1px solid var(--color-two);
+    margin-right: 4px;
+}
+.header-1XpmZs,
+.header-1XpmZs.interactive-MpGq2z:hover:hover {
+    color: var(--color-two);
+}
+/* Selected emoji */
+.emojiItem-277VFM.emojiItemSelected-2Lg50V {
+    background-color: var(--color-one);
+}
+/* Loading emoji */
+.theme-dark .imageLoading-2uloYN {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACPElEQVRoge3av08TYRzH8ReXiL/RxRhHgy4OaFxoDDcYFopuxEH/Cxdlk1Fc5K8QB0flJuLQRG8ypIsDEEdDWBQElC4OdyUtUGhpw9MmfY/X55r3J89z9zy573dAk5SKhUt4hIe4h5u4grPN/kcD/uE3fmAJn/EpTtI/zdw8cNyAUrFwCy/xFBdP7tkSW5jHbJykK0cNbBigVCycwwyeY7CTdi2wizm8ipP072EDDg1QKhaG8UG2VLqBJTw5bDYOBCgVC/exgOunINYKa5iMk/Rb7cW6APl6/4JrpyjWCut4UDsTewFKxcJ5fMXdAGKtUEYhTtIdiGp+mNH98jAic0U+A/lD+x1nwji1TAV34iRdqc7AtN6RJ3OdhoFSsXAZP53eJtUptnAjwqTekydznowwHtqkDcYj2VPdq4xEGA5t0QbDEYZCW7TBUCTcSbMTDEbHj+lu+gFC0w8Qmn6A0PQDhKYfIDT9AKHpBwhNJPsC3KvsRtgIbdEGGxFWQ1u0wWok+1jaq5QjLIa2aIPFSFbM2AptcgK2sRDFSbqJ96FtTsB8nKSb1X3gteyTda9QwSz5RpaXbN6GNGqRuThJlzlYoemFN1JZTYVmL0Bec5qSFdK6lXVMxUm6Xb1QdxbKl9KErKTZbaxhYn+t+MBhLq/Djumu5VTG2P4aMQ1Oo3nKUbwR9u1UyR1GG/VMNNPscRsv8AwXOqrXmB28kzV7LB818NgAVfJ2m8fq222uar+6WcEv9e02H5ttt/kPJ8OM8JSfpsEAAAAASUVORK5CYII=");
+}
+/* Emoji server sidebar */
+.emojiPickerInExpressionPicker-2nOwH8 .categoryList-2qRrlj,
+#sticker-picker-tab-panel .categoryList-2GgCrD {
+    top: 54px;
+}
+.categoryIcon-2cYeku,
+.categoryItemDefaultCategory-3haEDq:hover .categoryIcon-2cYeku {
+    color: var(--color-one);
+}
+.categoryItemDefaultCategorySelected-2YeRUu,
+.categoryItemDefaultCategorySelected-2YeRUu:hover {
+    background-color: var(--color-one);
+    border-radius: 50%;
+}
+.categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku,
+.categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku {
+    color: var(--color-three);
+}
+.inspector-DFKXwB,
+.unicodeShortcut-3N8oDe,
+.standardStickerShortcut-ObSns3 {
+    background-color: var(--color-one);
+}
+.premiumCategorySelected-2KWLhN,
+.premiumCategorySelected-2KWLhN:hover,
+.stickerCategoryGenericSelected-DnO2K8,
+.stickerCategoryGenericSelected-DnO2K8:hover {
+    background-color: var(--color-two);
+}
+.stickerCategory-2f6iSo,
+.stickerCategoryGenericSelected-DnO2K8 .stickerCategoryGenericIcon-3wumVD {
+    color: var(--color-one);
+}
+/* Gif selector favourites */
+.theme-dark .categoryFadeBlurple-1l49_Q,
+.theme-light .categoryFadeBlurple-1l49_Q,
+.theme-dark .categoryFadeBlurple-1l49_Q:hover,
+.theme-light .categoryFadeBlurple-1l49_Q:hover {
+    background-color: transparent;
+}
+/* Gif selector category text */
+.theme-dark .categoryText-3B1jLN,
+.theme-light .categoryText-3B1jLN {
+    color: var(--color-two);
+    text-shadow: none;
+}

@@ -1,0 +1,64 @@
+/* Select friends to create new group chat */
+.theme-dark .root-g14mjS.popout-3gby1q {
+    background: var(--color-one);
+}
+/* Header */
+.popout-3gby1q .header-1zd7se {
+    box-shadow: none;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.theme-dark .subtitle-3v29zT {
+    color: var(--color-one);
+}
+.searchBar-14YqL- .searchBarComponent-18D6hD {
+    background: var(--color-three);
+    border: 2px solid var(--color-two);
+    border-radius: 20px;
+}
+.medium-13kyaW .tag-15zcD_ {
+    background: var(--color-one);
+    border-radius: 20px;
+}
+/* Content */
+#uid_14 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    border-left: 3px solid var(--color-two);
+}
+.friendWrapper-2x5j0A {
+    background: var(--color-three);
+    border: 2px solid var(--color-two);
+    border-radius: 25px;
+    margin: 0 8px;
+}
+.theme-dark .friend-8ZraY7 {
+    color: var(--color-two);
+}
+.theme-dark .friendSelected-3cwmD7 {
+    background: transparent;
+}
+.friend-8ZraY7 .nickname-1PdAp3 {
+    font-family: var(--font-display);
+    color: var(--color-two);
+}
+.friend-8ZraY7 .discordTag-2ke74W {
+    color: var(--color-two);
+}
+.theme-dark .checkbox-f1HnKB {
+    border: 2px solid var(--color-two) !important;
+    border-radius: 50%;
+}
+.theme-dark .checkbox-f1HnKB.checked-1pZh2h svg path {
+    fill: var(--color-two);
+}
+/* Footer */
+.footer-C9oLp9 {
+    background: var(--color-two);
+    border-radius: 0 0 5px 5px;
+}
+.footer-C9oLp9 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+    background: var(--color-one);
+    color: var(--color-two);
+}

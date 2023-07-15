@@ -1,0 +1,11 @@
+@use "vars" as *;
+
+@mixin button($background, $color, $border-color: $color) {
+    background: $background;
+    color: $color;
+    border-color: $border-color;
+
+    &:hover {
+        background: $background;
+    }
+}

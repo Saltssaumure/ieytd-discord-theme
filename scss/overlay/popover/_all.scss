@@ -1,0 +1,38 @@
+/* Small popouts */
+/* pinned messages */
+.messagesPopoutWrap-3zryHW,
+/* mini user profiles */
+.userPopout-2j1gM4, 
+/* inbox */
+.container-2ebMPP,
+/* chat */
+.container-18GwIk {
+    border: 2px solid var(--color-two);
+    box-shadow: 0 0 0 1px var(--color-two) inset;
+}
+/* Header */
+/* Header icons */
+.threadIcon-rd1kqG,
+.closeIcon-11tHJX,
+.closeIcon-11tHJX:hover,
+.searchIcon-zpxirk,
+.searchIcon-zpxirk:hover {
+    color: var(--color-one);
+}
+/* Header buttons in popouts */
+.header-3_zmOb .topPill-3DJJNV .item-3XjbnG {
+    border-radius: 12px;
+} /* Unselected */
+.header-3_zmOb .themed-2-lozF.item-3XjbnG:not(.selected-g-kMVV),
+.header-145e10 .themed-2-lozF.item-3XjbnG:not(.selected-g-kMVV) {
+    color: var(--color-one);
+} /* Selected */
+.theme-dark .header-3_zmOb .tabBar-2WhZ9G .tab-2Jo-cu.active-346HgG,
+.theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {
+    background: var(--color-one);
+}
+/* divider */
+.divider-2xk5N2 {
+    background: var(--color-one);
+    width: 2px;
+}
