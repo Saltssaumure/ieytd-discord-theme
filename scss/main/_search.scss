@@ -2,30 +2,30 @@
 
 // Search results panel
 .searchResultsWrap-5RVOkx {
-    background: var(--ieytd-color-3);
-    border: solid var(--ieytd-color-2);
+    background: $black;
+    border: solid $cream;
     border-width: 0 $thin;
 
-    --background-primary: var(--ieytd-color-3);
-    --background-tertiary: var(--ieytd-color-1);
-    --header-primary: var(--ieytd-color-2);
-    --header-secondary: var(--ieytd-color-2);
-    --text-muted: var(--ieytd-color-1);
-    --text-normal: var(--ieytd-color-2);
-    --interactive-muted: var(--ieytd-color-1);
-    --interactive-normal: var(--ieytd-color-2);
-    --interactive-active: var(--ieytd-color-2);
-    --interactive-hover: var(--ieytd-color-1);
+    --background-primary: $black;
+    --background-tertiary: $red;
+    --header-primary: $cream;
+    --header-secondary: $cream;
+    --text-muted: $red;
+    --text-normal: $cream;
+    --interactive-muted: $red;
+    --interactive-normal: $cream;
+    --interactive-active: $cream;
+    --interactive-hover: $red;
 
     // Header
     .searchHeader-1r_ZSh {
-        background: var(--ieytd-color-2);
+        background: $cream;
         height: 40px;
         padding-bottom: 0;
         overflow: hidden;
-        border-bottom: $thin solid var(--ieytd-color-3);
+        border-bottom: $thin solid $black;
 
-        --header-primary: var(--ieytd-color-3);
+        --header-primary: $black;
 
         // Result count
         .totalResults-2On644 {
@@ -42,13 +42,13 @@
 
         // Button
         .item-3XjbnG {
-            --background-modifier-hover: var(--ieytd-color-3);
-            background: var(--ieytd-color-1);
+            --background-modifier-hover: $black;
+            background: $red;
             border-radius: 16px 16px 0 0;
             padding: 6px 15px;
 
             &.selected-g-kMVV {
-                background: var(--ieytd-color-3);
+                background: $black;
             }
         }
     }
@@ -68,6 +68,6 @@
     .button-cfOvv-:hover {
         border-radius: 20px;
         padding: 4px 8px;
-        color: var(--ieytd-color-3);
+        color: $black;
     }
 }

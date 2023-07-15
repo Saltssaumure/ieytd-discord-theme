@@ -1,7 +1,9 @@
+@use "../../top/vars" as *;
+
 /* Search popout */
 .theme-dark .container-2McqkF {
-    background: var(--ieytd-color-3);
-    border: 2px solid var(--ieytd-color-2);
+    background: $black;
+    border: 2px solid $cream;
 }
 /* Search for: */
 .theme-dark .queryContainer-ZunrLZ,
@@ -16,16 +18,16 @@
 .theme-dark .option-ayUoaq .nonText-28q_Ot,
 .theme-dark .option-ayUoaq strong {
     background: transparent;
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 /* keyboard shortcut enter*/
 .theme-dark .keybindShortcut-3zF1P9 span {
-    box-shadow: inset 0 -4px 0 var(--ieytd-color-2);
+    box-shadow: inset 0 -4px 0 $cream;
 }
 /* from: has: mentions: etc. */
 .theme-dark .searchOption-3u1gRt .filter-2QaH9y,
 .theme-dark .option-ayUoaq .filter-2QaH9y {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 /* Suggestion after element */
 .theme-dark .option-ayUoaq:after {
@@ -47,7 +49,7 @@
         .theme-dark .calendarPicker-sDhzdi .react-datepicker__day-name,
         /* current month */
         .theme-dark .calendarPicker-sDhzdi .react-datepicker__current-month {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 /* Day box border fix */
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__week .react-datepicker__day:last-of-type {
@@ -60,14 +62,14 @@
 .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--keyboard-selected,
 .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover,
 .calendarPicker-sDhzdi .react-datepicker__day:hover {
-    background: var(--ieytd-color-1);
+    background: $red;
 }
 /* Disabled days */
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--disabled,
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month,
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 /* previous / next month buttons */
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next,
@@ -76,34 +78,34 @@
 }
 /* Hint */
 .theme-dark .datePicker-70cO23 .datePickerHint-17MnA8 {
-    border-top: 1px solid var(--ieytd-color-2);
+    border-top: 1px solid $cream;
 }
 .theme-dark .datePicker-70cO23 .datePickerHint-17MnA8 .hint-3D5yHh {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 .theme-dark .datePicker-70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY {
-    color: var(--ieytd-color-3);
+    color: $black;
     border-radius: 11px;
     padding: 0 10px;
 }
 /* search modifiers, eg. has: from: */
 .theme-dark .searchFilter-2UfsDk {
-    background: var(--ieytd-color-2);
-    color: var(--ieytd-color-3);
+    background: $cream;
+    color: $black;
     border-radius: 10px 0 0 10px;
     padding: 0 3px 0 6px;
 }
 /* search modifier options, eg. image, embed */
 .theme-dark .searchAnswer-23w-CH {
-    background: var(--ieytd-color-1);
-    color: var(--ieytd-color-3);
+    background: $red;
+    color: $black;
     border-radius: 0 10px 10px 0;
     padding: 0 6px 0 2px;
 }
 /* Search suggestion icon and description */
 .theme-dark .searchResultChannelCategory-19ujDo,
 .theme-dark .searchResultChannelIcon-C-3P9x {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 /* Search suggestion option */
 .theme-dark .option-ayUoaq[aria-selected="true"] {
@@ -111,10 +113,10 @@
 }
 /* Search suggestion name */
 .theme-dark .option-ayUoaq.user-1dKxvu .displayedNick-1atSpT {
-    color: var(--ieytd-color-2);
+    color: $cream;
     font-family: var(--font-display);
     margin-top: -6px;
 }
 .theme-dark .option-ayUoaq.user-1dKxvu .displayUsername-UTerwm {
-    color: var(--ieytd-color-1);
+    color: $red;
 }

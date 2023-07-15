@@ -1,30 +1,32 @@
+@use "../../top/vars" as *;
+
 /* Channel threads popout */
 .popout-TdhJ6Z {
-    border: 2px solid var(--ieytd-color-2);
-    background-color: var(--ieytd-color-3);
+    border: 2px solid $cream;
+    background-color: $black;
     box-shadow: var(--elevation-medium);
 }
 .row-1qtctT:hover,
 .row-1qtctT:hover .timestamp-3gPmzJ {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 /* Protip */
 .tip-Jl__cG {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 /* Pinned message jump */
 .jumpButton-1ZwI_j,
 .jumpButton-1ZwI_j:hover {
     border-radius: 20px;
     padding: 4px 8px;
-    color: var(--ieytd-color-1);
-    background: var(--ieytd-color-2);
+    color: $red;
+    background: $cream;
 }
 
 /* Thread searchbox */
 .searchBox-3IjAC1 {
-    background: var(--ieytd-color-3);
-    border: 2px solid var(--ieytd-color-1);
+    background: $black;
+    border: 2px solid $red;
     border-radius: 14px;
 }
 /* Thread title */
@@ -45,5 +47,5 @@
 }
 /* Thread users more */
 .moreUsers-_v6T-L {
-    color: var(--ieytd-color-3);
+    color: $black;
 }

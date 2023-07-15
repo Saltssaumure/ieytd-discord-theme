@@ -1,14 +1,16 @@
+@use "../top/vars" as *;
+
 /* Spotify controls plugin */
 .song-tIdBpF {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 
 .barFill-Dhkah7,
 .timeline-UWmgAx:hover .barFill-Dhkah7,
 .grabber-7sd5f5 {
-    background: var(--ieytd-color-1);
+    background: $red;
 }
 
 .barText-lmqc5O .colorStandard-1Xxp1s {
-    color: var(--ieytd-color-1);
+    color: $red;
 }

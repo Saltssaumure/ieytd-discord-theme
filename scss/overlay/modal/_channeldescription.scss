@@ -1,3 +1,5 @@
+@use "../../top/vars" as *;
+
 /* Channel description focus lock popout */
 /* Content */
 .content-2hZxGK.content-FDHp32 {
@@ -6,5 +8,5 @@
     border-bottom-width: 4px;
 }
 .content-FDHp32 a {
-    color: var(--ieytd-color-3);
+    color: $black;
 }

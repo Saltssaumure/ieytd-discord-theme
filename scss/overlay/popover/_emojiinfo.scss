@@ -1,14 +1,16 @@
+@use "../../top/vars" as *;
+
 /* Emoji info popout */
 .popoutContainer-2wbmiM {
-    border: 2px solid var(--ieytd-color-2);
+    border: 2px solid $cream;
 }
 /* Emoji info loading */
 .popoutLoadingForeground-3xnRkg {
-    background: var(--ieytd-color-2);
+    background: $cream;
 }
 /* Get nitro button */
 .popoutContainer-2wbmiM .shinyButton-2Q9MDB,
 .popoutContainer-2wbmiM .shinyButton-2Q9MDB:hover,
 .popoutContainer-2wbmiM .shinyButton-2Q9MDB:active {
-    background: var(--ieytd-color-3);
+    background: $black;
 }

@@ -8,7 +8,7 @@
 
 // Window is beige as default
 .bg-1QIAus {
-    background: var(--ieytd-color-2);
+    background: $cream;
 }
 
 // Panel minus server sidebar
@@ -18,7 +18,7 @@
         font-style: oblique;
         font-size: 20px;
         line-height: 32px;
-        --channels-default: var(--ieytd-color-3);
+        --channels-default: $black;
     }
 }
 

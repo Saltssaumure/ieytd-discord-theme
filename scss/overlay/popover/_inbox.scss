@@ -1,38 +1,40 @@
+@use "../../top/vars" as *;
+
 /* Mark inbox as read button */
 .secondary-2bzKEX {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 .secondary-2bzKEX:hover:not(.disabled-184-il) {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 /* Inbox tutorial */
 .tutorial-Nb3Zz5 .base-21yXnu {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 .recentMentionsPopout-2bI1ZN .lookFilled-yCfaCM.colorBrand-I6CyqQ,
 .tutorialIcon-25VF3Q {
-    background: var(--ieytd-color-1);
-    color: var(--ieytd-color-2);
+    background: $red;
+    color: $cream;
 }
 /* Inbox channel name */
 .channelName-3APnhp {
     overflow: visible;
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 .colorHeaderSecondary-g5teka {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }
 /* Inbox notification / mark as read / filter buttons */
 .tertiary-1e-lAP {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 .tertiary-1e-lAP:hover:not(.disabled-184-il) {
-    color: var(--ieytd-color-1);
-    background: var(--ieytd-color-3);
+    color: $red;
+    background: $black;
 }
 /* inbox ping icon */
 .recentMentionsPopout-2bI1ZN .wrapper-2olG5t {
-    background: var(--ieytd-color-3);
+    background: $black;
     width: 3px;
     height: 15px;
     padding: 2px 7px;
@@ -44,14 +46,14 @@
     padding: 4px 8px;
 }
 .jumpButton-1V_1FA:hover .text-2ifC_x {
-    color: var(--ieytd-color-1);
+    color: $red;
 }
 /* Inbox setting checkboxes */
 .colorDefault-CDqZdO .checkbox-hADx5o,
 .colorDefault-CDqZdO .radioSelection-1UHp0b {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 /* Channel in inbox */
 .guildName-y1svcU {
-    color: var(--ieytd-color-2);
+    color: $cream;
 }

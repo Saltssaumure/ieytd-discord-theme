@@ -17,24 +17,24 @@
 .embedSpotify-1rDvOE,
 .giftCodeContainer-3ObH0O .tile-2mmK5T,
 .invite-3uuHYQ {
-    border: $thin solid var(--ieytd-color-1) !important;
+    border: $thin solid $red !important;
     border-radius: $embed-outer;
-    background: var(--ieytd-color-2);
-    --header-primary: var(--ieytd-color-3);
-    --text-normal: var(--ieytd-color-3);
+    background: $cream;
+    --header-primary: $black;
+    --text-normal: $black;
 }
 
 // Remove embed button
 .embedSuppressButton-1rZHq6 {
-    --interactive-normal: var(--ieytd-color-2);
-    --interactive-hover: var(--ieytd-color-2);
+    --interactive-normal: $cream;
+    --interactive-hover: $cream;
     right: -26px;
 }
 
 // Embed mentions
 .mention {
-    --mention-foreground: var(--ieytd-color-2);
-    --mention-background: var(--ieytd-color-3);
+    --mention-foreground: $cream;
+    --mention-background: $black;
     padding: 0 4px;
 }
 
@@ -45,7 +45,7 @@
 }
 // File size
 .metadataSize-2A2s1T {
-    color: var(--ieytd-color-3);
+    color: $black;
     opacity: 1;
 }
 
@@ -53,7 +53,7 @@
 .audioControls-3fmemK,
 .videoControls-2NzHnF {
     border-radius: 0 0 $embed-inner $embed-inner;
-    background: var(--ieytd-color-1);
+    background: $red;
 }
 // Play button
 .controlIcon-1grhw_ {
@@ -63,46 +63,46 @@
 .mediaBarWrapper-33h1oY,
 .mediaBarWrapper-33h1oY::after,
 .mediaBarWrapper-33h1oY::before {
-    background: var(--ieytd-color-2);
+    background: $cream;
 }
 // Loaded content bar, low opacity
 .buffer-3eVqKK,
 .buffer-3eVqKK::after,
 .buffer-3eVqKK::before {
-    background: var(--ieytd-color-3);
+    background: $black;
 }
 // Mouseover amount bar
 .mediaBarPreview-1gUbVy,
 .mediaBarPreview-1gUbVy::after,
 .mediaBarPreview-1gUbVy::before {
-    background: var(--ieytd-color-3);
+    background: $black;
 }
 // Played content bar
 .mediaBarGrabber-FvJKJg,
 .mediaBarProgress-38I317,
 .mediaBarProgress-38I317::after,
 .mediaBarProgress-38I317::before {
-    background: var(--ieytd-color-3);
+    background: $black;
 }
 // Time tooltip
 .bubble-3XikHF {
     border-radius: $max;
-    background: var(--ieytd-color-3);
-    color: var(--ieytd-color-2);
+    background: $black;
+    color: $cream;
 }
 // Full screen icon
 .controlIcon-10O-4h {
-    color: var(--ieytd-color-3);
+    color: $black;
 }
 // Volume popup
 .mediaBarInteractionVolume-zGrOSh {
-    background: var(--ieytd-color-1);
+    background: $red;
 }
 
 // Audio embeds
 .wrapperAudio-1Bzv_Z {
     padding: 10px 0 0 0;
-    color: var(--ieytd-color-3);
+    color: $black;
     .audioMetadata-1Hrt8T {
         padding: 0 10px;
         .metadataName-1KMZtB {
@@ -113,14 +113,14 @@
 
 // Video embeds
 .wrapper-1FP9YQ {
-    color: var(--ieytd-color-3);
+    color: $black;
     // On-video play button
     .playPausePop-1x3uED {
-        color: var(--ieytd-color-2);
+        color: $cream;
     }
     // On-hover metatdata panel
     .metadata-3IncIG {
-        background: var(--ieytd-color-1);
+        background: $red;
         padding-top: 15px;
         height: 60px;
         .metadataName-1KMZtB {
@@ -132,7 +132,7 @@
             opacity: 1;
             margin-top: 4px;
             .metadataIcon-3QMhu9 {
-                color: var(--ieytd-color-3);
+                color: $black;
             }
         }
     }
@@ -141,7 +141,7 @@
 // Text upload embed
 .container-rr3Ruk {
     .textContainer-36wgKK {
-        background: var(--ieytd-color-3);
+        background: $black;
         border: none;
         border-radius: $embed-inner $embed-inner 0 0;
         ::-webkit-scrollbar-thumb {
@@ -149,7 +149,7 @@
         }
     }
     .footer-GXWBBp {
-        background: var(--ieytd-color-1);
+        background: $red;
         border: none;
         // File name
         .attachmentName-vgRpzs {
@@ -159,11 +159,11 @@
         }
         // File size
         .formattedSize-1YbZww {
-            color: var(--ieytd-color-3);
+            color: $black;
         }
         // Download button
         .downloadButton-2PkwZg:not(:hover) {
-            color: var(--ieytd-color-2);
+            color: $cream;
         }
     }
 }
@@ -171,7 +171,7 @@
 // File upload embed
 .attachment-1PZZB2 {
     .metadata-1E7Z4i {
-        color: var(--ieytd-color-3);
+        color: $black;
     }
 }
 
@@ -193,28 +193,28 @@
     // Invalid invite
     .inviteDestinationExpired-1n9a5a {
         margin-top: -8px;
-        --status-danger: var(--ieytd-color-1);
+        --status-danger: $red;
     }
     // Server about
     .flowerStar-2tNFCR {
-        color: var(--ieytd-color-3);
+        color: $black;
     }
     .icon-3BYlXK,
     .boostedGuildIconGem-u5aHBL {
-        color: var(--ieytd-color-2);
+        color: $cream;
     }
     // Server icon
     .guildIcon-3ZfRfI {
         border-radius: 50%;
-        border: $thin solid var(--ieytd-color-3);
-        background-color: var(--ieytd-color-3);
+        border: $thin solid $black;
+        background-color: $black;
     }
     // Online / members pips
     .statusOffline-2R-ArP {
-        background: var(--ieytd-color-3);
+        background: $black;
     }
     .statusOnline-Iw3r2o {
-        background: var(--ieytd-color-1);
+        background: $red;
     }
 }
 
@@ -225,34 +225,34 @@
         @include embedtxt();
         font-size: 16px;
         margin-top: -4px;
-        color: var(--ieytd-color-3);
+        color: $black;
     }
     // Game progress
     .partyStatus-2-VcyG {
-        color: var(--ieytd-color-3);
+        color: $black;
     }
     // Join game button
     .lookFilled-yCfaCM.colorPrimary-2AuQVo {
         &[aria-disabled="true"],
         &:disabled {
-            @include button.button(var(--ieytd-color-3), var(--ieytd-color-2), var(--ieytd-color-1));
+            @include button.button($black, $cream, $red);
         }
     }
     // Game image
     .coverImageWrapper-2wx5q1 {
-        background-color: var(--ieytd-color-1);
+        background-color: $red;
         opacity: 1;
     }
     // Game name
     .name-QjR4Jk {
-        color: var(--ieytd-color-2);
+        color: $cream;
     }
     // Help
     .helpIcon-24pk1Z {
-        background: var(--ieytd-color-2);
+        background: $cream;
         opacity: 1;
         g {
-            fill: var(--ieytd-color-1);
+            fill: $red;
         }
     }
 }
@@ -262,18 +262,18 @@
     // Text
     .description-X8_53U,
     .tagline-3DhQWg {
-        color: var(--ieytd-color-3);
+        color: $black;
     }
     // Invalid gift
     .invalidPoop--w1123 {
-        background-color: var(--ieytd-color-1);
+        background-color: $red;
     }
 }
 
 // Spoiler embed
 .hidden-3B-Rum {
     .spoilerWarning-8ovW0v {
-        color: var(--ieytd-color-2);
-        background: var(--ieytd-color-3);
+        color: $cream;
+        background: $black;
     }
 }
