@@ -50,9 +50,11 @@
     }
 
     // DM icon
-    .childWrapper-1j_1ub {
-        background: $red;
-        color: $cream;
+    :is(.wrapper-3kah-n, .wrapper-3kah-n.selected-1Drb7Z, .wrapper-3kah-n:hover) {
+        .childWrapper-1j_1ub {
+            background: $red;
+            color: $cream;
+        }
     }
 
     // DM and server separator
