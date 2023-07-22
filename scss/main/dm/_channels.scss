@@ -1,0 +1,80 @@
+@use "../../top/vars" as *;
+
+$spacing: 4px;
+$channel-height: calc(44px - ($spacing / 2));
+
+// Overall background
+.privateChannels-oVe7HL,
+.appMount-2yBXZl .scroller-WSmht3 {
+    background: $red;
+}
+
+// Find or start a conversation
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    border-radius: $size-max;
+    border: $size-xs solid $cream;
+    background: $black;
+    color: $cream;
+    text-align: center;
+}
+
+// Direct messages header
+.container-q97qHp.privateChannelsHeaderContainer-1UWASm {
+    padding: 0;
+    line-height: 60px;
+    align-items: flex-end;
+
+    &:hover,
+    .privateChannelRecipientsInviteButtonIcon-1ObKXK {
+        color: $black;
+    }
+}
+
+// DM
+.channel-1Shao0 {
+    background: $black;
+    height: $channel-height;
+    box-sizing: border-box;
+    border: $size-xs solid $cream;
+    border-left: 0;
+    border-radius: 0 calc($channel-height / 2) calc($channel-height / 2) 0;
+    margin: 4px 0 0;
+    max-width: unset;
+
+    .layout-1LjVue {
+        height: 36px;
+    }
+
+    // Text
+    .interactive-26HRN_:focus-within,
+    .interactive-26HRN_:hover,
+    .highlighted-Q8Nll- {
+        color: $cream;
+    }
+
+    // Mentions
+    .base-3IDx3L {
+        border: $size-xs solid $cream;
+        color: $black;
+        padding: 0 0 4px 2px;
+        background: $cream !important;
+    }
+}
+
+// Inverted when connected or selected
+.channel-1Shao0:has(.interactiveSelected-29CP8y, .selected-26oxtA) {
+    background: $cream;
+    border-color: $black !important;
+
+    .interactiveSelected-29CP8y,
+    .highlighted-Q8Nll- {
+        color: $black;
+    }
+
+    // Mentions
+    .base-3IDx3L {
+        border-color: $black;
+        color: $cream;
+        background: $black !important;
+    }
+}
