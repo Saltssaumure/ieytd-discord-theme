@@ -112,11 +112,8 @@ $spine-size: calc($icon-size / 1.5);
 
 // Channel info
 .channelInfo-3jN1ay {
-    // Forum active/new threads
-    & > .text-xs-semibold-3E_l31 {
-        --text-muted: $cream;
-        --text-brand: $cream;
-    }
+    --text-muted: #{$cream};
+    --text-brand: #{$cream};
 
     // Mention badge
     .numberBadge-37OJ3S {
