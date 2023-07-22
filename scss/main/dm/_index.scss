@@ -1,1 +1,17 @@
 @forward "./channels";
+@forward "./friends";
+
+@use "../../top/vars" as *;
+
+// Friends
+.container-2cd8Mz .tabBody-2dgbAs,
+// Library
+.container-36u7Lw .container-3u6dG-,
+// Nitro
+.applicationStore-2nk7Lo .scroller-29cQFV,
+// Message requests
+.chat-2ZfjoI .content-1jQy2l,
+// Family centre
+.container-TT--xs .contentPanel-2uDEUG {
+    border-left: $size-m solid $cream;
+}
