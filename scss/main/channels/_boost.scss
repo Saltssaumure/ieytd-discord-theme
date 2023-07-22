@@ -1,0 +1,20 @@
+@use "../../top/vars" as *;
+
+// Boost info
+.textArea-7J7xQx {
+    .goalText-mbRUAP,
+    .progressFraction-LUvqt3 > * {
+        color: $cream !important;
+    }
+}
+
+// Boost progress bar
+.progressBarContainer-1efroK {
+    border: $x-thin solid $cream;
+    border-radius: $max;
+
+    .progressBar-2yl2pi,
+    .container-2giAcK:hover & .progressBar-2yl2pi {
+        background: linear-gradient(90deg, $red, $cream);
+    }
+}
