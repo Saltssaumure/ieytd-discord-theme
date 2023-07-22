@@ -17,7 +17,7 @@
 .embedSpotify-1rDvOE,
 .giftCodeContainer-3ObH0O .tile-2mmK5T,
 .invite-3uuHYQ {
-    border: $thin solid $red !important;
+    border: $size-s solid $red !important;
     border-radius: $embed-outer;
     background: $cream;
     --header-primary: $black;
@@ -86,7 +86,7 @@
 }
 // Time tooltip
 .bubble-3XikHF {
-    border-radius: $max;
+    border-radius: $size-max;
     background: $black;
     color: $cream;
 }
@@ -206,7 +206,7 @@
     // Server icon
     .guildIcon-3ZfRfI {
         border-radius: 50%;
-        border: $thin solid $black;
+        border: $size-s solid $black;
         background-color: $black;
     }
     // Online / members pips

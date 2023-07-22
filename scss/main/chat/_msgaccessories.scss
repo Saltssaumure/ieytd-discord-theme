@@ -14,7 +14,7 @@
     // Thread preview
     .container-3i3IzO {
         background: $black;
-        border: $x-thin solid $red;
+        border: $size-xs solid $red;
         border-radius: $embed-outer;
 
         // Thread title
@@ -35,15 +35,15 @@
     // Reacts
     .reaction-3vwAF2 {
         background: $black;
-        border: $x-thin solid $red;
-        border-radius: $max;
+        border: $size-xs solid $red;
+        border-radius: $size-max;
         --interactive-normal: $red;
         --interactive-hover: $red;
         --interactive-active: $red;
 
         &:hover {
             background: $black;
-            border: $x-thin solid $red;
+            border: $size-xs solid $red;
         }
 
         &.reactionMe-1PwQAc {

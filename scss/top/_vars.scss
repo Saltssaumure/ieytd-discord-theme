@@ -6,12 +6,14 @@ $black: var(--ieytd-color-3);
 
 // Sizes
 
-$x-thin: 2px;
-$thin: 3px;
-$thick: 10px;
-$max: 999px;
+$size-xs: 2px;
+$size-s: 3px;
+$size-m: 10px;
+$size-l: 15px;
+$size-xl: 25px;
+$size-max: 999px;
 
 $embed-outer: 15px;
-$embed-inner: $embed-outer - $thin;
+$embed-inner: $embed-outer - $size-s;
 
 $textarea-outer: 25px;

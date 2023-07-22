@@ -1,0 +1,8 @@
+$pip-size: 6px;
+
+@mixin pip($size: $pip-size, $color) {
+    height: $size * 2 !important;
+    width: $size;
+    border-radius: 0 $size $size 0;
+    background: $color;
+}

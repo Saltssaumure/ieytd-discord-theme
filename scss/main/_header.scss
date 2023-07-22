@@ -3,7 +3,7 @@
 // Channel (and thread) header
 .container-ZMc96U.themed-Hp1KC_ {
     background: $red;
-    border-bottom: $thin solid $cream;
+    border-bottom: $size-s solid $cream;
 
     // Thread title wrapper
     .children-3xh0VB {
@@ -51,9 +51,9 @@
 
     // Search bar
     .searchBar-jGtisZ {
-        border-radius: $max;
+        border-radius: $size-max;
         background: $black;
-        border: $x-thin solid $cream;
+        border: $size-xs solid $cream;
         height: 28px;
 
         // Shift typed text to left a little

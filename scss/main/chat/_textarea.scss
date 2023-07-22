@@ -50,7 +50,7 @@
 
     // Actual typing area
     .scrollableContainer-15eg7h {
-        border: $thin solid $red;
+        border: $size-s solid $red;
         border-radius: $textarea-outer;
 
         // "Message #channel-name" placeholder
@@ -81,7 +81,7 @@
     .autocomplete-3NRXG8 {
         background: $black;
         border-radius: $textarea-outer;
-        border: $thin solid $red;
+        border: $size-s solid $red;
 
         // Emoji/username autocomplete
 
@@ -142,9 +142,9 @@
                 }
 
                 background: $red;
-                border-radius: $max;
-                border: $thin solid $black;
-                height: 32px+ ($thin * 2);
+                border-radius: $size-max;
+                border: $size-s solid $black;
+                height: 32px+ ($size-s * 2);
 
                 &::after {
                     display: none;

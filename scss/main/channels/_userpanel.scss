@@ -8,14 +8,14 @@
 //     --header-primary: $black;
 //     --header-secondary: $cream;
 //     --status-danger: $cream;
-//     border-top: $thin solid $cream;
+//     border-top: $size-s solid $cream;
 
 //     // Stream options
 //     .button-1EGGcP.buttonColor-3bP3fX,
 //     .button-1EGGcP .buttonColor-3bP3fX {
 //         background: $black;
-//         border-radius: $max;
-//         border: $x-thin solid $cream;
+//         border-radius: $size-max;
+//         border: $size-xs solid $cream;
 //     }
 
 //     // Connection info
@@ -34,7 +34,7 @@
 }
 
 .panels-3wFtMD {
-    border-top: $thin solid $cream;
+    border-top: $size-s solid $cream;
 
     // Activities and VC
     .container-1zzFcN {
@@ -52,7 +52,7 @@
 
         // User icon
         .avatar-1EWyVD {
-            border: $x-thin solid $red;
+            border: $size-xs solid $red;
             background: $black;
         }
     }

@@ -5,15 +5,15 @@
     margin: 0;
 
     &:not(:empty) {
-        border-bottom: $thin solid $cream;
+        border-bottom: $size-s solid $cream;
     }
 
     .channelNotice-K4UfZY {
-        margin: $thin $thick 0;
+        margin: $size-s $size-m 0;
         background: $black;
-        padding: $thick;
-        border-radius: $thick $thick 0 0;
-        border: $thin solid $cream;
+        padding: $size-m;
+        border-radius: $size-m $size-m 0 0;
+        border: $size-s solid $cream;
         border-bottom: 0;
 
         --header-primary: #{$cream};
@@ -30,7 +30,7 @@
         // Event Details button
         .joinButton-1HdI2a {
             background: $cream;
-            border-radius: $max;
+            border-radius: $size-max;
         }
     }
 }

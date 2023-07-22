@@ -4,7 +4,7 @@
 .searchResultsWrap-5RVOkx {
     background: $black;
     border: solid $cream;
-    border-width: 0 $thin;
+    border-width: 0 $size-s;
 
     --background-primary: $black;
     --background-tertiary: $red;
@@ -23,7 +23,7 @@
         height: 40px;
         padding-bottom: 0;
         overflow: hidden;
-        border-bottom: $thin solid $black;
+        border-bottom: $size-s solid $black;
 
         --header-primary: $black;
 

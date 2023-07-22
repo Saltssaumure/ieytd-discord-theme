@@ -2,12 +2,12 @@
 
 // New unreads / in voice bubble
 .bar-wDIGjg {
-    border: $thin solid $black;
+    border: $size-s solid $black;
     background: $cream;
 
-    height: 24px - $thin;
+    height: 24px - $size-s;
     font-size: 16px;
-    border-radius: $max;
+    border-radius: $size-max;
 
     svg,
     .barText-1eIsLx {

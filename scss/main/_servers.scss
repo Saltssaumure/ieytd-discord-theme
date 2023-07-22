@@ -1,129 +1,130 @@
 @use "../top/vars" as *;
+@use "../top/pip";
 
 // Server sidebar
 .guilds-2JjMmN {
-    --status-danger: $black;
+    background: $cream;
+    --status-danger: #{$cream};
 
-    // Server list
-    .scroller-3X7KbA {
-        background: $cream;
+    // Rounded icons and folders
+    .wrapper-2PSQCG foreignObject {
+        mask: none;
+    }
 
-        // Folder icon open or closed
-        .folder-241Joy {
-            background: $red;
-        }
+    .wrapper-3kah-n,
+    .folder-241Joy,
+    .circleIconButton-1VxDrg {
+        border-radius: $size-max;
+        overflow: hidden;
+    }
 
-        // Closed folder
-        .closedFolderIconWrapper-3tRb2d {
-            border: $thin solid $black;
-            border-radius: $max;
-        }
+    // Folders
+    .folder-241Joy,
+    .expandedFolderBackground-1kSAf6,
+    .expandedFolderBackground-1kSAf6.collapsed-uGXEbi,
+    .expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT {
+        background: $red;
+    }
 
-        // Open folder
-        .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi) {
-            background: $red;
-            border-radius: $max;
-            border: $thin solid $black;
-            left: 9px;
-            top: -2px;
-            bottom: 5px;
-        }
+    .expandedFolderBackground-1kSAf6 {
+        border-radius: $size-max;
+        border: $size-s solid $black;
+        left: 12px - $size-s;
+        top: -$size-s;
+        bottom: 8px - $size-s;
+        min-height: 48px;
+    }
 
-        // Icons have border
-        .svg-2zuE5p:not(.wrapper-38slSD > .listItem-3SmSlK .svg-2zuE5p) {
-            border: $thin solid $black;
-        }
-
-        // Icons always round
-        .svg-2zuE5p {
-            border-radius: 50%;
-            overflow: hidden;
-        }
-
-        // Transparent icons have background
-        .icon-3AqZ2e {
-            background: $red;
-        }
-
-        // No indent in icons for mention bubbles
-        .wrapper-28eC3z foreignObject {
-            mask: none;
-        }
-
-        // Reordering servers
-        // Background behind dragged icon
-        .placeholderMask-2FHNZU {
-            border-radius: $max;
-
-            .dragInner-1CUBf_ {
-                background: $red;
-            }
-        }
-
-        // Bar to drop icon between two others
-        .target-1eRTCg.dragOver-1OKbo2::before,
-        // Circle to combine icon with others
-        .centerTarget-S6BLFQ.dragOver-1OKbo2::before {
-            background: $red;
-            box-shadow: none;
-        }
-
-        // Add server and explore buttons
-        // DMs view button
-        .circleIconButton-1VxDrg,
-        .childWrapper-1j_1ub {
-            color: $black;
-            background: $cream;
-        }
-
-        .circleIconButton-1VxDrg.selected-2r1Hvo,
-        .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
-        .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-            background: $red;
-        }
-
-        // Divider
-        .guildSeparator-a4uisj {
-            background: $red;
-        }
-
-        // Unread pip
-        .item-2LIpTv {
-            background: $black;
-            $unread-size: 6px;
-            height: $unread-size * 2 !important;
-            width: $unread-size;
-            margin-left: 0;
-            border-radius: 0 $unread-size $unread-size 0;
-
-            &[style="opacity: 1; height: 20px; transform: none;"] {
-                height: 20px !important;
-            }
-
-            &[style="opacity: 1; height: 40px; transform: none;"] {
-                height: 40px !important;
-            }
-        }
-
-        // Mentions
-        .base-3IDx3L {
-            color: $cream;
-            padding: 0 0 4px 2px;
-            background: $black;
-
-            // Live/event indicator
-            .icon-2Ug6UV {
-                padding: 3px 2px 0 0;
-            }
+    // Server not in folder
+    .wrapper-2PSQCG:not(.wrapper-38slSD .wrapper-2PSQCG) {
+        &,
+        .svg-2ifYOU {
+            width: 48px + 2 * $size-s;
+            height: 48px + 2 * $size-s;
         }
     }
 
-    /* New unreads bubble */
-    .unreadMentionsBar-ZXXoOH {
-        .text-2GsXbW {
-            color: $cream;
-            font-size: 16px;
-            margin: 0 0 6px 2px;
+    .wrapper-3kah-n:not(.wrapper-38slSD .wrapper-3kah-n) {
+        border: $size-s solid $black;
+        box-sizing: border-box;
+    }
+
+    // DM icon
+    .childWrapper-1j_1ub {
+        background: $red;
+        color: $cream;
+    }
+
+    // DM and server separator
+    .guildSeparator-a4uisj {
+        display: none;
+    }
+
+    // Add server and explore buttons
+    .circleIconButton-1VxDrg,
+    .circleIconButton-1VxDrg.selected-2r1Hvo {
+        border: $size-s solid $black;
+        background: $red;
+        color: $cream;
+    }
+
+    // Unread pip
+    .item-2LIpTv {
+        @include pip.pip($color: $black);
+        margin-left: 0;
+
+        &[style*="20px"] {
+            height: 20px !important;
+        }
+
+        &[style*="40px"] {
+            height: 40px !important;
+        }
+    }
+
+    // Reordering servers
+    // Background behind dragged icon
+    .placeholderMask-2FHNZU {
+        border-radius: $size-max;
+
+        .dragInner-1CUBf_ {
+            background: $red;
+        }
+    }
+
+    // Dragged icon target
+    .target-1eRTCg.dragOver-1OKbo2::before,
+    .centerTarget-S6BLFQ.dragOver-1OKbo2::before {
+        background: $red;
+        box-shadow: none;
+    }
+
+    // Mentions
+    .base-3IDx3L {
+        border: $size-xs solid $black;
+        color: $black;
+        padding: 0 0 4px 2px;
+        background: $cream;
+
+        // Live/event indicator
+        .icon-2Ug6UV {
+            padding: 3px 2px 0 0;
+        }
+    }
+
+    // New unreads bubble
+    :is(.unreadMentionsIndicatorBottom-3RJMnQ, .unreadMentionsIndicatorTop-2bTgUU) {
+        padding: 2px;
+
+        .unreadMentionsBar-ZXXoOH {
+            border: $size-s solid $black;
+            box-sizing: border-box;
+
+            .text-2GsXbW {
+                color: $black;
+                font-size: 16px;
+                margin: 0 0 6px 2px;
+            }
         }
     }
 }
