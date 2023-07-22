@@ -29,16 +29,29 @@
 
 .panels-3wFtMD,
 .container-1zzFcN,
-.appMount-2yBXZl .container-YkUktl {
+.appMount-2yBXZl .container-YkUktl,
+.appMount-2yBXZl .panel-2ZFCRb {
     background: $black;
 }
 
 .panels-3wFtMD {
     border-top: $size-s solid $cream;
 
-    // Activities and VC
+    // Activity panel
+    .activityPanel-9icbyU {
+        border-bottom: 0;
+    }
+
+    // VC controls
     .container-1zzFcN {
         border-bottom: 0;
+
+        .button-1EGGcP:not(.disabledButtonWrapper-1m0hYZ) {
+            border: $size-xs solid $cream;
+            border-radius: $size-max;
+            background: $black;
+            color: $cream;
+        }
     }
 
     // Self panel
