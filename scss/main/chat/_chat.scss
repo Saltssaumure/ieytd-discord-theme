@@ -3,7 +3,7 @@
 // Chat panel
 
 .chatContent-3KubbW:not(.resizeHandle-PBRzPC + .container-3XgAHv .chatContent-3KubbW) {
-    border-left: $thick solid $cream;
+    border-left: $size-m solid $cream;
 }
 
 .chatContent-3KubbW {
@@ -39,7 +39,7 @@
     // Bars
     .jumpToPresentBar-1cEnH0,
     .newMessagesBar-1hF-9G {
-        border: $thin solid $black;
+        border: $size-s solid $black;
         background: $cream;
         opacity: 1;
 
@@ -70,7 +70,7 @@
     // Day/mention divider
     .divider-2rZFJK {
         --divider-color: $cream;
-        border-top: $x-thin solid var(--divider-color);
+        border-top: $size-xs solid var(--divider-color);
         justify-content: flex-start;
         gap: 8px;
 
@@ -82,7 +82,7 @@
             color: $black;
             height: 18px;
             top: -9px;
-            border-radius: $max;
+            border-radius: $size-max;
         }
     }
 

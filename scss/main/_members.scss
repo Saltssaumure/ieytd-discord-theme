@@ -25,8 +25,8 @@
         // Member
         .member-48YF_l {
             background: $black;
-            border: $x-thin solid $cream;
-            border-radius: $max;
+            border: $size-xs solid $cream;
+            border-radius: $size-max;
 
             // Shifting contents around
             &:not(.membersGroup-2eiWxl + .member-48YF_l) {

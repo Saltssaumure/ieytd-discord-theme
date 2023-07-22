@@ -2,10 +2,10 @@
 
 // Show all voice channels button
 .voiceChannelsButton-SRmgo8 {
-    border: $x-thin solid $cream;
+    border: $size-xs solid $cream;
     background: $black;
     color: $cream;
-    border-radius: $max;
+    border-radius: $size-max;
     margin-top: 4px;
 
     &:hover {

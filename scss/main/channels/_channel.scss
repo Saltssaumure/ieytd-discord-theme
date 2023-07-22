@@ -1,17 +1,17 @@
 @use "../../top/vars" as *;
+@use "../../top/pip";
 
 $spacing: 4px;
 $channel-height: calc(34px - ($spacing / 2));
 $icon-size: calc(20px + 6px);
 $spine-size: calc($icon-size / 1.5);
-$pip-size: 6px;
 
 // Channel
 .containerDefault-YUSmu3 {
     background: $black;
     height: $channel-height;
     box-sizing: border-box;
-    border: $x-thin solid;
+    border: $size-xs solid;
     border-left: 0;
 
     &:not(.container-1Bj0eq .containerDefault-YUSmu3) {
@@ -46,26 +46,15 @@ $pip-size: 6px;
 
     // Unread pip
     .unread-36eUEm {
-        height: $pip-size * 2;
-        width: $pip-size;
-        border-radius: 0 $pip-size $pip-size 0;
-        margin-top: -$pip-size;
-        background: $cream;
-    }
-}
-
-// Cream when hovered
-.wrapper-NhbLHG:hover {
-    .name-28HaxV {
-        color: $cream;
+        @include pip.pip($color: $cream);
+        margin-top: -(pip.$pip-size);
     }
 }
 
 // Red when muted
 .modeMuted-2T4MDZ,
 .modeMuted-2T4MDZ:hover {
-    .icon-2W8DHg,
-    .name-28HaxV {
+    :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl, .overflow-1wOqNV) {
         color: $red;
     }
 }
@@ -73,8 +62,7 @@ $pip-size: 6px;
 // Cream when unread
 .modeUnread-3Cxepe,
 .modeUnread-3Cxepe:hover {
-    .icon-2W8DHg,
-    .name-28HaxV {
+    :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl, .overflow-1wOqNV) {
         color: $cream;
     }
 }
@@ -98,7 +86,7 @@ $pip-size: 6px;
 .container-1Bj0eq {
     overflow: hidden;
     border: solid $cream;
-    border-width: 0 $x-thin $x-thin 0;
+    border-width: 0 $size-xs $size-xs 0;
     width: 210px;
     border-radius: 0 0 calc($channel-height / 2) 0;
 

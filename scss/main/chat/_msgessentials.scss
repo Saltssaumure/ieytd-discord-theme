@@ -11,7 +11,7 @@
         }
 
         &.hljs {
-            border: $x-thin solid $red;
+            border: $size-xs solid $red;
             border-radius: 15px;
         }
     }
@@ -27,7 +27,7 @@
 
     // Automod action
     .embedCard-bDyD5S {
-        border: $x-thin solid $red;
+        border: $size-xs solid $red;
         border-radius: 15px;
         background: $black;
 
@@ -38,9 +38,9 @@
 
     // Message action buttons
     .wrapper-2vIMkT {
-        box-shadow: 0 0 0 $x-thin $cream inset;
+        box-shadow: 0 0 0 $size-xs $cream inset;
         background: $black;
-        border-radius: $max;
+        border-radius: $size-max;
 
         .button-3bklZh {
             color: $cream;
@@ -51,11 +51,11 @@
 // User avatar
 .avatar-2e8lTP,
 .avatarContainer-209emZ {
-    border: $thin solid $red;
+    border: $size-s solid $red;
 }
 
 .avatarDecoration-34OC0G {
-    left: 12px + $thin;
+    left: 12px + $size-s;
 }
 
 // Username
@@ -87,7 +87,7 @@
     --mention-background: $cream;
     border-radius: 2px;
     padding: 0.15rem 4px 0 4px;
-    border-radius: $max;
+    border-radius: $size-max;
     display: inline-block;
 
     &.interactive:hover {
