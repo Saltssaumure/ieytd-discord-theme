@@ -1,41 +1,71 @@
 @use "../../top/vars" as *;
 
 // Self panel
-.container-YkUktl {
-    background: $red;
-    --interactive-normal: $cream;
-    --interactive-hover: $cream;
-    --header-primary: $black;
-    --header-secondary: $cream;
-    --status-danger: $cream;
+// .container-YkUktl {
+//     background: $red;
+//     --interactive-normal: $cream;
+//     --interactive-hover: $cream;
+//     --header-primary: $black;
+//     --header-secondary: $cream;
+//     --status-danger: $cream;
+//     border-top: $thin solid $cream;
+
+//     // Stream options
+//     .button-1EGGcP.buttonColor-3bP3fX,
+//     .button-1EGGcP .buttonColor-3bP3fX {
+//         background: $black;
+//         border-radius: $max;
+//         border: $x-thin solid $cream;
+//     }
+
+//     // Connection info
+//     .inner-llGtyq {
+//         --text-positive: $black;
+//         --text-warning: $black;
+//         --text-danger: $black;
+//         --text-muted: $black;
+//     }
+// }
+
+.panels-3wFtMD,
+.container-1zzFcN,
+.appMount-2yBXZl .container-YkUktl {
+    background: $black;
+}
+
+.panels-3wFtMD {
     border-top: $thin solid $cream;
 
-    // Username
-    .title-338goq {
-        font-family: var(--font-display);
-        margin-top: -10px;
-        line-height: 28px;
+    // Activities and VC
+    .container-1zzFcN {
+        border-bottom: 0;
     }
 
-    // User icon
-    .wrapper-1VLyxH {
-        border: $x-thin solid $cream;
-        background: $black;
+    // Self panel
+    .container-YkUktl {
+        // Username
+        .title-338goq {
+            font-family: var(--font-display);
+            margin-top: -10px;
+            line-height: 28px;
+        }
+
+        // User icon
+        .avatar-1EWyVD {
+            border: $x-thin solid $red;
+            background: $black;
+        }
     }
 
-    // Stream options
-    .button-1EGGcP.buttonColor-3bP3fX,
-    .button-1EGGcP .buttonColor-3bP3fX {
-        background: $black;
-        border-radius: $max;
-        border: $x-thin solid $cream;
+    .title-338goq,
+    .subtext-2HDqJ7,
+    .button-12Fmur,
+    .button-12Fmur:hover {
+        color: $cream;
     }
 
-    // Connection info
-    .inner-llGtyq {
-        --text-positive: $black;
-        --text-warning: $black;
-        --text-danger: $black;
-        --text-muted: $black;
+    .redIcon-1ppjsM,
+    .strikethrough-2Kl6HF {
+        color: $red;
     }
 }
