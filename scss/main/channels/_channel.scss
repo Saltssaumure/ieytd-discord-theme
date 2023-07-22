@@ -1,0 +1,163 @@
+@use "../../top/vars" as *;
+
+$spacing: 4px;
+$channel-height: calc(34px - ($spacing / 2));
+$icon-size: calc(20px + 6px);
+$spine-size: calc($icon-size / 1.5);
+$pip-size: 6px;
+
+// Channel
+.containerDefault-YUSmu3 {
+    background: $black;
+    height: $channel-height;
+    box-sizing: border-box;
+    border: $x-thin solid;
+    border-left: 0;
+
+    &:not(.container-1Bj0eq .containerDefault-YUSmu3) {
+        border-color: $cream;
+        border-radius: 0 calc($channel-height / 2) calc($channel-height / 2) 0;
+        margin-top: $spacing;
+    }
+
+    // Browse channels
+    &.wrapper-NhbLHG {
+        margin-left: 0;
+    }
+
+    // Inner link
+    .link-1_kTxV {
+        padding: 0 8px;
+    }
+
+    // Channel icon
+    .icon-2W8DHg {
+        height: $icon-size;
+        width: $icon-size;
+    }
+
+    .name-28HaxV {
+        line-height: $icon-size;
+    }
+
+    :is(.icon-2W8DHg, .actionIcon-2sw4Sl) {
+        color: $cream;
+    }
+
+    // Unread pip
+    .unread-36eUEm {
+        height: $pip-size * 2;
+        width: $pip-size;
+        border-radius: 0 $pip-size $pip-size 0;
+        margin-top: -$pip-size;
+        background: $cream;
+    }
+}
+
+// Cream when hovered
+.wrapper-NhbLHG:hover {
+    .name-28HaxV {
+        color: $cream;
+    }
+}
+
+// Red when muted
+.modeMuted-2T4MDZ,
+.modeMuted-2T4MDZ:hover {
+    .icon-2W8DHg,
+    .name-28HaxV {
+        color: $red;
+    }
+}
+
+// Cream when unread
+.modeUnread-3Cxepe,
+.modeUnread-3Cxepe:hover {
+    .icon-2W8DHg,
+    .name-28HaxV {
+        color: $cream;
+    }
+}
+
+// Inverted when selected
+.containerDefault-YUSmu3:has(.modeConnected-NrO4cP, .modeSelected-3DmyhH) {
+    background: $cream;
+    border-color: $black !important;
+}
+
+:is(.modeConnected-NrO4cP, .modeSelected-3DmyhH) {
+    &,
+    &:hover {
+        :is(.name-28HaxV, .icon-2W8DHg, .actionIcon-2sw4Sl) {
+            color: $black;
+        }
+    }
+}
+
+// Threads
+.container-1Bj0eq {
+    overflow: hidden;
+    border: solid $cream;
+    border-width: 0 $x-thin $x-thin 0;
+    width: 210px;
+    border-radius: 0 0 calc($channel-height / 2) 0;
+
+    // Thread
+    .containerDefault-YUSmu3 {
+        margin-top: 0;
+        border: 0;
+    }
+
+    // Spine
+    .spine-29OFwR,
+    .spineBorder-1-F4s1 {
+        top: 0;
+        height: $spine-size;
+        width: $spine-size;
+        color: $red;
+    }
+
+    .spine-29OFwR + .spine-29OFwR {
+        transform: rotateX(180deg) translateY(4px - $spine-size) !important;
+    }
+}
+
+// Channel info
+.channelInfo-3jN1ay {
+    // Forum active/new threads
+    & > .text-xs-semibold-3E_l31 {
+        --text-muted: $cream;
+        --text-brand: $cream;
+    }
+
+    // VC user limit
+    .wrapper-2fEmwW {
+        :is(.users-2JoyGL, .total-1c5KCN) {
+            background: transparent;
+            color: inherit;
+            box-sizing: content-box;
+            width: auto;
+            padding: 0;
+        }
+
+        .users-2JoyGL {
+            &::after {
+                content: "/";
+            }
+        }
+
+        .total-1c5KCN {
+            &::after {
+                display: none;
+            }
+        }
+    }
+
+    // Mention bade
+    .numberBadge-37OJ3S {
+        background: $red !important;
+        color: $black;
+        padding-left: 2px;
+        padding-bottom: 5px;
+    }
+}

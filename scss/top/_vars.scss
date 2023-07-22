@@ -12,6 +12,6 @@ $thick: 10px;
 $max: 999px;
 
 $embed-outer: 15px;
-$embed-inner: ($embed-outer - $thin);
+$embed-inner: $embed-outer - $thin;
 
 $textarea-outer: 25px;

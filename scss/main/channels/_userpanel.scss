@@ -1,0 +1,41 @@
+@use "../../top/vars" as *;
+
+// Self panel
+.container-YkUktl {
+    background: $red;
+    --interactive-normal: $cream;
+    --interactive-hover: $cream;
+    --header-primary: $black;
+    --header-secondary: $cream;
+    --status-danger: $cream;
+    border-top: $thin solid $cream;
+
+    // Username
+    .title-338goq {
+        font-family: var(--font-display);
+        margin-top: -10px;
+        line-height: 28px;
+    }
+
+    // User icon
+    .wrapper-1VLyxH {
+        border: $x-thin solid $cream;
+        background: $black;
+    }
+
+    // Stream options
+    .button-1EGGcP.buttonColor-3bP3fX,
+    .button-1EGGcP .buttonColor-3bP3fX {
+        background: $black;
+        border-radius: $max;
+        border: $x-thin solid $cream;
+    }
+
+    // Connection info
+    .inner-llGtyq {
+        --text-positive: $black;
+        --text-warning: $black;
+        --text-danger: $black;
+        --text-muted: $black;
+    }
+}

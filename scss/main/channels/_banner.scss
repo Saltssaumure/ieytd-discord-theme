@@ -1,0 +1,37 @@
+@use "../../top/vars" as *;
+
+// Server banner
+.container-1-ERn5 {
+
+    .headerContent-2SNbie {
+
+        // Server name
+        .name-3Uvkvr {
+            font-family: var(--font-display);
+            position: relative;
+            font-style: oblique;
+            bottom: 4px;
+            font-size: 22px;
+            line-height: 32px;
+            color: $black;
+            text-shadow: 0 0 $x-thin $cream;
+        }
+
+        // Star
+        .flowerStar-2tNFCR {
+            filter: drop-shadow(0 0 $x-thin $cream);
+        }
+    }
+
+    // Public server bubble
+    .communityInfoContainer-1dMVpU {
+        margin-top: 1px;
+        margin-left: -20px;
+        --background-accent: $cream;
+
+        .communityInfoPill-2Mll66 {
+            border-radius: 0 $max $max 0;
+            color: $black;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@use "../../top/vars" as *;
+
+// Current event info
+.container-2Y4CWj {
+    background: $cream;
+    border-radius: $thick;
+    margin: $thin $thick;
+
+    .channelNotice-K4UfZY {
+        border-bottom: 0;
+        --header-primary: $black;
+        --header-secondary: $black;
+
+        .liveIndicator-TJKS7N {
+            background: $red;
+        }
+
+        .liveNowText-v8cd6m {
+            color: $black !important;
+        }
+
+        // Event Details button
+        .joinButton-1HdI2a {
+            background: $black;
+            border-radius: $max;
+        }
+    }
+}

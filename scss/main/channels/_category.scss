@@ -1,0 +1,21 @@
+@use "../../top/vars" as *;
+
+// Channel category
+
+.icon-3zI3d2 {
+    color: $black;
+    width: 20px;
+    height: 20px;
+}
+
+:is(.icon-3zI3d2, .name-3BUDLf) {
+    .wrapper-1S43wv.muted-19J0ih & {
+        color: $black;
+        opacity: 0.6;
+    }
+
+    .wrapper-1S43wv:hover &,
+    .wrapper-1S43wv.muted-19J0ih:hover & {
+        color: $black;
+    }
+}
