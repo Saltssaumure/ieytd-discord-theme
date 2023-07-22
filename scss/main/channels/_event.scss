@@ -2,26 +2,34 @@
 
 // Current event info
 .container-2Y4CWj {
-    background: $cream;
-    border-radius: $thick;
-    margin: $thin $thick;
+    margin: 0;
+
+    &:not(:empty) {
+        border-bottom: $thin solid $cream;
+    }
 
     .channelNotice-K4UfZY {
+        margin: $thin $thick 0;
+        background: $black;
+        padding: $thick;
+        border-radius: $thick $thick 0 0;
+        border: $thin solid $cream;
         border-bottom: 0;
-        --header-primary: $black;
-        --header-secondary: $black;
+
+        --header-primary: #{$cream};
+        --header-secondary: #{$cream};
 
         .liveIndicator-TJKS7N {
             background: $red;
         }
 
         .liveNowText-v8cd6m {
-            color: $black !important;
+            color: $cream !important;
         }
 
         // Event Details button
         .joinButton-1HdI2a {
-            background: $black;
+            background: $cream;
             border-radius: $max;
         }
     }

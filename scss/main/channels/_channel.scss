@@ -40,7 +40,7 @@ $pip-size: 6px;
         line-height: $icon-size;
     }
 
-    :is(.icon-2W8DHg, .actionIcon-2sw4Sl) {
+    :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl, .overflow-1wOqNV) {
         color: $cream;
     }
 
@@ -79,7 +79,7 @@ $pip-size: 6px;
     }
 }
 
-// Inverted when selected
+// Inverted when connected or selected
 .containerDefault-YUSmu3:has(.modeConnected-NrO4cP, .modeSelected-3DmyhH) {
     background: $cream;
     border-color: $black !important;
@@ -88,7 +88,7 @@ $pip-size: 6px;
 :is(.modeConnected-NrO4cP, .modeSelected-3DmyhH) {
     &,
     &:hover {
-        :is(.name-28HaxV, .icon-2W8DHg, .actionIcon-2sw4Sl) {
+        :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl, .overflow-1wOqNV) {
             color: $black;
         }
     }
@@ -130,30 +130,7 @@ $pip-size: 6px;
         --text-brand: $cream;
     }
 
-    // VC user limit
-    .wrapper-2fEmwW {
-        :is(.users-2JoyGL, .total-1c5KCN) {
-            background: transparent;
-            color: inherit;
-            box-sizing: content-box;
-            width: auto;
-            padding: 0;
-        }
-
-        .users-2JoyGL {
-            &::after {
-                content: "/";
-            }
-        }
-
-        .total-1c5KCN {
-            &::after {
-                display: none;
-            }
-        }
-    }
-
-    // Mention bade
+    // Mention badge
     .numberBadge-37OJ3S {
         background: $red !important;
         color: $black;

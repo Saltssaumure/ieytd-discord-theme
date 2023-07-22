@@ -2,8 +2,9 @@
 
 // Server banner
 .container-1-ERn5 {
-
     .headerContent-2SNbie {
+        color: $cream;
+        filter: drop-shadow(0 0 $x-thin $cream);
 
         // Server name
         .name-3Uvkvr {
@@ -14,12 +15,6 @@
             font-size: 22px;
             line-height: 32px;
             color: $black;
-            text-shadow: 0 0 $x-thin $cream;
-        }
-
-        // Star
-        .flowerStar-2tNFCR {
-            filter: drop-shadow(0 0 $x-thin $cream);
         }
     }
 
