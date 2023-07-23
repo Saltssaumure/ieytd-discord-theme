@@ -1,3 +1,5 @@
+@use "../top/vars" as *;
+
 @import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Mukta&display=swap"); // Body font - similar to Adrianna
 
 @font-face {
@@ -32,4 +34,8 @@ code,
 .heading-md-semibold-3sznX7 {
     font-size: 22px;
     line-height: 32px;
+}
+
+.defaultColor-1EVLSt {
+    color: $cream;
 }
