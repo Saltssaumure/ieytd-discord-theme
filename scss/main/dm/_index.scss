@@ -1,5 +1,6 @@
 @forward "./channels";
 @forward "./friends";
+@forward "./library";
 
 @use "../../top/vars" as *;
 
@@ -7,6 +8,7 @@
 .container-2cd8Mz .tabBody-2dgbAs,
 // Library
 .container-36u7Lw .container-3u6dG-,
+.container-36u7Lw .scroller-1TOeMq,
 // Nitro
 .applicationStore-2nk7Lo .scroller-29cQFV,
 // Message requests

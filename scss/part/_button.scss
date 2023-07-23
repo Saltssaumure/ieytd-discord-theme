@@ -1,41 +1,47 @@
 @use "../top/vars" as *;
 @use "../top/button" as button;
 
-.lookFilled-yCfaCM {
-    border-radius: $size-max;
-    border: $size-xs solid;
+.appMount-2yBXZl {
+    :is(.lookFilled-1H2Jvj, .lookOutlined-3RTC7c) {
+        border-radius: $size-max;
+        border: $size-xs solid;
 
-    // I'm keeping track of where I styled these buttons
-    // In case they cause conflicts in other places.
+        &.colorPrimary-2-Lusz {
+            @include button.button($black, $cream);
 
-    // Follow announcement channel
-    &.colorPrimary-2AuQVo {
-        @include button.button($black, $cream);
+            &[aria-disabled="true"],
+            &:disabled {
+                --button-secondary-background-disabled: $black;
+            }
+        }
 
-        &[aria-disabled="true"],
-        &:disabled {
-            --button-secondary-background-disabled: $black;
+        &.colorGreen-jIPCAS {
+            @include button.button($black, $cream);
+        }
+
+        &.colorRed-2VFhM4 {
+            @include button.button($black, $red);
+        }
+
+        &.colorBrand-2M3O3N {
+            @include button.button($black, $cream);
         }
     }
 
-    // Join server in invite embed
-    &.colorGreen-3y-Z79 {
-        @include button.button($black, $cream, $red);
+    .lookBlank-21BCro {
+        border-radius: $size-max;
+
+        // Edit channel button at start of text channel
+        .buttonContainer-2zLp7E & {
+            color: $red;
+            padding: 6px 12px;
+            border: $size-xs solid;
+        }
     }
 
-    // Gift inventory in gift embed
-    &.colorBrand-I6CyqQ {
-        @include button.button($black, $cream, $red);
-    }
-}
-
-.lookBlank-21BCro {
-    border-radius: $size-max;
-
-    // Edit channel button at start of text channel
-    .buttonContainer-2zLp7E & {
-        color: $red;
-        padding: 6px 12px;
-        border: $size-xs solid;
+    .lookLink-13iF2K {
+        &.colorPrimary-2-Lusz {
+            @include button.link($cream);
+        }
     }
 }

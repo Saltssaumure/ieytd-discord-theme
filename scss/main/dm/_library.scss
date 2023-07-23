@@ -1,0 +1,119 @@
+@use "../../top/vars" as *;
+@use "../../top/button";
+
+// Library panel
+.container-36u7Lw .container-3u6dG-,
+.container-36u7Lw .scroller-1TOeMq {
+    background: $black;
+}
+
+// Sticky header
+.header-2EadGG {
+    background: $red;
+    width: 100%;
+    border-bottom: $size-s solid $cream;
+
+    .headerCell-3WoADH {
+        border-left: 0;
+    }
+
+    .headerCellContent-iBms3e {
+        font-family: var(--font-display);
+        font-size: 20px;
+        color: $black;
+    }
+}
+
+// Game
+.rowWrapper-N-4fji {
+    padding-bottom: 1px;
+    margin-bottom: -1px;
+
+    .row-1_1Nya {
+        color: $cream;
+
+        .nameCellText-2i43C0,
+        .textCell-sKsLUQ {
+            color: $cream;
+        }
+    }
+}
+
+// Settings
+.container-36u7Lw {
+    .container-31PmuA .divider-3nqZNm {
+        display: none;
+    }
+
+    // Text
+    .title-2yADjX,
+    .description-foE_WP,
+    .h5-2feg8J,
+    .rowTitle-2MoCno,
+    .rowBody-uWDd7Y,
+    .defaultLocationCheckbox-1Y3dSI {
+        color: $cream;
+    }
+
+    // Default install location
+    .defaultIndicator-1AxErs {
+        border-radius: $size-max;
+        background: $cream;
+        color: $black;
+    }
+
+    // Storage remaining wheel;
+    .background-3laMJt {
+        stroke: $black;
+    }
+    .foreground-2JnqVD {
+        stroke: $red;
+    }
+    .usageInfo-2CQ9c7 {
+        color: $red;
+    }
+
+    // Install location row
+    .installationPath-2PbaRC {
+        box-shadow: none;
+    }
+
+    // Install location edit box
+    .installationPathEditing-1YSctd {
+        background: unset;
+        border: $size-xs solid $cream;
+        border-radius: $size-l;
+
+        // Typing lines
+        .input-3O04eu {
+            border-radius: $size-max;
+            background: $black;
+            border: $size-xs solid $cream;
+            color: $cream;
+        }
+
+        .separator-fB6EmU {
+            border-top: 0;
+            margin-bottom: 0;
+        }
+
+        // Make this my default location
+        .defaultLocationCheckbox-1Y3dSI {
+            margin-top: 12px;
+
+            .checkbox-1LuCGM {
+                border: $size-xs solid $cream;
+                border-radius: $size-max;
+
+                &.checked-22NTbO {
+                    background: $black !important;
+                    border-color: $cream !important;
+
+                    path {
+                        fill: $cream;
+                    }
+                }
+            }
+        }
+    }
+}

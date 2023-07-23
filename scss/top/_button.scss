@@ -3,7 +3,15 @@
     color: $color;
     border-color: $border-color;
 
-    &:hover {
+    :is(&:hover, &:active) {
         background: $background;
+    }
+}
+
+@mixin link($color) {
+    color: $color;
+
+    :is(&:hover, &:active) .contents-3NembX {
+        --button--underline-color: #{$color};
     }
 }
