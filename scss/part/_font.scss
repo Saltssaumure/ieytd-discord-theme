@@ -38,6 +38,7 @@ code,
 
 .eyebrow-132Xza,
 .eyebrow-1lnrAb,
+.eyebrow-1Shfyi,
 .eyebrow-21ivYN,
 .eyebrow-2D72C7,
 .eyebrow-2KAVxO,
@@ -66,6 +67,7 @@ code,
 }
 
 .h1-3iMExa,
+.userTag-2qPxEZ,
 // [class*="text-lg-"],
 [class*="heading-lg-"] {
     @include text.sizeup(20px, 24px, 12px);
@@ -87,6 +89,11 @@ code,
 .label-7akf7-,
 .legend-3BgtI3,
 .markup-eYLPri,
-.title-2yADjX {
+.title-2yADjX,
+.userTag-2qPxEZ {
     color: $cream;
+}
+
+.anchor-1X4H4q {
+    color: $red;
 }

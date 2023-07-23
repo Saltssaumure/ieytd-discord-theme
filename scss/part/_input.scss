@@ -1,0 +1,51 @@
+@use "../top/vars" as *;
+
+// Toggle
+.control-10qYax {
+    zoom: 1.2;
+    .container-1QtPKm {
+        &:not(.checked-16gMAN) {
+            background-color: $red !important;
+            color: $red;
+        }
+
+        &.checked-16gMAN {
+            background-color: $cream !important;
+            color: $cream;
+        }
+
+        rect {
+            fill: $black;
+        }
+
+        path {
+            fill: currentColor;
+        }
+    }
+}
+
+// Inputs
+.input-3O04eu {
+    &:hover {
+        border-color: $cream;
+    }
+    &.focused-16iuXg,
+    &:focus {
+        border-color: $red;
+    }
+}
+
+// Single line input
+.inputDefault-Ciwd-S {
+    border-radius: $size-max;
+    border: $size-xs solid $cream;
+    background: $black;
+    color: $cream;
+}
+
+// Dropdown selector
+.lookFilled-GPyucw.select-Zz0IcO {
+    border-radius: $size-max;
+    background: $black;
+    border: $size-xs solid $cream;
+}

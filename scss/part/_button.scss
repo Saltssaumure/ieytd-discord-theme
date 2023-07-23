@@ -30,12 +30,15 @@
         &.colorWhite-Eshn2o {
             @include button.button($red, $cream);
         }
+
+        &.buttonColor-1u-3JF {
+            @include button.button(var(--profile-gradient-primary-color), $cream, var(--profile-gradient-secondary-color));
+        }
     }
 
     .lookBlank-21BCro {
         border-radius: $size-max;
 
-        // Edit channel button at start of text channel
         .buttonContainer-2zLp7E & {
             color: $red;
             padding: 6px 12px;
@@ -46,6 +49,10 @@
     .lookLink-13iF2K {
         &.colorPrimary-2-Lusz {
             @include button.link($cream);
+        }
+
+        &.colorLink-34zig_ {
+            @include button.link($red);
         }
     }
 }
