@@ -26,6 +26,10 @@
         &.colorBrand-2M3O3N {
             @include button.button($black, $cream);
         }
+
+        &.colorWhite-Eshn2o {
+            @include button.button($red, $cream);
+        }
     }
 
     .lookBlank-21BCro {

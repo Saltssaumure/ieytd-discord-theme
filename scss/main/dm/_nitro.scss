@@ -1,0 +1,63 @@
+@use "../../top/vars" as *;
+
+.applicationStore-2nk7Lo .scroller-29cQFV {
+    background: $black;
+}
+
+.hero-1gKM4P,
+.ctaWrapperTier2-1hk2M8,
+.ctaWrapperTier0-1GlgHE {
+    background: $red;
+}
+
+.ctaWrapper-4Js5Q6,
+.ctaButtonInner-2VRelf {
+    color: $cream;
+}
+
+.heroHeading-2yVSUj,
+.pricePerInterval-1HgDkM,
+.ctaCopy-1CkXTE,
+.perksGridFeatureHeading-3wq2Tn,
+.existingSubscriberSpacing-3auAAB div {
+    color: $cream !important;
+}
+
+.card-2guEcY a {
+    color: $red;
+}
+
+.icon-BvdXsl {
+    color: $red;
+    height: 20px;
+    width: 20px;
+}
+
+.heroImages-2g-v0-,
+.heroLogo-2rSeWP,
+.ctaWrapperTier2-1hk2M8 .ctaImages-1s97vM,
+.ctaWrapperTier0-1GlgHE .ctaImages-1s97vM,
+.featureImage-91H2fC {
+    filter: saturate(var(--saturation-factor, 1)) sepia(1);
+}
+
+.divider-2JN8Vy {
+    display: none;
+}
+
+// Feature cards
+.appMount-2yBXZl .feature-2IUcBI {
+    background: $black;
+    border: $size-xs solid $cream;
+
+    // Early access badge
+    .featureNewBadge-27qr_t {
+        background: $cream !important;
+        color: $black;
+        line-height: 13px;
+    }
+
+    .learnMoreLink-2JwgbJ {
+        color: $red;
+    }
+}
