@@ -1,0 +1,6 @@
+$default-expand: 6px;
+
+@mixin sizeup($fontsize, $lineheight, $expand: $default-expand) {
+    font-size: $fontsize + $expand;
+    line-height: $lineheight + $expand;
+}
