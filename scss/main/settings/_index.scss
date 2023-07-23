@@ -1,5 +1,5 @@
-@use "server";
-@use "user";
+@forward "./server";
+@forward "./user";
 
 @use "../../top/vars" as *;
 
@@ -9,6 +9,7 @@
     gap: 10px;
 }
 
+// Menu
 .sidebarRegion-1VBisG {
     max-width: 312px;
 
@@ -76,6 +77,7 @@
     }
 }
 
+// Content
 .contentRegion-3HkfJJ {
     .contentRegionScroller-2_GT_N {
         background: $black;
