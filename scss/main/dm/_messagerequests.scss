@@ -1,0 +1,23 @@
+@use "../../top/vars" as *;
+
+// Message requests
+.content-1jQy2l {
+    // Title
+    .sectionTitle-3caGtC {
+        color: $cream;
+    }
+    background: $black;
+
+    .messageRequestItem-1_NNAR {
+        border-bottom: 0;
+
+        .username-1dzTzj {
+            color: $cream;
+            font-family: var(--font-display);
+        }
+
+        .timestampWithPreview-2lTGjV {
+            color: $cream !important;
+        }
+    }
+}
