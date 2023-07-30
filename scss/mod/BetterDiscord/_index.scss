@@ -1,23 +1,7 @@
-@use "../top/vars" as *;
+@forward "./settings";
+@forward "./input";
 
-// Settings menu list
-.bd-sidebar-header {
-    padding: 6px 10px;
-    justify-content: center;
-
-    .bd-sidebar-header-label {
-        display: inline;
-        font-size: 20px;
-        line-height: 24px;
-        color: $black;
-        font-style: oblique;
-        font-family: var(--font-display);
-        font-weight: 700;
-        text-transform: uppercase;
-        margin: 0;
-        padding: 0;
-    }
-}
+@use "../../top/vars" as *;
 
 // .bd-search,
 // .bd-title * {
@@ -129,23 +113,4 @@
 //     border: 2px solid $cream;
 //     border-radius: 20px;
 //     padding-right: 35px;
-// }
-
-// /* Custom CSS editor
-//     Keep Custom CSS editor and code related parts untouched.
-//     Avoids issues when working with the Custom CSS editor.
-// */
-// #bd-customcss-detach-container.hljs,
-// #bd-customcss-detach-container.inline,
-// #bd-customcss-detach-container.hljs :-webkit-any(ol, li, span),
-// .editor-wrapper :-webkit-any(textarea, div, span) {
-//     font-family: "Monaco", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace !important;
-//     text-transform: none !important;
-//     text-shadow: none !important;
-// }
-
-// #bd-editor-controls,
-// #bd-editor-controls button,
-// #bd-editor-controls button:hover {
-//     color: $black;
 // }

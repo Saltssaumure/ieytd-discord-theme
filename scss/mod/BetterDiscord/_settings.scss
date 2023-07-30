@@ -1,0 +1,209 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// Settings menu list
+.bd-sidebar-header {
+    padding: 6px 10px;
+    justify-content: center;
+
+    .bd-sidebar-header-label {
+        display: inline;
+        font-size: 20px;
+        line-height: 24px;
+        color: $black;
+        font-style: oblique;
+        font-family: var(--font-display);
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bd-icon,
+    .bd-icon:hover {
+        fill: $black;
+        zoom: 1.5;
+    }
+}
+
+// Settings panel
+
+// Title
+.bd-settings-title {
+    font-family: var(--font-display);
+    display: flex;
+
+    // Main title
+    &:not(.bd-settings-group-title) {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    // Section title
+    &.bd-settings-group-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    // Button
+    .bd-button-title {
+        border-radius: $size-max;
+        border: $size-xs solid $cream;
+        color: $cream;
+
+        :is(&, &:hover, &:active) {
+            background: $black;
+        }
+    }
+}
+
+// Collapsible title
+.bd-settings-group.collapsible .bd-settings-title {
+    &::before,
+    &::after {
+        background: $cream;
+    }
+}
+
+// Text
+.bd-settings-title,
+.bd-setting-header label,
+.bd-setting-note,
+.bd-settings-title.bd-settings-group-title {
+    color: $cream;
+}
+
+// Divider
+.bd-setting-divider {
+    border-bottom: 0;
+}
+
+// Checkmark
+.bd-filled-checkmark {
+    background: $cream;
+
+    svg {
+        fill: $black;
+    }
+}
+
+// No updates
+.bd-empty-updates {
+    color: $cream;
+
+    svg {
+        fill: $cream;
+    }
+}
+
+// Searchbox
+.bd-search-wrapper {
+    border-radius: $size-max;
+    border: $size-xs solid $cream;
+    background: $black;
+
+    .bd-search {
+        color: $cream;
+    }
+
+    & > svg {
+        fill: $cream;
+    }
+}
+
+// No results
+.bd-empty-results {
+    svg {
+        @include filter.sepia;
+    }
+    .bd-empty-results-text {
+        color: $cream;
+    }
+}
+
+// List / grid view toggle
+.bd-addon-views {
+    border: $size-xs solid $cream;
+    border-radius: $size-max;
+    overflow: hidden;
+
+    .bd-view-button {
+        border-radius: 0;
+        border: 0;
+        padding: 0 10px;
+        transition: background 0.3s;
+
+        svg {
+            fill: $cream;
+        }
+
+        &.selected,
+        &:active {
+            background: $cream;
+
+            svg {
+                fill: $black;
+            }
+        }
+
+        & + .bd-view-button {
+            margin-left: 0;
+        }
+    }
+}
+
+// Addon card
+.bd-addon-list {
+    .bd-addon-card {
+        @include card.med;
+    }
+
+    .bd-addon-header {
+        padding-bottom: 0;
+        background: $black;
+        color: $cream;
+
+        .bd-icon {
+            fill: $cream;
+            zoom: 2;
+        }
+    }
+
+    .bd-description {
+        color: $cream;
+    }
+
+    .bd-footer {
+        background: $black;
+        padding-top: 0;
+
+        .bd-link {
+            &,
+            &:hover,
+            &:active {
+                color: $cream;
+            }
+        }
+
+        .bd-controls {
+            border-radius: $size-max;
+            border: $size-xs solid $cream;
+            overflow: hidden;
+
+            & > .bd-addon-button {
+                border: 0;
+                padding: 5px 10px;
+                background: $black;
+
+                svg {
+                    fill: $cream;
+                }
+
+                &.bd-button-danger svg {
+                    fill: $red;
+                }
+            }
+        }
+    }
+}
