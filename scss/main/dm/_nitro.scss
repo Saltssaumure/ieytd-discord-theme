@@ -1,4 +1,5 @@
 @use "../../top/vars" as *;
+@use "../../top/filter";
 
 .applicationStore-2nk7Lo .scroller-29cQFV {
     background: $black;
@@ -23,10 +24,6 @@
     color: $cream !important;
 }
 
-.card-2guEcY a {
-    color: $red;
-}
-
 .icon-BvdXsl {
     color: $red;
     height: 20px;
@@ -38,7 +35,7 @@
 .ctaWrapperTier2-1hk2M8 .ctaImages-1s97vM,
 .ctaWrapperTier0-1GlgHE .ctaImages-1s97vM,
 .featureImage-91H2fC {
-    filter: saturate(var(--saturation-factor, 1)) sepia(1);
+    @include filter.sepia;
 }
 
 .divider-2JN8Vy {

@@ -1,4 +1,5 @@
 @use "../../top/vars" as *;
+@use "../../top/filter";
 
 .container-TT--xs .contentPanel-2uDEUG {
     background: $black;
@@ -34,7 +35,7 @@
     .artContainer-1bqVms,
     .bannerArt-kUjEEW,
     .image-6bHJhO {
-        filter: saturate(var(--saturation-factor, 1)) sepia(1);
+        @include filter.sepia;
     }
 
     // Icons

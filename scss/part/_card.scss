@@ -1,0 +1,16 @@
+@use "../top/vars" as *;
+@use "../top/card";
+@use "../top/filter";
+
+// Info cards, mainly in settings
+.appMount-2yBXZl .card-2guEcY {
+    @include card.med;
+
+    a {
+        color: $red;
+    }
+
+    img {
+        @include filter.sepia;
+    }
+}

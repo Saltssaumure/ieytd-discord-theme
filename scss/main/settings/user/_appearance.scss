@@ -1,0 +1,39 @@
+@use "../../../top/vars" as *;
+
+// Themes
+.defaultThemeSelection-2M_3x4 {
+    box-shadow: none;
+}
+
+// Selected theme
+.selectionCircle-3s5Uex {
+    box-shadow: inset 0 0 0 $size-s $cream;
+
+    circle {
+        fill: $black;
+    }
+
+    path {
+        fill: $cream;
+    }
+}
+
+// Basic themes
+.basicThemeSelectors-2wNKs6 {
+    margin: $size-m;
+
+    // Sync theme icon
+    .iconWrapper-1EIGUS path {
+        fill: $cream;
+    }
+}
+
+// Nitro themes hidden due to incompatibility
+.themeTitle-3WIti0 button {
+    display: none;
+}
+.basicThemeSelectors-2wNKs6 {
+    & + section {
+        display: none;
+    }
+}

@@ -1,0 +1,20 @@
+@use "../top/vars" as *;
+
+.appMount-2yBXZl .combo-3PNrpQ .key-RP8gj3 {
+    background: $black;
+    border-radius: $size-max;
+    zoom: 1.2;
+    border: $size-xs solid $cream;
+    color: $cream;
+    border-bottom-width: $size-s * 1.5;
+
+    &:active {
+        border: $size-xs solid $cream;
+        color: $cream;
+        box-shadow: none;
+    }
+
+    .bindArrow-L3Mvw5 g {
+        fill: $cream;
+    }
+}

@@ -1,0 +1,63 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+.connectContainer-1hylYM,
+.connection-YOVI9j {
+    @include card.med;
+}
+
+// Add accounts to your profile
+.connectContainer-1hylYM {
+    // Text
+    .connectHeader-2VkFiv,
+    .text-xs-normal-3O7EaX {
+        color: $cream !important;
+    }
+
+    // Platform
+    .inner-1lPVFp,
+    .accountAddInner-2y9WLL {
+        border-radius: $size-m;
+        background-color: $red;
+        color: $cream;
+    }
+}
+
+// List of existing connections
+.connectionList-11Q_X- {
+    grid-gap: 8px;
+
+    // Header
+    .connectionHeader-Ixbb1s {
+        background: $red;
+
+        .connectionAccountValue-YkFI6F,
+        .connectionAccountLabel-28GEPk {
+            color: $black !important;
+        }
+
+        .connectionDelete-3YgMVq {
+            color: $cream;
+        }
+    }
+
+    // Further info
+    .container-2ATx61 {
+        @include card.med;
+    }
+
+    // Metadata
+    .metadataContainer-35U-On {
+        @include card.med;
+
+        // Text
+        div {
+            color: $cream !important;
+        }
+
+        .connectedAccountVanityMetadataTag-19Al5z {
+            color: $black !important;
+            background: $cream;
+        }
+    }
+}

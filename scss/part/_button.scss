@@ -2,7 +2,7 @@
 @use "../top/button" as button;
 
 .appMount-2yBXZl {
-    :is(.lookFilled-1H2Jvj, .lookOutlined-3RTC7c) {
+    :is(.lookFilled-1H2Jvj, .lookOutlined-3RTC7c, .lookInverted-2GrLaB) {
         border-radius: $size-max;
         border: $size-xs solid;
 
@@ -23,7 +23,7 @@
             @include button.button($black, $red);
         }
 
-        &.colorBrand-2M3O3N {
+        :is(&.colorBrand-2M3O3N, &.colorBrandNew-abZT3v) {
             @include button.button($black, $cream);
         }
 

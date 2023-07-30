@@ -1,0 +1,13 @@
+@use "../../../top/vars" as *;
+@use "../../../top/filter";
+
+.emptyStateImage-1kilCd {
+    @include filter.sepia;
+}
+
+.appMount-2yBXZl {
+    .emptyStateHeader-Wexj4l,
+    .emptyStateSubtext-29V2rK {
+        color: $cream;
+    }
+}

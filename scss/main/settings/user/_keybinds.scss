@@ -1,0 +1,40 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+// Keybinds disabled warning
+.warning-RBGtx2 {
+    @include card.med;
+    border-radius: $size-max;
+    border-color: $red;
+
+    .icon-2fP4ae {
+        color: $red;
+    }
+
+    div[style] {
+        color: $red !important;
+    }
+}
+
+// Custom keybind
+.appMount-2yBXZl .row-3nMNOy {
+    box-shadow: none;
+
+    .card-2ART2V {
+        margin-top: 0;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    // Remove keybind x
+    .switch-1c5UrR {
+        padding-top: 36px;
+    }
+    .removeKeybind-3J8M42 {
+        background-color: $red;
+        top: calc(50% - 12px);
+        right: -48px;
+    }
+}
