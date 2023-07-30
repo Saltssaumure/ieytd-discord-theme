@@ -2,6 +2,7 @@
 @forward "./user";
 
 @use "../../top/vars" as *;
+@use "../../top/filter";
 
 .layer-86YKbF,
 .standardSidebarView-E9Pc3j {
@@ -68,6 +69,9 @@
     .selectedBackground-1t6xXq {
         display: none;
     }
+    .premiumLabel-3HPvdB svg {
+        @include filter.sepia;
+    }
 
     // Separator
     .separator-2N511j {
@@ -94,5 +98,16 @@
 .contentRegion-3HkfJJ {
     .contentRegionScroller-2_GT_N {
         background: $black;
+    }
+}
+
+// Close button
+:is(.closeButton-PCZcma, .keybind-13vtq8) {
+    color: $cream;
+
+    &:hover,
+    &:hover + .keybind-13vtq8 {
+        color: $cream;
+        background: unset;
     }
 }

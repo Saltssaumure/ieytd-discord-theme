@@ -1,0 +1,12 @@
+@use "../top/vars" as *;
+
+.wanderingCubes-2A046F {
+    zoom: 3;
+    .item-2VgEex {
+        background: $red;
+
+        &:last-child {
+            background: $cream;
+        }
+    }
+}
