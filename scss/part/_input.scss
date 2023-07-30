@@ -122,3 +122,39 @@
         // ruh roh
     }
 }
+
+// Dropdown
+.select-Zz0IcO {
+    color: $cream;
+}
+
+// Dropdown options
+.popout-15UxD6 {
+    @include card.med;
+    background: $black;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .option-Uc12mm {
+        color: $cream;
+
+        &[aria-selected="true"]:not(.option-Uc12mm.multi-2vPqc4),
+        &:hover,
+        &:focus,
+        &.focused-10mbp- {
+            background: unset;
+            color: $cream;
+        }
+    }
+}
+
+// Selected
+.selectedIcon-122rMx {
+    color: $cream;
+
+    circle {
+        fill: $black;
+    }
+}
