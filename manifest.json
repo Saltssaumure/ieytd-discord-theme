@@ -15,6 +15,7 @@
     "license": "GPL-3.0",
     "type": "replugged-theme",
     "main": "scss/ieytd.scss",
+    "source": "https://github.com/Saltssaumure/ieytd-discord-theme",
     "image": [
         "",
         ""
