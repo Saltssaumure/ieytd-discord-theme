@@ -1,0 +1,16 @@
+@use "../../../top/vars" as *;
+
+.authedApp-8q3NA9 {
+    max-height: 32px;
+    box-sizing: content-box;
+    overflow: hidden;
+    transition: max-height 1s;
+
+    &.outline-3kFzf8 {
+        border-color: $cream;
+    }
+
+    &:hover {
+        max-height: 100vh;
+    }
+}

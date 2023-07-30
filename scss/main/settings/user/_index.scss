@@ -1,6 +1,22 @@
 @forward "./myaccount";
 @forward "./profiles";
+@forward "./privacysafety";
+@forward "./familycentre";
+@forward "./authorisedapps";
+@forward "./devices";
+@forward "./connections";
+@forward "./serverboost";
+@forward "./subscriptions";
+@forward "./giftinventory";
+@forward "./billing";
+@forward "./appearance";
+@forward "./voicevideo";
+@forward "./keybinds";
+@forward "./registeredgames";
+@forward "./gameoverlay";
+@forward "./hypesquad";
 
-.divider-3nqZNm {
+.divider-3nqZNm,
+.mainSeparator-h7MEes {
     display: none;
 }

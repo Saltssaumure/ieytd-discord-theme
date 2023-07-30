@@ -1,0 +1,27 @@
+@use "../top/vars" as *;
+
+// Tabs
+.top-Ktfr_T {
+    border-bottom: $size-xs solid $cream;
+    border-radius: $size-xl $size-xl 0 0;
+    padding: $size-m $size-l 0;
+    gap: $size-l;
+    background: $red;
+
+    .item-2GWPIy,
+    .item-2GWPIy.selected-1sf9UK,
+    .item-2GWPIy:hover {
+        background: $black;
+        color: $cream;
+        border: $size-xs solid;
+        border-bottom: 0;
+        border-radius: $size-l $size-l 0 0;
+        margin: 0;
+        padding: 4px 10px;
+    }
+
+    .item-2GWPIy.selected-1sf9UK {
+        background: $cream;
+        color: $black;
+    }
+}

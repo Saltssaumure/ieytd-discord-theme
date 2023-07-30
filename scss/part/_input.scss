@@ -1,36 +1,41 @@
 @use "../top/vars" as *;
+@use "../top/card";
 
 // Toggle
-.control-10qYax {
+.container-1QtPKm {
     zoom: 1.2;
-    .container-1QtPKm {
-        &:not(.checked-16gMAN) {
-            background-color: $red !important;
-            color: $red;
-        }
 
-        &.checked-16gMAN {
-            background-color: $cream !important;
-            color: $cream;
-        }
+    &:not(.checked-16gMAN) {
+        background-color: $red !important;
+        color: $red;
+    }
 
-        rect {
-            fill: $black;
-        }
+    &.checked-16gMAN {
+        background-color: $cream !important;
+        color: $cream;
+    }
 
-        path {
-            fill: currentColor;
-        }
+    rect {
+        fill: $black;
+    }
+
+    path {
+        fill: currentColor;
     }
 }
 
-// Inputs
+::placeholder {
+    color: $cream !important;
+}
+
+// Typing inputs
 .input-3O04eu {
     &:hover {
         border-color: $cream;
     }
     &.focused-16iuXg,
-    &:focus {
+    &:focus,
+    .error-10GvqR {
         border-color: $red;
     }
 }
@@ -48,4 +53,72 @@
     border-radius: $size-max;
     background: $black;
     border: $size-xs solid $cream;
+}
+
+// Checkbox
+.appMount-2yBXZl .checkbox-1LuCGM {
+    border: $size-xs solid $cream;
+    border-radius: $size-max;
+
+    &.checked-22NTbO {
+        background: $black !important;
+        border-color: $cream !important;
+
+        path {
+            fill: $cream;
+        }
+    }
+}
+
+// Slider
+.slider-1mmyV6 {
+    // Tick
+    .markDash-1ATsxA {
+        background: $red;
+    }
+    // Label
+    .markValue-21gAVC {
+        color: $cream;
+    }
+
+    // Bar
+    .bar-2H7Q9u {
+        background: $red;
+        .barFill-3RgCsY {
+            background: $cream;
+        }
+    }
+
+    // Grabber
+    .grabber-3R-Rx9 {
+        $size: 20px;
+        width: $size;
+        height: $size;
+        margin-left: calc($size / -2);
+        margin-top: calc($size / -2);
+        border-radius: $size-max;
+        box-shadow: none;
+        background: $black;
+        border: $size-s solid $cream;
+    }
+}
+
+// Keybind
+.appMount-2yBXZl .container-30qY7E {
+    @include card.med;
+    border-radius: $size-max;
+
+    &:not(.disabled-3S7pz8):focus-within,
+    &:not(.disabled-3S7pz8):hover {
+        border-color: $red;
+    }
+
+    // Current keys
+    .input-3K7d_z {
+        color: $cream;
+    }
+
+    .editIcon-e7sZ3b {
+        // ruh roh
+    }
 }

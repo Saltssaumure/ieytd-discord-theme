@@ -1,0 +1,9 @@
+@use "vars" as *;
+
+@mixin med {
+    border-radius: $size-l;
+    border: $size-xs solid $cream;
+    background: unset;
+    overflow: hidden;
+    color: $cream;
+}

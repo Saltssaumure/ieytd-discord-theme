@@ -99,20 +99,6 @@
         // Make this my default location
         .defaultLocationCheckbox-1Y3dSI {
             margin-top: 12px;
-
-            .checkbox-1LuCGM {
-                border: $size-xs solid $cream;
-                border-radius: $size-max;
-
-                &.checked-22NTbO {
-                    background: $black !important;
-                    border-color: $cream !important;
-
-                    path {
-                        fill: $cream;
-                    }
-                }
-            }
         }
     }
 }

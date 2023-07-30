@@ -17,6 +17,6 @@
 // Message requests
 .chat-2ZfjoI .content-1jQy2l,
 // Family centre
-.container-TT--xs .contentPanel-2uDEUG {
+.container-TT--xs .contentPanel-2uDEUG:not(.contentRegion-3HkfJJ .contentPanel-2uDEUG) {
     border-left: $size-m solid $cream;
 }

@@ -1,0 +1,41 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+@use "../../../top/filter";
+
+.membershipDialog-2wAdpQ {
+    background: unset;
+    border: $size-s solid;
+    border-radius: $size-l;
+
+    &.membershipDialogHouse1-R8jb0l {
+        border-color: var(--hypesquad-house-1);
+    }
+
+    &.membershipDialogHouse2-2W27iJ {
+        border-color: var(--hypesquad-house-2);
+    }
+
+    &.membershipDialogHouse3-1E5AN4 {
+        border-color: var(--hypesquad-house-3);
+    }
+
+    .membershipDialogSwitchHousesAction-O0eVhe:hover {
+        color: $cream;
+    }
+}
+
+.features-6z-RVS {
+    .perkIcon-Fs9ArR {
+        @include filter.sepia;
+    }
+
+    .title-2pQsrN,
+    .description-22Sl9U {
+        color: $cream;
+    }
+}
+
+.featureBorder-2G0c_P,
+.leaveActionWrapper-gOy5IQ {
+    border-top: 0;
+}

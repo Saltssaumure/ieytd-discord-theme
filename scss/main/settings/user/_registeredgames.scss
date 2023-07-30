@@ -1,0 +1,58 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+// Current game
+.appMount-2yBXZl {
+    .nowPlaying-3UpuKc {
+        @include card.med;
+
+        :is(.gameName-zbZetm, .lastPlayed-1jum9A, .overlayStatusText-In0YrK) {
+            color: $cream;
+        }
+
+        .toggleIconOn-1dZapU .fill-297bdf {
+            fill: $cream;
+        }
+
+        .toggleIconOff-XGPmqE :is(.fill-297bdf, rect) {
+            fill: $red;
+        }
+    }
+
+    .notDetected-M3Ghh2 {
+        @include card.med;
+        border-color: $red;
+
+        :is(.gameName-zbZetm, .lastPlayed-1jum9A, .overlayStatusText-In0YrK) {
+            color: $red;
+        }
+    }
+}
+
+// Not seeing your game
+.appMount-2yBXZl .nowPlayingAdd-3I4RbE {
+    color: $cream;
+}
+
+// Added games
+.appMount-2yBXZl .game-2f2vPC {
+    box-shadow: none;
+
+    :is(.gameName-zbZetm, .lastPlayed-1jum9A, .overlayStatusText-In0YrK) {
+        color: $cream;
+    }
+
+    .toggleIconOn-1dZapU .fill-297bdf {
+        fill: $cream;
+    }
+
+    .toggleIconOff-XGPmqE :is(.fill-297bdf, rect) {
+        fill: $red;
+    }
+
+    .removeGame-3V7nss {
+        background-color: unset;
+        top: calc(50% - 12px);
+        right: -36px;
+    }
+}
