@@ -49,6 +49,17 @@
     @include card.round;
 }
 
+// Multi line input
+.textArea-3wfxMA {
+    @include card.xlarge;
+}
+
+// Char limit
+.characterCount-21v0bl,
+.maxLength-1Olpq1 {
+    color: $cream;
+}
+
 // Click to copy input
 .appMount-2yBXZl .copyInput-3AbKWB {
     @include card.round;

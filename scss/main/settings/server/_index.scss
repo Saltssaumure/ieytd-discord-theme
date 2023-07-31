@@ -4,5 +4,4 @@
 @forward "./stickers";
 @forward "./soundboard";
 @forward "./widget";
-
-@use "../../../top/vars" as *;
+@forward "./servertemplate";
