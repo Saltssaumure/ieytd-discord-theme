@@ -1,0 +1,74 @@
+@use "../../../top/vars" as *;
+@use "../../../top/filter";
+@use "../../../top/card";
+
+.caret-3r4dUI,
+.detailsIcon-2NtTO9,
+.featureIcon-3rvFkz,
+.expandIcon-2ncF1G {
+    color: $cream;
+}
+
+// Default icons
+.iconWrapper-1sOtkE {
+    background: $cream;
+
+    .icon-3TvnqF {
+        color: $black;
+    }
+}
+
+// Channel dropdown
+.wrapper-mJT04A {
+    .iconsContainer-1qihUz {
+        height: auto;
+    }
+}
+
+// Bots and apps
+// Group name
+.name-1FrPhF {
+    align-items: flex-end;
+}
+
+// Group icon
+.icon-1PAq_f,
+.icon-15laLx,
+.channelIcon-2hyBMH {
+    color: $cream;
+}
+
+// Card
+.cardHeader-3d6H8N {
+    background: unset;
+}
+
+// Card content
+.entryItem-1OwqoD:last-child {
+    margin-bottom: 16px;
+}
+
+// Approve/deny
+.item-14XeNr {
+    background: $black;
+
+    &.deny-2VqAyZ {
+        color: $red;
+    }
+
+    &.allow-q9kwjz {
+        color: $cream;
+    }
+
+    &.selected-I4nkOo {
+        color: $black;
+
+        &.deny-2VqAyZ {
+            background: $red;
+        }
+
+        &.allow-q9kwjz {
+            background: $cream;
+        }
+    }
+}

@@ -109,3 +109,29 @@
         background: unset;
     }
 }
+
+// Breadcrumb trail
+.breadcrumbs-2uP7wU {
+    overflow: visible;
+
+    .breadcrumbWrapper-3rpYiO {
+        align-items: flex-end;
+
+        .breadcrumbClickWrapper-1nRR9e,
+        .breadcrumbFinalWrapper-1BwQdx {
+            overflow: visible;
+        }
+
+        .breadcrumbInactive-1gWeSM {
+            &,
+            &:hover {
+                color: $red;
+            }
+        }
+
+        .breadcrumbArrow-1LY2zF {
+            zoom: 1.5;
+            color: $cream;
+        }
+    }
+}
