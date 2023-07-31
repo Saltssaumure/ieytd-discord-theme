@@ -18,21 +18,9 @@
     }
 }
 
-// Soundboard
-.soundboardRow-1GOkfq {
-    div[style] {
-        color: $cream !important;
-    }
-}
-
 // Video preview
 .cameraWrapper-nG8dpo {
     @include card.large;
-}
-
-// Text
-.previewToggle-vfkyIm ~ h4[style] {
-    color: $cream !important;
 }
 
 // Video background

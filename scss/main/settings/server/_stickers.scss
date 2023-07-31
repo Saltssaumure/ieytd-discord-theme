@@ -1,0 +1,107 @@
+@use "../../../top/vars" as *;
+@use "../../../top/filter";
+@use "../../../top/card";
+
+// Tier chain
+.appMount-2yBXZl {
+    .tierAccomplished-1I5NaT,
+    .tierCurrent-2nowYi,
+    .tierFirst-1Vn3wS {
+        background: $cream;
+    }
+
+    .currentTierIcon-23IR3F {
+        color: $black;
+    }
+
+    .background-3xJH_4 {
+        color: $red;
+    }
+
+    .tierInProgress-1vFUnw {
+        background: $red;
+    }
+}
+
+.foreground-3_3Pgi {
+    color: $cream;
+}
+
+// Tiers
+.tier-3CS7-p {
+    @include card.large;
+
+    .tierHeader-3q9jIw,
+    .tierBody-1d3UiS {
+        color: $cream;
+        background: unset;
+    }
+
+    // Gem icons
+    .tierIcon-3m8V16,
+    .tierIconLocked-RGSkSl,
+    .tierLock-1eabw6 {
+        color: $cream;
+    }
+
+    // Locked tiers
+    .tierIconLocked-RGSkSl,
+    .tierLock-1eabw6 {
+        opacity: 0.5;
+    }
+
+    // Placeholders
+    .emptyTierImage-2bJjxU,
+    .placeholderImg-w8sjug {
+        @include filter.sepia;
+    }
+
+    // Sticker grid
+    .grid-5BH14o {
+        gap: $size-s;
+        justify-content: center;
+        margin: $size-m;
+
+        // Sticker
+        .wrapper-24fR1R {
+            background: unset;
+        }
+
+        .placeholderCard-3eGmb3 {
+            border-color: $cream;
+            border-radius: $size-m;
+        }
+    }
+}
+
+// Sticker actions
+@media (min-width: 1010px) {
+    .actions-1aMD1r {
+        flex-direction: row;
+        inset: -16px 0 auto;
+
+        .action-2YPPom {
+            margin-top: 0;
+            width: 50%;
+        }
+    }
+}
+
+.action-2YPPom {
+    box-shadow: none;
+    background: unset;
+
+    &,
+    &:hover,
+    &:focus {
+        color: $cream;
+    }
+
+    &.actionRemove-3T3Nw3 {
+        color: $red;
+    }
+
+    svg {
+        zoom: 1.2;
+    }
+}
