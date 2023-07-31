@@ -36,10 +36,6 @@
     :is(.item-2GWPIy, .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl)) {
         @include card.round;
 
-        div[style] {
-            color: $cream !important;
-        }
-
         &.selected-1sf9UK {
             background: $cream;
             border-color: $black;

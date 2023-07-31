@@ -95,6 +95,18 @@ code,
     color: $cream;
 }
 
+.description-2N2sXz,
+.helpText-2PnGIP,
+.titleText-35PD5k,
+div,
+h2,
+h4,
+span {
+    &[style] {
+        color: $cream !important;
+    }
+}
+
 .anchor-1X4H4q,
 a {
     color: $red;
