@@ -1,0 +1,45 @@
+@use "../../../../../top/vars" as *;
+@use "../../../../../top/card";
+
+// Link integration warning
+.warningContainer-2TST5D {
+    @include card.round;
+    border-color: $red;
+    color: $red;
+
+    .warningIcon-3Mr76T {
+        color: $red;
+    }
+
+    div[style] {
+        color: $red !important;
+    }
+}
+
+// Requirements
+.configurationsContainer-1lhusv {
+    // Account
+    .container-2s0jpP {
+        padding: 0;
+        background: unset;
+        margin-bottom: $size-m;
+
+        .closeIcon-13g5Xe {
+            color: $cream;
+        }
+
+        .ruleContainer-1r6se2 {
+            border-top: 0;
+            padding: 0 32px 16px 16px;
+        }
+
+        .ruleItemHeader-1NJdXO {
+            margin-bottom: 8px;
+        }
+    }
+}
+
+// Add requirement
+.addVerificationButtonAppend-2dTEM- {
+    @include card.round;
+}

@@ -27,7 +27,7 @@
 // Transaction history
 .paymentPane-ut5qKZ {
     .appMount-2yBXZl & {
-        @include card.med;
+        @include card.large;
         color: $cream;
     }
 
@@ -68,7 +68,7 @@
 
         // Details
         .expandedInfo-1W31i3 {
-            @include card.med;
+            @include card.large;
 
             .paymentHeader-2o7Phd,
             .paymentText-BPrx01 {

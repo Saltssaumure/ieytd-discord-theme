@@ -1,0 +1,18 @@
+@forward "./editrole";
+@forward "./mainview";
+
+@use "../../../../top/vars" as *;
+@use "../../../../top/card";
+
+// Text
+.description-2N2sXz[style],
+.helpText-2PnGIP[style],
+.titleText-35PD5k[style],
+.headerNoConfigContainer-3E8Wp4 div[style] {
+    color: $cream !important;
+}
+
+// Search
+.container-2oNtJn {
+    @include card.round;
+}

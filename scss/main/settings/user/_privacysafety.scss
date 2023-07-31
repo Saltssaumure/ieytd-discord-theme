@@ -2,7 +2,7 @@
 @use "../../../top/card";
 
 div[role="radiogroup"] {
-    @include card.med;
+    @include card.large;
 
     .item-1TA5qI {
         border-radius: 0;

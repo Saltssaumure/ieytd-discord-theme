@@ -3,7 +3,7 @@
 
 .connectContainer-1hylYM,
 .connection-YOVI9j {
-    @include card.med;
+    @include card.large;
 }
 
 // Add accounts to your profile
@@ -43,12 +43,12 @@
 
     // Further info
     .container-2ATx61 {
-        @include card.med;
+        @include card.large;
     }
 
     // Metadata
     .metadataContainer-35U-On {
-        @include card.med;
+        @include card.large;
 
         // Text
         div {

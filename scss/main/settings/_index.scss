@@ -3,6 +3,7 @@
 
 @use "../../top/vars" as *;
 @use "../../top/filter";
+@use "../../top/card";
 
 .layer-86YKbF,
 .standardSidebarView-E9Pc3j {
@@ -45,10 +46,7 @@
 
     // Entry
     :is(.item-2GWPIy.themed-qqoYp3, .item-2GWPIy.themed-qqoYp3:hover:not(.disabled-2G98Nl)) {
-        border: $size-xs solid $cream;
-        background: $black;
-        border-radius: $size-max;
-        color: $cream;
+        @include card.round;
 
         &.selected-1sf9UK {
             background: $cream;

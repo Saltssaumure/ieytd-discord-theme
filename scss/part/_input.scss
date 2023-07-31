@@ -30,11 +30,15 @@
 
 // Typing inputs
 .input-3O04eu {
-    &:hover {
+    @include card.round;
+
+    &:hover,
+    &.disabled-1-f06g,
+    &.focused-16iuXg,
+    &:focus {
         border-color: $cream;
     }
-    &.focused-16iuXg,
-    &:focus,
+
     .error-10GvqR {
         border-color: $red;
     }
@@ -42,10 +46,7 @@
 
 // Single line input
 .inputDefault-Ciwd-S {
-    border-radius: $size-max;
-    border: $size-xs solid $cream;
-    background: $black;
-    color: $cream;
+    @include card.round;
 }
 
 // Dropdown selector
@@ -105,7 +106,7 @@
 
 // Keybind
 .appMount-2yBXZl .container-30qY7E {
-    @include card.med;
+    @include card.large;
     border-radius: $size-max;
 
     &:not(.disabled-3S7pz8):focus-within,
@@ -117,10 +118,6 @@
     .input-3K7d_z {
         color: $cream;
     }
-
-    .editIcon-e7sZ3b {
-        // ruh roh
-    }
 }
 
 // Dropdown
@@ -130,7 +127,7 @@
 
 // Dropdown options
 .popout-15UxD6 {
-    @include card.med;
+    @include card.large;
     background: $black;
 
     &::-webkit-scrollbar {
@@ -157,4 +154,10 @@
     circle {
         fill: $black;
     }
+}
+
+// Search input and icon
+.icon-3CDcPB,
+.input-2m5SfJ {
+    color: $cream;
 }

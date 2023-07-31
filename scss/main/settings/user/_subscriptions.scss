@@ -8,7 +8,7 @@
 
 // Current nitro
 .banner-oA34U0 {
-    @include card.med;
+    @include card.large;
     color: $cream;
 
     // Cancelled or failed payment
@@ -25,7 +25,7 @@
 
 // Payment details
 .detailsBlock-24pLFz {
-    @include card.med;
+    @include card.large;
     color: $cream;
 }
 
