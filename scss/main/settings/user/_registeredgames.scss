@@ -4,7 +4,7 @@
 // Current game
 .appMount-2yBXZl {
     .nowPlaying-3UpuKc {
-        @include card.med;
+        @include card.large;
 
         :is(.gameName-zbZetm, .lastPlayed-1jum9A, .overlayStatusText-In0YrK) {
             color: $cream;
@@ -20,7 +20,7 @@
     }
 
     .notDetected-M3Ghh2 {
-        @include card.med;
+        @include card.large;
         border-color: $red;
 
         :is(.gameName-zbZetm, .lastPlayed-1jum9A, .overlayStatusText-In0YrK) {

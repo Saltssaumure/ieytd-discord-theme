@@ -1,4 +1,5 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
 
 // Friends panel
 
@@ -13,15 +14,8 @@
         border-radius: 0;
 
         .inner-2pOSmK {
-            border-radius: $size-max;
-            border: $size-xs solid $cream;
-            background: $black;
+            @include card.round;
             margin: $size-m;
-        }
-
-        .input-2m5SfJ,
-        .icon-3CDcPB {
-            color: $cream;
         }
     }
 

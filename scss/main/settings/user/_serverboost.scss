@@ -56,7 +56,7 @@
 
 // Active boost
 .appliedBoostContainer-1b4KCm {
-    @include card.med;
+    @include card.large;
 
     // Individual boost
     .boostContainer-RzXAwu {
@@ -94,7 +94,7 @@
 
 // Boost any server
 .wrapper-3htY7x {
-    @include card.med;
+    @include card.large;
 
     div[style] {
         color: $cream !important;
@@ -130,7 +130,7 @@
     }
 
     .card-2ZCHT- {
-        @include card.med;
+        @include card.large;
         background: $black;
 
         .icon-35A7dl {
@@ -141,7 +141,7 @@
 
 // FAQ
 .faq-29l_f8 {
-    @include card.med;
+    @include card.large;
 
     .list-3omFaz {
         border-top: 0;

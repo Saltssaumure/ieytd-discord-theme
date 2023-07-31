@@ -36,16 +36,6 @@
         }
     }
 
-    .lookBlank-21BCro {
-        border-radius: $size-max;
-
-        .buttonContainer-2zLp7E & {
-            color: $red;
-            padding: 6px 12px;
-            border: $size-xs solid;
-        }
-    }
-
     .lookLink-13iF2K {
         &.colorPrimary-2-Lusz {
             @include button.link($cream);
@@ -54,5 +44,15 @@
         &.colorLink-34zig_ {
             @include button.link($red);
         }
+    }
+}
+
+.lookBlank-FgPMy6 {
+    border-radius: $size-max;
+
+    .buttonContainer-2zLp7E & {
+        color: $red;
+        padding: 6px 12px;
+        border: $size-xs solid;
     }
 }

@@ -1,0 +1,60 @@
+@use "../../../../../top/vars" as *;
+@use "../../../../../top/card";
+
+// Required field indicator
+.required-1eGkuP {
+    color: $red;
+}
+
+// Colour picker
+// Swatch
+.colorPickerSwatch-RTUGRR {
+    border-radius: 0;
+    margin-right: 0;
+    width: 30px;
+    height: inherit;
+
+    // Large swatch
+    &.default-3ISV7m,
+    &.custom-1Up2lr {
+        border: $size-xs solid $cream;
+        border-radius: $size-m;
+    }
+
+    // Dropper
+    .colorPickerDropperFg-Lureab,
+    path:only-child {
+        fill: $cream;
+    }
+
+    &.custom-1Up2lr.noColor-1Oln62 {
+        border-color: $cream;
+
+        // Dropper
+        .colorPickerDropperFg-Lureab {
+            fill: $cream;
+        }
+    }
+}
+
+// Default role colours
+div:has(> .colorPickerRow-3eeqF3) {
+    border: $size-xs solid $cream;
+    border-radius: $size-m;
+    margin-top: 10px;
+    overflow: hidden;
+
+    .colorPickerRow-3eeqF3 {
+        height: 23px;
+        margin-top: 0;
+    }
+}
+
+// Role custom icon
+.previewContainer-1GxmBJ {
+    @include card.large;
+
+    .preview-3SR4Rd {
+        color: $cream;
+    }
+}
