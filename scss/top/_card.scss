@@ -1,16 +1,21 @@
 @use "vars" as *;
 
-@mixin large {
-    border-radius: $size-l;
-    border: $size-xs solid $cream;
+@mixin card($RADIUS, $WIDTH, $COLOR: $cream, $BACKGROUND: unset){
+    border-radius: $RADIUS;
+    border: $WIDTH solid $COLOR;
+    color: $COLOR;
     background: unset;
-    color: $cream;
     overflow: hidden;
 }
 
+@mixin large {
+    @include card($size-l, $size-xs);
+}
+
+@mixin xlarge {
+    @include card($size-xl, $size-xs);
+}
+
 @mixin round {
-    border-radius: $size-max;
-    border: $size-xs solid $cream;
-    background: $black;
-    color: $cream;
+    @include card($size-max, $size-xs, $BACKGROUND: $black);
 }

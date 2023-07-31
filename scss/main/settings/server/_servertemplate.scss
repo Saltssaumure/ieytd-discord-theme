@@ -1,0 +1,24 @@
+@use "../../../top/vars" as *;
+@use "../../../top/filter";
+@use "../../../top/card";
+
+.descriptionBox-SKGNgB {
+    background: unset;
+}
+
+.descriptionRow-1UPN0d {
+    color: $cream;
+}
+
+.descriptionIcon-3nDZrK {
+    circle {
+        fill: $black;
+    }
+
+    path {
+        fill: $cream;
+        .descriptionSection-2uY1K5:last-child & {
+            fill: $red;
+        }
+    }
+}
