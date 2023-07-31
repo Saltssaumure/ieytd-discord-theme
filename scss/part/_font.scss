@@ -99,8 +99,7 @@ code,
 .helpText-2PnGIP,
 .titleText-35PD5k,
 div,
-h2,
-h4,
+:is(h2, h3, h4),
 span {
     &[style] {
         color: $cream !important;
