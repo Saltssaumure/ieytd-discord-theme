@@ -1,0 +1,21 @@
+@use "../../../top/vars" as *;
+@use "../../../top/filter";
+@use "../../../top/card";
+
+.appMount-2yBXZl {
+    .emojiRow-1aPaM- {
+        box-shadow: none;
+    }
+
+    .emojiAliasPlaceholder-3oShSx {
+        &::before,
+        &::after {
+            color: $cream;
+            opacity: 0.6;
+        }
+    }
+
+    .emojiAliasPlaceholderContent-12ybcH {
+        color: $cream;
+    }
+}
