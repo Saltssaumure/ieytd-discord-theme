@@ -1,0 +1,19 @@
+@use "../../../top/vars" as *;
+@use "../../../top/filter";
+@use "../../../top/card";
+
+#soundboard-tab {
+    .image-20MDYu {
+        @include filter.sepia;
+    }
+}
+
+// No sounds text
+.text-27cdrj,
+.title-2CL_z0 {
+    color: $cream;
+}
+
+.row-1lgfJq {
+    border-bottom: 0;
+}

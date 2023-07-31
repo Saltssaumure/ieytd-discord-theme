@@ -87,18 +87,21 @@
     }
 }
 
-.action-2YPPom {
+.action-2YPPom,
+.soundEdit-CkQLWe {
     box-shadow: none;
     background: unset;
 
-    &,
-    &:hover,
-    &:focus {
+    :is(&, &:hover, &:focus) {
         color: $cream;
     }
 
-    &.actionRemove-3T3Nw3 {
-        color: $red;
+    &:is(.actionRemove-3T3Nw3, .soundRemove-2N9byT) {
+        &,
+        &:hover,
+        &:focus {
+            color: $red;
+        }
     }
 
     svg {
