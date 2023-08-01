@@ -1,14 +1,38 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
 
 /* Popout right click options menu */
-.menu-1QACrS {
-    border: 3px solid $black;
+.menu-2TXYjN {
+    @include card.outer;
 }
-.colorDefault-CDqZdO.focused-3qFvc8,
-.colorDefault-CDqZdO.focused-3qFvc8 .checkbox-hADx5o,
-.colorDefault-CDqZdO.focused-3qFvc8 .radioSelection-1UHp0b,
-.colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE,
-.colorDefault-CDqZdO .check-3HZJs4,
-.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+
+.colorDefault-2_rLdz {
+    border-radius: $size-max;
     color: $cream;
+
+    :is(.caret-1TZU-U, .checkbox-397WsK, .radioSelection-3PDNAQ, .subtext-1mqKVB) {
+        color: $cream;
+    }
+
+    .check-3-73a4 {
+        color: $black;
+    }
+
+    &.focused-3LIdPu,
+    &:active:not(.hideInteraction-1vQrZJ) {
+        background: $cream;
+        color: $black;
+
+        :is(.caret-1TZU-U, .checkbox-397WsK, .radioSelection-3PDNAQ, .subtext-1mqKVB) {
+            color: $black;
+        }
+
+        .check-3-73a4 {
+            color: $cream;
+        }
+    }
+}
+
+.separator-12G2Op {
+    display: none;
 }
