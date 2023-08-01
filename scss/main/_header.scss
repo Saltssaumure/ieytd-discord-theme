@@ -1,4 +1,5 @@
 @use "../top/vars" as *;
+@use "../top/filter";
 
 // Channel (and thread) header
 .container-ZMc96U.themed-Hp1KC_ {
@@ -8,23 +9,32 @@
     // Thread title wrapper
     .children-3xh0VB {
         overflow: visible;
+        align-items: flex-end;
     }
 
     // Channel name
-    .titleWrapper-24Kyzc .title-17SveM {
-        position: relative;
-        font-style: oblique;
-        bottom: 2px;
-        overflow: visible;
-        color: $black;
-        font-size: 1.2em;
+    .titleWrapper-24Kyzc {
+        @include filter.shadow;
+
+        .title-17SveM {
+            position: relative;
+            font-style: oblique;
+            bottom: 2px;
+            overflow: visible;
+            color: $black;
+            font-size: 22px;
+        }
+    }
+
+    // Divider
+    .divider-q3P9HC {
+        display: none;
     }
 
     // Channel description
-    --header-secondary: $cream;
-
-    .topic-11NuQZ a {
+    .topic-11NuQZ {
         color: $black;
+        font-size: 16px;
     }
 
     .children-3xh0VB::after {
@@ -32,38 +42,33 @@
     }
 
     // Icons
-    --interactive-normal: $cream;
-    --interactive-hover: $black;
-    --interactive-active: $black;
-    --text-normal: $cream;
-    --text-muted: $cream;
-    --channel-icon: $cream;
-
-    // Strikethrough notification bell
-    path[d="M21.178 1.70703L22.592 3.12103L4.12103 21.593L2.70703 20.178L21.178 1.70703Z"] {
-        color: $black;
+    .icon-2xnN2Y {
+        &,
+        .selected-29KTGM &,
+        .clickable-ZD7xvu &,
+        .clickable-ZD7xvu:hover & {
+            color: $cream;
+        }
     }
-
-    // New pin bubble
     .iconBadge-3Mmg92 {
-        background: $black;
+        background: $cream;
     }
 
     // Search bar
     .searchBar-jGtisZ {
+        color: $cream;
         border-radius: $size-max;
         background: $black;
         border: $size-xs solid $cream;
         height: 28px;
 
         // Shift typed text to left a little
-        .DraftEditor-editorContainer {
+        .DraftEditor-editorContainer:not(:has(.searchFilter-2UfsDk)) {
             padding-left: 3px;
         }
 
-        // Clear search bar icon
-        .clear-2KQ7l1.iconLayout-SqV3nb:hover .icon-18rqoe {
-            --interactive-hover: $red;
+        .icon-18rqoe {
+            color: $cream;
         }
     }
 }

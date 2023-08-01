@@ -1,4 +1,5 @@
 @forward "./createserver";
+@forward "./forumdemo";
 @forward "./linkwarning";
 @forward "./quickswitcher";
 
@@ -25,7 +26,7 @@
     // Top title
     :is(h1, h2, h3, h4, h5):is(.defaultColor-1EVLSt, .defaultColor-3Olr-9) {
         color: $black;
-        filter: drop-shadow(0 0 $size-xs $cream);
+        @include filter.shadow;
     }
 
     // Subtitle
@@ -56,4 +57,8 @@
 // Footer
 .appMount-2yBXZl .footerSeparator-3U8YsT {
     box-shadow: none;
+
+    .button-18kCi0 {
+        color: $cream;
+    }
 }
