@@ -108,7 +108,7 @@ code,
 div,
 :is(h2, h3, h4),
 span {
-    &[style] {
+    &:where([style^="color"]) {
         color: $cream !important;
     }
 }

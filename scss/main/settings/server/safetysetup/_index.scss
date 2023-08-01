@@ -1,0 +1,30 @@
+@forward "./automod";
+@forward "./dmspamprotection";
+@forward "./mainview";
+@forward "./permissions";
+@forward "./raidprotection";
+
+@use "../../../../top/vars" as *;
+@use "../../../../top/filter";
+@use "../../../../top/card";
+
+.simpleItemWrapper-1Zwc4I,
+.editCard-K9Q9mb.active-Xi2rnV,
+.editCard-K9Q9mb.toggled-35JcVc.active-Xi2rnV {
+    background: unset;
+}
+
+.wrapper-3Un6-K {
+    @include filter.sepia;
+}
+
+// More actions
+.menuIcon-3ZqGxU {
+    color: $cream;
+}
+
+// Toggle with further options
+.editCard-K9Q9mb {
+    @include card.large;
+    overflow: visible;
+}
