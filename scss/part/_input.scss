@@ -1,5 +1,6 @@
 @use "../top/vars" as *;
 @use "../top/card";
+@use "../top/grabber";
 
 ::placeholder {
     color: $cream !important;
@@ -108,15 +109,14 @@
 
     // Grabber
     .grabber-3R-Rx9 {
-        $size: 20px;
-        width: $size;
-        height: $size;
-        margin-left: calc($size / -2);
-        margin-top: calc($size / -2);
-        border-radius: $size-max;
-        box-shadow: none;
-        background: $black;
-        border: $size-s solid $cream;
+        @include grabber.full;
+    }
+}
+
+// Mini slider
+.mini-28oMa3 {
+    .grabber-3R-Rx9 {
+        @include grabber.mini;
     }
 }
 
