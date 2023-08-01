@@ -1,10 +1,10 @@
-@use "top/vars" as *;
+@forward "./main";
+@forward "./overlay";
+@forward "./mod";
+@forward "./part";
+@forward "./plugin";
 
-@use "main";
-// @use "overlay";
-@use "mod";
-@use "part";
-@use "plugin";
+@use "top/vars" as *;
 
 // Window is beige as default
 .bg-1QIAus {

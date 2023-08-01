@@ -23,3 +23,7 @@
 @mixin round {
     @include card($size-max, $size-xs, $BACKGROUND: $black);
 }
+
+@mixin outer {
+    @include card($size-xl, $size-s, $BACKGROUND: $black);
+}

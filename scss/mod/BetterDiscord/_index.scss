@@ -1,5 +1,6 @@
-@forward "./settings";
 @forward "./input";
+@forward "./modal";
+@forward "./settings";
 
 @use "../../top/vars" as *;
 

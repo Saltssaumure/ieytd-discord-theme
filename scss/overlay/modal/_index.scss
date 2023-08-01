@@ -1,7 +1,59 @@
-@use "./all";
-@use "./channeldescription";
-@use "./createserver";
-@use "./foldersettings";
-@use "./linkwarning";
-@use "./quickswitcher";
-@use "./userprofile";
+@forward "./createserver";
+@forward "./linkwarning";
+@forward "./quickswitcher";
+
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+.backdrop-2ByYRN {
+    background: linear-gradient($black, $red) !important;
+}
+
+.root-1CAIjD {
+    @include card.outer;
+    box-shadow: 0 0 20px $red !important;
+}
+
+.footer-IubaaS,
+.header-1ffhsl {
+    background: $red;
+}
+
+// Header
+.header-1ffhsl {
+    // Top title
+    :is(h1, h2, h3, h4, h5):is(.defaultColor-1EVLSt, .defaultColor-3Olr-9) {
+        color: $black;
+        filter: drop-shadow(0 0 $size-xs $cream);
+    }
+
+    // Subtitle
+    .defaultColor-1EVLSt {
+        color: $cream;
+    }
+
+    // Close button
+    .close-A4ZfTI {
+        opacity: 1;
+        .closeIcon-pSJDFz {
+            color: $cream;
+        }
+    }
+
+    .image-mRW1cg {
+        @include filter.sepia;
+        height: inherit;
+        inset: unset;
+    }
+}
+
+// Content
+.content-1OG56Q {
+    padding-top: $size-m;
+}
+
+// Footer
+.appMount-2yBXZl .footerSeparator-3U8YsT {
+    box-shadow: none;
+}
