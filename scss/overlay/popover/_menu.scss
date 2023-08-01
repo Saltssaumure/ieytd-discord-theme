@@ -1,11 +1,7 @@
 @use "../../top/vars" as *;
 @use "../../top/card";
 
-/* Popout right click options menu */
-.menu-2TXYjN {
-    @include card.outer;
-}
-
+// Right click menu
 .colorDefault-2_rLdz {
     border-radius: $size-max;
     color: $cream;

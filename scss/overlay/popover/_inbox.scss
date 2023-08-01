@@ -1,59 +1,95 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+@use "../../top/tabs";
+@use "../../top/pip";
 
-/* Mark inbox as read button */
-.secondary-2bzKEX {
-    color: $cream;
+.header-145e10 {
+    .inboxIcon-1XO7FO {
+        color: $cream;
+    }
+
+    .friendRequestsButton-77veU7,
+    .secondary-2bzKEX {
+        @include card.round;
+
+        &:hover:not(.disabled-184-il) {
+            background: $black;
+            color: $cream;
+        }
+    }
+
+    .eyebrow-132Xza {
+        font-family: var(--font-primary);
+        font-weight: normal;
+        background: unset !important;
+        color: $cream;
+    }
+
+    // Tabs
+    .topPill-2vcLsa {
+        @include tabs.bar($ISBORDER: false);
+        padding-top: 16px;
+        padding-left: 0;
+
+        .item-2GWPIy {
+            &,
+            &:hover:not(.disabled-2G98Nl) {
+                @include tabs.tab($ISINVERT: true);
+            }
+
+            &.selected-1sf9UK,
+            &.selected-1sf9UK:hover:not(.disabled-2G98Nl) {
+                @include tabs.tab;
+            }
+        }
+    }
 }
-.secondary-2bzKEX:hover:not(.disabled-184-il) {
-    color: $cream;
-}
-/* Inbox tutorial */
-.tutorial-Nb3Zz5 .base-21yXnu {
-    color: $red;
-}
-.recentMentionsPopout-2bI1ZN .lookFilled-yCfaCM.colorBrand-I6CyqQ,
-.tutorialIcon-25VF3Q {
-    background: $red;
-    color: $cream;
-}
-/* Inbox channel name */
-.channelName-3APnhp {
-    overflow: visible;
-    color: $cream;
-}
-.colorHeaderSecondary-g5teka {
-    color: $cream;
-}
-/* Inbox notification / mark as read / filter buttons */
-.tertiary-1e-lAP {
-    color: $red;
-}
-.tertiary-1e-lAP:hover:not(.disabled-184-il) {
-    color: $red;
+
+// Channel group
+.channelHeader-DFRX8q {
     background: $black;
+
+    .channelNameSpan-1rY63L {
+        font-size: 18px;
+        line-height: 18px;
+        margin: -$size-s 0 0 $size-s;
+    }
 }
-/* inbox ping icon */
-.recentMentionsPopout-2bI1ZN .wrapper-2olG5t {
-    background: $black;
-    width: 3px;
-    height: 15px;
-    padding: 2px 7px;
-    border-radius: 10px;
+
+// Message
+.messageContainer-3VTXBC,
+.messages-23can0 {
+    background: unset;
 }
-/* Inbox jump button */
+
 .jumpButton-1V_1FA {
-    border-radius: 20px;
-    padding: 4px 8px;
+    @include card.round;
+    padding-top: 0;
+
+    &:hover.text-2ifC_x,
+    .text-2ifC_x {
+        color: $cream;
+    }
 }
-.jumpButton-1V_1FA:hover .text-2ifC_x {
-    color: $red;
+
+// For you
+.container-1A0qQO {
+    background: unset;
+
+    // Unread activity
+    .unread-O4ZgUu {
+        @include pip.pip($COLOR: $cream);
+        left: 0;
+        top: 24px;
+    }
 }
-/* Inbox setting checkboxes */
-.colorDefault-CDqZdO .checkbox-hADx5o,
-.colorDefault-CDqZdO .radioSelection-1UHp0b {
-    color: $black;
-}
-/* Channel in inbox */
-.guildName-y1svcU {
-    color: $cream;
+
+// Close section
+.tertiary-1e-lAP {
+    &,
+    &:hover:not(.disabled-184-il) {
+        background: unset;
+        color: $cream;
+    }
 }

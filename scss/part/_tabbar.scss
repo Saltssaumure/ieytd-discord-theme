@@ -1,27 +1,17 @@
 @use "../top/vars" as *;
+@use "../top/tabs";
 
 // Tabs
 .top-Ktfr_T {
-    border-bottom: $size-xs solid $cream;
-    border-radius: $size-xl $size-xl 0 0;
-    padding: $size-m $size-l 0;
-    gap: $size-s;
-    background: $red;
+    @include tabs.bar;
 
     .item-2GWPIy,
     .item-2GWPIy.selected-1sf9UK,
     .item-2GWPIy:hover {
-        background: $black;
-        color: $cream;
-        border: $size-xs solid;
-        border-bottom: 0;
-        border-radius: $size-l $size-l 0 0;
-        margin: 0;
-        padding: 4px 10px;
+        @include tabs.tab;
     }
 
     .item-2GWPIy.selected-1sf9UK {
-        background: $cream;
-        color: $black;
+        @include tabs.tab($ISINVERT: true);
     }
 }

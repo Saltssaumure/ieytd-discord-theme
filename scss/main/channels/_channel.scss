@@ -46,7 +46,7 @@ $spine-size: calc($icon-size / 1.5);
 
     // Unread pip
     .unread-36eUEm {
-        @include pip.pip($color: $cream);
+        @include pip.pip($COLOR: $cream);
         margin-top: -(pip.$pip-size);
     }
 }

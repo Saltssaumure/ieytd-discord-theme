@@ -1,0 +1,23 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+.messageGroupWrapper-1jf_7C {
+    background: unset;
+    border: 0;
+    .jumpButton-1ZwI_j {
+        @include card.round;
+        height: 20px;
+        padding: 4px;
+        padding-top: 0;
+
+        div {
+            color: $cream;
+            line-height: 24px;
+        }
+    }
+}
+
+.image-t6rLT3 {
+    @include filter.sepia;
+}

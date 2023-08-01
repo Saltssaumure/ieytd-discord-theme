@@ -1,51 +1,45 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
 
-/* Channel threads popout */
-.popout-TdhJ6Z {
-    border: 2px solid $cream;
-    background-color: $black;
-    box-shadow: var(--elevation-medium);
-}
-.row-1qtctT:hover,
-.row-1qtctT:hover .timestamp-3gPmzJ {
-    color: $black;
-}
-/* Protip */
-.tip-Jl__cG {
-    color: $black;
-}
-/* Pinned message jump */
-.jumpButton-1ZwI_j,
-.jumpButton-1ZwI_j:hover {
-    border-radius: 20px;
-    padding: 4px 8px;
-    color: $red;
-    background: $cream;
-}
-
-/* Thread searchbox */
-.searchBox-3IjAC1 {
+.container-18GwIk {
     background: $black;
-    border: 2px solid $red;
-    border-radius: 14px;
+    @include card.outer;
 }
-/* Thread title */
-.threadName-2k9mLl {
-    font-size: 18px;
-    line-height: 28px;
-    margin-top: -6px;
+
+.closeIcon-11tHJX,
+.threadIcon-rd1kqG {
+    color: $cream;
 }
-/* Thread author */
-.authorName-1zsPTp {
-    font-family: var(--font-display);
-    display: inline-block;
-    margin-bottom: 6px;
+
+.divider-2xk5N2 {
+    display: none;
 }
-/* Bullet separator */
-.bullet-1MYz6d {
-    padding: 2px;
+
+// Thread
+.container-2rzKKA {
+    @include card.large;
+
+    &:hover {
+        border-color: $cream;
+    }
+
+    .threadName-2k9mLl {
+        color: $cream;
+    }
+
+    .moreUsers-_v6T-L,
+    .noAvatarIcon-3Jqqzy {
+        background: $cream;
+        color: $black;
+    }
 }
-/* Thread users more */
-.moreUsers-_v6T-L {
+
+// No threads
+.icon-mJhEWn {
+    background: $cream;
     color: $black;
+}
+.stars-3UP9-A {
+    @include filter.sepia;
 }

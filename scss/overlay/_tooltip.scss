@@ -18,3 +18,29 @@
 .clickCTA-1bk0UN {
     color: $red;
 }
+
+.appMount-2yBXZl .tooltipPrimary-2466a2 {
+    background: $cream;
+    color: $black;
+    border: $size-xs solid $black;
+    border-radius: $size-max;
+
+    .flowerStar-2tNFCR {
+        path {
+            fill: $black;
+        }
+    }
+    .childContainer-U_a6Yh path {
+        fill: $cream;
+    }
+
+    // Server name
+    .guildNameText-jBFbNC {
+        color: $black;
+    }
+
+    // Server muted
+    .muteText-13RgwP {
+        color: $red !important;
+    }
+}
