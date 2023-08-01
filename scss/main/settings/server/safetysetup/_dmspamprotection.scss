@@ -1,0 +1,54 @@
+@use "../../../../top/vars" as *;
+@use "../../../../top/card";
+
+.caret-bLQYW7,
+.previewIcon-3D1Wg_,
+.previewIcon-3D1Wg_:hover {
+    color: $cream;
+}
+
+.rulesScreeningItems-24b_s9 > div {
+    border: 0;
+}
+
+// Description
+.backgroundContainer-gUNEZU {
+    background: unset;
+    padding: 0;
+}
+
+// Server rule
+.fieldBackground-2TpuOY {
+    background: unset;
+}
+
+// Server rules
+.containerPadding-3Ok3MG {
+    padding: 0;
+
+    .termsFieldBody-3kS99u {
+        border: 0;
+        padding: 0;
+        margin-bottom: 16px;
+    }
+
+    .fieldFooterContainer-2QTUnl {
+        @include card.round;
+        width: fit-content;
+        padding: $size-s $size-m;
+
+        path {
+            stroke: $cream;
+        }
+    }
+}
+
+.containerFooter-3BSQ3U {
+    background: unset;
+    padding: 0;
+
+    // Remove rules
+    .removeButton-2oL65J {
+        color: $red;
+    }
+}

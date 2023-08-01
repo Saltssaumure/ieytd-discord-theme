@@ -71,11 +71,6 @@
         @include filter.sepia;
     }
 
-    // Separator
-    .separator-2N511j {
-        display: none;
-    }
-
     // Social media icons
     .socialLinks-3ywLUf {
         display: flex;
@@ -134,4 +129,9 @@
             color: $cream;
         }
     }
+}
+
+// Back button
+.backButton-2D5owx {
+    color: $cream;
 }

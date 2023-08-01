@@ -8,6 +8,10 @@
     overflow: hidden;
 }
 
+@mixin med {
+    @include card($size-m, $size-xs);
+}
+
 @mixin large {
     @include card($size-l, $size-xs);
 }

@@ -1,29 +1,6 @@
 @use "../top/vars" as *;
 @use "../top/card";
 
-// Toggle
-.container-1QtPKm {
-    zoom: 1.2;
-
-    &:not(.checked-16gMAN) {
-        background-color: $red !important;
-        color: $red;
-    }
-
-    &.checked-16gMAN {
-        background-color: $cream !important;
-        color: $cream;
-    }
-
-    rect {
-        fill: $black;
-    }
-
-    path {
-        fill: currentColor;
-    }
-}
-
 ::placeholder {
     color: $cream !important;
 }
@@ -70,6 +47,29 @@
     border-radius: $size-max;
     background: $black;
     border: $size-xs solid $cream;
+}
+
+// Toggle
+.container-1QtPKm {
+    zoom: 1.2;
+
+    &:not(.checked-16gMAN) {
+        background-color: $red !important;
+        color: $red;
+    }
+
+    &.checked-16gMAN {
+        background-color: $cream !important;
+        color: $cream;
+    }
+
+    rect {
+        fill: $black;
+    }
+
+    path {
+        fill: currentColor;
+    }
 }
 
 // Checkbox
