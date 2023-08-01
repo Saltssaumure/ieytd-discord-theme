@@ -9,6 +9,7 @@
 
 @use "../../top/vars" as *;
 @use "../../top/card";
+@use "../../top/filter";
 
 // Large popouts
 .recentMentionsPopout-2bI1ZN,
@@ -34,7 +35,7 @@
     .inboxTitle-EQkQZa,
     .title-10Au0i {
         color: $black;
-        filter: drop-shadow(0 0 $size-xs $cream);
+        @include filter.shadow;
     }
 }
 

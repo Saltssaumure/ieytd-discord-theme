@@ -1,10 +1,11 @@
 @use "../../top/vars" as *;
+@use "../../top/filter";
 
 // Server banner
 .container-1-ERn5 {
     .headerContent-2SNbie {
         color: $cream;
-        filter: drop-shadow(0 0 $size-xs $cream);
+        @include filter.shadow;
 
         // Server name
         .name-3Uvkvr {

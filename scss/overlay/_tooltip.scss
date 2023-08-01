@@ -19,28 +19,53 @@
     color: $red;
 }
 
-.appMount-2yBXZl .tooltipPrimary-2466a2 {
-    background: $cream;
-    color: $black;
-    border: $size-xs solid $black;
-    border-radius: $size-max;
+.appMount-2yBXZl {
+    .tooltipPrimary-2466a2 {
+        background: $cream;
+        color: $black;
+        border: $size-xs solid $black;
+        border-radius: $size-max;
 
-    .flowerStar-2tNFCR {
-        path {
-            fill: $black;
+        .flowerStar-2tNFCR {
+            path {
+                fill: $black;
+            }
+        }
+        .childContainer-U_a6Yh path {
+            fill: $cream;
+        }
+
+        // Server name
+        .guildNameText-jBFbNC {
+            color: $black;
+        }
+
+        // Server muted
+        .muteText-13RgwP {
+            color: $red !important;
+        }
+
+        div:where([style^="color"]) {
+            color: $black !important;
         }
     }
-    .childContainer-U_a6Yh path {
-        fill: $cream;
+}
+
+.tooltipOverrideColor-2QdoQx {
+    background: $cream;
+    color: $black;
+    border: $size-s solid $black;
+    border-radius: $size-xl;
+
+    &.caretTopCenter-1wqGIE:after {
+        border-bottom-color: $black;
     }
 
-    // Server name
-    .guildNameText-jBFbNC {
+    .defaultColor-1EVLSt {
         color: $black;
     }
 
-    // Server muted
-    .muteText-13RgwP {
+    .content-3aT_vH {
         color: $red !important;
     }
 }
