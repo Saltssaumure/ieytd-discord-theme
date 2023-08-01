@@ -4,6 +4,7 @@
     background: unset !important;
 }
 
-.overlayBackground-2aa7wt ::-webkit-scrollbar-thumb {
-    background: $cream;
+.overlayBackground-2aa7wt ::-webkit-scrollbar-thumb,
+.thin-RnSY0a::-webkit-scrollbar-thumb {
+    background-color: $cream;
 }

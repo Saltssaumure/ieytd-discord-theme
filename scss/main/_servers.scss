@@ -67,7 +67,7 @@
 
     // Unread pip
     .item-2LIpTv {
-        @include pip.pip($color: $black);
+        @include pip.pip($COLOR: $black);
         margin-left: 0;
 
         &[style*="20px"] {

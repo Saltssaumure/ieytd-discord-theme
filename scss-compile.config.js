@@ -8,6 +8,6 @@ export default {
         /** The name of your theme repository. */
         repo: "ieytd-discord-theme",
         /** The version of your theme. */
-        version: "1.2.0"
+        version: "2.0.0"
     }
 };

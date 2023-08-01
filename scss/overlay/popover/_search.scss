@@ -1,122 +1,216 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
 
-/* Search popout */
-.theme-dark .container-2McqkF {
-    background: $black;
-    border: 2px solid $cream;
+// Search
+.appMount-2yBXZl {
+    .container-2McqkF {
+        @include card.outer;
+    }
+
+    // Header
+    .focused-2FU0YH {
+        background: $red;
+    }
+
+    .queryContainer-ZunrLZ {
+        color: $cream;
+
+        strong {
+            color: $cream;
+        }
+    }
 }
-/* Search for: */
-.theme-dark .queryContainer-ZunrLZ,
-.theme-dark .queryContainer-ZunrLZ strong,
-.theme-dark .keybindShortcut-3zF1P9,
-.theme-dark .dim-2Uxgxb span,
-.theme-dark .resultsGroup-cfY57t .header-1BR0Ro,
-.theme-dark .resultsGroup-cfY57t .plusIcon-1RVszG,
-.theme-dark .resultsGroup-cfY57t .searchClearHistory-3nIKUO,
-.theme-dark .resultsGroup-cfY57t .searchLearnMore-1gNL3A a,
-.theme-dark .option-ayUoaq .answer-14OVbQ,
-.theme-dark .option-ayUoaq .nonText-28q_Ot,
-.theme-dark .option-ayUoaq strong {
-    background: transparent;
-    color: $cream;
+
+// Group header
+.resultsGroup-cfY57t {
+    .header-1BR0Ro {
+        color: $cream;
+    }
+
+    .searchLearnMore-1gNL3A,
+    .searchClearHistory-3nIKUO {
+        &,
+        &:hover {
+            color: $cream;
+        }
+    }
 }
-/* keyboard shortcut enter*/
-.theme-dark .keybindShortcut-3zF1P9 span {
-    box-shadow: inset 0 -4px 0 $cream;
+
+// Search option
+.searchOption-3u1gRt {
+    .filter-2QaH9y {
+        color: $red;
+    }
+    .answer-14OVbQ {
+        color: $cream;
+    }
 }
-/* from: has: mentions: etc. */
-.theme-dark .searchOption-3u1gRt .filter-2QaH9y,
-.theme-dark .option-ayUoaq .filter-2QaH9y {
-    color: $red;
+
+// History / options
+.option-ayUoaq {
+    &:hover,
+    &[aria-selected="true"] {
+        background: unset;
+
+        .plusIcon-1RVszG {
+            color: $cream;
+        }
+    }
+
+    &::after,
+    &:hover::after {
+        display: none;
+    }
+
+    &,
+    &:hover {
+        :is(.nonText-28q_Ot, .answer-14OVbQ, .filter-2QaH9y, strong) {
+            color: $cream;
+        }
+    }
+
+    // From user
+    &.user-1dKxvu .displayedNick-1atSpT {
+        color: $cream;
+        font-family: var(--font-display);
+        margin-top: -6px;
+    }
+    &.user-1dKxvu .displayUsername-UTerwm {
+        color: $red;
+    }
 }
-/* Suggestion after element */
-.theme-dark .option-ayUoaq:after {
+
+.resultsGroup-cfY57t::before {
     display: none;
 }
-/* Search date calendar */
-.theme-dark .calendarPicker-sDhzdi .react-datepicker,
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__header,
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--disabled,
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month,
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month:hover,
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
-    background: var(--background-primary);
+
+// Date picker
+.appMount-2yBXZl .calendarPicker-sDhzdi {
+    .react-datepicker__header,
+    .react-datepicker {
+        background: unset;
+    }
+
+    .react-datepicker {
+        padding: 15px;
+    }
+
+    // Left right navigation
+    .react-datepicker__navigation.react-datepicker__navigation {
+        border-radius: $size-max;
+        border: $size-xs solid $cream;
+        box-sizing: content-box;
+        height: $size-xl;
+        width: $size-xl;
+        @include filter.sepia;
+    }
+
+    // Month title
+    .react-datepicker__current-month {
+        color: $cream;
+        border-bottom: 0;
+        padding: 10px 0;
+    }
+
+    // Day names
+    .react-datepicker__day-name {
+        color: $cream;
+    }
+
+    // Actual calendar
+    .react-datepicker__month {
+        @include card.large;
+    }
+
+    // Days
+    .react-datepicker__day {
+        // Revert all backgrounds
+        &:hover,
+        &.react-datepicker__day--keyboard-selected,
+        &.react-datepicker__day--selected:hover,
+        &.react-datepicker__day--outside-month,
+        &.react-datepicker__day--disabled,
+        &.react-datepicker__day--disabled:hover {
+            background: unset;
+        }
+
+        // Selectable
+        &,
+        &.react-datepicker__day--outside-month {
+            color: $cream;
+        }
+
+        // Unselectable
+        &.react-datepicker__day--disabled,
+        &.react-datepicker__day--disabled:hover {
+            color: $red;
+        }
+
+        // Hovered
+        &:not(.react-datepicker__day--disabled):hover {
+            &::before {
+                $size: 35px;
+                width: $size;
+                height: $size;
+                top: calc(20px - $size / 2);
+                left: calc(20px - $size / 2);
+                content: "";
+                position: absolute;
+                @include card.round;
+                box-sizing: border-box;
+                background: unset;
+            }
+        }
+
+        // Selected
+        &.react-datepicker__day--selected:after {
+            background-color: $cream;
+        }
+    }
 }
-/* day box */
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day,
-        /* week day */
-        .theme-dark .calendarPicker-sDhzdi .react-datepicker__day-name,
-        /* current month */
-        .theme-dark .calendarPicker-sDhzdi .react-datepicker__current-month {
-    color: $cream;
-}
-/* Day box border fix */
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__week .react-datepicker__day:last-of-type {
-    border-right-color: var(--deprecated-text-input-border-disabled);
-}
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__week:last-of-type .react-datepicker__day {
-    border-bottom-color: var(--deprecated-text-input-border-disabled);
-}
-/* Hovered days */
-.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--keyboard-selected,
-.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover,
-.calendarPicker-sDhzdi .react-datepicker__day:hover {
+
+// Footer
+.datePicker-3iA7_k .datePickerHint-Ir4715 {
     background: $red;
+    margin: 0;
+    padding: 20px;
+    border-top: 0;
+
+    .hint-xfbpCV {
+        color: $cream;
+    }
+
+    .hintValue-V9hd8l {
+        border-radius: $size-max;
+
+        &,
+        &:hover {
+            background: $cream;
+            color: $black;
+        }
+    }
 }
-/* Disabled days */
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--disabled,
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month,
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
-    color: $red;
-}
-/* previous / next month buttons */
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next,
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous {
-    border: 0;
-}
-/* Hint */
-.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8 {
-    border-top: 1px solid $cream;
-}
-.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8 .hint-3D5yHh {
-    color: $cream;
-}
-.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY {
-    color: $black;
-    border-radius: 11px;
-    padding: 0 10px;
-}
+
 /* search modifiers, eg. has: from: */
-.theme-dark .searchFilter-2UfsDk {
-    background: $cream;
-    color: $black;
-    border-radius: 10px 0 0 10px;
-    padding: 0 3px 0 6px;
-}
-/* search modifier options, eg. image, embed */
-.theme-dark .searchAnswer-23w-CH {
-    background: $red;
-    color: $black;
-    border-radius: 0 10px 10px 0;
-    padding: 0 6px 0 2px;
-}
-/* Search suggestion icon and description */
-.theme-dark .searchResultChannelCategory-19ujDo,
-.theme-dark .searchResultChannelIcon-C-3P9x {
-    color: $red;
-}
-/* Search suggestion option */
-.theme-dark .option-ayUoaq[aria-selected="true"] {
-    background: transparent;
-}
-/* Search suggestion name */
-.theme-dark .option-ayUoaq.user-1dKxvu .displayedNick-1atSpT {
-    color: $cream;
-    font-family: var(--font-display);
-    margin-top: -6px;
-}
-.theme-dark .option-ayUoaq.user-1dKxvu .displayUsername-UTerwm {
-    color: $red;
+.appMount-2yBXZl {
+    // Search modifiers
+    .searchFilter-2UfsDk {
+        background: $cream;
+        color: $black;
+        border-radius: $size-max 0 0 $size-max;
+        padding: 0 3px 0 6px;
+    }
+    .searchAnswer-23w-CH {
+        background: $red;
+        color: $black;
+        border-radius: 0 $size-max $size-max 0;
+        padding: 0 6px 0 2px;
+    }
+
+    // In channel
+    .searchResultChannelCategory-19ujDo,
+    .searchResultChannelIcon-C-3P9x {
+        color: $cream;
+    }
 }

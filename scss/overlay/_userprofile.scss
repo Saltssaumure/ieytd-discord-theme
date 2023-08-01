@@ -1,6 +1,10 @@
-@use "../../top/vars" as *;
-@use "../../top/filter";
-@use "../../top/card";
+@use "../top/vars" as *;
+@use "../top/filter";
+@use "../top/card";
+
+.userPopoutOuter-1OHwPL {
+    @include card.outer;
+}
 
 .userProfileOuter-2tQwNf,
 .userProfileInnerThemedNonPremium-2AJg-H,
@@ -25,7 +29,8 @@
 }
 
 // Profile badges
-.badgeList-2aoHPw {
+.badgeList-2aoHPw,
+.profileBadges-2pItdR {
     @include card.round;
 }
 
@@ -39,8 +44,15 @@
 }
 
 // Discrim
-.discriminator-hnHkyt {
+.discriminator-hnHkyt,
+.userTagUsernameBase-267ALn,
+.discrimBase-v65kTs {
     color: $cream;
+}
+
+// Divider
+.divider-2dDziJ {
+    display: none;
 }
 
 // Tab bar
@@ -59,9 +71,33 @@
     border-top: 0;
 }
 
+// Member since
+.discordIcon-32mgeP {
+    color: $cream;
+}
+.divider-MZkkle {
+    background: $cream;
+}
+
+// Roles
+.role-2TIOKu {
+    background: $cream;
+    border: 0;
+    border-radius: $size-max;
+
+    .defaultColor-1EVLSt {
+        color: $black;
+    }
+}
+
 // Notes
 .note-3M15gE textarea {
     border-radius: $size-l;
+}
+
+// Send DM
+.messageInputContainer-24qqTx {
+    border: 0;
 }
 
 // Connected accounts

@@ -1,0 +1,25 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// On hover channel with threads
+.row-1qtctT {
+    border-radius: $size-max;
+    color: $cream;
+    .timestamp-3gPmzJ {
+        color: $cream;
+    }
+
+    &:hover {
+        background: $cream;
+        color: $black;
+
+        .timestamp-3gPmzJ {
+            color: $black;
+        }
+    }
+}
+
+.more-2c3Z-T {
+    border-top: 0;
+    color: $red;
+}

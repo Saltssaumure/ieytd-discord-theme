@@ -1,12 +1,45 @@
-// @use "./accountswitcher";
-// @use "./all";
-// @use "./emojiinfo";
-// @use "./emojipicker";
-// @use "./inbox";
-// @use "./menu";
-// @use "./search";
-// @use "./selectfriends";
-// @use "./threads";
-// @use "./userprofile";
-
+@forward "./channeldetail";
+@forward "./emojipicker";
+@forward "./inbox";
 @forward "./menu";
+@forward "./pinned";
+@forward "./search";
+@forward "./selectfriends";
+@forward "./threads";
+
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Large popouts
+.recentMentionsPopout-2bI1ZN,
+.messagesPopoutWrap-3zryHW {
+    @include card.outer;
+    max-height: 85vh !important;
+}
+
+// Small popouts
+.popoutContainer-2wbmiM,
+.popout-TdhJ6Z,
+.menu-2TXYjN {
+    @include card.outer;
+}
+
+// Header
+.header-1w9Q93,
+.header-3_zmOb {
+    background: $red;
+
+    // Top title
+    :is(h1, h2, h3, h4, h5),
+    .inboxTitle-EQkQZa,
+    .title-10Au0i {
+        color: $black;
+        filter: drop-shadow(0 0 $size-xs $cream);
+    }
+}
+
+// Footer
+.footer-5ji8u1,
+.footer-C9oLp9 {
+    background: $red;
+}
