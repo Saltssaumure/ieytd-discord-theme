@@ -1,34 +1,57 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
 
-/* Ctrl+T quickswitcher focus lock popout */
+// Ctrl+T quickswitcher
+
+// Root
+.container-qBnZJg {
+    height: 365px + 12px;
+    background: $black !important;
+}
+
 .quickswitcher-pKcM9U {
-    background: $red;
-    border: 2px solid $cream;
-}
-.input-3r5zZY {
-    background: $black;
-    border-radius: 50px;
-    border: 3px solid $cream;
-}
-.scroller-2qwVWY::-webkit-scrollbar-track {
-    background: transparent !important;
-}
-.header-1ZpMzy {
-    font-family: var(--font-display);
-    color: $black;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    font-style: italic;
-}
-/* ping bubble */
-.wrapper-2olG5t {
+    box-shadow: none;
     background: $black;
     color: $cream;
-    border-radius: 50%;
-    width: 18px;
 }
-/* autocomplete */
-.autocompleteQuerySymbol-1iAOG7 {
+
+// Searchbox
+.input-3r5zZY {
+    @include card.round;
+}
+
+// Results
+.scroller-2qwVWY {
+    background: unset;
+
+    .contentDefault-17ewQQ,
+    .contentUnread-1_MVDK,
+    .header-1ZpMzy,
+    .icon-12xJtb,
+    .misc-XwBATi,
+    .note-OhIxFa {
+        color: $cream;
+    }
+}
+
+// Old ping bubble
+.wrapper-2olG5t {
+    background: $cream;
     color: $black;
+    border-radius: $size-max;
+    font-family: var(--font-display);
+    line-height: 12px;
+    width: 18px;
+    padding: 0 0 5px 6px;
+}
+
+// No results
+.emptyState-1OLqEw {
+    @include filter.sepia;
+}
+
+// Footer tip
+.protip-1jXzAl.hasContent-50Z3pe {
+    border-top: 0;
 }

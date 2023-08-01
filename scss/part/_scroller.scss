@@ -1,0 +1,9 @@
+@use "../top/vars" as *;
+
+.scroller-2qwVWY::-webkit-scrollbar-track {
+    background: unset !important;
+}
+
+.overlayBackground-2aa7wt ::-webkit-scrollbar-thumb {
+    background: $cream;
+}

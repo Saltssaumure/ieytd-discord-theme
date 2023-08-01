@@ -1,20 +1,4 @@
-@use "../../top/vars" as *;
-
-/* Link warning focus lock popout */
-/* Content */
-.title-3hptVQ {
-    color: $black;
-    font-size: 22px;
-}
-/* Footer */
-.footer-31IekZ .lookFilled-yCfaCM.colorBrand-I6CyqQ {
-    background: $red;
-    color: $cream;
-    border-radius: 40px;
-}
-.footer-31IekZ .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-    background: $black;
-}
-.minorAction-194-_3 {
-    color: $black;
+// Opening external link
+.linkCalloutContainer-1CixBe {
+    border: 0;
 }

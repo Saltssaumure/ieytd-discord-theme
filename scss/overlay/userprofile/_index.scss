@@ -1,0 +1,99 @@
+@use "../../top/vars" as *;
+@use "../../top/filter";
+@use "../../top/card";
+
+.userProfileOuter-2tQwNf,
+.userProfileInnerThemedNonPremium-2AJg-H,
+.userProfileInnerThemedWithBanner-25XGmz,
+.overlayBackground-2aa7wt {
+    background: $black;
+}
+
+.userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL,
+.userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf {
+    padding: 0;
+}
+
+// Overlay
+.userProfileInner-1ngKnf::before {
+    display: none;
+}
+
+// Inner
+.body-1Ukv50 {
+    border-radius: 0;
+}
+
+// Profile badges
+.badgeList-2aoHPw {
+    @include card.round;
+}
+
+// More options
+.additionalActionsIcon-3Cy8UU {
+    &,
+    &:hover,
+    &:active {
+        color: $cream;
+    }
+}
+
+// Discrim
+.discriminator-hnHkyt {
+    color: $cream;
+}
+
+// Tab bar
+.userProfileOuter-2tQwNf {
+    .tabBarItem-30Te4- {
+        height: auto;
+    }
+}
+
+// Boxes after tab bar
+.tabBarContainer-sCZC4w ~ div {
+    padding: 0 $size-xl !important;
+}
+
+.userInfoSection-2u2hir + .userInfoSection-2u2hir {
+    border-top: 0;
+}
+
+// Notes
+.note-3M15gE textarea {
+    border-radius: $size-l;
+}
+
+// Connected accounts
+.connectedAccountContainer-3aLMHJ {
+    @include card.med;
+
+    .connectedAccountOpenIcon-3i81Tz {
+        color: $cream;
+    }
+}
+
+// Activity
+.appMount-2yBXZl :is(.activityProfile-1712BN, .activityProfileV2-1N7pee, .activityUserPopout-2MzGCj, .activityUserPopoutV2-3eKqzY) {
+    :is(.activityName-3YXl6e, .content-tXPNDw, .details-2-ciHo, .name-1-Q7l2, .nameNormal-2fPMD2, .nameWrap-3TyM52) {
+        color: $cream;
+    }
+}
+
+// Mutuals
+.listRow-2nO1T6 {
+    color: $cream;
+    &:hover {
+        background: $black;
+    }
+}
+
+// None
+.emptyText-mZZyQk {
+    color: $cream;
+}
+
+// None image
+.emptyIcon-uKVxYR {
+    @include filter.sepia;
+}

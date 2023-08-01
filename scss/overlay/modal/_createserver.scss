@@ -1,45 +1,60 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
 
-/* Create a new server / Add a server focus lock popout */
-.theme-light .root-g14mjS {
-    background: transparent;
-}
-/* Header */
+// Create a server
 .header-1c1AhF,
 .header-12n7su,
 .header-1AP5SJ {
-    padding: 16px 24px;
+    padding-bottom: 24px;
 }
-/* Subtitle */
-.header-1c1AhF .colorHeaderSecondary-g5teka,
-.header-12n7su .colorHeaderSecondary-g5teka,
-.header-1AP5SJ .colorHeaderSecondary-g5teka {
+
+// Templates
+.templatesList-uohY49 {
+    margin-top: 0;
+}
+
+// Next step
+.container-x8Y1ix,
+.rowContainer-3t7486 {
+    @include card.large;
+
+    &:hover,
+    &:active {
+        background: unset;
+    }
+
+    .arrow-2yY1Tm,
+    .rowArrow-TIwwIc,
+    .rowIcon-1mRvtM {
+        @include filter.sepia;
+    }
+}
+
+// Add server icon
+.uploadIcon-2wV7s_ {
+    color: $cream;
+
+    circle {
+        fill: $cream;
+    }
+
+    path[fill="white"] {
+        fill: $black;
+    }
+}
+
+// Invite link
+.input-m1-Y7Q {
+    background: unset;
+}
+
+// Link error
+.formTitle-2YQyhj.error-30KkHs {
     color: $red;
 }
-/* Content */
-.templatesList-uohY49,
-.optionsList-dmHy1l {
-    margin-top: 0;
-    padding-top: 24px;
-}
-.createGuild-2m1V10 {
-    margin: 0;
-    padding: 16px 4px 16px 24px;
-}
-/* Links */
-.optionsList-dmHy1l .anchor-1MIwyf,
-.createGuild-2m1V10 .anchor-1MIwyf {
-    color: $black;
-}
-/* Footer */
-.footer-31IekZ {
-    background: $cream;
-}
-/* Button */
-.theme-light .lookFilled-yCfaCM.colorGrey-2iAG-B {
+
+// Example links
+.sampleLink-5BWNy9 {
     color: $cream;
-    background: $red;
-}
-.theme-light .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
-    background: $black;
 }
