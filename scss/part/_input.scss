@@ -91,6 +91,20 @@
     }
 }
 
+.checkbox-3gI2WR {
+    border: $size-xs solid $cream;
+    border-radius: $size-max;
+
+    &.selected-3KWlIC {
+        background: unset;
+        border: $size-xs solid $cream;
+    }
+
+    .checkmark-1lGv7h {
+        color: $cream;
+    }
+}
+
 // Slider
 .slider-1mmyV6 {
     // Tick
