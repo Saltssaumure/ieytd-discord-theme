@@ -49,6 +49,16 @@
     .borderPrimary-1HrinF {
         border-color: $cream !important;
     }
+
+    .button-1iHNQ2 {
+        @include button.button($black, $cream);
+        border-radius: $size-max;
+        border: $size-xs solid;
+
+        &:hover {
+            border-color: $cream;
+        }
+    }
 }
 
 .lookBlank-FgPMy6 {

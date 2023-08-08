@@ -1,6 +1,22 @@
 @use "../top/vars" as *;
+@use "../top/card";
 
 // BDFDB
 .colorPickerSwatch-RTUGRR.custom-1Up2lr[style*="background"] {
     border: $size-xs solid $cream !important;
+}
+
+// Banner
+.noticeWrapper-8z511t {
+    background: $black;
+    color: $cream;
+    border-radius: $size-max !important;
+    margin: $size-s $size-m;
+
+    .button-1iHNQ2 {
+        &,
+        &:hover {
+            @include card.round;
+        }
+    }
 }
