@@ -1,5 +1,7 @@
 @forward "./customisationquestions";
 @forward "./defaultchannels";
+@forward "./serverguide";
+@forward "./review";
 
 @use "../../../../../top/vars" as *;
 @use "../../../../../top/filter";
@@ -39,4 +41,16 @@
 // Links
 .anchor-1X4H4q div {
     color: $red !important;
+}
+
+// Drag bars
+.dragContainer-3Q9clI,
+.dragContainer-1qQKT6 {
+    color: $cream;
+    left: $size-m;
+    display: flex;
+}
+
+.dragIcon-1vnRh4 {
+    display: block;
 }

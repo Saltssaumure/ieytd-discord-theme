@@ -1,5 +1,4 @@
 @use "../../../../../top/vars" as *;
-@use "../../../../../top/filter";
 @use "../../../../../top/card";
 
 // 2. Default channels
@@ -39,8 +38,13 @@
         display: none;
     }
 
-    .caret-O9zhLi, .channelIcon-Y7myvd {
+    .caret-O9zhLi,
+    .channelIcon-Y7myvd {
         color: $cream;
+    }
+
+    .channelIcon-Y7myvd {
+        zoom: 1.5;
     }
 
     .chattableIndicator-Vvr4OT {
@@ -75,7 +79,8 @@
 .channelRow-3V1FiH {
     margin-right: $size-xl;
 
-    &, &:hover:not(.disabled-47pull) {
+    &,
+    &:hover:not(.disabled-47pull) {
         background: unset;
     }
 
