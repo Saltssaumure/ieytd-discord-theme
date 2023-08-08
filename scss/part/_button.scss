@@ -44,6 +44,10 @@
         &.colorLink-34zig_ {
             @include button.link($red);
         }
+
+        &.colorRed-2VFhM4 {
+            @include button.link($black);
+        }
     }
 
     .borderPrimary-1HrinF {
