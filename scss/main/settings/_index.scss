@@ -4,6 +4,7 @@
 @use "../../top/vars" as *;
 @use "../../top/filter";
 @use "../../top/card";
+@use "../../top/svg";
 
 .layer-86YKbF,
 .standardSidebarView-E9Pc3j {
@@ -28,7 +29,7 @@
             left: 15px;
             width: 80px;
             height: 100%;
-            background: $key 0 -30px;
+            background: svg.$key 0 -30px;
         }
     }
 
@@ -89,8 +90,21 @@
 
 // Content
 .contentRegion-3HkfJJ {
+    background: $black;
     .contentRegionScroller-2_GT_N {
         background: $black;
+    }
+}
+
+// Streamer mode
+.streamerModeEnabledImage-2EveVD {
+    @include filter.sepia;
+}
+.streamerModeEnabledBtn-2nlJTD {
+    @include card.round;
+
+    &:hover {
+        background: unset;
     }
 }
 
