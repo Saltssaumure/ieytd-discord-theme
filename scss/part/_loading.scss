@@ -1,5 +1,6 @@
 @use "../top/vars" as *;
 
+// Rotating cubes
 .wanderingCubes-2A046F {
     zoom: 3;
     .item-2VgEex {
@@ -8,5 +9,14 @@
         &:last-child {
             background: $cream;
         }
+    }
+}
+
+// Three dots
+.lowMotion-1G5A7p .item-2VgEex {
+    background: $red;
+
+    &:last-child {
+        background: $cream;
     }
 }
