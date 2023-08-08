@@ -149,3 +149,17 @@
 .backButton-2D5owx {
     color: $cream;
 }
+
+// Unsaved changes
+.noticeRegion-qjyUVg {
+    .container-20TyK0 {
+        @include card.outer;
+        background: $red !important;
+        box-shadow: none;
+        transition: background 1s;
+
+        &[style*="background-color: rgb(17, 18, 20);"] {
+            background: unset !important;
+        }
+    }
+}

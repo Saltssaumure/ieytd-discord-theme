@@ -1,0 +1,15 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+// Notice
+.upsellContainer-2a5eMP {
+    @include card.large;
+    
+    .upsellClose-2rP5qE {
+        color: $cream;
+    }
+
+    .upsellFooter-3M1V33 {
+        background: unset;
+    }
+}
