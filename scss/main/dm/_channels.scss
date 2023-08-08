@@ -1,7 +1,5 @@
 @use "../../top/vars" as *;
-
-$spacing: 4px;
-$channel-height: calc(44px - ($spacing / 2));
+@use "../../top/channel";
 
 // Overall background
 .privateChannels-oVe7HL,
@@ -33,12 +31,12 @@ $channel-height: calc(44px - ($spacing / 2));
 // DM
 .channel-1Shao0 {
     background: $black;
-    height: $channel-height;
+    height: channel.height(44px);
     box-sizing: border-box;
     border: $size-xs solid $cream;
     border-left: 0;
-    border-radius: 0 calc($channel-height / 2) calc($channel-height / 2) 0;
-    margin: 4px 0 0;
+    border-radius: 0 channel.radius(44px) channel.radius(44px) 0;
+    margin: channel.height(44px) 0 0;
     max-width: unset;
 
     .layout-1LjVue {
