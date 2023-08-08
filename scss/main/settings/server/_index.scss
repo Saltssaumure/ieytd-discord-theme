@@ -1,9 +1,13 @@
+@forward "./emoji";
+@forward "./integrations";
 @forward "./overview";
 @forward "./roles";
-@forward "./emoji";
-@forward "./stickers";
-@forward "./soundboard";
-@forward "./widget";
-@forward "./servertemplate";
-@forward "./integrations";
 @forward "./safetysetup";
+@forward "./servertemplate";
+@forward "./soundboard";
+@forward "./stickers";
+@forward "./template";
+@forward "./widget";
+
+@forward "./auditlog";
+@forward "./bans";
