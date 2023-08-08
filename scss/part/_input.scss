@@ -17,8 +17,8 @@
         border-color: $cream;
     }
 
-    .error-10GvqR {
-        border-color: $red;
+    &.error-10GvqR {
+        border: $size-s solid $red;
     }
 }
 
