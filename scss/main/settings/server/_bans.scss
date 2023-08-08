@@ -1,0 +1,15 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+.appMount-2yBXZl {
+    .bannedUser-26qsXF {
+        @include card.large;
+        box-shadow: none;
+        padding: $size-m;
+
+        .username-2QcOp4,
+        .username-2QcOp4 .discrim-1rThJo {
+            color: $cream;
+        }
+    }
+}
