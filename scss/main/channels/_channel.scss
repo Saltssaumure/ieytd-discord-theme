@@ -1,23 +1,22 @@
 @use "../../top/vars" as *;
 @use "../../top/pip";
+@use "../../top/channel";
 
-$spacing: 4px;
-$channel-height: calc(34px - ($spacing / 2));
 $icon-size: calc(20px + 6px);
 $spine-size: calc($icon-size / 1.5);
 
 // Channel
 .containerDefault-YUSmu3 {
     background: $black;
-    height: $channel-height;
+    height: channel.height(34px);
     box-sizing: border-box;
     border: $size-xs solid;
     border-left: 0;
 
     &:not(.container-1Bj0eq .containerDefault-YUSmu3) {
         border-color: $cream;
-        border-radius: 0 calc($channel-height / 2) calc($channel-height / 2) 0;
-        margin-top: $spacing;
+        border-radius: 0 channel.radius(34px) channel.radius(34px) 0;
+        margin-top: $channel-spacing;
     }
 
     // Browse channels
@@ -88,7 +87,7 @@ $spine-size: calc($icon-size / 1.5);
     border: solid $cream;
     border-width: 0 $size-xs $size-xs 0;
     width: 210px;
-    border-radius: 0 0 calc($channel-height / 2) 0;
+    border-radius: 0 0 channel.radius(34px) 0;
 
     // Thread
     .containerDefault-YUSmu3 {
