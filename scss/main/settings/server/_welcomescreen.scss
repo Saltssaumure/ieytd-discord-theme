@@ -1,0 +1,42 @@
+@use "../../../top/vars" as *;
+@use "../../../top/filter";
+@use "../../../top/card";
+
+.notice-1Hf74q {
+    @include card.large;
+}
+
+.enableContainer-H2cRts {
+    background: unset;
+    margin-bottom: $size-l;
+
+    .activeCircle-3rE6-u {
+        background: $cream;
+        color: $black;
+    }
+}
+
+.previewContainer-29oeA6 {
+    @include card.xlarge;
+
+    .icon-QrJiDO {
+        border-radius: $size-max;
+    }
+
+    .welcomeTitle-13oDgb strong {
+        color: $cream;
+    }
+
+    .welcomeChannel-_Q4qAA {
+        @include card.large;
+
+        img {
+            @include filter.sepia;
+        }
+    }
+
+    .channelTitleIcon-3BTw9v {
+        color: $cream;
+        zoom: 1.5;
+    }
+}

@@ -36,7 +36,7 @@
     border: $size-xs solid $cream;
     border-left: 0;
     border-radius: 0 channel.radius(44px) channel.radius(44px) 0;
-    margin: channel.height(44px) 0 0;
+    margin: $channel-spacing 0 0;
     max-width: unset;
 
     .layout-1LjVue {
