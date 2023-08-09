@@ -1,14 +1,13 @@
 // @use "./chat";
-// @use "./settings";
 
 @forward "./channels";
 @forward "./dm";
-@use "settings"; // Not finished
+@forward "./settings";
 // @use "forum";
-@use "header"; // Not finished
-@use "members"; // Not finished
+@forward "./header";
+@forward "./members";
 @forward "./notice";
-// @use "search";
-@use "servers";
+@forward "./search";
+@forward "./servers";
 // @use "threads";
 @forward "./titlebar";
