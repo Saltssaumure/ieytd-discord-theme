@@ -96,16 +96,42 @@
         box-shadow: none;
     }
 
-    // Mentions
-    .base-3IDx3L {
-        border: $size-xs solid $black;
-        color: $black;
-        padding: 0 0 4px 2px;
-        background: $cream;
+    // Lower badge
+    .lowerBadge-3j0ZAg {
+        & > div {
+            border: $size-xs solid $black;
+            height: 20px;
+            min-width: 20px;
+            border-radius: $size-max;
+            box-sizing: border-box;
+        }
 
-        // Live/event indicator
-        .icon-2Ug6UV {
-            padding: 3px 2px 0 0;
+        // Mention
+        .base-3IDx3L {
+            background: $cream;
+            color: $black;
+            padding: 0 0 4px 2px;
+            font-size: 16px;
+
+            // Live/event indicator
+            .icon-2Ug6UV {
+                padding: 3px 2px 0 0;
+            }
+
+            // Broadcasts
+            &[style*="background-color: var(--background-accent);"] {
+                background: $cream !important;
+            }
+        }
+
+        // Paused invites
+        .pauseBackground-1zgiN0 {
+            border: $size-xs solid $black;
+            background: $cream;
+
+            .pause-117Y0s path {
+                fill: $black;
+            }
         }
     }
 
