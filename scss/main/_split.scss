@@ -5,7 +5,7 @@
 // Chat split bar
 .resizeHandle-PBRzPC {
     background: $cream;
-    width: 10px;
+    width: $size-m;
 }
 
 // Main chat and thread
@@ -20,7 +20,7 @@
     border-left: 0;
 
     .container-ZMc96U {
-        border-left: 10px solid $cream;
+        border-left: $size-m solid $cream;
     }
 }
 
