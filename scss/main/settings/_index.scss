@@ -72,6 +72,20 @@
     .premiumLabel-3HPvdB svg {
         @include filter.sepia;
     }
+    .serverBoostTabItem-3QwA3W {
+        .icon-3FU6Ir {
+            fill: $cream;
+        }
+
+        &[aria-selected="true"] {
+            background: $cream !important;
+            color: $black !important;
+
+            .icon-3FU6Ir {
+                fill: $black !important;
+            }
+        }
+    }
 
     // Social media icons
     .socialLinks-3ywLUf {

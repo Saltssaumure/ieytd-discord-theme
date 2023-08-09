@@ -34,6 +34,10 @@
         &.buttonColor-1u-3JF {
             @include button.button(var(--profile-gradient-primary-color), $cream, var(--profile-gradient-secondary-color));
         }
+
+        &.viewServerButton-29xbQE {
+            @include button.button($black, $cream);
+        }
     }
 
     .lookLink-13iF2K {
