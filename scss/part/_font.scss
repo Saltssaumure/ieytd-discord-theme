@@ -50,6 +50,7 @@ code,
     @include text.sizeup(12px, 16px);
 }
 
+.markup-eYLPri h3,
 // [class*="text-sm-"],
 [class*="heading-sm-"] {
     @include text.sizeup(14px, 18px);
@@ -66,6 +67,7 @@ code,
     @include text.sizeup(16px, 20px);
 }
 
+.markup-eYLPri h2,
 .h1-3iMExa,
 .userTag-2qPxEZ,
 // [class*="text-lg-"],
@@ -77,6 +79,7 @@ code,
     @include text.sizeup(24px, 30px, 12px);
 }
 
+.markup-eYLPri h1,
 [class*="heading-xxl-"] {
     @include text.sizeup(32px, 40px, 12px);
 }

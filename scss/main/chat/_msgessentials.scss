@@ -1,39 +1,98 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
+
+// Overflow: yes
+.zalgo-26OfGz {
+    .messageContent-2t3eCI,
+    &.cozy-VmLDNB .header-2jRmjb,
+    &.compact-2Nkcau .messageContent-2t3eCI {
+        overflow: visible;
+    }
+}
 
 // Chat message
 .messageListItem-ZZ7v6g {
-    // Code
-    .markup-eYLPri code {
-        background: $black;
-
-        &.inline {
-            border-radius: 0;
+    // Text
+    .markup-eYLPri {
+        // Titles
+        :is(h1, h2, h3) {
+            color: $cream;
         }
 
-        &.hljs {
-            border: $size-xs solid $red;
-            border-radius: 15px;
+        // Code
+        code {
+            background: $black;
+
+            &.inline {
+                border-radius: 0;
+            }
+
+            &.hljs {
+                border: $size-xs solid $red;
+                border-radius: 15px;
+            }
+        }
+
+        // Spoiler
+        .spoilerContent-32CqO- {
+            @include card.round;
+            border-color: $red;
+            box-decoration-break: slice;
+
+            &.hidden-2lQZ5q {
+                background: repeating-linear-gradient(-45deg, $red, $red $size-xs, $black $size-xs, $black $size-m);
+            }
+        }
+
+        // Edited
+        .timestamp-p1Df1m {
+            color: $cream;
+            opacity: 0.7;
+        }
+
+        // System messages
+        // Username
+        .content-vSHmMD a {
+            color: $cream;
+            font-family: var(--font-display);
+            margin-top: -0.4rem;
+        }
+
+        // Mention
+        .wrapper-1ZcZW- {
+            @include card.round;
+
+            &:hover {
+                color: $cream;
+                background: $black;
+            }
         }
     }
 
-    // New member welcome
+    // User avatar
+    .avatar-2e8lTP,
+    .avatarContainer-209emZ {
+        border: $size-s solid $red;
+    }
+
+    // Seasonal avatar decorations
+    .avatarDecoration-34OC0G {
+        left: 12px + $size-s;
+    }
+
     // Username
-    .content-vSHmMD a {
+    .username-1LTQE1,
+    .username-h_Y3Us {
         font-family: var(--font-display);
-        --interactive-active: $cream;
-        font-size: 1.2rem;
-        margin-top: -0.6rem;
+        font-size: 20px;
+        color: $cream;
     }
 
-    // Automod action
-    .embedCard-bDyD5S {
-        border: $size-xs solid $red;
-        border-radius: 15px;
-        background: $black;
-
-        .dot-KVehus {
-            background: $red;
-        }
+    // Timestamp
+    .timestamp-p1Df1m,
+    .timestamp-p1Df1m.alt-1dvXnH {
+        color: $cream;
+        opacity: 0.7;
     }
 
     // Message action buttons
@@ -48,66 +107,22 @@
     }
 }
 
-// User avatar
-.avatar-2e8lTP,
-.avatarContainer-209emZ {
-    border: $size-s solid $red;
-}
-
-.avatarDecoration-34OC0G {
-    left: 12px + $size-s;
-}
-
-// Username
-.username-h_Y3Us {
-    font-family: var(--font-display);
-}
-
-// Username in main message
-.headerText-2z4IhQ .username-h_Y3Us {
-    font-size: 20px;
-}
-
-// Bot tag
-.botTag-7aX5WZ {
-    border-radius: 8px;
-    background: $red;
-    color: $black;
-    margin-top: 4px;
-
-    .botText-1fD6Qk {
-        display: inline-block;
-        padding-top: 2px;
+// Compact mode specific
+.compact-2Nkcau {
+    .botTagCompact-1idyyC {
+        margin-top: 0.3rem;
     }
 }
 
-// Mention
-.mention {
-    --mention-foreground: $black;
-    --mention-background: $cream;
-    border-radius: 2px;
-    padding: 0.15rem 4px 0 4px;
-    border-radius: $size-max;
-    display: inline-block;
-
-    &.interactive:hover {
-        color: var(--mention-foreground);
-        background: var(--mention-background);
+// Cosy mode specific
+.cozy-VmLDNB {
+    .header-2jRmjb,
+    .headerText-2z4IhQ {
+        display: flex;
+        align-items: baseline;
     }
 
-    // Channel mention
-    &.iconMention-3WxjBe {
-        padding-left: 1.2rem;
-
-        // Channel type icon
-        .channelIcon-3I2O7O {
-            height: 1rem;
-            top: 0.25rem;
-        }
+    .username-h_Y3Us {
+        overflow: visible;
     }
-}
-
-// Link
-.anchor-1MIwyf {
-    --text-link: $red;
 }
