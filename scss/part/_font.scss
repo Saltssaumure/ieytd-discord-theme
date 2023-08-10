@@ -110,7 +110,7 @@ code,
 .description-2N2sXz,
 .helpText-2PnGIP,
 .titleText-35PD5k,
-div,
+div:not(.desaturateUserColors-1O-G89),
 :is(h1, h2, h3, h4),
 span:not(.username-3_PJ5r, .username-h_Y3Us) {
     &:where([style^="color"]) {

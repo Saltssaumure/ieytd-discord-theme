@@ -1,0 +1,24 @@
+@use "../../../top/vars" as *;
+
+// Reacts
+.reaction-3vwAF2 {
+    background: $black;
+    border: $size-xs solid $red;
+    border-radius: $size-max;
+    --interactive-normal: $red;
+    --interactive-hover: $red;
+    --interactive-active: $red;
+
+    &:hover {
+        background: $black;
+        border: $size-xs solid $red;
+    }
+
+    &.reactionMe-1PwQAc {
+        border-color: $cream;
+
+        .reactionCount-26U4As {
+            color: $cream;
+        }
+    }
+}
