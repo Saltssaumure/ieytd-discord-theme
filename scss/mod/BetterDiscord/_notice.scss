@@ -5,9 +5,11 @@
 // Banners
 #bd-notices {
     display: flex;
-    // margin-left: 240px;
-    padding: $size-s $size-m 0 0;
     gap: $size-m;
+
+    &:not(:empty) {
+        padding: $size-s $size-m 0 0;
+    }
 }
 
 .bd-notice {

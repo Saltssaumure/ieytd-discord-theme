@@ -1,4 +1,4 @@
-// @forward "./chat";
+@forward "./chat";
 @forward "./channels";
 @forward "./dm";
 @forward "./forum";
@@ -10,3 +10,15 @@
 @forward "./settings";
 // @forward "./split";
 @forward "./titlebar";
+
+@use "../top/vars" as *;
+
+.content-1SgpWY {
+    border: solid $cream;
+    border-width: $size-s $size-m $size-s 0;
+}
+
+.chat-2ZfjoI {
+    border-radius: 0 $size-l $size-l 0;
+    overflow: hidden;
+}
