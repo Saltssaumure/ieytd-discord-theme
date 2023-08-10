@@ -1,5 +1,6 @@
-@use "chat";
-@use "embeds";
-@use "msgaccessories";
-@use "msgessentials";
-@use "textarea";
+@forward "./chat";
+@forward "./bar";
+// @use "embeds";
+// @use "msgaccessories";
+// @use "msgessentials";
+@forward "./textarea";

@@ -1,164 +1,209 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
 
-// Typing extarea
+// Typing textarea
 .form-3gdLxP::before {
     display: none;
 }
 
 // Area including bars
 .channelTextArea-1VQBuV {
-    background: $red;
-    border-radius: $textarea-outer;
-    --channeltextarea-background: $black;
-    --channel-text-area-placeholder: $red;
-    --textbox-markdown-syntax: $cream;
+    background: unset;
 
     // Bars
     .attachedBars-2BCP3l {
-        background: $black;
-        border-radius: $textarea-outer $textarea-outer 0 0;
+        @include card.round;
+        margin-bottom: $size-s;
+        // width: fit-content;
+    }
 
-        // Reply bar
-        .replyBar-1oi75v {
+    // Reply bar
+    .replyBar-1oi75v {
+        background: $black;
+
+        // Cancel reply
+        .closeButton-3IEry2 {
+            color: $cream;
+        }
+    }
+}
+
+// Actual typing area
+.scrollableContainer-15eg7h {
+    @include card.outer;
+
+    // Add attachment button
+    .attachButton-_ACFSu {
+        &,
+        &:hover {
+            .attachButtonPlus-3IYelE {
+                fill: $cream;
+            }
+        }
+    }
+
+    // Right side buttons
+    .button-2fCJ0o,
+    .active-z80xEj .buttonWrapper-3YFQGJ,
+    .buttonWrapper-3YFQGJ:hover {
+        color: $cream;
+    }
+    &.webkit-QgSAqd .buttons-uaqb-5 {
+        margin-right: 0;
+    }
+
+    // Emoji button
+    .sprite-2lxwfc {
+        filter: saturate(var(--saturation-factor, 1)) sepia(1) !important;
+        transform: none !important;
+    }
+
+    // "Message #channel-name" placeholder
+    .placeholder-1rCBhr {
+        font-family: var(--font-display);
+        line-height: 1.2rem;
+        color: $cream;
+        opacity: 0.7;
+    }
+
+    // Formatting preview
+    // Typed links
+    .fakeLink-1wGafz {
+        color: $red;
+    }
+
+    // Inline code
+    .after_inlineCode-2_JXPm,
+    .before_inlineCode-1zngJj,
+    .inlineCode-ERyvy_ {
+        background: unset;
+    }
+
+    // Block code
+    .codeBlockSyntax-3mFGiA {
+        font-family: var(--font-code);
+    }
+}
+
+// Autocomplete
+.appMount-2yBXZl .autocomplete-3NRXG8 {
+    @include card.outer;
+
+    // Emoji/username autocomplete
+
+    // Query
+    .contentTitle-3CylD3 {
+        font-size: 20px;
+        font-family: var(--font-display);
+        padding: 0 8px;
+
+        strong {
+            font-family: var(--font-primary);
+            font-size: 16px;
+            color: $cream;
+        }
+    }
+
+    // Username
+    .autocompleteRowContentPrimary-1kUW9H:not(:last-child) > div {
+        font-family: var(--font-display);
+    }
+
+    // Command autocomplete
+    .listItems-6eZzQ1 {
+        right: 0 !important;
+    }
+
+    .icon-1kx1ir {
+        color: $cream;
+    }
+
+    // Category list
+    .wrapper-3z7DuG {
+        background: $cream;
+        width: 56px - ($size-s * 2);
+
+        .wrapper-22rqw6 {
+            background: unset;
+        }
+
+        .listItems-6eZzQ1 {
+            left: 12px - $size-s !important;
+        }
+
+        // Category
+        .wrapper-1wwiGV,
+        .svg-lIB-lq {
+            border-radius: $size-max;
+            box-shadow: 0 0 0 2px $black;
             background: $red;
-            border-radius: $textarea-outer $textarea-outer 0 0;
+        }
 
-            // Replying to username
-            .username-u-ebrn {
-                font-family: var(--font-display);
-                font-size: 16px;
-            }
+        // Selected category
+        .selected-8A5BDS,
+        .selected-8A5BDS:hover {
+            display: none;
+        }
 
-            // Mention on/off button
-            .mentionButton-3C5YMI {
-                --text-link: $cream;
-                --text-muted: $black;
-            }
+        // Default category
+        .icon-1kx1ir {
+            color: $cream;
+        }
 
-            // Cancel reply
-            .closeButton-3IEry2 {
-                --interactive-normal: $cream;
-                --interactive-hover: $cream;
-            }
+        // Server category
+        foreignObject {
+            mask: none;
+        }
+
+        // Divider
+        .builtInSeparator-2rCueY {
+            display: none;
         }
     }
 
-    // Actual typing area
-    .scrollableContainer-15eg7h {
-        border: $size-s solid $red;
-        border-radius: $textarea-outer;
+    // Suggestion list
+    .categorySection-3hl0bM {
+        // Category header
+        .categoryHeader-OpJ1Ly {
+            @include card.round;
+            top: $size-m;
+            height: 32px + ($size-s * 2);
 
-        // "Message #channel-name" placeholder
-        .placeholder-1rCBhr {
-            font-family: var(--font-display);
-            line-height: 1.2rem;
-        }
+            &::after {
+                display: none;
+            }
 
-        // Typed links
-        .fakeLink-1wGafz {
-            color: $red;
-        }
-
-        // Inline code
-        .after_inlineCode-2_JXPm,
-        .before_inlineCode-1zngJj,
-        .inlineCode-ERyvy_ {
-            background: $black;
-        }
-
-        // Block code
-        .codeBlockSyntax-3mFGiA {
-            font-family: var(--font-code);
-        }
-    }
-
-    // Autocomplete
-    .autocomplete-3NRXG8 {
-        background: $black;
-        border-radius: $textarea-outer;
-        border: $size-s solid $red;
-
-        // Emoji/username autocomplete
-
-        // Title
-        .contentTitle-3CylD3 {
-            color: $red;
-            font-size: 20px;
-            font-family: var(--font-display);
-            padding: 0 8px;
-
-            strong {
-                font-family: var(--font-primary);
-                font-size: 16px;
+            .header-1XpmZs {
                 color: $cream;
             }
         }
 
         // Suggestion
-        .autocompleteRowContent-1cjfD2 {
-            --interactive-active: $cream;
-            --interactive-normal: $red;
-        }
+        .itemWrapper-CeTtIp {
+            // Mandatory params
+            .option-Tt7anD {
+                background: transparent;
+                color: $red;
+            }
 
-        // @ suggestion
-        .autocompleteRowContentPrimary-1kUW9H:not(:last-child) .text-md-normal-304U3g {
-            font-family: var(--font-display);
-            font-size: 20px;
-            margin-top: -4px;
-        }
+            // Optional params
+            .optionals-2w-NPQ {
+                border-left: 0;
+                opacity: 0.7;
+            }
 
-        // Command autocomplete
-
-        // Category list
-        .wrapper-3z7DuG,
-        .wrapper-22rqw6 {
-            background: $red;
-            --background-primary: $black;
-            --interactive-active: $red;
-            --interactive-normal: $black;
-            --interactive-hover: $black;
-
-            // Category
-            .wrapper-1wwiGV {
-                border-radius: 50%;
+            // Optional param counter
+            .optionalCount-1BzEgg {
+                color: $cream;
             }
         }
 
-        // Suggestion list
-        .categorySection-3hl0bM {
-            --interactive-active: $cream;
-            --interactive-normal: $red;
-
-            // Suggestion category name
-            .categoryHeader-OpJ1Ly {
-                .header-1XpmZs {
-                    --interactive-normal: $black;
-                    --header-secondary: $black;
-                }
-
-                background: $red;
-                border-radius: $size-max;
-                border: $size-s solid $black;
-                height: 32px+ ($size-s * 2);
-
-                &::after {
-                    display: none;
-                }
-            }
-
-            // Suggestion
-            .itemWrapper-CeTtIp {
-                // Optional params
-                .optionals-2w-NPQ {
-                    border-left: none;
-                }
-
-                // Mandatory params
-                .option-Tt7anD {
-                    background: transparent;
-                    color: $red;
-                }
-            }
+        // Loading suggestion
+        .usageWrapper-3FpyBH,
+        .description-RgwbdW,
+        .source-2hsju- {
+            background: $cream;
+            opacity: 0.3;
         }
     }
 }
@@ -166,22 +211,13 @@
 // Typing info
 .typing-2J1mQU {
     // Users who are typing
-    .typingDots-1Y8dki {
-        color: $red;
-
-        // ...
-        .dots-1BwzZQ.themed-3T-OPr {
-            color: $red;
-        }
-
-        // Usernames
-        strong {
-            font-family: var(--font-display);
-        }
+    .typingDots-1Y8dki,
+    .dots-1k2MxY {
+        color: $cream;
     }
 
-    // Cooldown
-    .cooldownWrapper-2k1jHK {
-        color: $red !important;
+    // Usernames
+    strong {
+        font-family: var(--font-display);
     }
 }

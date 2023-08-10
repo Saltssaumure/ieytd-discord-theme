@@ -1,0 +1,15 @@
+@use "../top/vars" as *;
+
+// InvisibleTyping
+// https://betterdiscord.app/plugin/?id=295
+// https://github.com/Strencher/BetterDiscordStuff/blob/master/InvisibleTyping/InvisibleTyping.plugin.js
+
+.invisible-typing-button {
+    svg {
+        color: $cream;
+    }
+
+    .disabled-stroke-through {
+        fill: $red;
+    }
+}

@@ -1,0 +1,33 @@
+@use "../../top/vars" as *;
+
+// Bars
+.jumpToPresentBar-1cEnH0,
+.newMessagesBar-1hF-9G {
+    border: $size-s solid $black;
+    background: $cream;
+    opacity: 1;
+
+    .barButtonBase-Sk2mdB {
+        color: $black;
+    }
+}
+
+// New messages bar
+.newMessagesBar-1hF-9G {
+    border-top: none;
+    border-radius: 0 0 $size-l $size-l;
+    height: auto;
+
+    .barButtonBase-Sk2mdB {
+        padding: 0 $size-l;
+    }
+}
+
+// Jump to present bar
+.jumpToPresentBar-1cEnH0 {
+    border-bottom: none;
+    border-radius: $size-l $size-l 0 0;
+    bottom: -20px;
+    padding: 0 10px;
+    padding-bottom: 28px;
+}
