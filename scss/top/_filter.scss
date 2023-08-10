@@ -4,6 +4,6 @@
     filter: saturate(var(--saturation-factor, 1)) sepia(1);
 }
 
-@mixin shadow {
-    filter: drop-shadow(0 0 $size-xs $cream);
+@mixin shadow($SIZE: $size-xs) {
+    filter: drop-shadow(0 0 $SIZE $cream);
 }
