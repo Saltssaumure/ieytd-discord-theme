@@ -2,5 +2,5 @@
 @forward "./bar";
 // @use "embeds";
 // @use "msgaccessories";
-// @use "msgessentials";
+@forward "./msgessentials";
 @forward "./textarea";
