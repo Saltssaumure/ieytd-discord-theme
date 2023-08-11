@@ -2,6 +2,8 @@
 @use "../../top/card";
 @use "../../top/filter";
 
+// Threads in current channel
+
 .container-18GwIk {
     background: $black;
     @include card.outer;

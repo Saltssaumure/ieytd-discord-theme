@@ -2,7 +2,10 @@
 @use "../../top/card";
 
 // Select language on uploaded text file
+
 .languageSelector-2e1IuO {
+    @include card.outer;
+
     .container-2oNtJn {
         @include card.round;
     }
