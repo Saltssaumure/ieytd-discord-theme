@@ -1,7 +1,7 @@
 @use "../../top/vars" as *;
 @use "../../top/card";
 
-// Typing textarea
+// Chatbox
 .form-3gdLxP::before {
     display: none;
 }
@@ -205,6 +205,32 @@
             background: $cream;
             opacity: 0.3;
         }
+    }
+}
+
+// Sticker suggestion
+.container-1ZA19X {
+    @include card.outer;
+
+    foreignObject {
+        mask: none;
+    }
+
+    .descriptionText-yl6pN6 {
+        line-height: 28px;
+    }
+
+    .closeIcon-14ZT1N {
+        &,
+        &:hover {
+            color: $cream;
+        }
+    }
+
+    .maskBackground-F7QD-A,
+    .textDivider-34kVsR,
+    .containerBackground-Ang24O {
+        display: none;
     }
 }
 
