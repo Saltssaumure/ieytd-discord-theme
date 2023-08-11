@@ -10,7 +10,7 @@
 @forward "./serverguide";
 @forward "./servers";
 @forward "./settings";
-// @forward "./split";
+@forward "./split";
 @forward "./titlebar";
 
 @use "../top/vars" as *;
@@ -42,13 +42,20 @@
 
 // Without banner
 .base-2jDfDU {
+    // Sidebar
     .sidebar-1tnWFu,
     .sidebar-1tnWFu.hasNotice-1s68so {
         border-radius: $size-l 0 0 $size-l;
     }
 
+    // Main chat
     .chat-2ZfjoI {
         border-radius: 0 $size-l $size-l 0;
+    }
+
+    // Split chat
+    .container-3XgAHv {
+        border-radius: $size-l;
     }
 }
 
@@ -61,5 +68,9 @@
 
     .chat-2ZfjoI {
         border-top-right-radius: 0;
+    }
+
+    .container-3XgAHv {
+        border-radius: 0 0 $size-l $size-l;
     }
 }
