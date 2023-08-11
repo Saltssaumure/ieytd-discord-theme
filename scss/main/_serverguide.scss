@@ -1,0 +1,44 @@
+@use "../top/vars" as *;
+@use "../top/card";
+@use "../top/filter";
+
+.homeContainer-1T8N7y {
+    width: auto;
+    padding-right: 16px;
+
+    // Default banner
+    .headerArtPlaceholder-2sMMA0 {
+        background: unset;
+        @include filter.sepia;
+    }
+
+    // Server icon
+    .headerIcon-3Q7cOC {
+        border-radius: $size-max;
+        border-color: $black;
+        background: $red;
+    }
+
+    // Server name
+    .headerName-z8Vr_4 {
+        align-items: baseline;
+
+        .inviteButton-17ob8h {
+            align-self: center;
+        }
+    }
+
+    // Resource
+    .row--LCpto {
+        @include card.large;
+    }
+
+    // Server description
+    .sidebarCardWrapper-34oCuK {
+        @include card.large;
+
+        .dotOnline-X29jV2 {
+            background: $cream;
+        }
+    }
+}

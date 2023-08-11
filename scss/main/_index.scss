@@ -6,6 +6,7 @@
 @forward "./members";
 @forward "./notice";
 @forward "./search";
+@forward "./serverguide";
 @forward "./servers";
 @forward "./settings";
 // @forward "./split";
@@ -19,7 +20,32 @@
 }
 
 .chat-2ZfjoI {
-    border-radius: 0 $size-l $size-l 0;
     overflow: hidden;
     background: $black;
+}
+
+// Rounding based on notice banner presence
+
+// Without banner
+.base-2jDfDU {
+    .sidebar-1tnWFu,
+    .sidebar-1tnWFu.hasNotice-1s68so {
+        border-radius: $size-l 0 0 $size-l;
+    }
+
+    .chat-2ZfjoI {
+        border-radius: 0 $size-l $size-l 0;
+    }
+}
+
+// With banner
+.base-2jDfDU:has(.bd-notice, .notice-2HEN-u) {
+    .sidebar-1tnWFu,
+    .sidebar-1tnWFu.hasNotice-1s68so {
+        border-top-left-radius: 0;
+    }
+
+    .chat-2ZfjoI {
+        border-top-right-radius: 0;
+    }
 }
