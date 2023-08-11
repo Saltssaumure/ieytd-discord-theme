@@ -1,4 +1,5 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
 
 // Current event info
 .container-2Y4CWj {
@@ -9,18 +10,18 @@
     }
 
     .channelNotice-K4UfZY {
-        margin: $size-s $size-m 0;
-        background: $black;
+        @include card.xlarge;
+        margin: 0 $size-m $size-m;
         padding: $size-m;
-        border-radius: $size-m $size-m 0 0;
-        border: $size-s solid $cream;
-        border-bottom: 0;
+        background: $black;
 
-        --header-primary: #{$cream};
-        --header-secondary: #{$cream};
+        .closeIcon-1AEDhI,
+        .stageIcon-1Gi-1l {
+            color: $cream;
+        }
 
         .liveIndicator-TJKS7N {
-            background: $red;
+            background: $cream;
         }
 
         .liveNowText-v8cd6m {
@@ -29,8 +30,7 @@
 
         // Event Details button
         .joinButton-1HdI2a {
-            background: $cream;
-            border-radius: $size-max;
+            @include card.round;
         }
     }
 }

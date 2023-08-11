@@ -1,0 +1,19 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Form tag overflow menu
+.container-3kfp0r {
+    @include card.outer;
+
+    .headerLeft-9xKCbp {
+        gap: $size-m;
+    }
+    
+    .separator-13F3xT {
+        display: none;
+    }
+
+    .clear-2gkgln {
+        color: $cream;
+    }
+}
