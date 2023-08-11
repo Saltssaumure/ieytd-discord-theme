@@ -1,6 +1,7 @@
 @forward "./channeldetail";
 @forward "./emojipicker";
 @forward "./inbox";
+@forward "./languageselector";
 @forward "./menu";
 @forward "./pinned";
 @forward "./search";
@@ -22,7 +23,8 @@
 // Small popouts
 .popoutContainer-2wbmiM,
 .popout-TdhJ6Z,
-.menu-2TXYjN {
+.menu-2TXYjN,
+.languageSelector-2e1IuO {
     @include card.outer;
 }
 
