@@ -1,0 +1,100 @@
+@use "../top/vars" as *;
+@use "../top/card";
+@use "../top/filter";
+
+// Channels & Roles
+.appMount-2yBXZl .emptyPage-2TGR7j,
+.appMount-2yBXZl .scrollerContainer-y16Rs9,
+.appMount-2yBXZl .container-1um7CU,
+.scroller-1fIBSS {
+    background: unset;
+}
+
+// Customisation question
+.prompt-1sE27N {
+    @include card.large;
+    border-color: $cream !important;
+
+    // Required answer
+    .required-2b9vjX {
+        color: $red;
+        &.error-nWpAd- {
+            text-decoration-color: $red;
+        }
+    }
+
+    // Answer
+    .optionButtonWrapper-2lbogO {
+        @include card.round;
+
+        &.pressed-2AiKRB {
+            transform: none;
+        }
+
+        // Selected
+        .checkIcon-3eAeN_ {
+            position: relative;
+            top: 0;
+            right: 0;
+            margin-left: auto;
+            zoom: 1.5;
+            background: $cream;
+            path {
+                fill: $black;
+            }
+        }
+    }
+
+    // Role
+    .helpText-2SCsDl {
+        align-items: baseline;
+        div {
+            border-radius: $size-max;
+            border: 1px solid $cream;
+            padding: $size-s;
+        }
+    }
+}
+
+// Browse channels
+.search-kg4MrS {
+    @include card.round;
+}
+
+// Tip banner
+.container-27tlK1 {
+    @include card.large;
+
+    .image-I6enhm {
+        @include filter.sepia;
+    }
+
+    .closeButton-TVK2OG {
+        color: $cream;
+    }
+}
+
+// Channel
+.channelRow-4X_3fi {
+    @include card.large;
+
+    &:hover:not(.disabled-3cfocy) {
+        background: unset;
+    }
+
+    &:not(.firstChannel-3vAGDY) {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-top: 0;
+    }
+
+    &:not(.lastChannel-21yyBC) {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 0;
+    }
+}
+
+.separator-3vTHjS {
+    display: none;
+}
