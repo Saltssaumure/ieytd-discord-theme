@@ -41,7 +41,7 @@
 div:has(> .colorPickerRow-3eeqF3) {
     border: $size-xs solid $cream;
     border-radius: $size-m;
-    margin-top: 10px;
+    margin-top: $size-m;
     overflow: hidden;
 
     .colorPickerRow-3eeqF3 {

@@ -67,7 +67,8 @@ $spine-size: calc($icon-size / 1.5);
 }
 
 // Inverted when connected or selected
-.containerDefault-YUSmu3:has(.modeConnected-NrO4cP, .modeSelected-3DmyhH) {
+.containerDefault-YUSmu3:has(.modeConnected-NrO4cP, .modeSelected-3DmyhH),
+.containerDefault-YUSmu3.modeSelected-3DmyhH {
     background: $cream;
     border-color: $black !important;
 }

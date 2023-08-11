@@ -9,7 +9,7 @@
 .layer-86YKbF,
 .standardSidebarView-E9Pc3j {
     background: transparent;
-    gap: 10px;
+    gap: $size-m;
 }
 
 // Menu
@@ -21,7 +21,7 @@
     }
 
     .sidebar-nqHbhN {
-        padding: 0 0 10px;
+        padding: 0 0 $size-m;
 
         &::before {
             content: "";
@@ -91,7 +91,7 @@
     .socialLinks-3ywLUf {
         display: flex;
         justify-content: space-evenly;
-        margin-top: 10px;
+        margin-top: $size-m;
         .link-1-SDSV {
             color: $cream;
         }
