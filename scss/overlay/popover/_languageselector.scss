@@ -1,0 +1,21 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Select language on uploaded text file
+.languageSelector-2e1IuO {
+    .container-2oNtJn {
+        @include card.round;
+    }
+
+    .item-1Mjtru {
+        border-radius: $size-max;
+        color: $cream;
+        margin-bottom: 0;
+
+        &:hover:not(.disabled-Lzz-qs),
+        &.selected-3xdT87 {
+            background: $cream;
+            color: $black;
+        }
+    }
+}
