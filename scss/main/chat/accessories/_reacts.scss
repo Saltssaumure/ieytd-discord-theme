@@ -7,7 +7,7 @@
     &:hover {
         @include card.round;
 
-        .reactionCount-26U4As {
+        :is(.reactionCount-26U4As, .reactionCount-SWXh9W) {
             color: inherit;
         }
     }
@@ -27,15 +27,15 @@
         border-color: $red !important;
         background: $black !important;
 
-        .reactionCount-26U4As {
+        :is(.reactionCount-26U4As, .reactionCount-SWXh9W) {
             color: $red !important;
         }
 
         // Selected super react
-        &.reactionMe-1PwQAc {
+        &:is(.reactionMe-1PwQAc, .reactionMe-2zhiyZ) {
             background: $red !important;
 
-            .reactionCount-26U4As {
+            :is(.reactionCount-26U4As, .reactionCount-SWXh9W) {
                 color: $cream !important;
             }
         }

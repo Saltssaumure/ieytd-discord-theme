@@ -1,82 +1,24 @@
 @use "../top/vars" as *;
+@use "../top/card";
 
-// Threads (inc. forum posts and vc text chat)
+// Channel in split / floating view
 
-// Chat split bar
+// Split bar
 .resizeHandle-PBRzPC {
     background: $cream;
     width: $size-m;
 }
 
-// Main chat and thread
-.container-3XgAHv,
-.chat-2ZfjoI.threadSidebarOpen-1LSXvU {
-    border-radius: 0;
+// Split view
+.container-3XgAHv {
+    background: $black;
 }
 
-// Thread in floating view
+// Floating view
 .floating-3M3WeH {
+    @include card.outer;
+    inset: $size-l 0 $size-l auto;
     filter: none;
-    border-left: 0;
-
-    .container-ZMc96U {
-        border-left: $size-m solid $cream;
-    }
-}
-
-// Thread title handled by components/channel-header
-
-// Thread type icon
-.iconWrapper-3FqQ75 {
-    background: $red;
-}
-
-// Forum post controls
-.container-3YcgdM {
-    background: transparent;
-    border-top: 0;
-    --interactive-normal: $red;
-    --interactive-hover: $red;
-    --interactive-active: $red;
-
-    // Buttons
-    .reaction-102jx9,
-    .addReactButton-3bSQb6,
-    .buttonInner-3aRbcx {
-        background: transparent;
-        border: $size-xs solid $red;
-        border-radius: $size-max;
-    }
-
-    // Reaction
-    .reaction-102jx9 {
-        margin-bottom: 0;
-    }
-
-    // Reaction added
-    .reactionMe-2zhiyZ {
-        border-color: $cream;
-        margin-bottom: 4px;
-
-        .reactionCount-SWXh9W {
-            color: $cream;
-        }
-    }
-
-    // Followed post
-    .active-OdlCV-,
-    .active-OdlCV-:hover {
-        border-color: $cream;
-        color: $cream;
-    }
-}
-
-// Main post / replies divider
-.divider-AZrXIA {
-    background: transparent;
-}
-
-// Forum start the convo reminder
-.box-2iMsQm {
-    display: none;
+    border-radius: $size-xl 0 0 $size-xl;
+    border-right: 0;
 }

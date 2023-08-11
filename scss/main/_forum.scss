@@ -187,3 +187,45 @@
         }
     }
 }
+
+// Forum post controls
+.container-3YcgdM {
+    background: unset;
+    border-top: 0;
+
+    .addReactButton-3bSQb6 {
+        border: 0;
+        background: unset;
+        min-width: unset;
+
+        & .icon-fX2J7U,
+        &:hover .icon-fX2J7U {
+            color: $cream;
+        }
+    }
+
+    // Right side buttons
+    .buttonInner-3aRbcx {
+        @include card.round;
+
+        &.active-OdlCV- {
+            background: $cream;
+            color: $black;
+        }
+    }
+}
+
+// Channel type
+.iconWrapper-3FqQ75 {
+    display: none;
+}
+
+// Forum start conversation reminder
+.box-2iMsQm {
+    display: none;
+}
+
+// Forum OP / replies divider
+.divider-AZrXIA {
+    display: none;
+}

@@ -13,10 +13,20 @@
 }
 
 // Add to channel list bar
-.chatHeaderBar-31g1mU {
+:is(.chatHeaderBar-31g1mU, .chatHeaderBar-2fUORh) {
     background: $red;
-    .chatHeaderBarText-39jd01 {
+
+    &.narrow-2jjOvw {
+        padding: 8px 16px;
+    }
+
+    :is(.chatHeaderBarText-39jd01, .chatHeaderBarText-1yrbqv) {
         color: $black !important;
+    }
+
+    .button-ejjZWC {
+        height: 32px;
+        min-height: 32px;
     }
 }
 
