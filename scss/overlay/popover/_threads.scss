@@ -9,13 +9,24 @@
     @include card.outer;
 }
 
-.closeIcon-11tHJX,
-.threadIcon-rd1kqG {
-    color: $cream;
-}
+// Header
+.header-3_zmOb {
+    height: auto;
+    min-height: unset;
+    padding: 12px 16px;
 
-.divider-2xk5N2 {
-    display: none;
+    .searchBox-3IjAC1 {
+        @include card.round;
+    }
+
+    .closeIcon-11tHJX,
+    .threadIcon-rd1kqG {
+        color: $cream;
+    }
+
+    .divider-2xk5N2 {
+        display: none;
+    }
 }
 
 // Thread

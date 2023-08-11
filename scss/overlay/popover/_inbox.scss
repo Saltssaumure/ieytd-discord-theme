@@ -9,6 +9,12 @@
         color: $cream;
     }
 
+    .inboxTitle-EQkQZa {
+        font-family: var(--font-display);
+        font-size: 22px;
+        line-height: 26px;
+    }
+
     .friendRequestsButton-77veU7,
     .secondary-2bzKEX {
         @include card.round;
@@ -43,6 +49,11 @@
                 @include tabs.tab;
             }
         }
+
+        // New message
+        .circleBadge-yRqaN- {
+            background: $red !important;
+        }
     }
 }
 
@@ -50,10 +61,23 @@
 .channelHeader-DFRX8q {
     background: $black;
 
-    .channelNameSpan-1rY63L {
-        font-size: 18px;
-        line-height: 18px;
-        margin: -$size-s 0 0 $size-s;
+    .channelName-3APnhp {
+        svg {
+            zoom: 1.2;
+        }
+
+        .channelNameSpan-1rY63L {
+            font-size: 18px;
+            line-height: 24px;
+            margin: -$size-s 0 0 $size-s;
+        }
+    }
+
+    .dmIcon-1ZeAqq,
+    .guildIcon-IklRcj {
+        border-radius: $size-max;
+        border: $size-s solid $cream;
+        background: $red;
     }
 }
 
@@ -91,5 +115,16 @@
     &:hover:not(.disabled-184-il) {
         background: unset;
         color: $cream;
+    }
+}
+
+// No messages
+.iconContainer-33_6mP {
+    .icon-2yhmi8 {
+        color: $black;
+        background: $cream;
+    }
+    .stars-2vhEVR path {
+        fill: $cream;
     }
 }
