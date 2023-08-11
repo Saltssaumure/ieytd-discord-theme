@@ -1,0 +1,40 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+// Spoiler
+.spoilerContent-32CqO- {
+    // Text specific
+    .markup-eYLPri & {
+        @include card.round;
+        box-decoration-break: slice;
+        border-color: $red;
+    }
+
+    // Embed specific
+    .container-2sjPya & {
+        // Hidden spoiler
+        &.hidden-2lQZ5q {
+            &,
+            &:not(:focus) {
+                box-shadow: 0 0 0 $size-xs $red inset;
+            }
+        }
+
+        // Spoiler icon
+        .spoilerWarning-1JN1Ot {
+            background: $black;
+            color: $red;
+        }
+
+        // Immediate wrapper around content
+        .hiddenAttachment-1ujFOi.obscured-20kiwN {
+            filter: none;
+            visibility: hidden;
+        }
+    }
+
+    // Hidden spoiler
+    &.hidden-2lQZ5q {
+        background: repeating-linear-gradient(-45deg, $red, $red $size-xs, $black $size-xs, $black $size-m);
+    }
+}

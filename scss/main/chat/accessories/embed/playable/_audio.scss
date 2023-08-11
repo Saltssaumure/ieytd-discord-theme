@@ -1,0 +1,22 @@
+@use "../../../../../top/vars" as *;
+@use "../../../../../top/card";
+@use "../../../../../top/filter";
+
+// Audio embeds
+.appMount-2yBXZl .wrapperAudio-1Bzv_Z.newMosaicStyle-31sBoZ {
+    padding: 0;
+    overflow: visible;
+
+    .audioMetadata-1Hrt8T {
+        padding: $size-m $size-m 0;
+
+        &::before {
+            @include filter.sepia;
+        }
+
+        .metadataSize-2A2s1T {
+            color: $cream;
+            opacity: 0.7;
+        }
+    }
+}

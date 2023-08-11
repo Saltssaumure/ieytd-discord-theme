@@ -1,0 +1,13 @@
+@use "../../../../top/vars" as *;
+@use "../../../../top/card";
+@use "../../../../top/filter";
+
+// File upload embed
+.attachment-1PZZB2 {
+    .icon-1KCy88 {
+        @include filter.sepia;
+    }
+    .metadata-1E7Z4i {
+        color: $cream;
+    }
+}

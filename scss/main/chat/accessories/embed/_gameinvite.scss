@@ -1,0 +1,41 @@
+@use "../../../../top/vars" as *;
+@use "../../../../top/card";
+@use "../../../../top/filter";
+
+// Game invite / listening party embed
+.invite-3uuHYQ {
+    // Text
+    .header-1Fx4D1,
+    .partyStatus-2-VcyG,
+    .name-QjR4Jk {
+        color: $cream;
+    }
+
+    // Links
+    .textLink-_PElWP,
+    .message-group .textLink-_PElWP {
+        color: $red;
+    }
+
+    // Party members
+    .partyMemberEmpty-GtlQ_s,
+    .moreUsers-3PdGZN {
+        background: $cream;
+        color: $black;
+        opacity: 0.7;
+    }
+
+    // Session over
+    .coverImageNotActionable-3_d2tn,
+    .artworkSpotifySessionEnded-D18iXB {
+        @include filter.sepia;
+    }
+
+    // Help
+    .helpIcon-24pk1Z {
+        background: $cream;
+        g {
+            fill: $black;
+        }
+    }
+}

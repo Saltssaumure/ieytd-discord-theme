@@ -1,0 +1,11 @@
+@use "vars" as *;
+
+// Dot in offline status
+@mixin dot {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: $size-max;
+    background: $black;
+}
