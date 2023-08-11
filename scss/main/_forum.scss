@@ -123,6 +123,15 @@
     }
 }
 
+// Selected tags count
+:is(.countContainer-3uQ087, .countContainer-3DOo5v) {
+    background: $cream;
+    margin-left: 0;
+    :is(.countText-1d5thl, .countText-35ewVE) {
+        color: $black;
+    }
+}
+
 // Post
 .container-q2_DnH {
     &:hover {
@@ -149,5 +158,32 @@
 
     .bullet-D4Ib09 {
         display: none;
+    }
+}
+
+// Loading post
+.loadingCard-3pIp9h {
+    @include card.xlarge;
+    opacity: 0.3;
+}
+
+// No posts with tag
+.container-2nXUah {
+    background: unset;
+
+    .stars-35huiV path {
+        fill: $cream;
+    }
+
+    .icon-2ujrkG {
+        background: $cream;
+        color: $black;
+    }
+
+    .cta-1ioHap {
+        &,
+        &:hover {
+            color: $red;
+        }
     }
 }

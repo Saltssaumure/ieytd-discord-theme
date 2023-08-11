@@ -5,6 +5,12 @@
 $icon-size: calc(20px + 6px);
 $spine-size: calc($icon-size / 1.5);
 
+// Category
+.wrapperCommon-I1TMDb {
+    align-items: baseline;
+    color: $black;
+}
+
 // Channel
 .containerDefault-YUSmu3 {
     background: $black;
@@ -41,7 +47,7 @@ $spine-size: calc($icon-size / 1.5);
 }
 
 // Names and icons
-:is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl, .overflow-1wOqNV) {
+:is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl) {
     color: $cream;
 }
 
@@ -53,7 +59,7 @@ $spine-size: calc($icon-size / 1.5);
 // Red when muted
 .modeMuted-2T4MDZ,
 .modeMuted-2T4MDZ:hover {
-    :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl, .overflow-1wOqNV) {
+    :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl) {
         color: $red;
     }
 }
@@ -61,7 +67,7 @@ $spine-size: calc($icon-size / 1.5);
 // Cream when unread
 .modeUnread-3Cxepe,
 .modeUnread-3Cxepe:hover {
-    :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl, .overflow-1wOqNV) {
+    :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl) {
         color: $cream;
     }
 }
@@ -76,7 +82,7 @@ $spine-size: calc($icon-size / 1.5);
 :is(.modeConnected-NrO4cP, .modeSelected-3DmyhH) {
     &,
     &:hover {
-        :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl, .overflow-1wOqNV) {
+        :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl) {
             color: $black;
         }
     }

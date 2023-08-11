@@ -2,7 +2,7 @@
 @use "../../../top/card";
 
 // Reacts
-.reaction-3vwAF2 {
+:is(.reaction-3vwAF2, .reaction-102jx9) {
     &,
     &:hover {
         @include card.round;
@@ -13,11 +13,11 @@
     }
 
     // Selected react
-    &.reactionMe-1PwQAc {
+    &:is(.reactionMe-1PwQAc, .reactionMe-2zhiyZ) {
         border-color: $cream;
         background: $cream;
 
-        .reactionCount-26U4As {
+        :is(.reactionCount-26U4As, .reactionCount-SWXh9W) {
             color: $black;
         }
     }
