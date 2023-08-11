@@ -4,7 +4,7 @@
 
 // Settings menu list
 .bd-sidebar-header {
-    padding: 6px 10px;
+    padding: 6px $size-m;
     justify-content: center;
 
     .bd-sidebar-header-label {
@@ -131,7 +131,7 @@
     .bd-view-button {
         border-radius: 0;
         border: 0;
-        padding: 0 10px;
+        padding: 0 $size-m;
         transition: background 0.3s;
 
         svg {
@@ -193,7 +193,7 @@
 
             & > .bd-addon-button {
                 border: 0;
-                padding: 5px 10px;
+                padding: 5px $size-m;
                 background: $black;
 
                 svg {
