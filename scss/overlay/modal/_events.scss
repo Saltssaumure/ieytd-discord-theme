@@ -1,0 +1,164 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// Server events
+
+// Header
+.header-1ffhsl {
+    .divider-2_8P_2 {
+        visibility: hidden;
+        margin-left: 0;
+    }
+
+    // Events icon
+    .icon-3DnmvF,
+    .iconButton-2rHy7x:hover .icon-3DnmvF {
+        color: $cream;
+    }
+}
+
+// Event demo
+.sparkleIcon-aHefnO {
+    @include filter.sepia;
+}
+.circle-2tR2Qh,
+.iconContainer-36kI2p {
+    background: $cream;
+}
+.icon-1DBCvl,
+.icon-UTJvnX {
+    color: $black;
+}
+
+// Event icon
+.eventStatusBrand-3D-ae6 {
+    color: $cream;
+}
+
+// Event creator
+
+// Steps
+.stepContainer-3L3EXG {
+    cursor: pointer;
+
+    // Text
+    .colorMuted-1jNaVo {
+        color: $cream;
+    }
+    .colorBrand-3Xb6JG {
+        color: $red;
+    }
+
+    // Bars
+    .progressBar-18rmp1 {
+        background: $cream;
+
+        &.selectedProgressBar-11z5d9 {
+            background: $red;
+        }
+    }
+}
+
+// Start date calendar icon
+.icon-2Ljeb8 {
+    color: $cream;
+}
+
+// More menu options
+.icon-12Gd96 {
+    color: $cream;
+}
+
+// Calendar popout
+.didRender-2dwLEv .calendarPicker-sDhzdi {
+    @include card.outer;
+}
+
+// Upload image
+.imageUploaderHint-33zkjZ {
+    color: $cream;
+}
+
+// Edit image
+.overlay-2-HuaL {
+    box-shadow: 0 0 200px $black;
+    border-color: $cream;
+}
+.icon-3CEl7H {
+    color: $cream;
+}
+
+// Event card
+:is(.appMount-2yBXZl .previewCard-E137i2, .card-8UsK4b) {
+    @include card.med;
+
+    // New event
+    .newBadge-3QiMZJ {
+        div {
+            color: $black !important;
+        }
+    }
+
+    // People count
+    .rsvpCount-iCkObl {
+        background: $cream;
+
+        .rsvpIcon-1R5Esx {
+            color: $black;
+        }
+        div {
+            color: $black !important;
+        }
+    }
+
+    // Channel
+    .channelContainer-7uiQGJ {
+        color: $cream;
+    }
+
+    .divider-2zyEHJ {
+        display: none;
+    }
+}
+
+// Close event creator
+.close-2oihA7 {
+    &,
+    &:hover {
+        color: $cream;
+    }
+}
+
+// Close full event info
+.closeIconBanner-2Kvk6- {
+    &,
+    .closeButton-3xPRc3:focus &,
+    .closeButton-3xPRc3:hover & {
+        color: $black;
+        background: $cream;
+        border-radius: $size-max;
+    }
+}
+
+// Full event info
+// Tabs
+.container-3EBHNg {
+    border-bottom: $size-xs solid $cream;
+    background: $red;
+}
+
+// Description
+.contentContainer-BWAau5 {
+    background: unset;
+
+    .row-3J8X6C,
+    .listRow-3v94Wr {
+        color: $cream;
+    }
+
+    // username
+    .creator-qZpi-N {
+        font-family: var(--font-display);
+    }
+}
