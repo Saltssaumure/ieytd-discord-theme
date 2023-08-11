@@ -34,21 +34,8 @@
 
     // Tabs
     .topPill-2vcLsa {
-        @include tabs.bar($ISBORDER: false);
         padding-top: 16px;
         padding-left: 0;
-
-        .item-2GWPIy {
-            &,
-            &:hover:not(.disabled-2G98Nl) {
-                @include tabs.tab($ISINVERT: true);
-            }
-
-            &.selected-1sf9UK,
-            &.selected-1sf9UK:hover:not(.disabled-2G98Nl) {
-                @include tabs.tab;
-            }
-        }
 
         // New message
         .circleBadge-yRqaN- {

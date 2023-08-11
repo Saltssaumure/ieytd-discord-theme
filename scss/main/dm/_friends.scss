@@ -1,7 +1,26 @@
 @use "../../top/vars" as *;
 @use "../../top/card";
+@use "../../top/tabs";
+@use "../../top/filter";
 
 // Friends panel
+
+// Header
+.container-ZMc96U {
+    .topPill-2vcLsa {
+        padding-top: 0;
+        position: relative;
+        margin-bottom: -9px;
+    }
+
+    .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1 {
+        @include tabs.tab($ISINVERT: true);
+
+        &[aria-selected="true"] {
+            @include tabs.tab;
+        }
+    }
+}
 
 // Main panel
 .peopleColumn-1wMU14 {
@@ -45,8 +64,7 @@
             .peopleListItem-u6dGxF.active-2UF8Zh + .peopleListItem-u6dGxF,
             .peopleListItem-u6dGxF:hover + .peopleListItem-u6dGxF
         ) {
-        border: $size-xs solid $cream;
-        border-radius: $size-l;
+        @include card.large;
         margin: 0 $size-m;
         padding: 16px $size-m;
 
@@ -75,6 +93,44 @@
             }
         }
     }
+
+    .header-30YxSJ {
+        border-bottom: 0;
+
+        // Add friend search
+        .addFriendInputWrapper-kkoSV9 {
+            padding: 0;
+            background: unset;
+            border: 0;
+        }
+
+        .input-1bmui3 {
+            padding-left: $size-m;
+        }
+    }
+
+    // Explore discoverable
+    .container-3tKtM_ {
+        @include card.round;
+        padding: 0;
+
+        .icon-2O29O0 {
+            border-radius: $size-max;
+            @include filter.sepia;
+        }
+
+        .arrow-3Bdb2W {
+            &,
+            &:hover {
+                color: $cream;
+            }
+        }
+    }
+
+    // No friends
+    .image-20MDYu {
+        @include filter.sepia;
+    }
 }
 
 // Active now sidebar
@@ -98,10 +154,9 @@
 
     // User card
     .itemCard-3Etziu {
-        background: $black;
-        border-radius: $size-xl;
-        border: $size-s solid $cream;
+        @include card.xlarge;
 
+        &,
         &.outer-2JOHae:hover {
             background: $black;
         }
@@ -124,6 +179,16 @@
         .defaultColor-1EVLSt,
         .textContent-TsKzji {
             color: $cream !important;
+        }
+    }
+
+    // No activity
+    .emptyCard-KDifrB {
+        @include card.xlarge;
+        background: $black;
+
+        .emptyText-29ycwI {
+            color: $cream;
         }
     }
 }

@@ -15,3 +15,19 @@
         @include tabs.tab($ISINVERT: true);
     }
 }
+
+.topPill-2vcLsa {
+    @include tabs.bar($ISBORDER: false);
+
+    .item-2GWPIy.themed-qqoYp3 {
+        &,
+        &:hover:not(.disabled-2G98Nl) {
+            @include tabs.tab($ISINVERT: true);
+        }
+
+        &.selected-1sf9UK,
+        &.selected-1sf9UK:hover:not(.disabled-2G98Nl) {
+            @include tabs.tab;
+        }
+    }
+}
