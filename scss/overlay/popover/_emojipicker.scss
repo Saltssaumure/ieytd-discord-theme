@@ -1,6 +1,8 @@
 @use "../../top/vars" as *;
 @use "../../top/card";
 @use "../../top/tabs";
+@use "../../top/filter";
+@use "../../top/svg";
 
 .contentWrapper-3vHNP2,
 .contentWrapper-2f9yME,
@@ -152,22 +154,58 @@
         }
     }
 
-    // Emoji
+    // Emoji selector
     .emojiItem-277VFM.emojiItemSelected-2Lg50V {
-        @include card.round;
+        @include card.med;
         overflow: visible;
         padding: 2px;
     }
 
-    // Loading
+    // Emoji image
+    .image-3tDi44,
     .imageLoading-2uloYN {
-        @include card.round;
+        border-radius: $size-m;
     }
 
-    // Sticker
+    // Sticker selector
     .stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {
-        @include card.round;
+        @include card.med;
         box-sizing: border-box;
+    }
+
+    // Sticker image
+    .stickerAsset-4c7Oqy {
+        border-radius: $size-m;
+    }
+
+    // Create sticker
+    :is(.createInspected-3KhI7n, .createSticker-y-_Ug2) {
+        background: $black;
+
+        .iconWrapper-Tkg0P1 {
+            background: $cream;
+            color: $black;
+        }
+    }
+
+    // Loading
+    .error-3CkqkL,
+    .loadingIndicator-3fKdTZ,
+    .imageLoading-2uloYN {
+        background: $cream;
+        opacity: 0.3;
+    }
+
+    .assetWrapperMasked-1iw9lV,
+    .loadingIndicator-3fKdTZ {
+        mask: none;
+    }
+
+    // Unsendables
+    .stickerUnsendable-PkQAxI,
+    .emojiItemDisabled-3VVnwp {
+        @include filter.sepia;
+        opacity: 0.7;
     }
 }
 
@@ -203,4 +241,22 @@
 // Emoji info
 .inspector-DFKXwB {
     background: $red;
+}
+
+// No nitro
+.premiumPromo-1eKAIB {
+    background: $black;
+
+    .premiumPromoTitle-3tWrPT,
+    .premiumPromoDescription-1kf0Oa {
+        color: $cream;
+    }
+
+    .premiumPromoImage-2q0gnA {
+        @include filter.sepia;
+    }
+
+    .premiumPromoClose-Nuntxy {
+        background-image: svg.$close;
+    }
 }
