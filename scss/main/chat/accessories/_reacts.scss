@@ -1,24 +1,53 @@
 @use "../../../top/vars" as *;
+@use "../../../top/card";
 
 // Reacts
 .reaction-3vwAF2 {
-    background: $black;
-    border: $size-xs solid $red;
-    border-radius: $size-max;
-    --interactive-normal: $red;
-    --interactive-hover: $red;
-    --interactive-active: $red;
-
+    &,
     &:hover {
-        background: $black;
-        border: $size-xs solid $red;
-    }
-
-    &.reactionMe-1PwQAc {
-        border-color: $cream;
+        @include card.round;
 
         .reactionCount-26U4As {
-            color: $cream;
+            color: inherit;
         }
+    }
+
+    // Selected react
+    &.reactionMe-1PwQAc {
+        border-color: $cream;
+        background: $cream;
+
+        .reactionCount-26U4As {
+            color: $black;
+        }
+    }
+
+    // Super react
+    &[style*="background"] {
+        border-color: $red !important;
+        background: $black !important;
+
+        .reactionCount-26U4As {
+            color: $red !important;
+        }
+
+        // Selected super react
+        &.reactionMe-1PwQAc {
+            background: $red !important;
+
+            .reactionCount-26U4As {
+                color: $cream !important;
+            }
+        }
+    }
+}
+
+// Add reacts button
+.reactionBtn-3I19bq {
+    visibility: visible;
+
+    &,
+    &:hover .icon-1q31jb {
+        color: $cream;
     }
 }

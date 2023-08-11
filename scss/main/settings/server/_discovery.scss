@@ -1,6 +1,7 @@
 @use "../../../top/vars" as *;
 @use "../../../top/filter";
 @use "../../../top/card";
+@use "../../../top/status";
 
 // Preview
 .sparkles-1JOsCC {
@@ -34,12 +35,7 @@
         background: $cream;
 
         &::before {
-            content: "";
-            display: block;
-            width: 4px;
-            height: 4px;
-            border-radius: $size-max;
-            background: $black;
+            @include status.dot;
         }
     }
 }

@@ -28,20 +28,14 @@
             }
 
             &.hljs {
-                border: $size-xs solid $red;
-                border-radius: 15px;
+                border: $size-xs dashed $cream;
+                border-radius: $size-m;
             }
         }
 
-        // Spoiler
-        .spoilerContent-32CqO- {
-            @include card.round;
-            border-color: $red;
-            box-decoration-break: slice;
-
-            &.hidden-2lQZ5q {
-                background: repeating-linear-gradient(-45deg, $red, $red $size-xs, $black $size-xs, $black $size-m);
-            }
+        // Quote
+        .blockquoteDivider-363utW {
+            background: $cream;
         }
 
         // Edited

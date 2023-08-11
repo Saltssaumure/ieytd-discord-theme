@@ -1,0 +1,22 @@
+@use "../../../../top/vars" as *;
+@use "../../../../top/card";
+@use "../../../../top/filter";
+
+// Gift embed
+.giftCodeContainer-3ObH0O {
+    // Text
+    .description-X8_53U,
+    .tagline-3DhQWg {
+        color: $cream;
+    }
+
+    // Gift image
+    .media-1cVFCz {
+        background-color: $red;
+
+        // Expired gift
+        .invalidPoop--w1123 {
+            @include filter.sepia;
+        }
+    }
+}
