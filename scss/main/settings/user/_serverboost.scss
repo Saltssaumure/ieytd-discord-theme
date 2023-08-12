@@ -90,9 +90,9 @@
 }
 
 // Table
-.tierComparisonTable-1gMWkk {
-    .booleanValueIcon-1Z365i,
-    .booleanValueTrue-10iIhi {
+.tierComparisonTable-1gMWkk,
+.tierComparisonTable-13SiXF {
+    .booleanValueIcon-1Z365i {
         color: $cream;
     }
 
@@ -121,11 +121,9 @@
 // FAQ
 .faq-29l_f8 {
     @include card.large;
-
-    .list-3omFaz {
-        border-top: 0;
-    }
-
+}
+.list-3omFaz {
+    border-top: 0;
     .listItem-2_Y_Te {
         border-bottom: 0;
 

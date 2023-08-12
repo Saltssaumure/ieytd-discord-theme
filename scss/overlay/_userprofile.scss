@@ -29,7 +29,27 @@
     border-radius: 0;
 }
 
+// View full profile
+.avatarHintInner-2HUAWj {
+    color: $cream;
+}
+
+.avatarWrapper-eenWra {
+    left: 22px + $size-s;
+
+    circle {
+        fill: unset;
+    }
+}
+.avatarPositionNormal-2jWoC2 {
+    top: 16px + $size-s;
+}
+.avatarPositionPremiumBanner-2EAbSH {
+    left: 21px;
+}
+
 // Profile badges
+.profileBadges-2pItdR,
 .badgeList-2aoHPw {
     @include card.round;
 }
@@ -53,6 +73,23 @@
 // Status
 .customStatus-19KW6v {
     color: $cream;
+}
+
+// Activity detailed
+// Spotify timebar
+:is(.timeBarUserPopout-qLXZaR, .timeBarUserPopoutV2-32DL06) {
+    .bar-1GpknY {
+        @include card.round;
+    }
+
+    .barInner-3dHef4 {
+        background: $cream;
+    }
+
+    .textLeft-1Noen0,
+    .textRight-2IW704 {
+        color: $cream;
+    }
 }
 
 // Divider
@@ -120,7 +157,15 @@
 
 // Activity
 .appMount-2yBXZl :is(.activityProfile-1712BN, .activityProfileV2-1N7pee, .activityUserPopout-2MzGCj, .activityUserPopoutV2-3eKqzY) {
-    :is(.activityName-3YXl6e, .content-tXPNDw, .details-2-ciHo, .name-1-Q7l2, .nameNormal-2fPMD2, .nameWrap-3TyM52) {
+    :is(
+            .activityName-3YXl6e,
+            .content-tXPNDw,
+            .details-2-ciHo,
+            .name-1-Q7l2,
+            .nameNormal-2fPMD2,
+            .nameWrap-3TyM52,
+            .activityUserPopoutV2-3eKqzY .headerText-3g1XK9
+        ) {
         color: $cream;
     }
 }
