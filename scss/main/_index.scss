@@ -1,6 +1,7 @@
 @forward "./channelsroles";
 @forward "./chat";
 @forward "./channels";
+@forward "./discover";
 @forward "./dm";
 @forward "./forum";
 @forward "./header";
@@ -49,7 +50,9 @@
     }
 
     // Main chat
-    .chat-2ZfjoI {
+    .chat-2ZfjoI,
+    .pageWrapper-2PwDoS,
+    .sidebar-1tnWFu + .scroller-RfJjkV {
         border-radius: 0 $size-l $size-l 0;
     }
 
@@ -66,7 +69,9 @@
         border-top-left-radius: 0;
     }
 
-    .chat-2ZfjoI {
+    .chat-2ZfjoI,
+    .pageWrapper-2PwDoS,
+    .sidebar-1tnWFu + .scroller-RfJjkV {
         border-top-right-radius: 0;
     }
 
