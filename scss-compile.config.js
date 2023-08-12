@@ -2,7 +2,7 @@
 export default {
     meta: {
         /** The official name of your theme. */
-        name: "IEYTD",
+        name: "Tritone",
         /** The name of your base scss file. */
         scss: "ieytd",
         /** The name of your theme repository. */
