@@ -1,0 +1,37 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Emoji info
+
+// Loading
+.popoutLoadingForeground-3xnRkg {
+    background: $cream;
+    opacity: 0.3;
+}
+
+// Server info
+.guildSection-2Zyzy8 {
+    background: $cream;
+    padding: $size-m;
+
+    .svg-lIB-lq {
+        border-radius: $size-max;
+        border: $size-xs solid $black;
+        background: $red;
+        width: 40px;
+        height: 40px;
+    }
+
+    .guildTitle-1yMWvh,
+    .defaultColor-1EVLSt {
+        color: $black;
+    }
+
+    .text-xs-normal-3O7EaX {
+        color: $black !important;
+    }
+
+    foreignObject {
+        mask: none;
+    }
+}

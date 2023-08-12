@@ -1,0 +1,37 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Status menu on clicking user panel
+
+// Online status
+.statusItem-38ArJn {
+    .description-1Dd2kv {
+        display: none;
+    }
+}
+
+// Account switcher
+.userMenuItem-2pMhk- {
+    .activeIcon-1ykRnF {
+        circle {
+            fill: $black;
+        }
+        path {
+            fill: $cream;
+        }
+    }
+}
+.focused-3RdCfX {
+    .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
+    .userMenuUsername-2xdVcJ .userMenuText-2e3Dry {
+        color: $black;
+    }
+    .activeIcon-1ykRnF {
+        circle {
+            fill: $cream;
+        }
+        path {
+            fill: $black;
+        }
+    }
+}

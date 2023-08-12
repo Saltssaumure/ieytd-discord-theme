@@ -14,3 +14,26 @@
     @include card.large;
     width: fit-content;
 }
+
+// Action buttons
+.hoverButtonGroup-2yZIzC {
+    border-radius: $size-max;
+    background: $cream;
+
+    .removeAttachmentHoverButton-3gHROs:hover,
+    .keyboard-mode .removeAttachmentHoverButton-3gHROs:focus {
+        background: $red;
+    }
+
+    .hoverButton-36QWJk {
+        color: $black;
+    }
+}
+.hoverButtonGroup-2yZIzC:hover,
+.removeAttachmentButton-1iO1qS:focus-within,
+.removeAttachmentButton-1iO1qS:hover,
+.keyboard-mode .hoverButtonGroup-2yZIzC:focus-within,
+:hover + .hoverButtonGroup-2yZIzC,
+:hover + .removeAttachmentButton-1iO1qS {
+    opacity: 0.8;
+}

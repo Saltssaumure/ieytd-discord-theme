@@ -1,0 +1,30 @@
+@use "../top/vars" as *;
+@use "../top/card";
+
+.vc-addon-card {
+    @include card.large;
+
+    &:hover {
+        background: unset;
+        transform: none;
+    }
+}
+
+.vc-plugins-info-button {
+    &.button-12Fmur,
+    svg:not(:hover, :focus) {
+        color: $cream;
+    }
+}
+
+.vc-settings-donate {
+    .contents-3NembX {
+        color: $cream;
+    }
+    .lookLink-13iF2K.colorTransparent-2SBJ8- {
+        @include card.round;
+        transform: none !important;
+        position: absolute;
+        bottom: 1em;
+    }
+}

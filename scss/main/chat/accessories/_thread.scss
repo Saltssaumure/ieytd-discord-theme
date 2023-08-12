@@ -28,7 +28,7 @@
             font-style: oblique;
             font-size: 1rem;
             overflow: visible;
-            @include filter.shadow(1px);
+            @include filter.shadow($size-xxs);
         }
 
         // Message count
