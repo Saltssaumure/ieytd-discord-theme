@@ -35,6 +35,10 @@
             @include button.button(var(--profile-gradient-primary-color), $cream, var(--profile-gradient-secondary-color));
         }
 
+        &.buttonColor-_0gSD_ {
+            @include button.button($black, $cream);
+        }
+
         &.viewServerButton-29xbQE {
             @include button.button($black, $cream);
         }

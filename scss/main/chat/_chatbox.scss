@@ -1,5 +1,6 @@
 @use "../../top/vars" as *;
 @use "../../top/card";
+@use "../../top/filter";
 
 // Chatbox
 .form-3gdLxP::before {
@@ -25,6 +26,16 @@
         .closeButton-3IEry2 {
             color: $cream;
         }
+    }
+}
+
+// Follow channel only
+.wrapper-2SplAX {
+    @include card.outer;
+    border-radius: $size-max;
+
+    .image-3FliiM {
+        @include filter.sepia;
     }
 }
 
