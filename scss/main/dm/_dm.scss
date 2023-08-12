@@ -1,0 +1,70 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// DM with user
+
+//
+.divider-2BCfFf {
+    display: none;
+}
+
+// Wave to user
+.compactButton-3hG-bs,
+.compactButtonDisabled-MwB2d6 {
+    @include card.round;
+}
+.compactButton-3hG-bs:hover {
+    background: $black;
+}
+
+// Channel name change message
+.channelNameChange-3n17Mf {
+    color: $cream;
+    .content-vSHmMD {
+        align-items: baseline;
+    }
+
+    strong {
+        font-family: var(--font-display);
+    }
+}
+
+// Actions
+.iconContainer-2rPbqG {
+    @include filter.sepia;
+}
+
+// Profile panel
+.profilePanel-2VBkh8 {
+    border-left: $size-m solid $cream;
+
+    .userPanelInnerThemed-3YO1BB {
+        background: $black;
+    }
+
+    .badgeList-2hF9ig {
+        background: unset;
+    }
+
+    // Mutual connections
+    .profilePanelConnections-1tVK8j {
+        gap: $size-m;
+
+        .mutualFriendsList-2bD7qC,
+        .mutualGuildsList-3uBUvR {
+            @include card.xlarge;
+            width: auto;
+        }
+
+        .iconWrapper-2NoNF1 {
+            color: $cream;
+        }
+
+        .icon-1zKOXL {
+            border-radius: $size-max;
+            background-color: $red;
+            border: $size-xs solid $cream;
+        }
+    }
+}

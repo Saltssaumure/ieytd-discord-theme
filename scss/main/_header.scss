@@ -1,7 +1,7 @@
 @use "../top/vars" as *;
 @use "../top/filter";
 
-// Channel (and thread) header
+// Channel header
 .container-ZMc96U.themed-Hp1KC_ {
     background: $red;
     border-bottom: $size-s solid $cream;
@@ -10,6 +10,11 @@
     .children-3xh0VB {
         overflow: visible;
         align-items: flex-end;
+    }
+
+    // User icon
+    .avatar-31d8He::before {
+        background: $cream;
     }
 
     // Channel name

@@ -1,4 +1,5 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
 @use "../../top/filter";
 
 .applicationStore-2nk7Lo .scroller-29cQFV {
@@ -12,7 +13,9 @@
 }
 
 .ctaWrapper-4Js5Q6,
-.ctaButtonInner-2VRelf {
+.ctaButtonInner-2VRelf,
+.checkmarkIcon-21vhV_,
+.closeIcon-3aZ-RA {
     color: $cream;
 }
 
@@ -34,7 +37,11 @@
 .heroLogo-2rSeWP,
 .ctaWrapperTier2-1hk2M8 .ctaImages-1s97vM,
 .ctaWrapperTier0-1GlgHE .ctaImages-1s97vM,
-.featureImage-91H2fC {
+.featureImage-91H2fC,
+.root-1F1IKT,
+.wumpusImageContainer-ZGD_8q,
+.perksCardArt-3pjOfB,
+.logo-35nkkB {
     @include filter.sepia;
 }
 
@@ -56,5 +63,43 @@
 
     .learnMoreLink-2JwgbJ {
         color: $red;
+    }
+}
+
+.tier0-17mYUd,
+.tier2-qNjKTW,
+.bigPerkCard-1uwmWV,
+.smallPerkCard-2sX_-- {
+    @include card.xlarge;
+    background: $black;
+    overflow: visible;
+}
+
+.tier0-17mYUd.withTier0Rim-1tmLWO::before,
+.tier2-qNjKTW.withTier2Rim-3u3Nwn::before {
+    display: none;
+}
+
+.rowBottomBorder-3HkIZv {
+    border-bottom: 0;
+}
+
+.tier2ColumnOuter-1U2eKO {
+    border-color: $red;
+}
+
+.bogoPillWithSparkles-2cfttm,
+.freeTrialPillWithSparkles-3fINgJ,
+.freeTrialPillWithSparkles-5xhJd7 {
+    path {
+        fill: $cream;
+    }
+
+    .freeTrialPill-3htcnO {
+        background: $red;
+
+        div {
+            color: $black;
+        }
     }
 }

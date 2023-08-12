@@ -120,10 +120,21 @@ $spine-size: calc($icon-size / 1.5);
 .channelInfo-3jN1ay {
     --text-muted: #{$cream};
     --text-brand: #{$cream};
+}
+// Mention badge
+.numberBadge-37OJ3S {
+    background: $red !important;
+    color: $black;
+    padding-left: 2px;
+    padding-bottom: 5px;
+}
 
-    // Mention badge
-    .numberBadge-37OJ3S {
-        background: $red !important;
+// Events tab
+.content-2V2neN {
+    align-items: center;
+
+    .numberBadge-3uSQY0 {
+        background: $red;
         color: $black;
         padding-left: 2px;
         padding-bottom: 5px;

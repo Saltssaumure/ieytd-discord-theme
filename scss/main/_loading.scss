@@ -2,5 +2,35 @@
 
 // Discord loading
 .container-2RRFHK {
-    background: $cream;
+    background: linear-gradient($black, $red);
+    opacity: 0.7 !important;
+
+    .content-3AIQZv {
+        border-radius: $size-max;
+        background: linear-gradient($cream, transparent);
+        img {
+        }
+
+        .tipTitle-3FYEQp {
+            font-family: var(--font-display);
+            font-size: 24px;
+            line-height: 36px;
+            &::after {
+                content: "?";
+            }
+        }
+
+        .tipTitle-3FYEQp,
+        .tip-1AwED_ {
+            color: $cream;
+        }
+    }
+
+    .problems-CvGwpb {
+        .problemsText-1DBHh5,
+        .links-30fqF9,
+        .icon-2qL2MI {
+            color: $cream;
+        }
+    }
 }

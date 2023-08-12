@@ -69,7 +69,7 @@
         padding: 16px $size-m;
 
         // Text
-        :is(.username-Qpc78p, .discriminator-WV5K5s, .text-MPIeXO, .icon-Lupfh-, .icon-1WVg4I) {
+        :is(.username-Qpc78p, .discriminator-WV5K5s, .text-MPIeXO, .icon-Lupfh-, .icon-1WVg4I, .subtext-xfubwR) {
             color: $cream;
         }
 
@@ -126,11 +126,11 @@
             }
         }
     }
+}
 
-    // No friends
-    .image-20MDYu {
-        @include filter.sepia;
-    }
+// No friends
+.image-20MDYu {
+    @include filter.sepia;
 }
 
 // Active now sidebar

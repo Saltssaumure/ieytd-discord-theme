@@ -9,6 +9,7 @@
 .userProfileOuter-2tQwNf,
 .userProfileInnerThemedNonPremium-2AJg-H,
 .userProfileInnerThemedWithBanner-25XGmz,
+.userProfileInnerThemedPremiumWithoutBanner-lZ9inp,
 .overlayBackground-2aa7wt {
     background: $black;
 }
@@ -29,8 +30,7 @@
 }
 
 // Profile badges
-.badgeList-2aoHPw,
-.profileBadges-2pItdR {
+.badgeList-2aoHPw {
     @include card.round;
 }
 
@@ -100,6 +100,9 @@
 .note-3M15gE textarea {
     border-radius: $size-l;
 }
+.note-1NN2aP .inputDefault-Ciwd-S {
+    border-radius: $size-m;
+}
 
 // Send DM
 .messageInputContainer-24qqTx {
@@ -127,6 +130,14 @@
     color: $cream;
     &:hover {
         background: $black;
+    }
+
+    .listAvatar-2bU5Uh {
+        border-radius: $size-max;
+    }
+
+    .guildNick-fe8oPN {
+        color: $cream;
     }
 }
 

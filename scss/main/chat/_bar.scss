@@ -1,18 +1,8 @@
 @use "../../top/vars" as *;
 
 // Bars
-.jumpToPresentBar-1cEnH0,
-.newMessagesBar-1hF-9G {
-    border: $size-s solid $black;
-    background: $cream;
-    opacity: 1;
 
-    .barButtonBase-Sk2mdB {
-        color: $black;
-    }
-}
-
-// Add to channel list bar
+// Full width bars
 :is(.chatHeaderBar-31g1mU, .chatHeaderBar-2fUORh) {
     background: $red;
 
@@ -30,7 +20,20 @@
     }
 }
 
-// New messages bar
+// Scooped bars
+.jumpToPresentBar-1cEnH0,
+.newMessagesBar-1hF-9G,
+.messagesErrorBar-1IQ1rH {
+    border: $size-s solid $black;
+    background: $cream;
+    opacity: 1;
+
+    .barButtonBase-Sk2mdB {
+        color: $black;
+    }
+}
+
+// Top bars
 .newMessagesBar-1hF-9G {
     border-top: none;
     border-radius: 0 0 $size-l $size-l;
@@ -41,8 +44,9 @@
     }
 }
 
-// Jump to present bar
-.jumpToPresentBar-1cEnH0 {
+// Bottom bars
+.jumpToPresentBar-1cEnH0,
+.messagesErrorBar-1IQ1rH {
     border-bottom: none;
     border-radius: $size-l $size-l 0 0;
     bottom: -20px;

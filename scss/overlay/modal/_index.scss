@@ -2,8 +2,10 @@
 @forward "./createserver";
 @forward "./events";
 @forward "./forumdemo";
+@forward "./invite";
 @forward "./linkwarning";
 @forward "./quickswitcher";
+@forward "./studenthub";
 @forward "./studenthubs";
 
 @use "../../top/vars" as *;
@@ -19,9 +21,16 @@
     box-shadow: 0 0 20px $red !important;
 }
 
-.footer-IubaaS,
-.header-1ffhsl {
-    background: $red;
+.appMount-2yBXZl {
+    .footer-IubaaS,
+    .header-1ffhsl {
+        background: $red;
+    }
+
+    .footerText-I26IbS,
+    .footerText-I26IbS .anchor-1X4H4q {
+        color: $cream;
+    }
 }
 
 // Header
@@ -53,7 +62,7 @@
 }
 
 // Content
-.content-1OG56Q:not(:has(.sidebarContainer-gUKhtL)) {
+.content-1OG56Q:not(:has(.sidebarContainer-gUKhtL), .guildList-fqH9qO) {
     padding-top: $size-m;
 }
 

@@ -32,6 +32,10 @@
 .scrollableContainer-15eg7h {
     @include card.outer;
 
+    .channelTextAreaDisabled-1p2fQv & {
+        opacity: 1;
+    }
+
     // Add attachment button
     .attachButton-_ACFSu {
         &,
