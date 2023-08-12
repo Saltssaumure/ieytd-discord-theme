@@ -1,0 +1,67 @@
+@forward "./featured";
+@forward "./search";
+@forward "./studenthubs";
+
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+@use "../../top/status";
+
+// Explore discoverable servers#
+
+// Sidebar
+.sidebar-1tnWFu {
+    .discoverHeader-1vsvZ0 {
+        color: $black;
+    }
+
+    // Category
+    .categoryItem-Kc_HK_ {
+        margin-left: 0;
+        background: $black;
+        border-radius: 0 $size-max $size-max 0;
+        border: $size-xs solid $cream;
+        border-left: 0;
+        margin-top: 4px;
+
+        .wrappedLayout-31F4iI {
+            padding: 0 $size-m;
+        }
+
+        &,
+        &:hover {
+            color: $cream;
+        }
+
+        &.selectedCategoryItem-ZjqSui {
+            background: $cream;
+            border-color: $black;
+            color: $black;
+
+            .itemInner-3e_4G4 {
+                background: unset;
+            }
+        }
+    }
+
+    // New tag
+    .new-3EJMgr {
+        background: currentColor;
+
+        .newText-1EvoMa {
+            color: $black;
+        }
+    }
+}
+
+// More actions
+.wrapper-2vIMkT {
+    background: unset;
+}
+.button-3bklZh {
+    color: $cream;
+
+    &:active {
+        padding: 4px;
+    }
+}
