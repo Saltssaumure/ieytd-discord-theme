@@ -38,6 +38,11 @@
         &.viewServerButton-29xbQE {
             @include button.button($black, $cream);
         }
+
+        &.buttonWhite-hd8TaT {
+            color: $cream !important;
+            border-color: $cream !important;
+        }
     }
 
     .lookLink-13iF2K {
@@ -51,6 +56,10 @@
 
         &.colorRed-2VFhM4 {
             @include button.link($black);
+        }
+
+        &.colorWhite-Eshn2o {
+            @include button.link($cream);
         }
     }
 

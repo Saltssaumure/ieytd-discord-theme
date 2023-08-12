@@ -1,0 +1,33 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// Welcome and set name in student hub
+.formImage-36OYKU {
+    @include filter.sepia;
+}
+
+// Add server to student hub
+.tabBar-PcFEG6.top-Ktfr_T {
+    padding-top: 0;
+    margin-top: 0;
+    width: calc(100% + 18px);
+}
+
+.guildList-fqH9qO {
+    margin-top: 0;
+    padding-top: $size-m;
+
+    .guildRow-3fJnG6 {
+        @include card.large;
+
+        .icon-1zKOXL {
+            background: $red;
+            border: $size-xs solid $cream;
+        }
+
+        & > img {
+            display: none;
+        }
+    }
+}

@@ -1,10 +1,12 @@
 @use "../top/vars" as *;
 
 // Member sidebar
-.membersWrap-3NUR2t {
+.container-2o3qEW {
     background: $red;
     border-left: $size-m solid $cream;
+}
 
+.membersWrap-3NUR2t {
     --interactive-hover: $cream;
     --interactive-active: $cream;
 
@@ -27,6 +29,10 @@
             background: $black;
             border: $size-xs solid $cream;
             border-radius: $size-max;
+
+            &.clickable-28SzVr:hover {
+                color: $cream;
+            }
 
             // Shifting contents around
             &:not(.membersGroup-2eiWxl + .member-48YF_l) {

@@ -1,0 +1,105 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+@use "../../top/status";
+
+// Student hub for one institution
+.pageContainer-36uo3F {
+    background: $black;
+}
+
+.header-224ffR {
+    @include card.xlarge;
+
+    .headerImage-Xy5R7m {
+        @include filter.sepia;
+    }
+
+    .defaultColor-1EVLSt {
+        color: $black;
+    }
+
+    .searchBox-3wTyE4 .searchBoxInput-CtJm1J {
+        color: $cream;
+    }
+}
+
+// Servers
+.cardsContainer-39dCVY {
+    padding: $size-m 0;
+}
+
+.icon-1zKOXL {
+    border-radius: $size-max;
+}
+
+// Server
+.card-3N2v9t {
+    @include card.large;
+
+    .splash-1Rnkv- {
+        background: $cream;
+    }
+
+    foreignObject {
+        mask: 0;
+    }
+
+    .iconMask-24Ybpm {
+        background: $black;
+        border-radius: $size-max;
+    }
+
+    .statusDot-1TkcEv {
+        background: $cream;
+
+        &.dotOffline-1qeG3H {
+            &::before {
+                @include status.dot;
+                margin: 2px;
+            }
+        }
+    }
+}
+
+// Add server
+.addEntryCard-w9XVzQ img {
+    @include filter.sepia;
+}
+
+// Sidebar
+.sidebar-1tnWFu {
+    .container-1oeRFJ {
+        border: $size-xs solid $cream;
+        border-radius: 0 $size-max $size-max 0;
+        border-left: 0;
+        margin-left: 0;
+        margin-top: 4px;
+
+        &,
+        &:hover {
+            background: $black;
+            color: $cream;
+        }
+
+        &.selected-1-Z6gm {
+            background: $cream;
+            border-color: $black;
+            color: $black;
+        }
+
+        .icon-2iCk7Q {
+            color: inherit;
+        }
+    }
+}
+
+// Search results
+.headerTitleWrapper-1PxZ-Y {
+    align-items: baseline;
+
+    .arrow-f2CzK-,
+    .searchPageTitle-pIeykC strong {
+        color: $cream;
+    }
+}
