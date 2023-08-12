@@ -1,0 +1,22 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// Boost server
+.content-2eQb8J,
+.perks-2IIbWQ {
+    background: unset;
+}
+
+.heroImage-1BTx4r,
+.perkIconContainer-25jfLV {
+    @include filter.sepia;
+}
+
+.perkDescription-3e1T_w {
+    color: $cream;
+}
+
+.perkRow-10K6XE {
+    border-bottom: 0;
+}
