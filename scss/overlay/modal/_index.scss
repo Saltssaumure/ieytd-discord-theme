@@ -4,6 +4,7 @@
 @forward "./forumdemo";
 @forward "./linkwarning";
 @forward "./quickswitcher";
+@forward "./studenthubs";
 
 @use "../../top/vars" as *;
 @use "../../top/card";
@@ -52,7 +53,7 @@
 }
 
 // Content
-.content-1OG56Q {
+.content-1OG56Q:not(:has(.sidebarContainer-gUKhtL)) {
     padding-top: $size-m;
 }
 
