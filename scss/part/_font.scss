@@ -1,18 +1,19 @@
 @use "../top/vars" as *;
 @use "../top/text";
 
-@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Mukta&display=swap"); // Body font - similar to Adrianna
+// Body font - similar to Adrianna
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Mukta&display=swap");
 
 @font-face {
     font-family: "Groteskia";
-    src: url("https://saltssaumure.github.io/ieytd-discord-theme/fonts/groteskia.regular.otf");
+    src: url("https://saltssaumure.github.io/ieytd-discord-theme/font/groteskia.regular.otf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Groteskia";
-    src: url("https://saltssaumure.github.io/ieytd-discord-theme/fonts/groteskia.oblique.otf");
+    src: url("https://saltssaumure.github.io/ieytd-discord-theme/font/groteskia.oblique.otf");
     font-weight: normal;
     font-style: oblique;
 }
@@ -31,11 +32,6 @@ code,
     font-family: var(--font-code);
 }
 
-// Font sizes
-// [class*="text-xxs-"] {
-//     @include text.sizeup(10px, 12px);
-// }
-
 .eyebrow-132Xza,
 .eyebrow-1lnrAb,
 .eyebrow-1Shfyi,
@@ -45,13 +41,11 @@ code,
 .eyebrow-2O4Qax,
 .eyebrow-2wJAoF,
 .eyebrow-3k9c6z,
-// [class*="text-xs-"],
 [class*="heading-deprecated-12-"] {
     @include text.sizeup(12px, 16px);
 }
 
 .markup-eYLPri h3,
-// [class*="text-sm-"],
 [class*="heading-sm-"] {
     @include text.sizeup(14px, 18px);
 }
@@ -62,7 +56,6 @@ code,
 
 .h2-3Zgt2p,
 .h4-6SAiIK,
-// [class*="text-md-"],
 [class*="heading-md-"] {
     @include text.sizeup(16px, 20px);
 }
@@ -70,7 +63,6 @@ code,
 .markup-eYLPri h2,
 .h1-3iMExa,
 .userTag-2qPxEZ,
-// [class*="text-lg-"],
 [class*="heading-lg-"] {
     @include text.sizeup(20px, 24px, 12px);
 }
