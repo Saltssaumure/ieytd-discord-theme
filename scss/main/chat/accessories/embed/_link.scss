@@ -3,11 +3,16 @@
 
 // Webpage link embed
 .appMount-2yBXZl .embedFull-1HGV2S {
+    @include card.large;
+
     .gridContainer-1cF_Ic {
         border-left: $size-m solid;
         border-left-color: inherit;
     }
 
+    .embedAuthorName-pGyUPR,
+    .embedFieldName-9LYSyR,
+    .embedTitle-2n1pEb,
     .embedDescription-1DrJxZ,
     .embedFieldValue-3EHtvR {
         color: $cream;

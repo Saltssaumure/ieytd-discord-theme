@@ -1,0 +1,44 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/svg";
+
+// Toasts
+.bd-toasts {
+    .bd-toast {
+        border-radius: $size-max;
+        border: $size-xs solid $cream;
+        background-color: $black;
+        color: $cream;
+
+        &.toast-success.icon {
+            background-image: svg.$bd-check;
+        }
+    }
+}
+
+// Changelog
+.bd-changelog-modal {
+    code.inline {
+        background: $red;
+    }
+    .date-2tmzZM {
+        color: $cream;
+    }
+
+    .content-FDHp32 {
+        ol,
+        p,
+        ul li {
+            color: $cream;
+        }
+        ul li::before {
+            background: $cream;
+        }
+    }
+
+    .footer-IubaaS {
+        .anchor-1X4H4q {
+            color: $cream;
+        }
+    }
+}

@@ -1,5 +1,3 @@
-@use "../../../../top/card";
-
 @forward "./gameinvite";
 @forward "./genericfile";
 @forward "./gift";
@@ -10,6 +8,9 @@
 @forward "./spotify";
 @forward "./textfile";
 
+@use "../../../../top/vars" as *;
+@use "../../../../top/card";
+
 // Game invite
 .appMount-2yBXZl .invite-3uuHYQ,
 // Audio
@@ -17,8 +18,6 @@
 // Generic file
 .attachment-1PZZB2.newMosaicStyle-35X6XO,
 .container-rr3Ruk,
-// Link embed
-.embedFull-1HGV2S,
 // Gift
 .giftCodeContainer-3ObH0O .tile-2mmK5T,
 // .hidden-3B-Rum,
@@ -29,4 +28,23 @@
 
 .messageAttachment-CZp8Iv {
     overflow: visible;
+}
+
+// Remove embed
+.embedSuppressButton-1rZHq6 {
+    right: 4px;
+    top: 4px;
+    background: $cream;
+    border-radius: $size-max;
+    width: 32px;
+    height: 32px;
+    color: $black;
+    padding: 8px;
+    box-sizing: border-box;
+    z-index: 2;
+    opacity: 0.8;
+
+    &:hover {
+        background: $red;
+    }
 }

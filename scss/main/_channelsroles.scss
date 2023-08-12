@@ -50,7 +50,7 @@
         align-items: baseline;
         div {
             border-radius: $size-max;
-            border: 1px solid $cream;
+            border: $size-xxs solid $cream;
             padding: $size-s;
         }
     }
