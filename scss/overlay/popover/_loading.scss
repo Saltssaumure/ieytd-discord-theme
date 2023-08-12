@@ -1,0 +1,6 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+.loadingPopout-1tyQMM {
+    @include card.outer;
+}

@@ -1,0 +1,112 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// Boost server
+.scroller-3u_s5m {
+    background: $black;
+}
+
+.header-1aIywd {
+    background: $red;
+}
+
+.headerWave-3sTT0Z {
+    color: unset;
+}
+
+.bodyWave-wQyWfY path {
+    fill: $red !important;
+    opacity: 0.3;
+}
+
+// Boost progress
+.progressBar-1saYxR {
+    // Bar
+    .progressBarScrubber-3Hgira {
+        @include card.round;
+        border-width: $size-s;
+
+        .progressBarTrack-3WT0Fs {
+            background: unset;
+        }
+        .progressBarFill-3YRwOi {
+            background: linear-gradient(to right, $red, $cream);
+        }
+    }
+
+    // Circle
+    .progressBarMarker-84rglL,
+    .progressBarMarkerUnlocked-2zZyZm .progressBarMarkerIndicator-2it2LR {
+        background: $cream;
+    }
+
+    .progressBarMarkerCurrent-ntquEP .progressBarMarkerIndicator-2it2LR {
+        box-shadow: none;
+    }
+
+    .boostedTierIcon-3OcERy {
+        color: $red;
+    }
+}
+
+.full-motion {
+    .guildBoostCtaBoostWrapper-1MPzY7:focus-within,
+    .guildBoostCtaBoostWrapper-1MPzY7:hover,
+    .guildBoostCtaSecondary-12YMbj:focus,
+    .guildBoostCtaSecondary-12YMbj:hover {
+        transform: none;
+    }
+}
+
+// Sparkles
+.tierCardSparkleHighlight-1KezWC,
+.containerColored-3FAZAx .sparkle-20-Tko.sparkleStarTopRight-9-iiLE,
+.theme-light .sparkle-20-Tko.sparkleStarTopRight-9-iiLE,
+.containerColored-3FAZAx .sparkle-20-Tko.sparkleStarRight-1EeOs8,
+.theme-light .sparkle-20-Tko.sparkleStarRight-1EeOs8,
+.containerColored-3FAZAx .sparkle-20-Tko.sparkleStarBottomLeft-1PidKy,
+.theme-light .sparkle-20-Tko.sparkleStarBottomLeft-1PidKy {
+    color: $cream;
+}
+
+.guildBoostCtaBoostWrapper-1MPzY7:focus-within .guildBoostCtaBoost-3SH673,
+.guildBoostCtaBoostWrapper-1MPzY7:hover .guildBoostCtaBoost-3SH673,
+.guildBoostCtaSecondary-12YMbj:focus,
+.guildBoostCtaSecondary-12YMbj:hover {
+    box-shadow: none;
+}
+
+.tierCard-2HoGkY,
+.tierCardCurrentTier-2zaZoV,
+.topPerksCard-1znJI8,
+.wrapper-2r1p30,
+.wrapper-3ViBpj {
+    @include card.large;
+    background: $black;
+    overflow: visible;
+}
+
+.topPerksCardImage-e-1P3N,
+.lowerBodyBackgroundImage-2gqdMs {
+    @include filter.sepia;
+}
+
+.recommendedTierHighlight-1vvme_:after,
+.recommendedTierHighlight-1vvme_:before {
+    border-color: $red;
+}
+.recommendedTierHighlightTag-j-ZGmE {
+    background: $red;
+    border-radius: $size-max;
+}
+
+// Hovering footer
+.innerWrapper-MqFL7z {
+    background: $black;
+
+    &::before,
+    &::after {
+        border-color: $cream;
+    }
+}
