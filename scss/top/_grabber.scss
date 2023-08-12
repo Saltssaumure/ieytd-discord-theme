@@ -1,0 +1,20 @@
+@use "./vars" as *;
+
+@mixin grabber($SIZE, $OFFSET) {
+    border: $size-s solid $cream;
+    border-radius: $size-max;
+    box-shadow: none;
+    background: $black;
+    width: $SIZE;
+    height: $SIZE;
+    margin-left: calc($SIZE / -2);
+    margin-top: calc($SIZE / -2 + $OFFSET);
+}
+
+@mixin full {
+    @include grabber($SIZE: 20px, $OFFSET: 0px);
+}
+
+@mixin mini {
+    @include grabber($SIZE: 12px, $OFFSET: 6px);
+}

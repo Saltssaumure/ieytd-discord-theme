@@ -1,0 +1,141 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+@use "../../../top/filter";
+
+.gradient-ICI49D,
+.wrapper-3ViBpj {
+    background: $red;
+    border-radius: $size-l;
+}
+
+.wave-2xQAXR {
+    fill: $black;
+}
+
+// Images
+.backgroundImages-2m7jaB,
+.iconImage-1PY-Hf,
+.guildBoostGem-2INlxj,
+.boostIcon-1Y0pfH {
+    @include filter.sepia;
+}
+
+// Top gem
+.guildBoostGemWrapper-OwEiEr {
+    background: $cream;
+
+    .guildBoostGem-2INlxj {
+        mix-blend-mode: multiply;
+    }
+}
+
+// Server
+.guildContainer-o60hpj {
+    background: $red;
+    padding: $size-l;
+
+    .guildBoostStatsContainer-2pp500 {
+        gap: $size-m;
+    }
+
+    .guildInfoContainer-13BvOb {
+        div {
+            color: $black !important;
+        }
+
+        .guildBoostBadge-3pGGb7 {
+            color: $black;
+            margin-right: 0;
+        }
+    }
+}
+
+// Active boost
+.appliedBoostContainer-1b4KCm {
+    @include card.large;
+
+    // Individual boost
+    .boostContainer-RzXAwu {
+        background: unset;
+
+        .boostSlotMenuIcon-dSP4KK {
+            color: $cream;
+        }
+    }
+}
+
+// Suggested boost
+.recommendedServerCard-3f-92z {
+    border-radius: $size-l;
+    border: $size-xs solid $cream;
+
+    &::before,
+    &::after {
+        display: none;
+    }
+
+    // Sparkles
+    .sparkle-uDaMpl {
+        color: $cream;
+    }
+}
+
+// Boost any server
+.wrapper-3htY7x {
+    @include card.large;
+
+    .cta-3_kHYQ {
+        color: $red !important;
+    }
+}
+
+// Table
+.tierComparisonTable-1gMWkk,
+.tierComparisonTable-13SiXF {
+    .booleanValueIcon-1Z365i {
+        color: $cream;
+    }
+
+    .columnHeading-1mydnJ,
+    .tableCell-NVV0Cc {
+        border-bottom: 0;
+    }
+}
+
+// Give you community a boost and be recognised
+.wrapper-3ViBpj {
+    h2[style] {
+        color: $cream !important;
+    }
+
+    .card-2ZCHT- {
+        @include card.large;
+        background: $black;
+
+        .icon-35A7dl {
+            color: $cream;
+        }
+    }
+}
+
+// FAQ
+.faq-29l_f8 {
+    @include card.large;
+}
+.list-3omFaz {
+    border-top: 0;
+    .listItem-2_Y_Te {
+        border-bottom: 0;
+
+        .questionWrapper-14-uUL,
+        .questionWrapper-14-uUL:active,
+        .questionWrapper-14-uUL:hover,
+        .questionWrapperExpanded-1HNLKZ {
+            color: $cream;
+        }
+
+        .answer-3VW8AS {
+            color: $cream !important;
+        }
+    }
+}

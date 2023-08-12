@@ -1,0 +1,35 @@
+@forward "./accessories";
+@forward "./bar";
+@forward "./chatbox";
+@forward "./essentials";
+
+@use "../../top/vars" as *;
+
+// Chat panel
+.chatContent-3KubbW {
+    background: unset;
+
+    // Channel info
+    .emptyChannelIcon-1YdEz2 {
+        display: none;
+    }
+    .description-22d6ux {
+        color: $cream;
+    }
+
+    // Messages loading
+    .wrapper-3HVHpV {
+        background: transparent;
+
+        // Fake message block
+        .wrapper-15CKyy {
+            background: transparent;
+
+            .avatar-l9Txm5,
+            .attachment-16cAbS,
+            .blob-1uHjdp {
+                background: $cream;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+div[role="radiogroup"] {
+    @include card.large;
+
+    .item-1TA5qI {
+        border-radius: 0;
+        margin-bottom: 0;
+        color: $cream;
+
+        &:hover:not([aria-checked="true"]):not(.disabled-WBmOu_) {
+            color: $cream;
+        }
+    }
+
+    .itemFilled-2Fo7lr {
+        background: unset;
+    }
+
+    .radioBar-1XgZqD {
+        border-radius: 0;
+        border-left-width: $size-m;
+
+        .radioIconForeground-3wH3aU {
+            color: var(--radio-bar-accent-color);
+        }
+    }
+}
+
+// Feedback survey box
+.feedback-2YPzZb {
+    background: unset;
+    padding: 8px 0;
+    color: $cream;
+}

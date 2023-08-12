@@ -1,0 +1,57 @@
+@use "../../top/vars" as *;
+
+.panels-3wFtMD,
+.container-1zzFcN,
+.appMount-2yBXZl .container-YkUktl,
+.appMount-2yBXZl .panel-2ZFCRb {
+    background: $black;
+}
+
+.panels-3wFtMD {
+    border-top: $size-s solid $cream;
+
+    // Activity panel
+    .activityPanel-9icbyU {
+        border-bottom: 0;
+    }
+
+    // VC controls
+    .container-1zzFcN {
+        border-bottom: 0;
+
+        .button-1EGGcP:not(.disabledButtonWrapper-1m0hYZ) {
+            border: $size-xs solid $cream;
+            border-radius: $size-max;
+            background: $black;
+            color: $cream;
+        }
+    }
+
+    // Self panel
+    .container-YkUktl {
+        // Username
+        .title-338goq {
+            font-family: var(--font-display);
+            margin-top: -10px;
+            line-height: 28px;
+        }
+
+        // User icon
+        .avatar-1EWyVD {
+            border: $size-xs solid $red;
+            background: $black;
+        }
+    }
+
+    .title-338goq,
+    .subtext-2HDqJ7,
+    .button-12Fmur,
+    .button-12Fmur:hover {
+        color: $cream;
+    }
+
+    .redIcon-1ppjsM,
+    .strikethrough-2Kl6HF {
+        color: $red;
+    }
+}

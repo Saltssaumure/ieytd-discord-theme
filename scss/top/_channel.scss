@@ -1,0 +1,9 @@
+@use "./vars" as *;
+
+@function height($DEFAULT-HEIGHT) {
+    @return calc($DEFAULT-HEIGHT - ($channel-spacing / 2));
+}
+
+@function radius($DEFAULT-HEIGHT) {
+    @return calc(height($DEFAULT-HEIGHT) / 2);
+}

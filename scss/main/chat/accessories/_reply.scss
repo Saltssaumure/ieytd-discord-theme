@@ -1,0 +1,28 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+// Reply preview
+.repliedMessage-3Z6XBG {
+    --reply-spacing: 0;
+    color: $cream;
+
+    // Spine
+    &::before {
+        border-color: $red;
+
+        .cozy-VmLDNB & {
+            --avatar-size: 36px;
+        }
+    }
+
+    // Username
+    .username-h_Y3Us.clickable-31pE3P {
+        font-size: 1.2rem;
+        margin-top: -0.5rem;
+    }
+
+    // Message text
+    .repliedTextPreview-1bvxun.clickable-31pE3P:hover {
+        color: $cream;
+    }
+}

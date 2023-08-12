@@ -1,0 +1,97 @@
+@use "../../../../../top/vars" as *;
+@use "../../../../../top/card";
+
+// 2. Default channels
+
+// Currently selected
+.container-1zf5oT {
+    @include card.large;
+    position: sticky;
+    top: $size-xl;
+
+    .channelList-3INSQO,
+    .header-1ug_s9,
+    .container-mJQ_O9 {
+        background: unset;
+    }
+
+    // Progress bar
+    .progressBar-VuS-WH {
+        background: $cream !important;
+    }
+
+    // Check / cross
+    .icon-2dMyvd {
+        circle {
+            fill: unset;
+        }
+        path[fill="var(--background-accent)"] {
+            fill: $red;
+        }
+        path[fill="var(--brand-500)"] {
+            fill: $cream;
+        }
+    }
+
+    // No channels
+    .emptyStateIcon-XNEzC3 {
+        display: none;
+    }
+
+    .caret-O9zhLi,
+    .channelIcon-Y7myvd {
+        color: $cream;
+    }
+
+    .channelIcon-Y7myvd {
+        zoom: 1.5;
+    }
+
+    .chattableIndicator-Vvr4OT {
+        background: $cream;
+    }
+}
+
+.collapseButton-3Glo20 {
+    color: $cream;
+}
+
+// Channel list
+.channelBrowserOuter-1WBNF7 {
+    display: flex;
+    gap: $size-s;
+    flex-direction: column;
+}
+
+.categoryRow-1fW611,
+.channelRow-3V1FiH {
+    margin: 0 $size-l;
+    padding: 0;
+}
+
+// Category
+.categoryRow-1fW611 {
+    margin-right: 0;
+    margin-top: $size-l;
+}
+
+// Channel
+.channelRow-3V1FiH {
+    margin-right: $size-xl;
+
+    &,
+    &:hover:not(.disabled-47pull) {
+        background: unset;
+    }
+
+    // Locked channel
+    .lockedPill-oM4Ome {
+        height: 24px;
+        min-height: 24px;
+    }
+}
+
+.divider-gtwIk2,
+.separator-591nMO {
+    display: none;
+}

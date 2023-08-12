@@ -1,0 +1,38 @@
+@use "../../../top/vars" as *;
+@use "../../../top/filter";
+@use "../../../top/card";
+
+// Upload custom image
+.imageUploaderIcon-2OHmFu {
+    display: none;
+}
+
+// Server icon upload
+.avatarUploader-2S1mwW {
+    // Icon preview
+    .imageUploaderInner-IIRaFr {
+        border: $size-s solid $cream;
+    }
+
+    // Change icon text
+    .imageUploaderHint-33zkjZ {
+        color: $black;
+        text-shadow: 0 0 2px $cream;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: var(--font-display);
+    }
+}
+
+// Display boost bar
+.progressBarImage-3lGAbU {
+    @include filter.sepia;
+}
+
+// Server background
+.avatarUploaderInnerSquare-2J8lU8 {
+    @include card.large;
+}
+.avatarUploaderInnerSquareDisabled-3M9eJS {
+    border-color: $red;
+}

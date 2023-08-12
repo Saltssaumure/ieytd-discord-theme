@@ -1,0 +1,142 @@
+@use "../../top/vars" as *;
+
+// Show all voice channels button
+.voiceChannelsButton-SRmgo8 {
+    border: $size-xs solid $cream;
+    background: $black;
+    color: $cream;
+    border-radius: $size-max;
+    margin-top: 4px;
+
+    &:hover {
+        background: $black;
+    }
+
+    div {
+        color: $cream;
+    }
+}
+
+// VC with users or description
+.containerDefault-YUSmu3:has(.list-2x9Cl9, .linkBottom-128lIB) {
+    height: unset;
+}
+
+// Description
+.linkBottom-128lIB {
+    margin-left: 32px;
+}
+
+// VC user list
+.list-2x9Cl9 {
+    padding-left: 26px;
+    padding-bottom: 2px;
+
+    // Username
+    :is(.voiceUser-3nRK-K, .voiceUser-3nRK-K:hover) .username-vAneIW {
+        color: $cream;
+    }
+
+    // Audience counter
+    .audienceContainer-1zTPME {
+        div {
+            color: $cream !important;
+        }
+
+        .audienceIconContainer-1xndyK {
+            background: unset;
+            margin: 2px 8px 0 0;
+        }
+
+        .audienceIcon-2HoEJ2 {
+            color: $cream;
+            margin: 4px;
+        }
+    }
+
+    // User
+    .draggable-S2aEx4 {
+        height: auto;
+    }
+
+    .userSmall-1Raexx {
+        height: auto;
+
+        // User icon
+        .avatar-3FKimL {
+            margin: 2px 8px 0 0;
+        }
+
+        // Live bubble
+        .live-1V2D-f {
+            background: $cream !important;
+            color: $black;
+            line-height: 12px;
+        }
+    }
+}
+
+// VC user limit
+.wrapper-2fEmwW {
+    :is(.users-2JoyGL, .total-1c5KCN) {
+        background: transparent;
+        color: inherit;
+        box-sizing: content-box;
+        width: auto;
+        padding: 0;
+    }
+
+    .users-2JoyGL {
+        &::after {
+            content: "/";
+        }
+    }
+
+    .total-1c5KCN {
+        &::after {
+            display: none;
+        }
+    }
+}
+
+// Activity icon
+.gameIcon-1mDo1J {
+    border-radius: $size-max;
+}
+
+// Inverted when connected or selected
+:is(.modeConnected-NrO4cP, .modeSelected-3DmyhH),
+:has(.modeConnected-NrO4cP, .modeSelected-3DmyhH) {
+    &,
+    &:hover {
+        + .list-2x9Cl9 {
+            // Username
+            :is(.voiceUser-3nRK-K, .voiceUser-3nRK-K:hover) .username-vAneIW,
+            // Muted / deafened
+            .icon-N9JZb6 {
+                color: $black;
+            }
+
+            // Audience counter
+            .audienceContainer-1zTPME {
+                div {
+                    color: $black !important;
+                }
+
+                .audienceIcon-2HoEJ2 {
+                    color: $black;
+                }
+            }
+
+            // Live bubble
+            .live-1V2D-f {
+                background: $black !important;
+                color: $cream;
+            }
+        }
+
+        .wrapper-2fEmwW {
+            color: $black;
+        }
+    }
+}

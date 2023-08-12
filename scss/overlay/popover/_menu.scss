@@ -1,0 +1,35 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Right click menu
+
+.colorDefault-2_rLdz {
+    border-radius: $size-max;
+    color: $cream;
+
+    :is(.caret-1TZU-U, .checkbox-397WsK, .radioSelection-3PDNAQ, .subtext-1mqKVB) {
+        color: $cream;
+    }
+
+    .check-3-73a4 {
+        color: $black;
+    }
+
+    &.focused-3LIdPu,
+    &:active:not(.hideInteraction-1vQrZJ) {
+        background: $cream;
+        color: $black;
+
+        :is(.caret-1TZU-U, .checkbox-397WsK, .radioSelection-3PDNAQ, .subtext-1mqKVB) {
+            color: $black;
+        }
+
+        .check-3-73a4 {
+            color: $cream;
+        }
+    }
+}
+
+.separator-12G2Op {
+    display: none;
+}

@@ -1,0 +1,262 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/tabs";
+@use "../../top/filter";
+@use "../../top/svg";
+
+.contentWrapper-3vHNP2,
+.contentWrapper-2f9yME,
+.contentWrapper-2f9yME.isBurstReactionPicker-3h5fqV {
+    @include card.outer;
+    background: $red;
+    box-shadow: none;
+}
+
+// Tabs
+.navList-3uG4ub,
+.navList-YSb9UB {
+    @include tabs.bar($ISBORDER: false);
+    padding-top: 2px;
+
+    & > :not(.betaTag-V7479T) {
+        @include tabs.tab;
+    }
+
+    .navButton-Z_c6CC {
+        &,
+        &:hover {
+            color: $cream;
+        }
+    }
+
+    .navButtonActive-fwiUKp,
+    .navButtonActive-1EqC5l {
+        @include tabs.tab($ISINVERT: true);
+        &:hover {
+            color: $black;
+        }
+    }
+
+    div:has(> .navButtonSuperReactActive-1WNAEM) {
+        @include tabs.tab($ISINVERT: true);
+    }
+    .navButtonSuperReactActive-1WNAEM {
+        background: unset;
+        &,
+        &:hover {
+            color: $black;
+        }
+    }
+}
+
+// Gif selector header
+.appMount-2yBXZl .header-2TLOnc {
+    box-shadow: none;
+}
+
+// Skin tone selector
+.diversitySelectorOptions-3DhNYs {
+    @include card.round;
+
+    .diversityEmojiItem-2bgZKv:hover {
+        background: unset;
+    }
+}
+
+// Search
+.container-1SX9VC {
+    @include card.round;
+
+    .clear-2KQ7l1 .icon-18rqoe,
+    .icon-18rqoe {
+        color: $cream;
+    }
+}
+
+// Server sidebar
+.wrapper-22rqw6 {
+    background: $cream;
+
+    .emojiPickerHasTabWrapper-LoluYe & {
+        top: 54px;
+    }
+
+    // Every circle
+    .categoryItemGuildCategory-3mvXlo,
+    .categoryItemPackCategory-3eePm-,
+    .categoryItemDefaultCategory-3haEDq,
+    .stickerCategory-2f6iSo {
+        box-shadow: 0 0 0 $size-xs $black;
+        border-radius: $size-max;
+        overflow: hidden;
+    }
+
+    // Default categories
+    .categoryItemDefaultCategory-3haEDq,
+    .stickerCategoryGeneric-29JiZ2,
+    .guildIcon-2SUGiq {
+        background: $red;
+    }
+    .categoryItemDefaultCategory-3haEDq {
+        margin-bottom: 5px;
+    }
+    .categoryIcon-2cYeku,
+    .stickerCategoryGenericIcon-3wumVD {
+        color: $cream;
+    }
+
+    // Default sticker packs
+    .firstPartyCategory-2ZVMkC {
+        &,
+        &:hover {
+            background: $red;
+        }
+    }
+
+    // Server
+    .categoryItem-1sHzUv {
+        border-radius: $size-max;
+        overflow: hidden;
+
+        .guildIcon-2SUGiq {
+            background: $red;
+        }
+    }
+
+    .guildCategorySeparator-3QYkij {
+        display: none;
+    }
+
+    // Circle time
+    .mask-1hlQQ6 foreignObject {
+        mask: none;
+    }
+
+    // Jump to default emojis
+    .unicodeShortcut-3N8oDe,
+    .standardStickerShortcut-ObSns3 {
+        background: $red;
+        color: $cream;
+    }
+}
+
+// Emoji panel
+.bodyWrapper-1eSOtW,
+.listWrapper-2DwCYS {
+    background: $black;
+
+    // Group header
+    .wrapper-1NNaWG {
+        background: black;
+
+        .header-1XpmZs {
+            color: $cream;
+        }
+    }
+
+    // Emoji selector
+    .emojiItem-277VFM.emojiItemSelected-2Lg50V {
+        @include card.med;
+        overflow: visible;
+        padding: 2px;
+    }
+
+    // Emoji image
+    .image-3tDi44,
+    .imageLoading-2uloYN {
+        border-radius: $size-m;
+    }
+
+    // Sticker selector
+    .stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {
+        @include card.med;
+        box-sizing: border-box;
+    }
+
+    // Sticker image
+    .stickerAsset-4c7Oqy {
+        border-radius: $size-m;
+    }
+
+    // Create sticker
+    :is(.createInspected-3KhI7n, .createSticker-y-_Ug2) {
+        background: $black;
+
+        .iconWrapper-Tkg0P1 {
+            background: $cream;
+            color: $black;
+        }
+    }
+
+    // Loading
+    .error-3CkqkL,
+    .loadingIndicator-3fKdTZ,
+    .imageLoading-2uloYN {
+        background: $cream;
+        opacity: 0.3;
+    }
+
+    .assetWrapperMasked-1iw9lV,
+    .loadingIndicator-3fKdTZ {
+        mask: none;
+    }
+
+    // Unsendables
+    .stickerUnsendable-PkQAxI,
+    .emojiItemDisabled-3VVnwp {
+        @include filter.sepia;
+        opacity: 0.7;
+    }
+}
+
+// Gif panel
+.content-A8TzKf {
+    background: $black;
+
+    // Favourites
+    .categoryFadeBlurple-1l49_Q {
+        opacity: 0.5;
+        &,
+        &:hover {
+            background: $cream;
+        }
+    }
+
+    .categoryText-3B1jLN {
+        color: $cream;
+    }
+
+    .focused-16Owih,
+    .result-pzZrwj:hover {
+        box-shadow: none;
+
+        &::after {
+            box-shadow:
+                inset 0 0 0 2px $cream,
+                inset 0 0 0 3px $black;
+        }
+    }
+}
+
+// Emoji info
+.inspector-DFKXwB {
+    background: $red;
+}
+
+// No nitro
+.premiumPromo-1eKAIB {
+    background: $black;
+
+    .premiumPromoTitle-3tWrPT,
+    .premiumPromoDescription-1kf0Oa {
+        color: $cream;
+    }
+
+    .premiumPromoImage-2q0gnA {
+        @include filter.sepia;
+    }
+
+    .premiumPromoClose-Nuntxy {
+        background-image: svg.$close;
+    }
+}

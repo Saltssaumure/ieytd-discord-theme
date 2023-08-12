@@ -1,0 +1,104 @@
+@use "../../../../../top/vars" as *;
+@use "../../../../../top/filter";
+@use "../../../../../top/card";
+
+// 4. Server guide
+
+// Example
+.previewImage-QtT1cg {
+    @include filter.sepia;
+}
+
+// Sliding toggle
+.pillContainer-2LYUah {
+    @include card.round;
+
+    .pillItem-1rl4IM {
+        color: $cream;
+
+        &.pillItemSelected-1o_C0R {
+            background: $cream;
+            color: $black;
+            border-radius: $size-max;
+        }
+    }
+}
+
+// Add item centerer
+.section-3atBfu,
+.editResources-VF5jzi {
+    display: flex;
+    flex-direction: column;
+}
+
+// Bad example
+.example-3sUElw {
+    @include card.large;
+    border-color: $red;
+    color: $red;
+}
+
+// Todo
+.actionItem-2aVT03 {
+    @include card.large;
+    padding-left: 32px;
+}
+
+.actionItemEmojiWrapper-1B2uqj,
+.badExampleIcon-33kC6N {
+    color: inherit;
+    background: unset;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        zoom: 2;
+    }
+
+    img {
+        zoom: 1.5;
+    }
+}
+
+// Add todo
+.addActionItem-2IwCLo {
+    @include card.round;
+    padding: $size-m $size-xl;
+    width: fit-content;
+    align-self: center;
+
+    &:hover {
+        background: unset;
+    }
+}
+
+// Resource benefits
+.bulletList-gjE14g {
+    color: $cream;
+}
+
+// Suggested channels
+.suggestedChannelsDismissCheck-3uBOus {
+    color: $cream;
+}
+.suggestedChannels-1mEoi7 {
+    @include card.large;
+
+    .suggestedChannelIcon-CXp0cS {
+        color: $cream;
+        zoom: 1.5;
+        margin-right: 0;
+    }
+}
+
+// Resource channel
+.resourceChannel-26Ed-C {
+    @include card.large;
+    padding-left: 32px;
+}
+
+.sectionSeparator-1WzCWY {
+    display: none;
+}

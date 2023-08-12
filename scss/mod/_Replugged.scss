@@ -1,0 +1,32 @@
+@use "../top/vars" as *;
+@use "../top/card";
+
+.replugged-addon-card {
+    @include card.large;
+}
+
+.replugged-addon-icon {
+    &,
+    &:hover {
+        svg {
+            color: $cream;
+        }
+    }
+}
+
+.replugged-updater-item {
+    @include card.large;
+}
+
+.error-3GXRR- {
+    @include card.med;
+    border-color: $red;
+
+    .icon-2fP4ae {
+        color: $red;
+    }
+
+    .text-2iTkaw {
+        color: $red !important;
+    }
+}

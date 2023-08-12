@@ -1,0 +1,21 @@
+@use "../top/vars" as *;
+@use "../top/card";
+@use "../top/filter";
+
+// Info cards, mainly in settings
+.appMount-2yBXZl .card-2guEcY {
+    @include card.large;
+    background: $black;
+
+    a {
+        color: $red;
+    }
+
+    .icon-BvdXsl.lightThemeColorOnly-2Rfmga {
+        color: $cream;
+    }
+
+    img {
+        @include filter.sepia;
+    }
+}

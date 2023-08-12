@@ -1,0 +1,56 @@
+@use "../../top/vars" as *;
+
+// Toggle
+.bd-switch {
+    zoom: 1.2;
+
+    input:checked + .bd-switch-body,
+    input:active + .bd-switch-body {
+        --switch-color: #{$cream};
+    }
+
+    input + .bd-switch-body,
+    input:checked:active + .bd-switch-body {
+        --switch-color: #{$red};
+    }
+
+    .bd-switch-handle {
+        fill: $black;
+    }
+}
+
+// Dropdown
+.bd-select-wrapper {
+    color: $cream;
+}
+:is(.bd-select, .bd-select.bd-select-transparent) {
+    border-radius: $size-max;
+    border: $size-xs solid $cream;
+    background: $black;
+    color: $cream;
+    padding: 5px 5px 5px 0;
+
+    &:hover,
+    &.menu-open {
+        border-color: $red;
+    }
+
+    .bd-select-arrow {
+        fill: $cream;
+    }
+
+    // Options
+    .bd-select-options {
+        background: $black;
+        border-radius: $size-l;
+        border: $size-xs solid $cream;
+    }
+}
+
+// Number
+.bd-number-input {
+    border-radius: $size-max;
+    border: $size-xs solid $cream;
+    background: $black;
+    color: $cream;
+}

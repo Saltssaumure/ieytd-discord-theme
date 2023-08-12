@@ -1,0 +1,264 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// Chatbox
+.form-3gdLxP::before {
+    display: none;
+}
+
+// Area including bars
+.channelTextArea-1VQBuV {
+    background: unset;
+
+    // Bars
+    .attachedBars-2BCP3l {
+        @include card.round;
+        margin-bottom: $size-s;
+        // width: fit-content;
+    }
+
+    // Reply bar
+    .replyBar-1oi75v {
+        background: $black;
+
+        // Cancel reply
+        .closeButton-3IEry2 {
+            color: $cream;
+        }
+    }
+}
+
+// Follow channel only
+.wrapper-2SplAX {
+    @include card.outer;
+    border-radius: $size-max;
+
+    .image-3FliiM {
+        @include filter.sepia;
+    }
+}
+
+// Actual typing area
+.scrollableContainer-15eg7h {
+    @include card.outer;
+
+    .channelTextAreaDisabled-1p2fQv & {
+        opacity: 1;
+    }
+
+    // Add attachment button
+    .attachButton-_ACFSu {
+        &,
+        &:hover {
+            .attachButtonPlus-3IYelE {
+                fill: $cream;
+            }
+        }
+    }
+
+    // Right side buttons
+    .button-2fCJ0o,
+    .active-z80xEj .buttonWrapper-3YFQGJ,
+    .buttonWrapper-3YFQGJ:hover {
+        color: $cream;
+    }
+    &.webkit-QgSAqd .buttons-uaqb-5 {
+        margin-right: 0;
+    }
+
+    // Emoji button
+    .sprite-2lxwfc {
+        filter: saturate(var(--saturation-factor, 1)) sepia(1) !important;
+        transform: none !important;
+    }
+
+    // "Message #channel-name" placeholder
+    .placeholder-1rCBhr {
+        font-family: var(--font-display);
+        line-height: 1.2rem;
+        color: $cream;
+        opacity: 0.7;
+    }
+
+    // Formatting preview
+    // Typed links
+    .fakeLink-1wGafz {
+        color: $red;
+    }
+
+    // Inline code
+    .after_inlineCode-2_JXPm,
+    .before_inlineCode-1zngJj,
+    .inlineCode-ERyvy_ {
+        background: unset;
+    }
+
+    // Block code
+    .codeBlockSyntax-3mFGiA {
+        font-family: var(--font-code);
+    }
+}
+
+// Autocomplete
+.appMount-2yBXZl .autocomplete-3NRXG8 {
+    @include card.outer;
+
+    // Emoji/username autocomplete
+
+    // Query
+    .contentTitle-3CylD3 {
+        font-size: 20px;
+        font-family: var(--font-display);
+        padding: 0 8px;
+
+        strong {
+            font-family: var(--font-primary);
+            font-size: 16px;
+            color: $cream;
+        }
+    }
+
+    // Username
+    .autocompleteRowContentPrimary-1kUW9H:not(:last-child) > div {
+        font-family: var(--font-display);
+    }
+
+    // Command autocomplete
+    .listItems-6eZzQ1 {
+        right: 0 !important;
+    }
+
+    .icon-1kx1ir {
+        color: $cream;
+    }
+
+    // Category list
+    .wrapper-3z7DuG {
+        background: $cream;
+        width: 56px - ($size-s * 2);
+
+        .wrapper-22rqw6 {
+            background: unset;
+        }
+
+        .listItems-6eZzQ1 {
+            left: 12px - $size-s !important;
+        }
+
+        // Category
+        .wrapper-1wwiGV,
+        .svg-lIB-lq {
+            border-radius: $size-max;
+            box-shadow: 0 0 0 2px $black;
+            background: $red;
+        }
+
+        // Selected category
+        .selected-8A5BDS,
+        .selected-8A5BDS:hover {
+            display: none;
+        }
+
+        // Default category
+        .icon-1kx1ir {
+            color: $cream;
+        }
+
+        // Server category
+        foreignObject {
+            mask: none;
+        }
+
+        // Divider
+        .builtInSeparator-2rCueY {
+            display: none;
+        }
+    }
+
+    // Suggestion list
+    .categorySection-3hl0bM {
+        // Category header
+        .categoryHeader-OpJ1Ly {
+            @include card.round;
+            top: $size-m;
+            height: 32px + ($size-s * 2);
+
+            &::after {
+                display: none;
+            }
+
+            .header-1XpmZs {
+                color: $cream;
+            }
+        }
+
+        // Suggestion
+        .itemWrapper-CeTtIp {
+            // Mandatory params
+            .option-Tt7anD {
+                background: transparent;
+                color: $red;
+            }
+
+            // Optional params
+            .optionals-2w-NPQ {
+                border-left: 0;
+                opacity: 0.7;
+            }
+
+            // Optional param counter
+            .optionalCount-1BzEgg {
+                color: $cream;
+            }
+        }
+
+        // Loading suggestion
+        .usageWrapper-3FpyBH,
+        .description-RgwbdW,
+        .source-2hsju- {
+            background: $cream;
+            opacity: 0.3;
+        }
+    }
+}
+
+// Sticker suggestion
+.container-1ZA19X {
+    @include card.outer;
+
+    foreignObject {
+        mask: none;
+    }
+
+    .descriptionText-yl6pN6 {
+        line-height: 28px;
+    }
+
+    .closeIcon-14ZT1N {
+        &,
+        &:hover {
+            color: $cream;
+        }
+    }
+
+    .maskBackground-F7QD-A,
+    .textDivider-34kVsR,
+    .containerBackground-Ang24O {
+        display: none;
+    }
+}
+
+// Typing info
+.typing-2J1mQU {
+    // Users who are typing
+    .typingDots-1Y8dki,
+    .dots-1k2MxY {
+        color: $cream;
+    }
+
+    // Usernames
+    strong {
+        font-family: var(--font-display);
+    }
+}

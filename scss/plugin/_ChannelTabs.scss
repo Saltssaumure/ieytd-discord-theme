@@ -1,0 +1,45 @@
+@use "../top/vars" as *;
+
+// ChannelTabs
+#channelTabs-container {
+    background: $black !important;
+}
+
+.channelTabs-favContainer,
+.channelTabs-tabContainer {
+    gap: 4px;
+}
+
+.channelTabs-fav {
+    background: $red !important;
+    border-radius: 11px 11px 0 0 !important;
+}
+
+.channelTabs-unreadBadge {
+    background: $cream !important;
+    color: $black !important;
+}
+
+#channelTabs-settingsMenu {
+    background: $red !important;
+    border-radius: 11px 0 0 11px !important;
+}
+
+#channelTabs-container > :not(#channelTabs-settingsMenu) + div {
+    padding-top: 2px !important;
+    border-top: none !important;
+}
+
+.channelTabs-tab {
+    background: $red !important;
+    border-radius: 0 0 11px 11px !important;
+}
+
+.channelTabs-newTab {
+    color: $cream !important;
+}
+
+.channelTabs-closeTab:hover {
+    background: transparent !important;
+    color: $cream !important;
+}

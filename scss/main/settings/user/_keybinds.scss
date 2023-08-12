@@ -1,0 +1,30 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+// Keybinds disabled warning
+.warning-RBGtx2 {
+    @include card.large;
+    border-radius: $size-max;
+    border-color: $red;
+
+    .icon-2fP4ae {
+        color: $red;
+    }
+
+    div[style] {
+        color: $red !important;
+    }
+}
+
+// Custom keybind
+.appMount-2yBXZl .row-3nMNOy {
+    box-shadow: none;
+
+    .keybindGroup-kQU7d5 {
+        margin-top: 0;
+    }
+
+    .switch-1c5UrR {
+        padding-top: 36px;
+    }
+}

@@ -1,0 +1,142 @@
+@use "../../top/vars" as *;
+@use "../../top/pip";
+@use "../../top/channel";
+
+$icon-size: calc(20px + 6px);
+$spine-size: calc($icon-size / 1.5);
+
+// Category
+.wrapperCommon-I1TMDb {
+    align-items: baseline;
+    color: $black;
+}
+
+// Channel
+.containerDefault-YUSmu3 {
+    background: $black;
+    height: channel.height(34px);
+    box-sizing: border-box;
+    border: $size-xs solid;
+    border-left: 0;
+
+    &:not(.container-1Bj0eq .containerDefault-YUSmu3) {
+        border-color: $cream;
+        border-radius: 0 channel.radius(34px) channel.radius(34px) 0;
+        margin-top: $channel-spacing;
+    }
+
+    // Browse channels
+    &.wrapper-NhbLHG {
+        margin-left: 0;
+    }
+
+    // Inner link
+    .link-1_kTxV {
+        padding: 0 8px;
+    }
+
+    .name-28HaxV {
+        line-height: $icon-size;
+    }
+
+    // Unread pip
+    .unread-36eUEm {
+        @include pip.pip($COLOR: $cream);
+        margin-top: -(pip.$pip-size);
+    }
+}
+
+// Names and icons
+:is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl) {
+    color: $cream;
+}
+
+// Channel icon
+.icon-2W8DHg {
+    zoom: 1.3;
+}
+
+// Red when muted
+.modeMuted-2T4MDZ,
+.modeMuted-2T4MDZ:hover {
+    :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl) {
+        color: $red;
+    }
+}
+
+// Cream when unread
+.modeUnread-3Cxepe,
+.modeUnread-3Cxepe:hover {
+    :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl) {
+        color: $cream;
+    }
+}
+
+// Inverted when connected or selected
+.containerDefault-YUSmu3:has(.modeConnected-NrO4cP, .modeSelected-3DmyhH),
+.containerDefault-YUSmu3.modeSelected-3DmyhH {
+    background: $cream;
+    border-color: $black !important;
+}
+
+:is(.modeConnected-NrO4cP, .modeSelected-3DmyhH) {
+    &,
+    &:hover {
+        :is(.name-28HaxV, .icon-2W8DHg, :is(.iconItem-1EjiK0, .iconItem-1EjiK0:hover) .actionIcon-2sw4Sl) {
+            color: $black;
+        }
+    }
+}
+
+// Threads
+.container-1Bj0eq {
+    overflow: hidden;
+    border: solid $cream;
+    border-width: 0 $size-xs $size-xs 0;
+    width: 210px;
+    border-radius: 0 0 channel.radius(34px) 0;
+
+    // Thread
+    .containerDefault-YUSmu3 {
+        margin-top: 0;
+        border: 0;
+    }
+
+    // Spine
+    .spine-29OFwR,
+    .spineBorder-1-F4s1 {
+        top: 0;
+        height: $spine-size;
+        width: $spine-size;
+        color: $red;
+    }
+
+    .spine-29OFwR + .spine-29OFwR {
+        transform: rotateX(180deg) translateY(4px - $spine-size) !important;
+    }
+}
+
+// Channel info
+.channelInfo-3jN1ay {
+    --text-muted: #{$cream};
+    --text-brand: #{$cream};
+}
+// Mention badge
+.numberBadge-37OJ3S {
+    background: $red !important;
+    color: $black;
+    padding-left: 2px;
+    padding-bottom: 5px;
+}
+
+// Events tab
+.content-2V2neN {
+    align-items: center;
+
+    .numberBadge-3uSQY0 {
+        background: $red;
+        color: $black;
+        padding-left: 2px;
+        padding-bottom: 5px;
+    }
+}

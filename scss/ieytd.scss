@@ -1,0 +1,14 @@
+@forward "./main";
+@forward "./overlay";
+@forward "./mod";
+@forward "./part";
+@forward "./plugin";
+
+@use "top/vars" as *;
+
+// Window is beige as default
+.appMount-2yBXZl,
+body,
+.bg-1QIAus {
+    background: $cream;
+}

@@ -1,0 +1,59 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// Try out forums
+.container-23VlYH {
+    margin-top: 0;
+    background: $black;
+
+    // Forum panel
+    .browser-14bu_w {
+        // Tag
+        .tag-3baoyj,
+        .inlineTag-2gm6Tj {
+            background: $cream;
+            color: $black !important;
+        }
+
+        // Post
+        .post-2kZPfi {
+            @include card.large;
+
+            .bullet-31BpUI {
+                display: none;
+            }
+        }
+    }
+
+    // Thread panel
+    .previewContainer-1zNz6E {
+        background: $black;
+        border-left: $size-s solid $cream;
+        padding: 0;
+        height: 100%;
+
+        .preview-3lPC77 {
+            background: unset;
+        }
+
+        .forumPostIcon-3RVuOP,
+        .opTag-1gdDoS {
+            background: $cream;
+            color: $black;
+        }
+
+        .topSeparator-3eE1QB,
+        .bottomSeparator-dFlztk {
+            display: none;
+        }
+
+        .fakeReactions-L4r2Wx {
+            @include card.round;
+        }
+
+        .chatInput-2WlO0m {
+            @include card.round;
+        }
+    }
+}

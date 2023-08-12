@@ -1,0 +1,12 @@
+@use "../../../../../top/vars" as *;
+@use "../../../../../top/card";
+
+// Member
+.memberRow-1FhJgR {
+    @include card.round;
+    margin-bottom: $size-s;
+
+    .removeButton-JGNeoQ {
+        color: $cream;
+    }
+}

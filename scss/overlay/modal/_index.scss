@@ -1,0 +1,77 @@
+@forward "./ban";
+@forward "./boost";
+@forward "./createserver";
+@forward "./events";
+@forward "./forumdemo";
+@forward "./invite";
+@forward "./linkwarning";
+@forward "./quickswitcher";
+@forward "./studenthub";
+@forward "./studenthubs";
+
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+.backdrop-2ByYRN {
+    background: linear-gradient($black, $red) !important;
+}
+
+.root-1CAIjD {
+    @include card.outer;
+    box-shadow: 0 0 20px $red !important;
+}
+
+.appMount-2yBXZl {
+    .footer-IubaaS,
+    .header-1ffhsl {
+        background: $red;
+    }
+
+    .footerText-I26IbS,
+    .footerText-I26IbS .anchor-1X4H4q {
+        color: $cream;
+    }
+}
+
+// Header
+.header-1ffhsl {
+    // Top title
+    :is(h1, h2, h3, h4, h5):is(.defaultColor-1EVLSt, .defaultColor-3Olr-9) {
+        color: $black;
+        @include filter.shadow;
+    }
+
+    // Subtitle
+    .defaultColor-1EVLSt {
+        color: $cream;
+    }
+
+    // Close button
+    .close-A4ZfTI {
+        opacity: 1;
+        .closeIcon-pSJDFz {
+            color: $cream;
+        }
+    }
+
+    .image-mRW1cg {
+        @include filter.sepia;
+        height: inherit;
+        inset: unset;
+    }
+}
+
+// Content
+.content-1OG56Q:not(:has(.sidebarContainer-gUKhtL), .guildList-fqH9qO) {
+    padding-top: $size-m;
+}
+
+// Footer
+.appMount-2yBXZl .footerSeparator-3U8YsT {
+    box-shadow: none;
+
+    .button-18kCi0 {
+        color: $cream;
+    }
+}

@@ -1,0 +1,17 @@
+@mixin button($background, $color, $border-color: $color) {
+    background: $background;
+    color: $color;
+    border-color: $border-color;
+
+    :is(&:hover, &:active) {
+        background: $background;
+    }
+}
+
+@mixin link($color) {
+    color: $color;
+
+    :is(&:hover, &:active) .contents-3NembX {
+        --button--underline-color: #{$color};
+    }
+}

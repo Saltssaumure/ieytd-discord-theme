@@ -1,0 +1,34 @@
+@use "../top/vars" as *;
+@use "../top/card";
+
+// BDFDB
+.colorPickerSwatch-RTUGRR.custom-1Up2lr[style*="background"] {
+    border: $size-xs solid $cream !important;
+}
+
+// Banner
+.noticeWrapper-8z511t {
+    background: $black;
+    color: $cream;
+    border-radius: $size-max !important;
+    margin: $size-s $size-m;
+
+    .button-1iHNQ2 {
+        &,
+        &:hover {
+            @include card.round;
+        }
+    }
+}
+
+input.input-3O04eu {
+    &.success-1V4i3f,
+    &.error-10GvqR {
+        border-width: $size-xs !important;
+    }
+}
+
+// Bot tags
+.botTag-1NoD0B {
+    top: unset;
+}

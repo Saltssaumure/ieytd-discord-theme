@@ -1,0 +1,105 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+.applicationStore-2nk7Lo .scroller-29cQFV {
+    background: $black;
+}
+
+.hero-1gKM4P,
+.ctaWrapperTier2-1hk2M8,
+.ctaWrapperTier0-1GlgHE {
+    background: $red;
+}
+
+.ctaWrapper-4Js5Q6,
+.ctaButtonInner-2VRelf,
+.checkmarkIcon-21vhV_,
+.closeIcon-3aZ-RA {
+    color: $cream;
+}
+
+.heroHeading-2yVSUj,
+.pricePerInterval-1HgDkM,
+.ctaCopy-1CkXTE,
+.perksGridFeatureHeading-3wq2Tn,
+.existingSubscriberSpacing-3auAAB div {
+    color: $cream !important;
+}
+
+.icon-BvdXsl {
+    color: $red;
+    height: 20px;
+    width: 20px;
+}
+
+.heroImages-2g-v0-,
+.heroLogo-2rSeWP,
+.ctaWrapperTier2-1hk2M8 .ctaImages-1s97vM,
+.ctaWrapperTier0-1GlgHE .ctaImages-1s97vM,
+.featureImage-91H2fC,
+.root-1F1IKT,
+.wumpusImageContainer-ZGD_8q,
+.perksCardArt-3pjOfB,
+.logo-35nkkB {
+    @include filter.sepia;
+}
+
+.divider-2JN8Vy {
+    display: none;
+}
+
+// Feature cards
+.appMount-2yBXZl .feature-2IUcBI {
+    background: $black;
+    border: $size-xs solid $cream;
+
+    // Early access badge
+    .featureNewBadge-27qr_t {
+        background: $cream !important;
+        color: $black;
+        line-height: 13px;
+    }
+
+    .learnMoreLink-2JwgbJ {
+        color: $red;
+    }
+}
+
+.tier0-17mYUd,
+.tier2-qNjKTW,
+.bigPerkCard-1uwmWV,
+.smallPerkCard-2sX_-- {
+    @include card.xlarge;
+    background: $black;
+    overflow: visible;
+}
+
+.tier0-17mYUd.withTier0Rim-1tmLWO::before,
+.tier2-qNjKTW.withTier2Rim-3u3Nwn::before {
+    display: none;
+}
+
+.rowBottomBorder-3HkIZv {
+    border-bottom: 0;
+}
+
+.tier2ColumnOuter-1U2eKO {
+    border-color: $red;
+}
+
+.bogoPillWithSparkles-2cfttm,
+.freeTrialPillWithSparkles-3fINgJ,
+.freeTrialPillWithSparkles-5xhJd7 {
+    path {
+        fill: $cream;
+    }
+
+    .freeTrialPill-3htcnO {
+        background: $red;
+
+        div {
+            color: $black;
+        }
+    }
+}

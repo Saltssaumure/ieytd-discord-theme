@@ -1,0 +1,104 @@
+@use "../../../../../top/vars" as *;
+@use "../../../../../top/card";
+
+// 3. Customisation questions
+
+.dot-1ts8mf {
+    display: none;
+}
+
+// Channels missing dropdown
+.channelCoverage-Ix9axP {
+    @include card.large;
+
+    .warning-kJk5Bw {
+        color: $red;
+    }
+
+    .progressBar-3fV-Dd {
+        background: $cream !important;
+
+        &[style$="background-color: var(--status-warning);"] {
+            background: $red !important;
+        }
+    }
+
+    .caret-1gu4bx {
+        color: $cream;
+    }
+
+    .channelCoverageDetails-3JBcxT {
+        background: unset;
+
+        svg {
+            display: none;
+        }
+    }
+
+    .channelPill-3Sqy1k {
+        @include card.round;
+    }
+}
+
+// Question
+.container-3cFp_V {
+    @include card.large;
+
+    .dragContainer-1aSF4W {
+        color: $cream;
+        display: flex;
+    }
+
+    .collapseButton-wV6wm1 {
+        color: $cream;
+    }
+
+    .removeButton-PAhi8c {
+        color: $red;
+    }
+
+    // Examples
+    .example-1aGQB0 {
+        @include card.round;
+    }
+}
+
+// Answer
+.optionCard-1zlvDz {
+    @include card.round;
+    padding-left: 32px;
+
+    &:hover {
+        border-color: $cream;
+    }
+
+    .plusIcon-11cIbD {
+        color: $cream;
+    }
+}
+
+// Add question
+.addPrompt-2GYVpI {
+    @include card.round;
+    padding: $size-m $size-xl;
+    width: fit-content;
+    align-self: center;
+
+    .plusIcon-2tuYHJ {
+        color: $cream;
+    }
+}
+
+.separatorSection-3TeZa5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.divider-2l6Q1K {
+    height: 0;
+}
+
+// Server guide banner gem
+.icon-1WcxU9 {
+    color: $cream;
+}

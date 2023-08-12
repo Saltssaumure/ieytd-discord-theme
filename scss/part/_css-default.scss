@@ -1,0 +1,7 @@
+@use "../top/color" as *;
+
+:root {
+    --ieytd-color-1: #{$color-1};
+    --ieytd-color-2: #{$color-2};
+    --ieytd-color-3: #{$color-3};
+}

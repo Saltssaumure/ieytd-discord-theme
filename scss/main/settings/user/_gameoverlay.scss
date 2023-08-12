@@ -1,0 +1,30 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+// Overlay notifications
+.wrapper-SdcMKg {
+    border: $size-s solid $cream;
+    border-radius: $size-l;
+
+    &.disabledSelected-1jqfsw {
+        border: $size-s solid $red;
+    }
+
+    .option-1QI4c9 {
+        background: unset;
+        border: $size-xs solid $cream;
+        border-radius: $size-m;
+
+        &.selected-18Wszc {
+            background: $cream;
+        }
+    }
+
+    .disabled-35mc5w {
+        color: $cream;
+
+        &.selected-18Wszc {
+            color: $red;
+        }
+    }
+}

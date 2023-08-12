@@ -1,0 +1,93 @@
+@use "../top/vars" as *;
+@use "../top/button" as button;
+
+.appMount-2yBXZl {
+    :is(.lookFilled-1H2Jvj, .lookOutlined-3RTC7c, .lookInverted-2GrLaB) {
+        border-radius: $size-max;
+        border: $size-xs solid;
+
+        &.colorPrimary-2-Lusz {
+            @include button.button($black, $cream);
+
+            &[aria-disabled="true"],
+            &:disabled {
+                --button-secondary-background-disabled: $black;
+            }
+        }
+
+        &.colorGreen-jIPCAS {
+            @include button.button($black, $cream);
+        }
+
+        &.colorRed-2VFhM4 {
+            @include button.button($black, $red);
+        }
+
+        :is(&.colorBrand-2M3O3N, &.colorBrandNew-abZT3v) {
+            @include button.button($black, $cream);
+        }
+
+        &.colorWhite-Eshn2o {
+            @include button.button($red, $cream);
+        }
+
+        &.buttonColor-1u-3JF {
+            @include button.button(var(--profile-gradient-primary-color), $cream, var(--profile-gradient-secondary-color));
+        }
+
+        &.buttonColor-_0gSD_ {
+            @include button.button($black, $cream);
+        }
+
+        &.viewServerButton-29xbQE {
+            @include button.button($black, $cream);
+        }
+
+        &.buttonWhite-hd8TaT {
+            color: $cream !important;
+            border-color: $cream !important;
+        }
+    }
+
+    .lookLink-13iF2K {
+        &.colorPrimary-2-Lusz {
+            @include button.link($cream);
+        }
+
+        &.colorLink-34zig_ {
+            @include button.link($red);
+        }
+
+        &.colorRed-2VFhM4 {
+            @include button.link($black);
+        }
+
+        &.colorWhite-Eshn2o {
+            @include button.link($cream);
+        }
+    }
+
+    .borderPrimary-1HrinF {
+        border-color: $cream !important;
+    }
+
+    .button-1iHNQ2 {
+        @include button.button($black, $cream);
+        border-radius: $size-max;
+        border: $size-xs solid;
+
+        &:hover {
+            border-color: $cream;
+        }
+    }
+}
+
+.lookBlank-FgPMy6 {
+    border-radius: $size-max;
+
+    .buttonContainer-2zLp7E & {
+        color: $red;
+        padding: 6px 12px;
+        border: $size-xs solid;
+    }
+}

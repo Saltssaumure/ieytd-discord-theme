@@ -1,0 +1,153 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+@use "../../top/status";
+@use "../../top/tabs";
+
+// Search results
+.viewWrapper-2sTW6t {
+    width: fit-content;
+}
+
+// Header
+.searchHeader-gz2NXf {
+    align-items: baseline;
+
+    strong,
+    .arrow-3fMmSH {
+        color: $cream;
+    }
+}
+
+// Searchbar
+.appMount-2yBXZl {
+    .searchBox-pyIJJj {
+        @include card.round;
+
+        &,
+        &:focus,
+        &:focus-within {
+            box-shadow: none;
+            border-color: $cream;
+        }
+
+        .searchBoxInput-3h4etz,
+        .closeIcon-BMGxx0,
+        .searchIcon-34RNw9,
+        .closeIcon-BMGxx0:hover,
+        .clearIcon-TMIIUa {
+            color: $cream;
+        }
+    }
+}
+
+// Categories
+.categories-2LoSbA {
+    @include tabs.bar;
+    margin-bottom: 0;
+
+    .categoryPill-1zjNrr {
+        @include tabs.tab;
+
+        .categoryLabel-2m4AT- {
+            color: inherit;
+        }
+
+        &.selected-bLcqYK {
+            @include tabs.tab($ISINVERT: true);
+        }
+
+        &:hover:not(.selected-bLcqYK) {
+            background: $black;
+        }
+    }
+}
+
+// Results
+:is(.results-1Lsvf8, .guildList-QjZKeK) {
+    max-width: 848px;
+    margin: $size-m $size-l;
+
+    .separator-2t2gPa {
+        display: none;
+    }
+}
+
+// Result
+.card-1rhKXq {
+    @include card.large;
+
+    .splashContainer-2PC_Bm,
+    .content-3Xrx5s {
+        height: 135px + ($size-m * 2);
+    }
+
+    // Banner
+    .splashContainer-2PC_Bm {
+        border-radius: 0;
+
+        .splashImage-1UBFEm {
+            transform: none;
+        }
+    }
+
+    // Info
+    .content-3Xrx5s {
+        padding: $size-m 0;
+        box-sizing: border-box;
+
+        .svg-lIB-lq {
+            width: 40px;
+            height: 40px;
+        }
+
+        foreignObject {
+            mask: none;
+        }
+
+        // Icon
+        .avatar-3MM_Lx {
+            border-radius: $size-max;
+            border: $size-xs solid $cream;
+            box-sizing: border-box;
+        }
+
+        // Name
+        .headerName-1IcEWM {
+            align-items: baseline;
+        }
+
+        .dotSeparator-3MbNc4 {
+            background: $cream;
+        }
+    }
+}
+
+// Loading result
+.placeholder-2jEh13 {
+    @include card.large;
+}
+
+// Navbar
+.pageControlContainer-1Mbe6M {
+    @include card.round;
+    position: sticky;
+    width: auto;
+    bottom: -$size-l;
+
+    .pageButton-uta6J3 {
+        &,
+        &:hover {
+            color: inherit;
+            background: inherit;
+        }
+    }
+
+    .activeButton-2K2Fwx {
+        &,
+        &:hover {
+            color: $black;
+            background: $cream;
+        }
+    }
+}

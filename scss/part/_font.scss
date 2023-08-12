@@ -1,0 +1,117 @@
+@use "../top/vars" as *;
+@use "../top/text";
+
+// Body font - similar to Adrianna
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Mukta&display=swap");
+
+@font-face {
+    font-family: "Groteskia";
+    src: url("https://saltssaumure.github.io/ieytd-discord-theme/font/groteskia.regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Groteskia";
+    src: url("https://saltssaumure.github.io/ieytd-discord-theme/font/groteskia.oblique.otf");
+    font-weight: normal;
+    font-style: oblique;
+}
+
+:root {
+    --font-primary: "Mukta", Helvetica, Arial, sans-serif;
+    --font-display: "Groteskia", "Impact", sans-serif;
+    --font-headline: "Groteskia", "Impact", sans-serif;
+    --font-code: "PT Mono", "Consolas", monospace;
+}
+
+code,
+.markup-eYLPri code.inline,
+.codeBlockText-311wOq,
+.codeLine-3a3dbd {
+    font-family: var(--font-code);
+}
+
+.eyebrow-132Xza,
+.eyebrow-1lnrAb,
+.eyebrow-1Shfyi,
+.eyebrow-21ivYN,
+.eyebrow-2D72C7,
+.eyebrow-2KAVxO,
+.eyebrow-2O4Qax,
+.eyebrow-2wJAoF,
+.eyebrow-3k9c6z,
+[class*="heading-deprecated-12-"] {
+    @include text.sizeup(12px, 16px);
+}
+
+.markup-eYLPri h3,
+[class*="heading-sm-"] {
+    @include text.sizeup(14px, 18px);
+}
+
+.h3-3jj15Z {
+    @include text.sizeup(16px, 24px);
+}
+
+.h2-3Zgt2p,
+.h4-6SAiIK,
+[class*="heading-md-"] {
+    @include text.sizeup(16px, 20px);
+}
+
+.markup-eYLPri h2,
+.h1-3iMExa,
+.userTag-2qPxEZ,
+[class*="heading-lg-"] {
+    @include text.sizeup(20px, 24px, 12px);
+}
+
+[class*="heading-xl-"] {
+    @include text.sizeup(24px, 30px, 12px);
+}
+
+.markup-eYLPri h1,
+[class*="heading-xxl-"] {
+    @include text.sizeup(32px, 40px, 12px);
+}
+
+.defaultColor-1EVLSt,
+.defaultColor-3Olr-9,
+.colorStandard-1Xxp1s,
+.description-foE_WP,
+.labelDescriptor-2top7R,
+.h5-2feg8J,
+.label-7akf7-,
+.legend-3BgtI3,
+.markup-eYLPri,
+.title-2yADjX,
+.userTag-2qPxEZ,
+.base-ZDDK0g,
+.channelName-3pdImQ,
+.sourceName-2t64R0,
+.imageUploader-1X7wVc .sizeInfo-3KtZ1G,
+.appMount-2yBXZl .inputDefault-1AaKiD,
+.guildSource-c3m1MX,
+.appMount-2yBXZl .hiddenMessage-3QNvPt,
+.body-GBnhET,
+.input-2FSSDe {
+    color: $cream;
+}
+
+.description-2N2sXz,
+.helpText-2PnGIP,
+.titleText-35PD5k,
+div:not(.desaturateUserColors-1O-G89),
+:is(h1, h2, h3, h4),
+span:not(.username-3_PJ5r, .username-h_Y3Us) {
+    &:where([style^="color"]) {
+        color: $cream !important;
+    }
+}
+
+.anchor-1X4H4q,
+a,
+.markup-eYLPri a {
+    color: $red;
+}

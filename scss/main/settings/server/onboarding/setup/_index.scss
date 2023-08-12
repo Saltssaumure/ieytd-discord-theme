@@ -1,0 +1,56 @@
+@forward "./customisationquestions";
+@forward "./defaultchannels";
+@forward "./serverguide";
+@forward "./review";
+
+@use "../../../../../top/vars" as *;
+@use "../../../../../top/filter";
+@use "../../../../../top/card";
+
+// Setup onboarding
+
+// Step description overlay
+.educationUpsellRoot-2_slh2 {
+    .educationUpsell-2MjLj5 {
+        @include card.outer;
+    }
+
+    .wumpus-1cg2F6 {
+        @include filter.sepia;
+    }
+}
+
+// Steps bar
+.progressBar-2ULTnj {
+    &,
+    .clickableProgressBar-WjCpWw:hover & {
+        background: $red;
+    }
+
+    &.progressBarCurrent-ea4YDg,
+    .clickableProgressBar-WjCpWw:hover &.progressBarCurrent-ea4YDg {
+        background: $cream;
+    }
+}
+
+// Back / next bar
+.container-3azaUr {
+    background: unset !important;
+}
+
+// Links
+.anchor-1X4H4q div {
+    color: $red !important;
+}
+
+// Drag bars
+.dragContainer-3Q9clI,
+.dragContainer-1qQKT6 {
+    color: $cream;
+    left: $size-m;
+    display: flex;
+}
+
+.dragIcon-1vnRh4 {
+    display: block;
+}

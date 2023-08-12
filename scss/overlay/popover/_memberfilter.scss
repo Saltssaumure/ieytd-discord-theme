@@ -1,0 +1,23 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Display Roles filter in Server Settings > Server Members
+
+.container-2kTWmC {
+    @include card.outer;
+
+    .container-2oNtJn {
+        @include card.round;
+    }
+
+    .item-1Mjtru {
+        color: $cream;
+    }
+
+    .focused-3v9Ulm,
+    .item-1Mjtru:hover:not(.disabled-Lzz-qs),
+    .selected-3xdT87 {
+        background: unset;
+        color: $cream;
+    }
+}

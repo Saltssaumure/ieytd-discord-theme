@@ -1,0 +1,53 @@
+@use "../../../../../top/vars" as *;
+@use "../../../../../top/filter";
+@use "../../../../../top/card";
+
+// 5. Review
+
+// Outer
+.content-12u2A_,
+.notice-3lRU62 {
+    @include card.large;
+    margin-top: $size-l;
+}
+
+.reviewHeader-SY3Ueh,
+.onboardingStepContainer-a8QN2X,
+.iconContainer-FN7hp_,
+.helpSeparator-yDhWrV {
+    background: unset;
+}
+
+.wumpus-3oyvHm {
+    @include filter.sepia;
+}
+
+// Toggle on/off
+.review-lB0WG3 {
+    background: unset;
+    margin-top: 0;
+}
+
+// Channel icon
+.channelIcon-cCm7jQ {
+    color: $cream;
+    zoom: 2;
+}
+
+// Requirement checks
+.checkmark-3TQRq8,
+.warning-3rPVI_ {
+    color: $cream;
+}
+
+.danger-1t5auf {
+    color: $red;
+
+    & + .statusText-1UqU1r {
+        color: $red !important;
+    }
+}
+
+.divider-2rZFJK {
+    display: none;
+}

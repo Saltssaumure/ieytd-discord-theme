@@ -1,0 +1,20 @@
+@use "../../top/vars" as *;
+
+// New unreads / in voice bubble
+.bar-wDIGjg {
+    border: $size-s solid $black;
+    background: $cream;
+
+    height: 24px - $size-s;
+    font-size: 16px;
+    border-radius: $size-max;
+
+    svg,
+    .barText-1eIsLx {
+        color: $black !important;
+    }
+
+    .voiceChannelsIcon-2smmeE path {
+        fill: $black;
+    }
+}

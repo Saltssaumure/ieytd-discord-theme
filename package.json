@@ -1,0 +1,27 @@
+{
+    "name": "tritone-discord-theme",
+    "version": "2.0.0",
+    "description": "A tri-tone Discord theme inspired by IEYTD.",
+    "repository": "https://github.com/Saltssaumure/ieytd-discord-theme.git",
+    "author": "Saltssaumure <themes@saltssaumure.net>",
+    "license": "GPL-3.0",
+    "private": true,
+    "scripts": {
+        "dev": "bd-scss dev",
+        "bd": "bd-scss build",
+        "dev:rp": "replugged build theme --watch",
+        "rp": "replugged bundle theme",
+        "lint": "prettier ./scss --check",
+        "lint:fix": "prettier ./scss --write --log-level warn"
+    },
+    "type": "module",
+    "dependencies": {
+        "@parcel/config-default": "^2.9.3",
+        "@parcel/core": "^2.9.3",
+        "@parcel/transformer-sass": "^2.9.3",
+        "@types/node": "^20.4.5",
+        "prettier": "^3.0.0",
+        "replugged": "^4.5.1",
+        "salt-bd-scss": "^1.0.0"
+    }
+}

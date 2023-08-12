@@ -1,0 +1,32 @@
+@use "../../../../top/card";
+
+@forward "./gameinvite";
+@forward "./genericfile";
+@forward "./gift";
+@forward "./link";
+@forward "./media";
+@forward "./playable";
+@forward "./serverinvite";
+@forward "./spotify";
+@forward "./textfile";
+
+// Game invite
+.appMount-2yBXZl .invite-3uuHYQ,
+// Audio
+.appMount-2yBXZl .wrapperAudio-1Bzv_Z,
+// Generic file
+.attachment-1PZZB2.newMosaicStyle-35X6XO,
+.container-rr3Ruk,
+// Link embed
+.embedFull-1HGV2S,
+// Gift
+.giftCodeContainer-3ObH0O .tile-2mmK5T,
+// .hidden-3B-Rum,
+// Server invite
+.wrapper-1HIH0j {
+    @include card.large;
+}
+
+.messageAttachment-CZp8Iv {
+    overflow: visible;
+}

@@ -1,0 +1,61 @@
+@use "../../../top/vars" as *;
+@use "../../../top/filter";
+@use "../../../top/card";
+@use "../../../top/status";
+
+// Preview
+.sparkles-1JOsCC {
+    @include filter.sepia;
+}
+
+// Preview card
+.card-WWLYDO {
+    @include card.large;
+
+    .guildIcon-1v6-m0 {
+        foreignObject {
+            mask: none;
+        }
+
+        .iconMask-1EYGrv,
+        .avatar-2I9tp7 {
+            border-radius: $size-max;
+            background: $black;
+        }
+    }
+
+    .dotOnline-cS7sxB {
+        background: $cream;
+    }
+
+    .dotOffline-3gLYLy {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $cream;
+
+        &::before {
+            @include status.dot;
+        }
+    }
+}
+
+.checklist-Asy_56 {
+    @include card.large;
+
+    .header-Wl8ec- {
+        background: unset;
+
+        .headerIcon-1_zzn9 {
+            @include filter.sepia;
+        }
+
+        .doesNot-21xPGK {
+            color: $red;
+        }
+    }
+}
+
+.separator-1py8Bj {
+    height: 0;
+}

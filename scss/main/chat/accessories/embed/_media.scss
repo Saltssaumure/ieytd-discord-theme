@@ -1,0 +1,16 @@
+@use "../../../../top/vars" as *;
+@use "../../../../top/card";
+
+// Images, videos, gifs
+
+// Direct uploads
+.mediaAttachmentsContainer-1WGRWy {
+    @include card.large;
+    width: auto;
+}
+
+// Embedded from link
+.inlineMediaEmbed-1m3ApS {
+    @include card.large;
+    width: fit-content;
+}

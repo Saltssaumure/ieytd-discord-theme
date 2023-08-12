@@ -1,0 +1,124 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Overflow: yes
+.zalgo-26OfGz {
+    .messageContent-2t3eCI,
+    &.message-3g3FYR,
+    &.cozy-VmLDNB .header-2jRmjb,
+    &.compact-2Nkcau .messageContent-2t3eCI {
+        overflow: visible;
+    }
+}
+
+// Text
+.markup-eYLPri {
+    // Titles
+    :is(h1, h2, h3) {
+        color: $cream;
+    }
+
+    // Code
+    code {
+        background: $black;
+
+        &.inline {
+            border-radius: 0;
+        }
+
+        &.hljs {
+            border: $size-xs dashed $cream;
+            border-radius: $size-m;
+        }
+    }
+
+    // Quote
+    .blockquoteDivider-363utW {
+        background: $cream;
+    }
+
+    // Edited
+    .timestamp-p1Df1m {
+        color: $cream;
+        opacity: 0.7;
+    }
+
+    // System messages
+    // Username
+    .content-vSHmMD a {
+        color: $cream;
+        font-family: var(--font-display);
+        margin-top: -0.4rem;
+    }
+
+    // Mention
+    .wrapper-1ZcZW- {
+        @include card.round;
+
+        &:hover {
+            color: $cream;
+            background: $black;
+        }
+    }
+}
+
+// Chat message
+.wrapper-30-Nkg {
+    // User avatar
+    .avatar-2e8lTP,
+    .avatarContainer-209emZ {
+        border: $size-s solid $red;
+    }
+
+    // Seasonal avatar decorations
+    .avatarDecoration-34OC0G {
+        left: 12px + $size-s;
+    }
+
+    // Username
+    .username-1LTQE1,
+    .username-h_Y3Us {
+        font-family: var(--font-display);
+        font-size: 1.5rem;
+        color: $cream;
+    }
+
+    // Timestamp
+    .timestamp-p1Df1m,
+    .timestamp-p1Df1m.alt-1dvXnH {
+        color: $cream;
+        opacity: 0.7;
+    }
+
+    // Message action buttons
+    .wrapper-2vIMkT,
+    .full-motion & .wrapper-2vIMkT:hover {
+        box-shadow: 0 0 0 $size-xs $cream inset;
+        background: $black;
+        border-radius: $size-max;
+
+        .button-3bklZh {
+            color: $cream;
+        }
+    }
+}
+
+// Compact mode specific
+.compact-2Nkcau {
+    .botTagCompact-1idyyC {
+        margin-top: 0.3rem;
+    }
+}
+
+// Cosy mode specific
+.cozy-VmLDNB {
+    .header-2jRmjb,
+    .headerText-2z4IhQ {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .username-h_Y3Us {
+        overflow: visible;
+    }
+}

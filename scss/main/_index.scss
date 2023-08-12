@@ -1,0 +1,81 @@
+@forward "./channelsroles";
+@forward "./chat";
+@forward "./channels";
+@forward "./discover";
+@forward "./dm";
+@forward "./forum";
+@forward "./header";
+@forward "./members";
+@forward "./notice";
+@forward "./search";
+@forward "./serverguide";
+@forward "./servers";
+@forward "./settings";
+@forward "./split";
+@forward "./titlebar";
+
+@use "../top/vars" as *;
+
+.content-1SgpWY {
+    border: solid $cream;
+    border-width: $size-s $size-m $size-s 0;
+}
+
+.chat-2ZfjoI {
+    overflow: hidden;
+    background: $black;
+}
+
+// Channel group and member group title
+.container-q97qHp {
+    font-style: oblique;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+
+    &,
+    .overflow-1wOqNV {
+        color: $black;
+    }
+}
+
+// Rounding based on notice banner presence
+
+// Without banner
+.base-2jDfDU {
+    // Sidebar
+    .sidebar-1tnWFu,
+    .sidebar-1tnWFu.hasNotice-1s68so {
+        border-radius: $size-l 0 0 $size-l;
+    }
+
+    // Main chat
+    .chat-2ZfjoI,
+    .pageWrapper-2PwDoS,
+    .sidebar-1tnWFu + .scroller-RfJjkV {
+        border-radius: 0 $size-l $size-l 0;
+    }
+
+    // Split chat
+    .container-3XgAHv {
+        border-radius: $size-l;
+    }
+}
+
+// With banner
+.base-2jDfDU:has(.bd-notice, .notice-2HEN-u) {
+    .sidebar-1tnWFu,
+    .sidebar-1tnWFu.hasNotice-1s68so {
+        border-top-left-radius: 0;
+    }
+
+    .chat-2ZfjoI,
+    .pageWrapper-2PwDoS,
+    .sidebar-1tnWFu + .scroller-RfJjkV {
+        border-top-right-radius: 0;
+    }
+
+    .container-3XgAHv {
+        border-radius: 0 0 $size-l $size-l;
+    }
+}

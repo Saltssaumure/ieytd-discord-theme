@@ -1,0 +1,58 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// Threads in current channel
+
+.container-18GwIk {
+    background: $black;
+    @include card.outer;
+}
+
+// Header
+.header-3_zmOb {
+    height: auto;
+    min-height: unset;
+    padding: 12px 16px;
+
+    .searchBox-3IjAC1 {
+        @include card.round;
+    }
+
+    .closeIcon-11tHJX,
+    .threadIcon-rd1kqG {
+        color: $cream;
+    }
+
+    .divider-2xk5N2 {
+        display: none;
+    }
+}
+
+// Thread
+.container-2rzKKA {
+    @include card.large;
+
+    &:hover {
+        border-color: $cream;
+    }
+
+    .threadName-2k9mLl {
+        color: $cream;
+    }
+
+    .moreUsers-_v6T-L,
+    .noAvatarIcon-3Jqqzy {
+        background: $cream;
+        color: $black;
+    }
+}
+
+// No threads
+.icon-mJhEWn {
+    background: $cream;
+    color: $black;
+}
+.stars-3UP9-A {
+    @include filter.sepia;
+}

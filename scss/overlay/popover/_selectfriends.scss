@@ -1,0 +1,21 @@
+@use "../../top/vars" as *;
+
+// Select friends to create group DM
+
+.friend-8ZraY7 .discordTag-2ke74W {
+    color: $cream;
+}
+
+.appMount-2yBXZl .friendSelected-3cwmD7 {
+    background: unset;
+}
+
+.appMount-2yBXZl .tag-15zcD_ {
+    border-radius: $size-max;
+    background: $cream;
+    color: $black;
+
+    &:hover {
+        opacity: 1;
+    }
+}

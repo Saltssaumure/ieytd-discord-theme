@@ -1,0 +1,15 @@
+@use "../../../../top/vars" as *;
+@use "../../../../top/card";
+
+// Webpage link embed
+.appMount-2yBXZl .embedFull-1HGV2S {
+    .gridContainer-1cF_Ic {
+        border-left: $size-m solid;
+        border-left-color: inherit;
+    }
+
+    .embedDescription-1DrJxZ,
+    .embedFieldValue-3EHtvR {
+        color: $cream;
+    }
+}

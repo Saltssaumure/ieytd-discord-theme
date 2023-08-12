@@ -1,0 +1,46 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+.sectionDescription-2ealM1,
+.accountCreditDescription-1lEaJI {
+    color: $cream;
+}
+
+// Current nitro
+.banner-oA34U0 {
+    @include card.large;
+    color: $cream;
+
+    // Cancelled or failed payment
+    &.canceled-3FVVhC,
+    &.failedPayment-2RYzVK {
+        background: $red;
+
+        .planInfo-3eXANS,
+        .planName-3i1IN1 {
+            color: $black;
+        }
+    }
+}
+
+// Payment details
+.detailsBlock-24pLFz {
+    @include card.large;
+    color: $cream;
+}
+
+// Subscription credits
+.noItemsCard-5EOcCl {
+    color: $cream;
+
+    .noItemsIcon-2OeOld {
+        background: $red;
+        color: $black;
+    }
+}
+
+// Separators
+.sectionAccountCredit-1IqaxB,
+.subscriptionDetails-ZcKNHC {
+    border-bottom: 0;
+}

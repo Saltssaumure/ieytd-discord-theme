@@ -1,0 +1,98 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+@use "../../top/status";
+
+// Featured servers
+.appMount-2yBXZl {
+    // Main panel
+    .pageWrapper-2PwDoS {
+        background: $black;
+        color: $cream;
+        border-left: $size-m solid $cream;
+    }
+
+    // Splash and search
+    .searchHeader-3ZIh2x {
+        @include card.xlarge;
+
+        .headerImage-2D5D-v {
+            @include filter.sepia;
+        }
+
+        .searchBoxInputWrapper-3XLwVB {
+            padding-left: $size-m;
+        }
+
+        .searchSubtitle-C5P4gh,
+        .searchTitle-1qceKb {
+            color: $black;
+        }
+    }
+
+    // Server
+    .card-2TuZPZ {
+        @include card.large;
+
+        &,
+        &:hover,
+        &:focus {
+            background: $black;
+            transform: none;
+
+            .iconMask-2fMR98 {
+                background: $black;
+            }
+
+            .splash-1VADA3 {
+                transform: none;
+            }
+        }
+
+        // Icon
+        .guildIcon-1nnIAv {
+            border-radius: $size-max;
+            overflow: hidden;
+
+            foreignObject {
+                mask: none;
+            }
+
+            .svg-lIB-lq {
+                border-radius: $size-max;
+            }
+        }
+
+        // More actions
+        .actionButtons-3ILsbw {
+            top: 145px;
+            right: $size-s;
+        }
+
+        // Name
+        .title-2vVOzt {
+            align-items: baseline;
+            overflow: visible;
+
+            .guildName-1sOa9v {
+                overflow: visible;
+            }
+        }
+
+        // Dot
+        .dotOnline-j08lOY {
+            background: $cream;
+        }
+        .dotOffline-38lJFn {
+            &::before {
+                @include status.dot;
+                margin: 2px;
+            }
+        }
+    }
+
+    // Footer
+    .footerImage-3DpC_8 {
+        @include filter.sepia;
+    }
+}

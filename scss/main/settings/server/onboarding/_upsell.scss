@@ -1,0 +1,68 @@
+@use "../../../../top/vars" as *;
+@use "../../../../top/filter";
+@use "../../../../top/card";
+
+// Onboarding introduction
+
+// Art
+.islands-emnHtP {
+    @include filter.sepia;
+}
+
+// Outer boxes
+.testimonialHeroContainer-18HL2a,
+.upsellPreview-zfsyzm {
+    @include card.large;
+    overflow: visible;
+}
+
+// Channels and roles demo
+.previewListItem-2VAZ-Y {
+    @include card.round;
+    overflow: visible;
+
+    &.selected-3KWlIC {
+        background: unset;
+    }
+
+    // Real channel icon
+    .channelIcon-1862w- {
+        color: $cream;
+    }
+
+    // Emoji icon
+    span {
+        @include filter.sepia;
+    }
+
+    // Checkmark
+    .checkboxCircle-C8Xapb {
+        background: $cream;
+
+        .checkmark-1lGv7h {
+            color: $black;
+        }
+    }
+}
+
+// Suggested actions demo
+.action-3oG-si {
+    @include card.round;
+
+    .checkCircleCompleted-1VoXrE {
+        color: $cream;
+
+        circle {
+            fill: $black;
+        }
+    }
+
+    .channelIconContainer-1sVwKj,
+    .rulesIconContainer-3hKWCf {
+        background: unset;
+        .channelIcon-207WB_ {
+            zoom: 2;
+            color: $cream;
+        }
+    }
+}

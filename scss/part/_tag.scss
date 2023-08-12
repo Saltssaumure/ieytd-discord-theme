@@ -1,0 +1,43 @@
+@use "../top/vars" as *;
+
+// Beta tag
+.textBadge-1fdDPJ.eyebrow-132Xza {
+    font-size: 14px;
+    line-height: 12px;
+    background: $cream !important;
+    color: $black;
+}
+
+// Boost requirement tags
+.availabilityIndicator-KldT0d,
+.guildFeatureAvailabilityIndicator-34eQAP {
+    align-items: baseline;
+    background: unset;
+    margin-bottom: 0;
+}
+
+// Bot tag
+.px-MnE_OR.botTag-7aX5WZ,
+.rem-3kT9wc.botTag-7aX5WZ {
+    border-radius: $size-max;
+}
+
+// OP tag
+.rem-3kT9wc.botTag-7aX5WZ.botTagOP-3pUTXu {
+    border-radius: $size-max;
+    position: relative;
+    margin-top: 0;
+    top: -0.25rem;
+}
+
+// Bot tag
+.botTagRegular-kpctgU {
+    background: $cream;
+    color: $black;
+}
+
+// Safety setup > Activity alerts channel
+.valuePill-3nbVvY {
+    background: $cream;
+    color: $black !important;
+}

@@ -1,0 +1,30 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+@use "../../top/svg";
+
+// Join a student hub
+.sidebarContainer-gUKhtL {
+    background: $black;
+    border-right: $size-s solid $cream;
+
+    .iconContainer-3LclNk {
+        background: $cream;
+        .icon-3459VP {
+            background: svg.$hub;
+        }
+    }
+}
+
+.topImage-Rlo-5x {
+    @include filter.sepia;
+}
+
+.close-A4ZfTI {
+    right: 12px;
+
+    &,
+    &:hover {
+        color: $cream;
+    }
+}

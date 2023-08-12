@@ -1,0 +1,23 @@
+@use "../top/vars" as *;
+
+// Banners
+.notice-2HEN-u {
+    background: $black;
+    color: $cream;
+    border-radius: $size-xl $size-xl 0 0;
+    margin: $size-s $size-m 0 0;
+
+    .base-2jDfDU:has(.bd-notice) & {
+        border-radius: 0;
+    }
+}
+
+// Disable stream mode button
+.colorStreamerMode-8uoRWd .button-1iHNQ2:hover {
+    color: $cream;
+}
+
+// Close icon
+.closeIcon-3eoP1e path {
+    fill: $cream;
+}

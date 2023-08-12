@@ -1,0 +1,39 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// Banners
+#bd-notices {
+    display: flex;
+    gap: $size-m;
+
+    &:not(:empty) {
+        padding: $size-s $size-m 0 0;
+    }
+}
+
+.bd-notice {
+    background: $black;
+    color: $cream;
+
+    flex: 1 1 auto;
+
+    &,
+    &:first-child {
+        border-radius: $size-xl $size-xl 0 0;
+    }
+}
+
+.bd-notice-close {
+    @include filter.sepia;
+    right: 8px;
+}
+
+.bd-notice-button {
+    @include card.round;
+
+    &:hover {
+        color: $cream;
+        background: unset;
+    }
+}

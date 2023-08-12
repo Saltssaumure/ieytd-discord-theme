@@ -1,0 +1,45 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+@use "../../top/svg";
+
+// Student hubs
+.sidebar-1tnWFu + .scroller-RfJjkV {
+    background: $black;
+    border-left: $size-m solid $cream;
+}
+
+// Header
+.headerContainer-1RYk-Y {
+    @include card.xlarge;
+
+    .headerDescription-1XgEJV,
+    .headerText-1FPqn4 {
+        color: $black;
+    }
+
+    .headerImage-1c8Lrb {
+        margin-bottom: 0;
+        @include filter.sepia;
+    }
+}
+
+// Server
+.container-1wv6C6 {
+    @include card.large;
+
+    .iconContainer-6xlTpK {
+        background: $cream;
+        .icon-2kPPWH {
+            background: svg.$hub;
+        }
+    }
+
+    .addButton-Jt0onL {
+        color: $cream;
+    }
+}
+
+.divider-3jU7zr {
+    display: none;
+}

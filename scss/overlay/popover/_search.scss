@@ -1,0 +1,217 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// Search chat history
+
+.appMount-2yBXZl {
+    .container-2McqkF {
+        @include card.outer;
+    }
+
+    // Header
+    .focused-2FU0YH {
+        background: $red;
+    }
+
+    .queryContainer-ZunrLZ {
+        color: $cream;
+
+        strong {
+            color: $cream;
+        }
+    }
+}
+
+// Group header
+.resultsGroup-cfY57t {
+    .header-1BR0Ro {
+        color: $cream;
+    }
+
+    .searchLearnMore-1gNL3A,
+    .searchClearHistory-3nIKUO {
+        &,
+        &:hover {
+            color: $cream;
+        }
+    }
+}
+
+// Search option
+.searchOption-3u1gRt {
+    .filter-2QaH9y {
+        color: $red;
+    }
+    .answer-14OVbQ {
+        color: $cream;
+    }
+}
+
+// History / options
+.option-ayUoaq {
+    &:hover,
+    &[aria-selected="true"] {
+        background: unset;
+
+        .plusIcon-1RVszG {
+            color: $cream;
+        }
+    }
+
+    &::after,
+    &:hover::after {
+        display: none;
+    }
+
+    &,
+    &:hover {
+        :is(.nonText-28q_Ot, .answer-14OVbQ, .filter-2QaH9y, strong) {
+            color: $cream;
+        }
+    }
+
+    // From user
+    &.user-1dKxvu .displayedNick-1atSpT {
+        color: $cream;
+        font-family: var(--font-display);
+        margin-top: -6px;
+    }
+    &.user-1dKxvu .displayUsername-UTerwm {
+        color: $red;
+    }
+}
+
+.resultsGroup-cfY57t::before {
+    display: none;
+}
+
+// Date picker
+.appMount-2yBXZl .calendarPicker-sDhzdi {
+    .react-datepicker__header,
+    .react-datepicker {
+        background: $black;
+    }
+
+    .react-datepicker {
+        padding: 15px;
+    }
+
+    // Left right navigation
+    .react-datepicker__navigation.react-datepicker__navigation {
+        border-radius: $size-max;
+        border: $size-xs solid $cream;
+        box-sizing: content-box;
+        height: $size-xl;
+        width: $size-xl;
+        @include filter.sepia;
+    }
+
+    // Month title
+    .react-datepicker__current-month {
+        color: $cream;
+        border-bottom: 0;
+        padding: $size-m 0;
+    }
+
+    // Day names
+    .react-datepicker__day-name {
+        color: $cream;
+    }
+
+    // Actual calendar
+    .react-datepicker__month {
+        @include card.large;
+    }
+
+    // Days
+    .react-datepicker__day {
+        // Revert all backgrounds
+        &:hover,
+        &.react-datepicker__day--keyboard-selected,
+        &.react-datepicker__day--selected:hover,
+        &.react-datepicker__day--outside-month,
+        &.react-datepicker__day--disabled,
+        &.react-datepicker__day--disabled:hover {
+            background: unset;
+        }
+
+        // Selectable
+        &,
+        &.react-datepicker__day--outside-month {
+            color: $cream;
+        }
+
+        // Unselectable
+        &.react-datepicker__day--disabled,
+        &.react-datepicker__day--disabled:hover {
+            color: $red;
+        }
+
+        // Hovered
+        &:not(.react-datepicker__day--disabled):hover {
+            &::before {
+                $size: 35px;
+                width: $size;
+                height: $size;
+                top: calc(20px - $size / 2);
+                left: calc(20px - $size / 2);
+                content: "";
+                position: absolute;
+                @include card.round;
+                box-sizing: border-box;
+                background: unset;
+            }
+        }
+
+        // Selected
+        &.react-datepicker__day--selected:after {
+            background-color: $cream;
+        }
+    }
+}
+
+// Footer
+.datePicker-3iA7_k .datePickerHint-Ir4715 {
+    background: $red;
+    margin: 0;
+    padding: 20px;
+    border-top: 0;
+
+    .hint-xfbpCV {
+        color: $cream;
+    }
+
+    .hintValue-V9hd8l {
+        border-radius: $size-max;
+
+        &,
+        &:hover {
+            background: $cream;
+            color: $black;
+        }
+    }
+}
+
+/* search modifiers, eg. has: from: */
+.appMount-2yBXZl {
+    // Search modifiers
+    .searchFilter-2UfsDk {
+        background: $cream;
+        color: $black;
+        border-radius: $size-max 0 0 $size-max;
+        padding: 0 3px 0 6px;
+    }
+    .searchAnswer-23w-CH {
+        background: $red;
+        color: $black;
+        border-radius: 0 $size-max $size-max 0;
+        padding: 0 6px 0 2px;
+    }
+
+    // In channel
+    .searchResultChannelCategory-19ujDo,
+    .searchResultChannelIcon-C-3P9x {
+        color: $cream;
+    }
+}

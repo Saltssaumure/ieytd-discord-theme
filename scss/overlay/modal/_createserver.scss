@@ -1,0 +1,60 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+
+// Create a server
+.header-1c1AhF,
+.header-12n7su,
+.header-1AP5SJ {
+    padding-bottom: 24px;
+}
+
+// Templates
+.templatesList-uohY49 {
+    margin-top: 0;
+}
+
+// Next step
+.container-x8Y1ix,
+.rowContainer-3t7486 {
+    @include card.large;
+
+    &:hover,
+    &:active {
+        background: unset;
+    }
+
+    .arrow-2yY1Tm,
+    .rowArrow-TIwwIc,
+    .rowIcon-1mRvtM {
+        @include filter.sepia;
+    }
+}
+
+// Add server icon
+.uploadIcon-2wV7s_ {
+    color: $cream;
+
+    circle {
+        fill: $cream;
+    }
+
+    path[fill="white"] {
+        fill: $black;
+    }
+}
+
+// Invite link
+.input-m1-Y7Q {
+    background: unset;
+}
+
+// Link error
+.formTitle-2YQyhj.error-30KkHs {
+    color: $red;
+}
+
+// Example links
+.sampleLink-5BWNy9 {
+    color: $cream;
+}

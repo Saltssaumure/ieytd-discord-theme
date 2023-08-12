@@ -1,0 +1,20 @@
+/**
+ * @name Tritone
+ * @author Saltssaumure
+ * @authorLink https://github.com/Saltssaumure
+ * @description A tri-tone theme inspired by IEYTD.
+ * @license GPL-3.0
+ * @version 2.0
+ * @invite uy8nKQVatp
+ * @source https://github.com/Saltssaumure/ieytd-discord-theme
+ * @donate https://ko-fi.com/saltssaumure
+*/
+
+@import url("https://saltssaumure.github.io/ieytd-discord-theme/ieytd.min.css");
+
+/* See https://github.com/Saltssaumure/ieytd-discord-theme#customisation for customisation settings. */
+:root {
+    --ieytd-color-1: #C34938;
+    --ieytd-color-2: #E1CC9A;
+    --ieytd-color-3: #000000;
+}

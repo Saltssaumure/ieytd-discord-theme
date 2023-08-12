@@ -1,0 +1,197 @@
+@use "../top/vars" as *;
+@use "../top/card";
+@use "../top/grabber";
+
+::placeholder {
+    color: $cream !important;
+}
+
+// Typing inputs
+.input-3O04eu {
+    @include card.round;
+
+    &:hover,
+    &.disabled-1-f06g,
+    &.focused-16iuXg,
+    &:focus {
+        border-color: $cream;
+    }
+
+    &.error-10GvqR {
+        border: $size-s solid $red;
+    }
+}
+
+// Single line input
+.inputPrefix-1HHwWv {
+    color: $cream;
+}
+.inputDefault-Ciwd-S {
+    @include card.round;
+}
+
+// Multi line input
+.textArea-3wfxMA {
+    @include card.xlarge;
+}
+
+// Char limit
+.characterCount-21v0bl,
+.maxLength-1Olpq1 {
+    color: $cream;
+}
+
+// Click to copy input
+.appMount-2yBXZl .copyInput-3AbKWB {
+    @include card.round;
+}
+
+// Dropdown selector
+.lookFilled-GPyucw.select-Zz0IcO {
+    border-radius: $size-max;
+    background: $black;
+    border: $size-xs solid $cream;
+}
+
+// Toggle
+.container-1QtPKm {
+    zoom: 1.2;
+
+    &:not(.checked-16gMAN) {
+        background-color: $red !important;
+        color: $red;
+    }
+
+    &.checked-16gMAN {
+        background-color: $cream !important;
+        color: $cream;
+    }
+
+    rect {
+        fill: $black;
+    }
+
+    path {
+        fill: currentColor;
+    }
+}
+
+// Checkbox
+.appMount-2yBXZl .checkbox-1LuCGM {
+    border: $size-xs solid $cream;
+    border-radius: $size-max;
+
+    &.checked-22NTbO {
+        background: $black !important;
+        border-color: $cream !important;
+
+        path {
+            fill: $cream;
+        }
+    }
+}
+
+.checkbox-3gI2WR {
+    border: $size-xs solid $cream;
+    border-radius: $size-max;
+
+    &.selected-3KWlIC {
+        background: unset;
+        border: $size-xs solid $cream;
+    }
+
+    .checkmark-1lGv7h {
+        color: $cream;
+    }
+}
+
+// Slider
+.slider-1mmyV6 {
+    // Tick
+    .markDash-1ATsxA {
+        background: $red;
+    }
+    // Label
+    .markValue-21gAVC {
+        color: $cream;
+    }
+
+    // Bar
+    .bar-2H7Q9u {
+        background: $red;
+        .barFill-3RgCsY {
+            background: $cream;
+        }
+    }
+
+    // Grabber
+    .grabber-3R-Rx9 {
+        @include grabber.full;
+    }
+}
+
+// Mini slider
+.mini-28oMa3 {
+    .grabber-3R-Rx9 {
+        @include grabber.mini;
+    }
+}
+
+// Keybind
+.appMount-2yBXZl .container-30qY7E {
+    @include card.large;
+    border-radius: $size-max;
+
+    &:not(.disabled-3S7pz8):focus-within,
+    &:not(.disabled-3S7pz8):hover {
+        border-color: $red;
+    }
+
+    // Current keys
+    .input-3K7d_z {
+        color: $cream;
+    }
+}
+
+// Dropdown
+.select-Zz0IcO,
+.wrapper-mJT04A {
+    color: $cream;
+}
+
+// Dropdown options
+.popout-15UxD6 {
+    @include card.large;
+    background: $black;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .option-Uc12mm {
+        color: $cream;
+
+        &[aria-selected="true"]:not(.option-Uc12mm.multi-2vPqc4),
+        &:hover,
+        &:focus,
+        &.focused-10mbp- {
+            background: unset;
+            color: $cream;
+        }
+    }
+}
+
+// Selected
+.selectedIcon-122rMx {
+    color: $cream;
+
+    circle {
+        fill: $black;
+    }
+}
+
+// Search input and icon
+.icon-3CDcPB,
+.input-2m5SfJ {
+    color: $cream;
+}

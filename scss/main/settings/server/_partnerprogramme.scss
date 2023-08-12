@@ -1,0 +1,60 @@
+@use "../../../top/vars" as *;
+@use "../../../top/filter";
+@use "../../../top/card";
+
+.banner-2VHeQm {
+    @include filter.sepia;
+}
+
+.featureCard-3XHbjy {
+    @include card.large;
+
+    .featureIcon-2sTnDK {
+        background: unset;
+
+        svg {
+            zoom: 2;
+        }
+
+        path {
+            fill: $cream;
+        }
+    }
+}
+
+// Eligibility
+.checklistContainer-12xGp5 {
+    @include card.large;
+
+    .checklistHeader-3liG7E {
+        background: unset;
+
+        .requirementsImage-B2ufg6 {
+            @include filter.sepia;
+        }
+
+        .warning-2DeIgm {
+            color: $red;
+        }
+    }
+}
+
+// Checks
+.checklistItem-1gWPPD {
+    align-items: center;
+
+    .checklistIcon-D7psvE {
+        path[fill="var(--yellow-300)"] {
+            fill: $cream;
+        }
+
+        path[fill="var(--red-400)"] {
+            fill: $red;
+        }
+    }
+}
+
+.separator-RaufQu,
+.separator-2qVfIV {
+    height: 0;
+}

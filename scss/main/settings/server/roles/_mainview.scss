@@ -1,0 +1,94 @@
+@use "../../../../top/vars" as *;
+@use "../../../../top/filter";
+@use "../../../../top/card";
+
+// Default permissions button
+.container-3EtAkD {
+    @include card.round;
+
+    &:hover {
+        background: unset;
+        color: $cream;
+    }
+
+    .icon-2DGsye {
+        background: unset;
+
+        svg {
+            zoom: 2;
+        }
+    }
+}
+
+// Roles list
+.emptyRoles-2rJGCl,
+.tableHeader-6gvH38,
+.roleRow-230vCm {
+    margin-left: 0;
+}
+
+// Drag handle spacing
+.dragSpacing-_vuty_ {
+    zoom: 1.5;
+}
+
+// Role
+.roleRow-230vCm {
+    @include card.round;
+    margin-bottom: $size-m;
+
+    &::before {
+        display: none;
+    }
+
+    // Drag handle
+    .dragIcon-2L691r {
+        color: $cream;
+        visibility: visible;
+        display: flex;
+        align-items: center;
+    }
+
+    // Member count
+    .memberCountContainer-2sIXRp {
+        color: $cream;
+    }
+
+    // Edit role
+    .editButton-5q1Axu {
+        display: none;
+    }
+
+    // More button
+    .secondary-2bzKEX {
+        @include card.round;
+
+        &:hover:not(.disabled-184-il) {
+            color: $cream;
+        }
+    }
+
+    &:hover:not(.roleRowDisableHover-3En0vy) .circleButton-2Yr5A1 {
+        background: unset;
+    }
+}
+
+// Dragged role marker
+.containerDragBefore-1A1S_U::before,
+.containerDragAfter-1xx-Bk::after {
+    background: $red;
+    box-shadow: none;
+    left: $size-xl;
+    right: $size-xl;
+}
+.containerDragBefore-1A1S_U::before {
+    top: 9px;
+}
+.containerDragAfter-1xx-Bk::after {
+    bottom: -9px;
+}
+
+// Dragged role
+.roleRowDragging-k2gTPJ {
+    opacity: 0.7;
+}

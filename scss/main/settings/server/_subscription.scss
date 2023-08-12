@@ -1,0 +1,76 @@
+@use "../../../top/vars" as *;
+@use "../../../top/filter";
+@use "../../../top/card";
+
+.heroBanner-K4y1R-,
+.howItWorksImage-3K4NRh,
+.roleSubscriptionLanyardIllo-3WY_T5,
+.roleSubscriptionSocial-3se_Qd,
+.roleSubscriptionEarningIllo-KUeNcB,
+.roundAvatar-Vd4CZj {
+    @include filter.sepia;
+}
+
+// Top card
+.card-ErWTld {
+    @include card.xlarge;
+
+    .brownMessageBlock-r5H96c {
+        @include card.large;
+    }
+}
+
+.sectionDivider-2v_sCF + div {
+    margin-top: $size-xl;
+}
+
+// How it works
+.howItWorksContainer-3ZDRIG,
+.howItWorksImageContainer-3U9Rdq {
+    background: unset;
+}
+
+// Benefits for creators
+.earningsPreviewContainer-2I6S8Z {
+    @include card.med;
+    background: unset !important;
+}
+.avatarCard-1N47yx {
+    @include card.med;
+    overflow: visible;
+}
+.verticalConnector-1VgFOw {
+    border: 1px solid $cream !important;
+}
+
+// Learn from other creators
+.carouselCaret-3XmSD5,
+.viewServerButtonText-3cPwzS {
+    color: $cream;
+}
+
+.guildCardHeaderAvatar-3FAHSc {
+    border-radius: $size-max;
+}
+
+.guildSubscriberCount-3xYcPs {
+    @include card.round;
+
+    .subscriberCountText-2UmR-T,
+    .subscriberCountValue-LI_0MN {
+        background: unset;
+        font-style: normal;
+    }
+
+    svg {
+        display: none;
+    }
+}
+
+.premiumEmojisRow-1oWaTN {
+    gap: $size-m;
+}
+
+.emojisContainer-2aGjbS {
+    @include card.round;
+}

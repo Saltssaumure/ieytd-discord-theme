@@ -1,0 +1,53 @@
+@forward "./display";
+@forward "./links";
+@forward "./managemembers";
+
+@use "../../../../../top/vars" as *;
+@use "../../../../../top/card";
+
+// Headers
+.titleContainer-3fPic2 {
+    background: inherit;
+}
+.header-JUTO-g {
+    background: $black;
+}
+
+// Integration role warning
+.warning-RBGtx2 {
+    align-items: center;
+}
+
+// Inner sidebar
+.sidebar-3K3Z4C {
+    background: $red;
+    border-right: $size-s solid $cream;
+
+    .list-1AJFv_ {
+        padding: 0 16px 96px 24px;
+    }
+
+    .addRole-viKZpC,
+    .title-JU0E7C,
+    .title-JU0E7C:hover {
+        color: $black;
+    }
+
+    :is(.item-2GWPIy, .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl)) {
+        @include card.round;
+
+        &.selected-1sf9UK {
+            background: $cream;
+            border-color: $black;
+
+            div[style] {
+                color: $black !important;
+            }
+        }
+    }
+}
+
+// More options button
+.menu-2p630X {
+    color: $cream;
+}

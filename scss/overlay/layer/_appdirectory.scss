@@ -1,0 +1,232 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/filter";
+@use "../../top/tabs";
+
+// App directory
+.appMount-2yBXZl .directoryContainer-z-0pgp {
+    background: $black;
+
+    .headerName-2jZqFB {
+        align-items: flex-start;
+
+        .logo-ScFp2k {
+            color: $cream;
+            zoom: 1.2;
+            margin-top: 2px;
+        }
+    }
+
+    .rightImage-TOZ-q9 {
+        @include filter.sepia;
+    }
+
+    .categoryList-1yEYdW {
+        @include tabs.bar;
+
+        .category-2OvQ93 {
+            @include tabs.tab;
+            border-color: $cream;
+        }
+    }
+
+    // Main app card
+    .card-2xymMp {
+        @include card.xlarge;
+    }
+
+    // Carousel nav
+    .themedPagination-3jclKS {
+        .arrow-2PTaaz {
+            color: $cream;
+        }
+        .dot-1xabNQ {
+            background: $cream;
+        }
+    }
+
+    // Smaller app cards
+    .anchor-1X4H4q {
+        text-decoration: none;
+
+        .listingDescription-2ljHF9 {
+            color: $cream !important;
+        }
+    }
+    .container-2NdZr9 {
+        @include card.large;
+        box-sizing: border-box;
+
+        &.animatesOnHoverContainer-3iNRBI:hover {
+            &,
+            .image-iQwTLo {
+                transform: none;
+            }
+        }
+
+        .bullet-2ACc_7 {
+            display: none;
+        }
+
+        .moreGuilds-2H5ieC {
+            background: $cream;
+            color: $black !important;
+        }
+    }
+
+    // Arrow nav
+    .scrollerButton-25TzVU {
+        color: $cream;
+    }
+
+    // New to apps helper
+    .container-SidGiM {
+        @include card.outer;
+
+        .image-3_WA8x {
+            @include filter.sepia;
+        }
+    }
+}
+
+.search-2RHhW6 {
+    background: $black !important;
+}
+
+.back-1RLxsC {
+    &,
+    &:hover {
+        .backHeader-2Yfz4X,
+        .backIcon-3OYRTx {
+            color: $cream;
+        }
+    }
+
+    .backHeader-2Yfz4X {
+        margin-top: -4px;
+    }
+}
+
+// App details page
+
+// Banner
+.headerBanner-ZCUdfQ {
+    border-radius: $size-xl $size-xl 0 0;
+}
+
+// App icon
+.headerIcon-4CEo5y {
+    border-color: $black;
+    background: $red;
+}
+
+// Server count
+.headerSidebar-q66Sut {
+    border-bottom: 0;
+}
+.defaultIcon-27uYKL,
+.iconInteractive-T4b09S,
+.iconInteractive-T4b09S:hover {
+    color: $cream;
+}
+
+// Categories
+.category-3LanTP {
+    @include card.round;
+}
+
+// Overview
+.detailedDescription-no5P98 {
+    color: $cream !important;
+
+    &.markdown-19oyJN {
+        code {
+            background: unset;
+            font-family: var(--font-code);
+        }
+
+        .codeInline-1RFl81 {
+            color: $cream;
+        }
+    }
+}
+
+.divider-2-bAb9,
+.separator-3iCpOF {
+    background: $cream;
+}
+
+.showMoreButtonIcon-3D4iRn {
+    color: $cream;
+}
+
+// Popular commands
+.list-1bztb- {
+    @include card.large;
+
+    .commandName-SDgdgz {
+        background: unset;
+        border: 0;
+    }
+}
+
+// Privacy
+.list-3ykg7W,
+.intentsContainer-FHJBSg {
+    @include card.large;
+}
+
+// Support server
+.card-sX105p {
+    @include card.large;
+}
+
+// Links
+.listIcon-1_fckz,
+.listItem-3C4TCU.linkItem-2RoFnB:hover .listIcon-1_fckz,
+.listItem-3C4TCU.linkItem-2RoFnB:hover .listText-1hmciy {
+    color: $cream;
+}
+
+// Search results page
+.sidebarImage-7xVcCu,
+.image-3tN5t_ {
+    @include filter.sepia;
+}
+
+// Categories
+.themed-qqoYp3 {
+    @include card.round;
+
+    &.selected-1sf9UK {
+        background: $cream;
+        border-color: $black;
+
+        &,
+        &:hover {
+            .icon-14PytS {
+                color: $black;
+            }
+        }
+        .defaultColor-1EVLSt,
+        .count-1N-yBv {
+            color: $black !important;
+        }
+    }
+
+    &,
+    &:hover {
+        .icon-14PytS {
+            color: $cream;
+        }
+    }
+    .defaultColor-1EVLSt,
+    .count-1N-yBv {
+        color: $cream !important;
+    }
+}
+
+// No results
+.container-1J51uI {
+    background: unset;
+}

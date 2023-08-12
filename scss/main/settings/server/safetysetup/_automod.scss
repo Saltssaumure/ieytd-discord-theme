@@ -1,0 +1,182 @@
+@use "../../../../top/vars" as *;
+@use "../../../../top/filter";
+@use "../../../../top/card";
+
+// Automod rule icon
+.ruleIconContainer-dXW56- {
+    background: $cream;
+
+    .ruleIcon-jIriNN {
+        color: $black;
+    }
+}
+
+// Automod actions
+.actionContainer-EzNGrb {
+    background: $cream;
+
+    .actionIcon-2VtFPq {
+        color: $black;
+    }
+
+    div,
+    span {
+        color: $black !important;
+    }
+}
+
+// Rules
+// Step
+.stepCountIcon-1A2Rxd {
+    background: $cream;
+
+    div {
+        color: $black;
+    }
+}
+
+// Arrow between steps
+.dividierIcon-GVrQQY {
+    color: $cream;
+}
+
+// Step instructions
+.triggerMainContainer-274ue5 {
+    border: 0;
+
+    // Field
+    .keywordsTextArea-3QkFoG,
+    .collapseable-1FiLab {
+        @include card.large;
+    }
+
+    .arrow-N82EUB,
+    .arrow-39Uzxs {
+        color: $cream;
+    }
+
+    // Field in dropdown
+    .textArea-3KjrTT {
+        @include card.med;
+    }
+
+    // Icon
+    .actionIcon-xZ8Xaf,
+    .mentionLimitIcon-11ZBxD {
+        color: $cream;
+    }
+
+    .mentionLimitIcon-11ZBxD path {
+        fill: $cream;
+    }
+
+    // Link
+    .editChannel-3Y8hih {
+        color: $red;
+    }
+
+    // Number adjust buttons
+    .stepperContainer-i-z0pP {
+        background: unset;
+        border: 0;
+
+        .iconWrapper-2_MXbk {
+            background: unset;
+        }
+
+        .icon-2TbMdT {
+            color: $cream;
+        }
+    }
+
+    .collapseable-owFmG1 {
+        margin: 8px;
+    }
+
+    // Response
+    .triggerSettingsContainer--iO5xr {
+        &:has(.actionContainer-2krsiT, .mentionLimitContainer-zBzr5i, .keywordListContainer-9ux8nU) {
+            @include card.large;
+            margin-top: 8px;
+            padding-top: 0;
+        }
+
+        // Row
+        .actionContainer-2krsiT,
+        .mentionLimitContainer-zBzr5i,
+        .keywordListContainer-9ux8nU {
+            background: unset;
+            margin-bottom: 0;
+        }
+    }
+
+    // Search
+    .container-1SX9VC {
+        @include card.round;
+
+        // Term
+        .richTag-20_n21 {
+            border-radius: $size-max;
+            background: $cream;
+            color: $black;
+
+            * {
+                color: $black;
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    // Search results
+    .resultsList-3yWCAG {
+        @include card.xlarge;
+        background: $black;
+    }
+}
+
+// Explicit image filter
+.container-AxP_J8,
+.groupCollapsedContainer-2z4Vrr,
+.collapseable-1FiLab.toggled-SfZPpc:active,
+.collapseable-1FiLab:active,
+.clickableContainer-3YtEIY {
+    background: unset;
+}
+
+.groupContainer-JYaEbn {
+    @include card.large;
+
+    &.toggled-SfZPpc {
+        padding-bottom: 24px;
+    }
+
+    // Currently selected option
+    .groupHeaderRow-19NZvU .backgroundModifierContainer-WjXgb2 {
+        border-left: 0;
+    }
+
+    // All options
+    .groupCollapsedContainer-2z4Vrr {
+        @include card.large;
+        margin: 12px;
+        padding: 0;
+        width: auto;
+
+        .pointer-3ErAGc {
+            display: none;
+        }
+
+        .statusRed-1dK5Ao,
+        .statusYellow-2nYnVP {
+            border-left: 0;
+        }
+
+        // Radio icon
+        .groupCollapsedRow-2CgoFk {
+            color: $cream;
+        }
+    }
+}

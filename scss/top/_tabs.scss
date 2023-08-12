@@ -1,0 +1,28 @@
+@use "./vars" as *;
+
+@mixin bar($ISBORDER: true, $ISPADDING: true) {
+    @if $ISBORDER {
+        border-bottom: $size-xs solid $cream;
+    }
+    @if $ISPADDING {
+        padding: $size-m $size-l 0;
+    }
+    border-radius: $size-xl $size-xl 0 0;
+    gap: $size-s;
+    background: $red;
+}
+
+@mixin tab($ISINVERT: false) {
+    @if $ISINVERT {
+        background: $cream;
+        color: $black;
+    } @else {
+        background: $black;
+        color: $cream;
+    }
+    border: $size-xs solid;
+    border-bottom: 0;
+    border-radius: $size-l $size-l 0 0;
+    margin: 0;
+    padding: 4px $size-m;
+}

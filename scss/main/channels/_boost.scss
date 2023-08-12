@@ -1,0 +1,32 @@
+@use "../../top/vars" as *;
+
+// Boost info
+.textArea-7J7xQx {
+    .goalText-mbRUAP,
+    .progressFraction-LUvqt3 > * {
+        color: $cream !important;
+    }
+}
+
+// Boost progress bar
+.progressBarContainer-1efroK {
+    border: $size-xs solid $cream;
+    border-radius: $size-max;
+
+    .progressBar-2yl2pi,
+    .container-2giAcK:hover & .progressBar-2yl2pi {
+        background: linear-gradient(90deg, $red, $cream);
+    }
+}
+
+// By Jaegerwald - Replace Tada Icon when the Server Has Unlocked All Boosting Perks with one from Twemoji.
+// https://discord.com/channels/1015060230222131221/1028106818368589824/1093881144719720488
+.tadaIcon-313rPm {
+    color: transparent;
+    background-image: url("https://abs.twimg.com/emoji/v2/svg/1f389.svg");
+    height: 16px;
+    width: 16px;
+    position: relative;
+    bottom: 8px;
+    left: 200px;
+}

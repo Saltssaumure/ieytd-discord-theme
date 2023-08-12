@@ -1,0 +1,36 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Current event info
+.container-2Y4CWj {
+    margin: 0;
+
+    &:not(:empty) {
+        border-bottom: $size-s solid $cream;
+    }
+
+    .channelNotice-K4UfZY {
+        @include card.xlarge;
+        margin: 0 $size-m $size-m;
+        padding: $size-m;
+        background: $black;
+
+        .closeIcon-1AEDhI,
+        .stageIcon-1Gi-1l {
+            color: $cream;
+        }
+
+        .liveIndicator-TJKS7N {
+            background: $cream;
+        }
+
+        .liveNowText-v8cd6m {
+            color: $cream !important;
+        }
+
+        // Event Details button
+        .joinButton-1HdI2a {
+            @include card.round;
+        }
+    }
+}

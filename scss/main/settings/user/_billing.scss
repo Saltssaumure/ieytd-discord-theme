@@ -1,0 +1,95 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+.descriptionWrapper-eOmU90 {
+    color: $cream;
+}
+
+.appMount-2yBXZl .defaultIndicator-2ndWks {
+    border-radius: $size-max;
+    background: $cream;
+    color: $black;
+}
+
+#billing-tab {
+    // Editing card info
+    .card-2aHs8C {
+        background: unset;
+        border-color: $cream;
+
+        .subText-3FNUOd,
+        .sectionHeader-1tIM9Z {
+            color: $cream;
+        }
+    }
+}
+
+// Transaction history
+.paymentPane-ut5qKZ {
+    .appMount-2yBXZl & {
+        @include card.large;
+        color: $cream;
+    }
+
+    // Header
+    .bottomDivider-ZmTm-j {
+        border-bottom: 0;
+    }
+    .paymentRowHeader-3WJnOv {
+        div {
+            color: $cream;
+            font-size: 16px;
+        }
+    }
+
+    // Content
+    .paginator-1eqD2g {
+        background: unset;
+    }
+
+    // Payment row
+    .payment-2bOh4k {
+        background: unset;
+
+        &:hover {
+            background: unset;
+        }
+
+        // Summary
+        .summaryInfo-3hcuop {
+            color: $cream;
+
+            .statusTagRed-1uG_z8 {
+                background: $red;
+                color: $cream;
+                border-radius: $size-max;
+            }
+        }
+
+        // Details
+        .expandedInfo-1W31i3 {
+            @include card.large;
+
+            .paymentHeader-2o7Phd,
+            .paymentText-BPrx01 {
+                color: $cream;
+            }
+        }
+    }
+
+    // Nav buttons
+    .pageActions-1crTQL {
+        justify-content: space-between;
+        padding: $size-m;
+
+        :is(.pageButtonNext-2_bbdk, .pageButtonPrev-3q9rh8, .pageIndicator-cOEPV8) {
+            color: $cream;
+            border: 0;
+
+            &.disabled-29cfPA {
+                color: $cream;
+                opacity: 0.7;
+            }
+        }
+    }
+}

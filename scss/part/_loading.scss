@@ -1,0 +1,26 @@
+@use "../top/vars" as *;
+
+// Rotating cubes
+.wanderingCubes-2A046F {
+    zoom: 3;
+    .item-2VgEex {
+        background: $red;
+
+        &:last-child {
+            background: $cream;
+        }
+    }
+}
+
+// Three dots
+.lowMotion-1G5A7p .item-2VgEex,
+.appMount-2yBXZl .lookFilled-1H2Jvj .spinnerItem-3Y5NsU {
+    background: $cream;
+}
+
+// Spinner
+.circular-2aZ0P_ {
+    .path-_o_4bT {
+        stroke: $cream;
+    }
+}

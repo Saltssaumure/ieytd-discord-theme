@@ -1,0 +1,25 @@
+@forward "./channels";
+@forward "./dm";
+@forward "./familycentre";
+@forward "./friends";
+@forward "./library";
+@forward "./messagerequests";
+@forward "./nitro";
+
+@use "../../top/vars" as *;
+
+// Friends
+.container-2cd8Mz .tabBody-2dgbAs,
+// Library
+.container-36u7Lw .container-3u6dG-,
+.container-36u7Lw .scroller-1TOeMq,
+// Nitro
+.applicationStore-2nk7Lo .scroller-29cQFV,
+// Message requests
+.chat-2ZfjoI .content-1jQy2l,
+// Server guide
+.forumOrHome-2VTX6r + .scrollerBase-1Pkza4,
+// Family centre
+.container-TT--xs .contentPanel-2uDEUG:not(.contentRegion-3HkfJJ .contentPanel-2uDEUG) {
+    border-left: $size-m solid $cream;
+}

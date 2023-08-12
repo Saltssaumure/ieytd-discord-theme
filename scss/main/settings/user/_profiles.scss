@@ -1,0 +1,35 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+.customizationSection-IGy2fS {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+// Profile theme
+.colorSwatch-2UxEuG {
+    .swatch-efj8wq {
+        border-radius: $size-m;
+        border: $size-xs solid $cream !important;
+    }
+
+    .colorSwatchLabel-3wZl63 {
+        color: $cream !important;
+    }
+
+    .editPencilIcon-22tRaH path {
+        fill: $cream;
+    }
+}
+
+// About me
+.channelTextArea-1VQBuV {
+    .bioTextArea-dDGOeC {
+        @include card.large;
+        height: 250px;
+    }
+
+    .characterCount-8yNPfb {
+        color: $cream;
+    }
+}

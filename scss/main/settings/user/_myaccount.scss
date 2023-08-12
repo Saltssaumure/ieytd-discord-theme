@@ -1,0 +1,33 @@
+@use "../../../top/vars" as *;
+
+// My account
+.accountProfileCard-lbN7n- {
+    border: $size-s solid $cream;
+    border-radius: $size-xl;
+    background: $black;
+
+    .background-3d_SjE,
+    .fieldList-in8WkP {
+        background: $black;
+    }
+
+    .text-md-normal-2rFCH3 {
+        color: $cream !important;
+    }
+
+    .profileCardUsernameRow-1bb6fi {
+        align-items: baseline;
+
+        .overflowMenuIcon-2Bjb5_ {
+            color: $cream;
+        }
+    }
+}
+
+// Password and authentication
+.userSettingsSecurity-2kODPN .isEnabled-20V6lG {
+    color: $cream;
+    .lockIcon-3t6Ow0 {
+        display: none;
+    }
+}

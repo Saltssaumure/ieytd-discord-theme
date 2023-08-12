@@ -1,0 +1,16 @@
+@forward "./banner";
+@forward "./boost";
+@forward "./bubbles";
+@forward "./category";
+@forward "./channel";
+@forward "./event";
+@forward "./userpanel";
+@forward "./voice";
+
+@use "../../top/vars" as *;
+
+// Overall background
+.sidebar-1tnWFu,
+.appMount-2yBXZl .container-1NXEtd {
+    background: $red;
+}

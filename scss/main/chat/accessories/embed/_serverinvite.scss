@@ -1,0 +1,44 @@
+@use "../../../../top/vars" as *;
+@use "../../../../top/card";
+@use "../../../../top/status";
+@use "../../../../top/filter";
+
+.wrapper-1HIH0j {
+    // Server name
+    .infoTitle-367C0l {
+        align-items: baseline;
+    }
+
+    // Member count
+    .count-62gVQ0 {
+        color: $cream;
+    }
+
+    // Status dots
+    .status-JIDx3x {
+        background: $cream;
+    }
+
+    // Offline status
+    .statusWrapper-3CHb8F:has(.statusOffline-2R-ArP) {
+        position: relative;
+        &::before {
+            @include status.dot;
+            position: absolute;
+            left: 2px;
+        }
+    }
+
+    // Server icon
+    .guildIcon-3ZfRfI {
+        background-color: $red;
+        border-radius: $size-max;
+        width: 56px;
+        height: 56px;
+
+        // Expired invite icon
+        &.guildIconExpired-2BFmZC {
+            @include filter.sepia;
+        }
+    }
+}

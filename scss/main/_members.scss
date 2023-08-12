@@ -1,0 +1,81 @@
+@use "../top/vars" as *;
+
+// Member sidebar
+.container-2o3qEW {
+    background: $red;
+    border-left: $size-m solid $cream;
+}
+
+.membersWrap-3NUR2t {
+    --interactive-hover: $cream;
+    --interactive-active: $cream;
+
+    .members-3WRCEx {
+        background: $red;
+    }
+
+    // Member list
+    .members-3WRCEx {
+        // Member group
+        .membersGroup-2eiWxl {
+            text-align: center;
+            text-transform: none;
+            height: auto;
+            padding-top: 24px - 12px;
+        }
+
+        // Member
+        .container-1oeRFJ {
+            background: $black;
+            border: $size-xs solid $cream;
+            border-radius: $size-max;
+
+            &.clickable-28SzVr:hover {
+                color: $cream;
+            }
+
+            // Shifting contents around
+            &:not(.membersGroup-2eiWxl + .member-48YF_l) {
+                margin-top: 4px;
+            }
+
+            .layout-1qmrhw {
+                height: 42px - 8px;
+                padding-left: 3px;
+            }
+
+            // Username
+            .name-3Vmqxm {
+                font-family: var(--font-display);
+                margin: -3px 0 2px 0;
+            }
+
+            // Bot tag
+            .botTag-7aX5WZ {
+                border-radius: 8px;
+                background: $red;
+                color: $black;
+
+                .botText-1fD6Qk {
+                    display: inline-block;
+                    padding-top: 2px;
+                }
+            }
+
+            // Member with profile open
+            &.selected-1-Z6gm {
+                background: $cream;
+                border-color: $black;
+
+                .name-3Vmqxm,
+                .activity-2EQDZv {
+                    color: $black;
+                }
+
+                .botTag-7aX5WZ {
+                    color: $cream;
+                }
+            }
+        }
+    }
+}

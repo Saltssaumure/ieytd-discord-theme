@@ -1,0 +1,28 @@
+@use "../top/vars" as *;
+@use "../top/card";
+
+// Channel in split / floating view
+
+// Split bar
+.resizeHandle-PBRzPC {
+    background: $cream;
+    width: $size-m;
+}
+
+// Split view
+.container-3XgAHv {
+    background: $black;
+
+    .iconWrapper-3plkqh {
+        display: none;
+    }
+}
+
+// Floating view
+.floating-3M3WeH {
+    @include card.outer;
+    inset: $size-l 0 $size-l auto;
+    filter: none;
+    border-radius: $size-xl 0 0 $size-xl;
+    border-right: 0;
+}

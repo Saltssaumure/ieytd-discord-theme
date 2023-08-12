@@ -1,0 +1,33 @@
+@use "../top/vars" as *;
+@use "../top/tabs";
+
+// Tabs
+.top-Ktfr_T {
+    @include tabs.bar;
+
+    .item-2GWPIy,
+    .item-2GWPIy.selected-1sf9UK,
+    .item-2GWPIy:hover {
+        @include tabs.tab;
+    }
+
+    .item-2GWPIy.selected-1sf9UK {
+        @include tabs.tab($ISINVERT: true);
+    }
+}
+
+.topPill-2vcLsa {
+    @include tabs.bar($ISBORDER: false);
+
+    .item-2GWPIy.themed-qqoYp3 {
+        &,
+        &:hover:not(.disabled-2G98Nl) {
+            @include tabs.tab($ISINVERT: true);
+        }
+
+        &.selected-1sf9UK,
+        &.selected-1sf9UK:hover:not(.disabled-2G98Nl) {
+            @include tabs.tab;
+        }
+    }
+}

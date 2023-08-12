@@ -1,0 +1,231 @@
+@use "../top/vars" as *;
+@use "../top/card";
+
+// Very outer
+.container-3wLKDe {
+    background: unset;
+}
+
+// Header
+.mainCard-3KBsBI {
+    @include card.xlarge;
+
+    .titleContainer-2YK93J {
+        align-items: center;
+    }
+
+    .searchIcon-2Nw0OL,
+    .closeIcon-3xe5xL,
+    .mediaIcon-3-Zrn7,
+    .slowModeIcon-2QRVwO,
+    .uploadIcon-M15owY,
+    .uploadInput-3fblkw:hover .uploadIcon-M15owY {
+        color: $cream;
+    }
+
+    // Post guidelines
+    .guidelinesButton-3Vrz0u svg {
+        color: $cream;
+        zoom: 1.2;
+    }
+
+    // Post title / search
+    .title-1v5ZfI {
+        border: 0;
+        border-radius: 0;
+        margin: 0;
+        font-size: 32px;
+        line-height: 36px;
+        min-height: 36px;
+    }
+
+    // Add attachment
+    .uploadInput-3fblkw {
+        @include card.large;
+    }
+
+    // Post content
+    .placeholder-1rCBhr {
+        color: $cream;
+    }
+
+    // Tags
+    .tagsContainer-3rSFH5 .tagsIcon-1ia6lX,
+    .tagsDivider-3LhkLA {
+        display: none;
+    }
+
+    .tagsButton-2EKn70 {
+        color: $red;
+        .tagsButtonInner-QgpYNg {
+            color: $red;
+        }
+    }
+}
+
+// Shift enter
+.matchingPostsRow-2IiEQ1 {
+    background: unset;
+}
+
+// Post guidelines
+.container-3arpDl {
+    @include card.large;
+
+    .descriptionContainer-2ylKGk {
+        background: unset;
+    }
+}
+
+// Sort and view
+.sortDropdown-hY93nR {
+    @include card.round;
+    overflow: visible;
+
+    .sortDropdownInner-1kHAUi {
+        color: $cream;
+    }
+}
+
+.divider-2bkesd {
+    width: 0;
+    margin-left: 0;
+}
+
+// Tags
+.pill-3pRQlO {
+    @include card.round;
+
+    &.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
+        background: $black;
+    }
+
+    .appMount-2yBXZl &.selected-24z1Ou {
+        border-color: $cream;
+
+        &,
+        &.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
+            background: $cream;
+        }
+
+        div {
+            color: $black;
+        }
+    }
+}
+
+// All tags
+.tagsButton-4pwOKH {
+    @include card.round;
+
+    .tagsButtonInner-2pvSm1 {
+        color: $cream;
+    }
+}
+
+// Selected tags count
+:is(.countContainer-3uQ087, .countContainer-3DOo5v) {
+    background: $cream;
+    margin-left: 0;
+    :is(.countText-1d5thl, .countText-35ewVE) {
+        color: $black;
+    }
+}
+
+// Post
+.container-q2_DnH {
+    &:hover {
+        transform: none;
+        background: unset;
+    }
+
+    // Post title
+    .lineClamp2Plus-2SCQmH {
+        -webkit-line-clamp: 1 !important;
+    }
+
+    // Post author
+    .author-2wrU40 a,
+    .author-2wrU40.hasUnreads-1b492d a {
+        color: $cream;
+    }
+
+    // Post info
+    .messageCountIcon-32-p8d,
+    .messageCountText-2q9uMy {
+        color: $cream;
+    }
+
+    .bullet-D4Ib09 {
+        display: none;
+    }
+}
+
+// Loading post
+.loadingCard-3pIp9h {
+    @include card.xlarge;
+    opacity: 0.3;
+}
+
+// No posts with tag
+.container-2nXUah {
+    background: unset;
+
+    .stars-35huiV path {
+        fill: $cream;
+    }
+
+    .icon-2ujrkG {
+        background: $cream;
+        color: $black;
+    }
+
+    .cta-1ioHap {
+        &,
+        &:hover {
+            color: $red;
+        }
+    }
+}
+
+// Forum post controls
+.container-3YcgdM {
+    background: unset;
+    border-top: 0;
+
+    .addReactButton-3bSQb6 {
+        border: 0;
+        background: unset;
+        min-width: unset;
+
+        & .icon-fX2J7U,
+        &:hover .icon-fX2J7U {
+            color: $cream;
+        }
+    }
+
+    // Right side buttons
+    .buttonInner-3aRbcx {
+        @include card.round;
+
+        &.active-OdlCV- {
+            background: $cream;
+            color: $black;
+        }
+    }
+}
+
+// Channel type
+.iconWrapper-3FqQ75 {
+    display: none;
+}
+
+// Forum start conversation reminder
+.box-2iMsQm {
+    display: none;
+}
+
+// Forum OP / replies divider
+.divider-AZrXIA {
+    display: none;
+}
