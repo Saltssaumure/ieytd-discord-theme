@@ -1,0 +1,35 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Voice chat activities
+
+// Header image
+.shelfTopBackground-R55ED9 {
+    display: none;
+}
+.activityShelfTitle-1rkbSI {
+    margin-top: 0;
+}
+
+.modalDivider-MtZbPb {
+    display: none;
+}
+
+.scrollTierBackground-BnWR8k {
+    background: unset;
+}
+
+// Activities
+.shelf-3D6g4D {
+    gap: 10px;
+
+    // Activity
+    .activityItem-1Z9CTr {
+        @include card.large;
+    }
+
+    // Tag
+    .activityTag-3C3YK5 {
+        @include card.round;
+    }
+}
