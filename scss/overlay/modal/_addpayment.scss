@@ -1,0 +1,14 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Add a new payment method
+
+.cardInput-33x7OF {
+    @include card.round;
+}
+
+.cardIcon-1rZ5-N {
+    top: $size-l;
+    left: $size-l;
+    transform: none;
+}
