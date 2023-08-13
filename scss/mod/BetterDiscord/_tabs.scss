@@ -1,0 +1,20 @@
+@use "../../top/vars" as *;
+@use "../../top/tabs";
+
+.bd-tab-bar {
+    @include tabs.bar;
+}
+
+.bd-tab-item {
+    @include tabs.tab;
+
+    &:hover,
+    &:active {
+        background: $black;
+        color: $cream;
+    }
+
+    &.selected {
+        @include tabs.tab($ISINVERT: true);
+    }
+}
