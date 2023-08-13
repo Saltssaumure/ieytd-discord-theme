@@ -1,5 +1,6 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
+@use "../../../top/filter";
 
 // Mic test
 .wrapper-UvA17F {
@@ -18,9 +19,26 @@
     }
 }
 
+// Soundboard
+.soundButtonSettingContainer-3G4JEB {
+    @include card.round;
+
+    .secondaryButton-JGH-z5 {
+        color: $cream;
+
+        path[fill="var(--red-400)"] {
+            fill: $red;
+        }
+    }
+}
+
 // Video preview
 .cameraWrapper-nG8dpo {
     @include card.large;
+
+    .previewImage-7EfQfc {
+        @include filter.sepia;
+    }
 }
 
 // Video background
