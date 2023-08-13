@@ -50,15 +50,15 @@
         font-family: var(--font-display);
         margin-top: -0.4rem;
     }
+}
 
-    // Mention
-    .wrapper-1ZcZW- {
-        @include card.round;
+// Mention
+.wrapper-1ZcZW- {
+    @include card.round;
 
-        &:hover {
-            color: $cream;
-            background: $black;
-        }
+    &:hover {
+        color: $cream;
+        background: $black;
     }
 }
 

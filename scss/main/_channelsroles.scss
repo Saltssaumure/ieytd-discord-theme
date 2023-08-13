@@ -23,28 +23,6 @@
         }
     }
 
-    // Answer
-    .optionButtonWrapper-2lbogO {
-        @include card.round;
-
-        &.pressed-2AiKRB {
-            transform: none;
-        }
-
-        // Selected
-        .checkIcon-3eAeN_ {
-            position: relative;
-            top: 0;
-            right: 0;
-            margin-left: auto;
-            zoom: 1.5;
-            background: $cream;
-            path {
-                fill: $black;
-            }
-        }
-    }
-
     // Role
     .helpText-2SCsDl {
         align-items: baseline;

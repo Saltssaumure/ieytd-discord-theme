@@ -1,0 +1,80 @@
+@use "../top/vars" as *;
+@use "../top/card";
+
+// Onboarding
+
+.main-243VC2 {
+    // Background
+    .gradient-qt4Dwd {
+        background: unset !important;
+    }
+
+    // Question window
+    .prompt-R8SyL4 {
+        @include card.outer;
+
+        // Shader
+        .overlay-1wSZ6w {
+            display: none;
+        }
+
+        // Footer
+        .navButtons-R_NSvX {
+            background: $red;
+
+            .helpTextItem-vKqbnn {
+                color: $cream;
+            }
+        }
+    }
+}
+
+// Answer
+.optionButtonWrapper-2lbogO {
+    @include card.round;
+
+    &:hover,
+    &.selected-KQBgNS {
+        border-color: $cream;
+        background: $black;
+    }
+
+    &.pressed-2AiKRB {
+        transform: none;
+    }
+
+    // Selected answer
+    .checkIcon-3eAeN_ {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-left: auto;
+        min-width: 20px;
+        zoom: 1.5;
+        background: $cream;
+
+        path {
+            fill: $black;
+        }
+    }
+
+    // Other members in group
+    .memberCount-2G9rxE {
+        top: $size-m;
+        right: 32px;
+        background: $cream;
+
+        div {
+            color: $black !important;
+        }
+    }
+}
+
+// Rules
+.termsFieldBody-2nQ2cD {
+    @include card.large;
+
+    .termsRow-1KIihh {
+        border-bottom: 0;
+    }
+}
