@@ -13,6 +13,7 @@
 // Customisation question
 .prompt-1sE27N {
     @include card.large;
+    overflow: unset;
     border-color: $cream !important;
 
     // Required answer
@@ -30,6 +31,57 @@
             border-radius: $size-max;
             border: $size-xxs solid $cream;
             padding: $size-s;
+        }
+    }
+
+    // Dropdown
+    .select-1YfRS9 {
+        // Top
+        .css-llyypf,
+        .css-mb2az-placeholder,
+        .css-1c3ogn8-indicatorContainer {
+            color: $cream;
+        }
+        .css-fcsbhh-control {
+            @include card.round;
+        }
+        .css-1t5q03r-control {
+            &,
+            &:hover {
+                @include card.round;
+            }
+        }
+
+        // Dropdown
+        .css-6sv4e8-menu {
+            @include card.xlarge;
+            background: $black;
+
+            .css-1gl4k7y {
+                color: $cream;
+            }
+        }
+    }
+}
+
+// Profile preview
+.profileCard-2gVmvm {
+    @include card.xlarge;
+
+    .separator-2prxtM {
+        display: none;
+    }
+
+    .title-20kNQS {
+        margin-top: $size-m;
+    }
+
+    .role-3uAPnQ {
+        background: $cream;
+        color: $black;
+
+        div {
+            color: $black !important;
         }
     }
 }
