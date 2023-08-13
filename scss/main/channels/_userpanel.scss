@@ -20,6 +20,28 @@
     .container-1zzFcN {
         border-bottom: 0;
 
+        // Ping bars
+        .ping-2IpLcU {
+            color: $black;
+        }
+        .rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc,
+        .rtcConnectionQualityAverage-USzsaD .pingForeground-1BRBTc:not(:last-child) {
+            color: $cream;
+        }
+        .rtcConnectionQualityBad-3fxsmZ .pingForeground-1BRBTc:first-child {
+            color: $red;
+        }
+
+        // Connection status text
+        .rtcConnectionStatusConnected-1c73OK,
+        .rtcConnectionStatusConnecting-2D7M2N {
+            color: $cream;
+        }
+        .rtcConnectionStatusError-2QNGCS {
+            color: $red;
+        }
+
+        // Voice chat options
         .button-1EGGcP:not(.disabledButtonWrapper-1m0hYZ) {
             @include card.round;
         }

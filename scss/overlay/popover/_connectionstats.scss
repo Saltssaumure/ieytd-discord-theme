@@ -1,0 +1,33 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/svg";
+
+// Voice chat connection status on "Voice connected" click
+
+.container-1ILvLB {
+    @include card.outer;
+
+    .graphContainer-3Txdak {
+        @include card.med;
+    }
+
+    .popoutText-3NRmTw {
+        color: $cream;
+    }
+
+    .separator-15Vn3M {
+        display: none;
+    }
+
+    .popoutBottom-15-vLu {
+        margin-top: $size-m;
+
+        .secured-2wavXv {
+            color: $cream;
+
+            &::before {
+                background: svg.$lock;
+            }
+        }
+    }
+}
