@@ -13,6 +13,10 @@
         &.toast-success.icon {
             background-image: svg.$bd-check;
         }
+
+        &.toast-info.icon {
+            background-image: svg.$bd-info;
+        }
     }
 }
 
@@ -39,6 +43,40 @@
     .footer-IubaaS {
         .anchor-1X4H4q {
             color: $cream;
+        }
+    }
+}
+
+// Addon errors
+.bd-error-modal {
+    .bd-error-modal-header {
+        padding-bottom: 0;
+    }
+
+    .bd-addon-error {
+        @include card.large;
+
+        .colorHeaderPrimary-3kwW7L,
+        .colorHeaderSecondary-2mxIhA,
+        .bd-addon-error-expander {
+            color: $cream;
+        }
+
+        .bd-addon-error-icon {
+            background: $red;
+            svg {
+                fill: $black;
+            }
+        }
+
+        .bd-divider {
+            display: none;
+        }
+
+        .bd-addon-error-stack code {
+            background: unset;
+            border: $size-xs dashed $cream;
+            border-radius: $size-l;
         }
     }
 }

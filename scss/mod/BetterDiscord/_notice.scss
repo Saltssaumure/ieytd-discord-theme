@@ -1,6 +1,7 @@
 @use "../../top/vars" as *;
 @use "../../top/card";
 @use "../../top/filter";
+@use "../../top/svg";
 
 // Banners
 #bd-notices {
@@ -25,7 +26,8 @@
 }
 
 .bd-notice-close {
-    @include filter.sepia;
+    background-image: svg.$bd-close;
+    opacity: 1;
     right: 8px;
 }
 

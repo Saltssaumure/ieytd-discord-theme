@@ -1,4 +1,15 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
+
+// Button
+.bd-button {
+    @include card.round;
+
+    &:hover,
+    &:active {
+        background: $black;
+    }
+}
 
 // Toggle
 .bd-switch {
