@@ -1,4 +1,5 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
 
 .panels-3wFtMD,
 .container-1zzFcN,
@@ -20,10 +21,7 @@
         border-bottom: 0;
 
         .button-1EGGcP:not(.disabledButtonWrapper-1m0hYZ) {
-            border: $size-xs solid $cream;
-            border-radius: $size-max;
-            background: $black;
-            color: $cream;
+            @include card.round;
         }
     }
 
@@ -34,12 +32,6 @@
             font-family: var(--font-display);
             margin-top: -10px;
             line-height: 28px;
-        }
-
-        // User icon
-        .avatar-1EWyVD {
-            border: $size-xs solid $red;
-            background: $black;
         }
     }
 
