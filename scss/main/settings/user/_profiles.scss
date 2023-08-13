@@ -1,5 +1,6 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
+@use "../../../top/filter";
 
 .customizationSection-IGy2fS {
     border-bottom: 0;
@@ -32,4 +33,9 @@
     .characterCount-8yNPfb {
         color: $cream;
     }
+}
+
+// Preview
+.fakeActivityIcon-KeXVoI {
+    @include filter.sepia;
 }

@@ -32,7 +32,7 @@
         }
 
         &.buttonColor-1u-3JF {
-            @include button.button(var(--profile-gradient-primary-color), $cream, var(--profile-gradient-secondary-color));
+            @include button.button($black, $cream);
         }
 
         &.buttonColor-_0gSD_ {
