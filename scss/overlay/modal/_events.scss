@@ -90,7 +90,7 @@
 }
 
 // Event card
-:is(.appMount-2yBXZl .previewCard-E137i2, .card-8UsK4b) {
+:is(#{$root} .previewCard-E137i2, .card-8UsK4b) {
     @include card.med;
 
     // New event

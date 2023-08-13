@@ -5,7 +5,7 @@
     color: $cream;
 }
 
-.appMount-2yBXZl .defaultIndicator-2ndWks {
+#{$root} .defaultIndicator-2ndWks {
     border-radius: $size-max;
     background: $cream;
     color: $black;
@@ -26,7 +26,7 @@
 
 // Transaction history
 .paymentPane-ut5qKZ {
-    .appMount-2yBXZl & {
+    #{$root} & {
         @include card.large;
         color: $cream;
     }

@@ -42,7 +42,7 @@
 }
 
 // Click to copy input
-.appMount-2yBXZl .copyInput-3AbKWB {
+#{$root} .copyInput-3AbKWB {
     @include card.round;
 }
 
@@ -77,7 +77,7 @@
 }
 
 // Checkbox
-.appMount-2yBXZl .checkbox-1LuCGM {
+#{$root} .checkbox-1LuCGM {
     border: $size-xs solid $cream;
     border-radius: $size-max;
 
@@ -138,7 +138,7 @@
 }
 
 // Keybind
-.appMount-2yBXZl .container-30qY7E {
+#{$root} .container-30qY7E {
     @include card.large;
     border-radius: $size-max;
 
