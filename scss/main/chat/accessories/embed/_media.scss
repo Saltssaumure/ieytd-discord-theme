@@ -1,5 +1,6 @@
 @use "../../../../top/vars" as *;
 @use "../../../../top/card";
+@use "../../../../top/svg";
 
 // Images, videos, gifs
 
@@ -13,6 +14,37 @@
 .inlineMediaEmbed-1m3ApS {
     @include card.large;
     width: fit-content;
+}
+
+// Inner
+.imageWrapper-oMkQl4 {
+    border-radius: 0;
+}
+.embedImage-2Ynqkh,
+.embedThumbnail-2nTasl,
+.embedVideo-2ixt5A {
+    img,
+    video {
+        border-radius: 0;
+    }
+}
+
+// Gif tag
+.imageAccessory-2yA7Kb {
+    .gifTag-1TvtGO {
+        background: svg.$giftag;
+    }
+    .gifFavoriteButton-3ZomyF {
+        color: $cream;
+    }
+}
+
+// Alt text
+.altText-sAs-Ao {
+    background: $red;
+    color: $black;
+    padding: 0.25rem;
+    margin: 0;
 }
 
 // Action buttons
