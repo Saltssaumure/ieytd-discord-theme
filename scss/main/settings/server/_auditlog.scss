@@ -8,7 +8,7 @@
     color: $cream;
 }
 
-.appMount-2yBXZl .quickSelectArrow-1dOOHb {
+#{$root} .quickSelectArrow-1dOOHb {
     background-image: svg.$audit-arrow;
 }
 
@@ -17,7 +17,7 @@
 }
 
 // Log entries
-.appMount-2yBXZl {
+#{$root} {
     .auditLog-1NVAY0 {
         @include card.large;
         margin-bottom: $size-l;

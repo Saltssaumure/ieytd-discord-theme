@@ -2,7 +2,7 @@
 @use "../../../top/card";
 
 // Current game
-.appMount-2yBXZl {
+#{$root} {
     .nowPlaying-3UpuKc {
         @include card.large;
 
@@ -30,12 +30,12 @@
 }
 
 // Not seeing your game
-.appMount-2yBXZl .nowPlayingAdd-3I4RbE {
+#{$root} .nowPlayingAdd-3I4RbE {
     color: $cream;
 }
 
 // Added games
-.appMount-2yBXZl .game-2f2vPC {
+#{$root} .game-2f2vPC {
     box-shadow: none;
 
     :is(.gameName-zbZetm, .lastPlayed-1jum9A, .overlayStatusText-In0YrK) {

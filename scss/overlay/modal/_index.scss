@@ -1,6 +1,7 @@
 @forward "./ban";
 @forward "./boost";
 @forward "./createserver";
+@forward "./deletemessage";
 @forward "./events";
 @forward "./forumdemo";
 @forward "./invite";
@@ -22,7 +23,7 @@
     box-shadow: 0 0 20px $red !important;
 }
 
-.appMount-2yBXZl {
+#{$root} {
     .footer-IubaaS,
     .header-1ffhsl {
         background: $red;
@@ -68,7 +69,7 @@
 }
 
 // Footer
-.appMount-2yBXZl .footerSeparator-3U8YsT {
+#{$root} .footerSeparator-3U8YsT {
     box-shadow: none;
 
     .button-18kCi0 {

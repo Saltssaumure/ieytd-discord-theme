@@ -1,7 +1,7 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
 
-.appMount-2yBXZl {
+#{$root} {
     .bannedUser-26qsXF {
         @include card.large;
         box-shadow: none;

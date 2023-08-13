@@ -4,7 +4,7 @@
 
 // Search chat history
 
-.appMount-2yBXZl {
+#{$root} {
     .container-2McqkF {
         @include card.outer;
     }
@@ -87,7 +87,7 @@
 }
 
 // Date picker
-.appMount-2yBXZl .calendarPicker-sDhzdi {
+#{$root} .calendarPicker-sDhzdi {
     .react-datepicker__header,
     .react-datepicker {
         background: $black;
@@ -194,7 +194,7 @@
 }
 
 /* search modifiers, eg. has: from: */
-.appMount-2yBXZl {
+#{$root} {
     // Search modifiers
     .searchFilter-2UfsDk {
         background: $cream;

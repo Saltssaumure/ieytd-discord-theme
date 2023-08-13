@@ -160,7 +160,7 @@
 }
 
 // Activity
-.appMount-2yBXZl :is(.activityProfile-1712BN, .activityProfileV2-1N7pee, .activityUserPopout-2MzGCj, .activityUserPopoutV2-3eKqzY) {
+#{$root} :is(.activityProfile-1712BN, .activityProfileV2-1N7pee, .activityUserPopout-2MzGCj, .activityUserPopoutV2-3eKqzY) {
     :is(
             .activityName-3YXl6e,
             .content-tXPNDw,

@@ -1,0 +1,15 @@
+@use "../../../../top/vars" as *;
+@use "../../../../top/card";
+
+// Uploading / processing attachement
+.attachment-1PZZB2 {
+    @include card.large;
+
+    .filename-3A5bVl,
+    .cancelButton-oOSTov,
+    .downloadButton-2HLFWN,
+    .cancelButton-oOSTov:hover,
+    .downloadButton-2HLFWN:hover {
+        color: $cream;
+    }
+}

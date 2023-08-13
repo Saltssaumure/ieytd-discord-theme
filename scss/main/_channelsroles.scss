@@ -3,9 +3,9 @@
 @use "../top/filter";
 
 // Channels & Roles
-.appMount-2yBXZl .emptyPage-2TGR7j,
-.appMount-2yBXZl .scrollerContainer-y16Rs9,
-.appMount-2yBXZl .container-1um7CU,
+#{$root} .emptyPage-2TGR7j,
+#{$root} .scrollerContainer-y16Rs9,
+#{$root} .container-1um7CU,
 .scroller-1fIBSS {
     background: unset;
 }

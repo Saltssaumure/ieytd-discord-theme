@@ -3,7 +3,7 @@
 @use "../top/filter";
 
 // Info cards, mainly in settings
-.appMount-2yBXZl .card-2guEcY {
+#{$root} .card-2guEcY {
     @include card.large;
     background: $black;
 

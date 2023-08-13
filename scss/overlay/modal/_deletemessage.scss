@@ -1,0 +1,8 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Message deletion confirm
+
+#{$root} .message-G6O-Wv {
+    @include card.large;
+}

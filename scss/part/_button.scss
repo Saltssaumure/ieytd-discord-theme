@@ -1,7 +1,7 @@
 @use "../top/vars" as *;
 @use "../top/button" as button;
 
-.appMount-2yBXZl {
+#{$root} {
     :is(.lookFilled-1H2Jvj, .lookOutlined-3RTC7c, .lookInverted-2GrLaB) {
         border-radius: $size-max;
         border: $size-xs solid;
@@ -94,8 +94,9 @@
 
 // Action buttons
 .button-3bklZh {
-
-    &, &:hover, &:active {
+    &,
+    &:hover,
+    &:active {
         color: $cream;
     }
 
@@ -104,7 +105,9 @@
     }
 
     &.dangerous-Y36ifs {
-        &, &:hover, &:active {
+        &,
+        &:hover,
+        &:active {
             color: $red;
         }
     }
