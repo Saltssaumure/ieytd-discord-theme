@@ -1,0 +1,45 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Grant external application permission
+.authorize-2xTTr- {
+    background: unset;
+
+    .header-3cN3a_,
+    .scopes-uCLYQv {
+        border-bottom: 0;
+    }
+
+    // Connection
+    .ellipse-3ghlOA {
+        background: $cream;
+        opacity: 0.7;
+    }
+
+    // Permissions granted
+    .scopes-uCLYQv {
+        padding: 0;
+
+        // Checkmark
+        .scopeCheck-3trytX {
+            background: $cream;
+        }
+        .icon-hDztL8 {
+            color: $black;
+        }
+
+        // Joke permission
+        .scope-J9cQRk:has(.scopeTimes-KsAOBb) {
+            display: none;
+        }
+    }
+
+    // Details icon
+    .entryIcon-2bcrKV {
+        color: $cream;
+    }
+
+    .footer-3Gu_Tl {
+        background: $red;
+    }
+}

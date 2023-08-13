@@ -1,14 +1,19 @@
+@forward "./activities";
+@forward "./addpayment";
 @forward "./ban";
 @forward "./boost";
 @forward "./createserver";
 @forward "./deletemessage";
 @forward "./events";
+@forward "./externalapplication";
+@forward "./feedback";
 @forward "./forumdemo";
 @forward "./invite";
 @forward "./linkwarning";
 @forward "./quickswitcher";
 @forward "./studenthub";
 @forward "./studenthubs";
+@forward "./whatsnew";
 
 @use "../../top/vars" as *;
 @use "../../top/card";

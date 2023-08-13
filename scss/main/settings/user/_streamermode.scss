@@ -1,0 +1,7 @@
+@use "../../../top/filter";
+
+// Streamer mode
+
+.noticeIcon-1GRGeg {
+    @include filter.sepia;
+}

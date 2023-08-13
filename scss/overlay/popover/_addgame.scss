@@ -1,0 +1,11 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Add game to Registered Games
+#{$root} .addGamePopout-2SKNIV {
+    @include card.outer;
+
+    .wrapper-mJT04A {
+        margin-bottom: $size-m;
+    }
+}

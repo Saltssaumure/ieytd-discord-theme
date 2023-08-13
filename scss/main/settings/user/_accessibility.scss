@@ -1,0 +1,10 @@
+@use "../../../top/vars" as *;
+@use "../../../top/card";
+
+// Accessibility
+
+// Preview message
+.previewMessage-2g_aBv {
+    @include card.med;
+    background: unset;
+}

@@ -1,9 +1,14 @@
 @use "../top/vars" as *;
 @use "../top/card";
 @use "../top/grabber";
+@use "../top/svg";
 
 ::placeholder {
     color: $cream !important;
+}
+
+.placeholder-2k_BvH {
+    color: $cream;
 }
 
 // Typing inputs
@@ -44,6 +49,11 @@
 // Click to copy input
 #{$root} .copyInput-3AbKWB {
     @include card.round;
+}
+
+// Keybind editor
+.editIcon-e7sZ3b {
+    background: svg.$keyboard;
 }
 
 // Dropdown selector

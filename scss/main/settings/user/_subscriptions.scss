@@ -1,5 +1,6 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
+@use "../../../top/filter";
 
 .sectionDescription-2ealM1,
 .accountCreditDescription-1lEaJI {
@@ -20,6 +21,10 @@
         .planName-3i1IN1 {
             color: $black;
         }
+    }
+
+    .image-J0sk71 {
+        @include filter.sepia;
     }
 }
 

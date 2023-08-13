@@ -1,3 +1,4 @@
+@forward "./addgame";
 @forward "./channeldetail";
 @forward "./emojiinfo";
 @forward "./emojipicker";
@@ -5,13 +6,14 @@
 @forward "./inbox";
 @forward "./languageselector";
 @forward "./loading";
+@forward "./memberfilter";
 @forward "./menu";
 @forward "./pinned";
 @forward "./search";
 @forward "./selectfriends";
+@forward "./soundpicker";
 @forward "./statusedit";
 @forward "./threads";
-@forward "./memberfilter";
 
 @use "../../top/vars" as *;
 @use "../../top/card";

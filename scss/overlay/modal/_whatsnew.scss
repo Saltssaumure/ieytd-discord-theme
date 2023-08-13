@@ -1,0 +1,27 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// What's new to discord updates
+.root-1CAIjD .root-1CAIjD {
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+
+    .content-FDHp32 {
+        a {
+            color: $red;
+        }
+
+        ul li {
+            color: $cream;
+
+            &::before {
+                background: $cream;
+            }
+        }
+    }
+
+    .socialLink-1qjJIk {
+        color: $cream;
+    }
+}

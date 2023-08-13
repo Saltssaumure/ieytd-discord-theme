@@ -1,0 +1,12 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Voice chat or activity feedback
+#{$root} .header-1ffhsl:has(.ratingBody-1GrX6N) {
+    background: $black;
+}
+
+// Subtitle
+.ratingBody-1GrX6N {
+    color: $cream;
+}
