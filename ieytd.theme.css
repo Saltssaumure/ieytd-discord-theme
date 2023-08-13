@@ -1,20 +1,36 @@
 /**
- * @name Tritone
- * @author Saltssaumure
- * @authorLink https://github.com/Saltssaumure
- * @description A tri-tone theme inspired by IEYTD.
- * @license GPL-3.0
- * @version T2.0
- * @invite uy8nKQVatp
+ * @name IEYTD
+ * @author Saltssaumure#7557
+ * @description I Expect You To Die inspired Discord theme.
+ * @version Autoupdate v2
  * @source https://github.com/Saltssaumure/ieytd-discord-theme
+ * @website https://saltssaumure.github.io/ieytd-discord-theme
  * @donate https://ko-fi.com/saltssaumure
+ * @invite ieytd
 */
 
-@import url("https://saltssaumure.github.io/ieytd-discord-theme/ieytd.min.css");
+/*
+                                                Made by:
+ _______  _______  _    _________ _______  _______  _______           __   __           _______  _______ 
+(  ____ \(  ___  )( \   \__   __/(  ____ \(  ____ \(  ___  )|\     /|(  \ /  )|\     /|(  ____ )(  ____ \
+| (____\/| (___) || |      | |   | (____\/| (____\/| (___) || |   | || || || || |   | || (____)|| (__  \/
+(_____  )|  ___  || |      | |   (_____  )(_____  )|  ___  || |   | || |(_)| || |   | || __  __)|  __)   
+/\____) || )   ( || (____/\| |   /\____) |/\____) || )   ( || (___) || )   ( || (___) || ) \ \__| (____/\
+\_______)|/     \|(_______/)_(   \_______)\_______)|/     \|(_______)|/     \|(_______)|/   \__/(_______/
+                                       donut steel (but do fork)!
+*/
 
-/* See https://github.com/Saltssaumure/ieytd-discord-theme#customisation for customisation settings. */
-:root {
-    --ieytd-color-1: #C34938;
-    --ieytd-color-2: #E1CC9A;
-    --ieytd-color-3: #000000;
+@import url("https://saltssaumure.github.io/ieytd-discord-theme/ieytd-main.css");
+@import url("https://saltssaumure.github.io/ieytd-discord-theme/ieytd-alpha.css");
+@import url("https://saltssaumure.github.io/ieytd-discord-theme/ieytd-beta.css");
+@import url("https://saltssaumure.github.io/ieytd-discord-theme/ieytd-gamma.css");
+
+/* User editable colours below. 
+Use this or your favourite colour picker to get a hex code: https://casesandberg.github.io/react-color/ */
+
+.theme-dark,
+.theme-light {
+    --color-one: #c34938;
+    --color-two: #e1cc9a;
+    --color-three: #000;
 }

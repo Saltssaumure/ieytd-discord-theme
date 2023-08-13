@@ -91,3 +91,21 @@
         border: $size-xs solid;
     }
 }
+
+// Action buttons
+.button-3bklZh {
+
+    &, &:hover, &:active {
+        color: $cream;
+    }
+
+    &:active {
+        padding: 4px;
+    }
+
+    &.dangerous-Y36ifs {
+        &, &:hover, &:active {
+            color: $red;
+        }
+    }
+}
