@@ -26,6 +26,11 @@
         background: $red;
     }
 
+    .expandedFolderIconWrapper-3RwQpD path {
+        stroke: $black;
+        stroke-width: $size-xs;
+    }
+
     .expandedFolderBackground-1kSAf6 {
         border-radius: $size-max;
         border: $size-s solid $black;
@@ -96,8 +101,9 @@
         box-shadow: none;
     }
 
-    // Lower badge
-    .lowerBadge-3j0ZAg {
+    // Badge
+    .lowerBadge-3j0ZAg,
+    .upperBadge-1d6YsW {
         & > div {
             border: $size-xs solid $black;
             height: 20px;
