@@ -1,0 +1,111 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Soundboard picker
+
+.picker-20lcBA {
+    @include card.outer;
+    background: $black;
+}
+
+// Header
+.header-3YNgrp {
+    background: $red;
+
+    .settingsClickArea-1vKB0J {
+        color: $cream;
+    }
+}
+
+// Server sidebar
+.categoryList-iuh2t0 {
+    top: 64px;
+    left: $size-s;
+    bottom: $size-s;
+    border-bottom-left-radius: $size-l;
+
+    .category-2igiWS {
+        border-radius: $size-max;
+        background: $red;
+        overflow: hidden;
+        box-shadow: 0 0 0 2px $black;
+    }
+
+    .categoryIconIcon-2lhQg8 {
+        color: $cream;
+    }
+}
+
+// Sound panel
+.listWrapper-1y1la3 {
+    left: 47px;
+    width: calc(100% - 47px);
+
+    // Group header
+    .sectionHeader-1-lTK9 {
+        position: sticky;
+        margin: 0;
+        top: 0;
+        z-index: 1;
+        background: $black;
+        color: $cream;
+        height: 32px;
+        align-items: center;
+
+        .guildIcon-2SUGiq {
+            border-radius: $size-max;
+            background: $red;
+        }
+
+        .sectionTitle-1T_AdY {
+            color: $cream;
+            font-size: 12px;
+            line-height: 12px;
+            font-family: var(--font-primary);
+        }
+    }
+
+    // Sound
+    .soundButton-2P2Ua2 {
+        @include card.med;
+
+        // Hover to select
+        &.focused-3HPLAS.hoverActiveBackground-gg2vFI,
+        &:focus-within.hoverActiveBackground-gg2vFI,
+        &:hover.hoverActiveBackground-gg2vFI {
+            background: unset;
+
+            .secondaryButton-JGH-z5 {
+                color: $cream;
+            }
+
+            .favoriteIconFavorite-1QesTq path:last-child {
+                fill: $cream;
+            }
+        }
+
+        // Hover to play
+        .buttonOverlayBackground-3fyfGX {
+            background: $cream;
+        }
+        .buttonOverlay-3K0hyD:has(.buttonOverlayBackground-3fyfGX) {
+            .playIcon-3vkhLN,
+            .secondaryButton-JGH-z5 {
+                color: $black;
+            }
+
+            .favoriteIconFavorite-1QesTq path:last-child {
+                fill: $black;
+            }
+        }
+    }
+
+    // Add sound
+    .soundAddButton-1FOn5u {
+        border: 0;
+
+        .soundAddIcon-1AsuVz {
+            color: $cream;
+        }
+    }
+}
