@@ -47,6 +47,36 @@
         opacity: 1;
     }
 
+    // Attachments
+    .channelAttachmentArea-HwpkuQ {
+        .upload-vLbqu- {
+            @include card.large;
+        }
+        .actionBar-1ozugS {
+            transform: none;
+        }
+    }
+
+    // Attachment icons
+    .icon-2bPCaV {
+        &.video-qa3DnY,
+        &.acrobat-3i7zSC,
+        &.ae-1ZAdFv,
+        &.sketch-1CwZfM,
+        &.ai-3QkK4s,
+        &.archive-1zydwk,
+        &.code-1hTP09,
+        &.document-3AUmU1,
+        &.photoshop-4gkCVB,
+        &.ps-1mWY_j,
+        &.spreadsheet-34d5T3,
+        &.webcode-3EYK4X,
+        &.audio-bZBBRF,
+        &.unknown-1HSceW {
+            @include filter.sepia;
+        }
+    }
+
     // Add attachment button
     .attachButton-_ACFSu {
         &,
