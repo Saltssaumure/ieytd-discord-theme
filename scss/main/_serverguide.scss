@@ -33,12 +33,46 @@
         @include card.large;
     }
 
+    // Get started action
+    .clickableAction-2q3H52 {
+        &:hover .action-3oG-si {
+            background: $black;
+        }
+
+        .checkCircle-1uvETj {
+            color: $cream;
+        }
+    }
+    .action-3oG-si {
+        .rulesIcon-1RcLnQ {
+            color: $cream;
+            zoom: 2;
+        }
+    }
+
     // Server description
     .sidebarCardWrapper-34oCuK {
         @include card.large;
 
         .dotOnline-X29jV2 {
             background: $cream;
+        }
+
+        .resourceChannelsList-3tNCCN {
+            gap: $size-s;
+
+            .resourceChannel-r2RX07 {
+                @include card.round;
+            }
+
+            .resourceImageBase-2b0veT {
+                border-radius: $size-max;
+            }
+
+            .placeholderImage-2JJxae {
+                background: $cream;
+                color: $black;
+            }
         }
     }
 }
