@@ -57,7 +57,7 @@
     }
 
     // Split chat
-    .container-3XgAHv {
+    .container-3XgAHv:not(.floating-3M3WeH) {
         border-radius: $size-l;
     }
 }
@@ -75,7 +75,7 @@
         border-top-right-radius: 0;
     }
 
-    .container-3XgAHv {
+    .container-3XgAHv:not(.floating-3M3WeH) {
         border-radius: 0 0 $size-l $size-l;
     }
 }
