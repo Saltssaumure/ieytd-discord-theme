@@ -49,7 +49,6 @@
 #### Automatic
 1. Click to install:
     - [Replugged store][release-rp]
-
 #### Manual
 1. Download `net.saltssaumure.Tritone.asar`:
     - [GitHub][release-rp-gh]
@@ -65,7 +64,6 @@
 2. Place the file in the themes folder:
     - `Settings` > `BetterDiscord` > `Themes` > `Local Themes` > `Open Themes Folder`
 3. Click `Load missing Themes` and toggle on the theme card.
-
 #### Online
 1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
     - `https://saltssaumure.github.io/ieytd-discord-theme/Tritone.theme.css`
@@ -86,18 +84,20 @@
 3. Edit the variable values and save changes.
 
 ### Replugged
+1. Enable `Automatically Apply Quick CSS` in `Settings` > `Replugged` > `General`.
 1. Open `Settings` > `Replugged` > `Quick CSS`.
 3. Copy and paste line 15-20 of [`Tritone.theme.css`][.theme.css].
-3. Edit the variable values and apply changes.
+3. Edit the variable values and save.
 
 ### Vencord
-#### Standard method
-1. Follow the instructions in `Settings` > `Vencord` > `Themes`.
-#### Recommended method
-1. Open `Settings` > `Vencord` > `Vencord`.
-2. Toggle on `Enable Custom CSS` and click `Open QuickCSS File`.
-3. Copy and paste line 15-20 of [`Tritone.theme.css`][.theme.css].
-4. Edit the variable values.
+#### Local
+2. `Open Themes Folder` in `Settings` > `BetterDiscord` > `Themes` > `Local Themes`
+3. Open `Tritone.theme.css` with your favourite text editor.
+4. Edit the variable values and save.
+#### Online
+1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
+2. Copy and paste lines 15-20 of [`Tritone.theme.css`][.theme.css].
+3. Edit the variable values.
 
 ## License
 [GNU General Public License v3.0][license]
