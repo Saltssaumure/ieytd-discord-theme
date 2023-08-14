@@ -9,6 +9,7 @@
 @forward "./externalapplication";
 @forward "./feedback";
 @forward "./forumdemo";
+@forward "./image";
 @forward "./invite";
 @forward "./linkwarning";
 @forward "./quickswitcher";
@@ -26,7 +27,7 @@
     background: linear-gradient($black, $red) !important;
 }
 
-.root-1CAIjD {
+.root-1CAIjD:not(:has(.wrapper-rWtXPd)) {
     @include card.outer;
     box-shadow: 0 0 20px $red !important;
 }
