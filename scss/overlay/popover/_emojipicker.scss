@@ -97,12 +97,20 @@
     .guildIcon-2SUGiq {
         background: $red;
     }
-    .categoryItemDefaultCategory-3haEDq {
-        margin-bottom: 5px;
-    }
     .categoryIcon-2cYeku,
     .stickerCategoryGenericIcon-3wumVD {
         color: $cream;
+    }
+
+    .categoryItemDefaultCategory-3haEDq,
+    .categoryItemDefaultCategorySelected-2YeRUu {
+        margin-bottom: 8px;
+        &,
+        &:hover {
+            .categoryIcon-2cYeku {
+                color: $cream;
+            }
+        }
     }
 
     // Default sticker packs

@@ -4,30 +4,29 @@
 @use "../top/grabber";
 
 // Voice chat
-
 .root-22AK9z {
     border-left: $size-m solid $cream;
     color: $cream;
+
+    // Evenly spaced tiles
+    .listItems-6eZzQ1 {
+        left: 0 !important;
+
+        .row-jreWvj {
+            gap: $size-s;
+            margin-bottom: $size-s;
+        }
+
+        .tile-3GyaDQ {
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+    }
 }
 
 // Overall container
 .wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf {
     border-radius: 0;
-}
-
-// Evenly spaced tiles
-.listItems-6eZzQ1 {
-    left: 0 !important;
-
-    .row-jreWvj {
-        gap: $size-s;
-        margin-bottom: $size-s;
-    }
-
-    .tile-3GyaDQ {
-        margin-right: 0;
-        margin-bottom: 0;
-    }
 }
 
 // Tile
@@ -91,5 +90,9 @@
         &.red-3T8maV {
             @include button.control($black, $red);
         }
+    }
+
+    .leftDivider-1HpX9I {
+        display: none;
     }
 }
