@@ -1,0 +1,30 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Full size image viewer
+.wrapper-rWtXPd {
+    @include card.outer;
+    box-shadow: 0 0 20px $red !important;
+
+    // Open in browser
+    .downloadLink-3cavAH {
+        @include card.round;
+        padding: 0 $size-m;
+        color: $cream !important;
+        top: unset;
+        bottom: $size-m;
+        left: $size-m;
+        opacity: 0;
+    }
+    &:hover .downloadLink-3cavAH {
+        opacity: 1;
+    }
+}
+
+// Carousel gallery viewer
+.carouselModal-1eUFoq {
+    // Navigation
+    .nav-2mKdAt {
+        @include card.round;
+    }
+}
