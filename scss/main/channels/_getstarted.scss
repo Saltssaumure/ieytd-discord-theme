@@ -1,0 +1,37 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Get started tasks
+
+.progressBarContainer-E1K7OK {
+    margin: 0 0 12px 8px;
+
+    .progressBarText-1CVwdS {
+        h3 {
+            font-family: var(--font-primary);
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .arrow-3X8pHH {
+            color: $cream;
+        }
+    }
+
+    .progressBar-3tBeH7 {
+        border: $size-xs solid $cream;
+        border-radius: $size-max;
+        background: $black !important;
+
+        .progressBar-3fV-Dd {
+            height: 4px;
+            background: linear-gradient(90deg, $red, $cream) !important;
+        }
+    }
+}
+
+.divider-3DWsBp {
+    display: none;
+}

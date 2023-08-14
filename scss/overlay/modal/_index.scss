@@ -2,6 +2,7 @@
 @forward "./addpayment";
 @forward "./ban";
 @forward "./boost";
+@forward "./channelfull";
 @forward "./createserver";
 @forward "./deletemessage";
 @forward "./events";
@@ -11,8 +12,10 @@
 @forward "./invite";
 @forward "./linkwarning";
 @forward "./quickswitcher";
+@forward "./screenshare";
 @forward "./studenthub";
 @forward "./studenthubs";
+@forward "./videochat";
 @forward "./whatsnew";
 
 @use "../../top/vars" as *;

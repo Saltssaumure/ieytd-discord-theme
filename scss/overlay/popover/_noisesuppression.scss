@@ -1,0 +1,7 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Noise supppression in voice chat
+.noiseCancellationPopout-2-e5Xz {
+    @include card.outer;
+}

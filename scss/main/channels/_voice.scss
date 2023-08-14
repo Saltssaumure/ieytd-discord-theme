@@ -32,6 +32,12 @@
     padding-left: 26px;
     padding-bottom: 2px;
 
+    // Hidden names
+    &.collapsed-1oYzUu {
+        padding-top: $size-s;
+        padding-bottom: $size-m;
+    }
+
     // Username
     :is(.voiceUser-3nRK-K, .voiceUser-3nRK-K:hover) .username-vAneIW {
         color: $cream;
@@ -39,6 +45,17 @@
 
     // Audience counter
     .audienceContainer-1zTPME {
+        // Hidden names
+        &.audienceContainerCollapsed-2OXkcm {
+            background: $black;
+            border: $size-xs solid $cream;
+
+            .audienceIconContainer-1xndyK .audienceIcon-2HoEJ2,
+            .audienceIconContainer-1xndyK + div {
+                color: $cream !important;
+            }
+        }
+
         div {
             color: $cream !important;
         }
@@ -57,22 +74,35 @@
     // User
     .draggable-S2aEx4 {
         height: auto;
+
+        .userSmall-1Raexx {
+            height: auto;
+
+            &.overlap-1yhayD {
+                .avatar-3FKimL {
+                    border: $size-xs solid $cream;
+                    margin: 0;
+                }
+            }
+
+            // User icon
+            .avatar-3FKimL {
+                margin: 2px 8px 0 0;
+            }
+
+            // Live bubble
+            .live-1V2D-f {
+                background: $cream !important;
+                color: $black;
+                line-height: 12px;
+            }
+        }
     }
 
-    .userSmall-1Raexx {
-        height: auto;
-
-        // User icon
-        .avatar-3FKimL {
-            margin: 2px 8px 0 0;
-        }
-
-        // Live bubble
-        .live-1V2D-f {
-            background: $cream !important;
-            color: $black;
-            line-height: 12px;
-        }
+    // More users
+    .moreContainer-R0kRGB {
+        background: $black;
+        border: $size-xs solid $cream;
     }
 }
 
@@ -104,6 +134,12 @@
     border-radius: $size-max;
 }
 
+// Speakers
+.speaking-3K28iH,
+.avatarSpeaking-2pCGrZ {
+    box-shadow: inset 0 0 0 $size-xs $red;
+}
+
 // Inverted when connected or selected
 :is(.modeConnected-NrO4cP, .modeSelected-3DmyhH),
 :has(.modeConnected-NrO4cP, .modeSelected-3DmyhH) {
@@ -115,17 +151,6 @@
             // Muted / deafened
             .icon-N9JZb6 {
                 color: $black;
-            }
-
-            // Audience counter
-            .audienceContainer-1zTPME {
-                div {
-                    color: $black !important;
-                }
-
-                .audienceIcon-2HoEJ2 {
-                    color: $black;
-                }
             }
 
             // Live bubble

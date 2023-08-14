@@ -1,17 +1,28 @@
-@mixin button($background, $color, $border-color: $color) {
-    background: $background;
-    color: $color;
-    border-color: $border-color;
+@use "./vars" as *;
 
-    :is(&:hover, &:active) {
-        background: $background;
+@mixin button($BACKGROUND, $COLOR, $BORDER-COLOR: $COLOR) {
+    color: $COLOR;
+    border-color: $BORDER-COLOR;
+
+    :is(&, &:hover, &:active) {
+        background: $BACKGROUND;
     }
 }
 
-@mixin link($color) {
-    color: $color;
+@mixin link($COLOR) {
+    color: $COLOR;
 
     :is(&:hover, &:active) .contents-3NembX {
-        --button--underline-color: #{$color};
+        --button--underline-color: #{$COLOR};
+    }
+}
+
+@mixin control($BACKGROUND, $COLOR, $BORDER-COLOR: $COLOR) {
+    box-shadow: inset 0 0 0 $size-xs $BORDER-COLOR;
+    background: $BACKGROUND;
+
+    &,
+    .centerIcon-JYpTUi {
+        color: $COLOR;
     }
 }

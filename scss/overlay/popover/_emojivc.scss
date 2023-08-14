@@ -1,0 +1,58 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/svg";
+@use "../../top/filter";
+
+// Emoji selector on hover / click in voice chat panel
+.container-3a5mk- {
+    @include card.outer;
+
+    .emojiPickerHeader-2mWh2T {
+        background: unset;
+        transition: background-color 0.5s;
+
+        &.emojiPickerHeaderExpanded-qRmYMq {
+            background: $red;
+        }
+
+        // Animation toggle
+        .label-3TDpbn {
+            @include card.round;
+            background: svg.$tada center no-repeat;
+            min-width: 22px;
+            height: 22px;
+
+            img {
+                display: none;
+            }
+        }
+
+        .dropDown-3dfe_z {
+            &,
+            &:hover {
+                color: $cream;
+            }
+        }
+    }
+
+    // Emoji
+    .contents-3NembX {
+        > div {
+            transform: none !important;
+        }
+    }
+
+    // Expanded emoji picker
+    .categoryList-2qRrlj {
+        top: 62px;
+        border-radius: 0;
+    }
+    // Emojis
+    // No emojis
+    .wrapper-2g4olo {
+        color: $cream;
+        .sadImage-2_mw0p {
+            @include filter.sepia;
+        }
+    }
+}

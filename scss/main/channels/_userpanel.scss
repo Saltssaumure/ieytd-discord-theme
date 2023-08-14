@@ -1,4 +1,5 @@
 @use "../../top/vars" as *;
+@use "../../top/card";
 
 .panels-3wFtMD,
 .container-1zzFcN,
@@ -19,11 +20,56 @@
     .container-1zzFcN {
         border-bottom: 0;
 
-        .button-1EGGcP:not(.disabledButtonWrapper-1m0hYZ) {
-            border: $size-xs solid $cream;
-            border-radius: $size-max;
-            background: $black;
+        // Ping bars
+        .ping-2IpLcU {
+            color: $black;
+        }
+        .rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc,
+        .rtcConnectionQualityAverage-USzsaD .pingForeground-1BRBTc:not(:last-child) {
             color: $cream;
+        }
+        .rtcConnectionQualityBad-3fxsmZ .pingForeground-1BRBTc:first-child {
+            color: $red;
+        }
+
+        // Connection status text
+        .rtcConnectionStatusConnected-1c73OK,
+        .rtcConnectionStatusConnecting-2D7M2N {
+            color: $cream;
+        }
+        .rtcConnectionStatusError-2QNGCS {
+            color: $red;
+        }
+
+        // Connected users
+        .voiceUsers-25eR9q {
+            gap: $size-s;
+
+            .avatarContainer-3tBLDx,
+            .expandButton-16yJoR {
+                border: $size-xs solid $cream;
+                width: 24px;
+            }
+
+            .avatarIconOverlay-ZVSfbr {
+                color: $cream;
+                .avatarIconRed-uo-tMF {
+                    color: $red;
+                }
+            }
+
+            // See all connected users
+            .primary-38Hs-h {
+                background: $cream;
+                color: $black;
+                box-sizing: content-box;
+                padding: 0;
+            }
+        }
+
+        // Voice chat options
+        .button-1EGGcP:not(.disabledButtonWrapper-1m0hYZ) {
+            @include card.round;
         }
     }
 
@@ -34,12 +80,6 @@
             font-family: var(--font-display);
             margin-top: -10px;
             line-height: 28px;
-        }
-
-        // User icon
-        .avatar-1EWyVD {
-            border: $size-xs solid $red;
-            background: $black;
         }
     }
 

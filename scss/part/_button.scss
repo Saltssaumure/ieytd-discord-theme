@@ -31,10 +31,10 @@
             @include button.button($red, $cream);
         }
 
-        &.buttonColor-1u-3JF {
-            @include button.button($black, $cream);
-        }
-
+        &.cta-3-AFNF,
+        &.button-1Ofqs0,
+        &.buttonColor-28DXIe,
+        &.buttonColor-1u-3JF,
         &.buttonColor-_0gSD_ {
             @include button.button($black, $cream);
         }
@@ -110,5 +110,13 @@
         &:active {
             color: $red;
         }
+    }
+}
+
+.button-1EGGcP.buttonColor-3bP3fX {
+    &,
+    &:hover {
+        background: $black;
+        color: $cream;
     }
 }

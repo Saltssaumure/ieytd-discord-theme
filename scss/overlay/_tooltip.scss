@@ -1,31 +1,20 @@
 @use "../top/vars" as *;
 
-/* Tooltips */
-.theme-dark .tooltipPrimary-3qLMbS,
-.aboutMeGuildIconTooltip-1hnrui {
-    background: $black;
-    border: 2px solid $cream;
-}
-.theme-dark .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
-    border-top-color: $cream;
-}
-/* Verified server */
-.icon-3BYlXK {
-    color: $black;
-}
-
-/* Emoji tooltip Click to learn more */
-.clickCTA-1bk0UN {
-    color: $red;
-}
+// Tooltips
 
 #{$root} {
-    .tooltipPrimary-2466a2 {
+    .tooltip-33Jwqe {
         background: $cream;
         color: $black;
         border: $size-xs solid $black;
-        border-radius: $size-max;
+        border-radius: $size-xl;
 
+        // Pointer
+        .tooltipPointer-sMBQqe {
+            border-top-color: $black;
+        }
+
+        // Server type
         .flowerStar-2tNFCR {
             path {
                 fill: $black;
@@ -35,8 +24,13 @@
             fill: $cream;
         }
 
-        // Server name
-        .guildNameText-jBFbNC {
+        // Text and most contents
+        div:where([style^="color"]) {
+            color: $black !important;
+        }
+        .guildNameText-jBFbNC,
+        .defaultColor-1EVLSt,
+        .activityIcon-vfIBet {
             color: $black;
         }
 
@@ -45,14 +39,21 @@
             color: $red !important;
         }
 
-        div:where([style^="color"]) {
-            color: $black !important;
-        }
-
-        .defaultColor-1EVLSt {
-            color: $black;
+        // Listeners
+        .stageListenerPill-1_QAPA {
+            background: $black;
+            color: $cream;
+            div {
+                color: $cream !important;
+            }
         }
     }
+}
+
+// More users
+.moreUsers-_v6T-L {
+    background: $black;
+    color: $cream;
 }
 
 .tooltipOverrideColor-2QdoQx {

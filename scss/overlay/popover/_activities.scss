@@ -1,0 +1,21 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Activities suggestion on hover in voice chat panel
+
+.container-1jQZ2U {
+    @include card.outer;
+
+    .titleContainer-YqoxhR :is(path, polygon)[fill] {
+        fill: $cream;
+    }
+
+    .activityItem-3WU8KI {
+        @include card.large;
+        transform: none !important;
+    }
+
+    .wumpusRocketOuterContainer-1AXehd {
+        display: none;
+    }
+}

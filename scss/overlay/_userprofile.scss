@@ -77,7 +77,7 @@
 
 // Activity detailed
 // Spotify timebar
-:is(.timeBarUserPopout-qLXZaR, .timeBarUserPopoutV2-32DL06) {
+#{$root} {
     .bar-1GpknY {
         @include card.round;
     }
@@ -131,10 +131,9 @@
     .addButtonIcon-3HZ_2f {
         color: $black;
     }
-
-    .roleCircle-3TFUOr {
-        box-shadow: 0 0 0 $size-xxs $black;
-    }
+}
+.roleCircle-3TFUOr {
+    box-shadow: 0 0 0 $size-xxs $black;
 }
 
 // Notes

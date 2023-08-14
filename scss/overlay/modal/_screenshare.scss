@@ -1,0 +1,36 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+@use "../../top/tabs";
+
+// Select screen share
+
+// Header
+.art-1TvEXv {
+    display: none;
+}
+
+// Tabs
+.segmentContainer-358IfE {
+    background: $red;
+}
+.tabContainer-CradLt {
+    @include tabs.bar;
+    border-bottom: 0;
+
+    .tabItem-lbSC8a {
+        @include tabs.tab($ISINVERT: true);
+
+        &.tabItemSelected-Z0xl-W {
+            @include tabs.tab;
+        }
+    }
+}
+
+// Screen preview
+.sourceThumbnail-ERDcZE {
+    border-radius: $size-m;
+
+    .tile-3POX2m:hover & {
+        box-shadow: inset 0 0 0 $size-xs $cream;
+    }
+}

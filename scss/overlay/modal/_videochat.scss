@@ -1,0 +1,16 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Video chat setup
+.contentWithVideoBackgrounds-24dI6h {
+    .cameraPreview-2_ITfQ {
+        @include card.large;
+    }
+}
+
+.backgroundOption-2mIYjm:hover:not(.backgroundOption-2mIYjm.backgroundOptionDisabled-19G9PD):not(.backgroundOptionSelected-3J38oq) {
+    &,
+    .backgroundImageOption-1LRgQ8 {
+        transform: none;
+    }
+}
