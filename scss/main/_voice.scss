@@ -1,0 +1,95 @@
+@use "../top/vars" as *;
+@use "../top/card";
+@use "../top/button";
+@use "../top/grabber";
+
+// Voice chat
+
+.root-22AK9z {
+    border-left: $size-m solid $cream;
+    color: $cream;
+}
+
+// Overall container
+.wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf {
+    border-radius: 0;
+}
+
+// Evenly spaced tiles
+.listItems-6eZzQ1 {
+    left: 0 !important;
+
+    .row-jreWvj {
+        gap: $size-s;
+        margin-bottom: $size-s;
+    }
+
+    .tile-3GyaDQ {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+// Tile
+.tile-2TcwiO {
+    @include card.large;
+
+    // Large tile
+    &.noBorder-1nN30W {
+        border: 0;
+    }
+
+    // Disconnected
+    .header-1BxQhu,
+    .description-3jrWCU {
+        color: $cream;
+    }
+
+    // Username
+    .overlayTitle-2efoIF,
+    .status-15kcmy {
+        @include card.round;
+        border: 0;
+    }
+
+    // Video icon
+    .selectedIcon-k6L6Yx {
+        color: $cream;
+    }
+
+    // Stream, video
+    .streamPreview-3Fo29Y,
+    .videoWrapper-3rtb_V,
+    .emptyPreview-1SMLD4 {
+        background: unset;
+    }
+}
+
+// Participant list toggle
+.participantsButton-1WBdFP {
+    @include card.round;
+
+    &:hover {
+        background: $black;
+    }
+
+    .iconContainer-1tVIzr > svg {
+        color: $cream;
+    }
+}
+
+// Voice chat controls
+.bottomControls-31YuPK {
+    // Centre buttons
+    .colorable-3rVGna {
+        &.primaryDark-2UJt1G {
+            @include button.control($black, $cream);
+        }
+        &.white-11auuQ {
+            @include button.control($cream, $black);
+        }
+        &.red-3T8maV {
+            @include button.control($black, $red);
+        }
+    }
+}

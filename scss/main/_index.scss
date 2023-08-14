@@ -14,6 +14,7 @@
 @forward "./settings";
 @forward "./split";
 @forward "./titlebar";
+@forward "./voice";
 
 @use "../top/vars" as *;
 
@@ -59,7 +60,7 @@
 
     // Split chat
     .container-3XgAHv:not(.floating-3M3WeH) {
-        border-radius: $size-l;
+        border-radius: 0 0 $size-l $size-l;
     }
 }
 
@@ -77,6 +78,6 @@
     }
 
     .container-3XgAHv:not(.floating-3M3WeH) {
-        border-radius: 0 0 $size-l $size-l;
+        border-radius: 0 0 0 $size-l;
     }
 }

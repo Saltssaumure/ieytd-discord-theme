@@ -2,7 +2,7 @@
 @use "../top/filter";
 
 // Channel header
-.container-ZMc96U.themed-Hp1KC_ {
+.container-ZMc96U:is(.themed-Hp1KC_, .transparent-1lUmft) {
     background: $red;
     border-bottom: $size-s solid $cream;
 
@@ -36,6 +36,14 @@
         display: none;
     }
 
+    // Streamer
+    .container-17V_oy {
+        align-items: flex-end;
+        .playingText-16QsYy {
+            color: $black;
+        }
+    }
+
     // Channel description
     .topic-11NuQZ {
         color: $black;
@@ -47,6 +55,7 @@
     }
 
     // Icons
+    .controlIcon-10O-4h,
     .icon-2xnN2Y {
         &,
         .selected-29KTGM &,
@@ -81,4 +90,11 @@
             color: $cream;
         }
     }
+}
+
+// Icons
+.controlIcon-10O-4h,
+.controlIcon-10O-4h.active-3D763s,
+.controlIcon-10O-4h:hover {
+    color: $cream;
 }
