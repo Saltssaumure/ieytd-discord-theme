@@ -77,7 +77,7 @@
 
 // Activity detailed
 // Spotify timebar
-:is(.timeBarUserPopout-qLXZaR, .timeBarUserPopoutV2-32DL06) {
+#{$root} {
     .bar-1GpknY {
         @include card.round;
     }

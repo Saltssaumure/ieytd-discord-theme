@@ -1,0 +1,40 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Current happenings in voice channel
+.container-8Futzw {
+    @include card.outer;
+
+    .container-3MQTjc {
+        background: $cream;
+        color: $black;
+    }
+
+    .headerDivider-N-jIGV {
+        display: none;
+    }
+
+    .activity-1DK9Xa + .activity-1DK9Xa {
+        border-top: 0;
+    }
+
+    .channelIcon-3Oew8h,
+    .headerLink-1hmZgL,
+    .colorHeaderSecondary-2MsPDJ {
+        color: $cream;
+    }
+
+    .activityVoiceChannel-2vojOH {
+        .activityName-3YXl6e,
+        .name-1-Q7l2,
+        .nameNormal-2fPMD2,
+        .nameWrap-3TyM52,
+        .content-tXPNDw,
+        .details-2-ciHo,
+        .playTime-3fSgOm,
+        .state-2NT76I,
+        .timestamp-2f1NmH {
+            color: $cream;
+        }
+    }
+}
