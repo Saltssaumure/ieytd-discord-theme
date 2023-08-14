@@ -1,5 +1,5 @@
-[screenshot]:       https://user-images.githubusercontent.com/29710355/150716493-d073d3f6-4bcc-4003-ae01-1a1eb820bb71.png
-[customised]:       https://user-images.githubusercontent.com/29710355/158090723-f7b872b6-8532-41ce-9476-21d1aa7a89a3.png
+[screenshot]:       https://cdn.discordapp.com/attachments/946226984005025835/1140355110568984597/tritone1.png
+[customised]:       https://cdn.discordapp.com/attachments/946226984005025835/1140492656439472148/tritonecustom.png
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [discord]:          https://discord.gg/uy8nKQVatp
@@ -20,7 +20,7 @@
 [issues]:           https://github.com/Saltssaumure/ieytd-discord-theme/issues
 [.theme.css]:       https://github.com/Saltssaumure/ieytd-discord-theme/blob/main/Tritone.theme.css
 
-[release-bd]:       https://betterdiscord.app/theme/?id=626 "BetterDiscord store page"
+[release-bd]:       https://betterdiscord.app/theme/?id=1008 "BetterDiscord store page"
 [release-bd-gh]:    https://github.com/Saltssaumure/ieytd-discord-theme/releases/latest/download/Tritone.theme.css "Get latest release"
 [release-rp]:       https://replugged.dev/store/net.saltssaumure.Tritone "Replugged store page"
 [release-rp-gh]:    https://github.com/Saltssaumure/ieytd-discord-theme/releases/latest/download/net.saltssaumure.Tritone.asar "Get latest release"
@@ -31,31 +31,43 @@
 [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
 [![Total repository size][shield-repo-size]][github]
 
-***A tri-tone Discord theme inspired by the ["I Expect You To Die" intro sequence](https://www.youtube.com/watch?v=ht1ZChKF4Ek).***
+***A customisable tri-tone Discord theme inspired by the ["I Expect You To Die" intro sequence](https://www.youtube.com/watch?v=ht1ZChKF4Ek).***
 
 ![Screenshot of Tritone applied to Discord][screenshot]
 
 ## Installation
 
-### BetterDiscord
-1. Install [BetterDiscord][BetterDiscord].
-2. Download the theme file:
+### [BetterDiscord][BetterDiscord]
+1. Download `Tritone.theme.css`:
     - [BetterDiscord store][release-bd]
     - [GitHub][release-bd-gh]
-3. Place theme file in the theme folder:
-    - Windows: `%AppData%/BetterDiscord/themes`
-    - Mac: `~/Library/Application Support/betterdiscord/themes`
-    - Linux: `~/.config/BetterDiscord/themes`
+2. Place the file in the themes folder:
+    - `Settings` > `BetterDiscord` > `Themes` > `Open Themes Folder`
+3. Toggle on the theme card.
 
-### Replugged
-1. Install [Replugged][Replugged].
-2. Install the theme:
+### [Replugged][Replugged]
+#### Automatic
+1. Click to install:
     - [Replugged store][release-rp]
-    - [GitHub][release-rp-gh]
 
-### Vencord
-1. Install [Vencord][Vencord].
-2. Paste the following in `Settings` > `Vencord` > `Themes`:
+#### Manual
+1. Download `net.saltssaumure.Tritone.asar`:
+    - [GitHub][release-rp-gh]
+2. Place the file in the themes folder:
+    - `Settings` > `Replugged` > `Themes` > `Open Themes Folder`
+3. Click `Load Missing Themes` and toggle on the theme card.
+
+### [Vencord][Vencord]
+#### Local
+1. Download `Tritone.theme.css`:
+    - [BetterDiscord store][release-bd]
+    - [GitHub][release-bd-gh]
+2. Place the file in the themes folder:
+    - `Settings` > `BetterDiscord` > `Themes` > `Local Themes` > `Open Themes Folder`
+3. Click `Load missing Themes` and toggle on the theme card.
+
+#### Online
+1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
     - `https://saltssaumure.github.io/ieytd-discord-theme/Tritone.theme.css`
 
 ## Customisation
