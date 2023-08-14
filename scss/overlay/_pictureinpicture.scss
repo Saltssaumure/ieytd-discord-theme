@@ -1,0 +1,22 @@
+@use "../top/vars" as *;
+@use "../top/card";
+
+// Picture in picture
+
+.pictureInPictureWindow-3ms5Zy {
+    @include card.outer;
+
+    .headerTitle-iz6vaZ:hover {
+        border-bottom-color: $cream;
+
+        .backButton-1uN-4- {
+            color: $cream;
+        }
+    }
+
+    .backButton-1uN-4-,
+    .viewersIcon-1NH384,
+    .bottomControls-34xgN7 {
+        color: $cream;
+    }
+}
