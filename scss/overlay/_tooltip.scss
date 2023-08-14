@@ -44,6 +44,15 @@
             background: $black;
             color: $cream;
         }
+
+        // Listeners
+        .stageListenerPill-1_QAPA {
+            background: $black;
+            color: $cream;
+            div {
+                color: $cream !important;
+            }
+        }
     }
 }
 

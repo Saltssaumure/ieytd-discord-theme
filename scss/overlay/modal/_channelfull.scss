@@ -1,0 +1,7 @@
+@use "../../top/filter";
+
+// Voice channel is full
+
+.fullArt-KDeDyg {
+    @include filter.sepia;
+}

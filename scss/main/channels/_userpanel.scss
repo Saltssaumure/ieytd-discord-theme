@@ -41,6 +41,32 @@
             color: $red;
         }
 
+        // Connected users
+        .voiceUsers-25eR9q {
+            gap: $size-s;
+
+            .avatarContainer-3tBLDx,
+            .expandButton-16yJoR {
+                border: $size-xs solid $cream;
+                width: 24px;
+            }
+
+            .avatarIconOverlay-ZVSfbr {
+                color: $cream;
+                .avatarIconRed-uo-tMF {
+                    color: $red;
+                }
+            }
+
+            // See all connected users
+            .primary-38Hs-h {
+                background: $cream;
+                color: $black;
+                box-sizing: content-box;
+                padding: 0;
+            }
+        }
+
         // Voice chat options
         .button-1EGGcP:not(.disabledButtonWrapper-1m0hYZ) {
             @include card.round;
