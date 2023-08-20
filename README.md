@@ -62,7 +62,7 @@
     - [BetterDiscord store][release-bd]
     - [GitHub][release-bd-gh]
 2. Place the file in the themes folder:
-    - `Settings` > `BetterDiscord` > `Themes` > `Local Themes` > `Open Themes Folder`
+    - `Settings` > `Vencord` > `Themes` > `Local Themes` > `Open Themes Folder`
 3. Click `Load missing Themes` and toggle on the theme card.
 #### Online
 1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
@@ -91,7 +91,7 @@
 
 ### Vencord
 #### Local
-2. `Open Themes Folder` in `Settings` > `BetterDiscord` > `Themes` > `Local Themes`
+2. `Open Themes Folder` in `Settings` > `Vencord` > `Themes` > `Local Themes`
 3. Open `Tritone.theme.css` with your favourite text editor.
 4. Edit the variable values and save.
 #### Online
