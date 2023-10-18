@@ -1,23 +1,23 @@
 @use "../top/vars" as *;
 
 // Member sidebar
-.container-2o3qEW {
+:is(.container-2o3qEW, .container-2vWgD2) {
     background: $red;
     border-left: $size-m solid $cream;
 }
 
-.membersWrap-3NUR2t {
+:is(.membersWrap-3NUR2t, .membersWrap-3GwLFp) {
     --interactive-hover: $cream;
     --interactive-active: $cream;
 
-    .members-3WRCEx {
+    :is(.members-3WRCEx, .members-2y1nVj) {
         background: $red;
     }
 
     // Member list
-    .members-3WRCEx {
+    :is(.members-3WRCEx, .members-2y1nVj) {
         // Member group
-        .membersGroup-2eiWxl {
+        :is(.membersGroup-2eiWxl, .membersGroup-2YoqY-) {
             text-align: center;
             text-transform: none;
             height: auto;
@@ -35,7 +35,7 @@
             }
 
             // Shifting contents around
-            &:not(.membersGroup-2eiWxl + .member-48YF_l) {
+            &:not(:is(.membersGroup-2eiWxl, .membersGroup-2YoqY-) + :is(.member-48YF_l, .member-2iQhp7)) {
                 margin-top: 4px;
             }
 
