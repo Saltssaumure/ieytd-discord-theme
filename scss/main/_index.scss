@@ -23,7 +23,7 @@
     border-width: $size-s $size-m $size-s 0;
 }
 
-.chat-2ZfjoI {
+:is(.chat-2ZfjoI, .chat-9g_3Xj) {
     overflow: hidden;
     background: $black;
 }
@@ -52,14 +52,14 @@
     }
 
     // Main chat
-    .chat-2ZfjoI,
+    :is(.chat-2ZfjoI, .chat-9g_3Xj),
     .pageWrapper-2PwDoS,
     .sidebar-1tnWFu + .scroller-RfJjkV {
         border-radius: 0 $size-l $size-l 0;
     }
 
     // Split chat
-    .container-3XgAHv:not(.floating-3M3WeH) {
+    :is(.container-3XgAHv, .container-3s2w-i):not(:is(.floating-3M3WeH, .floating-1T0kDs)) {
         border-radius: 0 0 $size-l $size-l;
     }
 }
@@ -71,13 +71,13 @@
         border-top-left-radius: 0;
     }
 
-    .chat-2ZfjoI,
+    :is(.chat-2ZfjoI, .chat-9g_3Xj),
     .pageWrapper-2PwDoS,
     .sidebar-1tnWFu + .scroller-RfJjkV {
         border-top-right-radius: 0;
     }
 
-    .container-3XgAHv:not(.floating-3M3WeH) {
+    :is(.container-3XgAHv, .container-3s2w-i):not(:is(.floating-3M3WeH, .floating-1T0kDs)) {
         border-radius: 0 0 0 $size-l;
     }
 }

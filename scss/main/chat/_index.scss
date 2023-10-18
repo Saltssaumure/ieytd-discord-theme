@@ -6,7 +6,7 @@
 @use "../../top/vars" as *;
 
 // Chat panel
-.chatContent-3KubbW {
+:is(.chatContent-3KubbW, .chatContent-2O4SXb) {
     background: unset;
 
     // Channel info

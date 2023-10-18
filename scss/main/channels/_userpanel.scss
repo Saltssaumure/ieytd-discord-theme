@@ -2,9 +2,9 @@
 @use "../../top/card";
 
 .panels-3wFtMD,
-.container-1zzFcN,
-#{$root} .container-YkUktl,
-#{$root} .panel-2ZFCRb {
+:is(.container-1zzFcN, .container-2NLBJg),
+#{$root} :is(.container-YkUktl, .container-1CH86i),
+#{$root} :is(.panel-2ZFCRb, .panel-ufc1-o) {
     background: $black;
 }
 
@@ -17,7 +17,7 @@
     }
 
     // VC controls
-    .container-1zzFcN {
+    :is(.container-1zzFcN, .container-2NLBJg) {
         border-bottom: 0;
 
         // Ping bars
@@ -68,13 +68,13 @@
         }
 
         // Voice chat options
-        .button-1EGGcP:not(.disabledButtonWrapper-1m0hYZ) {
+        :is(.button-1EGGcP, .button-2gNyE9):not(.disabledButtonWrapper-1m0hYZ) {
             @include card.round;
         }
     }
 
     // Self panel
-    .container-YkUktl {
+    :is(.container-YkUktl, .container-1CH86i) {
         // Username
         .title-338goq {
             font-family: var(--font-display);
@@ -90,8 +90,8 @@
         color: $cream;
     }
 
-    .redIcon-1ppjsM,
-    .strikethrough-2Kl6HF {
+    :is(.redIcon-1ppjsM, .redIcon-3U81HA),
+    :is(.strikethrough-2Kl6HF, .strikethrough-3nXjYr) {
         color: $red;
     }
 }

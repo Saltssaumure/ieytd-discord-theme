@@ -3,7 +3,7 @@
 @use "../../top/filter";
 
 // Chatbox
-.form-3gdLxP::before {
+:is(.form-3gdLxP, .form-3qe0Ni)::before {
     display: none;
 }
 
@@ -30,11 +30,11 @@
 }
 
 // Follow channel only
-.wrapper-2SplAX {
+:is(.wrapper-2SplAX, .wrapper-IjGAlW) {
     @include card.outer;
     border-radius: $size-max;
 
-    .image-3FliiM {
+    :is(.image-3FliiM, .image-15uDsn) {
         @include filter.sepia;
     }
 }
