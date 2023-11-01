@@ -4,70 +4,70 @@
 
 // Tier chain
 #{$root} {
-    .tierAccomplished-1I5NaT,
-    .tierCurrent-2nowYi,
-    .tierFirst-1Vn3wS {
+    .tierAccomplished__77998,
+    .tierCurrent_fc87b4,
+    .tierFirst__327f4 {
         background: $cream;
     }
 
-    .currentTierIcon-23IR3F {
+    .currentTierIcon_bca4bf {
         color: $black;
     }
 
-    .background-3xJH_4 {
+    .background__3dd67 {
         color: $red;
     }
 
-    .tierInProgress-1vFUnw {
+    .tierInProgress_f08e8b {
         background: $red;
     }
 }
 
-.foreground-3_3Pgi {
+.foreground__44f58 {
     color: $cream;
 }
 
 // Tiers
-.tier-3CS7-p {
+.tier_d16770 {
     @include card.large;
 
-    .tierHeader-3q9jIw,
-    .tierBody-1d3UiS {
+    .tierHeader__5bf89,
+    .tierBody__615a1 {
         color: $cream;
         background: unset;
     }
 
     // Gem icons
-    .tierIcon-3m8V16,
-    .tierIconLocked-RGSkSl,
-    .tierLock-1eabw6 {
+    .tierIcon__2ac8f,
+    .tierIconLocked_c2f292,
+    .tierLock__3e43d {
         color: $cream;
     }
 
     // Locked tiers
-    .tierIconLocked-RGSkSl,
-    .tierLock-1eabw6 {
+    .tierIconLocked_c2f292,
+    .tierLock__3e43d {
         opacity: 0.5;
     }
 
     // Placeholders
-    .emptyTierImage-2bJjxU,
-    .placeholderImg-w8sjug {
+    .emptyTierImage__8f53d,
+    .placeholderImg_f047ac {
         @include filter.sepia;
     }
 
     // Sticker grid
-    .grid-5BH14o {
+    .grid_da1263 {
         gap: $size-s;
         justify-content: center;
         margin: $size-m;
 
         // Sticker
-        .wrapper-24fR1R {
+        .wrapper__93f27 {
             background: unset;
         }
 
-        .placeholderCard-3eGmb3 {
+        .placeholderCard__622e2 {
             border-color: $cream;
             border-radius: $size-m;
         }
@@ -76,19 +76,19 @@
 
 // Sticker actions
 @media (min-width: 1010px) {
-    .actions-1aMD1r {
+    .actions__00a5e {
         flex-direction: row;
         inset: -16px 0 auto;
 
-        .action-2YPPom {
+        .action_d01fae {
             margin-top: 0;
             width: 50%;
         }
     }
 }
 
-.action-2YPPom,
-.soundEdit-CkQLWe {
+.action_d01fae,
+.soundEdit__8bf1b {
     box-shadow: none;
     background: unset;
 
@@ -96,7 +96,7 @@
         color: $cream;
     }
 
-    &:is(.actionRemove-3T3Nw3, .soundRemove-2N9byT) {
+    &:is(.actionRemove_e920bc, .soundRemove__7165f) {
         &,
         &:hover,
         &:focus {

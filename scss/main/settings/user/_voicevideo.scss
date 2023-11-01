@@ -3,14 +3,14 @@
 @use "../../../top/filter";
 
 // Mic test
-.wrapper-UvA17F {
-    .container-3NTP7o {
+.wrapper__61220 {
+    .container__6d33c {
         background: $cream !important;
         border-radius: $size-max;
         border: $size-xs solid $cream;
     }
 
-    .progress-1S-TDF {
+    .progress__2cc1d {
         background: $red;
     }
 
@@ -20,10 +20,10 @@
 }
 
 // Soundboard
-.soundButtonSettingContainer-3G4JEB {
+.soundButtonSettingContainer__548af {
     @include card.round;
 
-    .secondaryButton-JGH-z5 {
+    .secondaryButton__41267 {
         color: $cream;
 
         path[fill="var(--red-400)"] {
@@ -33,37 +33,37 @@
 }
 
 // Video preview
-.cameraWrapper-nG8dpo {
+.cameraWrapper__1ee6d {
     @include card.large;
 
-    .previewImage-7EfQfc {
+    .previewImage__91c1c {
         @include filter.sepia;
     }
 }
 
 // Video background
-.backgroundOptions-3OjbsL {
+.backgroundOptions_e72ce2 {
     margin-bottom: 16px;
 
-    .backgroundOption-2mIYjm {
-        .backgroundOptionInner-SSz19O {
+    .backgroundOption__745bb {
+        .backgroundOptionInner__1477f {
             border-radius: $size-m;
             background: unset;
         }
 
         // Info
-        .backgroundOptionContent-2-UepH {
+        .backgroundOptionContent__2608d {
             color: $cream;
         }
 
         // Selected
-        .backgroundOptionRing-1vvQ0C {
+        .backgroundOptionRing__1f209 {
             border-radius: $size-l;
             border: $size-s solid $cream;
         }
 
         // Animation icon
-        .playIcon-dKlNBm {
+        .playIcon_af44c5 {
             color: $cream;
         }
     }

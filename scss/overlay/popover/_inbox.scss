@@ -4,28 +4,28 @@
 @use "../../top/tabs";
 @use "../../top/pip";
 
-.header-145e10 {
-    .inboxIcon-1XO7FO {
+.header__28ebb {
+    .inboxIcon_ce3604 {
         color: $cream;
     }
 
-    .inboxTitle-EQkQZa {
+    .inboxTitle__7e65d {
         font-family: var(--font-display);
         font-size: 22px;
         line-height: 26px;
     }
 
-    .friendRequestsButton-77veU7,
-    .secondary-2bzKEX {
+    .friendRequestsButton_f19806,
+    .secondary_c96c46 {
         @include card.round;
 
-        &:hover:not(.disabled-184-il) {
+        &:hover:not(.disabled__8e315) {
             background: $black;
             color: $cream;
         }
     }
 
-    .eyebrow-132Xza {
+    .eyebrow__60985 {
         font-family: var(--font-primary);
         font-weight: normal;
         background: unset !important;
@@ -33,35 +33,35 @@
     }
 
     // Tabs
-    .topPill-2vcLsa {
+    .topPill__0cdf1 {
         padding-top: 16px;
         padding-left: 0;
 
         // New message
-        .circleBadge-yRqaN- {
+        .circleBadge_aa5fe3 {
             background: $red !important;
         }
     }
 }
 
 // Channel group
-.channelHeader-DFRX8q {
+.channelHeader__5d30c {
     background: $black;
 
-    .channelName-3APnhp {
+    .channelName_c74eea {
         svg {
             zoom: 1.2;
         }
 
-        .channelNameSpan-1rY63L {
+        .channelNameSpan__98790 {
             font-size: 18px;
             line-height: 24px;
             margin: -$size-s 0 0 $size-s;
         }
     }
 
-    .dmIcon-1ZeAqq,
-    .guildIcon-IklRcj {
+    .dmIcon__160f0,
+    .guildIcon_cccd03 {
         border-radius: $size-max;
         border: $size-s solid $cream;
         background: $red;
@@ -69,27 +69,27 @@
 }
 
 // Message
-.messageContainer-3VTXBC,
-.messages-23can0 {
+.messageContainer_aa7d14,
+.messages_f7999e {
     background: unset;
 }
 
-.jumpButton-1V_1FA {
+.jumpButton_da1ebb {
     @include card.round;
     padding-top: 0;
 
-    &:hover.text-2ifC_x,
-    .text-2ifC_x {
+    &:hover.text__6b9e7,
+    .text__6b9e7 {
         color: $cream;
     }
 }
 
 // For you
-.container-1A0qQO {
+.container__2c498 {
     background: unset;
 
     // Unread activity
-    .unread-O4ZgUu {
+    .unread_ade69e {
         @include pip.pip($COLOR: $cream);
         left: 0;
         top: 24px;
@@ -97,21 +97,21 @@
 }
 
 // Close section
-.tertiary-1e-lAP {
+.tertiary_bc0225 {
     &,
-    &:hover:not(.disabled-184-il) {
+    &:hover:not(.disabled__8e315) {
         background: unset;
         color: $cream;
     }
 }
 
 // No messages
-.iconContainer-33_6mP {
-    .icon-2yhmi8 {
+.iconContainer__65ce5 {
+    .icon_d2bc2f {
         color: $black;
         background: $cream;
     }
-    .stars-2vhEVR path {
+    .stars__0a083 path {
         fill: $cream;
     }
 }

@@ -26,43 +26,45 @@
 }
 
 code,
-.markup-eYLPri code.inline,
-.codeBlockText-311wOq,
-.codeLine-3a3dbd {
+.markup_a7e664 code.inline,
+.codeBlockText__6172e,
+.codeLine__3797b {
     font-family: var(--font-code);
 }
 
-.eyebrow-132Xza,
-.eyebrow-1lnrAb,
-.eyebrow-1Shfyi,
-.eyebrow-21ivYN,
-.eyebrow-2D72C7,
-.eyebrow-2KAVxO,
-.eyebrow-2O4Qax,
-.eyebrow-2wJAoF,
-.eyebrow-3k9c6z,
+.eyebrow__003da,
+.eyebrow__35262,
+.eyebrow__41622,
+.eyebrow__42dd7,
+.eyebrow__4498b,
+.eyebrow__60985,
+.eyebrow__7b0c0,
+.eyebrow__847c8,
+.eyebrow_b7df6b,
+.eyebrow_e5a66c,
+.eyebrow_f53856,
 [class*="heading-deprecated-12-"] {
     @include text.sizeup(12px, 16px);
 }
 
-.markup-eYLPri h3,
+.markup_a7e664 h3,
 [class*="heading-sm-"] {
     @include text.sizeup(14px, 18px);
 }
 
-.h3-3jj15Z {
+.h3_de2650 {
     @include text.sizeup(16px, 24px);
 }
 
-.h2-3Zgt2p,
-.h4-6SAiIK,
+.h2_f0b768,
+.h4_b54400,
 [class*="heading-md-"] {
     @include text.sizeup(16px, 20px);
 }
 
-.markup-eYLPri h2,
-.h1-3iMExa,
-.userTag-2qPxEZ,
+.markup_a7e664 h2,
+.h1__90460,
+.userTag__4ca14,
 [class*="heading-lg-"] {
     @include text.sizeup(20px, 24px, 12px);
 }
@@ -71,48 +73,48 @@ code,
     @include text.sizeup(24px, 30px, 12px);
 }
 
-.markup-eYLPri h1,
+.markup_a7e664 h1,
 [class*="heading-xxl-"] {
     @include text.sizeup(32px, 40px, 12px);
 }
 
-.defaultColor-1GKx81,
-.defaultColor-1EVLSt,
-.defaultColor-3Olr-9,
-.colorStandard-1Xxp1s,
-.description-foE_WP,
-.labelDescriptor-2top7R,
-.h5-2feg8J,
-.label-7akf7-,
-.legend-3BgtI3,
-.markup-eYLPri,
-.title-2yADjX,
-.userTag-2qPxEZ,
-.base-ZDDK0g,
-.channelName-3pdImQ,
-.sourceName-2t64R0,
-.imageUploader-1X7wVc .sizeInfo-3KtZ1G,
-#{$root} .inputDefault-1AaKiD,
-.guildSource-c3m1MX,
-#{$root} .hiddenMessage-3QNvPt,
-.body-GBnhET,
-.input-2FSSDe {
+.defaultColor__87d87,
+.defaultColor__77578,
+.defaultColor_d757c2,
+.colorStandard__5111e,
+.description__7af71,
+.labelDescriptor__6432e,
+.h5__884a2,
+.label__5447e,
+.legend__31ccc,
+.markup_a7e664,
+.title__28a65,
+.userTag__4ca14,
+.base__7ba63,
+.channelName__9d08b,
+.sourceName__6e76b,
+.imageUploader__8d497 .sizeInfo__254b6,
+#{$root} .inputDefault__0d65a,
+.guildSource__662f7,
+#{$root} .hiddenMessage__19ef2,
+.body__13cde,
+.input_f4043f {
     color: $cream;
 }
 
-.description-2N2sXz,
-.helpText-2PnGIP,
-.titleText-35PD5k,
-div:not(.desaturateUserColors-1O-G89),
+.description__548d5,
+.helpText__1b4f8,
+.titleText_c58c2c,
+div:not(.desaturateUserColors_b72bd3),
 :is(h1, h2, h3, h4),
-span:not(.username-3_PJ5r, .username-h_Y3Us) {
+span:not(.username_d272d6, .username_d30d99) {
     &:where([style^="color"]) {
         color: $cream !important;
     }
 }
 
-.anchor-1X4H4q,
+.anchor_c8ddc0,
 a,
-.markup-eYLPri a {
+.markup_a7e664 a {
     color: $red;
 }

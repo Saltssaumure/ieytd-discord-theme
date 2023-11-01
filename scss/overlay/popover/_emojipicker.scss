@@ -4,43 +4,43 @@
 @use "../../top/filter";
 @use "../../top/svg";
 
-.contentWrapper-3vHNP2,
-.contentWrapper-2f9yME,
-.contentWrapper-2f9yME.isBurstReactionPicker-3h5fqV {
+.contentWrapper__321ed,
+.contentWrapper_eab878,
+.contentWrapper_eab878.isBurstReactionPicker_b9ca03 {
     @include card.outer;
     background: $red;
     box-shadow: none;
 }
 
 // Tabs
-.navList-3uG4ub,
-.navList-YSb9UB {
+.navList__8438b,
+.navList__9f792 {
     @include tabs.bar($ISBORDER: false);
     padding-top: 2px;
 
-    & > :not(.betaTag-V7479T) {
+    & > :not(.betaTag__403f6) {
         @include tabs.tab;
     }
 
-    .navButton-Z_c6CC {
+    .navButton__0565e {
         &,
         &:hover {
             color: $cream;
         }
     }
 
-    .navButtonActive-fwiUKp,
-    .navButtonActive-1EqC5l {
+    .navButtonActive_b003de,
+    .navButtonActive__735cb {
         @include tabs.tab($ISINVERT: true);
         &:hover {
             color: $black;
         }
     }
 
-    div:has(> .navButtonSuperReactActive-1WNAEM) {
+    div:has(> .navButtonSuperReactActive__01546) {
         @include tabs.tab($ISINVERT: true);
     }
-    .navButtonSuperReactActive-1WNAEM {
+    .navButtonSuperReactActive__01546 {
         background: unset;
         &,
         &:hover {
@@ -50,71 +50,71 @@
 }
 
 // Gif selector header
-#{$root} .header-2TLOnc {
+#{$root} .header_f7f1f3 {
     box-shadow: none;
 }
 
 // Skin tone selector
-.diversitySelectorOptions-3DhNYs {
+.diversitySelectorOptions__846c5 {
     @include card.round;
 
-    .diversityEmojiItem-2bgZKv:hover {
+    .diversityEmojiItem__6505f:hover {
         background: unset;
     }
 }
 
 // Search
-.container-1SX9VC {
+.container_e4c233 {
     @include card.round;
 
-    .clear-2KQ7l1 .icon-18rqoe,
-    .icon-18rqoe {
+    .clear_e3e382 .icon_f50f05,
+    .icon_f50f05 {
         color: $cream;
     }
 }
 
 // Server sidebar
-.wrapper-22rqw6 {
+.wrapper__4f229 {
     background: $cream;
 
-    .emojiPickerHasTabWrapper-LoluYe & {
+    .emojiPickerHasTabWrapper__80686 & {
         top: 54px;
     }
 
     // Every circle
-    .categoryItemGuildCategory-3mvXlo,
-    .categoryItemPackCategory-3eePm-,
-    .categoryItemDefaultCategory-3haEDq,
-    .stickerCategory-2f6iSo {
+    .categoryItemGuildCategory__2a2ce,
+    .categoryItemPackCategory__1a9db,
+    .categoryItemDefaultCategory__67fe7,
+    .stickerCategory__4891e {
         box-shadow: 0 0 0 $size-xs $black;
         border-radius: $size-max;
         overflow: hidden;
     }
 
     // Default categories
-    .categoryItemDefaultCategory-3haEDq,
-    .stickerCategoryGeneric-29JiZ2,
-    .guildIcon-2SUGiq {
+    .categoryItemDefaultCategory__67fe7,
+    .stickerCategoryGeneric__431fb,
+    .guildIcon__4d796 {
         background: $red;
     }
-    .categoryIcon-2cYeku,
-    .stickerCategoryGenericIcon-3wumVD {
+    .categoryIcon__7d3fc,
+    .stickerCategoryGenericIcon_a869e6 {
         color: $cream;
     }
 
-    .categoryItemDefaultCategory-3haEDq,
-    .categoryItemDefaultCategorySelected-2YeRUu {
+    .categoryItemDefaultCategory__67fe7,
+    .categoryItemDefaultCategorySelected__8245a {
         margin-bottom: 8px;
         &,
         &:hover {
-            .categoryIcon-2cYeku {
+            .categoryIcon__7d3fc {
                 color: $cream;
             }
         }
     }
 
     // Default sticker packs
-    .firstPartyCategory-2ZVMkC {
+    .firstPartyCategory_ed6945 {
         &,
         &:hover {
             background: $red;
@@ -122,107 +122,107 @@
     }
 
     // Server
-    .categoryItem-1sHzUv {
+    .categoryItem__39904 {
         border-radius: $size-max;
         overflow: hidden;
 
-        .guildIcon-2SUGiq {
+        .guildIcon__4d796 {
             background: $red;
         }
     }
 
-    .guildCategorySeparator-3QYkij {
+    .guildCategorySeparator_dcbc4b {
         display: none;
     }
 
     // Circle time
-    .mask-1hlQQ6 foreignObject {
+    .mask__595dc foreignObject {
         mask: none;
     }
 
     // Jump to default emojis
-    .unicodeShortcut-3N8oDe,
-    .standardStickerShortcut-ObSns3 {
+    .unicodeShortcut__1dd6b,
+    .standardStickerShortcut__5254d {
         background: $red;
         color: $cream;
     }
 }
 
 // Emoji panel
-.bodyWrapper-1eSOtW,
-.listWrapper-2DwCYS {
+.bodyWrapper_cc3635,
+.listWrapper__74641 {
     background: $black;
 
     // Group header
-    .wrapper-1NNaWG {
+    .wrapper__7a35f {
         background: black;
 
-        .header-1XpmZs {
+        .header__9f6dc {
             color: $cream;
         }
     }
 
     // Emoji selector
-    .emojiItem-277VFM.emojiItemSelected-2Lg50V {
+    .emojiItem_b15dee.emojiItemSelected__1a09a {
         @include card.med;
         overflow: visible;
         padding: 2px;
     }
 
     // Emoji image
-    .image-3tDi44,
-    .imageLoading-2uloYN {
+    .image__7ab81,
+    .imageLoading__37d01 {
         border-radius: $size-m;
     }
 
     // Sticker selector
-    .stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {
+    .stickerInspected__1c897 .inspectedIndicator_f00108 {
         @include card.med;
         box-sizing: border-box;
     }
 
     // Sticker image
-    .stickerAsset-4c7Oqy {
+    .stickerAsset__00e6b {
         border-radius: $size-m;
     }
 
     // Create sticker
-    :is(.createInspected-3KhI7n, .createSticker-y-_Ug2) {
+    :is(.createInspected_e7c0e7, .createSticker__22fad) {
         background: $black;
 
-        .iconWrapper-Tkg0P1 {
+        .iconWrapper_ced58f {
             background: $cream;
             color: $black;
         }
     }
 
     // Loading
-    .error-3CkqkL,
-    .loadingIndicator-3fKdTZ,
-    .imageLoading-2uloYN {
+    .error__4a58f,
+    .loadingIndicator__6b1b4,
+    .imageLoading__37d01 {
         background: $cream;
         opacity: 0.3;
     }
 
-    .assetWrapperMasked-1iw9lV,
-    .loadingIndicator-3fKdTZ {
+    .assetWrapperMasked__20115,
+    .loadingIndicator__6b1b4 {
         mask: none;
     }
 
     // Unsendables
-    .stickerUnsendable-PkQAxI,
-    .emojiItemDisabled-3VVnwp {
+    .stickerUnsendable__47eae,
+    .emojiItemDisabled__36cbf {
         @include filter.sepia;
         opacity: 0.7;
     }
 }
 
 // Gif panel
-.content-A8TzKf {
+.content__30de8 {
     background: $black;
 
     // Favourites
-    .categoryFadeBlurple-1l49_Q {
+    .categoryFadeBlurple_e73c11 {
         opacity: 0.5;
         &,
         &:hover {
@@ -230,12 +230,12 @@
         }
     }
 
-    .categoryText-3B1jLN {
+    .categoryText_b65948 {
         color: $cream;
     }
 
-    .focused-16Owih,
-    .result-pzZrwj:hover {
+    .focused__036ed,
+    .result_e1fc74:hover {
         box-shadow: none;
 
         &::after {
@@ -247,24 +247,24 @@
 }
 
 // Emoji info
-.inspector-DFKXwB {
+.inspector__993e1 {
     background: $red;
 }
 
 // No nitro
-.premiumPromo-1eKAIB {
+.premiumPromo__2d678 {
     background: $black;
 
-    .premiumPromoTitle-3tWrPT,
-    .premiumPromoDescription-1kf0Oa {
+    .premiumPromoTitle__68b72,
+    .premiumPromoDescription_a33e5d {
         color: $cream;
     }
 
-    .premiumPromoImage-2q0gnA {
+    .premiumPromoImage_a670c5 {
         @include filter.sepia;
     }
 
-    .premiumPromoClose-Nuntxy {
+    .premiumPromoClose__11b8f {
         background-image: svg.$close;
     }
 }

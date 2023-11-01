@@ -5,23 +5,23 @@
 @use "../../top/tabs";
 
 // Search results
-.viewWrapper-2sTW6t {
+.viewWrapper_d8b39a {
     width: fit-content;
 }
 
 // Header
-.searchHeader-gz2NXf {
+.searchHeader_d44e8b {
     align-items: baseline;
 
     strong,
-    .arrow-3fMmSH {
+    .arrow__3dfcd {
         color: $cream;
     }
 }
 
 // Searchbar
 #{$root} {
-    .searchBox-pyIJJj {
+    .searchBox_a63854 {
         @include card.round;
 
         &,
@@ -31,72 +31,72 @@
             border-color: $cream;
         }
 
-        .searchBoxInput-3h4etz,
-        .closeIcon-BMGxx0,
-        .searchIcon-34RNw9,
-        .closeIcon-BMGxx0:hover,
-        .clearIcon-TMIIUa {
+        .searchBoxInput__73c9c,
+        .closeIcon__3dfb5,
+        .searchIcon_e60ea8,
+        .closeIcon__3dfb5:hover,
+        .clearIcon__91449 {
             color: $cream;
         }
     }
 }
 
 // Categories
-.categories-2LoSbA {
+.categories_e49c23 {
     @include tabs.bar;
     margin-bottom: 0;
 
-    .categoryPill-1zjNrr {
+    .categoryPill_c95cea {
         @include tabs.tab;
 
-        .categoryLabel-2m4AT- {
+        .categoryLabel__44b10 {
             color: inherit;
         }
 
-        &.selected-bLcqYK {
+        &.selected__24846 {
             @include tabs.tab($ISINVERT: true);
         }
 
-        &:hover:not(.selected-bLcqYK) {
+        &:hover:not(.selected__24846) {
             background: $black;
         }
     }
 }
 
 // Results
-:is(.results-1Lsvf8, .guildList-QjZKeK) {
+:is(.results__9b201, .guildList__454fa) {
     max-width: 848px;
     margin: $size-m $size-l;
 
-    .separator-2t2gPa {
+    .separator_f527c9 {
         display: none;
     }
 }
 
 // Result
-.card-1rhKXq {
+.card__33bd0 {
     @include card.large;
 
-    .splashContainer-2PC_Bm,
-    .content-3Xrx5s {
+    .splashContainer__5cb35,
+    .content_f124d7 {
         height: 135px + ($size-m * 2);
     }
 
     // Banner
-    .splashContainer-2PC_Bm {
+    .splashContainer__5cb35 {
         border-radius: 0;
 
-        .splashImage-1UBFEm {
+        .splashImage__3a90b {
             transform: none;
         }
     }
 
     // Info
-    .content-3Xrx5s {
+    .content_f124d7 {
         padding: $size-m 0;
         box-sizing: border-box;
 
-        .svg-lIB-lq {
+        .svg__7900e {
             width: 40px;
             height: 40px;
         }
@@ -106,36 +106,36 @@
         }
 
         // Icon
-        .avatar-3MM_Lx {
+        .avatar_c551f0 {
             border-radius: $size-max;
             border: $size-xs solid $cream;
             box-sizing: border-box;
         }
 
         // Name
-        .headerName-1IcEWM {
+        .headerName__3905d {
             align-items: baseline;
         }
 
-        .dotSeparator-3MbNc4 {
+        .dotSeparator__44bc0 {
             background: $cream;
         }
     }
 }
 
 // Loading result
-.placeholder-2jEh13 {
+.placeholder__278ac {
     @include card.large;
 }
 
 // Navbar
-.pageControlContainer-1Mbe6M {
+.pageControlContainer_b111b0 {
     @include card.round;
     position: sticky;
     width: auto;
     bottom: -$size-l;
 
-    .pageButton-uta6J3 {
+    .pageButton_bcd673 {
         &,
         &:hover {
             color: inherit;
@@ -143,7 +143,7 @@
         }
     }
 
-    .activeButton-2K2Fwx {
+    .activeButton__7a550 {
         &,
         &:hover {
             color: $black;

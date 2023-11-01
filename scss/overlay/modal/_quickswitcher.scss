@@ -5,38 +5,38 @@
 // Ctrl+T quickswitcher
 
 // Root
-.container-qBnZJg {
+.container_f03f1d {
     height: 365px + 12px;
     background: $black !important;
 }
 
-.quickswitcher-pKcM9U {
+.quickswitcher_a3d29a {
     box-shadow: none;
     background: $black;
     color: $cream;
 }
 
 // Searchbox
-.input-3r5zZY {
+.input__848cd {
     @include card.round;
 }
 
 // Results
-.scroller-2qwVWY {
+.scroller__52ae7 {
     background: unset;
 
-    .contentDefault-17ewQQ,
-    .contentUnread-1_MVDK,
-    .header-1ZpMzy,
-    .icon-12xJtb,
-    .misc-XwBATi,
-    .note-OhIxFa {
+    .contentDefault_f2e62d,
+    .contentUnread__50b0f,
+    .header_a2a437,
+    .icon_f8a8b6,
+    .misc__9152e,
+    .note__181ba {
         color: $cream;
     }
 }
 
 // Old ping bubble
-.wrapper-2olG5t {
+.wrapper__87791 {
     background: $cream;
     color: $black;
     border-radius: $size-max;
@@ -47,11 +47,11 @@
 }
 
 // No results
-.emptyState-1OLqEw {
+.emptyState_afda24 {
     @include filter.sepia;
 }
 
 // Footer tip
-.protip-1jXzAl.hasContent-50Z3pe {
+.protip__84833.hasContent__6eae1 {
     border-top: 0;
 }

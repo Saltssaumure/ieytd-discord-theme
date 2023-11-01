@@ -6,37 +6,37 @@
 @use "../../../../../top/card";
 
 // Headers
-.titleContainer-3fPic2 {
+.titleContainer_e558ff {
     background: inherit;
 }
-.header-JUTO-g {
+.header__63c59 {
     background: $black;
 }
 
 // Integration role warning
-.warning-RBGtx2 {
+.warning__9db16 {
     align-items: center;
 }
 
 // Inner sidebar
-.sidebar-3K3Z4C {
+.sidebar_bdf6b7 {
     background: $red;
     border-right: $size-s solid $cream;
 
-    .list-1AJFv_ {
+    .list__41249 {
         padding: 0 16px 96px 24px;
     }
 
-    .addRole-viKZpC,
-    .title-JU0E7C,
-    .title-JU0E7C:hover {
+    .addRole__15998,
+    .title__0cedc,
+    .title__0cedc:hover {
         color: $black;
     }
 
-    :is(.item-2GWPIy, .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl)) {
+    :is(.item__48dda, .themed_b957e8.item__48dda:hover:not(.disabled__85bca)) {
         @include card.round;
 
-        &.selected-1sf9UK {
+        &.selected__5711d {
             background: $cream;
             border-color: $black;
 
@@ -48,6 +48,6 @@
 }
 
 // More options button
-.menu-2p630X {
+.menu_f84091 {
     color: $cream;
 }

@@ -7,22 +7,22 @@
     color: $cream !important;
 }
 
-.placeholder-2k_BvH {
+.placeholder__3de13 {
     color: $cream;
 }
 
 // Typing inputs
-.input-3O04eu {
+.input_d266e7 {
     @include card.round;
 
     &:hover,
-    &.disabled-1-f06g,
-    &.focused-16iuXg,
+    &.disabled_d259df,
+    &.focused_db7916,
     &:focus {
         border-color: $cream;
     }
 
-    &.error-10GvqR {
+    &.error__18f19 {
         border: $size-s solid $red;
     }
 }
@@ -31,48 +31,48 @@
 .inputPrefix-1HHwWv {
     color: $cream;
 }
-.inputDefault-Ciwd-S {
+.inputDefault__80165 {
     @include card.round;
 }
 
 // Multi line input
-.textArea-3wfxMA {
+.textArea__97e3f {
     @include card.xlarge;
 }
 
 // Char limit
-.characterCount-21v0bl,
-.maxLength-1Olpq1 {
+.characterCount_d74de4,
+.maxLength_f4921c {
     color: $cream;
 }
 
 // Click to copy input
-#{$root} .copyInput-3AbKWB {
+#{$root} .copyInput_c1c679 {
     @include card.round;
 }
 
 // Keybind editor
-.editIcon-e7sZ3b {
+.editIcon__29477 {
     background: svg.$keyboard;
 }
 
 // Dropdown selector
-.lookFilled-GPyucw.select-Zz0IcO {
+.lookFilled__3dba3.select__0eb48 {
     border-radius: $size-max;
     background: $black;
     border: $size-xs solid $cream;
 }
 
 // Toggle
-.container-1QtPKm {
+.container__871ba {
     zoom: 1.2;
 
-    &:not(.checked-16gMAN) {
+    &:not(.checked__6bdb0) {
         background-color: $red !important;
         color: $red;
     }
 
-    &.checked-16gMAN {
+    &.checked__6bdb0 {
         background-color: $cream !important;
         color: $cream;
     }
@@ -87,11 +87,11 @@
 }
 
 // Checkbox
-#{$root} .checkbox-1LuCGM {
+#{$root} .checkbox_c7f690 {
     border: $size-xs solid $cream;
     border-radius: $size-max;
 
-    &.checked-22NTbO {
+    &.checked__24ad6 {
         background: $black !important;
         border-color: $cream !important;
 
@@ -101,76 +101,76 @@
     }
 }
 
-.checkbox-3gI2WR {
+.checkbox__9abca {
     border: $size-xs solid $cream;
     border-radius: $size-max;
 
-    &.selected-3KWlIC {
+    &.selected__2d410 {
         background: unset;
         border: $size-xs solid $cream;
     }
 
-    .checkmark-1lGv7h {
+    .checkmark__4dfc9 {
         color: $cream;
     }
 }
 
 // Slider
-.slider-1mmyV6 {
+.slider__22e99 {
     // Tick
-    .markDash-1ATsxA {
+    .markDash_dc3ae9 {
         background: $red;
     }
     // Label
-    .markValue-21gAVC {
+    .markValue_e7a6e4 {
         color: $cream;
     }
 
     // Bar
-    .bar-2H7Q9u {
+    .bar_e58961 {
         background: $red;
-        .barFill-3RgCsY {
+        .barFill__30e17 {
             background: $cream;
         }
     }
 
     // Grabber
-    .grabber-3R-Rx9 {
+    .grabber_d2868c {
         @include grabber.full;
     }
 }
 
 // Mini slider
-.mini-28oMa3 {
-    .grabber-3R-Rx9 {
+.mini_d6d84c {
+    .grabber_d2868c {
         @include grabber.mini;
     }
 }
 
 // Keybind
-#{$root} .container-30qY7E {
+#{$root} .container__0c807 {
     @include card.large;
     border-radius: $size-max;
 
-    &:not(.disabled-3S7pz8):focus-within,
-    &:not(.disabled-3S7pz8):hover {
+    &:not(.disabled__8d382):focus-within,
+    &:not(.disabled__8d382):hover {
         border-color: $red;
     }
 
     // Current keys
-    .input-3K7d_z {
+    .input__956cc {
         color: $cream;
     }
 }
 
 // Dropdown
-.select-Zz0IcO,
-.wrapper-mJT04A {
+.select__0eb48,
+.wrapper__555a0 {
     color: $cream;
 }
 
 // Dropdown options
-.popout-15UxD6 {
+.popout_a6e77f {
     @include card.xlarge;
     background: $black;
 
@@ -178,13 +178,13 @@
         display: none;
     }
 
-    .option-Uc12mm {
+    .option_be8b2e {
         color: $cream;
 
-        &[aria-selected="true"]:not(.option-Uc12mm.multi-2vPqc4),
+        &[aria-selected="true"]:not(.option_be8b2e.multi__8d15f),
         &:hover,
         &:focus,
-        &.focused-10mbp- {
+        &.focused_a2f507 {
             background: unset;
             color: $cream;
         }
@@ -192,7 +192,7 @@
 }
 
 // Selected
-.selectedIcon-122rMx {
+.selectedIcon__4b0ba {
     color: $cream;
 
     circle {
@@ -201,7 +201,7 @@
 }
 
 // Search input and icon
-.icon-3CDcPB,
-.input-2m5SfJ {
+.icon__37cc1,
+.input__74754 {
     color: $cream;
 }

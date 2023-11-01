@@ -2,14 +2,14 @@
 @use "../../../../top/card";
 
 // Uploading / processing attachement
-.attachment-1PZZB2 {
+.attachment_f3cf2c {
     @include card.large;
 
-    .filename-3A5bVl,
-    .cancelButton-oOSTov,
-    .downloadButton-2HLFWN,
-    .cancelButton-oOSTov:hover,
-    .downloadButton-2HLFWN:hover {
+    .filename_e129cd,
+    .cancelButton_f76160,
+    .downloadButton__57092,
+    .cancelButton_f76160:hover,
+    .downloadButton__57092:hover {
         color: $cream;
     }
 }

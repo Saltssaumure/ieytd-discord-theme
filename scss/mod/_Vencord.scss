@@ -11,17 +11,17 @@
 }
 
 .vc-plugins-info-button {
-    &.button-12Fmur,
+    &.button__4f306,
     svg:not(:hover, :focus) {
         color: $cream;
     }
 }
 
 .vc-settings-donate {
-    .contents-3NembX {
+    .contents_fb6220 {
         color: $cream;
     }
-    .lookLink-13iF2K.colorTransparent-2SBJ8- {
+    .lookLink__93965.colorTransparent__4c280 {
         @include card.round;
         transform: none !important;
         position: absolute;

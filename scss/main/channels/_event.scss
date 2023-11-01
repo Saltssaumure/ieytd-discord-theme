@@ -2,34 +2,34 @@
 @use "../../top/card";
 
 // Current event info
-.container-2Y4CWj {
+.container__30406 {
     margin: 0;
 
     &:not(:empty) {
         border-bottom: $size-s solid $cream;
     }
 
-    .channelNotice-K4UfZY {
+    .channelNotice__8f7b2 {
         @include card.xlarge;
         margin: 0 $size-m $size-m;
         padding: $size-m;
         background: $black;
 
-        .closeIcon-1AEDhI,
-        .stageIcon-1Gi-1l {
+        .closeIcon_d6e2f6,
+        .stageIcon__33daf {
             color: $cream;
         }
 
-        .liveIndicator-TJKS7N {
+        .liveIndicator_e64478 {
             background: $cream;
         }
 
-        .liveNowText-v8cd6m {
+        .liveNowText_af6cd1 {
             color: $cream !important;
         }
 
         // Event Details button
-        .joinButton-1HdI2a {
+        .joinButton_e760b6 {
             @include card.round;
         }
     }

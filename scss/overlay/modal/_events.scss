@@ -5,24 +5,24 @@
 // Server events
 
 // Header
-.header-1ffhsl {
-    .divider-2_8P_2 {
+.header__6d5ea {
+    .divider__9e497 {
         visibility: hidden;
         margin-left: 0;
     }
 
     // Events icon
-    .icon-3DnmvF,
-    .iconButton-2rHy7x:hover .icon-3DnmvF {
+    .icon__67578,
+    .iconButton_ca889c:hover .icon__67578 {
         color: $cream;
     }
 }
 
 // Event demo
-.sparkleIcon-aHefnO {
+.sparkleIcon__50612 {
     @include filter.sepia;
 }
-.circle-2tR2Qh,
+.circle__2005c,
 .iconContainer-36kI2p {
     background: $cream;
 }
@@ -32,36 +32,36 @@
 }
 
 // Event icon
-.eventStatusBrand-3D-ae6 {
+.eventStatusBrand__948ce {
     color: $cream;
 }
 
 // Event creator
 
 // Steps
-.stepContainer-3L3EXG {
+.stepContainer_ce1f7e {
     cursor: pointer;
 
     // Text
-    .colorMuted-1jNaVo {
+    .colorMuted_ae2200 {
         color: $cream;
     }
-    .colorBrand-3Xb6JG {
+    .colorBrand_be5f58 {
         color: $red;
     }
 
     // Bars
-    .progressBar-18rmp1 {
+    .progressBar__0a392 {
         background: $cream;
 
-        &.selectedProgressBar-11z5d9 {
+        &.selectedProgressBar__10383 {
             background: $red;
         }
     }
 }
 
 // Start date calendar icon
-.icon-2Ljeb8 {
+.icon_c6a760 {
     color: $cream;
 }
 
@@ -71,40 +71,40 @@
 }
 
 // Calendar popout
-.didRender-2dwLEv .calendarPicker-sDhzdi {
+.didRender_f1da13 .calendarPicker__5c474 {
     @include card.outer;
 }
 
 // Upload image
-.imageUploaderHint-33zkjZ {
+.imageUploaderHint_dc8def {
     color: $cream;
 }
 
 // Edit image
-.overlay-2-HuaL {
+.overlay__05410 {
     box-shadow: 0 0 200px $black;
     border-color: $cream;
 }
-.icon-3CEl7H {
+.icon_f5e543 {
     color: $cream;
 }
 
 // Event card
-:is(#{$root} .previewCard-E137i2, .card-8UsK4b) {
+:is(#{$root} .previewCard_aef1ab, .card__7865b) {
     @include card.med;
 
     // New event
-    .newBadge-3QiMZJ {
+    .newBadge_dc4e30 {
         div {
             color: $black !important;
         }
     }
 
     // People count
-    .rsvpCount-iCkObl {
+    .rsvpCount__4657d {
         background: $cream;
 
-        .rsvpIcon-1R5Esx {
+        .rsvpIcon_a79c28 {
             color: $black;
         }
         div {
@@ -113,17 +113,17 @@
     }
 
     // Channel
-    .channelContainer-7uiQGJ {
+    .channelContainer__052cd {
         color: $cream;
     }
 
-    .divider-2zyEHJ {
+    .divider__33a9a {
         display: none;
     }
 }
 
 // Close event creator
-.close-2oihA7 {
+.close__01697 {
     &,
     &:hover {
         color: $cream;
@@ -131,10 +131,10 @@
 }
 
 // Close full event info
-.closeIconBanner-2Kvk6- {
+.closeIconBanner__5a284 {
     &,
-    .closeButton-3xPRc3:focus &,
-    .closeButton-3xPRc3:hover & {
+    .closeButton__8b42c:focus &,
+    .closeButton__8b42c:hover & {
         color: $black;
         background: $cream;
         border-radius: $size-max;
@@ -143,22 +143,22 @@
 
 // Full event info
 // Tabs
-.container-3EBHNg {
+.container_f3270f {
     border-bottom: $size-xs solid $cream;
     background: $red;
 }
 
 // Description
-.contentContainer-BWAau5 {
+.contentContainer__3b585 {
     background: unset;
 
-    .row-3J8X6C,
+    .row__53151,
     .listRow-3v94Wr {
         color: $cream;
     }
 
     // username
-    .creator-qZpi-N {
+    .creator__7ba98 {
         font-family: var(--font-display);
     }
 }

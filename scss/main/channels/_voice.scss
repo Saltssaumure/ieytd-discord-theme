@@ -1,7 +1,7 @@
 @use "../../top/vars" as *;
 
 // Show all voice channels button
-.voiceChannelsButton-SRmgo8 {
+.voiceChannelsButton__46c37 {
     border: $size-xs solid $cream;
     background: $black;
     color: $cream;
@@ -18,40 +18,40 @@
 }
 
 // VC with users or description
-.containerDefault-YUSmu3:has(.list-2x9Cl9, .linkBottom-128lIB) {
+.containerDefault__3187b:has(.list__02208, .linkBottom_bac113) {
     height: unset;
 }
 
 // Description
-.linkBottom-128lIB {
+.linkBottom_bac113 {
     margin-left: 32px;
 }
 
 // VC user list
-.list-2x9Cl9 {
+.list__02208 {
     padding-left: 26px;
     padding-bottom: 2px;
 
     // Hidden names
-    &.collapsed-1oYzUu {
+    &.collapsed__66e36 {
         padding-top: $size-s;
         padding-bottom: $size-m;
     }
 
     // Username
-    :is(.voiceUser-3nRK-K, .voiceUser-3nRK-K:hover) .username-vAneIW {
+    :is(.voiceUser__0470a, .voiceUser__0470a:hover) .username__73ce9 {
         color: $cream;
     }
 
     // Audience counter
-    .audienceContainer-1zTPME {
+    .audienceContainer_d4eada {
         // Hidden names
-        &.audienceContainerCollapsed-2OXkcm {
+        &.audienceContainerCollapsed__3fa97 {
             background: $black;
             border: $size-xs solid $cream;
 
-            .audienceIconContainer-1xndyK .audienceIcon-2HoEJ2,
-            .audienceIconContainer-1xndyK + div {
+            .audienceIconContainer_b469ed .audienceIcon_f0f8e7,
+            .audienceIconContainer_b469ed + div {
                 color: $cream !important;
             }
         }
@@ -60,38 +60,38 @@
             color: $cream !important;
         }
 
-        .audienceIconContainer-1xndyK {
+        .audienceIconContainer_b469ed {
             background: unset;
             margin: 2px 8px 0 0;
         }
 
-        .audienceIcon-2HoEJ2 {
+        .audienceIcon_f0f8e7 {
             color: $cream;
             margin: 4px;
         }
     }
 
     // User
-    .draggable-S2aEx4 {
+    .draggable__081c0 {
         height: auto;
 
-        .userSmall-1Raexx {
+        .userSmall_e40291 {
             height: auto;
 
-            &.overlap-1yhayD {
-                .avatar-3FKimL {
+            &.overlap_c76e16 {
+                .avatar_a56eee {
                     border: $size-xs solid $cream;
                     margin: 0;
                 }
             }
 
             // User icon
-            .avatar-3FKimL {
+            .avatar_a56eee {
                 margin: 2px 8px 0 0;
             }
 
             // Live bubble
-            .live-1V2D-f {
+            .live_b195a5 {
                 background: $cream !important;
                 color: $black;
                 line-height: 12px;
@@ -100,15 +100,15 @@
     }
 
     // More users
-    .moreContainer-R0kRGB {
+    .moreContainer_a9d4ad {
         background: $black;
         border: $size-xs solid $cream;
     }
 }
 
 // VC user limit
-.wrapper-2fEmwW {
-    :is(.users-2JoyGL, .total-1c5KCN) {
+.wrapper__5848b {
+    :is(.users__65981, .total_c01838) {
         background: transparent;
         color: inherit;
         box-sizing: content-box;
@@ -116,13 +116,13 @@
         padding: 0;
     }
 
-    .users-2JoyGL {
+    .users__65981 {
         &::after {
             content: "/";
         }
     }
 
-    .total-1c5KCN {
+    .total_c01838 {
         &::after {
             display: none;
         }
@@ -130,37 +130,37 @@
 }
 
 // Activity icon
-.gameIcon-1mDo1J {
+.gameIcon__90c32 {
     border-radius: $size-max;
 }
 
 // Speakers
-.speaking-3K28iH,
-.avatarSpeaking-2pCGrZ {
+.speaking_c1b30e,
+.avatarSpeaking_c95053 {
     box-shadow: inset 0 0 0 $size-xs $red;
 }
 
 // Inverted when connected or selected
-:is(.modeConnected-NrO4cP, .modeSelected-3DmyhH),
-:has(.modeConnected-NrO4cP, .modeSelected-3DmyhH) {
+:is(.modeConnected__1c02e, .modeSelected__487d6),
+:has(.modeConnected__1c02e, .modeSelected__487d6) {
     &,
     &:hover {
-        + .list-2x9Cl9 {
+        + .list__02208 {
             // Username
-            :is(.voiceUser-3nRK-K, .voiceUser-3nRK-K:hover) .username-vAneIW,
+            :is(.voiceUser__0470a, .voiceUser__0470a:hover) .username__73ce9,
             // Muted / deafened
-            .icon-N9JZb6 {
+            .icon__1d60c {
                 color: $black;
             }
 
             // Live bubble
-            .live-1V2D-f {
+            .live_b195a5 {
                 background: $black !important;
                 color: $cream;
             }
         }
 
-        .wrapper-2fEmwW {
+        .wrapper__5848b {
             color: $black;
         }
     }

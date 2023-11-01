@@ -2,50 +2,50 @@
 @use "../../../top/card";
 @use "../../../top/filter";
 
-.sectionDescription-2ealM1,
-.accountCreditDescription-1lEaJI {
+.sectionDescription__93f73,
+.accountCreditDescription__59ab8 {
     color: $cream;
 }
 
 // Current nitro
-.banner-oA34U0 {
+.banner__79cec {
     @include card.large;
     color: $cream;
 
     // Cancelled or failed payment
-    &.canceled-3FVVhC,
-    &.failedPayment-2RYzVK {
+    &.canceled__4a0b5,
+    &.failedPayment__2e662 {
         background: $red;
 
-        .planInfo-3eXANS,
-        .planName-3i1IN1 {
+        .planInfo_cd8cba,
+        .planName__72790 {
             color: $black;
         }
     }
 
-    .image-J0sk71 {
+    .image__88ebc {
         @include filter.sepia;
     }
 }
 
 // Payment details
-.detailsBlock-24pLFz {
+.detailsBlock__1191c {
     @include card.large;
     color: $cream;
 }
 
 // Subscription credits
-.noItemsCard-5EOcCl {
+.noItemsCard_f473e7 {
     color: $cream;
 
-    .noItemsIcon-2OeOld {
+    .noItemsIcon__38ca2 {
         background: $red;
         color: $black;
     }
 }
 
 // Separators
-.sectionAccountCredit-1IqaxB,
-.subscriptionDetails-ZcKNHC {
+.sectionAccountCredit__8ffc1,
+.subscriptionDetails_f73fb4 {
     border-bottom: 0;
 }

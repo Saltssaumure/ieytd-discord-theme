@@ -2,40 +2,40 @@
 @use "../../../top/card";
 @use "../../../top/filter";
 
-.customizationSection-IGy2fS {
+.customizationSection__16fec {
     border-bottom: 0;
     margin-bottom: 0;
 }
 
 // Profile theme
-.colorSwatch-2UxEuG {
-    .swatch-efj8wq {
+.colorSwatch__5f5b9 {
+    .swatch__96672 {
         border-radius: $size-m;
         border: $size-xs solid $cream !important;
     }
 
-    .colorSwatchLabel-3wZl63 {
+    .colorSwatchLabel_a857cd {
         color: $cream !important;
     }
 
-    .editPencilIcon-22tRaH path {
+    .editPencilIcon_a915e4 path {
         fill: $cream;
     }
 }
 
 // About me
-.channelTextArea-1VQBuV {
-    .bioTextArea-dDGOeC {
+.channelTextArea__56a36 {
+    .bioTextArea_a108c9 {
         @include card.large;
         height: 250px;
     }
 
-    .characterCount-8yNPfb {
+    .characterCount_e55010 {
         color: $cream;
     }
 }
 
 // Preview
-.fakeActivityIcon-KeXVoI {
+.fakeActivityIcon__222c6 {
     @include filter.sepia;
 }

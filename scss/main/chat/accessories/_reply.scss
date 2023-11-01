@@ -2,7 +2,7 @@
 @use "../../../top/card";
 
 // Reply preview
-.repliedMessage-3Z6XBG {
+.repliedMessage_e2bf4a {
     --reply-spacing: 0;
     color: $cream;
 
@@ -10,19 +10,19 @@
     &::before {
         border-color: $red;
 
-        .cozy-VmLDNB & {
+        .cozy_f5c119 & {
             --avatar-size: 36px;
         }
     }
 
     // Username
-    .username-h_Y3Us.clickable-31pE3P {
+    .username_d30d99.clickable_d866f1 {
         font-size: 1.2rem;
         margin-top: -0.5rem;
     }
 
     // Message text
-    .repliedTextPreview-1bvxun.clickable-31pE3P:hover {
+    .repliedTextPreview__90311.clickable_d866f1:hover {
         color: $cream;
     }
 }

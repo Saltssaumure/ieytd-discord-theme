@@ -1,19 +1,19 @@
 @use "../../../top/vars" as *;
 
-.uploader-24C2NJ {
+.uploader__312df {
     box-shadow: none;
 }
 
-.emojiUploadUploadRequirementsList-1loAvP {
+.emojiUploadUploadRequirementsList__2ac5a {
     color: $cream;
 }
 
 #{$root} {
-    .emojiRow-1aPaM- {
+    .emojiRow__4661c {
         box-shadow: none;
     }
 
-    .emojiAliasPlaceholder-3oShSx {
+    .emojiAliasPlaceholder__71733 {
         &::before,
         &::after {
             color: $cream;
@@ -21,7 +21,7 @@
         }
     }
 
-    .emojiAliasPlaceholderContent-12ybcH {
+    .emojiAliasPlaceholderContent_ea7491 {
         color: $cream;
     }
 }

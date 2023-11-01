@@ -5,49 +5,49 @@
 // 5. Review
 
 // Outer
-.content-12u2A_,
-.notice-3lRU62 {
+.content_f6efd8,
+.notice_b28daf {
     @include card.large;
     margin-top: $size-l;
 }
 
-.reviewHeader-SY3Ueh,
-.onboardingStepContainer-a8QN2X,
-.iconContainer-FN7hp_,
-.helpSeparator-yDhWrV {
+.reviewHeader__0a240,
+.onboardingStepContainer__4a9d0,
+.iconContainer_ccedf9,
+.helpSeparator__3a5bd {
     background: unset;
 }
 
-.wumpus-3oyvHm {
+.wumpus_f09ba2 {
     @include filter.sepia;
 }
 
 // Toggle on/off
-.review-lB0WG3 {
+.review_e04a14 {
     background: unset;
     margin-top: 0;
 }
 
 // Channel icon
-.channelIcon-cCm7jQ {
+.channelIcon__7901b {
     color: $cream;
     zoom: 2;
 }
 
 // Requirement checks
-.checkmark-3TQRq8,
-.warning-3rPVI_ {
+.checkmark__6f954,
+.warning__4b921 {
     color: $cream;
 }
 
-.danger-1t5auf {
+.danger__9cb5c {
     color: $red;
 
-    & + .statusText-1UqU1r {
+    & + .statusText__53188 {
         color: $red !important;
     }
 }
 
-.divider-2rZFJK {
+.divider_b9338f {
     display: none;
 }

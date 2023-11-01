@@ -2,26 +2,26 @@
 @use "../top/filter";
 
 // Channel header
-.container-ZMc96U:is(.themed-Hp1KC_, .transparent-1lUmft) {
+.container__11d72:is(.themed_b152d4, .transparent__7f3e0) {
     background: $red;
     border-bottom: $size-s solid $cream;
 
     // Thread title wrapper
-    .children-3xh0VB {
+    .children__32014 {
         overflow: visible;
         align-items: flex-end;
     }
 
     // User icon
-    .avatar-31d8He::before {
+    .avatar__991e2::before {
         background: $cream;
     }
 
     // Channel name
-    .titleWrapper-24Kyzc {
+    .titleWrapper__482dc {
         @include filter.shadow;
 
-        .title-17SveM {
+        .title__9e2b0 {
             position: relative;
             font-style: oblique;
             bottom: 2px;
@@ -32,49 +32,49 @@
     }
 
     // Divider
-    .divider-q3P9HC {
+    .divider_c09b64 {
         display: none;
     }
 
     // Streamer
-    .container-17V_oy {
+    .container__0754a {
         align-items: flex-end;
-        .playingText-16QsYy {
+        .playingText_f2f60c {
             color: $black;
         }
     }
 
     // Channel description
-    .topic-11NuQZ {
+    .topic__16ae3 {
         color: $black;
         font-size: 16px;
     }
 
-    .children-3xh0VB::after {
+    .children__32014::after {
         background: linear-gradient(90deg, transparent, $red);
     }
 
     // Icons
-    .controlIcon-10O-4h,
-    .icon-2xnN2Y {
+    .controlIcon__25700,
+    .icon__4cb88 {
         &,
-        .selected-29KTGM &,
-        .clickable-ZD7xvu &,
-        .clickable-ZD7xvu:hover & {
+        .selected_be2668 &,
+        .clickable_d23a1a &,
+        .clickable_d23a1a:hover & {
             color: $cream;
         }
 
         // Strikethrough for muted channels
-        .strikethrough-958bun {
+        .strikethrough__99649 {
             color: $black;
         }
     }
-    .iconBadge-3Mmg92 {
+    .iconBadge_cc5031 {
         background: $cream;
     }
 
     // Search bar
-    .searchBar-jGtisZ {
+    .searchBar_e0c60b {
         color: $cream;
         border-radius: $size-max;
         background: $black;
@@ -82,19 +82,19 @@
         height: 28px;
 
         // Shift typed text to left a little
-        .DraftEditor-editorContainer:not(:has(.searchFilter-2UfsDk)) {
+        .DraftEditor-editorContainer:not(:has(.searchFilter__118cb)) {
             padding-left: 3px;
         }
 
-        .icon-18rqoe {
+        .icon_f50f05 {
             color: $cream;
         }
     }
 }
 
 // Icons
-.controlIcon-10O-4h,
-.controlIcon-10O-4h.active-3D763s,
-.controlIcon-10O-4h:hover {
+.controlIcon__25700,
+.controlIcon__25700.active_ff29dc,
+.controlIcon__25700:hover {
     color: $cream;
 }

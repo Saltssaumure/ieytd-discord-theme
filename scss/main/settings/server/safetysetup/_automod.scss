@@ -3,19 +3,19 @@
 @use "../../../../top/card";
 
 // Automod rule icon
-.ruleIconContainer-dXW56- {
+.ruleIconContainer_baf164 {
     background: $cream;
 
-    .ruleIcon-jIriNN {
+    .ruleIcon__44d2b {
         color: $black;
     }
 }
 
 // Automod actions
-.actionContainer-EzNGrb {
+.actionContainer_d21d10 {
     background: $cream;
 
-    .actionIcon-2VtFPq {
+    .actionIcon__2a5f8 {
         color: $black;
     }
 
@@ -27,7 +27,7 @@
 
 // Rules
 // Step
-.stepCountIcon-1A2Rxd {
+.stepCountIcon_a27a70 {
     background: $cream;
 
     div {
@@ -36,86 +36,86 @@
 }
 
 // Arrow between steps
-.dividierIcon-GVrQQY {
+.dividierIcon__05be9 {
     color: $cream;
 }
 
 // Step instructions
-.triggerMainContainer-274ue5 {
+.triggerMainContainer_c5139b {
     border: 0;
 
     // Field
-    .keywordsTextArea-3QkFoG,
-    .collapseable-1FiLab {
+    .keywordsTextArea_d5eadb,
+    .collapseable__71e46 {
         @include card.large;
     }
 
-    .arrow-N82EUB,
-    .arrow-39Uzxs {
+    .arrow__23c57,
+    .arrow_ad7862 {
         color: $cream;
     }
 
     // Field in dropdown
-    .textArea-3KjrTT {
+    .textArea__3f404 {
         @include card.med;
     }
 
     // Icon
-    .actionIcon-xZ8Xaf,
-    .mentionLimitIcon-11ZBxD {
+    .actionIcon_a6a945,
+    .mentionLimitIcon_dce691 {
         color: $cream;
     }
 
-    .mentionLimitIcon-11ZBxD path {
+    .mentionLimitIcon_dce691 path {
         fill: $cream;
     }
 
     // Link
-    .editChannel-3Y8hih {
+    .editChannel__45c49 {
         color: $red;
     }
 
     // Number adjust buttons
-    .stepperContainer-i-z0pP {
+    .stepperContainer__053f4 {
         background: unset;
         border: 0;
 
-        .iconWrapper-2_MXbk {
+        .iconWrapper__9caa9 {
             background: unset;
         }
 
-        .icon-2TbMdT {
+        .icon_ae3492 {
             color: $cream;
         }
     }
 
-    .collapseable-owFmG1 {
+    .collapseable__0c992 {
         margin: 8px;
     }
 
     // Response
-    .triggerSettingsContainer--iO5xr {
-        &:has(.actionContainer-2krsiT, .mentionLimitContainer-zBzr5i, .keywordListContainer-9ux8nU) {
+    .triggerSettingsContainer_bf350a {
+        &:has(.actionContainer__51bd9, .mentionLimitContainer__0f0ff, .keywordListContainer_fdf41c) {
             @include card.large;
             margin-top: 8px;
             padding-top: 0;
         }
 
         // Row
-        .actionContainer-2krsiT,
-        .mentionLimitContainer-zBzr5i,
-        .keywordListContainer-9ux8nU {
+        .actionContainer__51bd9,
+        .mentionLimitContainer__0f0ff,
+        .keywordListContainer_fdf41c {
             background: unset;
             margin-bottom: 0;
         }
     }
 
     // Search
-    .container-1SX9VC {
+    .container_e4c233 {
         @include card.round;
 
         // Term
-        .richTag-20_n21 {
+        .richTag_fba187 {
             border-radius: $size-max;
             background: $cream;
             color: $black;
@@ -131,51 +131,51 @@
     }
 
     // Search results
-    .resultsList-3yWCAG {
+    .resultsList_bec6cd {
         @include card.xlarge;
         background: $black;
     }
 }
 
 // Explicit image filter
-.container-AxP_J8,
-.groupCollapsedContainer-2z4Vrr,
-.collapseable-1FiLab.toggled-SfZPpc:active,
-.collapseable-1FiLab:active,
-.clickableContainer-3YtEIY {
+.container__74689,
+.groupCollapsedContainer_d7de68,
+.collapseable__71e46.toggled_bb1607:active,
+.collapseable__71e46:active,
+.clickableContainer__69013 {
     background: unset;
 }
 
-.groupContainer-JYaEbn {
+.groupContainer_ea45bc {
     @include card.large;
 
-    &.toggled-SfZPpc {
+    &.toggled_bb1607 {
         padding-bottom: 24px;
     }
 
     // Currently selected option
-    .groupHeaderRow-19NZvU .backgroundModifierContainer-WjXgb2 {
+    .groupHeaderRow__83bb9 .backgroundModifierContainer__73a0a {
         border-left: 0;
     }
 
     // All options
-    .groupCollapsedContainer-2z4Vrr {
+    .groupCollapsedContainer_d7de68 {
         @include card.large;
         margin: 12px;
         padding: 0;
         width: auto;
 
-        .pointer-3ErAGc {
+        .pointer_d95271 {
             display: none;
         }
 
-        .statusRed-1dK5Ao,
-        .statusYellow-2nYnVP {
+        .statusRed_fa8ec0,
+        .statusYellow__0c86b {
             border-left: 0;
         }
 
         // Radio icon
-        .groupCollapsedRow-2CgoFk {
+        .groupCollapsedRow_b21fc7 {
             color: $cream;
         }
     }

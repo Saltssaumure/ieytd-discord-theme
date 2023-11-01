@@ -3,7 +3,7 @@
 @use "../top/filter";
 
 // Info cards, mainly in settings
-#{$root} .card-2guEcY {
+#{$root} .card__4dc22 {
     @include card.large;
     background: $black;
 
@@ -11,7 +11,7 @@
         color: $red;
     }
 
-    .icon-BvdXsl.lightThemeColorOnly-2Rfmga {
+    .icon_c4178d.lightThemeColorOnly__15cda {
         color: $cream;
     }
 }

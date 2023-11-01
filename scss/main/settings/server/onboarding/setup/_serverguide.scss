@@ -5,18 +5,18 @@
 // 4. Server guide
 
 // Example
-.previewImage-QtT1cg {
+.previewImage_e54b1b {
     @include filter.sepia;
 }
 
 // Sliding toggle
-.pillContainer-2LYUah {
+.pillContainer_e97d2d {
     @include card.round;
 
-    .pillItem-1rl4IM {
+    .pillItem__2d9fa {
         color: $cream;
 
-        &.pillItemSelected-1o_C0R {
+        &.pillItemSelected__3dd13 {
             background: $cream;
             color: $black;
             border-radius: $size-max;
@@ -25,27 +25,27 @@
 }
 
 // Add item centerer
-.section-3atBfu,
-.editResources-VF5jzi {
+.section__87af1,
+.editResources_a93175 {
     display: flex;
     flex-direction: column;
 }
 
 // Bad example
-.example-3sUElw {
+.example__5d01c {
     @include card.large;
     border-color: $red;
     color: $red;
 }
 
 // Todo
-.actionItem-2aVT03 {
+.actionItem__36958 {
     @include card.large;
     padding-left: 32px;
 }
 
-.actionItemEmojiWrapper-1B2uqj,
-.badExampleIcon-33kC6N {
+.actionItemEmojiWrapper__09da8,
+.badExampleIcon__70659 {
     color: inherit;
     background: unset;
     padding: 0;
@@ -63,7 +63,7 @@
 }
 
 // Add todo
-.addActionItem-2IwCLo {
+.addActionItem__209df {
     @include card.round;
     padding: $size-m $size-xl;
     width: fit-content;
@@ -75,18 +75,18 @@
 }
 
 // Resource benefits
-.bulletList-gjE14g {
+.bulletList__81800 {
     color: $cream;
 }
 
 // Suggested channels
-.suggestedChannelsDismissCheck-3uBOus {
+.suggestedChannelsDismissCheck_f2d54f {
     color: $cream;
 }
-.suggestedChannels-1mEoi7 {
+.suggestedChannels__158f9 {
     @include card.large;
 
-    .suggestedChannelIcon-CXp0cS {
+    .suggestedChannelIcon__78884 {
         color: $cream;
         zoom: 1.5;
         margin-right: 0;
@@ -94,11 +94,11 @@
 }
 
 // Resource channel
-.resourceChannel-26Ed-C {
+.resourceChannel__1f331 {
     @include card.large;
     padding-left: 32px;
 }
 
-.sectionSeparator-1WzCWY {
+.sectionSeparator_a87254 {
     display: none;
 }

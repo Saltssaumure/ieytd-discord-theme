@@ -3,29 +3,29 @@
 @use "../top/filter";
 
 // Channels & Roles
-#{$root} .emptyPage-2TGR7j,
-#{$root} .scrollerContainer-y16Rs9,
-#{$root} .container-1um7CU,
-.scroller-1fIBSS {
+#{$root} .emptyPage__3e15d,
+#{$root} .scrollerContainer_bf5dbd,
+#{$root} .container__7590f,
+.scroller__81266 {
     background: unset;
 }
 
 // Customisation question
-.prompt-1sE27N {
+.prompt__1b100 {
     @include card.large;
     overflow: unset;
     border-color: $cream !important;
 
     // Required answer
-    .required-2b9vjX {
+    .required__4d6b5 {
         color: $red;
-        &.error-nWpAd- {
+        &.error__3e1e1 {
             text-decoration-color: $red;
         }
     }
 
     // Role
-    .helpText-2SCsDl {
+    .helpText__1564e {
         align-items: baseline;
         div {
             border-radius: $size-max;
@@ -35,7 +35,7 @@
     }
 
     // Dropdown
-    .select-1YfRS9 {
+    .select__55f87 {
         // Top
         .css-llyypf,
         .css-mb2az-placeholder,
@@ -65,18 +65,18 @@
 }
 
 // Profile preview
-.profileCard-2gVmvm {
+.profileCard_bd55ee {
     @include card.xlarge;
 
-    .separator-2prxtM {
+    .separator__63988 {
         display: none;
     }
 
-    .title-20kNQS {
+    .title__01c32 {
         margin-top: $size-m;
     }
 
-    .role-3uAPnQ {
+    .role__65ab8 {
         background: $cream;
         color: $black;
 
@@ -87,44 +87,44 @@
 }
 
 // Browse channels
-.search-kg4MrS {
+.search__4a09e {
     @include card.round;
 }
 
 // Tip banner
-.container-27tlK1 {
+.container__6a848 {
     @include card.large;
 
-    .image-I6enhm {
+    .image__4cfd2 {
         @include filter.sepia;
     }
 
-    .closeButton-TVK2OG {
+    .closeButton__3e900 {
         color: $cream;
     }
 }
 
 // Channel
-.channelRow-4X_3fi {
+.channelRow__96673 {
     @include card.large;
 
-    &:hover:not(.disabled-3cfocy) {
+    &:hover:not(.disabled__583e7) {
         background: unset;
     }
 
-    &:not(.firstChannel-3vAGDY) {
+    &:not(.firstChannel__94f31) {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         border-top: 0;
     }
 
-    &:not(.lastChannel-21yyBC) {
+    &:not(.lastChannel__129f1) {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         border-bottom: 0;
     }
 }
 
-.separator-3vTHjS {
+.separator__3cfd2 {
     display: none;
 }

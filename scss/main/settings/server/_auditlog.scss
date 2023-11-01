@@ -3,29 +3,29 @@
 @use "../../../top/filter";
 @use "../../../top/svg";
 
-.quickSelectLabel-ArUyd9,
-.quickSelect-384d3G {
+.quickSelectLabel_cf5c1b,
+.quickSelect_ae48d2 {
     color: $cream;
 }
 
-#{$root} .quickSelectArrow-1dOOHb {
+#{$root} .quickSelectArrow__9853b {
     background-image: svg.$audit-arrow;
 }
 
-.content-28mbXd {
+.content__3d283 {
     gap: $size-l;
 }
 
 // Log entries
 #{$root} {
-    .auditLog-1NVAY0 {
+    .auditLog__6c805 {
         @include card.large;
         margin-bottom: $size-l;
 
         // Open arrow
         &,
         &:hover {
-            .expandForeground-1rs9T1 {
+            .expandForeground_c53c75 {
                 stroke: $cream;
             }
         }
@@ -37,20 +37,20 @@
     }
 
     // Inner
-    .headerClickable-zGQJz3,
-    .headerDefault-1e6yjj,
-    .headerExpanded-1-zwDr,
-    .changeDetails-1kMZqI {
+    .headerClickable_c4d7a9,
+    .headerDefault__3e003,
+    .headerExpanded__03c29,
+    .changeDetails_ecd760 {
         background: unset;
         color: $cream;
     }
 
     // Action type icon
-    .icon-2PiQ65 {
+    .icon__99140 {
         @include filter.sepia;
     }
 }
 
-.divider-M3saWq {
+.divider__1505d {
     display: none;
 }

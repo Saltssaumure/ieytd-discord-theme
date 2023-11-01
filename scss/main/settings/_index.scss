@@ -6,21 +6,21 @@
 @use "../../top/card";
 @use "../../top/svg";
 
-.layer-86YKbF,
-.standardSidebarView-E9Pc3j {
+.layer__2efaa,
+.standardSidebarView__1129a {
     background: transparent;
     gap: $size-m;
 }
 
 // Menu
-.sidebarRegion-1VBisG {
+.sidebarRegion__60457 {
     max-width: 312px;
 
-    .sidebarRegionScroller-FXiQOh {
+    .sidebarRegionScroller__1fa7e {
         background: $red;
     }
 
-    .sidebar-nqHbhN {
+    .sidebar__9e3e2 {
         padding: 0 0 $size-m;
 
         &::before {
@@ -35,10 +35,10 @@
     }
 
     // Title
-    .header-2F5_LB:first-child {
+    .header_f72511:first-child {
         padding-top: 6px;
     }
-    .eyebrow-1Shfyi {
+    .eyebrow_e5a66c {
         text-align: center;
         font-size: 20px;
         line-height: 24px;
@@ -47,16 +47,16 @@
     }
 
     // Entry
-    :is(.item-2GWPIy.themed-qqoYp3, .item-2GWPIy.themed-qqoYp3:hover:not(.disabled-2G98Nl)) {
+    :is(.item__48dda.themed_b957e8, .item__48dda.themed_b957e8:hover:not(.disabled__85bca)) {
         @include card.round;
 
-        &.selected-1sf9UK {
+        &.selected__5711d {
             background: $cream;
             color: $black;
             border-color: $black;
         }
 
-        .selected-2Uns2B {
+        .selected_d25ad4 {
             color: $black;
 
             path {
@@ -66,14 +66,14 @@
     }
 
     // Nitro
-    .selectedBackground-1t6xXq {
+    .selectedBackground_d847da {
         display: none;
     }
-    .premiumLabel-3HPvdB svg {
+    .premiumLabel_f2cd55 svg {
         @include filter.sepia;
     }
-    .serverBoostTabItem-3QwA3W {
-        .icon-3FU6Ir {
+    .serverBoostTabItem_b19426 {
+        .icon__11372 {
             fill: $cream;
         }
 
@@ -81,41 +81,41 @@
             background: $cream !important;
             color: $black !important;
 
-            .icon-3FU6Ir {
+            .icon__11372 {
                 fill: $black !important;
             }
         }
     }
 
     // Social media icons
-    .socialLinks-3ywLUf {
+    .socialLinks_c1fc99 {
         display: flex;
         justify-content: space-evenly;
         margin-top: $size-m;
-        .link-1-SDSV {
+        .link_b006df {
             color: $cream;
         }
     }
 
     // Build info
-    .line-18uChy {
+    .line__75801 {
         color: $cream !important;
     }
 }
 
 // Content
-.contentRegion-3HkfJJ {
+.contentRegion__0bec1 {
     background: $black;
-    .contentRegionScroller-2_GT_N {
+    .contentRegionScroller__86c79 {
         background: $black;
     }
 }
 
 // Streamer mode
-.streamerModeEnabledImage-2EveVD {
+.streamerModeEnabledImage_a0d94f {
     @include filter.sepia;
 }
-.streamerModeEnabledBtn-2nlJTD {
+.streamerModeEnabledBtn__51c2f {
     @include card.round;
 
     &:hover {
@@ -124,36 +124,36 @@
 }
 
 // Close button
-:is(.closeButton-PCZcma, .keybind-13vtq8) {
+:is(.closeButton__34341, .keybind__57645) {
     color: $cream;
 
     &:hover,
-    &:hover + .keybind-13vtq8 {
+    &:hover + .keybind__57645 {
         color: $cream;
         background: unset;
     }
 }
 
 // Breadcrumb trail
-.breadcrumbs-2uP7wU {
+.breadcrumbs__5ffc6 {
     overflow: visible;
 
-    .breadcrumbWrapper-3rpYiO {
+    .breadcrumbWrapper__34bfa {
         align-items: flex-end;
 
-        .breadcrumbClickWrapper-1nRR9e,
-        .breadcrumbFinalWrapper-1BwQdx {
+        .breadcrumbClickWrapper__48502,
+        .breadcrumbFinalWrapper__71907 {
             overflow: visible;
         }
 
-        .breadcrumbInactive-1gWeSM {
+        .breadcrumbInactive_eeb224 {
             &,
             &:hover {
                 color: $red;
             }
         }
 
-        .breadcrumbArrow-1LY2zF {
+        .breadcrumbArrow__05b4d {
             zoom: 1.5;
             color: $cream;
         }
@@ -161,13 +161,13 @@
 }
 
 // Back button
-.backButton-2D5owx {
+.backButton__54768 {
     color: $cream;
 }
 
 // Unsaved changes
-.noticeRegion-qjyUVg {
-    .container-20TyK0 {
+.noticeRegion__2779f {
+    .container__467eb {
         @include card.outer;
         background: $red !important;
         box-shadow: none;

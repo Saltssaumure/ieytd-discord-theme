@@ -3,10 +3,10 @@
 
 // Get started tasks
 
-.progressBarContainer-E1K7OK {
+.progressBarContainer__82ad7 {
     margin: 0 0 12px 8px;
 
-    .progressBarText-1CVwdS {
+    .progressBarText__17eb1 {
         h3 {
             font-family: var(--font-primary);
             font-size: 12px;
@@ -15,23 +15,23 @@
             font-weight: 700;
         }
 
-        .arrow-3X8pHH {
+        .arrow_fe305f {
             color: $cream;
         }
     }
 
-    .progressBar-3tBeH7 {
+    .progressBar__2cbc2 {
         border: $size-xs solid $cream;
         border-radius: $size-max;
         background: $black !important;
 
-        .progressBar-3fV-Dd {
+        .progressBar__47525 {
             height: 4px;
             background: linear-gradient(90deg, $red, $cream) !important;
         }
     }
 }
 
-.divider-3DWsBp {
+.divider_e297a9 {
     display: none;
 }

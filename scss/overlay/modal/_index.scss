@@ -23,44 +23,44 @@
 @use "../../top/card";
 @use "../../top/filter";
 
-.backdrop-2ByYRN {
+.backdrop__7e89b {
     background: linear-gradient($black, $red) !important;
 }
 
-.root-1CAIjD:not(:has(.wrapper-rWtXPd)) {
+.root_a28985:not(:has(.wrapper__8e1d7)) {
     @include card.outer;
     box-shadow: 0 0 20px $red !important;
 }
 
 #{$root} {
-    .footer-IubaaS,
-    .header-1ffhsl {
+    .footer__89240,
+    .header__6d5ea {
         background: $red;
     }
 
-    .footerText-I26IbS,
-    .footerText-I26IbS .anchor-1X4H4q {
+    .footerText__614f3,
+    .footerText__614f3 .anchor_c8ddc0 {
         color: $cream;
     }
 }
 
 // Header
-.header-1ffhsl {
+.header__6d5ea {
     // Top title
-    :is(h1, h2, h3, h4, h5):is(.defaultColor-1EVLSt, .defaultColor-3Olr-9) {
+    :is(h1, h2, h3, h4, h5):is(.defaultColor__77578, .defaultColor_d757c2) {
         color: $black;
         @include filter.shadow;
     }
 
     // Subtitle
-    .defaultColor-1EVLSt {
+    .defaultColor__77578 {
         color: $cream;
     }
 
     // Close button
-    .close-A4ZfTI {
+    .close__1080c {
         opacity: 1;
-        .closeIcon-pSJDFz {
+        .closeIcon__5bab9 {
             color: $cream;
         }
     }
@@ -73,12 +73,12 @@
 }
 
 // Content
-.content-1OG56Q:not(:has(.sidebarContainer-gUKhtL), .guildList-fqH9qO) {
+.content__764ce:not(:has(.sidebarContainer__5583d), .guildList__70c68) {
     padding-top: $size-m;
 }
 
 // Footer
-#{$root} .footerSeparator-3U8YsT {
+#{$root} .footerSeparator__57d95 {
     box-shadow: none;
 
     .button-18kCi0 {

@@ -1,22 +1,22 @@
 @use "../../top/vars" as *;
 
 // Library panel
-.container-36u7Lw .container-3u6dG-,
-.container-36u7Lw .scroller-1TOeMq {
+.container_c64a9f .container__0eeef,
+.container_c64a9f .scroller__9c698 {
     background: $black;
 }
 
 // Sticky header
-.header-2EadGG {
+.header_b5ab54 {
     background: $red;
     width: 100%;
     border-bottom: $size-s solid $cream;
 
-    .headerCell-3WoADH {
+    .headerCell__7a86a {
         border-left: 0;
     }
 
-    .headerCellContent-iBms3e {
+    .headerCellContent_b91aca {
         font-family: var(--font-display);
         font-size: 20px;
         color: $black;
@@ -24,68 +24,68 @@
 }
 
 // Game
-.rowWrapper-N-4fji {
+.rowWrapper__2d725 {
     padding-bottom: $size-xxs;
     margin-bottom: -$size-xxs;
 
-    .row-1_1Nya {
+    .row_f3cc85 {
         color: $cream;
 
-        .nameCellText-2i43C0,
-        .textCell-sKsLUQ {
+        .nameCellText__43eda,
+        .textCell_edd42f {
             color: $cream;
         }
     }
 }
 
 // Settings
-.container-36u7Lw {
+.container_c64a9f {
     // Text
-    .title-2yADjX,
-    .description-foE_WP,
-    .h5-2feg8J,
-    .rowTitle-2MoCno,
-    .rowBody-uWDd7Y,
-    .defaultLocationCheckbox-1Y3dSI {
+    .title__28a65,
+    .description__7af71,
+    .h5__884a2,
+    .rowTitle_ec0ae0,
+    .rowBody__737e5,
+    .defaultLocationCheckbox__39884 {
         color: $cream;
     }
 
     // Default install location
-    .defaultIndicator-1AxErs {
+    .defaultIndicator__2a4ea {
         border-radius: $size-max;
         background: $cream;
         color: $black;
     }
 
     // Storage remaining wheel;
-    .background-3laMJt {
+    .background__0a6fb {
         stroke: $black;
     }
-    .foreground-2JnqVD {
+    .foreground__26bd6 {
         stroke: $red;
     }
-    .usageInfo-2CQ9c7 {
+    .usageInfo_a68f86 {
         color: $red;
     }
 
     // Install location row
-    .installationPath-2PbaRC {
+    .installationPath_fa3a82 {
         box-shadow: none;
     }
 
     // Install location edit box
-    .installationPathEditing-1YSctd {
+    .installationPathEditing__33f5f {
         background: unset;
         border: $size-xs solid $cream;
         border-radius: $size-l;
 
-        .separator-fB6EmU {
+        .separator__22180 {
             border-top: 0;
             margin-bottom: 0;
         }
 
         // Make this my default location
-        .defaultLocationCheckbox-1Y3dSI {
+        .defaultLocationCheckbox__39884 {
             margin-top: 12px;
         }
     }

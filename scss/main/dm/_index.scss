@@ -9,17 +9,17 @@
 @use "../../top/vars" as *;
 
 // Friends
-.container-2cd8Mz .tabBody-2dgbAs,
+.container__5c7e7 .tabBody_b3d268,
 // Library
-.container-36u7Lw .container-3u6dG-,
-.container-36u7Lw .scroller-1TOeMq,
+.container_c64a9f .container__0eeef,
+.container_c64a9f .scroller__9c698,
 // Nitro
-.applicationStore-2nk7Lo .scroller-29cQFV,
+.applicationStore_fc7d76 .scroller__244e5,
 // Message requests
-:is(.chat-2ZfjoI, .chat-9g_3Xj) :is(.content-1jQy2l, .content-18rAwf),
+.chat__52833 .content__1a4fe,
 // Server guide
-.forumOrHome-2VTX6r + .scrollerBase-1Pkza4,
+.forumOrHome__75784 + .scrollerBase_dc3aa9,
 // Family centre
-.container-TT--xs .contentPanel-2uDEUG:not(.contentRegion-3HkfJJ .contentPanel-2uDEUG) {
+.container_a87c5e .contentPanel__2fdef:not(.contentRegion__0bec1 .contentPanel__2fdef) {
     border-left: $size-m solid $cream;
 }

@@ -1,65 +1,65 @@
 @use "../../top/vars" as *;
 @use "../../top/card";
 
-.panels-3wFtMD,
-:is(.container-1zzFcN, .container-2NLBJg),
-#{$root} :is(.container-YkUktl, .container-1CH86i),
-#{$root} :is(.panel-2ZFCRb, .panel-ufc1-o) {
+.panels__58331,
+.container_d667ff,
+#{$root} .container_ca50b9,
+#{$root} .panel_bd8c76 {
     background: $black;
 }
 
-.panels-3wFtMD {
+.panels__58331 {
     border-top: $size-s solid $cream;
 
     // Activity panel
-    .activityPanel-9icbyU {
+    .activityPanel__22355 {
         border-bottom: 0;
     }
 
     // VC controls
-    :is(.container-1zzFcN, .container-2NLBJg) {
+    .container_d667ff {
         border-bottom: 0;
 
         // Ping bars
-        .ping-2IpLcU {
+        .ping__47992 {
             color: $black;
         }
-        .rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc,
-        .rtcConnectionQualityAverage-USzsaD .pingForeground-1BRBTc:not(:last-child) {
+        .rtcConnectionQualityFine__471b6 .pingForeground_ac78df,
+        .rtcConnectionQualityAverage__4b0ea .pingForeground_ac78df:not(:last-child) {
             color: $cream;
         }
-        .rtcConnectionQualityBad-3fxsmZ .pingForeground-1BRBTc:first-child {
+        .rtcConnectionQualityBad__6caa2 .pingForeground_ac78df:first-child {
             color: $red;
         }
 
         // Connection status text
-        .rtcConnectionStatusConnected-1c73OK,
-        .rtcConnectionStatusConnecting-2D7M2N {
+        .rtcConnectionStatusConnected__1d5b0,
+        .rtcConnectionStatusConnecting__7b83a {
             color: $cream;
         }
-        .rtcConnectionStatusError-2QNGCS {
+        .rtcConnectionStatusError_f91509 {
             color: $red;
         }
 
         // Connected users
-        .voiceUsers-25eR9q {
+        .voiceUsers__4147e {
             gap: $size-s;
 
-            .avatarContainer-3tBLDx,
-            .expandButton-16yJoR {
+            .avatarContainer__69aa4,
+            .expandButton_d54e5e {
                 border: $size-xs solid $cream;
                 width: 24px;
             }
 
-            .avatarIconOverlay-ZVSfbr {
+            .avatarIconOverlay__61b77 {
                 color: $cream;
-                .avatarIconRed-uo-tMF {
+                .avatarIconRed__51cad {
                     color: $red;
                 }
             }
 
             // See all connected users
-            .primary-38Hs-h {
+            .primary_f0f61f {
                 background: $cream;
                 color: $black;
                 box-sizing: content-box;
@@ -68,30 +68,30 @@
         }
 
         // Voice chat options
-        :is(.button-1EGGcP, .button-2gNyE9):not(.disabledButtonWrapper-1m0hYZ) {
+        .button__66e8c:not(.disabledButtonWrapper__69c70) {
             @include card.round;
         }
     }
 
     // Self panel
-    :is(.container-YkUktl, .container-1CH86i) {
+    .container_ca50b9 {
         // Username
-        .title-338goq {
+        .title__10613 {
             font-family: var(--font-display);
             margin-top: -10px;
             line-height: 28px;
         }
     }
 
-    .title-338goq,
-    .subtext-2HDqJ7,
-    .button-12Fmur,
-    .button-12Fmur:hover {
+    .title__10613,
+    .subtext__8f869,
+    .button__4f306,
+    .button__4f306:hover {
         color: $cream;
     }
 
-    :is(.redIcon-1ppjsM, .redIcon-3U81HA),
-    :is(.strikethrough-2Kl6HF, .strikethrough-3nXjYr) {
+    .redIcon__457ad,
+    .strikethrough__29b20 {
         color: $red;
     }
 }

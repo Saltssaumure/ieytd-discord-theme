@@ -3,46 +3,46 @@
 
 // Soundboard picker
 
-.picker-20lcBA {
+.picker__6dca7 {
     @include card.outer;
     background: $black;
 }
 
 // Header
-.header-3YNgrp {
+.header_bf5f46 {
     background: $red;
 
-    .settingsClickArea-1vKB0J {
+    .settingsClickArea__307ff {
         color: $cream;
     }
 }
 
 // Server sidebar
-.categoryList-iuh2t0 {
+.categoryList__173de {
     top: 64px;
     left: $size-s;
     bottom: $size-s;
     border-bottom-left-radius: $size-l;
 
-    .category-2igiWS {
+    .category_f1b389 {
         border-radius: $size-max;
         background: $red;
         overflow: hidden;
         box-shadow: 0 0 0 2px $black;
     }
 
-    .categoryIconIcon-2lhQg8 {
+    .categoryIconIcon_ae84ad {
         color: $cream;
     }
 }
 
 // Sound panel
-.listWrapper-1y1la3 {
+.listWrapper__2275d {
     left: 47px;
     width: calc(100% - 47px);
 
     // Group header
-    .sectionHeader-1-lTK9 {
+    .sectionHeader_c664ae {
         position: sticky;
         margin: 0;
         top: 0;
@@ -52,12 +52,12 @@
         height: 32px;
         align-items: center;
 
-        .guildIcon-2SUGiq {
+        .guildIcon__4d796 {
             border-radius: $size-max;
             background: $red;
         }
 
-        .sectionTitle-1T_AdY {
+        .sectionTitle__8df35 {
             color: $cream;
             font-size: 12px;
             line-height: 12px;
@@ -66,45 +66,45 @@
     }
 
     // Sound
-    .soundButton-2P2Ua2 {
+    .soundButton__5ad7b {
         @include card.med;
 
         // Hover to select
-        &.focused-3HPLAS.hoverActiveBackground-gg2vFI,
-        &:focus-within.hoverActiveBackground-gg2vFI,
-        &:hover.hoverActiveBackground-gg2vFI {
+        &.focused_a3fd1a.hoverActiveBackground__32054,
+        &:focus-within.hoverActiveBackground__32054,
+        &:hover.hoverActiveBackground__32054 {
             background: unset;
 
-            .secondaryButton-JGH-z5 {
+            .secondaryButton__41267 {
                 color: $cream;
             }
 
-            .favoriteIconFavorite-1QesTq path:last-child {
+            .favoriteIconFavorite_a2c6b6 path:last-child {
                 fill: $cream;
             }
         }
 
         // Hover to play
-        .buttonOverlayBackground-3fyfGX {
+        .buttonOverlayBackground_ec646a {
             background: $cream;
         }
-        .buttonOverlay-3K0hyD:has(.buttonOverlayBackground-3fyfGX) {
-            .playIcon-3vkhLN,
-            .secondaryButton-JGH-z5 {
+        .buttonOverlay__76d7d:has(.buttonOverlayBackground_ec646a) {
+            .playIcon__68d2d,
+            .secondaryButton__41267 {
                 color: $black;
             }
 
-            .favoriteIconFavorite-1QesTq path:last-child {
+            .favoriteIconFavorite_a2c6b6 path:last-child {
                 fill: $black;
             }
         }
     }
 
     // Add sound
-    .soundAddButton-1FOn5u {
+    .soundAddButton__896b6 {
         border: 0;
 
-        .soundAddIcon-1AsuVz {
+        .soundAddIcon__0f1fb {
             color: $cream;
         }
     }

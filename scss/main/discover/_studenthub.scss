@@ -4,40 +4,40 @@
 @use "../../top/status";
 
 // Student hub for one institution
-.pageContainer-36uo3F {
+.pageContainer__1e84a {
     background: $black;
 }
 
-.header-224ffR {
+.header__7b78f {
     @include card.xlarge;
 
-    .headerImage-Xy5R7m {
+    .headerImage__0cf36 {
         @include filter.sepia;
     }
 
-    .defaultColor-1EVLSt {
+    .defaultColor__77578 {
         color: $black;
     }
 
-    .searchBox-3wTyE4 .searchBoxInput-CtJm1J {
+    .searchBox_bf114a .searchBoxInput__2c996 {
         color: $cream;
     }
 }
 
 // Servers
-.cardsContainer-39dCVY {
+.cardsContainer_ba2e82 {
     padding: $size-m 0;
 }
 
-.icon-1zKOXL {
+.icon_c48348 {
     border-radius: $size-max;
 }
 
 // Server
-.card-3N2v9t {
+.card__73022 {
     @include card.large;
 
-    .splash-1Rnkv- {
+    .splash__42283 {
         background: $cream;
     }
 
@@ -45,15 +45,15 @@
         mask: 0;
     }
 
-    .iconMask-24Ybpm {
+    .iconMask_f7f012 {
         background: $black;
         border-radius: $size-max;
     }
 
-    .statusDot-1TkcEv {
+    .statusDot_e2b662 {
         background: $cream;
 
-        &.dotOffline-1qeG3H {
+        &.dotOffline__2ff88 {
             &::before {
                 @include status.dot;
                 margin: 2px;
@@ -63,13 +63,13 @@
 }
 
 // Add server
-.addEntryCard-w9XVzQ img {
+.addEntryCard_d9422a img {
     @include filter.sepia;
 }
 
 // Sidebar
-.sidebar-1tnWFu {
-    .container-1oeRFJ {
+.sidebar_ded4b5 {
+    .container__4f20e {
         border: $size-xs solid $cream;
         border-radius: 0 $size-max $size-max 0;
         border-left: 0;
@@ -82,24 +82,24 @@
             color: $cream;
         }
 
-        &.selected-1-Z6gm {
+        &.selected__9800b {
             background: $cream;
             border-color: $black;
             color: $black;
         }
 
-        .icon-2iCk7Q {
+        .icon_fcc53a {
             color: inherit;
         }
     }
 }
 
 // Search results
-.headerTitleWrapper-1PxZ-Y {
+.headerTitleWrapper_dfc56c {
     align-items: baseline;
 
-    .arrow-f2CzK-,
-    .searchPageTitle-pIeykC strong {
+    .arrow_b1133f,
+    .searchPageTitle_f1f14b strong {
         color: $cream;
     }
 }

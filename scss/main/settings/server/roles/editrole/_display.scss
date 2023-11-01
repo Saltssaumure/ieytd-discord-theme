@@ -2,59 +2,59 @@
 @use "../../../../../top/card";
 
 // Required field indicator
-.required-1eGkuP {
+.required__0baf3 {
     color: $red;
 }
 
 // Colour picker
 // Swatch
-.colorPickerSwatch-RTUGRR {
+.colorPickerSwatch__87597 {
     border-radius: 0;
     margin-right: 0;
     width: 30px;
     height: inherit;
 
     // Large swatch
-    &.default-3ISV7m,
-    &.custom-1Up2lr {
+    &.default__8218c,
+    &.custom__383ac {
         border: $size-xs solid $cream;
         border-radius: $size-m;
     }
 
     // Dropper
-    .colorPickerDropperFg-Lureab,
+    .colorPickerDropperFg__72d34,
     path:only-child {
         fill: $cream;
     }
 
-    &.custom-1Up2lr.noColor-1Oln62 {
+    &.custom__383ac.noColor_bf5131 {
         border-color: $cream;
 
         // Dropper
-        .colorPickerDropperFg-Lureab {
+        .colorPickerDropperFg__72d34 {
             fill: $cream;
         }
     }
 }
 
 // Default role colours
-div:has(> .colorPickerRow-3eeqF3) {
+div:has(> .colorPickerRow__9a83e) {
     border: $size-xs solid $cream;
     border-radius: $size-m;
     margin-top: $size-m;
     overflow: hidden;
 
-    .colorPickerRow-3eeqF3 {
+    .colorPickerRow__9a83e {
         height: 23px;
         margin-top: 0;
     }
 }
 
 // Role custom icon
-.previewContainer-1GxmBJ {
+.previewContainer_c7e80d {
     @include card.large;
 
-    .preview-3SR4Rd {
+    .preview__722b9 {
         color: $cream;
     }
 }

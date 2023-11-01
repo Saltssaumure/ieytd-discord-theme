@@ -6,28 +6,28 @@
 @use "../../top/vars" as *;
 
 // Chat panel
-:is(.chatContent-3KubbW, .chatContent-2O4SXb) {
+.chatContent__5dca8 {
     background: unset;
 
     // Channel info
-    .emptyChannelIcon-1YdEz2 {
+    .emptyChannelIcon__1a1ba {
         display: none;
     }
-    .description-22d6ux {
+    .description__57d03 {
         color: $cream;
     }
 
     // Messages loading
-    .wrapper-3HVHpV {
+    .wrapper_b8c724 {
         background: transparent;
 
         // Fake message block
-        .wrapper-15CKyy {
+        .wrapper__5c5cd {
             background: transparent;
 
-            .avatar-l9Txm5,
-            .attachment-16cAbS,
-            .blob-1uHjdp {
+            .avatar_eb6eba,
+            .attachment__7a2d0,
+            .blob__8d5bd {
                 background: $cream;
             }
         }

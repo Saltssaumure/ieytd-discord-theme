@@ -5,24 +5,24 @@
 // Images, videos, gifs
 
 // Direct uploads
-.mediaAttachmentsContainer-1WGRWy {
+.mediaAttachmentsContainer_edba75 {
     @include card.large;
     width: auto;
 }
 
 // Embedded from link
-.inlineMediaEmbed-1m3ApS {
+.inlineMediaEmbed__4270e {
     @include card.large;
     width: fit-content;
 }
 
 // Inner
-.imageWrapper-oMkQl4 {
+.imageWrapper_fd6587 {
     border-radius: 0;
 }
-.embedImage-2Ynqkh,
-.embedThumbnail-2nTasl,
-.embedVideo-2ixt5A {
+.embedImage_e638a7,
+.embedThumbnail__468e1,
+.embedVideo__0c65b {
     img,
     video {
         border-radius: 0;
@@ -30,15 +30,15 @@
 }
 
 // Gif tag
-.gifTag-1TvtGO {
+.gifTag__9db5a {
     background: svg.$giftag;
 }
-.gifFavoriteButton-3ZomyF {
+.gifFavoriteButton__13dba {
     color: $cream;
 }
 
 // Alt text
-.altText-sAs-Ao {
+.altText__6dd8b {
     background: $red;
     color: $black;
     padding: 0.25rem;
@@ -46,24 +46,24 @@
 }
 
 // Action buttons
-.hoverButtonGroup-2yZIzC {
+.hoverButtonGroup__5b423 {
     border-radius: $size-max;
     background: $cream;
 
-    .removeAttachmentHoverButton-3gHROs:hover,
-    .keyboard-mode .removeAttachmentHoverButton-3gHROs:focus {
+    .removeAttachmentHoverButton__4ddb5:hover,
+    .keyboard-mode .removeAttachmentHoverButton__4ddb5:focus {
         background: $red;
     }
 
-    .hoverButton-36QWJk {
+    .hoverButton__13836 {
         color: $black;
     }
 }
-.hoverButtonGroup-2yZIzC:hover,
-.removeAttachmentButton-1iO1qS:focus-within,
-.removeAttachmentButton-1iO1qS:hover,
-.keyboard-mode .hoverButtonGroup-2yZIzC:focus-within,
-:hover + .hoverButtonGroup-2yZIzC,
-:hover + .removeAttachmentButton-1iO1qS {
+.hoverButtonGroup__5b423:hover,
+.removeAttachmentButton__72505:focus-within,
+.removeAttachmentButton__72505:hover,
+.keyboard-mode .hoverButtonGroup__5b423:focus-within,
+:hover + .hoverButtonGroup__5b423,
+:hover + .removeAttachmentButton__72505 {
     opacity: 0.8;
 }
