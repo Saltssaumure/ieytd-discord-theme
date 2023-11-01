@@ -1,22 +1,22 @@
 @use "../../top/vars" as *;
 
 // Message requests
-#{$root} :is(.content-1jQy2l, .content-18rAwf) {
+#{$root} .content__1a4fe {
     // Title
-    .sectionTitle-3caGtC {
+    .sectionTitle_b0b357 {
         color: $cream;
     }
     background: $black;
 
-    .messageRequestItem-1_NNAR {
+    .messageRequestItem__3b951 {
         border-bottom: 0;
 
-        .username-1dzTzj {
+        .username_a5a631 {
             color: $cream;
             font-family: var(--font-display);
         }
 
-        .timestampWithPreview-2lTGjV {
+        .timestampWithPreview_e9d53a {
             color: $cream !important;
         }
     }

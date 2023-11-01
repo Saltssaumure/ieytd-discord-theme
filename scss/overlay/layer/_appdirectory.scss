@@ -4,105 +4,105 @@
 @use "../../top/tabs";
 
 // App directory
-#{$root} .directoryContainer-z-0pgp {
+#{$root} .directoryContainer_d3edd9 {
     background: $black;
 
     .headerName-2jZqFB {
         align-items: flex-start;
 
-        .logo-ScFp2k {
+        .logo__16127 {
             color: $cream;
             zoom: 1.2;
             margin-top: 2px;
         }
     }
 
-    .rightImage-TOZ-q9 {
+    .rightImage__92c0a {
         @include filter.sepia;
     }
 
-    .categoryList-1yEYdW {
+    .categoryList__201c1 {
         @include tabs.bar;
 
-        .category-2OvQ93 {
+        .category_ba5745 {
             @include tabs.tab;
             border-color: $cream;
         }
     }
 
     // Main app card
-    .card-2xymMp {
+    .card__834d4 {
         @include card.xlarge;
     }
 
     // Carousel nav
-    .themedPagination-3jclKS {
-        .arrow-2PTaaz {
+    .themedPagination_c56fb8 {
+        .arrow_fe649b {
             color: $cream;
         }
-        .dot-1xabNQ {
+        .dot__6356c {
             background: $cream;
         }
     }
 
     // Smaller app cards
-    .anchor-1X4H4q {
+    .anchor_c8ddc0 {
         text-decoration: none;
 
-        .listingDescription-2ljHF9 {
+        .listingDescription_c9bff5 {
             color: $cream !important;
         }
     }
-    .container-2NdZr9 {
+    .container__7b33c {
         @include card.large;
         box-sizing: border-box;
 
-        &.animatesOnHoverContainer-3iNRBI:hover {
+        &.animatesOnHoverContainer__46461:hover {
             &,
-            .image-iQwTLo {
+            .image_b1529d {
                 transform: none;
             }
         }
 
-        .bullet-2ACc_7 {
+        .bullet__2533d {
             display: none;
         }
 
-        .moreGuilds-2H5ieC {
+        .moreGuilds_dc77a5 {
             background: $cream;
             color: $black !important;
         }
     }
 
     // Arrow nav
-    .scrollerButton-25TzVU {
+    .scrollerButton_d87cbc {
         color: $cream;
     }
 
     // New to apps helper
-    .container-SidGiM {
+    .container_dabadb {
         @include card.outer;
 
-        .image-3_WA8x {
+        .image__208c0 {
             @include filter.sepia;
         }
     }
 }
 
-.search-2RHhW6 {
+.search__24107 {
     background: $black !important;
 }
 
-.back-1RLxsC {
+.back_f08183 {
     &,
     &:hover {
-        .backHeader-2Yfz4X,
-        .backIcon-3OYRTx {
+        .backHeader__18afe,
+        .backIcon__7126c {
             color: $cream;
         }
     }
 
-    .backHeader-2Yfz4X {
+    .backHeader__18afe {
         margin-top: -4px;
     }
 }
@@ -110,123 +110,123 @@
 // App details page
 
 // Banner
-.headerBanner-ZCUdfQ {
+.headerBanner__76f87 {
     border-radius: $size-xl $size-xl 0 0;
 }
 
 // App icon
-.headerIcon-4CEo5y {
+.headerIcon__8e637 {
     border-color: $black;
     background: $red;
 }
 
 // Server count
-.headerSidebar-q66Sut {
+.headerSidebar__01bcf {
     border-bottom: 0;
 }
-.defaultIcon-27uYKL,
-.iconInteractive-T4b09S,
-.iconInteractive-T4b09S:hover {
+.defaultIcon__2ad23,
+.iconInteractive_c0d7d4,
+.iconInteractive_c0d7d4:hover {
     color: $cream;
 }
 
 // Categories
-.category-3LanTP {
+.category__60494 {
     @include card.round;
 }
 
 // Overview
-.detailedDescription-no5P98 {
+.detailedDescription_c171ea {
     color: $cream !important;
 
-    &.markdown-19oyJN {
+    &.markdown_e76780 {
         code {
             background: unset;
             font-family: var(--font-code);
         }
 
-        .codeInline-1RFl81 {
+        .codeInline__96ffa {
             color: $cream;
         }
     }
 }
 
-.divider-2-bAb9,
-.separator-3iCpOF {
+.divider_d060f7,
+.separator_bd8f6b {
     background: $cream;
 }
 
-.showMoreButtonIcon-3D4iRn {
+.showMoreButtonIcon__2c0be {
     color: $cream;
 }
 
 // Popular commands
-.list-1bztb- {
+.list_b1e6a9 {
     @include card.large;
 
-    .commandName-SDgdgz {
+    .commandName__72789 {
         background: unset;
         border: 0;
     }
 }
 
 // Privacy
-.list-3ykg7W,
-.intentsContainer-FHJBSg {
+.list_a19d86,
+.intentsContainer__9bd68 {
     @include card.large;
 }
 
 // Support server
-.card-sX105p {
+.card__2ebbc {
     @include card.large;
 }
 
 // Links
-.listIcon-1_fckz,
-.listItem-3C4TCU.linkItem-2RoFnB:hover .listIcon-1_fckz,
-.listItem-3C4TCU.linkItem-2RoFnB:hover .listText-1hmciy {
+.listIcon__4f286,
+.listItem_a630c1.linkItem__5932c:hover .listIcon__4f286,
+.listItem_a630c1.linkItem__5932c:hover .listText_c0ec5b {
     color: $cream;
 }
 
 // Search results page
-.sidebarImage-7xVcCu,
-.image-3tN5t_ {
+.sidebarImage_f2cf5a,
+.image__45397 {
     @include filter.sepia;
 }
 
 // Categories
-.themed-qqoYp3 {
+.themed_b957e8 {
     @include card.round;
 
-    &.selected-1sf9UK {
+    &.selected__5711d {
         background: $cream;
         border-color: $black;
 
         &,
         &:hover {
-            .icon-14PytS {
+            .icon__9090f {
                 color: $black;
             }
         }
-        .defaultColor-1EVLSt,
-        .count-1N-yBv {
+        .defaultColor__77578,
+        .count_cc8bdf {
             color: $black !important;
         }
     }
 
     &,
     &:hover {
-        .icon-14PytS {
+        .icon__9090f {
             color: $cream;
         }
     }
-    .defaultColor-1EVLSt,
-    .count-1N-yBv {
+    .defaultColor__77578,
+    .count_cc8bdf {
         color: $cream !important;
     }
 }
 
 // No results
-.container-1J51uI {
+.container__617c0 {
     background: unset;
 }

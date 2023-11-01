@@ -2,36 +2,36 @@
 @use "../top/pip";
 
 // Server sidebar
-.guilds-2JjMmN {
+.guilds__2b93a {
     background: $cream;
     --status-danger: #{$cream};
 
     // Rounded icons and folders
-    .wrapper-2PSQCG foreignObject {
+    .wrapper__3af0b foreignObject {
         mask: none;
     }
 
-    .wrapper-3kah-n,
-    .folder-241Joy,
-    .circleIconButton-1VxDrg {
+    .wrapper_d281dd,
+    .folder__17546,
+    .circleIconButton_d8df29 {
         border-radius: $size-max;
         overflow: hidden;
     }
 
     // Folders
-    .folder-241Joy,
-    .expandedFolderBackground-1kSAf6,
-    .expandedFolderBackground-1kSAf6.collapsed-uGXEbi,
-    .expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT {
+    .folder__17546,
+    .expandedFolderBackground__1bec6,
+    .expandedFolderBackground__1bec6.collapsed__0a270,
+    .expandedFolderBackground__1bec6.collapsed__0a270.hover__043de {
         background: $red;
     }
 
-    .expandedFolderIconWrapper-3RwQpD path {
+    .expandedFolderIconWrapper__458cf path {
         stroke: $black;
         stroke-width: $size-xs;
     }
 
-    .expandedFolderBackground-1kSAf6 {
+    .expandedFolderBackground__1bec6 {
         border-radius: $size-max;
         border: $size-s solid $black;
         left: 12px - $size-s;
@@ -41,37 +41,37 @@
     }
 
     // Server not in folder
-    .wrapper-2PSQCG:not(.wrapper-38slSD .wrapper-2PSQCG) {
+    .wrapper__3af0b:not(.wrapper_ed1dea .wrapper__3af0b) {
         &,
-        .svg-2ifYOU {
+        .svg_ad7356 {
             width: 48px + 2 * $size-s;
             height: 48px + 2 * $size-s;
         }
     }
 
-    .wrapper-3kah-n:not(.wrapper-38slSD .wrapper-3kah-n) {
+    .wrapper_d281dd:not(.wrapper_ed1dea .wrapper_d281dd) {
         border: $size-s solid $black;
         box-sizing: border-box;
     }
 
     // DM icon
-    :is(.wrapper-3kah-n, .wrapper-3kah-n.selected-1Drb7Z, .wrapper-3kah-n:hover) {
-        .childWrapper-1j_1ub {
+    :is(.wrapper_d281dd, .wrapper_d281dd.selected_f5ec8e, .wrapper_d281dd:hover) {
+        .childWrapper__01b9c {
             background: $red;
             color: $cream;
         }
     }
 
     // Add server and explore buttons
-    .circleIconButton-1VxDrg,
-    .circleIconButton-1VxDrg.selected-2r1Hvo {
+    .circleIconButton_d8df29,
+    .circleIconButton_d8df29.selected__5250e {
         border: $size-s solid $black;
         background: $red;
         color: $cream;
     }
 
     // Unread pip
-    .item-2LIpTv {
+    .item_f9d377 {
         @include pip.pip($COLOR: $black);
         margin-left: 0;
 
@@ -86,24 +86,24 @@
 
     // Reordering servers
     // Background behind dragged icon
-    .placeholderMask-2FHNZU {
+    .placeholderMask__94802 {
         border-radius: $size-max;
 
-        .dragInner-1CUBf_ {
+        .dragInner_a23293 {
             background: $red;
         }
     }
 
     // Dragged icon target
-    .target-1eRTCg.dragOver-1OKbo2::before,
-    .centerTarget-S6BLFQ.dragOver-1OKbo2::before {
+    .target__47b05.dragOver__84b73::before,
+    .centerTarget_dffece.dragOver__84b73::before {
         background: $red;
         box-shadow: none;
     }
 
     // Badge
-    .lowerBadge-3j0ZAg,
-    .upperBadge-1d6YsW {
+    .lowerBadge__669e7,
+    .upperBadge_c7cfb3 {
         & > div {
             border: $size-xs solid $black;
             height: 20px;
@@ -113,14 +113,14 @@
         }
 
         // Mention
-        .base-3IDx3L {
+        .base__92a12 {
             background: $cream;
             color: $black;
             padding: 0 0 4px 2px;
             font-size: 16px;
 
             // Live/event indicator
-            .icon-2Ug6UV {
+            .icon__92653 {
                 padding: 3px 2px 0 0;
             }
 
@@ -131,25 +131,25 @@
         }
 
         // Paused invites
-        .pauseBackground-1zgiN0 {
+        .pauseBackground__213bd {
             border: $size-xs solid $black;
             background: $cream;
 
-            .pause-117Y0s path {
+            .pause_ec5e63 path {
                 fill: $black;
             }
         }
     }
 
     // New unreads bubble
-    :is(.unreadMentionsIndicatorBottom-3RJMnQ, .unreadMentionsIndicatorTop-2bTgUU) {
+    :is(.unreadMentionsIndicatorBottom_fdb943, .unreadMentionsIndicatorTop_ada847) {
         padding: 2px;
 
-        .unreadMentionsBar-ZXXoOH {
+        .unreadMentionsBar__0d02a {
             border: $size-s solid $black;
             box-sizing: border-box;
 
-            .text-2GsXbW {
+            .text__467e0 {
                 color: $black;
                 font-size: 16px;
                 margin: 0 0 6px 2px;

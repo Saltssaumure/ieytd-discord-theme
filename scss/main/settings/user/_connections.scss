@@ -1,22 +1,22 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
 
-.connectContainer-1hylYM,
-.connection-YOVI9j {
+.connectContainer__8050b,
+.connection_fff5f6 {
     @include card.large;
 }
 
 // Add accounts to your profile
-.connectContainer-1hylYM {
+.connectContainer__8050b {
     // Text
-    .connectHeader-2VkFiv,
-    .text-xs-normal-3O7EaX {
+    .connectHeader__04762,
+    .text-xs-normal_ccc5fb {
         color: $cream !important;
     }
 
     // Platform
-    .inner-1lPVFp,
-    .accountAddInner-2y9WLL {
+    .inner__51a43,
+    .accountAddInner_d34c25 {
         border-radius: $size-m;
         background-color: $red;
         color: $cream;
@@ -24,30 +24,30 @@
 }
 
 // List of existing connections
-.connectionList-11Q_X- {
+.connectionList__7b310 {
     grid-gap: 8px;
 
     // Header
-    .connectionHeader-Ixbb1s {
+    .connectionHeader__3c82d {
         background: $red;
 
-        .connectionAccountValue-YkFI6F,
-        .connectionAccountLabel-28GEPk {
+        .connectionAccountValue__2ab34,
+        .connectionAccountLabel_a71192 {
             color: $black !important;
         }
 
-        .connectionDelete-3YgMVq {
+        .connectionDelete__988b5 {
             color: $cream;
         }
     }
 
     // Further info
-    .container-2ATx61 {
+    .container__17965 {
         @include card.large;
     }
 
     // Metadata
-    .metadataContainer-35U-On {
+    .metadataContainer__7b316 {
         @include card.large;
 
         // Text
@@ -55,7 +55,7 @@
             color: $cream !important;
         }
 
-        .connectedAccountVanityMetadataTag-19Al5z {
+        .connectedAccountVanityMetadataTag_f95c7c {
             color: $black !important;
             background: $cream;
         }

@@ -6,32 +6,32 @@
 // Featured servers
 #{$root} {
     // Main panel
-    .pageWrapper-2PwDoS {
+    .pageWrapper_fef757 {
         background: $black;
         color: $cream;
         border-left: $size-m solid $cream;
     }
 
     // Splash and search
-    .searchHeader-3ZIh2x {
+    .searchHeader_d4db5a {
         @include card.xlarge;
 
-        .headerImage-2D5D-v {
+        .headerImage__0db01 {
             @include filter.sepia;
         }
 
-        .searchBoxInputWrapper-3XLwVB {
+        .searchBoxInputWrapper__2a2f1 {
             padding-left: $size-m;
         }
 
-        .searchSubtitle-C5P4gh,
-        .searchTitle-1qceKb {
+        .searchSubtitle__1f7eb,
+        .searchTitle__66210 {
             color: $black;
         }
     }
 
     // Server
-    .card-2TuZPZ {
+    .card__86773 {
         @include card.large;
 
         &,
@@ -40,17 +40,17 @@
             background: $black;
             transform: none;
 
-            .iconMask-2fMR98 {
+            .iconMask__1aff7 {
                 background: $black;
             }
 
-            .splash-1VADA3 {
+            .splash_c32fae {
                 transform: none;
             }
         }
 
         // Icon
-        .guildIcon-1nnIAv {
+        .guildIcon__597aa {
             border-radius: $size-max;
             overflow: hidden;
 
@@ -58,32 +58,32 @@
                 mask: none;
             }
 
-            .svg-lIB-lq {
+            .svg__7900e {
                 border-radius: $size-max;
             }
         }
 
         // More actions
-        .actionButtons-3ILsbw {
+        .actionButtons__481c3 {
             top: 145px;
             right: $size-s;
         }
 
         // Name
-        .title-2vVOzt {
+        .title__17a17 {
             align-items: baseline;
             overflow: visible;
 
-            .guildName-1sOa9v {
+            .guildName__802c6 {
                 overflow: visible;
             }
         }
 
         // Dot
-        .dotOnline-j08lOY {
+        .dotOnline__72689 {
             background: $cream;
         }
-        .dotOffline-38lJFn {
+        .dotOffline_a11803 {
             &::before {
                 @include status.dot;
                 margin: 2px;
@@ -92,7 +92,7 @@
     }
 
     // Footer
-    .footerImage-3DpC_8 {
+    .footerImage_b0b86b {
         @include filter.sepia;
     }
 }

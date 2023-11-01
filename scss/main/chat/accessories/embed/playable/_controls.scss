@@ -3,14 +3,14 @@
 @use "../../../../../top/grabber";
 
 // Audio/video controls
-:is(.audioControls-3fmemK, .videoControls-2NzHnF) {
+:is(.audioControls__9fbe9, .videoControls__96149) {
     border-radius: 0 0 ($size-l - $size-s) ($size-l - $size-s);
     margin-top: 0;
     background: $red;
 
-    .controlIcon-1grhw_,
-    .controlIcon-10O-4h,
-    .durationTimeWrapper-LdSEv8 {
+    .controlIcon__11f8e,
+    .controlIcon__25700,
+    .durationTimeWrapper_d1de6b {
         opacity: 1;
         color: $cream;
     }

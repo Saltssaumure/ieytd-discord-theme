@@ -1,33 +1,33 @@
 @use "../../../top/vars" as *;
 
 // My account
-.accountProfileCard-lbN7n- {
+.accountProfileCard__22589 {
     border: $size-s solid $cream;
     border-radius: $size-xl;
     background: $black;
 
-    .background-3d_SjE,
-    .fieldList-in8WkP {
+    .background_b61fcc,
+    .fieldList_aab0de {
         background: $black;
     }
 
-    .text-md-normal-2rFCH3 {
+    .text-md-normal__6a4eb {
         color: $cream !important;
     }
 
-    .profileCardUsernameRow-1bb6fi {
+    .profileCardUsernameRow__4cbd8 {
         align-items: baseline;
 
-        .overflowMenuIcon-2Bjb5_ {
+        .overflowMenuIcon__91663 {
             color: $cream;
         }
     }
 }
 
 // Password and authentication
-.userSettingsSecurity-2kODPN .isEnabled-20V6lG {
+.userSettingsSecurity__03e70 .isEnabled__08bc1 {
     color: $cream;
-    .lockIcon-3t6Ow0 {
+    .lockIcon_cf3a4d {
         display: none;
     }
 }

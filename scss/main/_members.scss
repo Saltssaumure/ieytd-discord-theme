@@ -1,23 +1,23 @@
 @use "../top/vars" as *;
 
 // Member sidebar
-:is(.container-2o3qEW, .container-2vWgD2) {
+.container_b2ce9c {
     background: $red;
     border-left: $size-m solid $cream;
 }
 
-:is(.membersWrap-3NUR2t, .membersWrap-3GwLFp) {
+.membersWrap__90226 {
     --interactive-hover: $cream;
     --interactive-active: $cream;
 
-    :is(.members-3WRCEx, .members-2y1nVj) {
+    .members__9f47b {
         background: $red;
     }
 
     // Member list
-    :is(.members-3WRCEx, .members-2y1nVj) {
+    .members__9f47b {
         // Member group
-        :is(.membersGroup-2eiWxl, .membersGroup-2YoqY-) {
+        .membersGroup__85843 {
             text-align: center;
             text-transform: none;
             height: auto;
@@ -25,54 +25,54 @@
         }
 
         // Member
-        .container-1oeRFJ {
+        .container__4f20e {
             background: $black;
             border: $size-xs solid $cream;
             border-radius: $size-max;
 
-            &.clickable-28SzVr:hover {
+            &.clickable__17ccb:hover {
                 color: $cream;
             }
 
             // Shifting contents around
-            &:not(:is(.membersGroup-2eiWxl, .membersGroup-2YoqY-) + :is(.member-48YF_l, .member-2iQhp7)) {
+            &:not(.membersGroup__85843 + .member_b44d5d) {
                 margin-top: 4px;
             }
 
-            .layout-1qmrhw {
+            .layout_bb8e67 {
                 height: 42px - 8px;
                 padding-left: 3px;
             }
 
             // Username
-            .name-3Vmqxm {
+            .name__16feb {
                 font-family: var(--font-display);
                 margin: -3px 0 2px 0;
             }
 
             // Bot tag
-            .botTag-7aX5WZ {
+            .botTag__4211a {
                 border-radius: 8px;
                 background: $red;
                 color: $black;
 
-                .botText-1fD6Qk {
+                .botText__19848 {
                     display: inline-block;
                     padding-top: 2px;
                 }
             }
 
             // Member with profile open
-            &.selected-1-Z6gm {
+            &.selected__9800b {
                 background: $cream;
                 border-color: $black;
 
-                .name-3Vmqxm,
-                .activity-2EQDZv {
+                .name__16feb,
+                .activity__3cbac {
                     color: $black;
                 }
 
-                .botTag-7aX5WZ {
+                .botTag__4211a {
                     color: $cream;
                 }
             }

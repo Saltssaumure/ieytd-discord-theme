@@ -2,13 +2,13 @@
 @use "../../top/channel";
 
 // Overall background
-.privateChannels-oVe7HL,
-#{$root} .scroller-WSmht3 {
+.privateChannels__93473,
+#{$root} .scroller__4b984 {
     background: $red;
 }
 
 // Find or start a conversation
-.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+.searchBar_e4ea2a .searchBarComponent__22760 {
     border-radius: $size-max;
     border: $size-xs solid $cream;
     background: $black;
@@ -17,18 +17,18 @@
 }
 
 // Direct messages header
-.container-q97qHp.privateChannelsHeaderContainer-1UWASm {
+.container_de798d.privateChannelsHeaderContainer_ddcec6 {
     padding: 0;
     align-items: flex-end;
 
     &:hover,
-    .privateChannelRecipientsInviteButtonIcon-1ObKXK {
+    .privateChannelRecipientsInviteButtonIcon__1e8fc {
         color: $black;
     }
 }
 
 // DM
-.channel-1Shao0 {
+.channel_c21703 {
     background: $black;
     height: channel.height(44px);
     box-sizing: border-box;
@@ -38,19 +38,19 @@
     margin: $channel-spacing 0 0;
     max-width: unset;
 
-    .layout-1LjVue {
+    .layout__59abc {
         height: 36px;
     }
 
     // Text
-    .interactive-26HRN_:focus-within,
-    .interactive-26HRN_:hover,
-    .highlighted-Q8Nll- {
+    .interactive__776ee:focus-within,
+    .interactive__776ee:hover,
+    .highlighted__7bba7 {
         color: $cream;
     }
 
     // Mentions
-    .base-3IDx3L {
+    .base__92a12 {
         border: $size-xs solid $cream;
         color: $black;
         padding: 0 0 4px 2px;
@@ -59,18 +59,18 @@
 }
 
 // Inverted when connected or selected
-.channel-1Shao0:has(.interactiveSelected-29CP8y, .selected-26oxtA) {
+.channel_c21703:has(.interactiveSelected_ec846b, .selected_d94cf9) {
     background: $cream;
     border-color: $black !important;
 
-    .interactiveSelected-29CP8y,
-    .overflow-1wOqNV,
-    .highlighted-Q8Nll- {
+    .interactiveSelected_ec846b,
+    .overflow__87fe8,
+    .highlighted__7bba7 {
         color: $black;
     }
 
     // Mentions
-    .base-3IDx3L {
+    .base__92a12 {
         border-color: $black;
         color: $cream;
         background: $black !important;

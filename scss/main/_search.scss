@@ -1,38 +1,38 @@
 @use "../top/vars" as *;
 @use "../top/tabs";
 
-.searchResultsWrap-5RVOkx {
+.searchResultsWrap__9f374 {
     border-left: $size-m solid $cream;
     background: $black;
 
-    .scroller-3iiyhZ {
+    .scroller_c8d5ad {
         overflow: hidden scroll !important;
     }
 }
 
 // Results header
-.searchHeader-1r_ZSh {
+.searchHeader__19d87 {
     background: $red;
     padding: 0 $size-l;
     height: auto;
 
-    .totalResults-2On644 div {
+    .totalResults__695d3 div {
         color: $black !important;
     }
 
-    .searchHeaderTabList-3CZMQB {
+    .searchHeaderTabList__78b98 {
         padding-top: $size-m;
     }
 
-    .item-2GWPIy.themed-qqoYp3 {
+    .item__48dda.themed_b957e8 {
         &,
-        &:hover:not(.disabled-2G98Nl) {
+        &:hover:not(.disabled__85bca) {
             @include tabs.tab($ISINVERT: true);
         }
 
-        &.selected-1sf9UK {
+        &.selected__5711d {
             &,
-            &:hover:not(.disabled-2G98Nl) {
+            &:hover:not(.disabled__85bca) {
                 @include tabs.tab;
             }
         }
@@ -40,13 +40,13 @@
 }
 
 // Channel name
-.channelNameContainer-4pFmC- {
+.channelNameContainer_e0c26c {
     position: sticky;
     top: $size-xxs;
 
-    .channelNameIcon-2d0YcP,
-    .channelNameText-2q3Lge,
-    .parentChannelNameIcon-3ziOpg {
+    .channelNameIcon_dbb458,
+    .channelNameText_ae1c38,
+    .parentChannelNameIcon_f2b243 {
         color: $cream;
     }
 
@@ -56,11 +56,11 @@
 }
 
 // Message
-.searchResult-O9NDji {
+.searchResult_dcd237 {
     background: unset;
 }
 
 // Jump
-.button-cfOvv- {
+.button_f8244b {
     display: none;
 }

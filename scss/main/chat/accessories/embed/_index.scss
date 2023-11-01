@@ -13,26 +13,26 @@
 @use "../../../../top/card";
 
 // Game invite
-#{$root} .invite-3uuHYQ,
+#{$root} .invite__2a93b,
 // Audio
-#{$root} .wrapperAudio-1Bzv_Z,
+#{$root} .wrapperAudio__555ce,
 // Generic file
-.attachment-1PZZB2.newMosaicStyle-35X6XO,
-.container-rr3Ruk,
+.attachment_f3cf2c.newMosaicStyle__235c9,
+.container__8cab3,
 // Gift
-.giftCodeContainer-3ObH0O .tile-2mmK5T,
-// .hidden-3B-Rum,
+.giftCodeContainer__7fa01 .tile_ebc93b,
+// .hidden_f44e41,
 // Server invite
-.wrapper-1HIH0j {
+.wrapper_efe67f {
     @include card.large;
 }
 
-.messageAttachment-CZp8Iv {
+.messageAttachment_b97504 {
     overflow: visible;
 }
 
 // Remove embed
-.embedSuppressButton-1rZHq6 {
+.embedSuppressButton_df9a75 {
     right: 4px;
     top: 4px;
     background: $cream;

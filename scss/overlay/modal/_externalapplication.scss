@@ -2,44 +2,44 @@
 @use "../../top/card";
 
 // Grant external application permission
-.authorize-2xTTr- {
+.authorize__4ddfc {
     background: unset;
 
-    .header-3cN3a_,
-    .scopes-uCLYQv {
+    .header_d9f9a8,
+    .scopes__1f403 {
         border-bottom: 0;
     }
 
     // Connection
-    .ellipse-3ghlOA {
+    .ellipse__63620 {
         background: $cream;
         opacity: 0.7;
     }
 
     // Permissions granted
-    .scopes-uCLYQv {
+    .scopes__1f403 {
         padding: 0;
 
         // Checkmark
-        .scopeCheck-3trytX {
+        .scopeCheck_c4c2dd {
             background: $cream;
         }
-        .icon-hDztL8 {
+        .icon__33514 {
             color: $black;
         }
 
         // Joke permission
-        .scope-J9cQRk:has(.scopeTimes-KsAOBb) {
+        .scope__51160:has(.scopeTimes__83c10) {
             display: none;
         }
     }
 
     // Details icon
-    .entryIcon-2bcrKV {
+    .entryIcon_f234ab {
         color: $cream;
     }
 
-    .footer-3Gu_Tl {
+    .footer__04ee2 {
         background: $red;
     }
 }

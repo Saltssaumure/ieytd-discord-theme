@@ -3,19 +3,19 @@
 @use "../../../../top/filter";
 
 // Gift embed
-.giftCodeContainer-3ObH0O {
+.giftCodeContainer__7fa01 {
     // Text
-    .description-X8_53U,
-    .tagline-3DhQWg {
+    .description__883d4,
+    .tagline__3427c {
         color: $cream;
     }
 
     // Gift image
-    .media-1cVFCz {
+    .media__434e3 {
         background-color: $red;
 
         // Expired gift
-        .invalidPoop--w1123 {
+        .invalidPoop__03aa3 {
             @include filter.sepia;
         }
     }

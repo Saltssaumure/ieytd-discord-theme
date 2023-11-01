@@ -4,22 +4,22 @@
 // Channel in split / floating view
 
 // Split bar
-:is(.resizeHandle-PBRzPC, .resizeHandle-2F4Beb) {
+.resizeHandle_f1a098 {
     background: $cream;
     width: $size-m;
 }
 
 // Split view
-:is(.container-3XgAHv, .container-3s2w-i) {
+.container_def45c {
     background: $black;
 
-    .iconWrapper-3plkqh {
+    .iconWrapper__85630 {
         display: none;
     }
 }
 
 // Floating view
-:is(.floating-3M3WeH, .floating-1T0kDs) {
+.floating_f021e2 {
     @include card.outer;
     inset: $size-l 0 $size-l auto;
     filter: none;

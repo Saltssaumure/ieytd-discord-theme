@@ -12,7 +12,7 @@
 @mixin link($COLOR) {
     color: $COLOR;
 
-    :is(&:hover, &:active) .contents-3NembX {
+    :is(&:hover, &:active) .contents_fb6220 {
         --button--underline-color: #{$COLOR};
     }
 }
@@ -22,7 +22,7 @@
     background: $BACKGROUND;
 
     &,
-    .centerIcon-JYpTUi {
+    .centerIcon__6075a {
         color: $COLOR;
     }
 }

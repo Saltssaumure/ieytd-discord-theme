@@ -1,11 +1,11 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
 
-.descriptionWrapper-eOmU90 {
+.descriptionWrapper__0d577 {
     color: $cream;
 }
 
-#{$root} .defaultIndicator-2ndWks {
+#{$root} .defaultIndicator__855a2 {
     border-radius: $size-max;
     background: $cream;
     color: $black;
@@ -13,29 +13,29 @@
 
 #billing-tab {
     // Editing card info
-    .card-2aHs8C {
+    .card__9c85a {
         background: unset;
         border-color: $cream;
 
-        .subText-3FNUOd,
-        .sectionHeader-1tIM9Z {
+        .subText_a66a1e,
+        .sectionHeader_a9d2bb {
             color: $cream;
         }
     }
 }
 
 // Transaction history
-.paymentPane-ut5qKZ {
+.paymentPane__9cf01 {
     #{$root} & {
         @include card.large;
         color: $cream;
     }
 
     // Header
-    .bottomDivider-ZmTm-j {
+    .bottomDivider_a59d97 {
         border-bottom: 0;
     }
-    .paymentRowHeader-3WJnOv {
+    .paymentRowHeader__930f3 {
         div {
             color: $cream;
             font-size: 16px;
@@ -43,12 +43,12 @@
     }
 
     // Content
-    .paginator-1eqD2g {
+    .paginator_e620d3 {
         background: unset;
     }
 
     // Payment row
-    .payment-2bOh4k {
+    .payment__7d702 {
         background: unset;
 
         &:hover {
@@ -56,10 +56,10 @@
         }
 
         // Summary
-        .summaryInfo-3hcuop {
+        .summaryInfo_b57acb {
             color: $cream;
 
-            .statusTagRed-1uG_z8 {
+            .statusTagRed__8022a {
                 background: $red;
                 color: $cream;
                 border-radius: $size-max;
@@ -67,26 +67,26 @@
         }
 
         // Details
-        .expandedInfo-1W31i3 {
+        .expandedInfo__47bad {
             @include card.large;
 
-            .paymentHeader-2o7Phd,
-            .paymentText-BPrx01 {
+            .paymentHeader__50c05,
+            .paymentText_deeaf4 {
                 color: $cream;
             }
         }
     }
 
     // Nav buttons
-    .pageActions-1crTQL {
+    .pageActions__11ae3 {
         justify-content: space-between;
         padding: $size-m;
 
-        :is(.pageButtonNext-2_bbdk, .pageButtonPrev-3q9rh8, .pageIndicator-cOEPV8) {
+        :is(.pageButtonNext_b6c1ca, .pageButtonPrev__9ee28, .pageIndicator__973ca) {
             color: $cream;
             border: 0;
 
-            &.disabled-29cfPA {
+            &.disabled__238bc {
                 color: $cream;
                 opacity: 0.7;
             }

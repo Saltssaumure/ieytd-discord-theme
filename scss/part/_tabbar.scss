@@ -2,31 +2,31 @@
 @use "../top/tabs";
 
 // Tabs
-.top-Ktfr_T {
+.top__592a7 {
     @include tabs.bar;
 
-    .item-2GWPIy,
-    .item-2GWPIy.selected-1sf9UK,
-    .item-2GWPIy:hover {
+    .item__48dda,
+    .item__48dda.selected__5711d,
+    .item__48dda:hover {
         @include tabs.tab;
     }
 
-    .item-2GWPIy.selected-1sf9UK {
+    .item__48dda.selected__5711d {
         @include tabs.tab($ISINVERT: true);
     }
 }
 
-.topPill-2vcLsa {
+.topPill__0cdf1 {
     @include tabs.bar($ISBORDER: false);
 
-    .item-2GWPIy.themed-qqoYp3 {
+    .item__48dda.themed_b957e8 {
         &,
-        &:hover:not(.disabled-2G98Nl) {
+        &:hover:not(.disabled__85bca) {
             @include tabs.tab($ISINVERT: true);
         }
 
-        &.selected-1sf9UK,
-        &.selected-1sf9UK:hover:not(.disabled-2G98Nl) {
+        &.selected__5711d,
+        &.selected__5711d:hover:not(.disabled__85bca) {
             @include tabs.tab;
         }
     }

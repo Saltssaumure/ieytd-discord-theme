@@ -2,38 +2,38 @@
 @use "../../top/card";
 
 // Current happenings in voice channel
-.container-8Futzw {
+.container__56cd1 {
     @include card.outer;
 
-    .container-3MQTjc {
+    .container__60a4a {
         background: $cream;
         color: $black;
     }
 
-    .headerDivider-N-jIGV {
+    .headerDivider_ec8d1f {
         display: none;
     }
 
-    .activity-1DK9Xa + .activity-1DK9Xa {
+    .activity_b1eb7a + .activity_b1eb7a {
         border-top: 0;
     }
 
-    .channelIcon-3Oew8h,
-    .headerLink-1hmZgL,
-    .colorHeaderSecondary-2MsPDJ {
+    .channelIcon__45e38,
+    .headerLink__285a3,
+    .colorHeaderSecondary_dc8da1 {
         color: $cream;
     }
 
-    .activityVoiceChannel-2vojOH {
-        .activityName-3YXl6e,
-        .name-1-Q7l2,
-        .nameNormal-2fPMD2,
-        .nameWrap-3TyM52,
-        .content-tXPNDw,
-        .details-2-ciHo,
-        .playTime-3fSgOm,
-        .state-2NT76I,
-        .timestamp-2f1NmH {
+    .activityVoiceChannel_e4ac9b {
+        .activityName__47e51,
+        .name_b6124d,
+        .nameNormal__1d540,
+        .nameWrap__7263f,
+        .content_d7cb7f,
+        .details__445eb,
+        .playTime__2df8e,
+        .state_a85ac0,
+        .timestamp__1ce6c {
             color: $cream;
         }
     }

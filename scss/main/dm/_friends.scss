@@ -6,14 +6,14 @@
 // Friends panel
 
 // Header
-.container-ZMc96U {
-    .topPill-2vcLsa {
+.container__11d72 {
+    .topPill__0cdf1 {
         padding-top: 0;
         position: relative;
         margin-bottom: -9px;
     }
 
-    .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1 {
+    .addFriend__80542.addFriend__80542.addFriend__80542 {
         @include tabs.tab($ISINVERT: true);
 
         &[aria-selected="true"] {
@@ -23,35 +23,35 @@
 }
 
 // Main panel
-.peopleColumn-1wMU14 {
+.peopleColumn__51df3 {
     background: $black;
 
     // Search bar
-    .searchBar-2aylmZ {
+    .searchBar_ff8800 {
         background: $red;
         margin: 0;
         border-radius: 0;
 
-        .inner-2pOSmK {
+        .inner__999f6 {
             @include card.round;
             margin: $size-m;
         }
     }
 
     // Title
-    .sectionTitle-36PWt2 {
+    .sectionTitle__69d2d {
         background: $red;
         border-bottom: $size-s solid $cream;
-        .title-x4dI75 {
+        .title_dc625c {
             color: $black;
             margin: 0 0 $size-m;
         }
     }
 
     // Users
-    .peopleList-2VBrVI {
+    .peopleList__2379e {
         margin-top: 0;
-        .content-yjf30S {
+        .content__23cab {
             display: flex;
             flex-direction: column;
             gap: $size-m;
@@ -60,32 +60,32 @@
 
     // User
     :is(
-            .peopleListItem-u6dGxF,
-            .peopleListItem-u6dGxF.active-2UF8Zh + .peopleListItem-u6dGxF,
-            .peopleListItem-u6dGxF:hover + .peopleListItem-u6dGxF
+            .peopleListItem_d14722,
+            .peopleListItem_d14722.active__6b8ff + .peopleListItem_d14722,
+            .peopleListItem_d14722:hover + .peopleListItem_d14722
         ) {
         @include card.large;
         margin: 0 $size-m;
         padding: 16px $size-m;
 
         // Text
-        :is(.username-Qpc78p, .discriminator-WV5K5s, .text-MPIeXO, .icon-Lupfh-, .icon-1WVg4I, .subtext-xfubwR) {
+        :is(.username__81ee6, .discriminator_aef524, .text__1dddb, .icon_d942d4, .icon__7215c, .subtext__1a662) {
             color: $cream;
         }
 
         // Name
-        .username-Qpc78p {
+        .username__81ee6 {
             font-family: var(--font-display);
             margin-top: -0.2rem;
         }
 
         // Discrim
-        .discriminator-WV5K5s {
+        .discriminator_aef524 {
             visibility: visible;
         }
 
         // Message button
-        .actionButton-3-B2x- {
+        .actionButton__23182 {
             background: unset;
 
             &:first-child {
@@ -94,32 +94,32 @@
         }
     }
 
-    .header-30YxSJ {
+    .header__6113c {
         border-bottom: 0;
 
         // Add friend search
-        .addFriendInputWrapper-kkoSV9 {
+        .addFriendInputWrapper__4bf8e {
             padding: 0;
             background: unset;
             border: 0;
         }
 
-        .input-1bmui3 {
+        .input_d5574d {
             padding-left: $size-m;
         }
     }
 
     // Explore discoverable
-    .container-3tKtM_ {
+    .container_a308ae {
         @include card.round;
         padding: 0;
 
-        .icon-2O29O0 {
+        .icon__28d6c {
             border-radius: $size-max;
             @include filter.sepia;
         }
 
-        .arrow-3Bdb2W {
+        .arrow_e1c67a {
             &,
             &:hover {
                 color: $cream;
@@ -129,22 +129,22 @@
 }
 
 // No friends
-.image-20MDYu {
+.image__98a59 {
     @include filter.sepia;
 }
 
 // Active now sidebar
-.container-1oAagU {
+.container__0a6a9 {
     background: $red;
     border-left: $size-m solid $cream;
 
-    .scroller-hE2gWq {
+    .scroller__00e7e {
         border-left: 0;
         padding-top: 0;
     }
 
     // Header
-    .header-Imy05m {
+    .header__123bf {
         text-transform: uppercase;
         font-style: oblique;
         color: $black;
@@ -153,41 +153,41 @@
     }
 
     // User card
-    .itemCard-3Etziu {
+    .itemCard__1f162 {
         @include card.xlarge;
 
         &,
-        &.outer-2JOHae:hover {
+        &.outer_a41cf3:hover {
             background: $black;
         }
 
         // Game
-        .inset-SbsSFp {
+        .inset__0bfb3 {
             background: unset;
             border: $size-xs solid $cream;
             border-radius: $size-l $size-l 0 0;
             border-bottom: 0;
             margin-bottom: -16px;
 
-            .section-3G9aLW {
+            .section_efc22d {
                 background: unset;
                 border-radius: 0;
             }
         }
 
         // Text
-        .defaultColor-1EVLSt,
-        .textContent-TsKzji {
+        .defaultColor__77578,
+        .textContent__45dd0 {
             color: $cream !important;
         }
     }
 
     // No activity
-    .emptyCard-KDifrB {
+    .emptyCard_f82dde {
         @include card.xlarge;
         background: $black;
 
-        .emptyText-29ycwI {
+        .emptyText_dd45f0 {
             color: $cream;
         }
     }

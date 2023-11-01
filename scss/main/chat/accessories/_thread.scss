@@ -3,27 +3,27 @@
 @use "../../../top/filter";
 
 // Thread preview
-.container-3i3IzO {
+.container__767d1 {
     @include card.large;
     background: $black;
     padding: 0;
 
-    .topLine-3rZgHE,
-    .bottomLine-2RVwOq {
+    .topLine_a91dc7,
+    .bottomLine_a74432 {
         padding: $size-s $size-m;
     }
 
-    .topLine-3rZgHE {
+    .topLine_a91dc7 {
         background: $red;
         align-items: baseline;
 
-        .name-13vPlv,
-        .cta-1XhfrG {
+        .name__35e6f,
+        .cta__52756 {
             color: $black;
         }
 
         // Thread title
-        .name-13vPlv {
+        .name__35e6f {
             font-family: var(--font-display);
             font-style: oblique;
             font-size: 1rem;
@@ -32,25 +32,25 @@
         }
 
         // Message count
-        .cta-1XhfrG {
+        .cta__52756 {
             font-size: 0.8rem;
         }
     }
 
-    .bottomLine-2RVwOq {
+    .bottomLine_a74432 {
         color: $cream;
         align-items: baseline;
 
-        .threadMessageAccessory-2W9mjC {
+        .threadMessageAccessory__33bc1 {
             align-items: baseline;
         }
 
-        .username-h_Y3Us {
+        .username_d30d99 {
             font-size: 0.875rem;
             margin-top: -4px;
         }
 
-        .timestamp-1VMnSc {
+        .timestamp__13a30 {
             color: $cream;
             opacity: 0.7;
         }
@@ -58,7 +58,7 @@
 }
 
 // Thread line
-.cozy-VmLDNB.hasThread-3h-KJV::after {
+.cozy_f5c119.hasThread__58ee2::after {
     border-color: $cream;
     bottom: 29px + ($size-s * 2);
 

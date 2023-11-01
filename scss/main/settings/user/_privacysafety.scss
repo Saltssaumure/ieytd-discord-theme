@@ -4,32 +4,32 @@
 div[role="radiogroup"] {
     @include card.large;
 
-    .item-1TA5qI {
+    .item_b7fb7e {
         border-radius: 0;
         margin-bottom: 0;
         color: $cream;
 
-        &:hover:not([aria-checked="true"]):not(.disabled-WBmOu_) {
+        &:hover:not([aria-checked="true"]):not(.disabled_af801d) {
             color: $cream;
         }
     }
 
-    .itemFilled-2Fo7lr {
+    .itemFilled__373d7 {
         background: unset;
     }
 
-    .radioBar-1XgZqD {
+    .radioBar__40e1b {
         border-radius: 0;
         border-left-width: $size-m;
 
-        .radioIconForeground-3wH3aU {
+        .radioIconForeground__99b9b {
             color: var(--radio-bar-accent-color);
         }
     }
 }
 
 // Feedback survey box
-.feedback-2YPzZb {
+.feedback__2b8a9 {
     background: unset;
     padding: 8px 0;
     color: $cream;

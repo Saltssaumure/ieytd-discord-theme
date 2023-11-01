@@ -1,21 +1,21 @@
 @use "../../../../top/vars" as *;
 
 // Text area
-.textContainer-36wgKK,
+.textContainer__709ff,
 .hljs {
     background: $black;
 }
 
 // Footer
-.footer-GXWBBp {
+.footer__06f4b {
     background: $red;
 
-    .footerGap-1kdFHQ {
+    .footerGap__9a0ad {
         display: none;
     }
 
-    .downloadSection-20OayS,
-    .codeIcon-Ni8XUA:hover {
+    .downloadSection_a31362,
+    .codeIcon__14a76:hover {
         color: $cream;
     }
 }

@@ -2,20 +2,20 @@
 @use "../../../top/card";
 
 // Spoiler
-.spoilerContent-32CqO- {
+.spoilerContent__37bfa {
     background: unset;
 
     // Text specific
-    .markup-eYLPri & {
+    .markup_a7e664 & {
         @include card.round;
         box-decoration-break: slice;
         border-color: $red;
     }
 
     // Embed specific
-    .container-2sjPya & {
+    .container_dbadf5 & {
         // Hidden spoiler
-        &.hidden-2lQZ5q {
+        &.hidden_f44e41 {
             &,
             &:not(:focus) {
                 box-shadow: 0 0 0 $size-xs $red inset;
@@ -23,20 +23,20 @@
         }
 
         // Spoiler icon
-        .spoilerWarning-1JN1Ot {
+        .spoilerWarning_d02e2d {
             background: $black;
             color: $red;
         }
 
         // Immediate wrapper around content
-        .hiddenAttachment-1ujFOi.obscured-20kiwN {
+        .hiddenAttachment_dfecc7.obscured_dd8869 {
             filter: none;
             visibility: hidden;
         }
     }
 
     // Hidden spoiler
-    &.hidden-2lQZ5q {
+    &.hidden_f44e41 {
         background: repeating-linear-gradient(-45deg, $red, $red $size-xs, $black $size-xs, $black $size-m);
     }
 }

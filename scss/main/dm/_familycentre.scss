@@ -1,45 +1,45 @@
 @use "../../top/vars" as *;
 @use "../../top/filter";
 
-.container-TT--xs .contentPanel-2uDEUG {
+.container_a87c5e .contentPanel__2fdef {
     background: $black;
     align-items: center;
 
     // Boxes
-    .container-2WMFjc,
-    .container-jV-A82,
-    .container-1iKw09,
-    .box-3QCU9H {
+    .container__6968f,
+    .container__9c82e,
+    .container__9f90c,
+    .box__6431e {
         background: $black;
         border: $size-xs solid $red;
     }
 
     // Inner box
-    .row-XYkFDK {
+    .row_c1b980 {
         background: $black;
         border: $size-xs solid $cream;
     }
 
     // Text
-    .text-sm-medium-2-Xzsi,
-    .groupHeader-1D298y,
-    .anchor-1X4H4q,
-    .header-2ztBq9,
-    .text-xs-medium-311pdh,
-    .eyebrow-1Shfyi {
+    .text-sm-medium_bc6ffc,
+    .groupHeader__076cf,
+    .anchor_c8ddc0,
+    .header__74e4a,
+    .text-xs-medium__220aa,
+    .eyebrow_e5a66c {
         color: $cream !important;
     }
 
     // Sepiaify images
-    .headerImage-YpZfgg,
-    .artContainer-1bqVms,
-    .bannerArt-kUjEEW,
-    .image-6bHJhO {
+    .headerImage__3069c,
+    .artContainer_aa6b1f,
+    .bannerArt_a00519,
+    .image_af5cb1 {
         @include filter.sepia;
     }
 
     // Icons
-    :is(.circle-1ip_Nd, .iconContainer-3cz2oI) {
+    :is(.circle__7dd22, .iconContainer__82920) {
         background: unset;
         svg {
             color: $cream;
@@ -49,7 +49,7 @@
     }
 
     // Steps
-    .stepNumber-1OYCPJ {
+    .stepNumber_f429db {
         background: unset;
         h2 {
             color: $red !important;

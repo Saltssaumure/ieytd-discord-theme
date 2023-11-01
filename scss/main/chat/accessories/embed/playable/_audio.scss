@@ -3,18 +3,18 @@
 @use "../../../../../top/filter";
 
 // Audio embeds
-#{$root} .wrapperAudio-1Bzv_Z.newMosaicStyle-31sBoZ {
+#{$root} .wrapperAudio__555ce.newMosaicStyle_fb18b9 {
     padding: 0;
     overflow: visible;
 
-    .audioMetadata-1Hrt8T {
+    .audioMetadata_e546a8 {
         padding: $size-m $size-m 0;
 
         &::before {
             @include filter.sepia;
         }
 
-        .metadataSize-2A2s1T {
+        .metadataSize__42428 {
             color: $cream;
             opacity: 0.7;
         }

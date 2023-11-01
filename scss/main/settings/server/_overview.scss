@@ -3,19 +3,19 @@
 @use "../../../top/card";
 
 // Upload custom image
-.imageUploaderIcon-2OHmFu {
+.imageUploaderIcon__0c13b {
     display: none;
 }
 
 // Server icon upload
-.avatarUploader-2S1mwW {
+.avatarUploader__243fd {
     // Icon preview
-    .imageUploaderInner-IIRaFr {
+    .imageUploaderInner_da8332 {
         border: $size-s solid $cream;
     }
 
     // Change icon text
-    .imageUploaderHint-33zkjZ {
+    .imageUploaderHint_dc8def {
         color: $black;
         text-shadow: 0 0 2px $cream;
         font-size: 24px;
@@ -25,14 +25,14 @@
 }
 
 // Display boost bar
-.progressBarImage-3lGAbU {
+.progressBarImage__1bc20 {
     @include filter.sepia;
 }
 
 // Server background
-.avatarUploaderInnerSquare-2J8lU8 {
+.avatarUploaderInnerSquare__72e9d {
     @include card.large;
 }
-.avatarUploaderInnerSquareDisabled-3M9eJS {
+.avatarUploaderInnerSquareDisabled__3cfd1 {
     border-color: $red;
 }

@@ -4,23 +4,23 @@
 @use "../../top/svg";
 
 // Join a student hub
-.sidebarContainer-gUKhtL {
+.sidebarContainer__5583d {
     background: $black;
     border-right: $size-s solid $cream;
 
-    .iconContainer-3LclNk {
+    .iconContainer__4f05c {
         background: $cream;
-        .icon-3459VP {
+        .icon_c2566c {
             background: svg.$hub;
         }
     }
 }
 
-.topImage-Rlo-5x {
+.topImage__6730c {
     @include filter.sepia;
 }
 
-.close-A4ZfTI {
+.close__1080c {
     right: 12px;
 
     &,

@@ -2,28 +2,28 @@
 @use "../../../top/card";
 
 // Overlay notifications
-.wrapper-SdcMKg {
+.wrapper__4beb8 {
     border: $size-s solid $cream;
     border-radius: $size-l;
 
-    &.disabledSelected-1jqfsw {
+    &.disabledSelected_dd29ae {
         border: $size-s solid $red;
     }
 
-    .option-1QI4c9 {
+    .option_a0c054 {
         background: unset;
         border: $size-xs solid $cream;
         border-radius: $size-m;
 
-        &.selected-18Wszc {
+        &.selected_ea51d6 {
             background: $cream;
         }
     }
 
-    .disabled-35mc5w {
+    .disabled_ab18dc {
         color: $cream;
 
-        &.selected-18Wszc {
+        &.selected_ea51d6 {
             color: $red;
         }
     }

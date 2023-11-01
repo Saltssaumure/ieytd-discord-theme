@@ -3,20 +3,20 @@
 
 // Display Roles filter in Server Settings > Server Members
 
-.container-2kTWmC {
+.container_d27846 {
     @include card.outer;
 
-    .container-2oNtJn {
+    .container__7712a {
         @include card.round;
     }
 
-    .item-1Mjtru {
+    .item__287de {
         color: $cream;
     }
 
-    .focused-3v9Ulm,
-    .item-1Mjtru:hover:not(.disabled-Lzz-qs),
-    .selected-3xdT87 {
+    .focused__2b1b2,
+    .item__287de:hover:not(.disabled__1c6ff),
+    .selected__511cf {
         background: unset;
         color: $cream;
     }

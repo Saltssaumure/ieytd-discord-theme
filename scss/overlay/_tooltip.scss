@@ -3,24 +3,24 @@
 // Tooltips
 
 #{$root} {
-    .tooltip-33Jwqe {
+    .tooltip__01384 {
         background: $cream;
         color: $black;
         border: $size-xs solid $black;
         border-radius: $size-xl;
 
         // Pointer
-        .tooltipPointer-sMBQqe {
+        .tooltipPointer_a79354 {
             border-top-color: $black;
         }
 
         // Server type
-        .flowerStar-2tNFCR {
+        .flowerStar_a9981e {
             path {
                 fill: $black;
             }
         }
-        .childContainer-U_a6Yh path {
+        .childContainer__4e664 path {
             fill: $cream;
         }
 
@@ -28,19 +28,19 @@
         div:where([style^="color"]) {
             color: $black !important;
         }
-        .guildNameText-jBFbNC,
-        .defaultColor-1EVLSt,
-        .activityIcon-vfIBet {
+        .guildNameText__16f3c,
+        .defaultColor__77578,
+        .activityIcon_a3c442 {
             color: $black;
         }
 
         // Server muted
-        .muteText-13RgwP {
+        .muteText_dc1e9a {
             color: $red !important;
         }
 
         // Listeners
-        .stageListenerPill-1_QAPA {
+        .stageListenerPill_ef06b3 {
             background: $black;
             color: $cream;
             div {
@@ -51,26 +51,26 @@
 }
 
 // More users
-.moreUsers-_v6T-L {
+.moreUsers_cd5dfc {
     background: $black;
     color: $cream;
 }
 
-.tooltipOverrideColor-2QdoQx {
+.tooltipOverrideColor_afd61f {
     background: $cream;
     color: $black;
     border: $size-s solid $black;
     border-radius: $size-xl;
 
-    &.caretTopCenter-1wqGIE:after {
+    &.caretTopCenter__3f88f:after {
         border-bottom-color: $black;
     }
 
-    .defaultColor-1EVLSt {
+    .defaultColor__77578 {
         color: $black;
     }
 
-    .content-3aT_vH {
+    .content__904b3 {
         color: $red !important;
     }
 }

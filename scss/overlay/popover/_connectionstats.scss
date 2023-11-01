@@ -4,25 +4,25 @@
 
 // Voice chat connection status on "Voice connected" click
 
-.container-1ILvLB {
+.container__0810b {
     @include card.outer;
 
-    .graphContainer-3Txdak {
+    .graphContainer_ee4dc1 {
         @include card.med;
     }
 
-    .popoutText-3NRmTw {
+    .popoutText__56f7e {
         color: $cream;
     }
 
-    .separator-15Vn3M {
+    .separator_b26b65 {
         display: none;
     }
 
-    .popoutBottom-15-vLu {
+    .popoutBottom_f1aeca {
         margin-top: $size-m;
 
-        .secured-2wavXv {
+        .secured__615be {
             color: $cream;
 
             &::before {

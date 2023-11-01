@@ -1,23 +1,23 @@
 @use "../top/vars" as *;
 
 // Banners
-.notice-2HEN-u {
+.notice__5fd4c {
     background: $black;
     color: $cream;
     border-radius: $size-xl $size-xl 0 0;
     margin: $size-s $size-m 0 0;
 
-    .base-2jDfDU:has(.bd-notice) & {
+    .base__3e6af:has(.bd-notice) & {
         border-radius: 0;
     }
 }
 
 // Disable stream mode button
-.colorStreamerMode-8uoRWd .button-1iHNQ2:hover {
+.colorStreamerMode_e927c0 .button__57d93:hover {
     color: $cream;
 }
 
 // Close icon
-.closeIcon-3eoP1e path {
+.closeIcon_ae6326 path {
     fill: $cream;
 }

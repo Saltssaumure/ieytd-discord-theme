@@ -3,36 +3,36 @@
 @use "../../../../top/filter";
 
 // Game invite / listening party embed
-.invite-3uuHYQ {
+.invite__2a93b {
     // Text
-    .header-1Fx4D1,
-    .partyStatus-2-VcyG,
-    .name-QjR4Jk {
+    .header__8b673,
+    .partyStatus__6a567,
+    .name_b50cd9 {
         color: $cream;
     }
 
     // Links
-    .textLink-_PElWP,
-    .message-group .textLink-_PElWP {
+    .textLink__47850,
+    .message-group .textLink__47850 {
         color: $red;
     }
 
     // Party members
-    .partyMemberEmpty-GtlQ_s,
-    .moreUsers-3PdGZN {
+    .partyMemberEmpty__94736,
+    .moreUsers__1d9e9 {
         background: $cream;
         color: $black;
         opacity: 0.7;
     }
 
     // Session over
-    .coverImageNotActionable-3_d2tn,
-    .artworkSpotifySessionEnded-D18iXB {
+    .coverImageNotActionable__36f0f,
+    .artworkSpotifySessionEnded__8272a {
         @include filter.sepia;
     }
 
     // Help
-    .helpIcon-24pk1Z {
+    .helpIcon_a58947 {
         background: $cream;
         g {
             fill: $black;

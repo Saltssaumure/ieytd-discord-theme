@@ -3,24 +3,24 @@
 @use "../../../../top/status";
 @use "../../../../top/filter";
 
-.wrapper-1HIH0j {
+.wrapper_efe67f {
     // Server name
-    .infoTitle-367C0l {
+    .infoTitle_f6594a {
         align-items: baseline;
     }
 
     // Member count
-    .count-62gVQ0 {
+    .count__72c4c {
         color: $cream;
     }
 
     // Status dots
-    .status-JIDx3x {
+    .status__5b71e {
         background: $cream;
     }
 
     // Offline status
-    .statusWrapper-3CHb8F:has(.statusOffline-2R-ArP) {
+    .statusWrapper__11af5:has(.statusOffline__84b14) {
         position: relative;
         &::before {
             @include status.dot;
@@ -30,14 +30,14 @@
     }
 
     // Server icon
-    .guildIcon-3ZfRfI {
+    .guildIcon_bcc098 {
         background-color: $red;
         border-radius: $size-max;
         width: 56px;
         height: 56px;
 
         // Expired invite icon
-        &.guildIconExpired-2BFmZC {
+        &.guildIconExpired__1d51f {
             @include filter.sepia;
         }
     }

@@ -2,11 +2,11 @@
 @use "../top/button" as button;
 
 #{$root} {
-    :is(.lookFilled-1H2Jvj, .lookOutlined-3RTC7c, .lookInverted-2GrLaB) {
+    :is(.lookFilled__19298, .lookOutlined__46d54, .lookInverted_ee4261) {
         border-radius: $size-max;
         border: $size-xs solid;
 
-        &.colorPrimary-2-Lusz {
+        &.colorPrimary__6ed40 {
             @include button.button($black, $cream);
 
             &[aria-disabled="true"],
@@ -15,63 +15,63 @@
             }
         }
 
-        &.colorGreen-jIPCAS {
+        &.colorGreen__5f181 {
             @include button.button($black, $cream);
         }
 
-        &.colorRed-2VFhM4 {
+        &.colorRed_d6b062 {
             @include button.button($black, $red);
         }
 
-        :is(&.colorBrand-2M3O3N, &.colorBrandNew-abZT3v) {
+        :is(&.colorBrand_b2253e, &.colorBrandNew_fd170a) {
             @include button.button($black, $cream);
         }
 
-        &.colorWhite-Eshn2o {
+        &.colorWhite__43488 {
             @include button.button($red, $cream);
         }
 
-        &.cta-3-AFNF,
-        &.button-1Ofqs0,
-        &.buttonColor-28DXIe,
-        &.buttonColor-1u-3JF,
-        &.buttonColor-_0gSD_ {
+        &.cta__69e2a,
+        &.button__6ac9e,
+        &.buttonColor_fa1bb3,
+        &.buttonColor__6f6b0,
+        &.buttonColor__01bf8 {
             @include button.button($black, $cream);
         }
 
-        &.viewServerButton-29xbQE {
+        &.viewServerButton__1ce42 {
             @include button.button($black, $cream);
         }
 
-        &.buttonWhite-hd8TaT {
+        &.buttonWhite__30853 {
             color: $cream !important;
             border-color: $cream !important;
         }
     }
 
-    .lookLink-13iF2K {
-        &.colorPrimary-2-Lusz {
+    .lookLink__93965 {
+        &.colorPrimary__6ed40 {
             @include button.link($cream);
         }
 
-        &.colorLink-34zig_ {
+        &.colorLink_b651e5 {
             @include button.link($red);
         }
 
-        &.colorRed-2VFhM4 {
+        &.colorRed_d6b062 {
             @include button.link($black);
         }
 
-        &.colorWhite-Eshn2o {
+        &.colorWhite__43488 {
             @include button.link($cream);
         }
     }
 
-    .borderPrimary-1HrinF {
+    .borderPrimary__60ecd {
         border-color: $cream !important;
     }
 
-    .button-1iHNQ2 {
+    .button__57d93 {
         @include button.button($black, $cream);
         border-radius: $size-max;
         border: $size-xs solid;
@@ -82,10 +82,10 @@
     }
 }
 
-.lookBlank-FgPMy6 {
+.lookBlank__7ca0a {
     border-radius: $size-max;
 
-    .buttonContainer-2zLp7E & {
+    .buttonContainer__51200 & {
         color: $red;
         padding: 6px 12px;
         border: $size-xs solid;
@@ -93,7 +93,7 @@
 }
 
 // Action buttons
-.button-3bklZh {
+.button_d553e5 {
     &,
     &:hover,
     &:active {
@@ -104,7 +104,7 @@
         padding: 4px;
     }
 
-    &.dangerous-Y36ifs {
+    &.dangerous_b60ec0 {
         &,
         &:hover,
         &:active {
@@ -113,7 +113,7 @@
     }
 }
 
-:is(.button-1EGGcP, .button-2gNyE9):is(.buttonColor-3bP3fX, .buttonColor-1PCuWq) {
+.button__66e8c.buttonColor_a6eb73 {
     &,
     &:hover {
         background: $black;

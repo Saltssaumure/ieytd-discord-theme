@@ -3,33 +3,33 @@
 
 // Right click menu
 
-.colorDefault-2_rLdz {
+.colorDefault__0b482 {
     border-radius: $size-max;
     color: $cream;
 
-    :is(.caret-1TZU-U, .checkbox-397WsK, .radioSelection-3PDNAQ, .subtext-1mqKVB) {
+    :is(.caret_ce50ce, .checkbox__45366, .radioSelection__5ed39, .subtext__8a015) {
         color: $cream;
     }
 
-    .check-3-73a4 {
+    .check__8d1bd {
         color: $black;
     }
 
-    &.focused-3LIdPu,
-    &:active:not(.hideInteraction-1vQrZJ) {
+    &.focused__27621,
+    &:active:not(.hideInteraction__2790e) {
         background: $cream;
         color: $black;
 
-        :is(.caret-1TZU-U, .checkbox-397WsK, .radioSelection-3PDNAQ, .subtext-1mqKVB) {
+        :is(.caret_ce50ce, .checkbox__45366, .radioSelection__5ed39, .subtext__8a015) {
             color: $black;
         }
 
-        .check-3-73a4 {
+        .check__8d1bd {
             color: $cream;
         }
     }
 }
 
-.separator-12G2Op {
+.separator__18122 {
     display: none;
 }

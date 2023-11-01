@@ -1,16 +1,16 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
 
-.searchBar-3joS_I {
+.searchBar_d72441 {
     @include card.round;
 }
 
-.member-2cj2PI {
+.member__55269 {
     @include card.round;
     padding: $size-m;
     margin-top: $size-l;
 
-    .overflowIcon-863s2Z .overflowIconFg-29oz-o {
+    .overflowIcon_b3d30c .overflowIconFg__2b31c {
         fill: $cream;
     }
 }

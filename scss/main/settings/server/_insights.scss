@@ -2,14 +2,14 @@
 @use "../../../top/filter";
 @use "../../../top/card";
 
-.notEnoughMembersError-3-VD0N {
+.notEnoughMembersError__96545 {
     @include card.large;
 }
 
-.developerPortalCtaWrapper-2PniQs {
+.developerPortalCtaWrapper__21172 {
     background: unset;
 
-    .placeholderImage-17g3fb {
+    .placeholderImage__45cc2 {
         @include filter.sepia;
     }
 }

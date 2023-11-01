@@ -2,12 +2,12 @@
 @use "../../../../../top/card";
 
 // Link integration warning
-.warningContainer-2TST5D {
+.warningContainer_d2a9d9 {
     @include card.round;
     border-color: $red;
     color: $red;
 
-    .warningIcon-3Mr76T {
+    .warningIcon_aac3cc {
         color: $red;
     }
 
@@ -17,29 +17,29 @@
 }
 
 // Requirements
-.configurationsContainer-1lhusv {
+.configurationsContainer__87014 {
     // Account
-    .container-2s0jpP {
+    .container_a80597 {
         padding: 0;
         background: unset;
         margin-bottom: $size-m;
 
-        .closeIcon-13g5Xe {
+        .closeIcon_e44dcf {
             color: $cream;
         }
 
-        .ruleContainer-1r6se2 {
+        .ruleContainer_fa2c08 {
             border-top: 0;
             padding: 0 32px 16px 16px;
         }
 
-        .ruleItemHeader-1NJdXO {
+        .ruleItemHeader__17faf {
             margin-bottom: 8px;
         }
     }
 }
 
 // Add requirement
-.addVerificationButtonAppend-2dTEM- {
+.addVerificationButtonAppend__7cca4 {
     @include card.round;
 }

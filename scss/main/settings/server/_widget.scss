@@ -1,7 +1,7 @@
 @use "../../../top/vars" as *;
 @use "../../../top/filter";
 
-img.infoItem-Q4HWUe {
+img.infoItem__190eb {
     @include filter.sepia;
     margin-top: $size-l;
 }

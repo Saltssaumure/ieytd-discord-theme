@@ -3,7 +3,7 @@
 @use "../../../../top/card";
 
 // Default permissions button
-.container-3EtAkD {
+.container_d5f6d0 {
     @include card.round;
 
     &:hover {
@@ -11,7 +11,7 @@
         color: $cream;
     }
 
-    .icon-2DGsye {
+    .icon__4c736 {
         background: unset;
 
         svg {
@@ -21,19 +21,19 @@
 }
 
 // Roles list
-.emptyRoles-2rJGCl,
-.tableHeader-6gvH38,
-.roleRow-230vCm {
+.emptyRoles__3a6f7,
+.tableHeader__0200e,
+.roleRow_c357d5 {
     margin-left: 0;
 }
 
 // Drag handle spacing
-.dragSpacing-_vuty_ {
+.dragSpacing_aec71c {
     zoom: 1.5;
 }
 
 // Role
-.roleRow-230vCm {
+.roleRow_c357d5 {
     @include card.round;
     margin-bottom: $size-m;
 
@@ -42,7 +42,7 @@
     }
 
     // Drag handle
-    .dragIcon-2L691r {
+    .dragIcon__003d3 {
         color: $cream;
         visibility: visible;
         display: flex;
@@ -50,45 +50,45 @@
     }
 
     // Member count
-    .memberCountContainer-2sIXRp {
+    .memberCountContainer__9c91b {
         color: $cream;
     }
 
     // Edit role
-    .editButton-5q1Axu {
+    .editButton_c83711 {
         display: none;
     }
 
     // More button
-    .secondary-2bzKEX {
+    .secondary_c96c46 {
         @include card.round;
 
-        &:hover:not(.disabled-184-il) {
+        &:hover:not(.disabled__8e315) {
             color: $cream;
         }
     }
 
-    &:hover:not(.roleRowDisableHover-3En0vy) .circleButton-2Yr5A1 {
+    &:hover:not(.roleRowDisableHover__9fe35) .circleButton__29ce2 {
         background: unset;
     }
 }
 
 // Dragged role marker
-.containerDragBefore-1A1S_U::before,
-.containerDragAfter-1xx-Bk::after {
+.containerDragBefore_d2b382::before,
+.containerDragAfter__944b7::after {
     background: $red;
     box-shadow: none;
     left: $size-xl;
     right: $size-xl;
 }
-.containerDragBefore-1A1S_U::before {
+.containerDragBefore_d2b382::before {
     top: 9px;
 }
-.containerDragAfter-1xx-Bk::after {
+.containerDragAfter__944b7::after {
     bottom: -9px;
 }
 
 // Dragged role
-.roleRowDragging-k2gTPJ {
+.roleRowDragging_c5306c {
     opacity: 0.7;
 }
