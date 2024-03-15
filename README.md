@@ -1,5 +1,5 @@
-[screenshot]:       https://cdn.discordapp.com/attachments/946226984005025835/1140355110568984597/tritone1.png
-[customised]:       https://cdn.discordapp.com/attachments/946226984005025835/1140492656439472148/tritonecustom.png
+[screenshot]:       https://saltssaumure.github.io/ieytd-discord-theme/preview/tritone1.png
+[customised]:       https://saltssaumure.github.io/ieytd-discord-theme/preview/tritonecustom.png
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [discord]:          https://discord.gg/uy8nKQVatp
