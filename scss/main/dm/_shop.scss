@@ -1,0 +1,19 @@
+@use "../../top/vars" as *;
+
+.pageWrapperBackgroundPrimary__36469 {
+    background: $black;
+}
+
+.shopCard__3d319 {
+    --chat-border: #{$cream};
+    --background-floating: #{$black};
+
+    .darkCardBackground__38c63 {
+        background: $black;
+    }
+
+    .productName__651db,
+    .description__2ad50 {
+        color: $cream;
+    }
+}

@@ -2,7 +2,7 @@
 @use "../../top/card";
 @use "../../top/filter";
 
-.applicationStore__444b9 .scroller__244e5 {
+.applicationStore__444b9 .scroller__49aa3 {
     background: $black;
 }
 
@@ -63,6 +63,18 @@
 
     .learnMoreLink-2JwgbJ {
         color: $red;
+    }
+}
+
+.card_e97590 {
+    @include card.xlarge;
+
+    .cardDescription__40255 {
+        background: linear-gradient(black, transparent);
+    }
+
+    .defaultColor__30336 {
+        color: $cream;
     }
 }
 
