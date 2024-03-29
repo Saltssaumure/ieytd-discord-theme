@@ -2,8 +2,8 @@
 @use "../../top/card";
 
 .panels__58331,
-.container_d667ff,
-#{$root} .container_ca50b9,
+.container_e1958d,
+#{$root} .container_debb33,
 #{$root} .panel_bd8c76 {
     background: $black;
 }
@@ -12,54 +12,54 @@
     border-top: $size-s solid $cream;
 
     // Activity panel
-    .activityPanel__22355 {
+    .activityPanel_b73e7a {
         border-bottom: 0;
     }
 
     // VC controls
-    .container_d667ff {
+    .container_e1958d {
         border-bottom: 0;
 
         // Ping bars
-        .ping__47992 {
+        .ping__838d2 {
             color: $black;
         }
-        .rtcConnectionQualityFine__471b6 .pingForeground_ac78df,
-        .rtcConnectionQualityAverage__4b0ea .pingForeground_ac78df:not(:last-child) {
+        .rtcConnectionQualityFine__60c6a .pingForeground__2b613,
+        .rtcConnectionQualityAverage_c3f4a3 .pingForeground__2b613:not(:last-child) {
             color: $cream;
         }
-        .rtcConnectionQualityBad__6caa2 .pingForeground_ac78df:first-child {
+        .rtcConnectionQualityBad__913cb .pingForeground__2b613:first-child {
             color: $red;
         }
 
         // Connection status text
-        .rtcConnectionStatusConnected__1d5b0,
-        .rtcConnectionStatusConnecting__7b83a {
+        .rtcConnectionStatusConnected__9db4a,
+        .rtcConnectionStatusConnecting__057df {
             color: $cream;
         }
-        .rtcConnectionStatusError_f91509 {
+        .rtcConnectionStatusError__77afa {
             color: $red;
         }
 
         // Connected users
-        .voiceUsers__4147e {
+        .voiceUsers__12c6d {
             gap: $size-s;
 
-            .avatarContainer__69aa4,
-            .expandButton_d54e5e {
+            .avatarContainer__9688b,
+            .expandButton__5f053 {
                 border: $size-xs solid $cream;
                 width: 24px;
             }
 
-            .avatarIconOverlay__61b77 {
+            .avatarIconOverlay_d064a5 {
                 color: $cream;
-                .avatarIconRed__51cad {
+                .avatarIconRed_d6095e {
                     color: $red;
                 }
             }
 
             // See all connected users
-            .primary_f0f61f {
+            .primary_a41c2a {
                 background: $cream;
                 color: $black;
                 box-sizing: content-box;
@@ -68,30 +68,30 @@
         }
 
         // Voice chat options
-        .button__66e8c:not(.disabledButtonWrapper__69c70) {
+        .button_b82d53:not(.disabledButtonWrapper_b04230) {
             @include card.round;
         }
     }
 
     // Self panel
-    .container_ca50b9 {
+    .container_debb33 {
         // Username
-        .title__10613 {
+        .title__4a7a9 {
             font-family: var(--font-display);
             margin-top: -10px;
             line-height: 28px;
         }
     }
 
-    .title__10613,
-    .subtext__8f869,
-    .button__4f306,
-    .button__4f306:hover {
+    .title__4a7a9,
+    .subtext_ce73b4,
+    .button_ae40a4,
+    .button_ae40a4:hover {
         color: $cream;
     }
 
-    .redIcon__457ad,
-    .strikethrough__29b20 {
+    .redIcon__14a46,
+    .strikethrough__7b742 {
         color: $red;
     }
 }

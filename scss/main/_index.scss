@@ -18,7 +18,7 @@
 
 @use "../top/vars" as *;
 
-.content__4bf10 {
+.content__76dcf {
     border: solid $cream;
     border-width: $size-s $size-m $size-s 0;
 }
@@ -29,14 +29,14 @@
 }
 
 // Channel group and member group title
-.container_de798d {
+.container__43554 {
     font-style: oblique;
     text-align: center;
     font-size: 20px;
     line-height: 28px;
 
     &,
-    .overflow__87fe8 {
+    .overflow__993fa {
         color: $black;
     }
 }
@@ -44,40 +44,40 @@
 // Rounding based on notice banner presence
 
 // Without banner
-.base__3e6af {
+.base_c0676e {
     // Sidebar
-    .sidebar_ded4b5,
-    .sidebar_ded4b5.hasNotice__1d477 {
+    .sidebar_e031be,
+    .sidebar_e031be.hasNotice_cc284c {
         border-radius: $size-l 0 0 $size-l;
     }
 
     // Main chat
     .chat__52833,
-    .pageWrapper_fef757,
-    .sidebar_ded4b5 + .scroller_e9501c {
+    .pageWrapper_c182d3,
+    .sidebar_e031be + .scroller__32e73 {
         border-radius: 0 $size-l $size-l 0;
     }
 
     // Split chat
-    .container_def45c:not(.floating_f021e2) {
+    .container__694a1:not(.floating__8f631) {
         border-radius: 0 0 $size-l $size-l;
     }
 }
 
 // With banner
-.base__3e6af:has(.bd-notice, .notice__5fd4c) {
-    .sidebar_ded4b5,
-    .sidebar_ded4b5.hasNotice__1d477 {
+.base_c0676e:has(.bd-notice, .notice__5fd4c) {
+    .sidebar_e031be,
+    .sidebar_e031be.hasNotice_cc284c {
         border-top-left-radius: 0;
     }
 
     .chat__52833,
-    .pageWrapper_fef757,
-    .sidebar_ded4b5 + .scroller_e9501c {
+    .pageWrapper_c182d3,
+    .sidebar_e031be + .scroller__32e73 {
         border-top-right-radius: 0;
     }
 
-    .container_def45c:not(.floating_f021e2) {
+    .container__694a1:not(.floating__8f631) {
         border-radius: 0 0 0 $size-l;
     }
 }

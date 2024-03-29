@@ -3,14 +3,14 @@
 @use "../../../top/filter";
 
 // Mic test
-.wrapper__61220 {
-    .container__6d33c {
+.wrapper_e5073f {
+    .container_ced194 {
         background: $cream !important;
         border-radius: $size-max;
         border: $size-xs solid $cream;
     }
 
-    .progress__2cc1d {
+    .progress_bcbb99 {
         background: $red;
     }
 
@@ -20,10 +20,10 @@
 }
 
 // Soundboard
-.soundButtonSettingContainer__548af {
+.soundButtonSettingContainer__3821b {
     @include card.round;
 
-    .secondaryButton__41267 {
+    .secondaryButton_e685be {
         color: $cream;
 
         path[fill="var(--red-400)"] {
@@ -33,37 +33,37 @@
 }
 
 // Video preview
-.cameraWrapper__1ee6d {
+.cameraWrapper_d3535e {
     @include card.large;
 
-    .previewImage__91c1c {
+    .previewImage_befb69 {
         @include filter.sepia;
     }
 }
 
 // Video background
-.backgroundOptions_e72ce2 {
+.backgroundOptions_b49a97 {
     margin-bottom: 16px;
 
-    .backgroundOption__745bb {
-        .backgroundOptionInner__1477f {
+    .backgroundOption__5ab0d {
+        .backgroundOptionInner_a128bb {
             border-radius: $size-m;
             background: unset;
         }
 
         // Info
-        .backgroundOptionContent__2608d {
+        .backgroundOptionContent_ffff79 {
             color: $cream;
         }
 
         // Selected
-        .backgroundOptionRing__1f209 {
+        .backgroundOptionRing__45698 {
             border-radius: $size-l;
             border: $size-s solid $cream;
         }
 
         // Animation icon
-        .playIcon_af44c5 {
+        .playIcon_ab114c {
             color: $cream;
         }
     }

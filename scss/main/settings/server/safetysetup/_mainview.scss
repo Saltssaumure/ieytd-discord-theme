@@ -1,11 +1,11 @@
 @use "../../../../top/vars" as *;
 @use "../../../../top/filter";
 
-.changelog__6d46d,
-.safetyChecklist__826c8 {
+.changelog__55624,
+.safetyChecklist__4c74b {
     background: unset;
 }
 
-.changelogImage_d194ea {
+.changelogImage__7f2d8 {
     @include filter.sepia;
 }

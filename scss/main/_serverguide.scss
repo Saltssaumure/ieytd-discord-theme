@@ -2,74 +2,74 @@
 @use "../top/card";
 @use "../top/filter";
 
-.homeContainer_a4aa0a {
+.homeContainer_c36871 {
     width: auto;
     padding-right: 16px;
 
     // Default banner
-    .headerArtPlaceholder__4f00a {
+    .headerArtPlaceholder__68f10 {
         background: unset;
         @include filter.sepia;
     }
 
     // Server icon
-    .headerIcon__8b099 {
+    .headerIcon_f56272 {
         border-radius: $size-max;
         border-color: $black;
         background: $red;
     }
 
     // Server name
-    .headerName__72ee0 {
+    .headerName_b10e0f {
         align-items: baseline;
 
-        .inviteButton_eb675f {
+        .inviteButton__5a17a {
             align-self: center;
         }
     }
 
     // Resource
-    .row__70f4c {
+    .row__4f559 {
         @include card.large;
     }
 
     // Get started action
-    .clickableAction_bef9b9 {
-        &:hover .action_c957d9 {
+    .clickableAction__9e970 {
+        &:hover .action__94060 {
             background: $black;
         }
 
-        .checkCircle__28cd5 {
+        .checkCircle__5103d {
             color: $cream;
         }
     }
-    .action_c957d9 {
-        .rulesIcon__02b67 {
+    .action__94060 {
+        .rulesIcon__239a2 {
             color: $cream;
             zoom: 2;
         }
     }
 
     // Server description
-    .sidebarCardWrapper__2c840 {
+    .sidebarCardWrapper__98124 {
         @include card.large;
 
-        .dotOnline__63f1c {
+        .dotOnline__5a389 {
             background: $cream;
         }
 
-        .resourceChannelsList_ab112a {
+        .resourceChannelsList__45019 {
             gap: $size-s;
 
-            .resourceChannel__79493 {
+            .resourceChannel__12be0 {
                 @include card.round;
             }
 
-            .resourceImageBase_c9b174 {
+            .resourceImageBase_b39084 {
                 border-radius: $size-max;
             }
 
-            .placeholderImage__56e14 {
+            .placeholderImage_b2ab1b {
                 background: $cream;
                 color: $black;
             }

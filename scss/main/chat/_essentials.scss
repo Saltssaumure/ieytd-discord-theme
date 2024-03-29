@@ -3,10 +3,10 @@
 
 // Overflow: yes
 .zalgo__39311 {
-    .messageContent__21e69,
-    &.message_f3a9e4,
-    &.cozy_f5c119 .header__39b23,
-    &.compact__54ecc .messageContent__21e69 {
+    .messageContent_abea64,
+    &.message__04a5b,
+    &.cozy_f5c119 .header__6a14d,
+    &.compact_eda3c8 .messageContent_abea64 {
         overflow: visible;
     }
 }
@@ -33,19 +33,19 @@
     }
 
     // Quote
-    .blockquoteDivider__96157 {
+    .blockquoteDivider__5cbad {
         background: $cream;
     }
 
     // Edited
-    .timestamp_cdbd93 {
+    .timestamp_c79dd2 {
         color: $cream;
         opacity: 0.7;
     }
 
     // System messages
     // Username
-    .content__72fdc a {
+    .content__945f5 a {
         color: $cream;
         font-family: var(--font-display);
         margin-top: -0.4rem;
@@ -53,7 +53,7 @@
 }
 
 // Mention
-.wrapper__2d9b1 {
+.wrapper_f5f4c9 {
     @include card.round;
 
     &:hover {
@@ -63,36 +63,36 @@
 }
 
 // Chat message
-.wrapper__09ecc {
+.wrapper_a62503 {
     // User avatar
     .avatar__08316,
-    .avatarContainer_f5815b {
+    .avatarContainer_b12338 {
         border: $size-s solid $red;
     }
 
     // Seasonal avatar decorations
-    .avatarDecoration__14b3c {
+    .avatarDecoration__8a0c2 {
         left: 12px + $size-s;
     }
 
     // Username
-    .username__60f9f,
-    .username_d30d99 {
+    .username_f2060a,
+    .username__0b0e7 {
         font-family: var(--font-display);
         font-size: 1.5rem;
         color: $cream;
     }
 
     // Timestamp
-    .timestamp_cdbd93,
-    .timestamp_cdbd93.alt__6c563 {
+    .timestamp_c79dd2,
+    .timestamp_c79dd2.alt__6c563 {
         color: $cream;
         opacity: 0.7;
     }
 
     // Message action buttons
-    .wrapper_c727b6,
-    .full-motion & .wrapper_c727b6:hover {
+    .wrapper__4e6b6,
+    .full-motion & .wrapper__4e6b6:hover {
         box-shadow: 0 0 0 $size-xs $cream inset;
         background: $black;
         border-radius: $size-max;
@@ -100,7 +100,7 @@
 }
 
 // Compact mode specific
-.compact__54ecc {
+.compact_eda3c8 {
     .botTagCompact_bac328 {
         margin-top: 0.3rem;
     }
@@ -108,13 +108,13 @@
 
 // Cosy mode specific
 .cozy_f5c119 {
-    .header__39b23,
-    .headerText_f47574 {
+    .header__6a14d,
+    .headerText_bd68ec {
         display: flex;
         align-items: baseline;
     }
 
-    .username_d30d99 {
+    .username__0b0e7 {
         overflow: visible;
     }
 }

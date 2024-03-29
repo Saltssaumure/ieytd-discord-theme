@@ -2,7 +2,7 @@
 @use "../../top/card";
 @use "../../top/filter";
 
-.applicationStore_fc7d76 .scroller__244e5 {
+.applicationStore__444b9 .scroller__244e5 {
     background: $black;
 }
 
@@ -14,20 +14,20 @@
 
 .ctaWrapper-4Js5Q6,
 .ctaButtonInner-2VRelf,
-.checkmarkIcon__3c0bb,
+.checkmarkIcon__7e991,
 .closeIcon-3aZ-RA {
     color: $cream;
 }
 
 .heroHeading-2yVSUj,
-.pricePerInterval_c8c787,
+.pricePerInterval_c2c66a,
 .ctaCopy-1CkXTE,
 .perksGridFeatureHeading-3wq2Tn,
 .existingSubscriberSpacing-3auAAB div {
     color: $cream !important;
 }
 
-.icon_c4178d {
+.icon__77190 {
     color: $red;
     height: 20px;
     width: 20px;
@@ -39,8 +39,8 @@
 .ctaWrapperTier0-1GlgHE .ctaImages-1s97vM,
 .featureImage-91H2fC,
 .root__3594f,
-.wumpusImageContainer__5990c,
-.perksCardArt__35e0c,
+.wumpusImageContainer__22112,
+.perksCardArt__7ba7a,
 .logo__78595 {
     @include filter.sepia;
 }
@@ -75,27 +75,27 @@
     overflow: visible;
 }
 
-.tier0__2e127.withTier0Rim_fb8112::before,
-.tier2__1364f.withTier2Rim_c22b42::before {
+.tier0__2e127.withTier0Rim__291d2::before,
+.tier2__1364f.withTier2Rim_c3d2f1::before {
     display: none;
 }
 
-.rowBottomBorder_adf3eb {
+.rowBottomBorder__70fb8 {
     border-bottom: 0;
 }
 
-.tier2ColumnOuter__0b5e2 {
+.tier2ColumnOuter_c78c33 {
     border-color: $red;
 }
 
 .bogoPillWithSparkles-2cfttm,
 .freeTrialPillWithSparkles-3fINgJ,
-.freeTrialPillWithSparkles__467c4 {
+.freeTrialPillWithSparkles__33d74 {
     path {
         fill: $cream;
     }
 
-    .freeTrialPill_ebb145 {
+    .freeTrialPill_b54f1a {
         background: $red;
 
         div {

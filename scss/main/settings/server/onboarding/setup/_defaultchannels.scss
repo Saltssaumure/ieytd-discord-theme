@@ -4,24 +4,24 @@
 // 2. Default channels
 
 // Currently selected
-.container__52fd4 {
+.container_eecf7e {
     @include card.large;
     position: sticky;
     top: $size-xl;
 
-    .channelList__4e836,
-    .header__8e9c1,
-    .container__9e6a7 {
+    .channelList_fcef42,
+    .header_c118ee,
+    .container_bc2742 {
         background: unset;
     }
 
     // Progress bar
-    .progressBar_f4b358 {
+    .progressBar__716bd {
         background: $cream !important;
     }
 
     // Check / cross
-    .icon__3117c {
+    .icon__7b48f {
         circle {
             fill: unset;
         }
@@ -34,64 +34,64 @@
     }
 
     // No channels
-    .emptyStateIcon__3b663 {
+    .emptyStateIcon__0afb4 {
         display: none;
     }
 
     .caret__61231,
-    .channelIcon__83ef9 {
+    .channelIcon__52e97 {
         color: $cream;
     }
 
-    .channelIcon__83ef9 {
+    .channelIcon__52e97 {
         zoom: 1.5;
     }
 
-    .chattableIndicator__320a3 {
+    .chattableIndicator_c6ac14 {
         background: $cream;
     }
 }
 
-.collapseButton__42134 {
+.collapseButton_cbdf98 {
     color: $cream;
 }
 
 // Channel list
-.channelBrowserOuter_d531a2 {
+.channelBrowserOuter__56660 {
     display: flex;
     gap: $size-s;
     flex-direction: column;
 }
 
-.categoryRow__26105,
-.channelRow__33fcb {
+.categoryRow_b920fb,
+.channelRow__013aa {
     margin: 0 $size-l;
     padding: 0;
 }
 
 // Category
-.categoryRow__26105 {
+.categoryRow_b920fb {
     margin-right: 0;
     margin-top: $size-l;
 }
 
 // Channel
-.channelRow__33fcb {
+.channelRow__013aa {
     margin-right: $size-xl;
 
     &,
-    &:hover:not(.disabled__7b158) {
+    &:hover:not(.disabled__569c5) {
         background: unset;
     }
 
     // Locked channel
-    .lockedPill_c9d640 {
+    .lockedPill__57644 {
         height: 24px;
         min-height: 24px;
     }
 }
 
-.divider__845fe,
-.separator_a693be {
+.divider_f642fa,
+.separator_f5f9d9 {
     display: none;
 }

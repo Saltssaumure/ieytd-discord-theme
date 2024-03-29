@@ -2,17 +2,17 @@
 @use "../../../top/filter";
 
 #soundboard-tab {
-    .image__98a59 {
+    .image__08515 {
         @include filter.sepia;
     }
 }
 
 // No sounds text
-.text__1c14c,
-.title__627cf {
+.text__0e310,
+.title__496be {
     color: $cream;
 }
 
-.row_db0184 {
+.row__807ed {
     border-bottom: 0;
 }

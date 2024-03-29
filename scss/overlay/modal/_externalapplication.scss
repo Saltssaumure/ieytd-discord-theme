@@ -2,16 +2,16 @@
 @use "../../top/card";
 
 // Grant external application permission
-.authorize__4ddfc {
+.authorize__9e6f3 {
     background: unset;
 
-    .header_d9f9a8,
+    .header__3d8c6,
     .scopes__1f403 {
         border-bottom: 0;
     }
 
     // Connection
-    .ellipse__63620 {
+    .ellipse_c558cf {
         background: $cream;
         opacity: 0.7;
     }
@@ -24,22 +24,22 @@
         .scopeCheck_c4c2dd {
             background: $cream;
         }
-        .icon__33514 {
+        .icon_d5f2cc {
             color: $black;
         }
 
         // Joke permission
-        .scope__51160:has(.scopeTimes__83c10) {
+        .scope_f6fc76:has(.scopeTimes__83c10) {
             display: none;
         }
     }
 
     // Details icon
-    .entryIcon_f234ab {
+    .entryIcon__6c61b {
         color: $cream;
     }
 
-    .footer__04ee2 {
+    .footer_b96583 {
         background: $red;
     }
 }

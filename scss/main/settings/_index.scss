@@ -6,21 +6,21 @@
 @use "../../top/card";
 @use "../../top/svg";
 
-.layer__2efaa,
-.standardSidebarView__1129a {
+.layer_f7d46a,
+.standardSidebarView__12528 {
     background: transparent;
     gap: $size-m;
 }
 
 // Menu
-.sidebarRegion__60457 {
+.sidebarRegion__36437 {
     max-width: 312px;
 
-    .sidebarRegionScroller__1fa7e {
+    .sidebarRegionScroller__8113e {
         background: $red;
     }
 
-    .sidebar__9e3e2 {
+    .sidebar__02e8d {
         padding: 0 0 $size-m;
 
         &::before {
@@ -35,7 +35,7 @@
     }
 
     // Title
-    .header_f72511:first-child {
+    .header__71a82:first-child {
         padding-top: 6px;
     }
     .eyebrow_e5a66c {
@@ -47,16 +47,16 @@
     }
 
     // Entry
-    :is(.item__48dda.themed_b957e8, .item__48dda.themed_b957e8:hover:not(.disabled__85bca)) {
+    :is(.item__48dda.themed_b957e8, .item__48dda.themed_b957e8:hover:not(.disabled__2717e)) {
         @include card.round;
 
-        &.selected__5711d {
+        &.selected_a523ff {
             background: $cream;
             color: $black;
             border-color: $black;
         }
 
-        .selected_d25ad4 {
+        .selected__18a0b {
             color: $black;
 
             path {
@@ -66,14 +66,14 @@
     }
 
     // Nitro
-    .selectedBackground_d847da {
+    .selectedBackground__4039b {
         display: none;
     }
-    .premiumLabel_f2cd55 svg {
+    .premiumLabel__68f78 svg {
         @include filter.sepia;
     }
-    .serverBoostTabItem_b19426 {
-        .icon__11372 {
+    .serverBoostTabItem__0267d {
+        .icon_c69952 {
             fill: $cream;
         }
 
@@ -81,41 +81,41 @@
             background: $cream !important;
             color: $black !important;
 
-            .icon__11372 {
+            .icon_c69952 {
                 fill: $black !important;
             }
         }
     }
 
     // Social media icons
-    .socialLinks_c1fc99 {
+    .socialLinks_dbdd6f {
         display: flex;
         justify-content: space-evenly;
         margin-top: $size-m;
-        .link_b006df {
+        .link_cebd7b {
             color: $cream;
         }
     }
 
     // Build info
-    .line__75801 {
+    .line_cdcacc {
         color: $cream !important;
     }
 }
 
 // Content
-.contentRegion__0bec1 {
+.contentRegion__08eba {
     background: $black;
-    .contentRegionScroller__86c79 {
+    .contentRegionScroller__9ae20 {
         background: $black;
     }
 }
 
 // Streamer mode
-.streamerModeEnabledImage_a0d94f {
+.streamerModeEnabledImage__17db6 {
     @include filter.sepia;
 }
-.streamerModeEnabledBtn__51c2f {
+.streamerModeEnabledBtn_b696dd {
     @include card.round;
 
     &:hover {
@@ -124,36 +124,36 @@
 }
 
 // Close button
-:is(.closeButton__34341, .keybind__57645) {
+:is(.closeButton__8177f, .keybind_a619c1) {
     color: $cream;
 
     &:hover,
-    &:hover + .keybind__57645 {
+    &:hover + .keybind_a619c1 {
         color: $cream;
         background: unset;
     }
 }
 
 // Breadcrumb trail
-.breadcrumbs__5ffc6 {
+.breadcrumbs_bac619 {
     overflow: visible;
 
-    .breadcrumbWrapper__34bfa {
+    .breadcrumbWrapper__75797 {
         align-items: flex-end;
 
-        .breadcrumbClickWrapper__48502,
-        .breadcrumbFinalWrapper__71907 {
+        .breadcrumbClickWrapper__6bef1,
+        .breadcrumbFinalWrapper__7e7bd {
             overflow: visible;
         }
 
-        .breadcrumbInactive_eeb224 {
+        .breadcrumbInactive__988aa {
             &,
             &:hover {
                 color: $red;
             }
         }
 
-        .breadcrumbArrow__05b4d {
+        .breadcrumbArrow__58361 {
             zoom: 1.5;
             color: $cream;
         }
@@ -161,13 +161,13 @@
 }
 
 // Back button
-.backButton__54768 {
+.backButton__63187 {
     color: $cream;
 }
 
 // Unsaved changes
-.noticeRegion__2779f {
-    .container__467eb {
+.noticeRegion_b8b9df {
+    .container__353bc {
         @include card.outer;
         background: $red !important;
         box-shadow: none;

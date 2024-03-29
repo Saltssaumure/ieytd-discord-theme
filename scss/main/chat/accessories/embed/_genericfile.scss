@@ -3,11 +3,11 @@
 @use "../../../../top/filter";
 
 // File upload embed
-.attachment_f3cf2c {
-    .icon__30aa7 {
+.attachment__06ca3 {
+    .icon_df1a3e {
         @include filter.sepia;
     }
-    .metadata__541c7 {
+    .metadata__05734 {
         color: $cream;
     }
 }

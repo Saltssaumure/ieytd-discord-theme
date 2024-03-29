@@ -10,15 +10,15 @@
         background: $cream;
     }
 
-    .currentTierIcon_bca4bf {
+    .currentTierIcon__6df20 {
         color: $black;
     }
 
-    .background__3dd67 {
+    .background__092a0 {
         color: $red;
     }
 
-    .tierInProgress_f08e8b {
+    .tierInProgress__549bc {
         background: $red;
     }
 }
@@ -31,43 +31,43 @@
 .tier_d16770 {
     @include card.large;
 
-    .tierHeader__5bf89,
-    .tierBody__615a1 {
+    .tierHeader_a0ef30,
+    .tierBody_fd5f94 {
         color: $cream;
         background: unset;
     }
 
     // Gem icons
-    .tierIcon__2ac8f,
-    .tierIconLocked_c2f292,
-    .tierLock__3e43d {
+    .tierIcon_fc03d4,
+    .tierIconLocked__99052,
+    .tierLock__2d9cb {
         color: $cream;
     }
 
     // Locked tiers
-    .tierIconLocked_c2f292,
-    .tierLock__3e43d {
+    .tierIconLocked__99052,
+    .tierLock__2d9cb {
         opacity: 0.5;
     }
 
     // Placeholders
-    .emptyTierImage__8f53d,
-    .placeholderImg_f047ac {
+    .emptyTierImage_db059c,
+    .placeholderImg__4e811 {
         @include filter.sepia;
     }
 
     // Sticker grid
-    .grid_da1263 {
+    .grid_d33a08 {
         gap: $size-s;
         justify-content: center;
         margin: $size-m;
 
         // Sticker
-        .wrapper__93f27 {
+        .wrapper_d9a30a {
             background: unset;
         }
 
-        .placeholderCard__622e2 {
+        .placeholderCard__393a9 {
             border-color: $cream;
             border-radius: $size-m;
         }
@@ -76,19 +76,19 @@
 
 // Sticker actions
 @media (min-width: 1010px) {
-    .actions__00a5e {
+    .actions__52158 {
         flex-direction: row;
         inset: -16px 0 auto;
 
-        .action_d01fae {
+        .action__725fd {
             margin-top: 0;
             width: 50%;
         }
     }
 }
 
-.action_d01fae,
-.soundEdit__8bf1b {
+.action__725fd,
+.soundEdit__4ee33 {
     box-shadow: none;
     background: unset;
 
@@ -96,7 +96,7 @@
         color: $cream;
     }
 
-    &:is(.actionRemove_e920bc, .soundRemove__7165f) {
+    &:is(.actionRemove__736ed, .soundRemove__8f7ff) {
         &,
         &:hover,
         &:focus {

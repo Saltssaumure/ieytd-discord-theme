@@ -4,42 +4,42 @@
 @use "../../top/svg";
 
 // Student hubs
-.sidebar_ded4b5 + .scroller_e9501c {
+.sidebar_e031be + .scroller__32e73 {
     background: $black;
     border-left: $size-m solid $cream;
 }
 
 // Header
-.headerContainer_e815c8 {
+.headerContainer_bfb753 {
     @include card.xlarge;
 
-    .headerDescription_f4733e,
-    .headerText__4cd6e {
+    .headerDescription__8eeea,
+    .headerText_e06981 {
         color: $black;
     }
 
-    .headerImage_d4505b {
+    .headerImage__9a34a {
         margin-bottom: 0;
         @include filter.sepia;
     }
 }
 
 // Server
-.container__8877d {
+.container_c83a4f {
     @include card.large;
 
-    .iconContainer__004ce {
+    .iconContainer__6b1cc {
         background: $cream;
         .icon__388ab {
             background: svg.$hub;
         }
     }
 
-    .addButton__7e2ae {
+    .addButton__8962d {
         color: $cream;
     }
 }
 
-.divider__7f9aa {
+.divider__6c6c1 {
     display: none;
 }

@@ -8,14 +8,14 @@
 }
 
 // Channels missing dropdown
-.channelCoverage__3b43c {
+.channelCoverage__760f9 {
     @include card.large;
 
-    .warning__312f8 {
+    .warning_d3ab98 {
         color: $red;
     }
 
-    .progressBar__47525 {
+    .progressBar__00a1a {
         background: $cream !important;
 
         &[style$="background-color: var(--status-warning);"] {
@@ -27,7 +27,7 @@
         color: $cream;
     }
 
-    .channelCoverageDetails__1b72e {
+    .channelCoverageDetails__9f0ab {
         background: unset;
 
         svg {
@@ -35,36 +35,36 @@
         }
     }
 
-    .channelPill_c6644a {
+    .channelPill_a1112d {
         @include card.round;
     }
 }
 
 // Question
-.container_bc63f8 {
+.container_ecc97e {
     @include card.large;
 
-    .dragContainer_f1185f {
+    .dragContainer_c611aa {
         color: $cream;
         display: flex;
     }
 
-    .collapseButton__64ecd {
+    .collapseButton_a19991 {
         color: $cream;
     }
 
-    .removeButton_f663bf {
+    .removeButton__617fa {
         color: $red;
     }
 
     // Examples
-    .example__9c5a6 {
+    .example_ca938d {
         @include card.round;
     }
 }
 
 // Answer
-.optionCard__3e270 {
+.optionCard_b61e1c {
     @include card.round;
     padding-left: 32px;
 
@@ -72,33 +72,33 @@
         border-color: $cream;
     }
 
-    .plusIcon_ca11c0 {
+    .plusIcon_dac4bc {
         color: $cream;
     }
 }
 
 // Add question
-.addPrompt_d0c3a2 {
+.addPrompt__527b9 {
     @include card.round;
     padding: $size-m $size-xl;
     width: fit-content;
     align-self: center;
 
-    .plusIcon__5736c {
+    .plusIcon_f3eb9d {
         color: $cream;
     }
 }
 
-.separatorSection__72a21 {
+.separatorSection__98f02 {
     display: flex;
     flex-direction: column;
 }
 
-.divider_e8f455 {
+.divider__00189 {
     height: 0;
 }
 
 // Server guide banner gem
-.icon__0c3d6 {
+.icon_a857ab {
     color: $cream;
 }

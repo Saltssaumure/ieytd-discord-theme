@@ -2,12 +2,12 @@
 @use "../../../top/card";
 
 // Keybinds disabled warning
-.warning__9db16 {
+.warning__4da7a {
     @include card.large;
     border-radius: $size-max;
     border-color: $red;
 
-    .icon_ba989e {
+    .icon_aa840e {
         color: $red;
     }
 
@@ -17,14 +17,14 @@
 }
 
 // Custom keybind
-#{$root} .row__7a44a {
+#{$root} .row__7007e {
     box-shadow: none;
 
-    .keybindGroup__80beb {
+    .keybindGroup_aa4e13 {
         margin-top: 0;
     }
 
-    .switch_bc40ac {
+    .switch__8105e {
         padding-top: 36px;
     }
 }

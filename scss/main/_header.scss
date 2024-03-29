@@ -2,12 +2,12 @@
 @use "../top/filter";
 
 // Channel header
-.container__11d72:is(.themed_b152d4, .transparent__7f3e0) {
+.container__26baa:is(.themed_b152d4, .transparent__8d0a5) {
     background: $red;
     border-bottom: $size-s solid $cream;
 
     // Thread title wrapper
-    .children__32014 {
+    .children_cde9af {
         overflow: visible;
         align-items: flex-end;
     }
@@ -18,10 +18,10 @@
     }
 
     // Channel name
-    .titleWrapper__482dc {
+    .titleWrapper_d6133e {
         @include filter.shadow;
 
-        .title__9e2b0 {
+        .title__84e16 {
             position: relative;
             font-style: oblique;
             bottom: 2px;
@@ -32,14 +32,14 @@
     }
 
     // Divider
-    .divider_c09b64 {
+    .divider_bdb894 {
         display: none;
     }
 
     // Streamer
-    .container__0754a {
+    .container__6ae8e {
         align-items: flex-end;
-        .playingText_f2f60c {
+        .playingText__44fce {
             color: $black;
         }
     }
@@ -50,31 +50,31 @@
         font-size: 16px;
     }
 
-    .children__32014::after {
+    .children_cde9af::after {
         background: linear-gradient(90deg, transparent, $red);
     }
 
     // Icons
-    .controlIcon__25700,
-    .icon__4cb88 {
+    .controlIcon__73723,
+    .icon_ae0b42 {
         &,
-        .selected_be2668 &,
-        .clickable_d23a1a &,
-        .clickable_d23a1a:hover & {
+        .selected__1fc53 &,
+        .clickable_ce0925 &,
+        .clickable_ce0925:hover & {
             color: $cream;
         }
 
         // Strikethrough for muted channels
-        .strikethrough__99649 {
+        .strikethrough__4cbc4 {
             color: $black;
         }
     }
-    .iconBadge_cc5031 {
+    .iconBadge__20a6b {
         background: $cream;
     }
 
     // Search bar
-    .searchBar_e0c60b {
+    .searchBar__5a20a {
         color: $cream;
         border-radius: $size-max;
         background: $black;
@@ -82,19 +82,19 @@
         height: 28px;
 
         // Shift typed text to left a little
-        .DraftEditor-editorContainer:not(:has(.searchFilter__118cb)) {
+        .DraftEditor-editorContainer:not(:has(.searchFilter_dbda51)) {
             padding-left: 3px;
         }
 
-        .icon_f50f05 {
+        .icon__5c8c7 {
             color: $cream;
         }
     }
 }
 
 // Icons
-.controlIcon__25700,
-.controlIcon__25700.active_ff29dc,
-.controlIcon__25700:hover {
+.controlIcon__73723,
+.controlIcon__73723.active_ff29dc,
+.controlIcon__73723:hover {
     color: $cream;
 }

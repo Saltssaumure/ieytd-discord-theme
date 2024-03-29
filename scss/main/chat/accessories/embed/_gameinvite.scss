@@ -5,34 +5,34 @@
 // Game invite / listening party embed
 .invite__2a93b {
     // Text
-    .header__8b673,
-    .partyStatus__6a567,
-    .name_b50cd9 {
+    .header__1c712,
+    .partyStatus__12fc2,
+    .name__14833 {
         color: $cream;
     }
 
     // Links
-    .textLink__47850,
-    .message-group .textLink__47850 {
+    .textLink__811f1,
+    .message-group .textLink__811f1 {
         color: $red;
     }
 
     // Party members
-    .partyMemberEmpty__94736,
-    .moreUsers__1d9e9 {
+    .partyMemberEmpty__01e36,
+    .moreUsers__4af66 {
         background: $cream;
         color: $black;
         opacity: 0.7;
     }
 
     // Session over
-    .coverImageNotActionable__36f0f,
-    .artworkSpotifySessionEnded__8272a {
+    .coverImageNotActionable__8e34a,
+    .artworkSpotifySessionEnded_c0cf09 {
         @include filter.sepia;
     }
 
     // Help
-    .helpIcon_a58947 {
+    .helpIcon_dbf835 {
         background: $cream;
         g {
             fill: $black;

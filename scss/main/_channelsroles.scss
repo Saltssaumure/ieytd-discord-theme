@@ -3,10 +3,10 @@
 @use "../top/filter";
 
 // Channels & Roles
-#{$root} .emptyPage__3e15d,
-#{$root} .scrollerContainer_bf5dbd,
-#{$root} .container__7590f,
-.scroller__81266 {
+#{$root} .emptyPage_feb902,
+#{$root} .scrollerContainer_dda72c,
+#{$root} .container__6b2e5,
+.scroller__6ea8b {
     background: unset;
 }
 
@@ -17,7 +17,7 @@
     border-color: $cream !important;
 
     // Required answer
-    .required__4d6b5 {
+    .required__63194 {
         color: $red;
         &.error__3e1e1 {
             text-decoration-color: $red;
@@ -25,7 +25,7 @@
     }
 
     // Role
-    .helpText__1564e {
+    .helpText__80c19 {
         align-items: baseline;
         div {
             border-radius: $size-max;
@@ -35,7 +35,7 @@
     }
 
     // Dropdown
-    .select__55f87 {
+    .select_a50fd3 {
         // Top
         .css-llyypf,
         .css-mb2az-placeholder,
@@ -65,18 +65,18 @@
 }
 
 // Profile preview
-.profileCard_bd55ee {
+.profileCard__1d74b {
     @include card.xlarge;
 
-    .separator__63988 {
+    .separator__254f8 {
         display: none;
     }
 
-    .title__01c32 {
+    .title__141dd {
         margin-top: $size-m;
     }
 
-    .role__65ab8 {
+    .role__110aa {
         background: $cream;
         color: $black;
 
@@ -92,39 +92,39 @@
 }
 
 // Tip banner
-.container__6a848 {
+.container__8a0a9 {
     @include card.large;
 
-    .image__4cfd2 {
+    .image__2182a {
         @include filter.sepia;
     }
 
-    .closeButton__3e900 {
+    .closeButton_a70c1d {
         color: $cream;
     }
 }
 
 // Channel
-.channelRow__96673 {
+.channelRow__538ef {
     @include card.large;
 
-    &:hover:not(.disabled__583e7) {
+    &:hover:not(.disabled__556e5) {
         background: unset;
     }
 
-    &:not(.firstChannel__94f31) {
+    &:not(.firstChannel_c06b53) {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         border-top: 0;
     }
 
-    &:not(.lastChannel__129f1) {
+    &:not(.lastChannel__0a967) {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         border-bottom: 0;
     }
 }
 
-.separator__3cfd2 {
+.separator__68570 {
     display: none;
 }

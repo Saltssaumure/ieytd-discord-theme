@@ -2,7 +2,7 @@
 @use "../top/card";
 
 // BDFDB
-.colorPickerSwatch__87597.custom__383ac[style*="background"] {
+.colorPickerSwatch__343b4.custom__383ac[style*="background"] {
     border: $size-xs solid $cream !important;
 }
 
@@ -13,7 +13,7 @@
     border-radius: $size-max !important;
     margin: $size-s $size-m;
 
-    .button__57d93 {
+    .button__33db6 {
         &,
         &:hover {
             @include card.round;
@@ -21,8 +21,8 @@
     }
 }
 
-input.input_d266e7 {
-    &.success_e04262,
+input.input_f27786 {
+    &.success__6529a,
     &.error__18f19 {
         border-width: $size-xs !important;
     }

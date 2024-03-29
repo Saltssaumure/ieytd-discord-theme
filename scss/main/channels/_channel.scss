@@ -4,39 +4,39 @@
 
 $icon-size: calc(20px + 6px);
 $spine-size: calc($icon-size / 1.5);
-$invertible: ":is(.name__8d1ec, .icon_eff5d4, .overflow__87fe8, :is(.iconItem__8e3b8, .iconItem__8e3b8:hover) .actionIcon_d679b5)";
+$invertible: ":is(.name__4eb92, .icon__67ab4, .overflow__993fa, :is(.iconItem__56989, .iconItem__56989:hover) .actionIcon_b149a2)";
 
 // Category
-.wrapperCommon_d71dee {
+.wrapperCommon__2578a {
     align-items: baseline;
     color: $black;
 }
 
 // Channel
-.containerDefault__3187b {
+.containerDefault_ae2ea4 {
     background: $black;
     height: channel.height(34px);
     box-sizing: border-box;
     border: $size-xs solid;
     border-left: 0;
 
-    &:not(.container_f87d43 .containerDefault__3187b) {
+    &:not(.container__342a0 .containerDefault_ae2ea4) {
         border-color: $cream;
         border-radius: 0 channel.radius(34px) channel.radius(34px) 0;
         margin-top: $channel-spacing;
     }
 
     // Browse channels
-    &.wrapper__7bcde {
+    &.wrapper__612a5 {
         margin-left: 0;
     }
 
     // Inner link
-    .link__95dc0 {
+    .link_ddbb36 {
         padding: 0 8px;
     }
 
-    .name__8d1ec {
+    .name__4eb92 {
         line-height: $icon-size;
     }
 
@@ -53,34 +53,34 @@ $invertible: ":is(.name__8d1ec, .icon_eff5d4, .overflow__87fe8, :is(.iconItem__8
 }
 
 // Channel icon
-.icon_eff5d4 {
+.icon__67ab4 {
     zoom: 1.3;
 }
 
 // Red when muted
-.modeMuted__0aeea,
-.modeMuted__0aeea:hover {
+.modeMuted_f0a72e,
+.modeMuted_f0a72e:hover {
     #{$invertible} {
         color: $red;
     }
 }
 
 // Cream when unread
-.modeUnread_f74c03,
-.modeUnread_f74c03:hover {
+.modeUnreadImportant__35358,
+.modeUnreadImportant__35358:hover {
     #{$invertible} {
         color: $cream;
     }
 }
 
 // Inverted when connected or selected
-.containerDefault__3187b:has(.modeConnected__1c02e, .modeSelected__487d6),
-.containerDefault__3187b.modeSelected__487d6 {
+.containerDefault_ae2ea4:has(.modeConnected__52a8f, .modeSelected__473f1),
+.containerDefault_ae2ea4.modeSelected__473f1 {
     background: $cream;
     border-color: $black !important;
 }
 
-:is(.modeConnected__1c02e, .modeSelected__487d6) {
+:is(.modeConnected__52a8f, .modeSelected__473f1) {
     &,
     &:hover {
         #{$invertible} {
@@ -90,12 +90,12 @@ $invertible: ":is(.name__8d1ec, .icon_eff5d4, .overflow__87fe8, :is(.iconItem__8
 }
 
 // Live channel
-.iconLive_d0ba27 {
+.iconLive__85145 {
     color: $red !important;
 }
 
 // Threads
-.container_f87d43 {
+.container__342a0 {
     overflow: hidden;
     border: solid $cream;
     border-width: 0 $size-xs $size-xs 0;
@@ -103,14 +103,14 @@ $invertible: ":is(.name__8d1ec, .icon_eff5d4, .overflow__87fe8, :is(.iconItem__8
     border-radius: 0 0 channel.radius(34px) 0;
 
     // Thread
-    .containerDefault__3187b {
+    .containerDefault_ae2ea4 {
         margin-top: 0;
         border: 0;
     }
 
     // Spine
     .spine__88e6d,
-    .spineBorder_bdec8b {
+    .spineBorder__52981 {
         top: 0;
         height: $spine-size;
         width: $spine-size;
@@ -123,12 +123,12 @@ $invertible: ":is(.name__8d1ec, .icon_eff5d4, .overflow__87fe8, :is(.iconItem__8
 }
 
 // Channel info
-.channelInfo_b7ab2e {
+.channelInfo_b0882c {
     --text-muted: #{$cream};
     --text-brand: #{$cream};
 }
 // Mention badge
-.numberBadge__50328 {
+.numberBadge__40d6f {
     background: $red !important;
     color: $black;
     padding-left: 2px;
@@ -136,10 +136,10 @@ $invertible: ":is(.name__8d1ec, .icon_eff5d4, .overflow__87fe8, :is(.iconItem__8
 }
 
 // Events tab
-.content_c6490e {
+.content__6bf34 {
     align-items: center;
 
-    .numberBadge_af710e {
+    .numberBadge__43366 {
         background: $red;
         color: $black;
         padding-left: 2px;

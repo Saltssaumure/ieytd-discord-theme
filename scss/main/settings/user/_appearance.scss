@@ -1,12 +1,12 @@
 @use "../../../top/vars" as *;
 
 // Themes
-.defaultThemeSelection__5c688 {
+.defaultThemeSelection_f6b081 {
     box-shadow: none;
 }
 
 // Selected theme
-.selectionCircle_f4288e {
+.selectionCircle_aa3fcd {
     box-shadow: inset 0 0 0 $size-s $cream;
 
     circle {
@@ -19,20 +19,20 @@
 }
 
 // Basic themes
-.basicThemeSelectors_f6c054 {
+.basicThemeSelectors__5ca8c {
     margin: $size-m;
 
     // Sync theme icon
-    .iconWrapper__1fbd0 path {
+    .iconWrapper__660f6 path {
         fill: $cream;
     }
 }
 
 // Nitro themes hidden due to incompatibility
-.themeTitle__23d07 button {
+.themeTitle_ab0542 button {
     display: none;
 }
-.basicThemeSelectors_f6c054 {
+.basicThemeSelectors__5ca8c {
     & + section {
         display: none;
     }

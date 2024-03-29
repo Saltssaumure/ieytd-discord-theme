@@ -9,40 +9,40 @@
 }
 
 // Header
-.header_bf5f46 {
+.header__93ab0 {
     background: $red;
 
-    .settingsClickArea__307ff {
+    .settingsClickArea__2839d {
         color: $cream;
     }
 }
 
 // Server sidebar
-.categoryList__173de {
+.categoryList__2f64f {
     top: 64px;
     left: $size-s;
     bottom: $size-s;
     border-bottom-left-radius: $size-l;
 
-    .category_f1b389 {
+    .category__81549 {
         border-radius: $size-max;
         background: $red;
         overflow: hidden;
         box-shadow: 0 0 0 2px $black;
     }
 
-    .categoryIconIcon_ae84ad {
+    .categoryIconIcon__18765 {
         color: $cream;
     }
 }
 
 // Sound panel
-.listWrapper__2275d {
+.listWrapper_b28f3e {
     left: 47px;
     width: calc(100% - 47px);
 
     // Group header
-    .sectionHeader_c664ae {
+    .sectionHeader_d974fe {
         position: sticky;
         margin: 0;
         top: 0;
@@ -52,12 +52,12 @@
         height: 32px;
         align-items: center;
 
-        .guildIcon__4d796 {
+        .guildIcon_ed1ab4 {
             border-radius: $size-max;
             background: $red;
         }
 
-        .sectionTitle__8df35 {
+        .sectionTitle__1a48e {
             color: $cream;
             font-size: 12px;
             line-height: 12px;
@@ -66,35 +66,35 @@
     }
 
     // Sound
-    .soundButton__5ad7b {
+    .soundButton__845c7 {
         @include card.med;
 
         // Hover to select
-        &.focused_a3fd1a.hoverActiveBackground__32054,
-        &:focus-within.hoverActiveBackground__32054,
-        &:hover.hoverActiveBackground__32054 {
+        &.focused__19c38.hoverActiveBackground_b12fe7,
+        &:focus-within.hoverActiveBackground_b12fe7,
+        &:hover.hoverActiveBackground_b12fe7 {
             background: unset;
 
-            .secondaryButton__41267 {
+            .secondaryButton_e685be {
                 color: $cream;
             }
 
-            .favoriteIconFavorite_a2c6b6 path:last-child {
+            .favoriteIconFavorite__1fe90 path:last-child {
                 fill: $cream;
             }
         }
 
         // Hover to play
-        .buttonOverlayBackground_ec646a {
+        .buttonOverlayBackground__9265a {
             background: $cream;
         }
-        .buttonOverlay__76d7d:has(.buttonOverlayBackground_ec646a) {
-            .playIcon__68d2d,
-            .secondaryButton__41267 {
+        .buttonOverlay_f5fc59:has(.buttonOverlayBackground__9265a) {
+            .playIcon__7aba3,
+            .secondaryButton_e685be {
                 color: $black;
             }
 
-            .favoriteIconFavorite_a2c6b6 path:last-child {
+            .favoriteIconFavorite__1fe90 path:last-child {
                 fill: $black;
             }
         }
@@ -104,7 +104,7 @@
     .soundAddButton__896b6 {
         border: 0;
 
-        .soundAddIcon__0f1fb {
+        .soundAddIcon_e10649 {
             color: $cream;
         }
     }

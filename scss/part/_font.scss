@@ -27,22 +27,22 @@
 
 code,
 .markup_a7e664 code.inline,
-.codeBlockText__6172e,
-.codeLine__3797b {
+.codeBlockText_bcfd01,
+.codeLine__10acb {
     font-family: var(--font-code);
 }
 
-.eyebrow__003da,
-.eyebrow__35262,
-.eyebrow__41622,
+.eyebrow_dd94cb,
+.eyebrow__1fb7a,
+.eyebrow__68c11,
 .eyebrow__42dd7,
-.eyebrow__4498b,
-.eyebrow__60985,
-.eyebrow__7b0c0,
-.eyebrow__847c8,
-.eyebrow_b7df6b,
+.eyebrow_f92eb2,
+.eyebrow_c15ff6,
+.eyebrow__5d57b,
+.eyebrow_a42fd2,
+.eyebrow__4e5bb,
 .eyebrow_e5a66c,
-.eyebrow_f53856,
+.eyebrow_b3f8ba,
 [class*="heading-deprecated-12-"] {
     @include text.sizeup(12px, 16px);
 }
@@ -52,19 +52,19 @@ code,
     @include text.sizeup(14px, 18px);
 }
 
-.h3_de2650 {
+.h3__1f119 {
     @include text.sizeup(16px, 24px);
 }
 
-.h2_f0b768,
-.h4_b54400,
+.h2_da4766,
+.h4__2a89d,
 [class*="heading-md-"] {
     @include text.sizeup(16px, 20px);
 }
 
 .markup_a7e664 h2,
-.h1__90460,
-.userTag__4ca14,
+.h1_dc86b3,
+.userTag__28f9c,
 [class*="heading-lg-"] {
     @include text.sizeup(20px, 24px, 12px);
 }
@@ -78,36 +78,36 @@ code,
     @include text.sizeup(32px, 40px, 12px);
 }
 
-.defaultColor__87d87,
+.defaultColor__8610e,
 .defaultColor__77578,
-.defaultColor_d757c2,
-.colorStandard__5111e,
-.description__7af71,
-.labelDescriptor__6432e,
-.h5__884a2,
-.label__5447e,
-.legend__31ccc,
+.defaultColor_e04945,
+.colorStandard__3d599,
+.description_b0e07c,
+.labelDescriptor__09faf,
+.h5__28baa,
+.label_bf6957,
+.legend__2459b,
 .markup_a7e664,
-.title__28a65,
-.userTag__4ca14,
-.base__7ba63,
-.channelName__9d08b,
-.sourceName__6e76b,
-.imageUploader__8d497 .sizeInfo__254b6,
-#{$root} .inputDefault__0d65a,
-.guildSource__662f7,
-#{$root} .hiddenMessage__19ef2,
-.body__13cde,
-.input_f4043f {
+.title__8b9e4,
+.userTag__28f9c,
+.base__1aa9d,
+.channelName_e50365,
+.sourceName__96136,
+.imageUploader_e725b4 .sizeInfo_fd8f0c,
+#{$root} .inputDefault__591c7,
+.guildSource__1669c,
+#{$root} .hiddenMessage_e7355b,
+.body_a02b78,
+.input__745d4 {
     color: $cream;
 }
 
-.description__548d5,
-.helpText__1b4f8,
-.titleText_c58c2c,
-div:not(.desaturateUserColors_b72bd3),
+.description__38492,
+.helpText__6a93e,
+.titleText__1fd97,
+div:not(.desaturateUserColors_eb6bd2),
 :is(h1, h2, h3, h4),
-span:not(.username_d272d6, .username_d30d99) {
+span:not(.username_d272d6, .username__0b0e7) {
     &:where([style^="color"]) {
         color: $cream !important;
     }

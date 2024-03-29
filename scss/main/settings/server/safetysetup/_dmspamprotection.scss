@@ -2,37 +2,37 @@
 @use "../../../../top/card";
 
 .caret__4c002,
-.previewIcon_dbf27a,
-.previewIcon_dbf27a:hover {
+.previewIcon__01031,
+.previewIcon__01031:hover {
     color: $cream;
 }
 
-.rulesScreeningItems__0ba16 > div {
+.rulesScreeningItems_c21410 > div {
     border: 0;
 }
 
 // Description
-.backgroundContainer__06189 {
+.backgroundContainer__8f24a {
     background: unset;
     padding: 0;
 }
 
 // Server rule
-.fieldBackground_b79764 {
+.fieldBackground__65920 {
     background: unset;
 }
 
 // Server rules
-.containerPadding_cfd5a0 {
+.containerPadding__28475 {
     padding: 0;
 
-    .termsFieldBody__2e9c4 {
+    .termsFieldBody__30daf {
         border: 0;
         padding: 0;
         margin-bottom: 16px;
     }
 
-    .fieldFooterContainer_bde375 {
+    .fieldFooterContainer__937dd {
         @include card.round;
         width: fit-content;
         padding: $size-s $size-m;
@@ -43,12 +43,12 @@
     }
 }
 
-.containerFooter_c8da8a {
+.containerFooter__2f30f {
     background: unset;
     padding: 0;
 
     // Remove rules
-    .removeButton__2c78a {
+    .removeButton__53387 {
         color: $red;
     }
 }

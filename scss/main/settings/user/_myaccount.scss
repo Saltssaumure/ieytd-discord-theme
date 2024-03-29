@@ -1,13 +1,13 @@
 @use "../../../top/vars" as *;
 
 // My account
-.accountProfileCard__22589 {
+.accountProfileCard__744d8 {
     border: $size-s solid $cream;
     border-radius: $size-xl;
     background: $black;
 
-    .background_b61fcc,
-    .fieldList_aab0de {
+    .background__4e802,
+    .fieldList__4e6dd {
         background: $black;
     }
 
@@ -15,19 +15,19 @@
         color: $cream !important;
     }
 
-    .profileCardUsernameRow__4cbd8 {
+    .profileCardUsernameRow_f8853e {
         align-items: baseline;
 
-        .overflowMenuIcon__91663 {
+        .overflowMenuIcon_a3868f {
             color: $cream;
         }
     }
 }
 
 // Password and authentication
-.userSettingsSecurity__03e70 .isEnabled__08bc1 {
+.userSettingsSecurity__6051f .isEnabled_a6d539 {
     color: $cream;
-    .lockIcon_cf3a4d {
+    .lockIcon_f844b1 {
         display: none;
     }
 }

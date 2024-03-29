@@ -13,14 +13,14 @@
 .segmentContainer-358IfE {
     background: $red;
 }
-.tabContainer_dc7d02 {
+.tabContainer__15e2d {
     @include tabs.bar;
     border-bottom: 0;
 
-    .tabItem__0cb9d {
+    .tabItem_fda22a {
         @include tabs.tab($ISINVERT: true);
 
-        &.tabItemSelected__3dfe7 {
+        &.tabItemSelected_f4cf64 {
             @include tabs.tab;
         }
     }

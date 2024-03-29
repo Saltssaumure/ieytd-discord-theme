@@ -9,27 +9,27 @@ div[role="radiogroup"] {
         margin-bottom: 0;
         color: $cream;
 
-        &:hover:not([aria-checked="true"]):not(.disabled_af801d) {
+        &:hover:not([aria-checked="true"]):not(.disabled_e23f76) {
             color: $cream;
         }
     }
 
-    .itemFilled__373d7 {
+    .itemFilled__5a849 {
         background: unset;
     }
 
-    .radioBar__40e1b {
+    .radioBar__70669 {
         border-radius: 0;
         border-left-width: $size-m;
 
-        .radioIconForeground__99b9b {
+        .radioIconForeground__9ca1e {
             color: var(--radio-bar-accent-color);
         }
     }
 }
 
 // Feedback survey box
-.feedback__2b8a9 {
+.feedback_fa4f12 {
     background: unset;
     padding: 8px 0;
     color: $cream;

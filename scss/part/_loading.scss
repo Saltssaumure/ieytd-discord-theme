@@ -1,7 +1,7 @@
 @use "../top/vars" as *;
 
 // Rotating cubes
-.wanderingCubes_ce37c6 {
+.wanderingCubes__921f8 {
     zoom: 3;
     .item__0e5d6 {
         background: $red;
@@ -13,14 +13,14 @@
 }
 
 // Three dots
-.lowMotion_ff2273 .item__0e5d6,
-#{$root} .lookFilled__19298 .spinnerItem_c07231 {
+.lowMotion__9895f .item__0e5d6,
+#{$root} .lookFilled__950dd .spinnerItem_a87807 {
     background: $cream;
 }
 
 // Spinner
-.circular__36661 {
-    .path__5eb4b {
+.circular__486b1 {
+    .path__67bca {
         stroke: $cream;
     }
 }

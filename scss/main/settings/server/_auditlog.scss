@@ -3,29 +3,29 @@
 @use "../../../top/filter";
 @use "../../../top/svg";
 
-.quickSelectLabel_cf5c1b,
-.quickSelect_ae48d2 {
+.quickSelectLabel__79774,
+.quickSelect__540d0 {
     color: $cream;
 }
 
-#{$root} .quickSelectArrow__9853b {
+#{$root} .quickSelectArrow__5988b {
     background-image: svg.$audit-arrow;
 }
 
-.content__3d283 {
+.content__97388 {
     gap: $size-l;
 }
 
 // Log entries
 #{$root} {
-    .auditLog__6c805 {
+    .auditLog__9228d {
         @include card.large;
         margin-bottom: $size-l;
 
         // Open arrow
         &,
         &:hover {
-            .expandForeground_c53c75 {
+            .expandForeground__0d39b {
                 stroke: $cream;
             }
         }
@@ -37,20 +37,20 @@
     }
 
     // Inner
-    .headerClickable_c4d7a9,
-    .headerDefault__3e003,
-    .headerExpanded__03c29,
-    .changeDetails_ecd760 {
+    .headerClickable__334f7,
+    .headerDefault__31bb1,
+    .headerExpanded__05a35,
+    .changeDetails_c0aa16 {
         background: unset;
         color: $cream;
     }
 
     // Action type icon
-    .icon__99140 {
+    .icon__2cbfe {
         @include filter.sepia;
     }
 }
 
-.divider__1505d {
+.divider__1ee1f {
     display: none;
 }

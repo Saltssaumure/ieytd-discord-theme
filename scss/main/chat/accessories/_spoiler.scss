@@ -2,7 +2,7 @@
 @use "../../../top/card";
 
 // Spoiler
-.spoilerContent__37bfa {
+.spoilerContent__383f3 {
     background: unset;
 
     // Text specific
@@ -13,7 +13,7 @@
     }
 
     // Embed specific
-    .container_dbadf5 & {
+    .container__62863 & {
         // Hidden spoiler
         &.hidden_f44e41 {
             &,
@@ -23,13 +23,13 @@
         }
 
         // Spoiler icon
-        .spoilerWarning_d02e2d {
+        .spoilerWarning_d68130 {
             background: $black;
             color: $red;
         }
 
         // Immediate wrapper around content
-        .hiddenAttachment_dfecc7.obscured_dd8869 {
+        .hiddenAttachment_a5e57b.obscured_d8e1c5 {
             filter: none;
             visibility: hidden;
         }

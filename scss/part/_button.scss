@@ -2,11 +2,11 @@
 @use "../top/button" as button;
 
 #{$root} {
-    :is(.lookFilled__19298, .lookOutlined__46d54, .lookInverted_ee4261) {
+    :is(.lookFilled__950dd, .lookOutlined__014b5, .lookInverted_a299dc) {
         border-radius: $size-max;
         border: $size-xs solid;
 
-        &.colorPrimary__6ed40 {
+        &.colorPrimary_ebe632 {
             @include button.button($black, $cream);
 
             &[aria-disabled="true"],
@@ -15,63 +15,63 @@
             }
         }
 
-        &.colorGreen__5f181 {
+        &.colorGreen__75c93 {
             @include button.button($black, $cream);
         }
 
-        &.colorRed_d6b062 {
+        &.colorRed__5a617 {
             @include button.button($black, $red);
         }
 
-        :is(&.colorBrand_b2253e, &.colorBrandNew_fd170a) {
+        :is(&.colorBrand__27d57, &.colorBrandNew__8872c) {
             @include button.button($black, $cream);
         }
 
-        &.colorWhite__43488 {
+        &.colorWhite__0033e {
             @include button.button($red, $cream);
         }
 
         &.cta__69e2a,
         &.button__6ac9e,
-        &.buttonColor_fa1bb3,
-        &.buttonColor__6f6b0,
-        &.buttonColor__01bf8 {
+        &.buttonColor__40507,
+        &.buttonColor__8c13f,
+        &.buttonColor_fd4fe8 {
             @include button.button($black, $cream);
         }
 
-        &.viewServerButton__1ce42 {
+        &.viewServerButton__457ab {
             @include button.button($black, $cream);
         }
 
-        &.buttonWhite__30853 {
+        &.buttonWhite__913ed {
             color: $cream !important;
             border-color: $cream !important;
         }
     }
 
-    .lookLink__93965 {
-        &.colorPrimary__6ed40 {
+    .lookLink_a2da25 {
+        &.colorPrimary_ebe632 {
             @include button.link($cream);
         }
 
-        &.colorLink_b651e5 {
+        &.colorLink__4141a {
             @include button.link($red);
         }
 
-        &.colorRed_d6b062 {
+        &.colorRed__5a617 {
             @include button.link($black);
         }
 
-        &.colorWhite__43488 {
+        &.colorWhite__0033e {
             @include button.link($cream);
         }
     }
 
-    .borderPrimary__60ecd {
+    .borderPrimary__386cf {
         border-color: $cream !important;
     }
 
-    .button__57d93 {
+    .button__33db6 {
         @include button.button($black, $cream);
         border-radius: $size-max;
         border: $size-xs solid;
@@ -82,10 +82,10 @@
     }
 }
 
-.lookBlank__7ca0a {
+.lookBlank_a5b4ca {
     border-radius: $size-max;
 
-    .buttonContainer__51200 & {
+    .buttonContainer__36b61 & {
         color: $red;
         padding: 6px 12px;
         border: $size-xs solid;
@@ -93,7 +93,7 @@
 }
 
 // Action buttons
-.button_d553e5 {
+.button_d4bf9b {
     &,
     &:hover,
     &:active {
@@ -104,7 +104,7 @@
         padding: 4px;
     }
 
-    &.dangerous_b60ec0 {
+    &.dangerous__8fbad {
         &,
         &:hover,
         &:active {
@@ -113,7 +113,7 @@
     }
 }
 
-.button__66e8c.buttonColor_a6eb73 {
+.button_b82d53.buttonColor__7bad9 {
     &,
     &:hover {
         background: $black;

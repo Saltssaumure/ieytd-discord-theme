@@ -2,13 +2,13 @@
 @use "../../../top/card";
 
 #{$root} {
-    .bannedUser_fb03db {
+    .bannedUser_fa7d5e {
         @include card.large;
         box-shadow: none;
         padding: $size-m;
 
-        .username_ae1d35,
-        .username_ae1d35 .discrim__7fd4d {
+        .username__4fd9b,
+        .username__4fd9b .discrim__35f2b {
             color: $cream;
         }
     }

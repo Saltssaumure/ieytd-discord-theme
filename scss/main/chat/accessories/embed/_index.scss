@@ -15,24 +15,24 @@
 // Game invite
 #{$root} .invite__2a93b,
 // Audio
-#{$root} .wrapperAudio__555ce,
+#{$root} .wrapperAudio__178e9,
 // Generic file
-.attachment_f3cf2c.newMosaicStyle__235c9,
-.container__8cab3,
+.attachment__06ca3.newMosaicStyle_b4aa24,
+.container__10c80,
 // Gift
-.giftCodeContainer__7fa01 .tile_ebc93b,
+.giftCodeContainer_fedf35 .tile_ebc93b,
 // .hidden_f44e41,
 // Server invite
-.wrapper_efe67f {
+.wrapper__8a5dd {
     @include card.large;
 }
 
-.messageAttachment_b97504 {
+.messageAttachment__5dae1 {
     overflow: visible;
 }
 
 // Remove embed
-.embedSuppressButton_df9a75 {
+.embedSuppressButton__5aae1 {
     right: 4px;
     top: 4px;
     background: $cream;
