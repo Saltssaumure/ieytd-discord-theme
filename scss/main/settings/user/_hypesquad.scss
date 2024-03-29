@@ -2,44 +2,44 @@
 @use "../../../top/card";
 @use "../../../top/filter";
 
-.membershipDialog__2f195 {
+.membershipDialog_a0308e {
     background: unset;
     border: $size-s solid;
     border-radius: $size-l;
 
-    &.membershipDialogHouse1__24868 {
+    &.membershipDialogHouse1__53b1f {
         border-color: var(--hypesquad-house-1);
     }
 
-    &.membershipDialogHouse2_e343cb {
+    &.membershipDialogHouse2_a57bdd {
         border-color: var(--hypesquad-house-2);
     }
 
-    &.membershipDialogHouse3_d0cf09 {
+    &.membershipDialogHouse3__16fa1 {
         border-color: var(--hypesquad-house-3);
     }
 
-    .membershipDialogSwitchHousesAction__3508b:hover {
+    .membershipDialogSwitchHousesAction__0094e:hover {
         color: $cream;
     }
 }
 
-.features_e727cc {
-    .perkIcon__80b43 {
+.features__7f9b6 {
+    .perkIcon__33a07 {
         @include filter.sepia;
     }
 
-    .title_d8b71c,
-    .description__2f445 {
+    .title_ad6686,
+    .description__1f05f {
         color: $cream;
     }
 }
 
-.featureBorder__46921,
-.leaveActionWrapper__9f719 {
+.featureBorder__3e54f,
+.leaveActionWrapper_eb66f1 {
     border-top: 0;
 }
 
-.videoWrapper__7b3e0 {
+.videoWrapper__530de {
     background: unset;
 }

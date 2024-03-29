@@ -1,7 +1,7 @@
 @use "../top/vars" as *;
 
 // Beta tag
-.textBadge__45d79.eyebrow__60985 {
+.textBadge_f05120.eyebrow_c15ff6 {
     font-size: 14px;
     line-height: 12px;
     background: $cream !important;
@@ -9,21 +9,21 @@
 }
 
 // Boost requirement tags
-.availabilityIndicator__32891,
-.guildFeatureAvailabilityIndicator__3fb19 {
+.availabilityIndicator__52d73,
+.guildFeatureAvailabilityIndicator__21431 {
     align-items: baseline;
     background: unset;
     margin-bottom: 0;
 }
 
 // Bot tag
-.px__97c6b.botTag__4211a,
-.rem__931aa.botTag__4211a {
+.px__7f04f.botTag__4211a,
+.rem_be1e7a.botTag__4211a {
     border-radius: $size-max;
 }
 
 // OP tag
-.rem__931aa.botTag__4211a.botTagOP_e48ddb {
+.rem_be1e7a.botTag__4211a.botTagOP_e48ddb {
     border-radius: $size-max;
     position: relative;
     margin-top: 0;
@@ -37,7 +37,7 @@
 }
 
 // Safety setup > Activity alerts channel
-.valuePill__9d21a {
+.valuePill__75168 {
     background: $cream;
     color: $black !important;
 }

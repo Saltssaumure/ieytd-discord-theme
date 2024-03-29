@@ -2,8 +2,8 @@
 @use "../../../top/card";
 @use "../../../top/filter";
 
-.sectionDescription__93f73,
-.accountCreditDescription__59ab8 {
+.sectionDescription__051ab,
+.accountCreditDescription__41083 {
     color: $cream;
 }
 
@@ -13,39 +13,39 @@
     color: $cream;
 
     // Cancelled or failed payment
-    &.canceled__4a0b5,
-    &.failedPayment__2e662 {
+    &.canceled__925b5,
+    &.failedPayment__59356 {
         background: $red;
 
-        .planInfo_cd8cba,
-        .planName__72790 {
+        .planInfo_c12dc8,
+        .planName_f65c33 {
             color: $black;
         }
     }
 
-    .image__88ebc {
+    .image__51129 {
         @include filter.sepia;
     }
 }
 
 // Payment details
-.detailsBlock__1191c {
+.detailsBlock__319f5 {
     @include card.large;
     color: $cream;
 }
 
 // Subscription credits
-.noItemsCard_f473e7 {
+.noItemsCard__9781b {
     color: $cream;
 
-    .noItemsIcon__38ca2 {
+    .noItemsIcon_ead6f9 {
         background: $red;
         color: $black;
     }
 }
 
 // Separators
-.sectionAccountCredit__8ffc1,
-.subscriptionDetails_f73fb4 {
+.sectionAccountCredit_c94c5d,
+.subscriptionDetails_a1ad09 {
     border-bottom: 0;
 }

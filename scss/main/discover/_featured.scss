@@ -6,26 +6,26 @@
 // Featured servers
 #{$root} {
     // Main panel
-    .pageWrapper_fef757 {
+    .pageWrapper_c182d3 {
         background: $black;
         color: $cream;
         border-left: $size-m solid $cream;
     }
 
     // Splash and search
-    .searchHeader_d4db5a {
+    .searchHeader__2707c {
         @include card.xlarge;
 
-        .headerImage__0db01 {
+        .headerImage_bc3304 {
             @include filter.sepia;
         }
 
-        .searchBoxInputWrapper__2a2f1 {
+        .searchBoxInputWrapper_c93aab {
             padding-left: $size-m;
         }
 
-        .searchSubtitle__1f7eb,
-        .searchTitle__66210 {
+        .searchSubtitle__94796,
+        .searchTitle__533c3 {
             color: $black;
         }
     }
@@ -40,7 +40,7 @@
             background: $black;
             transform: none;
 
-            .iconMask__1aff7 {
+            .iconMask__4092e {
                 background: $black;
             }
 
@@ -50,7 +50,7 @@
         }
 
         // Icon
-        .guildIcon__597aa {
+        .guildIcon__66641 {
             border-radius: $size-max;
             overflow: hidden;
 
@@ -58,32 +58,32 @@
                 mask: none;
             }
 
-            .svg__7900e {
+            .svg_bb7847 {
                 border-radius: $size-max;
             }
         }
 
         // More actions
-        .actionButtons__481c3 {
+        .actionButtons_dc4206 {
             top: 145px;
             right: $size-s;
         }
 
         // Name
-        .title__17a17 {
+        .title_cb8320 {
             align-items: baseline;
             overflow: visible;
 
-            .guildName__802c6 {
+            .guildName_c7c59e {
                 overflow: visible;
             }
         }
 
         // Dot
-        .dotOnline__72689 {
+        .dotOnline__9c3e9 {
             background: $cream;
         }
-        .dotOffline_a11803 {
+        .dotOffline__6325d {
             &::before {
                 @include status.dot;
                 margin: 2px;
@@ -92,7 +92,7 @@
     }
 
     // Footer
-    .footerImage_b0b86b {
+    .footerImage__2c3fd {
         @include filter.sepia;
     }
 }

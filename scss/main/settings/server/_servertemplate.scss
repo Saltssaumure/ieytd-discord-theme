@@ -2,22 +2,22 @@
 @use "../../../top/filter";
 @use "../../../top/card";
 
-.descriptionBox_cca0c3 {
+.descriptionBox_bdb07b {
     background: unset;
 }
 
-.descriptionRow__5d784 {
+.descriptionRow__9397a {
     color: $cream;
 }
 
-.descriptionIcon__2e291 {
+.descriptionIcon__59591 {
     circle {
         fill: $black;
     }
 
     path {
         fill: $cream;
-        .descriptionSection_d8976f:last-child & {
+        .descriptionSection_e074a0:last-child & {
             fill: $red;
         }
     }

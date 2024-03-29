@@ -3,9 +3,9 @@
 @use "../top/grabber";
 
 // Progress
-:is(.mediaBarInteraction__0633c, .mediaBarInteractionDragging__0a2ee) {
+:is(.mediaBarInteraction_e21234, .mediaBarInteractionDragging__55800) {
     // Progress bar
-    .mediaBarWrapper_f312bd {
+    .mediaBarWrapper_e90a7a {
         @include card.round;
         overflow: visible;
 
@@ -17,19 +17,19 @@
         }
 
         // Mouseover
-        .mediaBarPreview__2937c {
+        .mediaBarPreview__39d32 {
             background: $cream;
             opacity: 0.5;
         }
 
         // Played
-        .mediaBarProgress__29db2 {
+        .mediaBarProgress_a3b7f1 {
             background: $cream;
         }
     }
 
     // Progress bar square ends
-    .fakeEdges__17ee5 {
+    .fakeEdges_bbed67 {
         &::after,
         &::before {
             display: none;
@@ -37,16 +37,16 @@
     }
 
     // Grabber
-    &:hover .mediaBarGrabber_c64ff9 {
+    &:hover .mediaBarGrabber__1d527 {
         margin-left: 0;
         box-sizing: border-box;
     }
-    .vertical__13de4 &:hover .mediaBarGrabber_c64ff9 {
+    .vertical__67f7d &:hover .mediaBarGrabber__1d527 {
         @include grabber.mini;
         background: $black;
         margin-top: calc(12px / -2);
     }
-    .horizontal__3deed &:hover .mediaBarGrabber_c64ff9 {
+    .horizontal_c25137 &:hover .mediaBarGrabber__1d527 {
         @include grabber.full;
         background: $red;
         margin-right: calc(20px / -2);

@@ -1,17 +1,17 @@
 @use "../../top/vars" as *;
 
 // Discord loading
-.container__4bde3 {
+.container__827e6 {
     background: linear-gradient($black, $red);
     opacity: 0.7 !important;
 
-    .content__0e954 {
+    .content_de05de {
         border-radius: $size-max;
         background: linear-gradient($cream, transparent);
         img {
         }
 
-        .tipTitle_a7615c {
+        .tipTitle_ebc1d5 {
             font-family: var(--font-display);
             font-size: 24px;
             line-height: 36px;
@@ -20,16 +20,16 @@
             }
         }
 
-        .tipTitle_a7615c,
+        .tipTitle_ebc1d5,
         .tip__6e299 {
             color: $cream;
         }
     }
 
-    .problems__755eb {
-        .problemsText__046e8,
+    .problems__4ae6d {
+        .problemsText__5f1c5,
         .links_ab4aa2,
-        .icon__8f8f4 {
+        .icon__7bff0 {
             color: $cream;
         }
     }

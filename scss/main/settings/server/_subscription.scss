@@ -2,12 +2,12 @@
 @use "../../../top/filter";
 @use "../../../top/card";
 
-.heroBanner_e5c860,
-.howItWorksImage__91d14,
-.roleSubscriptionLanyardIllo__6cf3d,
-.roleSubscriptionSocial__9f086,
-.roleSubscriptionEarningIllo__1b3f9,
-.roundAvatar__6cdf2 {
+.heroBanner_ef5822,
+.howItWorksImage__643c5,
+.roleSubscriptionLanyardIllo__5178c,
+.roleSubscriptionSocial__59cb2,
+.roleSubscriptionEarningIllo__18c33,
+.roundAvatar_d193ab {
     @include filter.sepia;
 }
 
@@ -15,49 +15,49 @@
 .card_bc6ee2 {
     @include card.xlarge;
 
-    .brownMessageBlock__5f076 {
+    .brownMessageBlock__0339a {
         @include card.large;
     }
 }
 
-.sectionDivider__521f7 + div {
+.sectionDivider_e3de9e + div {
     margin-top: $size-xl;
 }
 
 // How it works
-.howItWorksContainer_ef4386,
-.howItWorksImageContainer__91f71 {
+.howItWorksContainer__025eb,
+.howItWorksImageContainer__33219 {
     background: unset;
 }
 
 // Benefits for creators
-.earningsPreviewContainer__775cb {
+.earningsPreviewContainer__2b25a {
     @include card.med;
     background: unset !important;
 }
-.avatarCard_edc99c {
+.avatarCard__8d1e3 {
     @include card.med;
     overflow: visible;
 }
-.verticalConnector_f39bd5 {
+.verticalConnector__63610 {
     border: $size-xxs solid $cream !important;
 }
 
 // Learn from other creators
-.carouselCaret__81d3a,
-.viewServerButtonText__6c499 {
+.carouselCaret__329f2,
+.viewServerButtonText__0d2c5 {
     color: $cream;
 }
 
-.guildCardHeaderAvatar__47b9e {
+.guildCardHeaderAvatar_c2e74d {
     border-radius: $size-max;
 }
 
-.guildSubscriberCount__62906 {
+.guildSubscriberCount_a81224 {
     @include card.round;
 
-    .subscriberCountText__986fb,
-    .subscriberCountValue__9f1fb {
+    .subscriberCountText__53bbe,
+    .subscriberCountValue_f16cf3 {
         background: unset;
         font-style: normal;
     }
@@ -67,10 +67,10 @@
     }
 }
 
-.premiumEmojisRow__796a3 {
+.premiumEmojisRow__72baf {
     gap: $size-m;
 }
 
-.emojisContainer__68736 {
+.emojisContainer__8e659 {
     @include card.round;
 }

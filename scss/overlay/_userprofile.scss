@@ -2,60 +2,60 @@
 @use "../top/filter";
 @use "../top/card";
 
-.userPopoutOuter_d739b2 {
+.userPopoutOuter__3884e {
     @include card.outer;
 }
 
-.userProfileOuter__46bb7,
-.userProfileInnerThemedNonPremium__3d0a6,
-.userProfileInnerThemedWithBanner_d5f991,
-.userProfileInnerThemedPremiumWithoutBanner__703b1,
-.overlayBackground__86b78 {
+.userProfileOuter__4ac83,
+.userProfileInnerThemedNonPremium_ed9022,
+.userProfileInnerThemedWithBanner__2152d,
+.userProfileInnerThemedPremiumWithoutBanner__3705a,
+.overlayBackground__2666e {
     background: $black;
 }
 
-.userProfileOuterThemed__6eb84.userPopoutOuter_d739b2,
-.userProfileOuterThemed__6eb84.userProfileOuter__46bb7 {
+.userProfileOuterThemed__1fbd7.userPopoutOuter__3884e,
+.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
     padding: 0;
 }
 
 // Overlay
-.userProfileInner__8065b::before {
+.userProfileInner__61cc1::before {
     display: none;
 }
 
 // Inner
-.body__4c272 {
+.body__323bb {
     border-radius: 0;
 }
 
 // View full profile
-.avatarHintInner__3d1c9 {
+.avatarHintInner_c8ddb1 {
     color: $cream;
 }
 
-.avatarWrapper_f77579 {
+.avatarWrapper__0cd44 {
     left: 22px + $size-s;
 
     circle {
         fill: unset;
     }
 }
-.avatarPositionNormal__1797c {
+.avatarPositionNormal_ba6daa {
     top: 16px + $size-s;
 }
-.avatarPositionPremiumBanner__1e83d {
+.avatarPositionPremiumBanner_f3acc4 {
     left: 21px;
 }
 
 // Profile badges
-.profileBadges__7a7cb,
-.badgeList_c193e3 {
+.profileBadges__1f2ab,
+.badgeList__126b0 {
     @include card.round;
 }
 
 // More options
-.additionalActionsIcon__33de0 {
+.additionalActionsIcon__6b109 {
     &,
     &:hover,
     &:active {
@@ -64,9 +64,9 @@
 }
 
 // Discrim
-.discriminator_a801dd,
-.userTagUsernameBase__75fb1,
-.discrimBase_e0c4c5 {
+.discriminator__9d9f2,
+.userTagUsernameBase__2bd24,
+.discrimBase__5555e {
     color: $cream;
 }
 
@@ -82,57 +82,57 @@
         @include card.round;
     }
 
-    .barInner_d1abc6 {
+    .barInner__0f713 {
         background: $cream;
     }
 
-    .textLeft_a97e50,
-    .textRight__26208 {
+    .textLeft__05c15,
+    .textRight__8254a {
         color: $cream;
     }
 }
 
 // Divider
-.divider_ed0c1d {
+.divider_e6f9ab {
     display: none;
 }
 
 // Tab bar
-.userProfileOuter__46bb7 {
-    .tabBarItem_b56b35 {
+.userProfileOuter__4ac83 {
+    .tabBarItem_ce14f3 {
         height: auto;
     }
 }
 
 // Boxes after tab bar
-.tabBarContainer__63f55 ~ div {
+.tabBarContainer_b283be ~ div {
     padding: 0 $size-xl !important;
 }
 
-.userInfoSection__1daf8 + .userInfoSection__1daf8 {
+.userInfoSection_e816c1 + .userInfoSection_e816c1 {
     border-top: 0;
 }
 
 // Member since
-.discordIcon_feeef1 {
+.discordIcon__1e1be {
     color: $cream;
 }
-.divider_d66e63 {
+.divider__979dc {
     background: $cream;
 }
 
 // Roles
-.role__631a3 {
+.role_d81130 {
     background: $cream;
     border: 0;
     border-radius: $size-max;
 
     .defaultColor__77578,
-    .addButtonIcon__6a05a {
+    .addButtonIcon__8ad56 {
         color: $black;
     }
 }
-.roleCircle_bae511 {
+.roleCircle__61ad8 {
     box-shadow: 0 0 0 $size-xxs $black;
 }
 
@@ -140,61 +140,61 @@
 .note_ba0c31 textarea {
     border-radius: $size-l;
 }
-.note_ba0c31 .inputDefault__80165 {
+.note_ba0c31 .inputDefault__22335 {
     border-radius: $size-m;
 }
 
 // Send DM
-.messageInputContainer__768e6 {
+.messageInputContainer_a93946 {
     border: 0;
 }
 
 // Connected accounts
-.connectedAccountContainer__23f00 {
+.connectedAccountContainer__5972d {
     @include card.med;
 
-    .connectedAccountOpenIcon_df549d {
+    .connectedAccountOpenIcon__23b1a {
         color: $cream;
     }
 }
 
 // Activity
-#{$root} :is(.activityProfile__61b44, .activityProfileV2__4de28, .activityUserPopout_c7e67d, .activityUserPopoutV2__32328) {
+#{$root} :is(.activityProfile__5d0ec, .activityProfileV2_f5335f, .activityUserPopout_eceeb9, .activityUserPopoutV2__89098) {
     :is(
-            .activityName__47e51,
-            .content_d7cb7f,
-            .details__445eb,
-            .name_b6124d,
-            .nameNormal__1d540,
-            .nameWrap__7263f,
-            .activityUserPopoutV2__32328 .headerText__7d203
+            .activityName_a7b7de,
+            .content__7246b,
+            .details_e26997,
+            .name__0ac4b,
+            .nameNormal_cb5c2b,
+            .nameWrap_b61c4b,
+            .activityUserPopoutV2__89098 .headerText_c0138d
         ) {
         color: $cream;
     }
 }
 
 // Mutuals
-.listRow__60937 {
+.listRow__50619 {
     color: $cream;
     &:hover {
         background: $black;
     }
 
-    .listAvatar__907d4 {
+    .listAvatar__67297 {
         border-radius: $size-max;
     }
 
-    .guildNick__01069 {
+    .guildNick_d76c11 {
         color: $cream;
     }
 }
 
 // None
-.emptyText__1869c {
+.emptyText__875c6 {
     color: $cream;
 }
 
 // None image
-.emptyIcon__655a1 {
+.emptyIcon__7b2a1 {
     @include filter.sepia;
 }

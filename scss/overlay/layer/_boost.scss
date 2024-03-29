@@ -3,106 +3,106 @@
 @use "../../top/filter";
 
 // Boost server
-.scroller__439a2 {
+.scroller__7d61e {
     background: $black;
 }
 
-.header__4f442 {
+.header_b9d0dd {
     background: $red;
 }
 
-.headerWave_e4fdee {
+.headerWave_dda892 {
     color: unset;
 }
 
-.bodyWave__62812 path {
+.bodyWave__4a827 path {
     fill: $red !important;
     opacity: 0.3;
 }
 
 // Boost progress
-.progressBar__0d793 {
+.progressBar__6e68e {
     // Bar
-    .progressBarScrubber_db8eea {
+    .progressBarScrubber__801c4 {
         @include card.round;
         border-width: $size-s;
 
-        .progressBarTrack__75763 {
+        .progressBarTrack__669df {
             background: unset;
         }
-        .progressBarFill__44068 {
+        .progressBarFill__455be {
             background: linear-gradient(to right, $red, $cream);
         }
     }
 
     // Circle
-    .progressBarMarker__75301,
-    .progressBarMarkerUnlocked__29a56 .progressBarMarkerIndicator_f5387b {
+    .progressBarMarker__28bea,
+    .progressBarMarkerUnlocked__9a628 .progressBarMarkerIndicator_ec16e4 {
         background: $cream;
     }
 
-    .progressBarMarkerCurrent__35ec5 .progressBarMarkerIndicator_f5387b {
+    .progressBarMarkerCurrent_f2e4e1 .progressBarMarkerIndicator_ec16e4 {
         box-shadow: none;
     }
 
-    .boostedTierIcon__911ad {
+    .boostedTierIcon_b08c33 {
         color: $red;
     }
 }
 
 .full-motion {
-    .guildBoostCtaBoostWrapper__7097b:focus-within,
-    .guildBoostCtaBoostWrapper__7097b:hover,
-    .guildBoostCtaSecondary_d4dfaa:focus,
-    .guildBoostCtaSecondary_d4dfaa:hover {
+    .guildBoostCtaBoostWrapper__2520d:focus-within,
+    .guildBoostCtaBoostWrapper__2520d:hover,
+    .guildBoostCtaSecondary_b56ac7:focus,
+    .guildBoostCtaSecondary_b56ac7:hover {
         transform: none;
     }
 }
 
 // Sparkles
-.tierCardSparkleHighlight_f2a09e,
-.containerColored__41ab4 .sparkle_a5bc3e.sparkleStarTopRight__37571,
-.theme-light .sparkle_a5bc3e.sparkleStarTopRight__37571,
-.containerColored__41ab4 .sparkle_a5bc3e.sparkleStarRight_ac1f12,
-.theme-light .sparkle_a5bc3e.sparkleStarRight_ac1f12,
-.containerColored__41ab4 .sparkle_a5bc3e.sparkleStarBottomLeft__04b63,
-.theme-light .sparkle_a5bc3e.sparkleStarBottomLeft__04b63 {
+.tierCardSparkleHighlight_f59b10,
+.containerColored__13042 .sparkle__14769.sparkleStarTopRight__07807,
+.theme-light .sparkle__14769.sparkleStarTopRight__07807,
+.containerColored__13042 .sparkle__14769.sparkleStarRight__9efe5,
+.theme-light .sparkle__14769.sparkleStarRight__9efe5,
+.containerColored__13042 .sparkle__14769.sparkleStarBottomLeft__798a0,
+.theme-light .sparkle__14769.sparkleStarBottomLeft__798a0 {
     color: $cream;
 }
 
-.guildBoostCtaBoostWrapper__7097b:focus-within .guildBoostCtaBoost_d1aa53,
-.guildBoostCtaBoostWrapper__7097b:hover .guildBoostCtaBoost_d1aa53,
-.guildBoostCtaSecondary_d4dfaa:focus,
-.guildBoostCtaSecondary_d4dfaa:hover {
+.guildBoostCtaBoostWrapper__2520d:focus-within .guildBoostCtaBoost_ac9bf0,
+.guildBoostCtaBoostWrapper__2520d:hover .guildBoostCtaBoost_ac9bf0,
+.guildBoostCtaSecondary_b56ac7:focus,
+.guildBoostCtaSecondary_b56ac7:hover {
     box-shadow: none;
 }
 
-.tierCard_f6953a,
-.tierCardCurrentTier_df8c32,
-.topPerksCard__9fc01,
-.wrapper_cf13f4,
-.wrapper__26ed7 {
+.tierCard__292e9,
+.tierCardCurrentTier__633bb,
+.topPerksCard__0e34b,
+.wrapper__4308f,
+.wrapper_d3adb0 {
     @include card.large;
     background: $black;
     overflow: visible;
 }
 
-.topPerksCardImage_c0deea,
-.lowerBodyBackgroundImage__688d9 {
+.topPerksCardImage__30257,
+.lowerBodyBackgroundImage__497f6 {
     @include filter.sepia;
 }
 
-.recommendedTierHighlight__57a8b:after,
-.recommendedTierHighlight__57a8b:before {
+.recommendedTierHighlight__34465:after,
+.recommendedTierHighlight__34465:before {
     border-color: $red;
 }
-.recommendedTierHighlightTag__82cc1 {
+.recommendedTierHighlightTag_bac630 {
     background: $red;
     border-radius: $size-max;
 }
 
 // Hovering footer
-.innerWrapper__8cde3 {
+.innerWrapper_cfb768 {
     background: $black;
 
     &::before,

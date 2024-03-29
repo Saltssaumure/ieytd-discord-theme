@@ -6,10 +6,10 @@
     @include filter.sepia;
 }
 
-.featureCard__0a441 {
+.featureCard__769f1 {
     @include card.large;
 
-    .featureIcon__48a2c {
+    .featureIcon__84893 {
         background: unset;
 
         svg {
@@ -40,10 +40,10 @@
 }
 
 // Checks
-.checklistItem__9f80c {
+.checklistItem__84da3 {
     align-items: center;
 
-    .checklistIcon__830fb {
+    .checklistIcon__25ce6 {
         path[fill="var(--yellow-300)"] {
             fill: $cream;
         }

@@ -4,15 +4,15 @@
 // Status menu on clicking user panel
 
 // Online status
-.statusItem__72404 {
-    .description_ea6680 {
+.statusItem__24445 {
+    .description_d1e167 {
         display: none;
     }
 }
 
 // Account switcher
-.userMenuItem__38a6a {
-    .activeIcon_e452f7 {
+.userMenuItem__7b29e {
+    .activeIcon_b2fa28 {
         circle {
             fill: $black;
         }
@@ -21,12 +21,12 @@
         }
     }
 }
-.focused_f6efd9 {
-    .userMenuUsername_f6de35 .userMenuDiscriminator_b70e1b,
-    .userMenuUsername_f6de35 .userMenuText_a180af {
+.focused_a7ad64 {
+    .userMenuUsername_d2fe10 .userMenuDiscriminator__2334c,
+    .userMenuUsername_d2fe10 .userMenuText_b1842d {
         color: $black;
     }
-    .activeIcon_e452f7 {
+    .activeIcon_b2fa28 {
         circle {
             fill: $cream;
         }

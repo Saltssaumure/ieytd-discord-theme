@@ -3,10 +3,10 @@
 
 // Select language on uploaded text file
 
-.languageSelector_a1c2f3 {
+.languageSelector__4840c {
     @include card.outer;
 
-    .container__7712a {
+    .container__33507 {
         @include card.round;
     }
 
@@ -15,8 +15,8 @@
         color: $cream;
         margin-bottom: 0;
 
-        &:hover:not(.disabled__1c6ff),
-        &.selected__511cf {
+        &:hover:not(.disabled_ef860a),
+        &.selected__32a6a {
             background: $cream;
             color: $black;
         }

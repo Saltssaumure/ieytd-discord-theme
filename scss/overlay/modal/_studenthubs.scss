@@ -4,19 +4,19 @@
 @use "../../top/svg";
 
 // Join a student hub
-.sidebarContainer__5583d {
+.sidebarContainer__6f8e5 {
     background: $black;
     border-right: $size-s solid $cream;
 
-    .iconContainer__4f05c {
+    .iconContainer__00402 {
         background: $cream;
-        .icon_c2566c {
+        .icon__77722 {
             background: svg.$hub;
         }
     }
 }
 
-.topImage__6730c {
+.topImage_d2f2ec {
     @include filter.sepia;
 }
 

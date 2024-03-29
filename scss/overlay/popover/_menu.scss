@@ -3,11 +3,11 @@
 
 // Right click menu
 
-.colorDefault__0b482 {
+.colorDefault_e361cf {
     border-radius: $size-max;
     color: $cream;
 
-    :is(.caret_ce50ce, .checkbox__45366, .radioSelection__5ed39, .subtext__8a015) {
+    :is(.caret_ce50ce, .checkbox__378d3, .radioSelection__41d1e, .subtext__694e2) {
         color: $cream;
     }
 
@@ -15,12 +15,12 @@
         color: $black;
     }
 
-    &.focused__27621,
-    &:active:not(.hideInteraction__2790e) {
+    &.focused_dcafb9,
+    &:active:not(.hideInteraction__0b569) {
         background: $cream;
         color: $black;
 
-        :is(.caret_ce50ce, .checkbox__45366, .radioSelection__5ed39, .subtext__8a015) {
+        :is(.caret_ce50ce, .checkbox__378d3, .radioSelection__41d1e, .subtext__694e2) {
             color: $black;
         }
 
@@ -30,6 +30,6 @@
     }
 }
 
-.separator__18122 {
+.separator__174fc {
     display: none;
 }

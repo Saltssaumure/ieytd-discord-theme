@@ -6,27 +6,27 @@
 @use "../../top/vars" as *;
 
 // Chat panel
-.chatContent__5dca8 {
+.chatContent_f087cb {
     background: unset;
 
     // Channel info
-    .emptyChannelIcon__1a1ba {
+    .emptyChannelIcon_d45c50 {
         display: none;
     }
-    .description__57d03 {
+    .description__51014 {
         color: $cream;
     }
 
     // Messages loading
-    .wrapper_b8c724 {
+    .wrapper__11501 {
         background: transparent;
 
         // Fake message block
-        .wrapper__5c5cd {
+        .wrapper__6b7d8 {
             background: transparent;
 
             .avatar_eb6eba,
-            .attachment__7a2d0,
+            .attachment_d24cc3,
             .blob__8d5bd {
                 background: $cream;
             }

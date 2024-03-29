@@ -9,10 +9,10 @@
     color: $cream;
 
     // Evenly spaced tiles
-    .listItems__699d1 {
+    .listItems__49027 {
         left: 0 !important;
 
-        .row_d36dca {
+        .row_fd7b05 {
             gap: $size-s;
             margin-bottom: $size-s;
         }
@@ -25,7 +25,7 @@
 }
 
 // Overall container
-.wrapper_bd2abe.chatSidebarOpen_dfaa6a .callContainer_cbde45 {
+.wrapper__6bf2d.chatSidebarOpen_f2e544 .callContainer__1477d {
     border-radius: 0;
 }
 
@@ -34,65 +34,65 @@
     @include card.large;
 
     // Large tile
-    &.noBorder__74418 {
+    &.noBorder__9016a {
         border: 0;
     }
 
     // Disconnected
-    .header_b40d88,
-    .description__3ea07 {
+    .header__43611,
+    .description_cd2eef {
         color: $cream;
     }
 
     // Username
-    .overlayTitle_a9f7c6,
+    .overlayTitle_de9b41,
     .status__42e87 {
         @include card.round;
         border: 0;
     }
 
     // Video icon
-    .selectedIcon__3fdd3 {
+    .selectedIcon__9e012 {
         color: $cream;
     }
 
     // Stream, video
-    .streamPreview_fecc46,
-    .videoWrapper_b42a4f,
-    .emptyPreview__385fd {
+    .streamPreview__3a6b0,
+    .videoWrapper__3ffda,
+    .emptyPreview_d9a076 {
         background: unset;
     }
 }
 
 // Participant list toggle
-.participantsButton__56586 {
+.participantsButton__11fa3 {
     @include card.round;
 
     &:hover {
         background: $black;
     }
 
-    .iconContainer__0c532 > svg {
+    .iconContainer__9a2de > svg {
         color: $cream;
     }
 }
 
 // Voice chat controls
-.bottomControls__8bd89 {
+.bottomControls__72d8d {
     // Centre buttons
-    .colorable_c84c4c {
-        &.primaryDark__6b700 {
+    .colorable__4f530 {
+        &.primaryDark_ec74a7 {
             @include button.control($black, $cream);
         }
-        &.white__10e89 {
+        &.white_ce1c7b {
             @include button.control($cream, $black);
         }
-        &.red_a51ba8 {
+        &.red__45e65 {
             @include button.control($black, $red);
         }
     }
 
-    .leftDivider__5b854 {
+    .leftDivider__622f7 {
         display: none;
     }
 

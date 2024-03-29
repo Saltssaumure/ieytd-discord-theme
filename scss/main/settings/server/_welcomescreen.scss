@@ -6,28 +6,28 @@
     @include card.large;
 }
 
-.enableContainer__0945b {
+.enableContainer__8015f {
     background: unset;
     margin-bottom: $size-l;
 
-    .activeCircle_b77e4d {
+    .activeCircle__563e0 {
         background: $cream;
         color: $black;
     }
 }
 
-.previewContainer_b0f5b4 {
+.previewContainer__0eaea {
     @include card.xlarge;
 
-    .icon__5946a {
+    .icon_b6bb49 {
         border-radius: $size-max;
     }
 
-    .welcomeTitle__722eb strong {
+    .welcomeTitle__0d3cf strong {
         color: $cream;
     }
 
-    .welcomeChannel__0122f {
+    .welcomeChannel__64805 {
         @include card.large;
 
         img {
@@ -35,7 +35,7 @@
         }
     }
 
-    .channelTitleIcon_e46886 {
+    .channelTitleIcon__72f24 {
         color: $cream;
         zoom: 1.5;
     }

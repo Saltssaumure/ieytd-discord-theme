@@ -3,15 +3,15 @@
 @use "../../top/filter";
 
 // Try out forums
-.container_b634d9 {
+.container_c8444e {
     margin-top: 0;
     background: $black;
 
     // Forum panel
-    .browser__2f60f {
+    .browser__43aec {
         // Tag
         .tag__5bfc0,
-        .inlineTag_dbd8e6 {
+        .inlineTag__02829 {
             background: $cream;
             color: $black !important;
         }
@@ -27,32 +27,32 @@
     }
 
     // Thread panel
-    .previewContainer__0f3c5 {
+    .previewContainer_a9f935 {
         background: $black;
         border-left: $size-s solid $cream;
         padding: 0;
         height: 100%;
 
-        .preview_c16c3b {
+        .preview_af4f87 {
             background: unset;
         }
 
-        .forumPostIcon__3d972,
+        .forumPostIcon_bb48cb,
         .opTag__3454d {
             background: $cream;
             color: $black;
         }
 
-        .topSeparator__5bb6b,
-        .bottomSeparator__3e1ef {
+        .topSeparator_ace4b5,
+        .bottomSeparator__3be4c {
             display: none;
         }
 
-        .fakeReactions_e99691 {
+        .fakeReactions__7662a {
             @include card.round;
         }
 
-        .chatInput__06d78 {
+        .chatInput_e0436a {
             @include card.round;
         }
     }

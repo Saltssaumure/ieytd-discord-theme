@@ -3,9 +3,9 @@
 
 // Onboarding
 
-.main__58b77 {
+.main_e0b3ac {
     // Background
-    .gradient__582ae {
+    .gradient_fd12e1 {
         background: unset !important;
     }
 
@@ -14,15 +14,15 @@
         @include card.outer;
 
         // Shader
-        .overlay_ef4f80 {
+        .overlay_a15774 {
             display: none;
         }
 
         // Footer
-        .navButtons__484bf {
+        .navButtons__60fcf {
             background: $red;
 
-            .helpTextItem__72c86 {
+            .helpTextItem__01722 {
                 color: $cream;
             }
         }
@@ -30,21 +30,21 @@
 }
 
 // Answer
-.optionButtonWrapper__4072c {
+.optionButtonWrapper_c86844 {
     @include card.round;
 
     &:hover,
-    &.selected__90dd8 {
+    &.selected__31118 {
         border-color: $cream;
         background: $black;
     }
 
-    &.pressed__03c1e {
+    &.pressed_e85da9 {
         transform: none;
     }
 
     // Selected answer
-    .checkIcon__5aa1f {
+    .checkIcon__3c055 {
         position: relative;
         top: 0;
         right: 0;
@@ -59,7 +59,7 @@
     }
 
     // Other members in group
-    .memberCount_b5b6d4 {
+    .memberCount__2f2df {
         top: $size-m;
         right: 32px;
         background: $cream;
@@ -71,10 +71,10 @@
 }
 
 // Rules
-.termsFieldBody__96dcb {
+.termsFieldBody_c56d5f {
     @include card.large;
 
-    .termsRow_f10fb0 {
+    .termsRow__4a332 {
         border-bottom: 0;
     }
 }

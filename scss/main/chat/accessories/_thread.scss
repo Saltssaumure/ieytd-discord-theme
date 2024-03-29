@@ -3,27 +3,27 @@
 @use "../../../top/filter";
 
 // Thread preview
-.container__767d1 {
+.container__17159 {
     @include card.large;
     background: $black;
     padding: 0;
 
-    .topLine_a91dc7,
-    .bottomLine_a74432 {
+    .topLine_a04ad0,
+    .bottomLine__799ea {
         padding: $size-s $size-m;
     }
 
-    .topLine_a91dc7 {
+    .topLine_a04ad0 {
         background: $red;
         align-items: baseline;
 
-        .name__35e6f,
+        .name_ff3e83,
         .cta__52756 {
             color: $black;
         }
 
         // Thread title
-        .name__35e6f {
+        .name_ff3e83 {
             font-family: var(--font-display);
             font-style: oblique;
             font-size: 1rem;
@@ -37,20 +37,20 @@
         }
     }
 
-    .bottomLine_a74432 {
+    .bottomLine__799ea {
         color: $cream;
         align-items: baseline;
 
-        .threadMessageAccessory__33bc1 {
+        .threadMessageAccessory_ef0459 {
             align-items: baseline;
         }
 
-        .username_d30d99 {
+        .username__0b0e7 {
             font-size: 0.875rem;
             margin-top: -4px;
         }
 
-        .timestamp__13a30 {
+        .timestamp_e50e7f {
             color: $cream;
             opacity: 0.7;
         }
@@ -58,7 +58,7 @@
 }
 
 // Thread line
-.cozy_f5c119.hasThread__58ee2::after {
+.cozy_f5c119.hasThread__44ae4::after {
     border-color: $cream;
     bottom: 29px + ($size-s * 2);
 

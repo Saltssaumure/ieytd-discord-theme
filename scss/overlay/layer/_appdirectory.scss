@@ -4,7 +4,7 @@
 @use "../../top/tabs";
 
 // App directory
-#{$root} .directoryContainer_d3edd9 {
+#{$root} .directoryContainer__36395 {
     background: $black;
 
     .headerName-2jZqFB {
@@ -17,14 +17,14 @@
         }
     }
 
-    .rightImage__92c0a {
+    .rightImage_b071fa {
         @include filter.sepia;
     }
 
-    .categoryList__201c1 {
+    .categoryList__4f059 {
         @include tabs.bar;
 
-        .category_ba5745 {
+        .category_c3da1d {
             @include tabs.tab;
             border-color: $cream;
         }
@@ -36,7 +36,7 @@
     }
 
     // Carousel nav
-    .themedPagination_c56fb8 {
+    .themedPagination__13dbb {
         .arrow_fe649b {
             color: $cream;
         }
@@ -49,17 +49,17 @@
     .anchor_c8ddc0 {
         text-decoration: none;
 
-        .listingDescription_c9bff5 {
+        .listingDescription__033bc {
             color: $cream !important;
         }
     }
-    .container__7b33c {
+    .container_bdd168 {
         @include card.large;
         box-sizing: border-box;
 
-        &.animatesOnHoverContainer__46461:hover {
+        &.animatesOnHoverContainer_f1fedf:hover {
             &,
-            .image_b1529d {
+            .image__766a5 {
                 transform: none;
             }
         }
@@ -68,22 +68,22 @@
             display: none;
         }
 
-        .moreGuilds_dc77a5 {
+        .moreGuilds_a49e5f {
             background: $cream;
             color: $black !important;
         }
     }
 
     // Arrow nav
-    .scrollerButton_d87cbc {
+    .scrollerButton__3da4e {
         color: $cream;
     }
 
     // New to apps helper
-    .container_dabadb {
+    .container__9c6ed {
         @include card.outer;
 
-        .image__208c0 {
+        .image_bcc9b6 {
             @include filter.sepia;
         }
     }
@@ -96,13 +96,13 @@
 .back_f08183 {
     &,
     &:hover {
-        .backHeader__18afe,
-        .backIcon__7126c {
+        .backHeader_cff6da,
+        .backIcon_d1658d {
             color: $cream;
         }
     }
 
-    .backHeader__18afe {
+    .backHeader_cff6da {
         margin-top: -4px;
     }
 }
@@ -110,53 +110,53 @@
 // App details page
 
 // Banner
-.headerBanner__76f87 {
+.headerBanner__7b8a3 {
     border-radius: $size-xl $size-xl 0 0;
 }
 
 // App icon
-.headerIcon__8e637 {
+.headerIcon_f11f09 {
     border-color: $black;
     background: $red;
 }
 
 // Server count
-.headerSidebar__01bcf {
+.headerSidebar_ede28f {
     border-bottom: 0;
 }
-.defaultIcon__2ad23,
-.iconInteractive_c0d7d4,
-.iconInteractive_c0d7d4:hover {
+.defaultIcon__4db68,
+.iconInteractive__29e48,
+.iconInteractive__29e48:hover {
     color: $cream;
 }
 
 // Categories
-.category__60494 {
+.category__1ebd5 {
     @include card.round;
 }
 
 // Overview
-.detailedDescription_c171ea {
+.detailedDescription__9e4da {
     color: $cream !important;
 
-    &.markdown_e76780 {
+    &.markdown__8e519 {
         code {
             background: unset;
             font-family: var(--font-code);
         }
 
-        .codeInline__96ffa {
+        .codeInline_f5630b {
             color: $cream;
         }
     }
 }
 
-.divider_d060f7,
-.separator_bd8f6b {
+.divider_c275c7,
+.separator_d3580d {
     background: $cream;
 }
 
-.showMoreButtonIcon__2c0be {
+.showMoreButtonIcon__6411c {
     color: $cream;
 }
 
@@ -164,7 +164,7 @@
 .list_b1e6a9 {
     @include card.large;
 
-    .commandName__72789 {
+    .commandName__7c054 {
         background: unset;
         border: 0;
     }
@@ -172,7 +172,7 @@
 
 // Privacy
 .list_a19d86,
-.intentsContainer__9bd68 {
+.intentsContainer_b8fe04 {
     @include card.large;
 }
 
@@ -182,15 +182,15 @@
 }
 
 // Links
-.listIcon__4f286,
-.listItem_a630c1.linkItem__5932c:hover .listIcon__4f286,
-.listItem_a630c1.linkItem__5932c:hover .listText_c0ec5b {
+.listIcon__68515,
+.listItem__2c8d0.linkItem__23df5:hover .listIcon__68515,
+.listItem__2c8d0.linkItem__23df5:hover .listText_e36086 {
     color: $cream;
 }
 
 // Search results page
-.sidebarImage_f2cf5a,
-.image__45397 {
+.sidebarImage__4e4b2,
+.image__8fd87 {
     @include filter.sepia;
 }
 
@@ -198,13 +198,13 @@
 .themed_b957e8 {
     @include card.round;
 
-    &.selected__5711d {
+    &.selected_a523ff {
         background: $cream;
         border-color: $black;
 
         &,
         &:hover {
-            .icon__9090f {
+            .icon__92516 {
                 color: $black;
             }
         }
@@ -216,7 +216,7 @@
 
     &,
     &:hover {
-        .icon__9090f {
+        .icon__92516 {
             color: $cream;
         }
     }
@@ -227,6 +227,6 @@
 }
 
 // No results
-.container__617c0 {
+.container_b15c33 {
     background: unset;
 }

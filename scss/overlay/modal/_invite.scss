@@ -5,16 +5,16 @@
 // Send invite to friend
 
 // Search
-.hubFriendSearch_b8309c,
-.searchBar_b2ff4e {
+.hubFriendSearch__27bf9,
+.searchBar__285ec {
     @include card.round;
 }
 
-.headerChannelContainer_ff9b9d {
+.headerChannelContainer__74461 {
     display: flex;
     align-items: center;
 
-    .channelIcon_c3a04b {
+    .channelIcon__78020 {
         color: $cream;
         margin: 0;
         zoom: 1.2;
@@ -28,12 +28,12 @@
 }
 
 // Friend
-#{$root} .inviteRow_a25947 {
+#{$root} .inviteRow_d6ad74 {
     &:hover {
         background: unset;
     }
 
-    .inviteRowName_bc8b23 {
+    .inviteRowName__60057 {
         color: $cream;
         font-family: var(--font-display);
         line-height: 24px;

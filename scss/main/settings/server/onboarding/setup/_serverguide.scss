@@ -5,18 +5,18 @@
 // 4. Server guide
 
 // Example
-.previewImage_e54b1b {
+.previewImage__8a241 {
     @include filter.sepia;
 }
 
 // Sliding toggle
-.pillContainer_e97d2d {
+.pillContainer__2a7d8 {
     @include card.round;
 
-    .pillItem__2d9fa {
+    .pillItem_af8700 {
         color: $cream;
 
-        &.pillItemSelected__3dd13 {
+        &.pillItemSelected__2ede3 {
             background: $cream;
             color: $black;
             border-radius: $size-max;
@@ -25,27 +25,27 @@
 }
 
 // Add item centerer
-.section__87af1,
-.editResources_a93175 {
+.section__68e92,
+.editResources_c02f8e {
     display: flex;
     flex-direction: column;
 }
 
 // Bad example
-.example__5d01c {
+.example_bbc240 {
     @include card.large;
     border-color: $red;
     color: $red;
 }
 
 // Todo
-.actionItem__36958 {
+.actionItem__872dc {
     @include card.large;
     padding-left: 32px;
 }
 
-.actionItemEmojiWrapper__09da8,
-.badExampleIcon__70659 {
+.actionItemEmojiWrapper__51171,
+.badExampleIcon__6e2b2 {
     color: inherit;
     background: unset;
     padding: 0;
@@ -63,7 +63,7 @@
 }
 
 // Add todo
-.addActionItem__209df {
+.addActionItem__3881a {
     @include card.round;
     padding: $size-m $size-xl;
     width: fit-content;
@@ -75,18 +75,18 @@
 }
 
 // Resource benefits
-.bulletList__81800 {
+.bulletList__855f3 {
     color: $cream;
 }
 
 // Suggested channels
-.suggestedChannelsDismissCheck_f2d54f {
+.suggestedChannelsDismissCheck__0b85b {
     color: $cream;
 }
-.suggestedChannels__158f9 {
+.suggestedChannels__0a3d8 {
     @include card.large;
 
-    .suggestedChannelIcon__78884 {
+    .suggestedChannelIcon__46d9c {
         color: $cream;
         zoom: 1.5;
         margin-right: 0;
@@ -94,11 +94,11 @@
 }
 
 // Resource channel
-.resourceChannel__1f331 {
+.resourceChannel__94ad2 {
     @include card.large;
     padding-left: 32px;
 }
 
-.sectionSeparator_a87254 {
+.sectionSeparator_abd7cb {
     display: none;
 }

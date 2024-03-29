@@ -2,20 +2,20 @@
 @use "../../../../top/card";
 
 // Webpage link embed
-#{$root} .embedFull__8dc21 {
+#{$root} .embedFull__14919 {
     @include card.large;
 
-    .gridContainer_de8cdc {
+    .gridContainer_e31d85 {
         border-left: $size-m solid;
         border-left-color: inherit;
     }
 
-    .embedAuthorName_a1274b,
-    .embedFieldName_d42d0c,
-    .embedTitle__31740,
-    .embedDescription__33443,
-    .embedFieldValue__53d47,
-    .embedFooterText_dc937f {
+    .embedAuthorName__9a491,
+    .embedFieldName__933cd,
+    .embedTitle__1ac59,
+    .embedDescription_f5043f,
+    .embedFieldValue_f2dcec,
+    .embedFooterText_c3068e {
         color: $cream;
     }
 }

@@ -3,48 +3,48 @@
 @use "../../../top/card";
 
 .caret_dd17db,
-.detailsIcon_a2b4b5,
-.featureIcon_c000e2,
-.expandIcon_bb45b3 {
+.detailsIcon_b51ebf,
+.featureIcon__4204e,
+.expandIcon_b6dfed {
     color: $cream;
 }
 
 // Default icons
-.iconWrapper__8fbb1 {
+.iconWrapper_fda12f {
     background: $cream;
 
-    .icon_fbb625 {
+    .icon_ac3aa9 {
         color: $black;
     }
 }
 
 // Channel dropdown
-.wrapper__555a0 {
-    .iconsContainer_b4eb89 {
+.wrapper__6b00c {
+    .iconsContainer__20ee5 {
         height: auto;
     }
 }
 
 // Bots and apps
 // Group name
-.name__6010a {
+.name__418f0 {
     align-items: flex-end;
 }
 
 // Group icon
-.icon__347d0,
-.icon__71d1a,
-.channelIcon__1a6f7 {
+.icon_c1538d,
+.icon_c45df8,
+.channelIcon__495c7 {
     color: $cream;
 }
 
 // Card
-.cardHeader__27283 {
+.cardHeader_ca5ec0 {
     background: unset;
 }
 
 // Card content
-.entryItem__209af:last-child {
+.entryItem_fd8a91:last-child {
     margin-bottom: 16px;
 }
 
@@ -60,7 +60,7 @@
         color: $cream;
     }
 
-    &.selected_c2a1ec {
+    &.selected_bfc358 {
         color: $black;
 
         &.deny_c46df5 {

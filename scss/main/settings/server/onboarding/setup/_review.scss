@@ -5,16 +5,16 @@
 // 5. Review
 
 // Outer
-.content_f6efd8,
+.content__34bea,
 .notice_b28daf {
     @include card.large;
     margin-top: $size-l;
 }
 
-.reviewHeader__0a240,
-.onboardingStepContainer__4a9d0,
-.iconContainer_ccedf9,
-.helpSeparator__3a5bd {
+.reviewHeader__258e5,
+.onboardingStepContainer__03a55,
+.iconContainer_c175e1,
+.helpSeparator_c0646f {
     background: unset;
 }
 
@@ -29,25 +29,25 @@
 }
 
 // Channel icon
-.channelIcon__7901b {
+.channelIcon_a19c21 {
     color: $cream;
     zoom: 2;
 }
 
 // Requirement checks
-.checkmark__6f954,
-.warning__4b921 {
+.checkmark__387a3,
+.warning__3d386 {
     color: $cream;
 }
 
 .danger__9cb5c {
     color: $red;
 
-    & + .statusText__53188 {
+    & + .statusText__27cf7 {
         color: $red !important;
     }
 }
 
-.divider_b9338f {
+.divider__855e3 {
     display: none;
 }

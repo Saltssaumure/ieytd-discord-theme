@@ -3,7 +3,7 @@
 @use "../../../../top/card";
 
 // Default permissions button
-.container_d5f6d0 {
+.container__9c57c {
     @include card.round;
 
     &:hover {
@@ -11,7 +11,7 @@
         color: $cream;
     }
 
-    .icon__4c736 {
+    .icon_add68a {
         background: unset;
 
         svg {
@@ -21,19 +21,19 @@
 }
 
 // Roles list
-.emptyRoles__3a6f7,
-.tableHeader__0200e,
-.roleRow_c357d5 {
+.emptyRoles_a192bd,
+.tableHeader_f2fd5d,
+.roleRow_dc2631 {
     margin-left: 0;
 }
 
 // Drag handle spacing
-.dragSpacing_aec71c {
+.dragSpacing_afd634 {
     zoom: 1.5;
 }
 
 // Role
-.roleRow_c357d5 {
+.roleRow_dc2631 {
     @include card.round;
     margin-bottom: $size-m;
 
@@ -42,7 +42,7 @@
     }
 
     // Drag handle
-    .dragIcon__003d3 {
+    .dragIcon_c316eb {
         color: $cream;
         visibility: visible;
         display: flex;
@@ -50,45 +50,45 @@
     }
 
     // Member count
-    .memberCountContainer__9c91b {
+    .memberCountContainer_b93514 {
         color: $cream;
     }
 
     // Edit role
-    .editButton_c83711 {
+    .editButton__2db5f {
         display: none;
     }
 
     // More button
-    .secondary_c96c46 {
+    .secondary__45d4f {
         @include card.round;
 
-        &:hover:not(.disabled__8e315) {
+        &:hover:not(.disabled__4d064) {
             color: $cream;
         }
     }
 
-    &:hover:not(.roleRowDisableHover__9fe35) .circleButton__29ce2 {
+    &:hover:not(.roleRowDisableHover_c9454c) .circleButton_c3a5df {
         background: unset;
     }
 }
 
 // Dragged role marker
-.containerDragBefore_d2b382::before,
-.containerDragAfter__944b7::after {
+.containerDragBefore_d61de0::before,
+.containerDragAfter_f969a3::after {
     background: $red;
     box-shadow: none;
     left: $size-xl;
     right: $size-xl;
 }
-.containerDragBefore_d2b382::before {
+.containerDragBefore_d61de0::before {
     top: 9px;
 }
-.containerDragAfter__944b7::after {
+.containerDragAfter_f969a3::after {
     bottom: -9px;
 }
 
 // Dragged role
-.roleRowDragging_c5306c {
+.roleRowDragging__75785 {
     opacity: 0.7;
 }

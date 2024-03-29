@@ -7,31 +7,31 @@
     --status-danger: #{$cream};
 
     // Rounded icons and folders
-    .wrapper__3af0b foreignObject {
+    .wrapper__9916c foreignObject {
         mask: none;
     }
 
-    .wrapper_d281dd,
+    .wrapper__8436d,
     .folder__17546,
-    .circleIconButton_d8df29 {
+    .circleIconButton__05cf2 {
         border-radius: $size-max;
         overflow: hidden;
     }
 
     // Folders
     .folder__17546,
-    .expandedFolderBackground__1bec6,
-    .expandedFolderBackground__1bec6.collapsed__0a270,
-    .expandedFolderBackground__1bec6.collapsed__0a270.hover__043de {
+    .expandedFolderBackground_b1385f,
+    .expandedFolderBackground_b1385f.collapsed__98ad5,
+    .expandedFolderBackground_b1385f.collapsed__98ad5.hover__043de {
         background: $red;
     }
 
-    .expandedFolderIconWrapper__458cf path {
+    .expandedFolderIconWrapper__324c1 path {
         stroke: $black;
         stroke-width: $size-xs;
     }
 
-    .expandedFolderBackground__1bec6 {
+    .expandedFolderBackground_b1385f {
         border-radius: $size-max;
         border: $size-s solid $black;
         left: 12px - $size-s;
@@ -41,30 +41,30 @@
     }
 
     // Server not in folder
-    .wrapper__3af0b:not(.wrapper_ed1dea .wrapper__3af0b) {
+    .wrapper__9916c:not(.wrapper__832f2 .wrapper__9916c) {
         &,
-        .svg_ad7356 {
+        .svg__34dd4 {
             width: 48px + 2 * $size-s;
             height: 48px + 2 * $size-s;
         }
     }
 
-    .wrapper_d281dd:not(.wrapper_ed1dea .wrapper_d281dd) {
+    .wrapper__8436d:not(.wrapper__832f2 .wrapper__8436d) {
         border: $size-s solid $black;
         box-sizing: border-box;
     }
 
     // DM icon
-    :is(.wrapper_d281dd, .wrapper_d281dd.selected_f5ec8e, .wrapper_d281dd:hover) {
-        .childWrapper__01b9c {
+    :is(.wrapper__8436d, .wrapper__8436d.selected_ae80f7, .wrapper__8436d:hover) {
+        .childWrapper_a6ce15 {
             background: $red;
             color: $cream;
         }
     }
 
     // Add server and explore buttons
-    .circleIconButton_d8df29,
-    .circleIconButton_d8df29.selected__5250e {
+    .circleIconButton__05cf2,
+    .circleIconButton__05cf2.selected_aded59 {
         border: $size-s solid $black;
         background: $red;
         color: $cream;
@@ -86,24 +86,24 @@
 
     // Reordering servers
     // Background behind dragged icon
-    .placeholderMask__94802 {
+    .placeholderMask_ca6625 {
         border-radius: $size-max;
 
-        .dragInner_a23293 {
+        .dragInner_d5b34c {
             background: $red;
         }
     }
 
     // Dragged icon target
-    .target__47b05.dragOver__84b73::before,
-    .centerTarget_dffece.dragOver__84b73::before {
+    .target__2c5c2.dragOver_efabec::before,
+    .centerTarget_ec3a01.dragOver_efabec::before {
         background: $red;
         box-shadow: none;
     }
 
     // Badge
-    .lowerBadge__669e7,
-    .upperBadge_c7cfb3 {
+    .lowerBadge_e89e22,
+    .upperBadge__00ad0 {
         & > div {
             border: $size-xs solid $black;
             height: 20px;
@@ -113,14 +113,14 @@
         }
 
         // Mention
-        .base__92a12 {
+        .base__5ed84 {
             background: $cream;
             color: $black;
             padding: 0 0 4px 2px;
             font-size: 16px;
 
             // Live/event indicator
-            .icon__92653 {
+            .icon__62c73 {
                 padding: 3px 2px 0 0;
             }
 
@@ -131,7 +131,7 @@
         }
 
         // Paused invites
-        .pauseBackground__213bd {
+        .pauseBackground__69277 {
             border: $size-xs solid $black;
             background: $cream;
 
@@ -142,14 +142,14 @@
     }
 
     // New unreads bubble
-    :is(.unreadMentionsIndicatorBottom_fdb943, .unreadMentionsIndicatorTop_ada847) {
+    :is(.unreadMentionsIndicatorBottom__9351c, .unreadMentionsIndicatorTop__153ad) {
         padding: 2px;
 
-        .unreadMentionsBar__0d02a {
+        .unreadMentionsBar__8cd45 {
             border: $size-s solid $black;
             box-sizing: border-box;
 
-            .text__467e0 {
+            .text__50a62 {
                 color: $black;
                 font-size: 16px;
                 margin: 0 0 6px 2px;

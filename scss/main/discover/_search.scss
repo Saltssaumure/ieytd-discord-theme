@@ -5,12 +5,12 @@
 @use "../../top/tabs";
 
 // Search results
-.viewWrapper_d8b39a {
+.viewWrapper_a91a78 {
     width: fit-content;
 }
 
 // Header
-.searchHeader_d44e8b {
+.searchHeader_c0a1d7 {
     align-items: baseline;
 
     strong,
@@ -21,7 +21,7 @@
 
 // Searchbar
 #{$root} {
-    .searchBox_a63854 {
+    .searchBox__56feb {
         @include card.round;
 
         &,
@@ -31,44 +31,44 @@
             border-color: $cream;
         }
 
-        .searchBoxInput__73c9c,
-        .closeIcon__3dfb5,
-        .searchIcon_e60ea8,
-        .closeIcon__3dfb5:hover,
-        .clearIcon__91449 {
+        .searchBoxInput__56498,
+        .closeIcon_da3bc1,
+        .searchIcon_d1a3c1,
+        .closeIcon_da3bc1:hover,
+        .clearIcon__21453 {
             color: $cream;
         }
     }
 }
 
 // Categories
-.categories_e49c23 {
+.categories_bbef0d {
     @include tabs.bar;
     margin-bottom: 0;
 
-    .categoryPill_c95cea {
+    .categoryPill_c6ae1b {
         @include tabs.tab;
 
-        .categoryLabel__44b10 {
+        .categoryLabel__236f3 {
             color: inherit;
         }
 
-        &.selected__24846 {
+        &.selected_b5f19b {
             @include tabs.tab($ISINVERT: true);
         }
 
-        &:hover:not(.selected__24846) {
+        &:hover:not(.selected_b5f19b) {
             background: $black;
         }
     }
 }
 
 // Results
-:is(.results__9b201, .guildList__454fa) {
+:is(.results__7a0d3, .guildList_d05b32) {
     max-width: 848px;
     margin: $size-m $size-l;
 
-    .separator_f527c9 {
+    .separator__16faf {
         display: none;
     }
 }
@@ -77,26 +77,26 @@
 .card__33bd0 {
     @include card.large;
 
-    .splashContainer__5cb35,
-    .content_f124d7 {
+    .splashContainer_c07592,
+    .content_d876f9 {
         height: 135px + ($size-m * 2);
     }
 
     // Banner
-    .splashContainer__5cb35 {
+    .splashContainer_c07592 {
         border-radius: 0;
 
-        .splashImage__3a90b {
+        .splashImage__51017 {
             transform: none;
         }
     }
 
     // Info
-    .content_f124d7 {
+    .content_d876f9 {
         padding: $size-m 0;
         box-sizing: border-box;
 
-        .svg__7900e {
+        .svg_bb7847 {
             width: 40px;
             height: 40px;
         }
@@ -113,29 +113,29 @@
         }
 
         // Name
-        .headerName__3905d {
+        .headerName_d8b242 {
             align-items: baseline;
         }
 
-        .dotSeparator__44bc0 {
+        .dotSeparator__4e54d {
             background: $cream;
         }
     }
 }
 
 // Loading result
-.placeholder__278ac {
+.placeholder_ab7387 {
     @include card.large;
 }
 
 // Navbar
-.pageControlContainer_b111b0 {
+.pageControlContainer__86479 {
     @include card.round;
     position: sticky;
     width: auto;
     bottom: -$size-l;
 
-    .pageButton_bcd673 {
+    .pageButton_bf9853 {
         &,
         &:hover {
             color: inherit;
@@ -143,7 +143,7 @@
         }
     }
 
-    .activeButton__7a550 {
+    .activeButton__70b70 {
         &,
         &:hover {
             color: $black;

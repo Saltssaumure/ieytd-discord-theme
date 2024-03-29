@@ -2,8 +2,8 @@
 @use "../../../top/card";
 @use "../../../top/filter";
 
-.gradient_e94761,
-.wrapper__26ed7 {
+.gradient__79da8,
+.wrapper_d3adb0 {
     background: $red;
     border-radius: $size-l;
 }
@@ -13,37 +13,37 @@
 }
 
 // Images
-.backgroundImages__0cd3a,
-.iconImage_e0a480,
-.guildBoostGem_b873bb,
-.boostIcon__131ee {
+.backgroundImages__3c5e4,
+.iconImage__22424,
+.guildBoostGem__0562b,
+.boostIcon_ad340b {
     @include filter.sepia;
 }
 
 // Top gem
-.guildBoostGemWrapper__975b2 {
+.guildBoostGemWrapper__8ebc3 {
     background: $cream;
 
-    .guildBoostGem_b873bb {
+    .guildBoostGem__0562b {
         mix-blend-mode: multiply;
     }
 }
 
 // Server
-.guildContainer__9d362 {
+.guildContainer_fef06f {
     background: $red;
     padding: $size-l;
 
-    .guildBoostStatsContainer_e7f379 {
+    .guildBoostStatsContainer__66905 {
         gap: $size-m;
     }
 
-    .guildInfoContainer_e14cd7 {
+    .guildInfoContainer_dba573 {
         div {
             color: $black !important;
         }
 
-        .guildBoostBadge_e16811 {
+        .guildBoostBadge_f05abd {
             color: $black;
             margin-right: 0;
         }
@@ -51,21 +51,21 @@
 }
 
 // Active boost
-.appliedBoostContainer_d3ed2e {
+.appliedBoostContainer_d9ceba {
     @include card.large;
 
     // Individual boost
-    .boostContainer__8cfa8 {
+    .boostContainer__1f6bc {
         background: unset;
 
-        .boostSlotMenuIcon__24128 {
+        .boostSlotMenuIcon_d5891e {
             color: $cream;
         }
     }
 }
 
 // Suggested boost
-.recommendedServerCard__70a39 {
+.recommendedServerCard_b11321 {
     border-radius: $size-l;
     border: $size-xs solid $cream;
 
@@ -75,13 +75,13 @@
     }
 
     // Sparkles
-    .sparkle__4709d {
+    .sparkle__3c6bd {
         color: $cream;
     }
 }
 
 // Boost any server
-.wrapper__0df00 {
+.wrapper__6b347 {
     @include card.large;
 
     .cta__4a98b {
@@ -90,20 +90,20 @@
 }
 
 // Table
-.tierComparisonTable__3126f,
-.tierComparisonTable_b4d962 {
-    .booleanValueIcon__864e1 {
+.tierComparisonTable__28219,
+.tierComparisonTable__25d64 {
+    .booleanValueIcon__88ae5 {
         color: $cream;
     }
 
-    .columnHeading__7e90b,
-    .tableCell__77206 {
+    .columnHeading_d35d98,
+    .tableCell__23b95 {
         border-bottom: 0;
     }
 }
 
 // Give you community a boost and be recognised
-.wrapper__26ed7 {
+.wrapper_d3adb0 {
     h2[style] {
         color: $cream !important;
     }
@@ -112,7 +112,7 @@
         @include card.large;
         background: $black;
 
-        .icon_b814e3 {
+        .icon__64816 {
             color: $cream;
         }
     }
@@ -124,13 +124,13 @@
 }
 .list__80e1b {
     border-top: 0;
-    .listItem_df7f03 {
+    .listItem_b7467d {
         border-bottom: 0;
 
-        .questionWrapper_cbf471,
-        .questionWrapper_cbf471:active,
-        .questionWrapper_cbf471:hover,
-        .questionWrapperExpanded__3c628 {
+        .questionWrapper_e7eb8f,
+        .questionWrapper_e7eb8f:active,
+        .questionWrapper_e7eb8f:hover,
+        .questionWrapperExpanded_ad8e52 {
             color: $cream;
         }
 

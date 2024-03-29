@@ -3,34 +3,34 @@
 
 // Current game
 #{$root} {
-    .nowPlaying__353c3 {
+    .nowPlaying_a3b60b {
         @include card.large;
 
-        :is(.gameName_aeeab5, .lastPlayed_accc56, .overlayStatusText__61367) {
+        :is(.gameName_c1c8a6, .lastPlayed__0b4ef, .overlayStatusText__668e1) {
             color: $cream;
         }
 
-        .toggleIconOn_ca5bbe .fill__80e66 {
+        .toggleIconOn__18854 .fill__90d85 {
             fill: $cream;
         }
 
-        .toggleIconOff_b79a58 :is(.fill__80e66, rect) {
+        .toggleIconOff_b65232 :is(.fill__90d85, rect) {
             fill: $red;
         }
     }
 
-    .notDetected__2a0c9 {
+    .notDetected__14b92 {
         @include card.large;
         border-color: $red;
 
-        :is(.gameName_aeeab5, .lastPlayed_accc56, .overlayStatusText__61367) {
+        :is(.gameName_c1c8a6, .lastPlayed__0b4ef, .overlayStatusText__668e1) {
             color: $red;
         }
     }
 }
 
 // Not seeing your game
-#{$root} .nowPlayingAdd__7caf1 {
+#{$root} .nowPlayingAdd_ab1001 {
     color: $cream;
 }
 
@@ -38,15 +38,15 @@
 #{$root} .game__19f4b {
     box-shadow: none;
 
-    :is(.gameName_aeeab5, .lastPlayed_accc56, .overlayStatusText__61367) {
+    :is(.gameName_c1c8a6, .lastPlayed__0b4ef, .overlayStatusText__668e1) {
         color: $cream;
     }
 
-    .toggleIconOn_ca5bbe .fill__80e66 {
+    .toggleIconOn__18854 .fill__90d85 {
         fill: $cream;
     }
 
-    .toggleIconOff_b79a58 :is(.fill__80e66, rect) {
+    .toggleIconOff_b65232 :is(.fill__90d85, rect) {
         fill: $red;
     }
 }

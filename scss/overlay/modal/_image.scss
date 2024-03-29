@@ -2,12 +2,12 @@
 @use "../../top/card";
 
 // Full size image viewer
-.wrapper__8e1d7 {
+.wrapper__4350e {
     @include card.outer;
     box-shadow: 0 0 20px $red !important;
 
     // Open in browser
-    .downloadLink_e5ebe9 {
+    .downloadLink_d6df2d {
         @include card.round;
         padding: 0 $size-m;
         color: $cream !important;
@@ -16,15 +16,15 @@
         left: $size-m;
         opacity: 0;
     }
-    &:hover .downloadLink_e5ebe9 {
+    &:hover .downloadLink_d6df2d {
         opacity: 1;
     }
 }
 
 // Carousel gallery viewer
-.carouselModal_c0d5b7 {
+.carouselModal__7e22f {
     // Navigation
-    .nav_f39c29 {
+    .nav__584bc {
         @include card.round;
     }
 }

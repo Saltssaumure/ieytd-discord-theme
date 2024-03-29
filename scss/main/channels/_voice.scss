@@ -1,7 +1,7 @@
 @use "../../top/vars" as *;
 
 // Show all voice channels button
-.voiceChannelsButton__46c37 {
+.voiceChannelsButton_fd0b98 {
     border: $size-xs solid $cream;
     background: $black;
     color: $cream;
@@ -18,12 +18,12 @@
 }
 
 // VC with users or description
-.containerDefault__3187b:has(.list__02208, .linkBottom_bac113) {
+.containerDefault_ae2ea4:has(.list__02208, .linkBottom__942a1) {
     height: unset;
 }
 
 // Description
-.linkBottom_bac113 {
+.linkBottom__942a1 {
     margin-left: 32px;
 }
 
@@ -33,25 +33,25 @@
     padding-bottom: 2px;
 
     // Hidden names
-    &.collapsed__66e36 {
+    &.collapsed_ec1cfb {
         padding-top: $size-s;
         padding-bottom: $size-m;
     }
 
     // Username
-    :is(.voiceUser__0470a, .voiceUser__0470a:hover) .username__73ce9 {
+    :is(.voiceUser__629a5, .voiceUser__629a5:hover) .username_a42504 {
         color: $cream;
     }
 
     // Audience counter
-    .audienceContainer_d4eada {
+    .audienceContainer_a2547c {
         // Hidden names
-        &.audienceContainerCollapsed__3fa97 {
+        &.audienceContainerCollapsed_ccb162 {
             background: $black;
             border: $size-xs solid $cream;
 
-            .audienceIconContainer_b469ed .audienceIcon_f0f8e7,
-            .audienceIconContainer_b469ed + div {
+            .audienceIconContainer__625ab .audienceIcon__4b212,
+            .audienceIconContainer__625ab + div {
                 color: $cream !important;
             }
         }
@@ -60,25 +60,25 @@
             color: $cream !important;
         }
 
-        .audienceIconContainer_b469ed {
+        .audienceIconContainer__625ab {
             background: unset;
             margin: 2px 8px 0 0;
         }
 
-        .audienceIcon_f0f8e7 {
+        .audienceIcon__4b212 {
             color: $cream;
             margin: 4px;
         }
     }
 
     // User
-    .draggable__081c0 {
+    .draggable__68384 {
         height: auto;
 
-        .userSmall_e40291 {
+        .userSmall__75fbe {
             height: auto;
 
-            &.overlap_c76e16 {
+            &.overlap__6969e {
                 .avatar_a56eee {
                     border: $size-xs solid $cream;
                     margin: 0;
@@ -100,14 +100,14 @@
     }
 
     // More users
-    .moreContainer_a9d4ad {
+    .moreContainer_dd4188 {
         background: $black;
         border: $size-xs solid $cream;
     }
 }
 
 // VC user limit
-.wrapper__5848b {
+.wrapper__71278 {
     :is(.users__65981, .total_c01838) {
         background: transparent;
         color: inherit;
@@ -130,26 +130,26 @@
 }
 
 // Activity icon
-.gameIcon__90c32 {
+.gameIcon_fc710a {
     border-radius: $size-max;
 }
 
 // Speakers
-.speaking_c1b30e,
-.avatarSpeaking_c95053 {
+.speaking__33297,
+.avatarSpeaking_f239de {
     box-shadow: inset 0 0 0 $size-xs $red;
 }
 
 // Inverted when connected or selected
-:is(.modeConnected__1c02e, .modeSelected__487d6),
-:has(.modeConnected__1c02e, .modeSelected__487d6) {
+:is(.modeConnected__52a8f, .modeSelected__473f1),
+:has(.modeConnected__52a8f, .modeSelected__473f1) {
     &,
     &:hover {
         + .list__02208 {
             // Username
-            :is(.voiceUser__0470a, .voiceUser__0470a:hover) .username__73ce9,
+            :is(.voiceUser__629a5, .voiceUser__629a5:hover) .username_a42504,
             // Muted / deafened
-            .icon__1d60c {
+            .icon__1e4c2 {
                 color: $black;
             }
 
@@ -160,7 +160,7 @@
             }
         }
 
-        .wrapper__5848b {
+        .wrapper__71278 {
             color: $black;
         }
     }

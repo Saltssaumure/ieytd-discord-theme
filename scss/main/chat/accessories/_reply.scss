@@ -2,7 +2,7 @@
 @use "../../../top/card";
 
 // Reply preview
-.repliedMessage_e2bf4a {
+.repliedMessage__636d2 {
     --reply-spacing: 0;
     color: $cream;
 
@@ -16,13 +16,13 @@
     }
 
     // Username
-    .username_d30d99.clickable_d866f1 {
+    .username__0b0e7.clickable__09456 {
         font-size: 1.2rem;
         margin-top: -0.5rem;
     }
 
     // Message text
-    .repliedTextPreview__90311.clickable_d866f1:hover {
+    .repliedTextPreview__1a8a4.clickable__09456:hover {
         color: $cream;
     }
 }

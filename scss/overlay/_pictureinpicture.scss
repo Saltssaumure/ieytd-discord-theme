@@ -3,20 +3,20 @@
 
 // Picture in picture
 
-.pictureInPictureWindow_dc49a8 {
+.pictureInPictureWindow__9f0e6 {
     @include card.outer;
 
-    .headerTitle__51f8e:hover {
+    .headerTitle__90b1b:hover {
         border-bottom-color: $cream;
 
-        .backButton_fe22ec {
+        .backButton__1c466 {
             color: $cream;
         }
     }
 
-    .backButton_fe22ec,
-    .viewersIcon__051bf,
-    .bottomControls__96434 {
+    .backButton__1c466,
+    .viewersIcon_d66ed5,
+    .bottomControls_bb6a85 {
         color: $cream;
     }
 }

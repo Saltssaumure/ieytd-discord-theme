@@ -5,24 +5,24 @@
 // Images, videos, gifs
 
 // Direct uploads
-.mediaAttachmentsContainer_edba75 {
+.mediaAttachmentsContainer__242e2 {
     @include card.large;
     width: auto;
 }
 
 // Embedded from link
-.inlineMediaEmbed__4270e {
+.inlineMediaEmbed_b25e49 {
     @include card.large;
     width: fit-content;
 }
 
 // Inner
-.imageWrapper_fd6587 {
+.imageWrapper__178ee {
     border-radius: 0;
 }
-.embedImage_e638a7,
-.embedThumbnail__468e1,
-.embedVideo__0c65b {
+.embedImage_eb54e3,
+.embedThumbnail__1f402,
+.embedVideo__303fe {
     img,
     video {
         border-radius: 0;
@@ -33,12 +33,12 @@
 .gifTag__9db5a {
     background: svg.$giftag;
 }
-.gifFavoriteButton__13dba {
+.gifFavoriteButton_bca32d {
     color: $cream;
 }
 
 // Alt text
-.altText__6dd8b {
+.altText_a57338 {
     background: $red;
     color: $black;
     padding: 0.25rem;
@@ -46,24 +46,24 @@
 }
 
 // Action buttons
-.hoverButtonGroup__5b423 {
+.hoverButtonGroup__304b2 {
     border-radius: $size-max;
     background: $cream;
 
-    .removeAttachmentHoverButton__4ddb5:hover,
-    .keyboard-mode .removeAttachmentHoverButton__4ddb5:focus {
+    .removeAttachmentHoverButton__161a2:hover,
+    .keyboard-mode .removeAttachmentHoverButton__161a2:focus {
         background: $red;
     }
 
-    .hoverButton__13836 {
+    .hoverButton_be4802 {
         color: $black;
     }
 }
-.hoverButtonGroup__5b423:hover,
-.removeAttachmentButton__72505:focus-within,
-.removeAttachmentButton__72505:hover,
-.keyboard-mode .hoverButtonGroup__5b423:focus-within,
-:hover + .hoverButtonGroup__5b423,
-:hover + .removeAttachmentButton__72505 {
+.hoverButtonGroup__304b2:hover,
+.removeAttachmentButton__692b5:focus-within,
+.removeAttachmentButton__692b5:hover,
+.keyboard-mode .hoverButtonGroup__304b2:focus-within,
+:hover + .hoverButtonGroup__304b2,
+:hover + .removeAttachmentButton__692b5 {
     opacity: 0.8;
 }

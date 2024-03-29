@@ -4,10 +4,10 @@
 
 // Pinned messages in current channel
 
-.messageGroupWrapper_f8c6e9 {
+.messageGroupWrapper__1fce2 {
     background: unset;
     border: 0;
-    .jumpButton__0329d {
+    .jumpButton__309d6 {
         @include card.round;
         height: 20px;
         padding: 4px;
@@ -20,14 +20,14 @@
     }
 }
 
-.image__0a0fc {
+.image_bbc9d9 {
     @include filter.sepia;
 }
 
-.header_f5cc88 {
+.header__21b33 {
     padding: 12px 16px;
 
-    .closeIcon__93269 {
+    .closeIcon__5dce1 {
         &,
         &:hover {
             color: $cream;

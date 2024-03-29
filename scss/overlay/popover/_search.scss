@@ -5,16 +5,16 @@
 // Search chat history
 
 #{$root} {
-    .container_d6dad3 {
+    .container__84c26 {
         @include card.outer;
     }
 
     // Header
-    .focused_f9cf2c {
+    .focused__68b93 {
         background: $red;
     }
 
-    .queryContainer_c359fe {
+    .queryContainer_c1cb2f {
         color: $cream;
 
         strong {
@@ -24,13 +24,13 @@
 }
 
 // Group header
-.resultsGroup_ea9b64 {
-    .header_b24bd1 {
+.resultsGroup_b221b0 {
+    .header__00739 {
         color: $cream;
     }
 
-    .searchLearnMore_bf7b8e,
-    .searchClearHistory_cd1df2 {
+    .searchLearnMore__17e18,
+    .searchClearHistory__7fe75 {
         &,
         &:hover {
             color: $cream;
@@ -39,8 +39,8 @@
 }
 
 // Search option
-.searchOption__41bc5 {
-    .filter_bd5fe7 {
+.searchOption__3c857 {
+    .filter__851fb {
         color: $red;
     }
     .answer__9ff92 {
@@ -49,12 +49,12 @@
 }
 
 // History / options
-.option_b5597b {
+.option__91497 {
     &:hover,
     &[aria-selected="true"] {
         background: unset;
 
-        .plusIcon__36244 {
+        .plusIcon__3ff01 {
             color: $cream;
         }
     }
@@ -66,28 +66,28 @@
 
     &,
     &:hover {
-        :is(.nonText_cbb69b, .answer__9ff92, .filter_bd5fe7, strong) {
+        :is(.nonText_fbd88d, .answer__9ff92, .filter__851fb, strong) {
             color: $cream;
         }
     }
 
     // From user
-    &.user__97b4c .displayedNick_df9a16 {
+    &.user__97b4c .displayedNick_ee206c {
         color: $cream;
         font-family: var(--font-display);
         margin-top: -6px;
     }
-    &.user__97b4c .displayUsername_aea59a {
+    &.user__97b4c .displayUsername__41697 {
         color: $red;
     }
 }
 
-.resultsGroup_ea9b64::before {
+.resultsGroup_b221b0::before {
     display: none;
 }
 
 // Date picker
-#{$root} .calendarPicker__5c474 {
+#{$root} .calendarPicker__47c85 {
     .react-datepicker__header,
     .react-datepicker {
         background: $black;
@@ -172,7 +172,7 @@
 }
 
 // Footer
-.datePicker__94673 .datePickerHint__7cc9b {
+.datePicker_df63a7 .datePickerHint_d023b6 {
     background: $red;
     margin: 0;
     padding: 20px;
@@ -182,7 +182,7 @@
         color: $cream;
     }
 
-    .hintValue_c2ce1f {
+    .hintValue__0c960 {
         border-radius: $size-max;
 
         &,
@@ -196,13 +196,13 @@
 /* search modifiers, eg. has: from: */
 #{$root} {
     // Search modifiers
-    .searchFilter__118cb {
+    .searchFilter_dbda51 {
         background: $cream;
         color: $black;
         border-radius: $size-max 0 0 $size-max;
         padding: 0 3px 0 6px;
     }
-    .searchAnswer_b452e7 {
+    .searchAnswer__2ccaf {
         background: $red;
         color: $black;
         border-radius: 0 $size-max $size-max 0;
@@ -210,8 +210,8 @@
     }
 
     // In channel
-    .searchResultChannelCategory__7ebb5,
-    .searchResultChannelIcon__95142 {
+    .searchResultChannelCategory__3c246,
+    .searchResultChannelIcon__80f46 {
         color: $cream;
     }
 }

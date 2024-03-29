@@ -1,11 +1,11 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
 
-.descriptionWrapper__0d577 {
+.descriptionWrapper__75cd5 {
     color: $cream;
 }
 
-#{$root} .defaultIndicator__855a2 {
+#{$root} .defaultIndicator_b89fc1 {
     border-radius: $size-max;
     background: $cream;
     color: $black;
@@ -17,25 +17,25 @@
         background: unset;
         border-color: $cream;
 
-        .subText_a66a1e,
-        .sectionHeader_a9d2bb {
+        .subText__2975e,
+        .sectionHeader__9a59b {
             color: $cream;
         }
     }
 }
 
 // Transaction history
-.paymentPane__9cf01 {
+.paymentPane__541d7 {
     #{$root} & {
         @include card.large;
         color: $cream;
     }
 
     // Header
-    .bottomDivider_a59d97 {
+    .bottomDivider_c85b47 {
         border-bottom: 0;
     }
-    .paymentRowHeader__930f3 {
+    .paymentRowHeader__36e9a {
         div {
             color: $cream;
             font-size: 16px;
@@ -43,12 +43,12 @@
     }
 
     // Content
-    .paginator_e620d3 {
+    .paginator__28ba5 {
         background: unset;
     }
 
     // Payment row
-    .payment__7d702 {
+    .payment_f27ac6 {
         background: unset;
 
         &:hover {
@@ -56,10 +56,10 @@
         }
 
         // Summary
-        .summaryInfo_b57acb {
+        .summaryInfo__3df8a {
             color: $cream;
 
-            .statusTagRed__8022a {
+            .statusTagRed__90ce0 {
                 background: $red;
                 color: $cream;
                 border-radius: $size-max;
@@ -67,26 +67,26 @@
         }
 
         // Details
-        .expandedInfo__47bad {
+        .expandedInfo_efc786 {
             @include card.large;
 
-            .paymentHeader__50c05,
-            .paymentText_deeaf4 {
+            .paymentHeader__27aff,
+            .paymentText__55e50 {
                 color: $cream;
             }
         }
     }
 
     // Nav buttons
-    .pageActions__11ae3 {
+    .pageActions_ccda85 {
         justify-content: space-between;
         padding: $size-m;
 
-        :is(.pageButtonNext_b6c1ca, .pageButtonPrev__9ee28, .pageIndicator__973ca) {
+        :is(.pageButtonNext__13132, .pageButtonPrev__9c384, .pageIndicator__1821d) {
             color: $cream;
             border: 0;
 
-            &.disabled__238bc {
+            &.disabled__82158 {
                 color: $cream;
                 opacity: 0.7;
             }
