@@ -86,8 +86,12 @@
     .title__4a7a9,
     .subtext_ce73b4,
     .button_ae40a4,
-    .button_ae40a4:hover {
+    .button_ae40a4.enabled__214db:hover {
         color: $cream;
+    }
+
+    .lottieIcon_c7076c.lottieIcon_c7076c path {
+        fill: $cream;
     }
 
     .redIcon__14a46,
