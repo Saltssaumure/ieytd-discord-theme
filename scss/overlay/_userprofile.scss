@@ -2,30 +2,30 @@
 @use "../top/filter";
 @use "../top/card";
 
-.userPopoutOuter__3884e {
+.userPopoutOuter_d67f56 {
     @include card.outer;
 }
 
-.userProfileOuter__4ac83,
-.userProfileInnerThemedNonPremium_ed9022,
-.userProfileInnerThemedWithBanner__2152d,
-.userProfileInnerThemedPremiumWithoutBanner__3705a,
-.overlayBackground__2666e {
+.userProfileOuter__35e59,
+.userProfileInnerThemedNonPremium_b64fb4,
+.userProfileInnerThemedWithBanner_e9e7c5,
+.userProfileInnerThemedPremiumWithoutBanner_ee8277,
+.overlayBackground__345c9 {
     background: $black;
 }
 
-.userProfileOuterThemed__1fbd7.userPopoutOuter__3884e,
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
+.userProfileOuterThemed_a425f3.userPopoutOuter_d67f56,
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59 {
     padding: 0;
 }
 
 // Overlay
-.userProfileInner__61cc1::before {
+.userProfileInner__8ff35::before {
     display: none;
 }
 
 // Inner
-.body__323bb {
+.body__07791 {
     border-radius: 0;
 }
 
@@ -98,7 +98,7 @@
 }
 
 // Tab bar
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     .tabBarItem_ce14f3 {
         height: auto;
     }
