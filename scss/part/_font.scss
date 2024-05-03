@@ -118,3 +118,8 @@ a,
 .markup_a7e664 a {
     color: $red;
 }
+
+::selection {
+    color: $black;
+    background: $cream;
+}
