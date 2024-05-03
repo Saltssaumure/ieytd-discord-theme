@@ -98,7 +98,7 @@
     }
 
     // Emoji button
-    .sprite__294b3 {
+    @at-root .sprite__294b3 {
         filter: saturate(var(--saturation-factor, 1)) sepia(1) !important;
         transform: none !important;
     }
