@@ -2,6 +2,7 @@
 @forward "./bar";
 @forward "./chatbox";
 @forward "./essentials";
+@forward "./loading";
 
 @use "../../top/vars" as *;
 
@@ -15,21 +16,5 @@
     }
     .description__51014 {
         color: $cream;
-    }
-
-    // Messages loading
-    .wrapper__11501 {
-        background: transparent;
-
-        // Fake message block
-        .wrapper__6b7d8 {
-            background: transparent;
-
-            .avatar_eb6eba,
-            .attachment_d24cc3,
-            .blob__8d5bd {
-                background: $cream;
-            }
-        }
     }
 }

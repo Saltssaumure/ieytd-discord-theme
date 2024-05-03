@@ -1,0 +1,17 @@
+@use "../../top/vars" as *;
+
+// Messages loading
+@at-root .wrapper_c899da {
+    background: transparent;
+
+    // Fake message block
+    .wrapper__6b7d8 {
+        background: transparent;
+
+        .avatar_eb6eba,
+        .attachment_d24cc3,
+        .blob__8d5bd {
+            background: $cream;
+        }
+    }
+}
