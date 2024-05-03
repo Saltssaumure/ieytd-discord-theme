@@ -1,0 +1,44 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Divider bars
+.divider__01aed {
+    border-width: $size-s;
+    border-radius: $size-max;
+
+    // Date bar
+    &:not(.isUnread_de09f5) {
+        $dateColor: $red;
+        border-color: $dateColor;
+
+        @at-root .content__7191e {
+            @include card.round;
+            box-sizing: border-box;
+            color: $dateColor;
+            border-color: $dateColor;
+            height: 24px;
+            top: -12px;
+            padding: 4px;
+        }
+    }
+
+    // New messages bar
+    &.isUnread_de09f5 {
+        $unreadColor: $cream;
+        border-color: $unreadColor;
+
+        @at-root .unreadPill__1b4fa {
+            @include card.round;
+            color: $unreadColor;
+            border-color: $unreadColor;
+            height: 24px;
+            top: -12px;
+            line-height: 24px - 4px;
+            padding: 4px;
+
+            @at-root .unreadPillCap__44e20 {
+                display: none;
+            }
+        }
+    }
+}
