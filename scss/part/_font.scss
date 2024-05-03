@@ -105,9 +105,8 @@ code,
 .description__38492,
 .helpText__6a93e,
 .titleText__1fd97,
-div:not(.desaturateUserColors_eb6bd2),
 :is(h1, h2, h3, h4),
-span:not(.username_d272d6, .username__0b0e7) {
+:is(span, div):not(.desaturateUserColors_eb6bd2, .username_d272d6, .username__0b0e7, .username_a42504) {
     &:where([style^="color"]) {
         color: $cream !important;
     }
