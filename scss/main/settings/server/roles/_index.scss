@@ -1,10 +1,2 @@
 @forward "./editrole";
 @forward "./mainview";
-
-@use "../../../../top/vars" as *;
-@use "../../../../top/card";
-
-// Search
-:is(.searchContainer_a605d5, .searchContainer_eee0ea) .container__33507 {
-    @include card.round;
-}

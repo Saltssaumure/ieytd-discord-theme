@@ -13,3 +13,11 @@
         @include filter.sepia;
     }
 }
+
+.analyticsCard_deaffc {
+    @include card.large;
+
+    @at-root .infoIcon__9a00c {
+        color: $cream;
+    }
+}

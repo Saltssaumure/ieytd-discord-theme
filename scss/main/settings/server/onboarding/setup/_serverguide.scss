@@ -31,6 +31,25 @@
     flex-direction: column;
 }
 
+// Welcome sign preview
+.editWelcomeSection_fcb9b4 {
+    margin-top: 12px;
+
+    @at-root .welcomeMessageContent__26562 {
+        @include card.large;
+        padding-top: 16px;
+    }
+
+    @at-root .editWelcomeButton__59488 {
+        @include card.round;
+        padding: 2px 4px;
+
+        &:hover {
+            background: unset;
+        }
+    }
+}
+
 // Bad example
 .example_bbc240 {
     @include card.large;
@@ -80,16 +99,18 @@
 }
 
 // Suggested channels
-.suggestedChannelsDismissCheck__0b85b {
-    color: $cream;
-}
-.suggestedChannels__0a3d8 {
-    @include card.large;
-
-    .suggestedChannelIcon__46d9c {
+.suggestedChannelsSection_da314a {
+    @at-root .suggestedChannelsDismissCheck__0b85b {
         color: $cream;
-        zoom: 1.5;
-        margin-right: 0;
+    }
+    @at-root .suggestedChannels__0a3d8 {
+        @include card.large;
+
+        .suggestedChannelIcon__46d9c {
+            color: $cream;
+            zoom: 1.5;
+            margin-right: 0;
+        }
     }
 }
 

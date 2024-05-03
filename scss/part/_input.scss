@@ -170,7 +170,8 @@
 }
 
 // Dropdown options
-.popout_a6e77f {
+.popout_a6e77f,
+.popout_a6e77f.popoutPositionTop__762b9 {
     @include card.xlarge;
     background: $black;
 
@@ -204,4 +205,9 @@
 .icon_fb52f0,
 .input__48d49 {
     color: $cream;
+}
+
+// Search input type 2
+.container__33507 {
+    @include card.round;
 }

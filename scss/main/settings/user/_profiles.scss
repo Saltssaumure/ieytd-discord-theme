@@ -39,3 +39,11 @@
 .fakeActivityIcon__7d0ce {
     @include filter.sepia;
 }
+
+// Nitro upsell
+.premiumFeatureBorder__6ac04 {
+    background:
+        linear-gradient($black, $black) padding-box,
+        var(--custom-premium-colors-premium-gradient-tier-2-diagonal) border-box;
+    border-radius: $size-l;
+}
