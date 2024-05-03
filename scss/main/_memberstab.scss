@@ -78,68 +78,106 @@
 .sidebarContianer__623bd {
     @at-root .userProfileInner__8ff35 {
         border-radius: 0;
-    }
 
-    // Header container
-    .container_cbd141 {
-        background: unset;
-
-        @at-root .topRow_b0479e,
-            .bottomRowAction_b95fd7 {
-            background-color: unset !important;
-            color: $cream;
-        }
-
-        @at-root .bottomRowAction_b95fd7 {
+        @at-root .innerContainer__7b4c0 {
+            padding: 0;
             color: $cream;
 
-            path {
-                fill: $cream;
-            }
+            // Header container
+            @at-root .container_cbd141 {
+                background: unset !important;
 
-            .innerBottomRowAction__8a3df:hover {
-                background-color: unset;
-                color: $cream;
-            }
-        }
-    }
+                // Make username section a proper header
+                @at-root .topRow_b0479e {
+                    border-radius: 0;
+                    background: $red !important;
+                    border-bottom: $size-s solid $cream;
+                    padding: 5px 8px 2px;
 
-    // Mod permissions container
-    .container__532be {
-        @include card.large;
-        background: unset !important;
+                    // Shrink contents
+                    @at-root .memberNameContainer__4d221 {
+                        display: flex;
+                        align-items: baseline;
 
-        @at-root .header_aacd9b {
-            background: unset !important;
-        }
+                        // User avatar
+                        @at-root .wrapper__3ed10 {
+                            width: 24px !important;
+                            height: 24px !important;
 
-        // Section header
-        @at-root .headerContainer__88262 {
-            @at-root .viewAllPermissions__1df11 path {
-                fill: $cream;
-            }
-        }
+                            .svg_a6bf1c {
+                                height: calc(24 / 48 * 57px);
+                            }
+                        }
 
-        // Section content
-        @at-root .modInfoItemContainer_fa4d6a {
-            @include card.med;
+                        // User name and discrim
+                        @at-root .memberName_d8b665 .text-lg-medium__72c29,
+                            .memberName_d8b665 + div,
+                            .memberName_d8b665 + div .text-md-medium_a84e09 {
+                            font-size: 16px;
+                            line-height: 2;
+                        }
+                    }
+                }
 
-            // Section item
-            @at-root .modInfoItem_df526b {
-                background: unset;
-
-                &:hover {
-                    background: unset;
+                @at-root .bottomRowAction_b95fd7 {
+                    background-color: unset !important;
                     color: $cream;
+
+                    path {
+                        fill: $cream;
+                    }
+
+                    .innerBottomRowAction__8a3df:hover {
+                        background-color: unset;
+                        color: $cream;
+                    }
+                }
+            }
+
+            // Mod permissions container
+            @at-root .container__532be {
+                background: unset !important;
+
+                // Mod View
+                @at-root .header_aacd9b {
+                    background: unset !important;
+
+                    // Icon
+                    @at-root .headerTitle__01fbe svg {
+                        zoom: 1.4;
+                        margin-bottom: -4px;
+                    }
                 }
 
-                path {
-                    fill: $cream;
+                // Section header
+                @at-root .headerContainer__88262 {
+                    @at-root .viewAllPermissions__1df11 path {
+                        fill: $cream;
+                    }
                 }
 
-                // Permission item
-                .permissionChiplet_b69b5f {
-                    @include card.round;
+                // Section content
+                @at-root .modInfoItemContainer_fa4d6a {
+                    @include card.med;
+
+                    // Section item
+                    @at-root .modInfoItem_df526b {
+                        background: unset;
+
+                        &:hover {
+                            background: unset;
+                            color: $cream;
+                        }
+
+                        path {
+                            fill: $cream;
+                        }
+
+                        // Permission item
+                        .permissionChiplet_b69b5f {
+                            @include card.round;
+                        }
+                    }
                 }
             }
         }
