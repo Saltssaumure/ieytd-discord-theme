@@ -14,6 +14,7 @@
         align-items: center;
     }
 
+    .forumPostFormButton_bdd97b,
     .searchIcon__22803,
     .closeIcon_c5e78e,
     .mediaIcon__5d208,
@@ -21,12 +22,6 @@
     .uploadIcon_dd6e1a,
     .uploadInput_a6cb60:hover .uploadIcon_dd6e1a {
         color: $cream;
-    }
-
-    // Post guidelines
-    .guidelinesButton_d7afe7 svg {
-        color: $cream;
-        zoom: 1.2;
     }
 
     // Post title / search
@@ -45,8 +40,20 @@
     }
 
     // Post content
+    .scrollableContainer_ff917f {
+        border-radius: 0;
+        border: 0;
+        cursor: text;
+    }
     .placeholder_dec8c7 {
         color: $cream;
+    }
+
+    // Preview
+    @at-root .previewForm__6f804 {
+        border: $size-xs dashed $cream;
+        border-radius: $size-m;
+        background: unset;
     }
 
     // Tags
@@ -72,8 +79,37 @@
 .container__852f7 {
     @include card.large;
 
+    // Header
+    @at-root .headerContainer__61f66 {
+        // Book icon
+        @at-root .guidelinesHeader__1ca47 svg {
+            zoom: 1.6;
+        }
+
+        // Close icon
+        .clickable_cbf441 {
+            color: $cream;
+        }
+    }
+
+    // Guidelines container
     .descriptionContainer__24e5f {
         background: unset;
+    }
+
+    // Links in guidelines
+    .guidelines__02381 a {
+        color: $red;
+    }
+
+    // Show more
+    @at-root .showMore__0846c {
+        @at-root .gradient__2a8c0 {
+            background: linear-gradient(to top, $black, transparent);
+        }
+        @at-root .linkContainer_f0e24d {
+            background: $black;
+        }
     }
 }
 

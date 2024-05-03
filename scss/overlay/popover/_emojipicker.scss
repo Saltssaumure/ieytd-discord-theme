@@ -4,6 +4,7 @@
 @use "../../top/filter";
 @use "../../top/svg";
 
+.wrapper__0757b:not(.emojiPickerHasTabWrapper__63198),
 .contentWrapper_e0bb2c,
 .contentWrapper_eab878,
 .contentWrapper_eab878.isBurstReactionPicker_b9ca03 {
@@ -12,9 +13,13 @@
     box-shadow: none;
 }
 
+// Header
+.header_e5d8b2 {
+    background: $red;
+}
+
 // Tabs
-.navList__8438b,
-.navList__5c9f4 {
+:is(.navList__8438b, .navList__5c9f4) {
     @include tabs.bar($ISBORDER: false);
     padding-top: 2px;
 
@@ -73,13 +78,18 @@
     }
 }
 
-// Server sidebar
-.wrapper__85934 {
-    background: $cream;
-
-    .emojiPickerHasTabWrapper__63198 & {
-        top: 54px;
+// Back
+#{$root} .backButton_d9b964 {
+    &,
+    &:hover {
+        color: $cream;
     }
+}
+
+// Server sidebar
+.wrapper__45980.wrapper__45980 {
+    background: $cream;
+    top: 54px;
 
     // Every circle
     .categoryItemGuildCategory_a121c6,
@@ -114,7 +124,7 @@
     }
 
     // Default sticker packs
-    .firstPartyCategory_e81d88 {
+    .standardStickerShortcut_e9a698 {
         &,
         &:hover {
             background: $red;

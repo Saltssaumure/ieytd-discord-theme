@@ -1,0 +1,20 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Stream preview / watch stream
+
+#{$root} .streamPreview__965fa {
+    @include card.outer;
+
+    .watchButton__5a93d {
+        color: $cream;
+
+        &:hover {
+            border-color: $cream;
+        }
+    }
+
+    .white_c88498 {
+        color: $cream;
+    }
+}
