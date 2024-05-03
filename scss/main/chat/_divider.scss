@@ -6,11 +6,14 @@
     border-width: $size-s;
     border-radius: $size-max;
 
+    $dateColor: $red;
+    $unreadColor: $cream;
+
     // Date bar
     &:not(.isUnread_de09f5) {
-        $dateColor: $red;
         border-color: $dateColor;
 
+        // Date pill
         @at-root .content__7191e {
             @include card.round;
             box-sizing: border-box;
@@ -22,11 +25,11 @@
         }
     }
 
-    // New messages bar
+    // New messages bar (or both new messages and date bar)
     &.isUnread_de09f5 {
-        $unreadColor: $cream;
         border-color: $unreadColor;
 
+        // New pill
         @at-root .unreadPill__1b4fa {
             @include card.round;
             color: $unreadColor;
@@ -39,6 +42,12 @@
             @at-root .unreadPillCap__44e20 {
                 display: none;
             }
+        }
+
+        // Date pill
+        .content__7191e {
+            color: $unreadColor;
+            border-color: $unreadColor;
         }
     }
 }
