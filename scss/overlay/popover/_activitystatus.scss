@@ -1,0 +1,32 @@
+@use "../../top/vars" as *;
+@use "../../top/card";
+
+// Activity status
+.popout__4c91f {
+    @include card.outer;
+
+    // Preset activities
+    @at-root .iconsContainer_ff44ba {
+        @include card.large;
+        padding: 0;
+
+        @at-root .iconWidget__22dfa {
+            &,
+            &:hover,
+            &.selectedWidget__9aa0c {
+                border: 0;
+                background: none;
+            }
+        }
+    }
+
+    // Custom activity button
+    @at-root .setCustomButton__09dbf {
+        &:hover {
+            background: unset;
+        }
+        @at-root .editIconColor__55a42 {
+            color: $cream;
+        }
+    }
+}

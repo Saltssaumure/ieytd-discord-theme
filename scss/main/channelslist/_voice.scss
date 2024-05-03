@@ -17,6 +17,13 @@
     }
 }
 
+// List of voice channel users in collapsed category
+.voiceUserSummary__5794e {
+    @at-root .icon__36b35 {
+        color: $black;
+    }
+}
+
 // VC with users or description
 .containerDefault_ae2ea4:has(.list__02208, .linkBottom__942a1) {
     height: unset;

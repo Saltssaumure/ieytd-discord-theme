@@ -1,4 +1,5 @@
 @forward "./activities";
+@forward "./activitystatus";
 @forward "./addgame";
 @forward "./channeldetail";
 @forward "./connectionstats";
@@ -20,6 +21,7 @@
 @forward "./statusedit";
 @forward "./threads";
 @forward "./voice";
+@forward "./watchstream";
 
 @use "../../top/vars" as *;
 @use "../../top/card";

@@ -2,26 +2,43 @@
 @use "../../top/card";
 
 // Current happenings in voice channel
-.container__56cd1 {
+.container__628c8 {
     @include card.outer;
 
-    .container__03b79 {
-        background: $cream;
-        color: $black;
+    // Channel info
+    @at-root .popoutHeaderContainer__0af7b {
+        // Channel icon
+        @at-root .channelIcon__0be4e {
+            color: $cream;
+        }
+
+        // Connected users
+        @at-root .container__03b79 {
+            background: $cream;
+
+            @at-root .peopleIcon__83499 {
+                color: $black;
+            }
+            .userCountText_ac9788 {
+                color: $black !important;
+            }
+        }
     }
 
-    .headerDivider_ec8d1f {
+    // No dividers
+    .headerDivider__07db6 {
         display: none;
     }
-
-    .activity_b1eb7a + .activity_b1eb7a {
+    .activity_ce3ac0 + .activity_ce3ac0 {
         border-top: 0;
     }
 
-    .channelIcon__45e38,
-    .headerLink_fa1b11,
-    .colorHeaderSecondary__4dd3a {
-        color: $cream;
+    // Interact with activity button
+    .button__76c4e {
+        &,
+        &:hover {
+            color: $cream;
+        }
     }
 
     .activityVoiceChannel_f9653e {
