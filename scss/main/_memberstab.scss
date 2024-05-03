@@ -1,0 +1,147 @@
+@use "../top/vars" as *;
+@use "../top/card";
+
+// Members tab
+.page_e5cc79 {
+    background: $black !important; // Discord used !important
+}
+
+// Table of members
+.mainTableContainer__37b54 {
+    @include card.xlarge;
+
+    // Header
+    @at-root .searchHeaderContainer_a29f84 {
+        // Sort users
+        @at-root .sortButton_a38698 path {
+            fill: $cream;
+        }
+    }
+
+    // Table
+    @at-root .table_c0e94f {
+        border-top: 0;
+
+        // Column filter icon
+        @at-root .filterIcon__1bf7a {
+            margin-bottom: -6px;
+            path {
+                fill: $cream;
+            }
+        }
+
+        // Table row
+        @at-root .memberRowContainer__8a95f {
+            td::after {
+                display: none;
+            }
+
+            // Invite tag
+            @at-root .inviteContainer_c01f3b {
+                @include card.round;
+            }
+
+            // Roles
+            .otherRoles_e625c8 {
+                @include card.round;
+                box-sizing: border-box;
+
+                @at-root .addRoleIcon__1028d {
+                    color: $cream;
+                }
+            }
+
+            // Action buttons
+            .button__440c9 {
+                @include card.round;
+            }
+        }
+    }
+
+    // Nav footer
+    @at-root .paginationContainer_b8c933 {
+        border-top: none;
+
+        // Showing x members of y
+        @at-root .pageLabel__3113d strong {
+            color: $cream;
+        }
+
+        // Navigation
+        .pageControlContainer__86479 {
+            border: none;
+        }
+    }
+}
+
+// Member details
+.sidebarContianer__623bd {
+    @at-root .userProfileInner__8ff35 {
+        border-radius: 0;
+    }
+
+    // Header container
+    .container_cbd141 {
+        background: unset;
+
+        @at-root .topRow_b0479e,
+            .bottomRowAction_b95fd7 {
+            background-color: unset !important;
+            color: $cream;
+        }
+
+        @at-root .bottomRowAction_b95fd7 {
+            color: $cream;
+
+            path {
+                fill: $cream;
+            }
+
+            .innerBottomRowAction__8a3df:hover {
+                background-color: unset;
+                color: $cream;
+            }
+        }
+    }
+
+    // Mod permissions container
+    .container__532be {
+        @include card.large;
+        background: unset !important;
+
+        @at-root .header_aacd9b {
+            background: unset !important;
+        }
+
+        // Section header
+        @at-root .headerContainer__88262 {
+            @at-root .viewAllPermissions__1df11 path {
+                fill: $cream;
+            }
+        }
+
+        // Section content
+        @at-root .modInfoItemContainer_fa4d6a {
+            @include card.med;
+
+            // Section item
+            @at-root .modInfoItem_df526b {
+                background: unset;
+
+                &:hover {
+                    background: unset;
+                    color: $cream;
+                }
+
+                path {
+                    fill: $cream;
+                }
+
+                // Permission item
+                .permissionChiplet_b69b5f {
+                    @include card.round;
+                }
+            }
+        }
+    }
+}

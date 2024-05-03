@@ -1,12 +1,21 @@
 @use "../top/vars" as *;
 
-#{$root} .combo__57290 .key__6a8d9 {
+
+#{$root} {
+    // Combo container
+    .keyComboContainer__11e6f {
+        background: unset;
+    }
+    
+    // Key
+    .combo__57290 .key__6a8d9 {
     background: $black;
     border-radius: $size-max;
     zoom: 1.2;
-    border: $size-xs solid $cream;
-    color: $cream;
-    border-bottom-width: $size-s * 1.5;
+    border: $size-xs solid $cream !important;
+    color: $cream !important;
+    border-bottom-width: $size-s * 1.5 !important;
+    box-shadow: none !important;
 
     &:active {
         border: $size-xs solid $cream;
@@ -17,4 +26,4 @@
     .bindArrow__98f6f g {
         fill: $cream;
     }
-}
+}}

@@ -123,12 +123,10 @@
 
 // Roles
 .role_d81130 {
+    @include card.round;
     background: $cream;
-    border: 0;
-    border-radius: $size-max;
 
-    .defaultColor__77578,
-    .addButtonIcon__8ad56 {
+    &:not(.highestRole_e03df1, .highestRole_d3e163) .defaultColor__30336 {
         color: $black;
     }
 }

@@ -60,8 +60,9 @@
     }
 
     // Split chat
-    .container__694a1:not(.floating__8f631) {
-        border-radius: 0 0 $size-l $size-l;
+    .container__694a1:not(.floating__8f631),
+    .sidebarContianer__623bd .profileThemedContainer__6e645 {
+        border-radius: $size-l;
     }
 }
 
@@ -78,7 +79,8 @@
         border-top-right-radius: 0;
     }
 
-    .container__694a1:not(.floating__8f631) {
-        border-radius: 0 0 0 $size-l;
+    .container__694a1:not(.floating__8f631),
+    .sidebarContianer__623bd .profileThemedContainer__6e645 {
+        border-radius: 0 0 $size-l $size-l;
     }
 }
