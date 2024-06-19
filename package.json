@@ -4,7 +4,7 @@
   "description": "A tri-tone Discord theme inspired by IEYTD.",
   "repository": "github:Saltssaumure/ieytd-discord-theme",
   "author": "Saltssaumure <themes@saltssaumure.net>",
-  "license": "GPL-3.0",
+  "license": "AGPL-3.0-or-later",
   "private": "true",
   "type": "module",
   "scripts": {

@@ -100,8 +100,21 @@
 3. Edit the variable values.
 
 ## License
-[GNU General Public License v3.0][license]
-- <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with this theme, as long as you allow others to do the same with your version.
+Copyright (c) 2022-2024 Saltssaumure
+
+This theme is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This theme is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU Affero General Public License][license] for more details.
+
+## Credits
+### Fonts
+[groteskia]:    https://www.behance.net/gallery/23516591/GROTESKIA-FREE-FONT
+[mukta]:        https://github.com/EkType/Mukta
+[ptmono]:       https://www.paratype.com/fonts/pt/pt-mono
+
+- [Groteskia][groteskia] by Néstor Delgado - "GROTESKIA IS FREE FOR COMMERICAL USE"
+- [Mukta][mukta] by EKType (Girish Dalvi and Yashodeep Gholap) - OFL-1.1
+- [PT Mono][ptmono] by Paratype (Alexandra Korolkova and Isabella Chaeva) - OFL-1.1
 
 ## Questions or suggestions?
 - Post [an issue][issues] on GitHub.
