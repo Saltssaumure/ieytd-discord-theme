@@ -1,25 +1,25 @@
 {
   "id": "net.saltssaumure.Tritone",
   "name": "Tritone",
-  "description": "A tri-tone theme inspired by IEYTD. See GitHub for customisation options.",
+  "description": "A tritone theme inspired by I Expect You To Die. See GitHub for customisation options.",
   "author": {
     "name": "Saltssaumure",
     "discordID": "134142022092062720",
     "github": "Saltssaumure"
   },
-  "version": "2.4.1",
+  "version": "2.5.0",
   "updater": {
     "type": "store",
     "id": "net.saltssaumure.Tritone"
   },
-  "license": "GPL-3.0",
+  "license": "AGPL-3.0-or-later",
   "type": "replugged-theme",
   "main": "scss/ieytd.scss",
   "source": "https://github.com/Saltssaumure/ieytd-discord-theme",
   "image": [
-    "https://i.imgur.com/EswLkUN.png",
-    "https://i.imgur.com/HYyYBjj.png",
-    "https://i.imgur.com/1aFTWap.png",
-    "https://i.imgur.com/pksjT8X.png"
+    "https://saltssaumure.github.io/ieytd-discord-theme/preview/tritone1.png",
+    "https://saltssaumure.github.io/ieytd-discord-theme/preview/tritone2.png",
+    "https://saltssaumure.github.io/ieytd-discord-theme/preview/tritone3.png",
+    "https://saltssaumure.github.io/ieytd-discord-theme/preview/tritonecustom.png"
   ]
 }

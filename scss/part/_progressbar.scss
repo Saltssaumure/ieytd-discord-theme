@@ -3,33 +3,33 @@
 @use "../top/grabber";
 
 // Progress
-:is(.mediaBarInteraction_e21234, .mediaBarInteractionDragging__55800) {
+:is(.mediaBarInteraction_f7877e, .mediaBarInteractionDragging_f7877e) {
     // Progress bar
-    .mediaBarWrapper_e90a7a {
+    .mediaBarWrapper_f7877e {
         @include card.round;
         overflow: visible;
 
         // Loaded
-        .buffer_e14781 {
+        .buffer_f7877e {
             background: $red;
             opacity: 0.7;
             border-radius: $size-max;
         }
 
         // Mouseover
-        .mediaBarPreview__39d32 {
+        .mediaBarPreview_f7877e {
             background: $cream;
             opacity: 0.5;
         }
 
         // Played
-        .mediaBarProgress_a3b7f1 {
+        .mediaBarProgress_f7877e {
             background: $cream;
         }
     }
 
     // Progress bar square ends
-    .fakeEdges_bbed67 {
+    .fakeEdges_f7877e {
         &::after,
         &::before {
             display: none;
@@ -37,16 +37,16 @@
     }
 
     // Grabber
-    &:hover .mediaBarGrabber__1d527 {
+    &:hover .mediaBarGrabber_f7877e {
         margin-left: 0;
         box-sizing: border-box;
     }
-    .vertical__67f7d &:hover .mediaBarGrabber__1d527 {
+    .vertical_f7877e &:hover .mediaBarGrabber_f7877e {
         @include grabber.mini;
         background: $black;
         margin-top: calc(12px / -2);
     }
-    .horizontal_c25137 &:hover .mediaBarGrabber__1d527 {
+    .horizontal_f7877e &:hover .mediaBarGrabber_f7877e {
         @include grabber.full;
         background: $red;
         margin-right: calc(20px / -2);

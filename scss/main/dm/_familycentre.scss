@@ -1,45 +1,45 @@
 @use "../../top/vars" as *;
 @use "../../top/filter";
 
-.container_ec90d4 .contentPanel__463ae {
+.container_d576e9 .contentPanel_d576e9 {
     background: $black;
     align-items: center;
 
     // Boxes
-    .container_d5dec4,
-    .container__7d3e2,
-    .container__5a2c3,
-    .box__6431e {
+    .container_b01337,
+    .container_d00e26,
+    .container_a2e886,
+    .box_f70f48 {
         background: $black;
         border: $size-xs solid $red;
     }
 
     // Inner box
-    .row__9455d {
+    .row_e677b7 {
         background: $black;
         border: $size-xs solid $cream;
     }
 
     // Text
     .text-sm-medium_bc6ffc,
-    .groupHeader_f579ed,
-    .anchor_c8ddc0,
-    .header_af678b,
+    .groupHeader_e677b7,
+    .anchor_af404b,
+    .header_e677b7,
     .text-xs-medium__220aa,
     .eyebrow_e5a66c {
         color: $cream !important;
     }
 
     // Sepiaify images
-    .headerImage_cc1002,
-    .artContainer_d3a8bb,
-    .bannerArt_df0202,
-    .image__2a197 {
+    .headerImage_b01337,
+    .artContainer_a2e886,
+    .bannerArt_f70f48,
+    .image_e3f20c {
         @include filter.sepia;
     }
 
     // Icons
-    :is(.circle_cbbd13, .iconContainer_fe08af) {
+    :is(.circle_d7c696, .iconContainer_e677b7) {
         background: unset;
 
         svg {
@@ -53,7 +53,7 @@
     }
 
     // Steps
-    .stepNumber__2f0cb {
+    .stepNumber_f70f48 {
         background: unset;
         h2 {
             color: $red !important;

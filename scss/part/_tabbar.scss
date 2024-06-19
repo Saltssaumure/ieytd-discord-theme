@@ -2,31 +2,31 @@
 @use "../top/tabs";
 
 // Tabs
-.top_fae1fa {
+.top_a0 {
     @include tabs.bar;
 
-    .item__48dda,
-    .item__48dda.selected_a523ff,
-    .item__48dda:hover {
+    .item_a0,
+    .item_a0.selected_a0,
+    .item_a0:hover {
         @include tabs.tab;
     }
 
-    .item__48dda.selected_a523ff {
+    .item_a0.selected_a0 {
         @include tabs.tab($ISINVERT: true);
     }
 }
 
-.topPill__63ad4 {
+.topPill_a0 {
     @include tabs.bar($ISBORDER: false);
 
-    .item__48dda.themed_b957e8 {
+    .item_a0.themed_a0 {
         &,
-        &:hover:not(.disabled__2717e) {
+        &:hover:not(.disabled_a0) {
             @include tabs.tab($ISINVERT: true);
         }
 
-        &.selected_a523ff,
-        &.selected_a523ff:hover:not(.disabled__2717e) {
+        &.selected_a0,
+        &.selected_a0:hover:not(.disabled_a0) {
             @include tabs.tab;
         }
     }

@@ -1,20 +1,20 @@
 @use "../../top/vars" as *;
 
 // Channel category
-.icon__3aa8e {
+.icon_a08117 {
     color: $black;
     width: 20px;
     height: 20px;
 }
 
-:is(.icon__3aa8e, .name__27f04) {
-    .wrapper__07e2f.muted_de6e6e & {
+:is(.icon_a08117, .name_a08117) {
+    .wrapper_a08117.muted_a08117 & {
         color: $black;
         opacity: 0.6;
     }
 
-    .wrapper__07e2f:hover &,
-    .wrapper__07e2f.muted_de6e6e:hover & {
+    .wrapper_a08117:hover &,
+    .wrapper_a08117.muted_a08117:hover & {
         color: $black;
     }
 }

@@ -1,18 +1,18 @@
 @use "../top/vars" as *;
 
 // Windows bar
-.wordmarkWindows_ffbc5e {
+.wordmarkWindows_a934d8 {
     color: $black;
 }
 
-.winButton_f17fb6 {
+.winButton_a934d8 {
     color: $cream;
     background: $black;
     border-left: $size-s solid $red;
 }
 
-.winButtonMinMax_caf9c8:hover,
-.winButtonClose__6396d:hover {
+.winButtonMinMax_a934d8:hover,
+.winButtonClose_a934d8:hover {
     color: $black;
     background: $red;
 }

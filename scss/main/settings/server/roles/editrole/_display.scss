@@ -2,7 +2,7 @@
 @use "../../../../../top/card";
 
 // Required field indicator
-.required_b27bcc {
+.required_c46f6a {
     color: $red;
 }
 
@@ -51,10 +51,10 @@ div:has(> .colorPickerRow_d31e23) {
 }
 
 // Role custom icon
-.previewContainer__8cd30 {
+.previewContainer_bdfce3 {
     @include card.large;
 
-    .preview_c4fac1 {
+    .preview_bdfce3 {
         color: $cream;
     }
 }

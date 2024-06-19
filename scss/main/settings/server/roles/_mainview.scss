@@ -3,7 +3,7 @@
 @use "../../../../top/card";
 
 // Default permissions button
-.container__9c57c {
+.container_cc7b67 {
     @include card.round;
 
     &:hover {
@@ -11,7 +11,7 @@
         color: $cream;
     }
 
-    .icon_add68a {
+    .icon_cc7b67 {
         background: unset;
 
         svg {
@@ -21,19 +21,19 @@
 }
 
 // Roles list
-.emptyRoles_a192bd,
-.tableHeader_f2fd5d,
-.roleRow_dc2631 {
+.emptyRoles_a930f1,
+.tableHeader_e72811,
+.roleRow_a930f1 {
     margin-left: 0;
 }
 
 // Drag handle spacing
-.dragSpacing_afd634 {
+.dragSpacing_e72811 {
     zoom: 1.5;
 }
 
 // Role
-.roleRow_dc2631 {
+.roleRow_a930f1 {
     @include card.round;
     margin-bottom: $size-m;
 
@@ -42,7 +42,7 @@
     }
 
     // Drag handle
-    .dragIcon_c316eb {
+    .dragIcon_a930f1 {
         color: $cream;
         visibility: visible;
         display: flex;
@@ -50,12 +50,12 @@
     }
 
     // Member count
-    .memberCountContainer_b93514 {
+    .memberCountContainer_a930f1 {
         color: $cream;
     }
 
     // Edit role
-    .editButton__2db5f {
+    .editButton_a930f1 {
         display: none;
     }
 
@@ -68,27 +68,27 @@
         }
     }
 
-    &:hover:not(.roleRowDisableHover_c9454c) .circleButton_c3a5df {
+    &:hover:not(.roleRowDisableHover_a930f1) .circleButton_a930f1 {
         background: unset;
     }
 }
 
 // Dragged role marker
-.containerDragBefore_d61de0::before,
-.containerDragAfter_f969a3::after {
+.containerDragBefore_a930f1::before,
+.containerDragAfter_a930f1::after {
     background: $red;
     box-shadow: none;
     left: $size-xl;
     right: $size-xl;
 }
-.containerDragBefore_d61de0::before {
+.containerDragBefore_a930f1::before {
     top: 9px;
 }
-.containerDragAfter_f969a3::after {
+.containerDragAfter_a930f1::after {
     bottom: -9px;
 }
 
 // Dragged role
-.roleRowDragging__75785 {
+.roleRowDragging_a930f1 {
     opacity: 0.7;
 }

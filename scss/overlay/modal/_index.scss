@@ -28,27 +28,27 @@
     background: linear-gradient($black, $red) !important;
 }
 
-.root_a28985:not(:has(.wrapper__4350e)) {
+.root_f9a4c9:not(:has(.wrapper_aa8ea9)) {
     @include card.outer;
     box-shadow: 0 0 20px $red !important;
 }
 
 #{$root} {
-    .footer_e0b400,
-    .header__5e5a6 {
+    .footer_f9a4c9,
+    .header_f9a4c9 {
         background: $red;
     }
 
-    .footerText_f55c0f,
-    .footerText_f55c0f .anchor_c8ddc0 {
+    .footerText_cedfaf,
+    .footerText_cedfaf .anchor_af404b {
         color: $cream;
     }
 }
 
 // Header
-.header__5e5a6 {
+.header_f9a4c9 {
     // Top title
-    :is(h1, h2, h3, h4, h5):is(.defaultColor__77578, .defaultColor_e04945) {
+    :is(h1, h2, h3, h4, h5):is(.defaultColor__77578, .defaultColor_c46f6a) {
         color: $black;
         @include filter.shadow;
     }
@@ -59,9 +59,9 @@
     }
 
     // Close button
-    .close__1080c {
+    .close_f9a4c9 {
         opacity: 1;
-        .closeIcon__16020 {
+        .closeIcon_f9a4c9 {
             color: $cream;
         }
     }
@@ -74,12 +74,12 @@
 }
 
 // Content
-.content_b28aab:not(:has(.sidebarContainer__6f8e5), .guildList__571da) {
+.content_f9a4c9:not(:has(.sidebarContainer_e5b5f9), .guildList_f1b3cc) {
     padding-top: $size-m;
 }
 
 // Footer
-#{$root} .footerSeparator__2af8d {
+#{$root} .footerSeparator_f9a4c9 {
     box-shadow: none;
 
     .button-18kCi0 {

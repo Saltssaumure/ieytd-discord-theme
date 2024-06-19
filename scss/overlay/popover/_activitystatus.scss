@@ -2,18 +2,18 @@
 @use "../../top/card";
 
 // Activity status
-.popout__4c91f {
+.popout_a9414b {
     @include card.outer;
 
     // Preset activities
-    @at-root .iconsContainer_ff44ba {
+    @at-root .iconsContainer_a9414b {
         @include card.large;
         padding: 0;
 
-        @at-root .iconWidget__22dfa {
+        @at-root .iconWidget_a9414b {
             &,
             &:hover,
-            &.selectedWidget__9aa0c {
+            &.selectedWidget_a9414b {
                 border: 0;
                 background: none;
             }
@@ -21,11 +21,11 @@
     }
 
     // Custom activity button
-    @at-root .setCustomButton__09dbf {
+    @at-root .setCustomButton_a9414b {
         &:hover {
             background: unset;
         }
-        @at-root .editIconColor__55a42 {
+        @at-root .editIconColor_a9414b {
             color: $cream;
         }
     }

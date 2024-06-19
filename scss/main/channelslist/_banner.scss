@@ -2,13 +2,13 @@
 @use "../../top/filter";
 
 // Server banner
-.container_f41675 {
-    .headerContent__6fcc7 {
+.container_fd6364 {
+    .headerContent_fd6364 {
         color: $cream;
         @include filter.shadow;
 
         // Server name
-        .name_e8e549 {
+        .name_fd6364 {
             font-family: var(--font-display);
             position: relative;
             font-style: oblique;
@@ -20,12 +20,12 @@
     }
 
     // Public server bubble
-    .communityInfoContainer__6ea3a {
+    .communityInfoContainer_fd6364 {
         margin-top: $size-xxs;
         margin-left: -20px;
         --background-accent: $cream;
 
-        .communityInfoPill__1efab {
+        .communityInfoPill_fd6364 {
             border-radius: 0 $size-max $size-max 0;
             color: $black;
         }

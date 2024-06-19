@@ -4,20 +4,20 @@
 @use "../top/grabber";
 
 // Voice chat
-.root__3eef0 {
+.root_dd069c {
     border-left: $size-m solid $cream;
     color: $cream;
 
     // Evenly spaced tiles
-    .listItems__49027 {
+    .listItems_dcade6 {
         left: 0 !important;
 
-        .row_fd7b05 {
+        .row_d8e960 {
             gap: $size-s;
             margin-bottom: $size-s;
         }
 
-        .tile_e7f911 {
+        .tile_d8e960 {
             margin-right: 0;
             margin-bottom: 0;
         }
@@ -25,74 +25,74 @@
 }
 
 // Overall container
-.wrapper__6bf2d.chatSidebarOpen_f2e544 .callContainer__1477d {
+.wrapper_d880dc.chatSidebarOpen_d880dc .callContainer_d880dc {
     border-radius: 0;
 }
 
 // Tile
-.tile_a411a4 {
+.tile_dc5fc4 {
     @include card.large;
 
     // Large tile
-    &.noBorder__9016a {
+    &.noBorder_dc5fc4 {
         border: 0;
     }
 
     // Disconnected
-    .header__43611,
-    .description_cd2eef {
+    .header_e5cc00,
+    .description_e5cc00 {
         color: $cream;
     }
 
     // Username
-    .overlayTitle_de9b41,
-    .status__42e87 {
+    .overlayTitle_ba4b17,
+    .status_ba4b17 {
         @include card.round;
         border: 0;
     }
 
     // Video icon
-    .selectedIcon__9e012 {
+    .selectedIcon_ba4b17 {
         color: $cream;
     }
 
     // Stream, video
-    .streamPreview__3a6b0,
-    .videoWrapper__3ffda,
-    .emptyPreview_d9a076 {
+    .streamPreview_ba4b17,
+    .videoWrapper_ba4b17,
+    .emptyPreview_eb1d8c {
         background: unset;
     }
 }
 
 // Participant list toggle
-.participantsButton__11fa3 {
+.participantsButton_b83b18 {
     @include card.round;
 
     &:hover {
         background: $black;
     }
 
-    .iconContainer__9a2de > svg {
+    .iconContainer_b83b18 > svg {
         color: $cream;
     }
 }
 
 // Voice chat controls
-.bottomControls__72d8d {
+.bottomControls_dd069c {
     // Centre buttons
-    .colorable__4f530 {
-        &.primaryDark_ec74a7 {
+    .colorable_ef18ee {
+        &.primaryDark_ef18ee {
             @include button.control($black, $cream);
         }
-        &.white_ce1c7b {
+        &.white_ef18ee {
             @include button.control($cream, $black);
         }
-        &.red__45e65 {
+        &.red_ef18ee {
             @include button.control($black, $red);
         }
     }
 
-    .leftDivider__622f7 {
+    .leftDivider_d8c748 {
         display: none;
     }
 

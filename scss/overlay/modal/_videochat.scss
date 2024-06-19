@@ -2,15 +2,15 @@
 @use "../../top/card";
 
 // Video chat setup
-.contentWithVideoBackgrounds__7be45 {
-    .cameraPreview__956e7 {
+.contentWithVideoBackgrounds_e5da2b {
+    .cameraPreview_e5da2b {
         @include card.large;
     }
 }
 
-.backgroundOption__5ab0d:hover:not(.backgroundOption__5ab0d.backgroundOptionDisabled__9ca63):not(.backgroundOptionSelected__6caed) {
+.backgroundOption_ad7d79:hover:not(.backgroundOption_ad7d79.backgroundOptionDisabled_ad7d79):not(.backgroundOptionSelected_ad7d79) {
     &,
-    .backgroundImageOption_df2b92 {
+    .backgroundImageOption_ad7d79 {
         transform: none;
     }
 }

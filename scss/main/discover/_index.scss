@@ -11,13 +11,13 @@
 // Explore discoverable servers#
 
 // Sidebar
-.sidebar_e031be {
-    .discoverHeader__9d76e {
+.sidebar_a4d4d9 {
+    .discoverHeader_b992d4 {
         color: $black;
     }
 
     // Category
-    .categoryItem__0608f {
+    .categoryItem_c72b37 {
         margin-left: 0;
         background: $black;
         border-radius: 0 $size-max $size-max 0;
@@ -25,7 +25,7 @@
         border-left: 0;
         margin-top: 4px;
 
-        .wrappedLayout__24524 {
+        .wrappedLayout_e9f61e {
             padding: 0 $size-m;
         }
 
@@ -34,12 +34,12 @@
             color: $cream;
         }
 
-        &.selectedCategoryItem__3e361 {
+        &.selectedCategoryItem_c72b37 {
             background: $cream;
             border-color: $black;
             color: $black;
 
-            .itemInner_eedb2b {
+            .itemInner_c72b37 {
                 background: unset;
             }
         }
@@ -56,6 +56,6 @@
 }
 
 // More actions
-.wrapper__4e6b6 {
+.wrapper_ef319f {
     background: unset;
 }

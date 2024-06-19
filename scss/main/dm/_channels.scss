@@ -2,13 +2,13 @@
 @use "../../top/channel";
 
 // Overall background
-.privateChannels__9b518,
-#{$root} .scroller__89969 {
+.privateChannels_f0963d,
+#{$root} .scroller_c47fa9 {
     background: $red;
 }
 
 // Find or start a conversation
-.searchBar__621ec .searchBarComponent__8f95f {
+.searchBar_f0963d .searchBarComponent_f0963d {
     border-radius: $size-max;
     border: $size-xs solid $cream;
     background: $black;
@@ -17,18 +17,18 @@
 }
 
 // Direct messages header
-.container__43554.privateChannelsHeaderContainer_b22dc9 {
+.container_cc72c1.privateChannelsHeaderContainer_c47fa9 {
     padding: 0;
     align-items: flex-end;
 
     &:hover,
-    .privateChannelRecipientsInviteButtonIcon__459c2 {
+    .privateChannelRecipientsInviteButtonIcon_c47fa9 {
         color: $black;
     }
 }
 
 // DM
-.channel__0aef5 {
+.channel_c91bad {
     background: $black;
     height: channel.height(44px);
     box-sizing: border-box;
@@ -38,14 +38,14 @@
     margin: $channel-spacing 0 0;
     max-width: unset;
 
-    .layout__59abc {
+    .layout_f9647d {
         height: 36px;
     }
 
     // Text
-    .interactive__0786a:focus-within,
-    .interactive__0786a:hover,
-    .highlighted_e2e5df {
+    .interactive_f5eb4b:focus-within,
+    .interactive_f5eb4b:hover,
+    .highlighted_f9647d {
         color: $cream;
     }
 
@@ -59,13 +59,13 @@
 }
 
 // Inverted when connected or selected
-.channel__0aef5:has(.interactiveSelected__689f0, .selected__37292) {
+.channel_c91bad:has(.interactiveSelected_c91bad, .selected_f5eb4b) {
     background: $cream;
     border-color: $black !important;
 
-    .interactiveSelected__689f0,
-    .overflow__993fa,
-    .highlighted_e2e5df {
+    .interactiveSelected_c91bad,
+    .overflow_c74e70,
+    .highlighted_f9647d {
         color: $black;
     }
 

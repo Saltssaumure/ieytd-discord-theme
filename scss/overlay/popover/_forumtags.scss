@@ -2,18 +2,18 @@
 @use "../../top/card";
 
 // Form tag overflow menu
-.container_a0ef70 {
+.container_ae4f46 {
     @include card.outer;
 
-    .headerLeft__4ccea {
+    .headerLeft_ae4f46 {
         gap: $size-m;
     }
 
-    .separator__84656 {
+    .separator_ae4f46 {
         display: none;
     }
 
-    .clear__2001f {
+    .clear_ae4f46 {
         color: $cream;
     }
 }

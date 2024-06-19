@@ -2,32 +2,32 @@
 @use "../../../top/filter";
 @use "../../../top/card";
 
-.notice__082c9 {
+.notice_dcd39d {
     @include card.large;
 }
 
-.enableContainer__8015f {
+.enableContainer_a1879c {
     background: unset;
     margin-bottom: $size-l;
 
-    .activeCircle__563e0 {
+    .activeCircle_a1879c {
         background: $cream;
         color: $black;
     }
 }
 
-.previewContainer__0eaea {
+.previewContainer_dcd39d {
     @include card.xlarge;
 
-    .icon_b6bb49 {
+    .icon_dcd39d {
         border-radius: $size-max;
     }
 
-    .welcomeTitle__0d3cf strong {
+    .welcomeTitle_dcd39d strong {
         color: $cream;
     }
 
-    .welcomeChannel__64805 {
+    .welcomeChannel_dcd39d {
         @include card.large;
 
         img {
@@ -35,7 +35,7 @@
         }
     }
 
-    .channelTitleIcon__72f24 {
+    .channelTitleIcon_dcd39d {
         color: $cream;
         zoom: 1.5;
     }

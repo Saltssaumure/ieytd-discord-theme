@@ -19,25 +19,25 @@
 
 @use "../top/vars" as *;
 
-.content__76dcf {
+.content_a4d4d9 {
     border: solid $cream;
     border-width: $size-s $size-m $size-s 0;
 }
 
-.chat__52833 {
+.chat_a7d72e {
     overflow: hidden;
     background: $black;
 }
 
 // Channel group and member group title
-.container__43554 {
+.container_cc72c1 {
     font-style: oblique;
     text-align: center;
     font-size: 20px;
     line-height: 28px;
 
     &,
-    .overflow__993fa {
+    .overflow_c74e70 {
         color: $black;
     }
 }
@@ -45,42 +45,42 @@
 // Rounding based on notice banner presence
 
 // Without banner
-.base_c0676e {
+.base_a4d4d9 {
     // Sidebar
-    .sidebar_e031be,
-    .sidebar_e031be.hasNotice_cc284c {
+    .sidebar_a4d4d9,
+    .sidebar_a4d4d9.hasNotice_a4d4d9 {
         border-radius: $size-l 0 0 $size-l;
     }
 
     // Main chat
-    .chat__52833,
-    .pageWrapper_c182d3,
-    .sidebar_e031be + .scroller__32e73 {
+    .chat_a7d72e,
+    .pageWrapper_a3a4ce,
+    .sidebar_a4d4d9 + .scroller_a39aa3 {
         border-radius: 0 $size-l $size-l 0;
     }
 
     // Split chat
-    .container__694a1:not(.floating__8f631),
-    .sidebarContianer__623bd .profileThemedContainer__6e645 {
+    .container_d1c246:not(.floating_d1c246),
+    .sidebarContianer_d2194f .profileThemedContainer_d2194f {
         border-radius: $size-l;
     }
 }
 
 // With banner
-.base_c0676e:has(.bd-notice, .notice__5fd4c) {
-    .sidebar_e031be,
-    .sidebar_e031be.hasNotice_cc284c {
+.base_a4d4d9:has(.bd-notice, .notice__5fd4c) {
+    .sidebar_a4d4d9,
+    .sidebar_a4d4d9.hasNotice_a4d4d9 {
         border-top-left-radius: 0;
     }
 
-    .chat__52833,
-    .pageWrapper_c182d3,
-    .sidebar_e031be + .scroller__32e73 {
+    .chat_a7d72e,
+    .pageWrapper_a3a4ce,
+    .sidebar_a4d4d9 + .scroller_a39aa3 {
         border-top-right-radius: 0;
     }
 
-    .container__694a1:not(.floating__8f631),
-    .sidebarContianer__623bd .profileThemedContainer__6e645 {
+    .container_d1c246:not(.floating_d1c246),
+    .sidebarContianer_d2194f .profileThemedContainer_d2194f {
         border-radius: 0 0 $size-l $size-l;
     }
 }

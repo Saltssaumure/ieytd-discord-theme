@@ -4,24 +4,24 @@
 // 2. Default channels
 
 // Currently selected
-.container_eecf7e {
+.container_fe51c5 {
     @include card.large;
     position: sticky;
     top: $size-xl;
 
-    .channelList_fcef42,
-    .header_c118ee,
-    .container_bc2742 {
+    .channelList_fe51c5,
+    .header_fe51c5,
+    .container_eff583 {
         background: unset;
     }
 
     // Progress bar
-    .progressBar__716bd {
+    .progressBar_dfa3ef {
         background: $cream !important;
     }
 
     // Check / cross
-    .icon__7b48f {
+    .icon_eff583 {
         circle {
             fill: unset;
         }
@@ -34,64 +34,64 @@
     }
 
     // No channels
-    .emptyStateIcon__0afb4 {
+    .emptyStateIcon_fe51c5 {
         display: none;
     }
 
-    .caret__61231,
-    .channelIcon__52e97 {
+    .caret_fe51c5,
+    .channelIcon_fe51c5 {
         color: $cream;
     }
 
-    .channelIcon__52e97 {
+    .channelIcon_fe51c5 {
         zoom: 1.5;
     }
 
-    .chattableIndicator_c6ac14 {
+    .chattableIndicator_fe51c5 {
         background: $cream;
     }
 }
 
-.collapseButton_cbdf98 {
+.collapseButton_fdea3f {
     color: $cream;
 }
 
 // Channel list
-.channelBrowserOuter__56660 {
+.channelBrowserOuter_fdea3f {
     display: flex;
     gap: $size-s;
     flex-direction: column;
 }
 
-.categoryRow_b920fb,
-.channelRow__013aa {
+.categoryRow_a33fd3,
+.channelRow_a33fd3 {
     margin: 0 $size-l;
     padding: 0;
 }
 
 // Category
-.categoryRow_b920fb {
+.categoryRow_a33fd3 {
     margin-right: 0;
     margin-top: $size-l;
 }
 
 // Channel
-.channelRow__013aa {
+.channelRow_a33fd3 {
     margin-right: $size-xl;
 
     &,
-    &:hover:not(.disabled__569c5) {
+    &:hover:not(.disabled_a33fd3) {
         background: unset;
     }
 
     // Locked channel
-    .lockedPill__57644 {
+    .lockedPill_a33fd3 {
         height: 24px;
         min-height: 24px;
     }
 }
 
-.divider_f642fa,
-.separator_f5f9d9 {
+.divider_fe51c5,
+.separator_a33fd3 {
     display: none;
 }
