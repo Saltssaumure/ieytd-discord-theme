@@ -1,23 +1,23 @@
 @use "../top/vars" as *;
 
 // Member sidebar
-.container_f79ab4 {
+.container_cbd271 {
     background: $red;
     border-left: $size-m solid $cream;
 }
 
-.membersWrap__5ca6b {
+.membersWrap_cbd271 {
     --interactive-hover: $cream;
     --interactive-active: $cream;
 
-    .members__573eb {
+    .members_cbd271 {
         background: $red;
     }
 
     // Member list
-    .members__573eb {
+    .members_cbd271 {
         // Member group
-        .membersGroup_cad095 {
+        .membersGroup_cbd271 {
             text-align: center;
             text-transform: none;
             height: auto;
@@ -25,54 +25,54 @@
         }
 
         // Member
-        .container_a48b21 {
+        .container_e9f61e {
             background: $black;
             border: $size-xs solid $cream;
             border-radius: $size-max;
 
-            &.clickable__03a29:hover {
+            &.clickable_e9f61e:hover {
                 color: $cream;
             }
 
             // Shifting contents around
-            &:not(.membersGroup_cad095 + .member_b44d5d) {
+            &:not(.membersGroup_cbd271 + .member_cbd271) {
                 margin-top: 4px;
             }
 
-            .layout_bb8e67 {
+            .layout_e9f61e {
                 height: 42px - 8px;
                 padding-left: 3px;
             }
 
             // Username
-            .name__7afe8 {
+            .name_e9f61e {
                 font-family: var(--font-display);
                 margin: -3px 0 2px 0;
             }
 
             // Bot tag
-            .botTag__4211a {
+            .botTag_a02df3 {
                 border-radius: 8px;
                 background: $red;
                 color: $black;
 
-                .botText_daff56 {
+                .botText_a02df3 {
                     display: inline-block;
                     padding-top: 2px;
                 }
             }
 
             // Member with profile open
-            &.selected__7f4cb {
+            &.selected_e9f61e {
                 background: $cream;
                 border-color: $black;
 
-                .name__7afe8,
-                .activity_bafb94 {
+                .name_e9f61e,
+                .activity_a31c43 {
                     color: $black;
                 }
 
-                .botTag__4211a {
+                .botTag_a02df3 {
                     color: $cream;
                 }
             }

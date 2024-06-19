@@ -2,28 +2,28 @@
 @use "../top/card";
 
 // Members tab
-.page_e5cc79 {
+.page_d20375 {
     background: $black !important; // Discord used !important
 }
 
 // Table of members
-.mainTableContainer__37b54 {
+.mainTableContainer_e23072 {
     @include card.xlarge;
 
     // Header
-    @at-root .searchHeaderContainer_a29f84 {
+    @at-root .searchHeaderContainer_b0740c {
         // Sort users
-        @at-root .sortButton_a38698 path {
+        @at-root .sortButton_b0740c path {
             fill: $cream;
         }
     }
 
     // Table
-    @at-root .table_c0e94f {
+    @at-root .table_aabef9 {
         border-top: 0;
 
         // Column filter icon
-        @at-root .filterIcon__1bf7a {
+        @at-root .filterIcon_e6d0a5 {
             margin-bottom: -6px;
             path {
                 fill: $cream;
@@ -31,95 +31,95 @@
         }
 
         // Table row
-        @at-root .memberRowContainer__8a95f {
+        @at-root .memberRowContainer_a39fe9 {
             td::after {
                 display: none;
             }
 
             // Invite tag
-            @at-root .inviteContainer_c01f3b {
+            @at-root .inviteContainer_cdb562 {
                 @include card.round;
             }
 
             // Roles
-            .otherRoles_e625c8 {
+            .otherRoles_a39fe9 {
                 @include card.round;
                 box-sizing: border-box;
 
-                @at-root .addRoleIcon__1028d {
+                @at-root .addRoleIcon_a39fe9 {
                     color: $cream;
                 }
             }
 
             // Action buttons
-            .button__440c9 {
+            .button_a39fe9 {
                 @include card.round;
             }
         }
     }
 
     // Nav footer
-    @at-root .paginationContainer_b8c933 {
+    @at-root .paginationContainer_cb152b {
         border-top: none;
 
         // Showing x members of y
-        @at-root .pageLabel__3113d strong {
+        @at-root .pageLabel_cb152b strong {
             color: $cream;
         }
 
         // Navigation
-        .pageControlContainer__86479 {
+        .pageControlContainer_b48941 {
             border: none;
         }
     }
 }
 
 // Member details
-.sidebarContianer__623bd {
-    @at-root .userProfileInner__8ff35 {
+.sidebarContianer_d2194f {
+    @at-root .userProfileInner_c69a7b {
         border-radius: 0;
 
-        @at-root .innerContainer__7b4c0 {
+        @at-root .innerContainer_d2194f {
             padding: 0;
             color: $cream;
 
             // Header container
-            @at-root .container_cbd141 {
+            @at-root .container_d936aa {
                 background: unset !important;
 
                 // Make username section a proper header
-                @at-root .topRow_b0479e {
+                @at-root .topRow_d936aa {
                     border-radius: 0;
                     background: $red !important;
                     border-bottom: $size-s solid $cream;
                     padding: 5px 8px 2px;
 
                     // Shrink contents
-                    @at-root .memberNameContainer__4d221 {
+                    @at-root .memberNameContainer_d936aa {
                         display: flex;
                         align-items: baseline;
 
                         // User avatar
-                        .wrapper__3ed10 {
+                        .wrapper_c51b4e {
                             width: 24px !important;
                             height: 24px !important;
 
-                            .svg_a6bf1c {
+                            .svg_c51b4e {
                                 height: calc(24 / 48 * 57px);
                             }
                         }
 
                         // User name and discrim
-                        @at-root .memberName_d8b665 .text-lg-medium__72c29,
-                            .memberName_d8b665 + div,
-                            .memberName_d8b665 + div .text-md-medium_a84e09 {
+                        @at-root .memberName_d936aa .text-lg-medium__72c29,
+                            .memberName_d936aa + div,
+                            .memberName_d936aa + div .text-md-medium_a84e09 {
                             font-size: 16px;
                             line-height: 2;
                         }
                     }
                 }
 
-                @at-root .bottomRowAction_b95fd7 {
+                @at-root .bottomRowAction_d936aa {
                     background-color: unset !important;
                     color: $cream;
 
@@ -127,7 +127,7 @@
                         fill: $cream;
                     }
 
-                    .innerBottomRowAction__8a3df:hover {
+                    .innerBottomRowAction_d936aa:hover {
                         background-color: unset;
                         color: $cream;
                     }
@@ -135,33 +135,33 @@
             }
 
             // Mod permissions container
-            @at-root .container__532be {
+            @at-root .container_f51af4 {
                 background: unset !important;
 
                 // Mod View
-                @at-root .header_aacd9b {
+                @at-root .header_f51af4 {
                     background: unset !important;
 
                     // Icon
-                    @at-root .headerTitle__01fbe svg {
+                    @at-root .headerTitle_f51af4 svg {
                         zoom: 1.4;
                         margin-bottom: -4px;
                     }
                 }
 
                 // Section header
-                @at-root .headerContainer__88262 {
-                    @at-root .viewAllPermissions__1df11 path {
+                @at-root .headerContainer_a507b4 {
+                    @at-root .viewAllPermissions_a507b4 path {
                         fill: $cream;
                     }
                 }
 
                 // Section content
-                @at-root .modInfoItemContainer_fa4d6a {
+                @at-root .modInfoItemContainer_ce9fb9 {
                     @include card.med;
 
                     // Section item
-                    @at-root .modInfoItem_df526b {
+                    @at-root .modInfoItem_ce9fb9 {
                         background: unset;
 
                         &:hover {
@@ -174,7 +174,7 @@
                         }
 
                         // Permission item
-                        .permissionChiplet_b69b5f {
+                        .permissionChiplet_a507b4 {
                             @include card.round;
                         }
                     }

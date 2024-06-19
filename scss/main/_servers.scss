@@ -2,36 +2,36 @@
 @use "../top/pip";
 
 // Server sidebar
-.guilds__2b93a {
+.guilds_a4d4d9 {
     background: $cream;
     --status-danger: #{$cream};
 
     // Rounded icons and folders
-    .wrapper__9916c foreignObject {
+    .wrapper_c5f96a foreignObject {
         mask: none;
     }
 
     .wrapper__8436d,
-    .folder__17546,
-    .circleIconButton__05cf2 {
+    .folder_bc7085,
+    .circleIconButton_db6521 {
         border-radius: $size-max;
         overflow: hidden;
     }
 
     // Folders
-    .folder__17546,
-    .expandedFolderBackground_b1385f,
-    .expandedFolderBackground_b1385f.collapsed__98ad5,
-    .expandedFolderBackground_b1385f.collapsed__98ad5.hover__043de {
+    .folder_bc7085,
+    .expandedFolderBackground_bc7085,
+    .expandedFolderBackground_bc7085.collapsed_bc7085,
+    .expandedFolderBackground_bc7085.collapsed_bc7085.hover_bc7085 {
         background: $red;
     }
 
-    .expandedFolderIconWrapper__324c1 path {
+    .expandedFolderIconWrapper_bc7085 path {
         stroke: $black;
         stroke-width: $size-xs;
     }
 
-    .expandedFolderBackground_b1385f {
+    .expandedFolderBackground_bc7085 {
         border-radius: $size-max;
         border: $size-s solid $black;
         left: 12px - $size-s;
@@ -41,15 +41,15 @@
     }
 
     // Server not in folder
-    .wrapper__9916c:not(.wrapper__832f2 .wrapper__9916c) {
+    .wrapper_c5f96a:not(.wrapper_bc7085 .wrapper_c5f96a) {
         &,
-        .svg__34dd4 {
+        .svg_c5f96a {
             width: 48px + 2 * $size-s;
             height: 48px + 2 * $size-s;
         }
     }
 
-    .wrapper__8436d:not(.wrapper__832f2 .wrapper__8436d) {
+    .wrapper__8436d:not(.wrapper_bc7085 .wrapper__8436d) {
         border: $size-s solid $black;
         box-sizing: border-box;
     }
@@ -63,15 +63,15 @@
     }
 
     // Add server and explore buttons
-    .circleIconButton__05cf2,
-    .circleIconButton__05cf2.selected_aded59 {
+    .circleIconButton_db6521,
+    .circleIconButton_db6521.selected_db6521 {
         border: $size-s solid $black;
         background: $red;
         color: $cream;
     }
 
     // Unread pip
-    .item_f9d377 {
+    .item_fd07a3 {
         @include pip.pip($COLOR: $black);
         margin-left: 0;
 
@@ -86,24 +86,24 @@
 
     // Reordering servers
     // Background behind dragged icon
-    .placeholderMask_ca6625 {
+    .placeholderMask_f734d8 {
         border-radius: $size-max;
 
-        .dragInner_d5b34c {
+        .dragInner_f734d8 {
             background: $red;
         }
     }
 
     // Dragged icon target
-    .target__2c5c2.dragOver_efabec::before,
-    .centerTarget_ec3a01.dragOver_efabec::before {
+    .target_b7c66a.dragOver_b7c66a::before,
+    .centerTarget_b7c66a.dragOver_b7c66a::before {
         background: $red;
         box-shadow: none;
     }
 
     // Badge
-    .lowerBadge_e89e22,
-    .upperBadge__00ad0 {
+    .lowerBadge_c5f96a,
+    .upperBadge_c5f96a {
         & > div {
             border: $size-xs solid $black;
             height: 20px;
@@ -131,25 +131,25 @@
         }
 
         // Paused invites
-        .pauseBackground__69277 {
+        .pauseBackground_fdcfe0 {
             border: $size-xs solid $black;
             background: $cream;
 
-            .pause_ec5e63 path {
+            .pause_fdcfe0 path {
                 fill: $black;
             }
         }
     }
 
     // New unreads bubble
-    :is(.unreadMentionsIndicatorBottom__9351c, .unreadMentionsIndicatorTop__153ad) {
+    :is(.unreadMentionsIndicatorBottom_fea3ef, .unreadMentionsIndicatorTop_fea3ef) {
         padding: 2px;
 
-        .unreadMentionsBar__8cd45 {
+        .unreadMentionsBar_fea3ef {
             border: $size-s solid $black;
             box-sizing: border-box;
 
-            .text__50a62 {
+            .text_c10249 {
                 color: $black;
                 font-size: 16px;
                 margin: 0 0 6px 2px;

@@ -3,19 +3,19 @@
 @use "../../top/filter";
 
 // Create a server
-.header_a19620,
-.header__1d70d,
-.header__2b2b9 {
+.header_fc9dae,
+.header_f5507e,
+.header_c1ee6b {
     padding-bottom: 24px;
 }
 
 // Templates
-.templatesList__7837c {
+.templatesList_fc9dae {
     margin-top: 0;
 }
 
 // Next step
-.container__9dd63,
+.container_a47d49,
 .rowContainer-3t7486 {
     @include card.large;
 
@@ -24,7 +24,7 @@
         background: unset;
     }
 
-    .arrow__5e540,
+    .arrow_a47d49,
     .rowArrow-TIwwIc,
     .rowIcon-1mRvtM {
         @include filter.sepia;
@@ -32,7 +32,7 @@
 }
 
 // Add server icon
-.uploadIcon__1b138 {
+.uploadIcon_c1ee6b {
     color: $cream;
 
     circle {
@@ -45,16 +45,16 @@
 }
 
 // Invite link
-.input__0c568 {
+.input_e8a9c7 {
     background: unset;
 }
 
 // Link error
-.formTitle__4546d.error_ae96c7 {
+.formTitle_e8a9c7.error_e8a9c7 {
     color: $red;
 }
 
 // Example links
-.sampleLink__0b2d6 {
+.sampleLink_e8a9c7 {
     color: $cream;
 }

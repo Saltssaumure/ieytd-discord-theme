@@ -2,17 +2,17 @@
 @use "../../top/card";
 
 // Overflow: yes
-.zalgo__39311 {
-    .messageContent_abea64,
-    &.message__04a5b,
-    &.cozy_f5c119 .header__6a14d,
-    &.compact_eda3c8 .messageContent_abea64 {
+.zalgo_ec86aa {
+    .messageContent_ec86aa,
+    &.message_ddb5b4,
+    &.cozy_ec86aa .header_ec86aa,
+    &.compact_ec86aa .messageContent_ec86aa {
         overflow: visible;
     }
 }
 
 // Text
-.markup_a7e664 {
+.markup_d6076c {
     // Titles
     :is(h1, h2, h3) {
         color: $cream;
@@ -33,19 +33,19 @@
     }
 
     // Quote
-    .blockquoteDivider__5cbad {
+    .blockquoteDivider_d6076c {
         background: $cream;
     }
 
     // Edited
-    .timestamp_c79dd2 {
+    .timestamp_ec86aa {
         color: $cream;
         opacity: 0.7;
     }
 
     // System messages
     // Username
-    .content__945f5 a {
+    .content_e62b38 a {
         color: $cream;
         font-family: var(--font-display);
         margin-top: -0.4rem;
@@ -53,7 +53,7 @@
 }
 
 // Mention
-.wrapper__4ef2e {
+.wrapper_d4fa29 {
     @include card.round;
 
     &:hover {
@@ -63,36 +63,36 @@
 }
 
 // Chat message
-.wrapper_a62503 {
+.wrapper_ec86aa {
     // User avatar
-    .avatar__08316,
-    .avatarContainer_b12338 {
+    .avatar_ec86aa,
+    .avatarContainer_bf4197 {
         border: $size-s solid $red;
     }
 
     // Seasonal avatar decorations
-    .avatarDecoration__8a0c2 {
+    .avatarDecoration_ec86aa {
         left: 12px + $size-s;
     }
 
     // Username
-    .username_f2060a,
-    .username__0b0e7 {
+    .username_bf4197,
+    .username_ec86aa {
         font-family: var(--font-display);
         font-size: 1.5rem;
         color: $cream;
     }
 
     // Timestamp
-    .timestamp_c79dd2,
-    .timestamp_c79dd2.alt__6c563 {
+    .timestamp_ec86aa,
+    .timestamp_ec86aa.alt_ec86aa {
         color: $cream;
         opacity: 0.7;
     }
 
     // Message action buttons
-    .wrapper__4e6b6,
-    .full-motion & .wrapper__4e6b6:hover {
+    .wrapper_ef319f,
+    .full-motion & .wrapper_ef319f:hover {
         box-shadow: 0 0 0 $size-xs $cream inset;
         background: $black;
         border-radius: $size-max;
@@ -100,21 +100,21 @@
 }
 
 // Compact mode specific
-.compact_eda3c8 {
+.compact_ec86aa {
     .botTagCompact_bac328 {
         margin-top: 0.3rem;
     }
 }
 
 // Cosy mode specific
-.cozy_f5c119 {
-    .header__6a14d,
-    .headerText_bd68ec {
+.cozy_ec86aa {
+    .header_ec86aa,
+    .headerText_ec86aa {
         display: flex;
         align-items: baseline;
     }
 
-    .username__0b0e7 {
+    .username_ec86aa {
         overflow: visible;
     }
 }

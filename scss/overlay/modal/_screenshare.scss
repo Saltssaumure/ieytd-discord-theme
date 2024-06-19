@@ -13,14 +13,14 @@
 .segmentContainer-358IfE {
     background: $red;
 }
-.tabContainer__15e2d {
+.tabContainer_a18ec1 {
     @include tabs.bar;
     border-bottom: 0;
 
-    .tabItem_fda22a {
+    .tabItem_a18ec1 {
         @include tabs.tab($ISINVERT: true);
 
-        &.tabItemSelected_f4cf64 {
+        &.tabItemSelected_a18ec1 {
             @include tabs.tab;
         }
     }
@@ -30,7 +30,7 @@
 .sourceThumbnail-ERDcZE {
     border-radius: $size-m;
 
-    .tile__46960:hover & {
+    .tile_d7ec26:hover & {
         box-shadow: inset 0 0 0 $size-xs $cream;
     }
 }

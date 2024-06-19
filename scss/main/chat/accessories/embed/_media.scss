@@ -11,7 +11,7 @@
 }
 
 // Embedded from link
-.inlineMediaEmbed_b25e49 {
+.inlineMediaEmbed_ad0b71 {
     @include card.large;
     width: fit-content;
 }
@@ -20,9 +20,9 @@
 .imageWrapper__178ee {
     border-radius: 0;
 }
-.embedImage_eb54e3,
-.embedThumbnail__1f402,
-.embedVideo__303fe {
+.embedImage_ad0b71,
+.embedThumbnail_ad0b71,
+.embedVideo_ad0b71 {
     img,
     video {
         border-radius: 0;
@@ -30,15 +30,15 @@
 }
 
 // Gif tag
-.gifTag__9db5a {
+.gifTag_b30195 {
     background: svg.$giftag;
 }
-.gifFavoriteButton_bca32d {
+.gifFavoriteButton_b558d0 {
     color: $cream;
 }
 
 // Alt text
-.altText_a57338 {
+.altText_cf58b5 {
     background: $red;
     color: $black;
     padding: 0.25rem;

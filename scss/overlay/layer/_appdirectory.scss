@@ -4,101 +4,101 @@
 @use "../../top/tabs";
 
 // App directory
-#{$root} .directoryContainer__36395 {
+#{$root} .directoryContainer_da3f59 {
     background: $black;
 
-    .logo__7f9c8 {
+    .logo_cac7c5 {
         color: $cream;
         zoom: 1.4;
         margin-top: 4px;
     }
 
-    .rightImage_b071fa {
+    .rightImage_a0e1d7 {
         @include filter.sepia;
     }
 
-    .categoryList__4f059 {
+    .categoryList_ca364e {
         @include tabs.bar;
 
-        .category_c3da1d {
+        .category_d7acc7 {
             @include tabs.tab;
             border-color: $cream;
         }
     }
 
     // Main app card
-    .card__834d4 {
+    .card_e90143 {
         @include card.xlarge;
     }
 
     // Carousel nav
-    .themedPagination__13dbb {
-        .arrow_fe649b {
+    .themedPagination_af6b5a {
+        .arrow_af6b5a {
             color: $cream;
         }
-        .dot__6356c {
+        .dot_af6b5a {
             background: $cream;
         }
     }
 
     // Smaller app cards
-    .anchor_c8ddc0 {
+    .anchor_af404b {
         text-decoration: none;
 
-        .listingDescription__033bc {
+        .listingDescription_d2c3da {
             color: $cream !important;
         }
     }
-    .container_bdd168 {
+    .container_d9c848 {
         @include card.large;
         box-sizing: border-box;
 
-        &.animatesOnHoverContainer_f1fedf:hover {
+        &.animatesOnHoverContainer_d9c848:hover {
             &,
-            .image__766a5 {
+            .image_d9c848 {
                 transform: none;
             }
         }
 
-        .bullet__2533d {
+        .bullet_ec1920 {
             display: none;
         }
 
-        .moreGuilds_a49e5f {
+        .moreGuilds_b3d866 {
             background: $cream;
             color: $black !important;
         }
     }
 
     // Arrow nav
-    .scrollerButton__3da4e {
+    .scrollerButton_b503b8 {
         color: $cream;
     }
 
     // New to apps helper
-    .container__9c6ed {
+    .container_bf1c84 {
         @include card.outer;
 
-        .image_bcc9b6 {
+        .image_bf1c84 {
             @include filter.sepia;
         }
     }
 }
 
-.search__24107 {
+.search_aabd24 {
     background: $black !important;
 }
 
-.back_f08183 {
+.back_da3f59 {
     &,
     &:hover {
-        .backHeader_cff6da,
-        .backIcon_d1658d {
+        .backHeader_da3f59,
+        .backIcon_da3f59 {
             color: $cream;
         }
     }
 
-    .backHeader_cff6da {
+    .backHeader_da3f59 {
         margin-top: -4px;
     }
 }
@@ -106,123 +106,123 @@
 // App details page
 
 // Banner
-.headerBanner__7b8a3 {
+.headerBanner_a1eac2 {
     border-radius: $size-xl $size-xl 0 0;
 }
 
 // App icon
-.headerIcon_f11f09 {
+.headerIcon_a1eac2 {
     border-color: $black;
     background: $red;
 }
 
 // Server count
-.headerSidebar_ede28f {
+.headerSidebar_a1eac2 {
     border-bottom: 0;
 }
-.defaultIcon__4db68,
-.iconInteractive__29e48,
-.iconInteractive__29e48:hover {
+.defaultIcon_b3d866,
+.iconInteractive_a1eac2,
+.iconInteractive_a1eac2:hover {
     color: $cream;
 }
 
 // Categories
-.category__1ebd5 {
+.category_d169f5 {
     @include card.round;
 }
 
 // Overview
-.detailedDescription__9e4da {
+.detailedDescription_a1eac2 {
     color: $cream !important;
 
-    &.markdown__8e519 {
+    &.markdown_d7f12d {
         code {
             background: unset;
             font-family: var(--font-code);
         }
 
-        .codeInline_f5630b {
+        .codeInline_d7f12d {
             color: $cream;
         }
     }
 }
 
-.divider_c275c7,
-.separator_d3580d {
+.divider_a1eac2,
+.separator_a1eac2 {
     background: $cream;
 }
 
-.showMoreButtonIcon__6411c {
+.showMoreButtonIcon_a1eac2 {
     color: $cream;
 }
 
 // Popular commands
-.list_b1e6a9 {
+.list_e0307d {
     @include card.large;
 
-    .commandName__7c054 {
+    .commandName_e0307d {
         background: unset;
         border: 0;
     }
 }
 
 // Privacy
-.list_a19d86,
-.intentsContainer_b8fe04 {
+.list_a06168,
+.intentsContainer_f6d180 {
     @include card.large;
 }
 
 // Support server
-.card__2ebbc {
+.card_b5d566 {
     @include card.large;
 }
 
 // Links
-.listIcon__68515,
-.listItem__2c8d0.linkItem__23df5:hover .listIcon__68515,
-.listItem__2c8d0.linkItem__23df5:hover .listText_e36086 {
+.listIcon_d169f5,
+.listItem_d169f5.linkItem_d169f5:hover .listIcon_d169f5,
+.listItem_d169f5.linkItem_d169f5:hover .listText_d169f5 {
     color: $cream;
 }
 
 // Search results page
-.sidebarImage__4e4b2,
-.image__8fd87 {
+.sidebarImage_c0b10b,
+.image_b9f1af {
     @include filter.sepia;
 }
 
 // Categories
-.themed_b957e8 {
+.themed_a0 {
     @include card.round;
 
-    &.selected_a523ff {
+    &.selected_a0 {
         background: $cream;
         border-color: $black;
 
         &,
         &:hover {
-            .icon__92516 {
+            .icon_fa8ebf {
                 color: $black;
             }
         }
         .defaultColor__77578,
-        .count_cc8bdf {
+        .count_fa8ebf {
             color: $black !important;
         }
     }
 
     &,
     &:hover {
-        .icon__92516 {
+        .icon_fa8ebf {
             color: $cream;
         }
     }
     .defaultColor__77578,
-    .count_cc8bdf {
+    .count_fa8ebf {
         color: $cream !important;
     }
 }
 
 // No results
-.container_b15c33 {
+.container_b9f1af {
     background: unset;
 }

@@ -4,14 +4,14 @@
 @use "../../top/status";
 
 // Student hub for one institution
-.pageContainer__853b6 {
+.pageContainer_a9a262 {
     background: $black;
 }
 
-.header_b35652 {
+.header_d33b18 {
     @include card.xlarge;
 
-    .headerImage__36f10 {
+    .headerImage_d33b18 {
         @include filter.sepia;
     }
 
@@ -19,25 +19,25 @@
         color: $black;
     }
 
-    .searchBox_f2dfb6 .searchBoxInput__23323 {
+    .searchBox_d33b18 .searchBoxInput_d33b18 {
         color: $cream;
     }
 }
 
 // Servers
-.cardsContainer_cddbb9 {
+.cardsContainer_a9a262 {
     padding: $size-m 0;
 }
 
-.icon__94164 {
+.icon_f11207 {
     border-radius: $size-max;
 }
 
 // Server
-.card__73022 {
+.card_f18d6c {
     @include card.large;
 
-    .splash__42283 {
+    .splash_f18d6c {
         background: $cream;
     }
 
@@ -45,15 +45,15 @@
         mask: 0;
     }
 
-    .iconMask_da0856 {
+    .iconMask_f18d6c {
         background: $black;
         border-radius: $size-max;
     }
 
-    .statusDot__556cd {
+    .statusDot_f18d6c {
         background: $cream;
 
-        &.dotOffline_c65f49 {
+        &.dotOffline_f18d6c {
             &::before {
                 @include status.dot;
                 margin: 2px;
@@ -68,8 +68,8 @@
 }
 
 // Sidebar
-.sidebar_e031be {
-    .container_a48b21 {
+.sidebar_a4d4d9 {
+    .container_e9f61e {
         border: $size-xs solid $cream;
         border-radius: 0 $size-max $size-max 0;
         border-left: 0;
@@ -82,7 +82,7 @@
             color: $cream;
         }
 
-        &.selected__7f4cb {
+        &.selected_e9f61e {
             background: $cream;
             border-color: $black;
             color: $black;
@@ -95,11 +95,11 @@
 }
 
 // Search results
-.headerTitleWrapper_ccc9fa {
+.headerTitleWrapper_ce978e {
     align-items: baseline;
 
-    .arrow_b1133f,
-    .searchPageTitle__8f38d strong {
+    .arrow_ce978e,
+    .searchPageTitle_ce978e strong {
         color: $cream;
     }
 }

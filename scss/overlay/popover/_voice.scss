@@ -2,55 +2,55 @@
 @use "../../top/card";
 
 // Current happenings in voice channel
-.container__628c8 {
+.container_e88961 {
     @include card.outer;
 
     // Channel info
-    @at-root .popoutHeaderContainer__0af7b {
+    @at-root .popoutHeaderContainer_e88961 {
         // Channel icon
-        @at-root .channelIcon__0be4e {
+        @at-root .channelIcon_aab567 {
             color: $cream;
         }
 
         // Connected users
-        @at-root .container__03b79 {
+        @at-root .container_c23582 {
             background: $cream;
 
-            @at-root .peopleIcon__83499 {
+            @at-root .peopleIcon_c23582 {
                 color: $black;
             }
-            .userCountText_ac9788 {
+            .userCountText_c23582 {
                 color: $black !important;
             }
         }
     }
 
     // No dividers
-    .headerDivider__07db6 {
+    .headerDivider_e88961 {
         display: none;
     }
-    .activity_ce3ac0 + .activity_ce3ac0 {
+    .activity_d5aa01 + .activity_d5aa01 {
         border-top: 0;
     }
 
     // Interact with activity button
-    .button__76c4e {
+    .button_d5aa01 {
         &,
         &:hover {
             color: $cream;
         }
     }
 
-    .activityVoiceChannel_f9653e {
-        .activityName_a7b7de,
-        .name__0ac4b,
-        .nameNormal_cb5c2b,
-        .nameWrap_b61c4b,
-        .content__7246b,
-        .details_e26997,
-        .playTime_a445ec,
-        .state_a85ac0,
-        .timestamp__78895 {
+    .activityVoiceChannel_d5089b {
+        .activityName_d5089b,
+        .name_d5089b,
+        .nameNormal_d5089b,
+        .nameWrap_d5089b,
+        .content_d5089b,
+        .details_d5089b,
+        .playTime_d5089b,
+        .state_d5089b,
+        .timestamp_d5089b {
             color: $cream;
         }
     }

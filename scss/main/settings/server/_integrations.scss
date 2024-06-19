@@ -2,81 +2,81 @@
 @use "../../../top/filter";
 @use "../../../top/card";
 
-.caret_dd17db,
-.detailsIcon_b51ebf,
-.featureIcon__4204e,
-.expandIcon_b6dfed {
+.caret_ea2a21,
+.detailsIcon_d5408a,
+.featureIcon_ea2a21,
+.expandIcon_c26824 {
     color: $cream;
 }
 
 // Default icons
-.iconWrapper_fda12f {
+.iconWrapper_d5408a {
     background: $cream;
 
-    .icon_ac3aa9 {
+    .icon_d5408a {
         color: $black;
     }
 }
 
 // Channel dropdown
-.wrapper__6b00c {
-    .iconsContainer__20ee5 {
+.wrapper_f6639d {
+    .iconsContainer_f6639d {
         height: auto;
     }
 }
 
 // Bots and apps
 // Group name
-.name__418f0 {
+.name_bfc5ea {
     align-items: flex-end;
 }
 
 // Group icon
-.icon_c1538d,
-.icon_c45df8,
-.channelIcon__495c7 {
+.icon_bfc5ea,
+.icon_b119de,
+.channelIcon_a93d5d {
     color: $cream;
 }
 
 // Card
-.cardHeader_ca5ec0 {
+.cardHeader_dedfd1 {
     background: unset;
 }
 
 // Card content
-.entryItem_fd8a91:last-child {
+.entryItem_ec6bf1:last-child {
     margin-bottom: 16px;
 }
 
 // Approve/deny
-.item__47602 {
+.item_b05c08 {
     background: $black;
 
-    &.deny_c46df5 {
+    &.deny_b05c08 {
         color: $red;
     }
 
-    &.allow__6f2d0 {
+    &.allow_b05c08 {
         color: $cream;
     }
 
-    &.selected_bfc358 {
+    &.selected_b05c08 {
         color: $black;
 
-        &.deny_c46df5 {
+        &.deny_b05c08 {
             background: $red;
         }
 
-        &.allow__6f2d0 {
+        &.allow_b05c08 {
             background: $cream;
         }
     }
 }
 
 // Granted and denied permissions
-.check_eef2d5 {
+.check_a06168 {
     color: $cream;
 }
-.cross__14278 {
+.cross_a06168 {
     color: $red;
 }

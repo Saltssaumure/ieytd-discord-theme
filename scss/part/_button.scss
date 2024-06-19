@@ -2,11 +2,11 @@
 @use "../top/button" as button;
 
 #{$root} {
-    :is(.lookFilled__950dd, .lookOutlined__014b5, .lookInverted_a299dc) {
+    :is(.lookFilled_dd4f85, .lookOutlined_dd4f85, .lookInverted_a299dc) {
         border-radius: $size-max;
         border: $size-xs solid;
 
-        &.colorPrimary_ebe632 {
+        &.colorPrimary_dd4f85 {
             @include button.button($black, $cream);
 
             &[aria-disabled="true"],
@@ -15,54 +15,54 @@
             }
         }
 
-        &.colorGreen__75c93 {
+        &.colorGreen_dd4f85 {
             @include button.button($black, $cream);
         }
 
-        &.colorRed__5a617 {
+        &.colorRed_dd4f85 {
             @include button.button($black, $red);
         }
 
-        :is(&.colorBrand__27d57, &.colorBrandNew__8872c) {
+        :is(&.colorBrand_dd4f85, &.colorBrandNew__8872c) {
             @include button.button($black, $cream);
         }
 
-        &.colorWhite__0033e {
+        &.colorWhite_dd4f85 {
             @include button.button($red, $cream);
         }
 
-        &.cta__69e2a,
+        &.cta_cdef0d,
         &.button__6ac9e,
-        &.buttonColor__40507,
-        &.buttonColor__8c13f,
-        &.buttonColor_fd4fe8 {
+        &.buttonColor_d4af21,
+        &.buttonColor_dfbe6b,
+        &.buttonColor_e36233 {
             @include button.button($black, $cream);
         }
 
-        &.viewServerButton__457ab {
+        &.viewServerButton_adff39 {
             @include button.button($black, $cream);
         }
 
-        &.buttonWhite__913ed {
+        &.buttonWhite_b105e9 {
             color: $cream !important;
             border-color: $cream !important;
         }
     }
 
-    .lookLink_a2da25 {
-        &.colorPrimary_ebe632 {
+    .lookLink_dd4f85 {
+        &.colorPrimary_dd4f85 {
             @include button.link($cream);
         }
 
-        &.colorLink__4141a {
+        &.colorLink_dd4f85 {
             @include button.link($red);
         }
 
-        &.colorRed__5a617 {
+        &.colorRed_dd4f85 {
             @include button.link($black);
         }
 
-        &.colorWhite__0033e {
+        &.colorWhite_dd4f85 {
             @include button.link($cream);
         }
     }
@@ -82,10 +82,10 @@
     }
 }
 
-.lookBlank_a5b4ca {
+.lookBlank_dd4f85 {
     border-radius: $size-max;
 
-    .buttonContainer__36b61 & {
+    .buttonContainer_e4f3eb & {
         color: $red;
         padding: 6px 12px;
         border: $size-xs solid;
@@ -93,7 +93,7 @@
 }
 
 // Action buttons
-.button_d4bf9b {
+.button_ef319f {
     &,
     &:hover,
     &:active {
@@ -104,7 +104,7 @@
         padding: 4px;
     }
 
-    &.dangerous__8fbad {
+    &.dangerous_ef319f {
         &,
         &:hover,
         &:active {
@@ -113,7 +113,7 @@
     }
 }
 
-.button_b82d53.buttonColor__7bad9 {
+.button_adcaac.buttonColor_adcaac {
     &,
     &:hover {
         background: $black;

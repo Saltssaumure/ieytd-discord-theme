@@ -5,24 +5,24 @@
 // Server events
 
 // Header
-.header__5e5a6 {
-    .divider__69314 {
+.header_f9a4c9 {
+    .divider_fa4e6d {
         visibility: hidden;
         margin-left: 0;
     }
 
     // Events icon
-    .icon__399f9,
-    .iconButton__66963:hover .icon__399f9 {
+    .icon_fa4e6d,
+    .iconButton_fa4e6d:hover .icon_fa4e6d {
         color: $cream;
     }
 }
 
 // Event demo
-.sparkleIcon_f97bad {
+.sparkleIcon_c5e69b {
     @include filter.sepia;
 }
-.circle__2100f,
+.circle_c1cfd2,
 .iconContainer-36kI2p {
     background: $cream;
 }
@@ -39,29 +39,29 @@
 // Event creator
 
 // Steps
-.stepContainer_d7ac7f {
+.stepContainer_f2ceaa {
     cursor: pointer;
 
     // Text
-    .colorMuted__413e9 {
+    .colorMuted_fbc755 {
         color: $cream;
     }
-    .colorBrand__65cd6 {
+    .colorBrand_fbc755 {
         color: $red;
     }
 
     // Bars
-    .progressBar_f61abb {
+    .progressBar_f2ceaa {
         background: $cream;
 
-        &.selectedProgressBar__26b4d {
+        &.selectedProgressBar_f2ceaa {
             background: $red;
         }
     }
 }
 
 // Start date calendar icon
-.icon__93353 {
+.icon_f4830e {
     color: $cream;
 }
 
@@ -71,40 +71,40 @@
 }
 
 // Calendar popout
-.didRender__7e24c .calendarPicker__47c85 {
+.didRender_f88ae3 .calendarPicker__47c85 {
     @include card.outer;
 }
 
 // Upload image
-.imageUploaderHint__3b483 {
+.imageUploaderHint_de76e4 {
     color: $cream;
 }
 
 // Edit image
-.overlay_c2c1c9 {
+.overlay_ba5b9e {
     box-shadow: 0 0 200px $black;
     border-color: $cream;
 }
-.icon_b24a96 {
+.icon_ba5b9e {
     color: $cream;
 }
 
 // Event card
-:is(#{$root} .previewCard__980d0, .card__7865b) {
+:is(#{$root} .previewCard_f9a98f, .card_cc2c09) {
     @include card.med;
 
     // New event
-    .newBadge_e55d5e {
+    .newBadge_d6a475 {
         div {
             color: $black !important;
         }
     }
 
     // People count
-    .rsvpCount_f38818 {
+    .rsvpCount_a4ec62 {
         background: $cream;
 
-        .rsvpIcon_c679d2 {
+        .rsvpIcon_a4ec62 {
             color: $black;
         }
         div {
@@ -113,17 +113,17 @@
     }
 
     // Channel
-    .channelContainer__2364e {
+    .channelContainer_cc2c09 {
         color: $cream;
     }
 
-    .divider_ad3577 {
+    .divider_cc2c09 {
         display: none;
     }
 }
 
 // Close event creator
-.close__01697 {
+.close_d7123a {
     &,
     &:hover {
         color: $cream;
@@ -131,10 +131,10 @@
 }
 
 // Close full event info
-.closeIconBanner__99a8f {
+.closeIconBanner_a31cc1 {
     &,
-    .closeButton_f1b4b2:focus &,
-    .closeButton_f1b4b2:hover & {
+    .closeButton_a31cc1:focus &,
+    .closeButton_a31cc1:hover & {
         color: $black;
         background: $cream;
         border-radius: $size-max;
@@ -143,22 +143,22 @@
 
 // Full event info
 // Tabs
-.container__56345 {
+.container_a31cc1 {
     border-bottom: $size-xs solid $cream;
     background: $red;
 }
 
 // Description
-.contentContainer__5d27b {
+.contentContainer_b747e2 {
     background: unset;
 
-    .row_e54bc9,
+    .row_ecbdaf,
     .listRow-3v94Wr {
         color: $cream;
     }
 
     // username
-    .creator__228f3 {
+    .creator_ecbdaf {
         font-family: var(--font-display);
     }
 }

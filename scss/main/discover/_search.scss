@@ -5,16 +5,16 @@
 @use "../../top/tabs";
 
 // Search results
-.viewWrapper_a91a78 {
+.viewWrapper_a3a4ce {
     width: fit-content;
 }
 
 // Header
-.searchHeader_c0a1d7 {
+.searchHeader_e37a20 {
     align-items: baseline;
 
     strong,
-    .arrow__3dfcd {
+    .arrow_e37a20 {
         color: $cream;
     }
 }
@@ -32,9 +32,9 @@
         }
 
         .searchBoxInput__56498,
-        .closeIcon_da3bc1,
+        .closeIcon_f69601,
         .searchIcon_d1a3c1,
-        .closeIcon_da3bc1:hover,
+        .closeIcon_f69601:hover,
         .clearIcon__21453 {
             color: $cream;
         }
@@ -42,61 +42,61 @@
 }
 
 // Categories
-.categories_bbef0d {
+.categories_f69601 {
     @include tabs.bar;
     margin-bottom: 0;
 
-    .categoryPill_c6ae1b {
+    .categoryPill_f69601 {
         @include tabs.tab;
 
-        .categoryLabel__236f3 {
+        .categoryLabel_f69601 {
             color: inherit;
         }
 
-        &.selected_b5f19b {
+        &.selected_f69601 {
             @include tabs.tab($ISINVERT: true);
         }
 
-        &:hover:not(.selected_b5f19b) {
+        &:hover:not(.selected_f69601) {
             background: $black;
         }
     }
 }
 
 // Results
-:is(.results__7a0d3, .guildList_d05b32) {
+:is(.results_e37a20, .guildList_a3a4ce) {
     max-width: 848px;
     margin: $size-m $size-l;
 
-    .separator__16faf {
+    .separator_e825f6 {
         display: none;
     }
 }
 
 // Result
-.card__33bd0 {
+.card_e825f6 {
     @include card.large;
 
-    .splashContainer_c07592,
-    .content_d876f9 {
+    .splashContainer_e825f6,
+    .content_e825f6 {
         height: 135px + ($size-m * 2);
     }
 
     // Banner
-    .splashContainer_c07592 {
+    .splashContainer_e825f6 {
         border-radius: 0;
 
-        .splashImage__51017 {
+        .splashImage_e825f6 {
             transform: none;
         }
     }
 
     // Info
-    .content_d876f9 {
+    .content_e825f6 {
         padding: $size-m 0;
         box-sizing: border-box;
 
-        .svg_bb7847 {
+        .svg_d48241 {
             width: 40px;
             height: 40px;
         }
@@ -106,36 +106,36 @@
         }
 
         // Icon
-        .avatar_c551f0 {
+        .avatar_e825f6 {
             border-radius: $size-max;
             border: $size-xs solid $cream;
             box-sizing: border-box;
         }
 
         // Name
-        .headerName_d8b242 {
+        .headerName_e825f6 {
             align-items: baseline;
         }
 
-        .dotSeparator__4e54d {
+        .dotSeparator_e825f6 {
             background: $cream;
         }
     }
 }
 
 // Loading result
-.placeholder_ab7387 {
+.placeholder_e825f6 {
     @include card.large;
 }
 
 // Navbar
-.pageControlContainer__86479 {
+.pageControlContainer_b48941 {
     @include card.round;
     position: sticky;
     width: auto;
     bottom: -$size-l;
 
-    .pageButton_bf9853 {
+    .pageButton_b48941 {
         &,
         &:hover {
             color: inherit;
@@ -143,7 +143,7 @@
         }
     }
 
-    .activeButton__70b70 {
+    .activeButton_b48941 {
         &,
         &:hover {
             color: $black;

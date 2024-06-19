@@ -2,46 +2,46 @@
 @use "../../../top/card";
 @use "../../../top/filter";
 
-.customizationSection__0f57e {
+.customizationSection_b3a5c2 {
     border-bottom: 0;
     margin-bottom: 0;
 }
 
 // Profile theme
-.colorSwatch__74812 {
-    .swatch__96672 {
+.colorSwatch_c66781 {
+    .swatch_c66781 {
         border-radius: $size-m;
         border: $size-xs solid $cream !important;
     }
 
-    .colorSwatchLabel__4461c {
+    .colorSwatchLabel_cf715d {
         color: $cream !important;
     }
 
-    .editPencilIcon_d2cfe5 path {
+    .editPencilIcon_c66781 path {
         fill: $cream;
     }
 }
 
 // About me
-.channelTextArea__648e5 {
-    .bioTextArea_f46f71 {
+.channelTextArea_d0696b {
+    .bioTextArea_ccf27d {
         @include card.large;
         height: 250px;
     }
 
-    .characterCount__7e076 {
+    .characterCount_b82429 {
         color: $cream;
     }
 }
 
 // Preview
-.fakeActivityIcon__7d0ce {
+.fakeActivityIcon_dfbe6b {
     @include filter.sepia;
 }
 
 // Nitro upsell
-.premiumFeatureBorder__6ac04 {
+.premiumFeatureBorder_c6d722 {
     background:
         linear-gradient($black, $black) padding-box,
         var(--custom-premium-colors-premium-gradient-tier-2-diagonal) border-box;

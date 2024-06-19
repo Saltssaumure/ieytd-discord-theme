@@ -3,50 +3,50 @@
 // Bars
 
 // Full width bars
-:is(.chatHeaderBar_b11c70, .chatHeaderBar__9e6ac) {
+:is(.chatHeaderBar_efb691, .chatHeaderBar_e2f46e) {
     background: $red;
 
-    &.narrow__77960 {
+    &.narrow_e2f46e {
         padding: 8px 16px;
     }
 
-    :is(.chatHeaderBarText__404b3, .chatHeaderBarText_bd01c4) {
+    :is(.chatHeaderBarText_efb691, .chatHeaderBarText_e2f46e) {
         color: $black !important;
     }
 
-    .button__581d0 {
+    .button_dd4f85 {
         height: 32px;
         min-height: 32px;
     }
 }
 
 // Scooped bars
-.jumpToPresentBar__69174,
-.newMessagesBar__8b272,
-.messagesErrorBar__82c21 {
+.jumpToPresentBar_cf58b5,
+.newMessagesBar_cf58b5,
+.messagesErrorBar_cf58b5 {
     border: $size-s solid $black;
     background: $cream;
     opacity: 1;
 
-    .barButtonBase__5e4cf {
+    .barButtonBase_cf58b5 {
         color: $black;
     }
 }
 
 // Top bars
-.newMessagesBar__8b272 {
+.newMessagesBar_cf58b5 {
     border-top: none;
     border-radius: 0 0 $size-l $size-l;
     height: auto;
 
-    .barButtonBase__5e4cf {
+    .barButtonBase_cf58b5 {
         padding: 0 $size-l;
     }
 }
 
 // Bottom bars
-.jumpToPresentBar__69174,
-.messagesErrorBar__82c21 {
+.jumpToPresentBar_cf58b5,
+.messagesErrorBar_cf58b5 {
     border-bottom: none;
     border-radius: $size-l $size-l 0 0;
     bottom: -20px;

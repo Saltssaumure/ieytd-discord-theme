@@ -26,9 +26,9 @@
 }
 
 code,
-.markup_a7e664 code.inline,
-.codeBlockText_bcfd01,
-.codeLine__10acb {
+.markup_d6076c code.inline,
+.codeBlockText_cdb578,
+.codeLine_cdb578 {
     font-family: var(--font-code);
 }
 
@@ -39,32 +39,32 @@ code,
 .eyebrow_f92eb2,
 .eyebrow_c15ff6,
 .eyebrow__5d57b,
-.eyebrow_a42fd2,
-.eyebrow__4e5bb,
+.eyebrow_e17fae,
+.eyebrow_c46f6a,
 .eyebrow_e5a66c,
-.eyebrow_b3f8ba,
+.eyebrow_dc00ef,
 [class*="heading-deprecated-12-"] {
     @include text.sizeup(12px, 16px);
 }
 
-.markup_a7e664 h3,
+.markup_d6076c h3,
 [class*="heading-sm-"] {
     @include text.sizeup(14px, 18px);
 }
 
-.h3__1f119 {
+.h3_c46f6a {
     @include text.sizeup(16px, 24px);
 }
 
-.h2_da4766,
-.h4__2a89d,
+.h2_c46f6a,
+.h4_c46f6a,
 [class*="heading-md-"] {
     @include text.sizeup(16px, 20px);
 }
 
-.markup_a7e664 h2,
-.h1_dc86b3,
-.userTag__28f9c,
+.markup_d6076c h2,
+.h1_c46f6a,
+.userTag_b69b77,
 [class*="heading-lg-"] {
     @include text.sizeup(20px, 24px, 12px);
 }
@@ -73,48 +73,48 @@ code,
     @include text.sizeup(24px, 30px, 12px);
 }
 
-.markup_a7e664 h1,
+.markup_d6076c h1,
 [class*="heading-xxl-"] {
     @include text.sizeup(32px, 40px, 12px);
 }
 
-.defaultColor__8610e,
+.defaultColor_e9e35f,
 .defaultColor__77578,
-.defaultColor_e04945,
-.colorStandard__3d599,
-.description_b0e07c,
-.labelDescriptor__09faf,
-.h5__28baa,
-.label_bf6957,
-.legend__2459b,
-.markup_a7e664,
-.title__8b9e4,
-.userTag__28f9c,
-.base__1aa9d,
-.channelName_e50365,
-.sourceName__96136,
-.imageUploader_e725b4 .sizeInfo_fd8f0c,
+.defaultColor_c46f6a,
+.colorStandard_fbc755,
+.description_b89ec7,
+.labelDescriptor_b89ec7,
+.h5_c46f6a,
+.label_c46f6a,
+.legend_c46f6a,
+.markup_d6076c,
+.title_ed1d57,
+.userTag_b69b77,
+.base_d0da3e,
+.channelName_fef602,
+.sourceName_c26824,
+.imageUploader_de76e4 .sizeInfo_de76e4,
 #{$root} .inputDefault__591c7,
-.guildSource__1669c,
+.guildSource_c26824,
 #{$root} .hiddenMessage_e7355b,
-.body_a02b78,
-.input__745d4 {
+.body_ac90a2,
+.input_effbe2 {
     color: $cream;
 }
 
-.description__38492,
-.helpText__6a93e,
-.titleText__1fd97,
+.description_e72811,
+.helpText_e72811,
+.titleText_c69589,
 :is(h1, h2, h3, h4),
-:is(span, div):not(.desaturateUserColors_eb6bd2, .username_d272d6, .username__0b0e7, .username_a42504) {
+:is(span, div):not(.desaturateUserColors_c7819f, .username_d272d6, .username_ec86aa, .username_cdc675) {
     &:where([style^="color"]) {
         color: $cream !important;
     }
 }
 
-.anchor_c8ddc0,
+.anchor_af404b,
 a,
-.markup_a7e664 a {
+.markup_d6076c a {
     color: $red;
 }
 

@@ -28,35 +28,35 @@
 @use "../../top/filter";
 
 // Large popouts
-.recentMentionsPopout__40c54,
-.messagesPopoutWrap__10dd1 {
+.recentMentionsPopout_ddb5b4,
+.messagesPopoutWrap_ac90a2 {
     @include card.outer;
     max-height: 85vh !important;
 }
 
 // Small popouts
-.popoutContainer__66068,
-.popout__24e32,
-.menu__088f7 {
+.popoutContainer_cf58b5,
+.popout_c5b389,
+.menu_d90b3d {
     @include card.outer;
 }
 
 // Header
-.header__21b33,
-.header__6d44a {
+.header_ac90a2,
+.header_e664f3 {
     background: $red;
 
     // Top title
     :is(h1, h2, h3, h4, h5),
-    .inboxTitle__6b2e6,
-    .title__8c726 {
+    .inboxTitle_f0cd33,
+    .title_e664f3 {
         color: $black;
         @include filter.shadow;
     }
 }
 
 // Footer
-.footer__6b9ef,
-.footer__062a1 {
+.footer_ac90a2,
+.footer_e6af9c {
     background: $red;
 }

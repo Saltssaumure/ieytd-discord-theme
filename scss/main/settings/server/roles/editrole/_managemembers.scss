@@ -2,11 +2,11 @@
 @use "../../../../../top/card";
 
 // Member
-.memberRow_d581f4 {
+.memberRow_fe3229 {
     @include card.round;
     margin-bottom: $size-s;
 
-    .removeButton__83e61 {
+    .removeButton_fe3229 {
         color: $cream;
     }
 }

@@ -1,7 +1,7 @@
 @use "../../top/vars" as *;
 
 // New unreads / in voice bubble
-.bar__004d9 {
+.bar_eba0ba {
     border: $size-s solid $black;
     background: $cream;
 
@@ -10,11 +10,11 @@
     border-radius: $size-max;
 
     svg,
-    .barText__32a63 {
+    .barText_eba0ba {
         color: $black !important;
     }
 
-    .voiceChannelsIcon__2516e path {
+    .voiceChannelsIcon_eba0ba path {
         fill: $black;
     }
 }

@@ -1,14 +1,14 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
 
-.scrollerContainer__35215 {
+.scrollerContainer_c90ddb {
     @include card.large;
 
-    @at-root .bannedUser_f75842 {
+    @at-root .bannedUser_c90ddb {
         @include card.med;
 
-        #{$root} & .username_df97c3,
-        #{$root} & .username_df97c3 .discrim_be4d72 {
+        #{$root} & .username_c90ddb,
+        #{$root} & .username_c90ddb .discrim_c90ddb {
             color: $cream;
         }
     }

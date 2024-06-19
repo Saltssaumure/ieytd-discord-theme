@@ -4,8 +4,8 @@
 @use "../../top/filter";
 @use "../../top/svg";
 
-.wrapper__0757b:not(.emojiPickerHasTabWrapper__63198),
-.contentWrapper_e0bb2c,
+.wrapper_c6ee36:not(.emojiPickerHasTabWrapper_c6ee36),
+.contentWrapper_af5dbb,
 .contentWrapper_eab878,
 .contentWrapper_eab878.isBurstReactionPicker_b9ca03 {
     @include card.outer;
@@ -14,12 +14,12 @@
 }
 
 // Header
-.header_e5d8b2 {
+.header_c6ee36 {
     background: $red;
 }
 
 // Tabs
-:is(.navList__8438b, .navList__5c9f4) {
+:is(.navList__8438b, .navList_af5dbb) {
     @include tabs.bar($ISBORDER: false);
     padding-top: 2px;
 
@@ -35,7 +35,7 @@
     }
 
     .navButtonActive_b003de,
-    .navButtonActive__0c878 {
+    .navButtonActive_af5dbb {
         @include tabs.tab($ISINVERT: true);
         &:hover {
             color: $black;
@@ -55,31 +55,31 @@
 }
 
 // Gif selector header
-#{$root} .header_aac16f {
+#{$root} .header_b56bbc {
     box-shadow: none;
 }
 
 // Skin tone selector
-.diversitySelectorOptions_daea2d {
+.diversitySelectorOptions_cce80d {
     @include card.round;
 
-    .diversityEmojiItem__48e39:hover {
+    .diversityEmojiItem_cce80d:hover {
         background: unset;
     }
 }
 
 // Search
-.container_ec5ce2 {
+.container_effbe2 {
     @include card.round;
 
-    .clear__70411 .icon__5c8c7,
-    .icon__5c8c7 {
+    .clear_effbe2 .icon_effbe2,
+    .icon_effbe2 {
         color: $cream;
     }
 }
 
 // Back
-#{$root} .backButton_d9b964 {
+#{$root} .backButton_b56bbc {
     &,
     &:hover {
         color: $cream;
@@ -87,44 +87,44 @@
 }
 
 // Server sidebar
-.wrapper__45980.wrapper__45980 {
+.wrapper_ba23fe.wrapper_ba23fe {
     background: $cream;
     top: 54px;
 
     // Every circle
-    .categoryItemGuildCategory_a121c6,
+    .categoryItemGuildCategory_dfa278,
     .categoryItemPackCategory__3ad73,
-    .categoryItemDefaultCategory__6c3db,
-    .stickerCategory__12120 {
+    .categoryItemDefaultCategory_dfa278,
+    .stickerCategory_a7a485 {
         box-shadow: 0 0 0 $size-xs $black;
         border-radius: $size-max;
         overflow: hidden;
     }
 
     // Default categories
-    .categoryItemDefaultCategory__6c3db,
-    .stickerCategoryGeneric_ac28b6,
-    .guildIcon_ed1ab4 {
+    .categoryItemDefaultCategory_dfa278,
+    .stickerCategoryGeneric_a7a485,
+    .guildIcon_bfabc4 {
         background: $red;
     }
-    .categoryIcon_d0a396,
-    .stickerCategoryGenericIcon__6fdc6 {
+    .categoryIcon_dfa278,
+    .stickerCategoryGenericIcon_a7a485 {
         color: $cream;
     }
 
-    .categoryItemDefaultCategory__6c3db,
-    .categoryItemDefaultCategorySelected__7d6e0 {
+    .categoryItemDefaultCategory_dfa278,
+    .categoryItemDefaultCategorySelected_dfa278 {
         margin-bottom: 8px;
         &,
         &:hover {
-            .categoryIcon_d0a396 {
+            .categoryIcon_dfa278 {
                 color: $cream;
             }
         }
     }
 
     // Default sticker packs
-    .standardStickerShortcut_e9a698 {
+    .standardStickerShortcut_a7a485 {
         &,
         &:hover {
             background: $red;
@@ -132,95 +132,95 @@
     }
 
     // Server
-    .categoryItem__4a642 {
+    .categoryItem_dfa278 {
         border-radius: $size-max;
         overflow: hidden;
 
-        .guildIcon_ed1ab4 {
+        .guildIcon_bfabc4 {
             background: $red;
         }
     }
 
-    .guildCategorySeparator__5ea84 {
+    .guildCategorySeparator_dfa278 {
         display: none;
     }
 
     // Circle time
-    .mask__7c181 foreignObject {
+    .mask_bfabc4 foreignObject {
         mask: none;
     }
 
     // Jump to default emojis
-    .unicodeShortcut__01a83,
-    .standardStickerShortcut_e9a698 {
+    .unicodeShortcut_dfa278,
+    .standardStickerShortcut_a7a485 {
         background: $red;
         color: $cream;
     }
 }
 
 // Emoji panel
-.bodyWrapper__5f209,
-.listWrapper__588b8 {
+.bodyWrapper_c6ee36,
+.listWrapper_d8cdac {
     background: $black;
 
     // Group header
-    .wrapper__91b2c {
+    .wrapper_e06857 {
         background: black;
 
-        .header__8e271 {
+        .header_e06857 {
             color: $cream;
         }
     }
 
     // Emoji selector
-    .emojiItem_de65fd.emojiItemSelected__023be {
+    .emojiItem_fbfedd.emojiItemSelected_fbfedd {
         @include card.med;
         overflow: visible;
         padding: 2px;
     }
 
     // Emoji image
-    .image__43623,
-    .imageLoading_fb7de7 {
+    .image_b000dd,
+    .imageLoading_b000dd {
         border-radius: $size-m;
     }
 
     // Sticker selector
-    .stickerInspected__29120 .inspectedIndicator__0c5e3 {
+    .stickerInspected_a708c4 .inspectedIndicator_a708c4 {
         @include card.med;
         box-sizing: border-box;
     }
 
     // Sticker image
-    .stickerAsset_ab864f {
+    .stickerAsset_cb3343 {
         border-radius: $size-m;
     }
 
     // Create sticker
-    :is(.createInspected_e93230, .createSticker__59b5f) {
+    :is(.createInspected_a708c4, .createSticker_a708c4) {
         background: $black;
 
-        .iconWrapper_b4aa1f {
+        .iconWrapper_a708c4 {
             background: $cream;
             color: $black;
         }
     }
 
     // Loading
-    .error__4a58f,
-    .loadingIndicator__22567,
-    .imageLoading_fb7de7 {
+    .error_cb3343,
+    .loadingIndicator_cb3343,
+    .imageLoading_b000dd {
         background: $cream;
         opacity: 0.3;
     }
 
-    .assetWrapperMasked_c4c689,
-    .loadingIndicator__22567 {
+    .assetWrapperMasked_cb3343,
+    .loadingIndicator_cb3343 {
         mask: none;
     }
 
     // Unsendables
-    .stickerUnsendable__6d4dd,
+    .stickerUnsendable_a708c4,
     .emojiItemDisabled__843ea {
         @include filter.sepia;
         opacity: 0.7;
@@ -228,11 +228,11 @@
 }
 
 // Gif panel
-.content__2faa3 {
+.content_b56bbc {
     background: $black;
 
     // Favourites
-    .categoryFadeBlurple_ffb0c5 {
+    .categoryFadeBlurple_af1167 {
         opacity: 0.5;
         &,
         &:hover {
@@ -240,12 +240,12 @@
         }
     }
 
-    .categoryText__1b8ff {
+    .categoryText_af1167 {
         color: $cream;
     }
 
-    .focused__79359,
-    .result_e1fc74:hover {
+    .focused_bad108,
+    .result_bad108:hover {
         box-shadow: none;
 
         &::after {
@@ -257,24 +257,24 @@
 }
 
 // Emoji info
-.inspector__80c84 {
+.inspector_c3120f {
     background: $red;
 }
 
 // No nitro
-.premiumPromo__9e1ca {
+.premiumPromo_ca9b56 {
     background: $black;
 
-    .premiumPromoTitle_abafab,
-    .premiumPromoDescription_c432cb {
+    .premiumPromoTitle_ca9b56,
+    .premiumPromoDescription_ca9b56 {
         color: $cream;
     }
 
-    .premiumPromoImage__0f616 {
+    .premiumPromoImage_ca9b56 {
         @include filter.sepia;
     }
 
-    .premiumPromoClose_bb9fb2 {
+    .premiumPromoClose_ca9b56 {
         background-image: svg.$close;
     }
 }

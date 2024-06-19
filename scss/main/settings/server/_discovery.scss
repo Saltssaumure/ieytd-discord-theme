@@ -4,31 +4,31 @@
 @use "../../../top/status";
 
 // Preview
-.sparkles_b90792 {
+.sparkles_d6d7a8 {
     @include filter.sepia;
 }
 
 // Preview card
-.card__81c50 {
+.card_b3f648 {
     @include card.large;
 
-    .guildIcon__3f308 {
+    .guildIcon_b3f648 {
         foreignObject {
             mask: none;
         }
 
-        .iconMask__4618d,
-        .avatar__8f944 {
+        .iconMask_b3f648,
+        .avatar_b3f648 {
             border-radius: $size-max;
             background: $black;
         }
     }
 
-    .dotOnline__0276c {
+    .dotOnline_b3f648 {
         background: $cream;
     }
 
-    .dotOffline__3ba8f {
+    .dotOffline_b3f648 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -40,22 +40,22 @@
     }
 }
 
-.checklist__0a7d3 {
+.checklist_d6d7a8 {
     @include card.large;
 
-    .header__17969 {
+    .header_bd2368 {
         background: unset;
 
-        .headerIcon__038a6 {
+        .headerIcon_bd2368 {
             @include filter.sepia;
         }
 
-        .doesNot__5f60b {
+        .doesNot_bd2368 {
             color: $red;
         }
     }
 }
 
-.separator__31144 {
+.separator_bd2368 {
     height: 0;
 }

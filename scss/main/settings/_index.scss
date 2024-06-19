@@ -6,21 +6,21 @@
 @use "../../top/card";
 @use "../../top/svg";
 
-.layer_f7d46a,
-.standardSidebarView__12528 {
+.layer_d4b6c5,
+.standardSidebarView_c25c6d {
     background: transparent;
     gap: $size-m;
 }
 
 // Menu
-.sidebarRegion__36437 {
+.sidebarRegion_c25c6d {
     max-width: 312px;
 
-    .sidebarRegionScroller__8113e {
+    .sidebarRegionScroller_c25c6d {
         background: $red;
     }
 
-    .sidebar__02e8d {
+    .sidebar_c25c6d {
         padding: 0 0 $size-m;
 
         &::before {
@@ -35,7 +35,7 @@
     }
 
     // Title
-    .header__71a82:first-child {
+    .header_a0:first-child {
         padding-top: 6px;
     }
     .eyebrow_e5a66c {
@@ -47,16 +47,16 @@
     }
 
     // Entry
-    :is(.item__48dda.themed_b957e8, .item__48dda.themed_b957e8:hover:not(.disabled__2717e)) {
+    :is(.item_a0.themed_a0, .item_a0.themed_a0:hover:not(.disabled_a0)) {
         @include card.round;
 
-        &.selected_a523ff {
+        &.selected_a0 {
             background: $cream;
             color: $black;
             border-color: $black;
         }
 
-        .selected__18a0b {
+        .selected_ae3c77 {
             color: $black;
 
             path {
@@ -66,14 +66,14 @@
     }
 
     // Nitro
-    .selectedBackground__4039b {
+    .selectedBackground_ae3c77 {
         display: none;
     }
-    .premiumLabel__68f78 svg {
+    .premiumLabel_ae3c77 svg {
         @include filter.sepia;
     }
-    .serverBoostTabItem__0267d {
-        .icon_c69952 {
+    .serverBoostTabItem_f7189e {
+        .icon_f7189e {
             fill: $cream;
         }
 
@@ -81,46 +81,46 @@
             background: $cream !important;
             color: $black !important;
 
-            .icon_c69952 {
+            .icon_f7189e {
                 fill: $black !important;
             }
         }
     }
 
     // External site icon
-    .linkIcon__559d1 {
+    .linkIcon_ebb2c7 {
         color: $cream;
     }
 
     // Social media icons
-    .socialLinks_dbdd6f {
+    .socialLinks_c44e94 {
         display: flex;
         justify-content: space-evenly;
         margin-top: $size-m;
-        .link_cebd7b {
+        .link_c44e94 {
             color: $cream;
         }
     }
 
     // Build info
-    .line_cdcacc {
+    .line_c5a741 {
         color: $cream !important;
     }
 }
 
 // Content
-.contentRegion__08eba {
+.contentRegion_c25c6d {
     background: $black;
-    .contentRegionScroller__9ae20 {
+    .contentRegionScroller_c25c6d {
         background: $black;
     }
 }
 
 // Streamer mode
-.streamerModeEnabledImage__17db6 {
+.streamerModeEnabledImage_c50c8b {
     @include filter.sepia;
 }
-.streamerModeEnabledBtn_b696dd {
+.streamerModeEnabledBtn_c50c8b {
     @include card.round;
 
     &:hover {
@@ -129,11 +129,11 @@
 }
 
 // Close button
-:is(.closeButton__8177f, .keybind_a619c1) {
+:is(.closeButton_df5532, .keybind_df5532) {
     color: $cream;
 
     &:hover,
-    &:hover + .keybind_a619c1 {
+    &:hover + .keybind_df5532 {
         color: $cream;
         background: unset;
     }
@@ -151,7 +151,7 @@
             overflow: visible;
         }
 
-        .breadcrumbInactive__988aa {
+        .breadcrumbInactive_f9e5d0 {
             &,
             &:hover {
                 color: $red;
@@ -166,13 +166,13 @@
 }
 
 // Back button
-.backButton__4a080 {
+.backButton_a4e2c3 {
     color: $cream;
 }
 
 // Unsaved changes
-.noticeRegion_b8b9df {
-    .container__353bc {
+.noticeRegion_c25c6d {
+    .container_b6cd66 {
         @include card.outer;
         background: $red !important;
         box-shadow: none;

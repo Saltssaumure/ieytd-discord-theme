@@ -2,44 +2,44 @@
 @use "../../top/card";
 
 // Grant external application permission
-.authorize__9e6f3 {
+.authorize_c5a065 {
     background: unset;
 
-    .header__3d8c6,
-    .scopes__1f403 {
+    .header_ac2a99,
+    .scopes_cf14a8 {
         border-bottom: 0;
     }
 
     // Connection
-    .ellipse_c558cf {
+    .ellipse_ac2a99 {
         background: $cream;
         opacity: 0.7;
     }
 
     // Permissions granted
-    .scopes__1f403 {
+    .scopes_cf14a8 {
         padding: 0;
 
         // Checkmark
         .scopeCheck_c4c2dd {
             background: $cream;
         }
-        .icon_d5f2cc {
+        .icon_cf14a8 {
             color: $black;
         }
 
         // Joke permission
-        .scope_f6fc76:has(.scopeTimes__83c10) {
+        .scope_cf14a8:has(.scopeTimes__83c10) {
             display: none;
         }
     }
 
     // Details icon
-    .entryIcon__6c61b {
+    .entryIcon_d6f023 {
         color: $cream;
     }
 
-    .footer_b96583 {
+    .footer_c5a065 {
         background: $red;
     }
 }

@@ -6,37 +6,37 @@
 @use "../../../../../top/card";
 
 // Headers
-.titleContainer_d09261 {
+.titleContainer_e87574 {
     background: inherit;
 }
-.header_ee0bd9 {
+.header_bd05f1 {
     background: $black;
 }
 
 // Integration role warning
-.warning__4da7a {
+.warning_f20685 {
     align-items: center;
 }
 
 // Inner sidebar
-.sidebar__37984 {
+.sidebar_e87574 {
     background: $red;
     border-right: $size-s solid $cream;
 
-    .list__41249 {
+    .list_e87574 {
         padding: 0 16px 96px 24px;
     }
 
-    .addRole__02262,
-    .title__47308,
-    .title__47308:hover {
+    .addRole_e87574,
+    .title_e87574,
+    .title_e87574:hover {
         color: $black;
     }
 
-    :is(.item__48dda, .themed_b957e8.item__48dda:hover:not(.disabled__2717e)) {
+    :is(.item_a0, .themed_a0.item_a0:hover:not(.disabled_a0)) {
         @include card.round;
 
-        &.selected_a523ff {
+        &.selected_a0 {
             background: $cream;
             border-color: $black;
 
@@ -48,6 +48,6 @@
 }
 
 // More options button
-.menu__22341 {
+.menu_c69589 {
     color: $cream;
 }

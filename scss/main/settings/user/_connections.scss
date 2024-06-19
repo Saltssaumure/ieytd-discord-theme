@@ -1,22 +1,22 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
 
-.connectContainer_e331e3,
-.connection__6dbd8 {
+.connectContainer_e2a436,
+.connection_e2a436 {
     @include card.large;
 }
 
 // Add accounts to your profile
-.connectContainer_e331e3 {
+.connectContainer_e2a436 {
     // Text
-    .connectHeader__95e44,
+    .connectHeader_e2a436,
     .text-xs-normal_ccc5fb {
         color: $cream !important;
     }
 
     // Platform
-    .inner__51a43,
-    .accountAddInner__50785 {
+    .inner_c36ce4,
+    .accountAddInner_e2a436 {
         border-radius: $size-m;
         background-color: $red;
         color: $cream;
@@ -24,30 +24,30 @@
 }
 
 // List of existing connections
-.connectionList__5b340 {
+.connectionList_e2a436 {
     grid-gap: 8px;
 
     // Header
-    .connectionHeader__2b82f {
+    .connectionHeader_e2a436 {
         background: $red;
 
-        .connectionAccountValue_a30590,
-        .connectionAccountLabel__76a4f {
+        .connectionAccountValue_e2a436,
+        .connectionAccountLabel_e2a436 {
             color: $black !important;
         }
 
-        .connectionDelete__300b7 {
+        .connectionDelete_e2a436 {
             color: $cream;
         }
     }
 
     // Further info
-    .container__42d70 {
+    .container_f7e03d {
         @include card.large;
     }
 
     // Metadata
-    .metadataContainer__1842c {
+    .metadataContainer_e2a436 {
         @include card.large;
 
         // Text
@@ -55,7 +55,7 @@
             color: $cream !important;
         }
 
-        .connectedAccountVanityMetadataTag__5a542 {
+        .connectedAccountVanityMetadataTag_a1f026 {
             color: $black !important;
             background: $cream;
         }

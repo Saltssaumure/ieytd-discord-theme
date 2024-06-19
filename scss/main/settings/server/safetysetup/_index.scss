@@ -8,23 +8,23 @@
 @use "../../../../top/filter";
 @use "../../../../top/card";
 
-.simpleItemWrapper_c23fd0,
-.editCard__7d03f.active_ef2ec5,
-.editCard__7d03f.toggled__775cb.active_ef2ec5 {
+.simpleItemWrapper_e1b877,
+.editCard_cd99d3.active_ef2ec5,
+.editCard_cd99d3.toggled_cd99d3.active_ef2ec5 {
     background: unset;
 }
 
-.safetyStepContent_e5b31e .wrapper__3ed10 {
+.safetyStepContent_abe1fa .wrapper_c51b4e {
     @include filter.sepia;
 }
 
 // More actions
-.menuIcon__677dd {
+.menuIcon_ea28e2 {
     color: $cream;
 }
 
 // Toggle with further options
-.editCard__7d03f {
+.editCard_cd99d3 {
     @include card.large;
     overflow: visible;
 }

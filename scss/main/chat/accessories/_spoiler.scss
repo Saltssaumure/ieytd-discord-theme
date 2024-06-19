@@ -2,20 +2,20 @@
 @use "../../../top/card";
 
 // Spoiler
-.spoilerContent__383f3 {
+.spoilerContent_a3d0f7 {
     background: unset;
 
     // Text specific
-    .markup_a7e664 & {
+    .markup_d6076c & {
         @include card.round;
         box-decoration-break: slice;
         border-color: $red;
     }
 
     // Embed specific
-    .container__62863 & {
+    .container_b558d0 & {
         // Hidden spoiler
-        &.hidden_f44e41 {
+        &.hidden_a3d0f7 {
             &,
             &:not(:focus) {
                 box-shadow: 0 0 0 $size-xs $red inset;
@@ -23,7 +23,7 @@
         }
 
         // Spoiler icon
-        .spoilerWarning_d68130 {
+        .spoilerWarning_a3d0f7 {
             background: $black;
             color: $red;
         }
@@ -36,7 +36,7 @@
     }
 
     // Hidden spoiler
-    &.hidden_f44e41 {
+    &.hidden_a3d0f7 {
         background: repeating-linear-gradient(-45deg, $red, $red $size-xs, $black $size-xs, $black $size-m);
     }
 }

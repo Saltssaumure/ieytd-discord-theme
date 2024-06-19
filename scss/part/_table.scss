@@ -1,7 +1,7 @@
 @use "../top/vars" as *;
 
 // Table row
-.card_dc88cd {
+.card_ffe375 {
     &::before {
         display: none;
     }
@@ -9,7 +9,7 @@
 
 // Remove row
 #{$root} {
-    .button_e1ac5c {
+    .button_a467ac {
         box-shadow: none;
         border-radius: 0;
         background: $red;

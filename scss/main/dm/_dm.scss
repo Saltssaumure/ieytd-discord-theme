@@ -5,23 +5,23 @@
 // DM with user
 
 //
-.divider__9daf4 {
+.divider_dc0b54 {
     display: none;
 }
 
 // Wave to user
-.compactButton__00b66,
-.compactButtonDisabled_c3934d {
+.compactButton_fcbce6,
+.compactButtonDisabled_fcbce6 {
     @include card.round;
 }
-.compactButton__00b66:hover {
+.compactButton_fcbce6:hover {
     background: $black;
 }
 
 // Channel name change message
-.channelNameChange_b1420c {
+.channelNameChange_bfe4f5 {
     color: $cream;
-    .content__945f5 {
+    .content_e62b38 {
         align-items: baseline;
     }
 
@@ -31,37 +31,37 @@
 }
 
 // Actions
-.iconContainer_d0200f {
+.iconContainer_e62b38 {
     @include filter.sepia;
 }
 
 // Profile panel
-.profilePanel_e2cafe {
+.profilePanel_b433b4 {
     border-left: $size-m solid $cream;
 
-    .userPanelInnerThemed__651e4 {
+    .userPanelInnerThemed_c69a7b {
         background: $black;
     }
 
-    .badgeList__76720 {
+    .badgeList_ab525a {
         background: unset;
     }
 
     // Mutual connections
-    .profilePanelConnections__34438 {
+    .profilePanelConnections_b433b4 {
         gap: $size-m;
 
-        .mutualFriendsList__02caf,
-        .mutualGuildsList__5e9f3 {
+        .mutualFriendsList_b433b4,
+        .mutualGuildsList_b433b4 {
             @include card.xlarge;
             width: auto;
         }
 
-        .iconWrapper__0578f {
+        .iconWrapper_ce1058 {
             color: $cream;
         }
 
-        .icon__94164 {
+        .icon_f11207 {
             border-radius: $size-max;
             background-color: $red;
             border: $size-xs solid $cream;

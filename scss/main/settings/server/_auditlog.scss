@@ -12,20 +12,20 @@
     background-image: svg.$audit-arrow;
 }
 
-.content__97388 {
+.content_cfe282 {
     gap: $size-l;
 }
 
 // Log entries
 #{$root} {
-    .auditLog__9228d {
+    .auditLog_eebd33 {
         @include card.large;
         margin-bottom: $size-l;
 
         // Open arrow
         &,
         &:hover {
-            .expandForeground__0d39b {
+            .expandForeground_eebd33 {
                 stroke: $cream;
             }
         }
@@ -37,20 +37,20 @@
     }
 
     // Inner
-    .headerClickable__334f7,
-    .headerDefault__31bb1,
-    .headerExpanded__05a35,
-    .changeDetails_c0aa16 {
+    .headerClickable_eebd33,
+    .headerDefault_eebd33,
+    .headerExpanded_eebd33,
+    .changeDetails_eebd33 {
         background: unset;
         color: $cream;
     }
 
     // Action type icon
-    .icon__2cbfe {
+    .icon_eebd33 {
         @include filter.sepia;
     }
 }
 
-.divider__1ee1f {
+.divider_eebd33 {
     display: none;
 }

@@ -6,17 +6,17 @@
 // Featured servers
 #{$root} {
     // Main panel
-    .pageWrapper_c182d3 {
+    .pageWrapper_a3a4ce {
         background: $black;
         color: $cream;
         border-left: $size-m solid $cream;
     }
 
     // Splash and search
-    .searchHeader__2707c {
+    .searchHeader_a3a4ce {
         @include card.xlarge;
 
-        .headerImage_bc3304 {
+        .headerImage_a3a4ce {
             @include filter.sepia;
         }
 
@@ -24,14 +24,14 @@
             padding-left: $size-m;
         }
 
-        .searchSubtitle__94796,
-        .searchTitle__533c3 {
+        .searchSubtitle_a3a4ce,
+        .searchTitle_a3a4ce {
             color: $black;
         }
     }
 
     // Server
-    .card__86773 {
+    .card_eb1ca6 {
         @include card.large;
 
         &,
@@ -40,17 +40,17 @@
             background: $black;
             transform: none;
 
-            .iconMask__4092e {
+            .iconMask_eb1ca6 {
                 background: $black;
             }
 
-            .splash_c32fae {
+            .splash_eb1ca6 {
                 transform: none;
             }
         }
 
         // Icon
-        .guildIcon__66641 {
+        .guildIcon_eb1ca6 {
             border-radius: $size-max;
             overflow: hidden;
 
@@ -58,32 +58,32 @@
                 mask: none;
             }
 
-            .svg_bb7847 {
+            .svg_d48241 {
                 border-radius: $size-max;
             }
         }
 
         // More actions
-        .actionButtons_dc4206 {
+        .actionButtons_eb1ca6 {
             top: 145px;
             right: $size-s;
         }
 
         // Name
-        .title_cb8320 {
+        .title_eb1ca6 {
             align-items: baseline;
             overflow: visible;
 
-            .guildName_c7c59e {
+            .guildName_eb1ca6 {
                 overflow: visible;
             }
         }
 
         // Dot
-        .dotOnline__9c3e9 {
+        .dotOnline_eb1ca6 {
             background: $cream;
         }
-        .dotOffline__6325d {
+        .dotOffline_eb1ca6 {
             &::before {
                 @include status.dot;
                 margin: 2px;
@@ -92,7 +92,7 @@
     }
 
     // Footer
-    .footerImage__2c3fd {
+    .footerImage_a3a4ce {
         @include filter.sepia;
     }
 }

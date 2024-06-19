@@ -10,19 +10,19 @@
 @use "../../top/vars" as *;
 
 // Friends
-.container_bd15da .tabBody_a90ea8,
+.container_c2739c .tabBody_c2739c,
 // Library
-.container__82f88 .container_a8317e,
-.container__82f88 .scroller_ddc925,
+.container_a94980 .container_ad8f79,
+.container_a94980 .scroller_c100ff,
 // Nitro
-.applicationStore__444b9 .scroller__244e5,
+.applicationStore_cecc86 .scroller__244e5,
 // Members tab
-.scroller__59ef4,
+.scroller_d20375,
 // Message requests
-.chat__52833 .content__01e65:not(.container__3a30a),
+.chat_a7d72e .content_a7d72e:not(.container_d20375),
 // Server guide
-.forumOrHome__8b95a + .scrollerBase_f742b2,
+.forumOrHome_ff5f90 + .scrollerBase_eed6a8,
 // Family centre
-.container_ec90d4 .contentPanel__463ae:not(.contentRegion__08eba .contentPanel__463ae) {
+.container_d576e9 .contentPanel_d576e9:not(.contentRegion_c25c6d .contentPanel_d576e9) {
     border-left: $size-m solid $cream;
 }

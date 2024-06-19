@@ -5,16 +5,16 @@
 // Search chat history
 
 #{$root} {
-    .container__84c26 {
+    .container_eedf95 {
         @include card.outer;
     }
 
     // Header
-    .focused__68b93 {
+    .focused_eedf95 {
         background: $red;
     }
 
-    .queryContainer_c1cb2f {
+    .queryContainer_eedf95 {
         color: $cream;
 
         strong {
@@ -24,13 +24,13 @@
 }
 
 // Group header
-.resultsGroup_b221b0 {
-    .header__00739 {
+.resultsGroup_b0286e {
+    .header_b0286e {
         color: $cream;
     }
 
-    .searchLearnMore__17e18,
-    .searchClearHistory__7fe75 {
+    .searchLearnMore_b0286e,
+    .searchClearHistory_b0286e {
         &,
         &:hover {
             color: $cream;
@@ -39,22 +39,22 @@
 }
 
 // Search option
-.searchOption__3c857 {
-    .filter__851fb {
+.searchOption_b0286e {
+    .filter_b0286e {
         color: $red;
     }
-    .answer__9ff92 {
+    .answer_b0286e {
         color: $cream;
     }
 }
 
 // History / options
-.option__91497 {
+.option_b0286e {
     &:hover,
     &[aria-selected="true"] {
         background: unset;
 
-        .plusIcon__3ff01 {
+        .plusIcon_b0286e {
             color: $cream;
         }
     }
@@ -66,23 +66,23 @@
 
     &,
     &:hover {
-        :is(.nonText_fbd88d, .answer__9ff92, .filter__851fb, strong) {
+        :is(.nonText_b0286e, .answer_b0286e, .filter_b0286e, strong) {
             color: $cream;
         }
     }
 
     // From user
-    &.user__97b4c .displayedNick_ee206c {
+    &.user_b0286e .displayedNick_b0286e {
         color: $cream;
         font-family: var(--font-display);
         margin-top: -6px;
     }
-    &.user__97b4c .displayUsername__41697 {
+    &.user_b0286e .displayUsername_b0286e {
         color: $red;
     }
 }
 
-.resultsGroup_b221b0::before {
+.resultsGroup_b0286e::before {
     display: none;
 }
 
@@ -172,17 +172,17 @@
 }
 
 // Footer
-.datePicker_df63a7 .datePickerHint_d023b6 {
+.datePicker_b0286e .datePickerHint_b0286e {
     background: $red;
     margin: 0;
     padding: 20px;
     border-top: 0;
 
-    .hint__460f1 {
+    .hint_b0286e {
         color: $cream;
     }
 
-    .hintValue__0c960 {
+    .hintValue_b0286e {
         border-radius: $size-max;
 
         &,
@@ -196,13 +196,13 @@
 /* search modifiers, eg. has: from: */
 #{$root} {
     // Search modifiers
-    .searchFilter_dbda51 {
+    .searchFilter_b0fa94 {
         background: $cream;
         color: $black;
         border-radius: $size-max 0 0 $size-max;
         padding: 0 3px 0 6px;
     }
-    .searchAnswer__2ccaf {
+    .searchAnswer_b0fa94 {
         background: $red;
         color: $black;
         border-radius: 0 $size-max $size-max 0;
@@ -210,8 +210,8 @@
     }
 
     // In channel
-    .searchResultChannelCategory__3c246,
-    .searchResultChannelIcon__80f46 {
+    .searchResultChannelCategory_b0286e,
+    .searchResultChannelIcon_b0286e {
         color: $cream;
     }
 }

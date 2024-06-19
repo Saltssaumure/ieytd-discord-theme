@@ -1,19 +1,19 @@
 @use "../../../top/vars" as *;
 
-.uploader__9af74 {
+.uploader_dc1809 {
     box-shadow: none;
 }
 
-.emojiUploadUploadRequirementsList__51c84 {
+.emojiUploadUploadRequirementsList_dc1809 {
     color: $cream;
 }
 
 #{$root} {
-    .emojiRow_db53d4 {
+    .emojiRow_dc1809 {
         box-shadow: none;
     }
 
-    .emojiAliasPlaceholder_ecea45 {
+    .emojiAliasPlaceholder_dc1809 {
         &::before,
         &::after {
             color: $cream;
@@ -21,7 +21,7 @@
         }
     }
 
-    .emojiAliasPlaceholderContent_e3b4e8 {
+    .emojiAliasPlaceholderContent_dc1809 {
         color: $cream;
     }
 }
