@@ -149,7 +149,7 @@
 
 // Inverted when connected or selected
 :is(.modeConnected_d8bfb3, .modeSelected_d8bfb3),
-:has(.modeConnected_d8bfb3, .modeSelected_d8bfb3) {
+.containerDefault_f6f816:has(.modeConnected_d8bfb3, .modeSelected_d8bfb3) {
     &,
     &:hover {
         + .list_a478e5 {
