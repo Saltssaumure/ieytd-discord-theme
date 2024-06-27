@@ -50,6 +50,7 @@ $invertible: ":is(.name_d8bfb3, .icon_d8bfb3, .overflow_c74e70, :is(.iconItem_f6
 // Names and icons
 #{$invertible} {
     color: $cream;
+    --interactive-normal: #{$cream};
 }
 
 // Channel icon
@@ -62,6 +63,7 @@ $invertible: ":is(.name_d8bfb3, .icon_d8bfb3, .overflow_c74e70, :is(.iconItem_f6
 .modeMuted_d8bfb3:hover {
     #{$invertible} {
         color: $red;
+        --interactive-normal: #{$red};
     }
 }
 
@@ -70,6 +72,7 @@ $invertible: ":is(.name_d8bfb3, .icon_d8bfb3, .overflow_c74e70, :is(.iconItem_f6
 .modeUnreadImportant_d8bfb3:hover {
     #{$invertible} {
         color: $cream;
+        --interactive-normal: #{$cream};
     }
 }
 
@@ -85,6 +88,7 @@ $invertible: ":is(.name_d8bfb3, .icon_d8bfb3, .overflow_c74e70, :is(.iconItem_f6
     &:hover {
         #{$invertible} {
             color: $black;
+            --interactive-normal: #{$black};
         }
     }
 }
