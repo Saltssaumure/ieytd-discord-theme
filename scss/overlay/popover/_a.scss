@@ -1,28 +1,3 @@
-@forward "./activities";
-@forward "./activitystatus";
-@forward "./addgame";
-@forward "./channeldetail";
-@forward "./connectionstats";
-@forward "./emojiinfo";
-@forward "./emojipicker";
-@forward "./emojivc";
-@forward "./forumtags";
-@forward "./inbox";
-@forward "./languageselector";
-@forward "./loading";
-@forward "./memberfilter";
-@forward "./menu";
-@forward "./noisesuppression";
-@forward "./pinned";
-@forward "./postguidelines";
-@forward "./search";
-@forward "./selectfriends";
-@forward "./soundpicker";
-@forward "./statusedit";
-@forward "./threads";
-@forward "./voice";
-@forward "./watchstream";
-
 @use "../../top/vars" as *;
 @use "../../top/card";
 @use "../../top/filter";

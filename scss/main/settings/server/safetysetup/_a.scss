@@ -1,9 +1,3 @@
-@forward "./automod";
-@forward "./dmspamprotection";
-@forward "./mainview";
-@forward "./permissions";
-@forward "./raidprotection";
-
 @use "../../../../top/vars" as *;
 @use "../../../../top/filter";
 @use "../../../../top/card";

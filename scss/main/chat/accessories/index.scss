@@ -1,6 +1,7 @@
-@forward "./embed";
 @forward "./publish";
 @forward "./reacts";
 @forward "./reply";
 @forward "./spoiler";
 @forward "./thread";
+
+@forward "./embed/";
