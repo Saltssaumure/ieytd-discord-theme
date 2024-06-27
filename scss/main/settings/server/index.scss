@@ -8,11 +8,8 @@
 @forward "./integrations";
 @forward "./invites";
 @forward "./members";
-@forward "./onboarding";
 @forward "./overview";
 @forward "./partnerprogramme";
-@forward "./roles";
-@forward "./safetysetup";
 @forward "./servertemplate";
 @forward "./soundboard";
 @forward "./stickers";
@@ -20,3 +17,7 @@
 @forward "./template";
 @forward "./welcomescreen";
 @forward "./widget";
+
+@forward "./onboarding/";
+@forward "./roles/";
+@forward "./safetysetup/";

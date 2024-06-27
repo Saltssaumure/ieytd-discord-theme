@@ -1,14 +1,9 @@
-@forward "./featured";
-@forward "./search";
-@forward "./studenthub";
-@forward "./studenthubs";
-
 @use "../../top/vars" as *;
 @use "../../top/card";
 @use "../../top/filter";
 @use "../../top/status";
 
-// Explore discoverable servers#
+// Explore discoverable servers
 
 // Sidebar
 .sidebar_a4d4d9 {

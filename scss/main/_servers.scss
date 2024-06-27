@@ -11,9 +11,10 @@
         mask: none;
     }
 
-    .wrapper__8436d,
+    .wrapper_f90abb,
     .folder_bc7085,
-    .circleIconButton_db6521 {
+    .circleIconButton_db6521,
+    .icon_f90abb {
         border-radius: $size-max;
         overflow: hidden;
     }
@@ -49,14 +50,14 @@
         }
     }
 
-    .wrapper__8436d:not(.wrapper_bc7085 .wrapper__8436d) {
+    .wrapper_f90abb:not(.wrapper_bc7085 .wrapper_f90abb) {
         border: $size-s solid $black;
         box-sizing: border-box;
     }
 
     // DM icon
-    :is(.wrapper__8436d, .wrapper__8436d.selected_ae80f7, .wrapper__8436d:hover) {
-        .childWrapper_a6ce15 {
+    :is(.wrapper_f90abb, .wrapper_f90abb.selected_ae80f7, .wrapper_f90abb:hover) {
+        .childWrapper_f90abb {
             background: $red;
             color: $cream;
         }
